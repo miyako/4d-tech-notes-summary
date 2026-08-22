@@ -1,0 +1,1 @@
+Tech Note: 4D Ajax Framework JavaScript Injection (TN 07-37, 4D Web 2.0 Pack v1.2, September 2007) — explains how to have a 4DAF Developer Defined Window (DDW) method return JavaScript that is either manually parsed and eval'd in a custom HTML page, or automatically executed by the 4DAF Client itself as of version 1.2.

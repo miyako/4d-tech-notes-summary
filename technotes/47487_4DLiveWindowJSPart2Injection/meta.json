@@ -1,0 +1,30 @@
+{
+  "asset_id": 47487,
+  "title": "Tech Note: 4D Live Window JavaScript Part 2 \u2013 Injection",
+  "technote_number": "07-36",
+  "year": 2007,
+  "published_date": "September 11, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47487",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_35-38_(SEP)/07-36_4DLW_JavaScript_Inject.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Live Window (4DLW) plug-in",
+    "4D Web 2.0 Pack",
+    "Web_JavaScriptExecute command",
+    "JavaScript injection",
+    "Firebug (Firefox extension)"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates using the 4D Live Window plug-in's Web_JavaScriptExecute command to inject arbitrary JavaScript into locally or remotely loaded web pages displayed inside a 4D database window, a technique explicitly limited to Windows because Mac OS's WebKit-based browser layer was too unstable for the feature at the time. The 4D Live Window plug-in and 4D Web 2.0 Pack have long been discontinued, and the practice of scraping/reskinning third-party pages (like the 4D Knowledgebase) via injected script raises concerns that were already flagged in the note itself regarding third-party API licensing. The core technique — embedding a native browser control and manipulating its DOM/CSS via injected script — is conceptually similar to later embedded-webview approaches, but the specific plug-in, commands, and workflow described are entirely obsolete today.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Live Window and the 4D Web 2.0 Pack were discontinued and are not part of any current 4D product",
+      "Modern embedded web content in desktop/mobile apps typically uses standard OS webview components rather than a 4D-specific plug-in",
+      "Firebug itself was discontinued years ago in favor of built-in browser developer tools"
+    ]
+  }
+}

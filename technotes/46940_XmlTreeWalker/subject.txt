@@ -1,0 +1,1 @@
+Tech Note: Reading XML Made Easy with the XmlTreeWalker (TN 07-27, 4D v2004, July 2007) — explains the callback-based XmlTreeWalker routines from the XML Tools component that flatten DOM tree navigation into simple per-node handler code.

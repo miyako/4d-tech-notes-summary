@@ -1,0 +1,29 @@
+{
+  "asset_id": 46886,
+  "title": "Tech Note: Inside the XMLTreeList System",
+  "technote_number": "07-26",
+  "year": 2007,
+  "published_date": "July 6, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=46886",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_26-29_(JUL)/07-26_XML_Tree_List.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "XML Tools component",
+    "XmlTreeList routines",
+    "4D hierarchical lists",
+    "DOM Parse XML"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the XmlTreeList routines that mirror a DOM XML tree onto a 4D hierarchical list interface object for display, using internal ID-matching arrays to keep the list and the underlying DOM tree in sync without duplicating all the XML data. The general technique of pairing a lightweight display structure with a reference-based lookup back to the source data is still a valid UI pattern, but 4D's classic hierarchical list widget and the 2004-era XML Tools component itself are legacy technology, long since surpassed by modern list/tree UI components and JSON-based data structures in current 4D and web development. It predates 4D v11's SQL engine, Project Mode, and ORDA.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has continued to enhance native list-box and tree-display UI objects well beyond the classic hierarchical list used here",
+      "JSON has largely replaced XML for data interchange in modern 4D applications, reducing reliance on this kind of XML-to-UI mapping code",
+      "The standalone XML Tools component is not part of any current, actively distributed 4D toolkit"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: 4D Live Window JavaScript Part 2 – Injection (TN 07-36, 4D Web 2.0 Pack v1.1, September 2007) — a Windows-only guide to using the 4D Live Window plug-in's Web_JavaScriptExecute command to inject and run arbitrary JavaScript inside locally-loaded and live web pages embedded in a 4D database window.

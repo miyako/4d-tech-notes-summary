@@ -1,0 +1,1 @@
+Tech Note: Inside the XMLTreeList System (TN 07-26, 4D v2004, July 2007) — explains how the XML Tools component's XmlTreeList routines map a DOM XML tree onto a 4D hierarchical list for interactive display.
