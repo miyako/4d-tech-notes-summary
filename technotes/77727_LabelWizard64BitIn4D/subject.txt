@@ -1,0 +1,1 @@
+Label Wizard 64-bit in 4D (TN 17-04, 4D v16, February 2017) — tours the redesigned 64-bit Label Wizard's UI, backward compatibility with .4lb files, and new programmatic/offscreen label generation via JSON and 4D DOM.

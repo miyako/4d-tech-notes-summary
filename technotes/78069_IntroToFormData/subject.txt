@@ -1,0 +1,1 @@
+Tech Note: Introduction to Form Data (TN 18-10, 4D v17, June 2018) — explains the new v17 FORM command and formData C_Object mechanism for binding per-instance data directly to dialog forms and subforms.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 77659,
+  "title": "Tech Note: Camera Security Surveillance System in 4D",
+  "technote_number": "16-16",
+  "year": 2016,
+  "published_date": "2016-10-19",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=77659",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-16_CameraSurveillanceIn4D.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Camera/IP surveillance integration",
+    "4D picture variables / live video display (inferred)"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser abstract is available for this note, so specifics are unconfirmed; given the era (pre-ORDA, 4D v15.x) and the fast pace of IP-camera protocol and codec change (RTSP/ONVIF/H.264-H.265 evolution, deprecation of ActiveX/QuickTime-style embedding), any concrete camera-integration code from 2016 is very likely obsolete or at minimum heavily outdated today.",
+    "status": "obsolete",
+    "related_updates": [
+      "Only the teaser abstract is available for this note, so specifics are unconfirmed; given the era (pre-ORDA, 4D v15.x) and the fast pace of IP-camera protocol and codec change (RTSP/ONVIF/H.264-H.265 evolution, deprecation of ActiveX/QuickTime-style embedding), any concrete camera-integration code from 2016 is very likely obsolete or at minimum heavily outdated today."
+    ]
+  }
+}

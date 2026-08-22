@@ -1,0 +1,1 @@
+[3rd Party Tech Note] A Practical Approach To Record Locking and Data Entry (TN 14-13, 4D v14.0, August 1, 2014) — a third-party-contributed comparison of pessimistic and optimistic record locking strategies, proposing a practical hybrid approach to improve data-entry UX in 4D's default pessimistic-locking model.

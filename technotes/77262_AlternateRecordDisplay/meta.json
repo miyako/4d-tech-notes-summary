@@ -1,0 +1,30 @@
+{
+  "asset_id": 77262,
+  "title": "An Alternate Technique to Display Records",
+  "technote_number": "15-06",
+  "year": 2015,
+  "published_date": "March 18, 2015",
+  "product": "4D",
+  "version": "14 R4",
+  "platform": "Mac & Win",
+  "author": "Tai BUI, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77262",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-06_AlternativeRecDisplay.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "List Box",
+    "Tab Control",
+    "4D Objects (C_OBJECT/ARRAY OBJECT)",
+    "OB Get/OB SET",
+    "Object arrays"
+  ],
+  "historical_commentary": {
+    "text": "This pattern of hand-rolling a record container out of classic 4D Objects and array-of-objects to avoid Input-form locking predates both ORDA entity selections and the modern class-based object model; the same non-locking, multi-record-tab UX is far more naturally built today with ORDA entities (which are inherently lock-free until .save()) and 4D's native list box + form binding.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "ORDA entity selections and optimistic entity locking (v16 R5+)",
+      "4D classes (v17 R6+) for structured record containers instead of ad-hoc object arrays",
+      "List box collection/entity selection data sources"
+    ]
+  }
+}

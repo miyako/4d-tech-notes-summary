@@ -1,0 +1,1 @@
+Pivot Tables and Pivot Charts in 4D (TN 16-20, 4D v16, November 2016) — introduces 4D v16 64-bit's native pivot table and pivot chart objects for end-user-driven data summarization and visualization.

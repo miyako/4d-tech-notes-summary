@@ -1,0 +1,1 @@
+Tech Note: Deploying 4D Server 64-bit for Mac (TN 15-24, 4D Server v15.1, December 2015) — a deployment guide covering minimum OS X version, 64-bit compilation/compatibility, the new ServerNet network layer, and encrypted client-server connections for the newly certified 64-bit 4D Server on Mac.

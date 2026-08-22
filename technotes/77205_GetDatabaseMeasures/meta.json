@@ -1,0 +1,26 @@
+{
+  "asset_id": 77205,
+  "title": "GET DATABASE MEASURES",
+  "technote_number": "15-02",
+  "year": 2015,
+  "published_date": "January 12, 2015",
+  "product": "4D",
+  "version": "14 R5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=77205",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-02_GetDatabaseMeasures_2.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "`GET DATABASE MEASURES` command",
+    "4D engine internal performance counters (memory, disk I/O, queries, sorts)"
+  ],
+  "historical_commentary": {
+    "text": "GET DATABASE MEASURES exposes low-level 4D engine performance counters; it's a stable, still-supported diagnostic command, though modern 4D developers increasingly reach for the newer, higher-level SQL/ORDA-aware performance tooling and 4D's improved built-in monitoring rather than parsing this command's raw output by hand.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's newer built-in performance/monitoring tools in later versions supplement this low-level command",
+      "Only the teaser/abstract text was recoverable for this note; full command-by-command detail is not available here"
+    ]
+  }
+}

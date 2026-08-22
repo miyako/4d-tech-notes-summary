@@ -1,0 +1,20 @@
+{
+  "asset_id": 77931,
+  "title": "Tech Note: Elevated Privileges on macOS using sudo",
+  "technote_number": "18-02",
+  "year": 2018,
+  "published_date": "January 18, 2018",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac OS X",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77931",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-02_ElevatePrivileges.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["/etc/sudoers", "sudo", "LAUNCH EXTERNAL PROCESS", "macOS command-line integration"],
+  "historical_commentary": {
+    "text": "This note is about a standard Unix/macOS administration technique (configuring /etc/sudoers for passwordless privilege elevation) rather than a 4D-specific feature, so the underlying concept remains accurate today, though Apple's security hardening (SIP, notarization, Gatekeeper) has tightened around what elevated commands can actually accomplish on modern macOS versions since 2018. The 4D-side mechanism for invoking shell commands from 4D code is still valid.",
+    "status": "still_relevant",
+    "related_updates": ["/etc/sudoers configuration technique is unchanged as a general macOS/Unix mechanism", "macOS has added further security restrictions (SIP, notarization) since 2018 that may limit what elevated commands can do even with passwordless sudo", "4D's external process/shell command invocation commands remain in the language"]
+  }
+}

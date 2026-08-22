@@ -1,0 +1,1 @@
+Tech Note: Kiosk Mode on Windows 10 (TN 18-04, 4D v16, March 2018) — walks through using Windows Configuration Designer to lock down a Windows 10 machine into kiosk mode running a 4D application.

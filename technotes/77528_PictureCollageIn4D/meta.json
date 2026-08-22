@@ -1,0 +1,28 @@
+{
+  "asset_id": 77528,
+  "title": "Tech Note: Picture Collage in 4D",
+  "technote_number": "16-05",
+  "year": 2016,
+  "published_date": "May 12, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77528",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-05_PictureCollageIn4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Subforms (classic Design Mode)",
+    "JSON for component configuration",
+    "Dynamic form-object duplication",
+    "Variable and round rectangle form objects"
+  ],
+  "historical_commentary": {
+    "text": "This component reflects the pre-web-UI era of 4D form design, where achieving a modern grid/collage layout required manually duplicating and positioning form objects rather than using CSS grid/flexbox. Contemporary 4D development would almost certainly implement this via a web area (HTML/CSS/JS) or a fully web-based front end, which handles responsive grid layouts natively and with far less custom code; the classic-form technique shown here is largely of historical interest.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Web Area with CSS grid/flexbox for responsive picture galleries",
+      "Qodly Studio / web-based front ends for modern gallery UI"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+A Modular Approach to Building a User Interface (TN 14-20, 4D v14 R4, December 29, 2014) — an argument for and worked example of composing a Tabbed Document Interface out of independent per-page forms combined via subforms, instead of one large multi-page form.

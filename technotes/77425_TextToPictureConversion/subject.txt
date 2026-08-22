@@ -1,0 +1,1 @@
+Tech Note: Text to Picture Conversion (TN 15-23, 4D v14.x, December 2015) — modernizes a classic (year-2000) QuickDraw/PICT-based Text2Pict method to use SVG commands instead, while also introducing passing parameters via a 4D Object rather than long positional parameter lists.

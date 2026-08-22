@@ -1,0 +1,26 @@
+{
+  "asset_id": 77677,
+  "title": "Tech Note: Pivot Tables and Pivot Charts in 4D",
+  "technote_number": "16-20",
+  "year": 2016,
+  "published_date": "2016-11-08",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77677",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-20_PivotTablesAndCharts.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v16 64-bit pivot table/chart engine",
+    "Pivot Table/Chart design editor",
+    "4D forms for end-user pivot configuration"
+  ],
+  "historical_commentary": {
+    "text": "4D's native pivot table and pivot chart objects introduced around v16 remain part of the product line and continue to be usable; later 4D versions have refined listbox/chart capabilities further, and equivalent business-intelligence-style reporting can also now be built with 4D Write Pro or exported data fed into external BI tools.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's native pivot table and pivot chart objects introduced around v16 remain part of the product line and continue to be usable; later 4D versions have refined listbox/chart capabilities further, and equivalent business-intelligence-style reporting can also now be built with 4D Write Pro or exported data fed into external BI tools."
+    ]
+  }
+}

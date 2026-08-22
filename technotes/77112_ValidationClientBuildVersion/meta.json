@@ -1,0 +1,26 @@
+{
+  "asset_id": 77112,
+  "title": "Validation of Client Build Version",
+  "technote_number": "14-12",
+  "year": 2014,
+  "published_date": "July 24, 2014",
+  "product": "4D Server",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Tai BUI, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77112",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-12_ValidationOfClientBuilds.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D version/build numbering scheme",
+    "4D Server/Client connection mismatch handling",
+    "Build-number validation and preemptive client quit technique"
+  ],
+  "historical_commentary": {
+    "text": "The underlying concern \u2014 mismatched 4D Client/Server builds of the same version causing subtle errors, since 4D doesn't strongly enforce build-level matching \u2014 is a real, still-applicable operational risk in classic 4D Client/Server deployments; the specific validation technique remains usable, though it is a narrower concern for solutions that have moved away from mixed on-prem Client/Server topologies toward web/ORDA-based clients.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Applies primarily to classic 4D Client/Server (4D Remote) deployments; less directly relevant to REST/ORDA/web-client architectures where client 'build' is a browser or app version rather than a 4D Client build"
+    ]
+  }
+}

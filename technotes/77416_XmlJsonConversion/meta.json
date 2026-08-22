@@ -1,0 +1,26 @@
+{
+  "asset_id": 77416,
+  "title": "Tech Note: Conversion between XML and JSON",
+  "technote_number": "15-21",
+  "year": 2015,
+  "published_date": "November 17, 2015",
+  "product": "4D",
+  "version": "17 (originally 15, revised May 22, 2019)",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77416",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-21_XMLandJSONConversion_R2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "JSON STRINGIFY / JSON PARSE",
+    "DOM PARSE XML SOURCE / DOM PARSE XML VARIABLE",
+    "DOM GET XML ELEMENT NAME / VALUE",
+    "OB SET / OB SET ARRAY",
+    "DOM CREATE XML REF, DOM EXPORT TO FILE/VAR"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a purely code-driven, recursive XML<->JSON conversion built on the classic DOM XML theme and early 4D object commands (OB SET/OB GET), predating ORDA's native JSON handling and modern .toJSON()/JSON parsing conveniences. The underlying manual recursion pattern is now largely unnecessary since 4D added richer built-in object/collection support and simpler parsing, though the DOM XML commands themselves still exist for backward compatibility.",
+    "status": "partially_superseded",
+    "related_updates": ["Native 4D object/collection classes and simplified JSON commands (v16+)", "ORDA (from v16 R5/R6, 2017) reduced the need for manual object-tree construction", "DOM XML theme commands remain supported but XML use has declined in favor of JSON-first APIs"]
+  }
+}

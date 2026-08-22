@@ -1,0 +1,20 @@
+{
+  "asset_id": 77977,
+  "title": "Tech Note: Reporting Frontmost Status Tool with 4D",
+  "technote_number": "18-05",
+  "year": 2018,
+  "published_date": "March 27, 2018",
+  "product": "4D",
+  "version": "16R6",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77977",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-05_ReportingFrontMostStatusTool.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Storage object", "Workers / CALL Worker", "Preemptive processing", "CALL FORM", "Platform-specific frontmost detection (Mac/Windows)"],
+  "historical_commentary": {
+    "text": "The Storage object, Workers, and preemptive processing described here (all introduced/expanded around v16R6) remain current, actively used 4D concepts today, so the architecture of this activity-tracking tool is still valid and reusable. Only the platform-specific low-level frontmost-detection code (calling into Mac/Windows APIs) may need periodic revalidation as OS versions change, which is a normal maintenance concern rather than an obsolescence issue.",
+    "status": "still_relevant",
+    "related_updates": ["Storage object and Workers remain core 4D concepts", "Preemptive process model continues to be used and refined in later 4D versions", "OS-level frontmost-window detection code may require updates for newer macOS/Windows versions"]
+  }
+}

@@ -1,0 +1,1 @@
+Breadcrumbs in 4D (TN 15-03, 4D v14 R5, February 9, 2015) — a reusable technique for adding breadcrumb navigation to a 4D form using a shared subform driven by two arrays and the new (at the time) 4DEVAL transformation tag.

@@ -1,0 +1,1 @@
+Tech Note: Picture Collage in 4D (TN 16-05, 4D v15.x, May 2016) — a subform-based component that arranges and displays multiple images in a collage layout inside classic 4D forms, inspired by social-media-style photo grids.

@@ -1,0 +1,20 @@
+{
+  "asset_id": 77989,
+  "title": "Tech Note: 4D Mobile Generate PDF From HTML",
+  "technote_number": "18-06",
+  "year": 2018,
+  "published_date": "April 24, 2018",
+  "product": "4D Mobile",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=77989",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-06_4DMobilePDFfromHTML.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Mobile", "Wakanda Enterprise", "Wakanda Print service", "REST API", "4D Web Server"],
+  "historical_commentary": {
+    "text": "4D Mobile was built entirely on Wakanda Enterprise (a separate JavaScript/Node.js-based server product), and both 4D Mobile and Wakanda have since been fully discontinued by 4D, making this note's core technology obsolete and non-reproducible with current 4D releases. The generic idea of generating PDFs from HTML server-side via a print/REST service is still a valid pattern, but must now be achieved with entirely different tools (e.g., headless browser PDF services, or 4D's own newer print/report facilities) rather than Wakanda.",
+    "status": "obsolete",
+    "related_updates": ["4D Mobile discontinued; superseded by ORDA/REST-based responsive web apps and later Qodly", "Wakanda Enterprise discontinued as a product entirely", "PDF-from-HTML generation now typically done via headless browser tooling or other services, not Wakanda's print service"]
+  }
+}

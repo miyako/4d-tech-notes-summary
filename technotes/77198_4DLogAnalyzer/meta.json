@@ -1,0 +1,27 @@
+{
+  "asset_id": 77198,
+  "title": "4D Log Analyzer v1.0 Preview",
+  "technote_number": "14-19",
+  "year": 2014,
+  "published_date": "December 29, 2014",
+  "product": "4D",
+  "version": "14 R4",
+  "platform": "Mac & Win",
+  "author": "Vanessa Talbot, 4D Program Team Member, 4D SAS",
+  "page_url": "https://kb.4d.com/assetid=77198",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-19_4DLogAnalyzer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D debug/request log format (v14+)",
+    "SET DATABASE PARAMETER(34, ...)",
+    "4D Log Analyzer tool (projects, activity/top-ten/operations views)"
+  ],
+  "historical_commentary": {
+    "text": "The v14 tabbed debug-log format and this companion Log Analyzer tool were useful early performance-analysis aids; 4D has since continued to refine its logging and diagnostics story (including newer built-in analysis features), so while the underlying log-enabling mechanism still works, this specific standalone preview tool is dated and largely superseded by more current tooling.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Later/updated 4D log analysis tooling and built-in diagnostics in more recent 4D versions",
+      "4D Server Administration window's logging controls remain the standard way to enable logs; parsing/analysis tooling has evolved since this v1.0 preview"
+    ]
+  }
+}

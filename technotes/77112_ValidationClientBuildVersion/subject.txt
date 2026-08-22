@@ -1,0 +1,1 @@
+Validation of Client Build Version (TN 14-12, 4D v14.0, July 24, 2014) — a technique for explicitly validating that connecting 4D Client build numbers match the 4D Server build, and preemptively quitting the client on mismatch, since 4D doesn't strongly enforce this at the build (as opposed to version) level.

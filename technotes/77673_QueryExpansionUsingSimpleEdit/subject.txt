@@ -1,0 +1,1 @@
+Query Expansion using Simple Edit (TN 16-19, 4D v15.x, October 2016) — implements Peter Norvig's simple-edit-distance spell-checking algorithm in 4D to expand search queries with similar/misspelled word candidates.

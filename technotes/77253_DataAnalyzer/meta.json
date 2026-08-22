@@ -1,0 +1,30 @@
+{
+  "asset_id": 77253,
+  "title": "DataAnalyzer V1.0",
+  "technote_number": "15-05",
+  "year": 2015,
+  "published_date": "March 9, 2015",
+  "product": "4D",
+  "version": "14.3",
+  "platform": "Mac & Win",
+  "author": "Jean-Pierre Ribreau (JPR) \u2013 4D Trainer and Consultant",
+  "page_url": "https://kb.4d.com/assetid=77253",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-05_DataAnalyzerV1R2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "DB4D low-level file format (.4DD/.waData)",
+    "Block Allocation Table",
+    "Record/BLOB Address Tables",
+    "Hex viewer",
+    "Data-file integrity diagnostics"
+  ],
+  "historical_commentary": {
+    "text": "DataAnalyzer documents the internal binary layout of the classic DB4D data engine (128-byte blocks, address-table trees, block headers) used by both 4D and the now-defunct Wakanda product; this deep byte-level knowledge is now a niche/legacy diagnostic skill since Wakanda was discontinued and 4D's storage internals have continued to evolve, though the general debugging philosophy (inspecting raw data files when corruption is suspected) remains valid.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's built-in Verify/Repair and newer data-file diagnostic tooling in later 4D versions",
+      "Wakanda product discontinued, removing half of this note's stated audience",
+      "4D Server administration tools now expose higher-level integrity/health reporting than manual hex inspection"
+    ]
+  }
+}

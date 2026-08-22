@@ -1,0 +1,1 @@
+Tech Note: CodeTracker Component (TN 16-07, 4D v15.x, June 2016) — a documentation/versioning helper component that exports all project method source code, tracks history, and diffs changes over time for solo developers or teams without a full source-control setup.

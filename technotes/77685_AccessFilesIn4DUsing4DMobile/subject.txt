@@ -1,0 +1,1 @@
+Access Files in 4D using 4D Mobile (TN 16-21, 4D Mobile v15.3, November 2016) — explains the Wakanda File/BLOB API used to expose and convert 4D-stored files and disk documents for 4D Mobile web clients.

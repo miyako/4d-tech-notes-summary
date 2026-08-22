@@ -1,0 +1,1 @@
+Authenticate 4D Mobile Users in 4D and Wakanda (TN 15-04, 4D v14 R5, February 9, 2015) — a walkthrough of the four ways to authenticate users of the original Wakanda-based 4D Mobile, using 4D passwords, custom database methods, or the Wakanda Directory/Login Listener.

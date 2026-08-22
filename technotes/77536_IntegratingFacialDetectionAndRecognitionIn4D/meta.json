@@ -1,0 +1,29 @@
+{
+  "asset_id": 77536,
+  "title": "Tech Note: Integrating Facial Detection and Recognition in 4D - Revised",
+  "technote_number": "16-06",
+  "year": 2016,
+  "published_date": "May 26, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77536",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-06_FacialRecognition_R1.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Python",
+    "OpenCV (Haar Cascade classifiers, LBPH FaceRecognizer)",
+    "4D-to-Python interoperability bridge",
+    "Computer vision / machine learning basics"
+  ],
+  "historical_commentary": {
+    "text": "Haar Cascade detection and LBPH recognition were reasonably capable techniques in 2016 but are now considered legacy computer-vision approaches: modern face detection/recognition overwhelmingly uses deep-learning models (e.g., OpenCV's DNN module, dlib, or dedicated services), which are substantially more accurate, especially across lighting, angle, and demographic variation. The general pattern of calling out to Python from 4D for specialized libraries remains valid and is even easier today, but the specific OpenCV APIs shown are dated and the accuracy/reliability bar has moved significantly.",
+    "status": "deprecated",
+    "related_updates": [
+      "OpenCV DNN-based face detectors (e.g., SSD/ResNet models) replacing Haar Cascades",
+      "dlib/face_recognition Python libraries offering modern embedding-based face recognition",
+      "4D's evolved external/Python interoperability options in more recent versions"
+    ]
+  }
+}

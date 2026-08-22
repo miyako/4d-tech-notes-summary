@@ -1,0 +1,26 @@
+{
+  "asset_id": 77204,
+  "title": "Camera Interface - Revised",
+  "technote_number": "15-01",
+  "year": 2015,
+  "published_date": "January 12, 2015",
+  "product": "4D",
+  "version": "14.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=77204",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-01_CameraInterfaceR1.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Third-party camera/webcam integration",
+    "Live video capture in a 4D form"
+  ],
+  "historical_commentary": {
+    "text": "Integrating a live camera feed into a classic 4D form via a third-party capture component was a bespoke, plugin-dependent technique in this era; later 4D versions (v18+) added native webcam/media capture support, making this specific third-party integration approach outdated.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Native webcam/camera capture support added in later 4D versions (v18+)",
+      "Only the KB teaser text was recoverable for this note; full implementation detail is unavailable"
+    ]
+  }
+}

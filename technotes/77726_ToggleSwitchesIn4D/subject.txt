@@ -1,0 +1,1 @@
+Toggle Switches in 4D (TN 17-03, 4D v16, February 2017) — demonstrates building a draggable/clickable iOS-style toggle switch using v16's new On Mouse Up event and Is waiting mouse up command with picture objects.

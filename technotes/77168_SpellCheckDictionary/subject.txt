@@ -1,0 +1,1 @@
+Working With the Spell Check System and Dictionary in 4Dv14 (TN 14-16, 4D v14.0, November 3, 2014) — an explanation of 4D v14's switch to the Hunspell spell-check dictionary (from Cordial), covering passive/active spell check usage, Mac OS X native integration, and how to locate/customize main, custom, and user dictionaries.

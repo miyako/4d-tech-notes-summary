@@ -1,0 +1,28 @@
+{
+  "asset_id": 77708,
+  "title": "Tech Note: ACME Client Component for 4D - Part II",
+  "technote_number": "17-01",
+  "year": 2017,
+  "published_date": "2017-01-19",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77708",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-01_ACMEClientComp_Part2_R2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ACME protocol",
+    "Let's Encrypt",
+    "4D-ACME-Client component",
+    "4D v16 Preemptive Web Server",
+    "Base64 URL-safe encoding"
+  ],
+  "historical_commentary": {
+    "text": "4D added first-class built-in support for Let's Encrypt / automatic TLS certificate management in later 4D versions (via the 4D Server admin settings), making this hand-rolled ACME component largely unnecessary today; the underlying ACME protocol concepts remain valid, but developers would use native 4D certificate features or standard reverse-proxy/Let's Encrypt tooling (e.g., Caddy, certbot) instead.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D added first-class built-in support for Let's Encrypt / automatic TLS certificate management in later 4D versions (via the 4D Server admin settings), making this hand-rolled ACME component largely unnecessary today; the underlying ACME protocol concepts remain valid, but developers would use native 4D certificate features or standard reverse-proxy/Let's Encrypt tooling (e.g., Caddy, certbot) instead."
+    ]
+  }
+}

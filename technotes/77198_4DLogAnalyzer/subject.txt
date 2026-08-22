@@ -1,0 +1,1 @@
+4D Log Analyzer v1.0 Preview (TN 14-19, 4D v14 R4, December 29, 2014) — a preview of a visual log-analysis tool for the new (v14) tabbed debug log format, showing how to enable logs and interpret method/command execution timing via Activity, Top Ten, and Operations views.

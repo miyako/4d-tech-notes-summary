@@ -1,0 +1,28 @@
+{
+  "asset_id": 77754,
+  "title": "Tech Note: Format Data For Display in 4D Mobile",
+  "technote_number": "17-05",
+  "year": 2017,
+  "published_date": "2017-03-27",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77754",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-05_4DMobileDisplayFormat.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Mobile",
+    "Wakanda Application Framework (WAF)",
+    "model.<Table>.<Attr>.defaultFormat",
+    "REST/Dataprovider",
+    "4D Mobile Model Editor"
+  ],
+  "historical_commentary": {
+    "text": "4D Mobile (built on the bundled Wakanda server) was discontinued; native mobile app generation from 4D was dropped in favor of building web/mobile front-ends against ORDA-based REST APIs (and later Qodly), so the entire Wakanda-model-editor formatting workflow described here no longer exists in current 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Mobile (built on the bundled Wakanda server) was discontinued; native mobile app generation from 4D was dropped in favor of building web/mobile front-ends against ORDA-based REST APIs (and later Qodly), so the entire Wakanda-model-editor formatting workflow described here no longer exists in current 4D."
+    ]
+  }
+}

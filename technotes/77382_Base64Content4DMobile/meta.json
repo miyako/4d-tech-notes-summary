@@ -1,0 +1,26 @@
+{
+  "asset_id": 77382,
+  "title": "Tech Note: Transmit Base64-Encoded Content in 4D Mobile Method",
+  "technote_number": "15-18",
+  "year": 2015,
+  "published_date": "September 28, 2015",
+  "product": "4D Mobile",
+  "version": "15 (built with 4D v14 R5 and Wakanda Enterprise 10)",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77382",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-18_EncodedContent4DMobileR1.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "BASE64 ENCODE / BASE64 DECODE",
+    "4D Mobile REST API",
+    "Wakanda server-side JavaScript",
+    "btoa()/atob() in-browser JavaScript",
+    "4D Mobile client methods"
+  ],
+  "historical_commentary": {
+    "text": "This note is tied directly to the original 4D Mobile + Wakanda architecture, which 4D has since fully discontinued in favor of ORDA-based REST and Qodly web/mobile app tooling; both the Wakanda server product and native 4D Mobile apps no longer exist in current 4D. The general Base64 encode/decode technique for shuttling binary data through JSON/REST APIs remains valid and is still how binary payloads are handled in modern ORDA REST responses, but the specific client/server code shown is obsolete.",
+    "status": "obsolete",
+    "related_updates": ["4D Mobile (native iOS/Android via Wakanda) fully discontinued", "Wakanda product line discontinued", "ORDA REST APIs and Qodly now used for building modern web/mobile front-ends against 4D data", "Base64 remains the standard technique for binary payloads in REST/JSON generally"]
+  }
+}

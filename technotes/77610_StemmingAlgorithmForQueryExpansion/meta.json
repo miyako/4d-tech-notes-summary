@@ -1,0 +1,28 @@
+{
+  "asset_id": 77610,
+  "title": "Tech Note: Stemming Algorithm for Query Expansion",
+  "technote_number": "16-11",
+  "year": 2016,
+  "published_date": "August 26, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77610",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-11_StemmingAlgorithm.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v15.x component architecture",
+    "Porter 2 / Snowball stemming algorithm",
+    "4D text-processing commands",
+    "Query expansion for search"
+  ],
+  "historical_commentary": {
+    "text": "The Porter 2 stemming algorithm is language theory, not 4D-version-specific technology, so this Tech Note remains technically accurate and directly usable in current 4D versions with only minor syntax modernization (e.g., typed variables vs. C_TEXT declarations). It predates ORDA-based full-text search features, and if this were rewritten today it would likely use collection/ORDA idioms, but the algorithm and component design are unaffected by the 4D Design Mode-to-Project Mode transition.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Modern 4D collection and Regex-based text commands available since v16+",
+      "ORDA/entity selection based querying that could combine with stemmed search terms"
+    ]
+  }
+}

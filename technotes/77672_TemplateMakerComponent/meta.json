@@ -1,0 +1,27 @@
+{
+  "asset_id": 77672,
+  "title": "Tech Note: Template Maker Component",
+  "technote_number": "16-18",
+  "year": 2016,
+  "published_date": "2016-10-31",
+  "product": "4D",
+  "version": "15 R5",
+  "platform": "Mac & Win",
+  "author": "Charlie Vass, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77672",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-18_TemplateMaker.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Transformation Tags (<!--#4DCODE-->)",
+    "TemplateMaker component (4D v15 R4+)",
+    "BASE64-encoded templates",
+    "Macros v2 (4D Method Editor macros)"
+  ],
+  "historical_commentary": {
+    "text": "4D Transformation Tags and the classic project-method/macro-based TemplateMaker approach are specific to Design Mode-era binary databases; while the transformation-tag mechanism itself still exists, this component-and-macro workflow for deploying live templates without redeploying the structure is less relevant in Project Mode-era 4D, where code and templates can be managed and deployed via Git-based CI/CD instead.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Transformation Tags and the classic project-method/macro-based TemplateMaker approach are specific to Design Mode-era binary databases; while the transformation-tag mechanism itself still exists, this component-and-macro workflow for deploying live templates without redeploying the structure is less relevant in Project Mode-era 4D, where code and templates can be managed and deployed via Git-based CI/CD instead."
+    ]
+  }
+}

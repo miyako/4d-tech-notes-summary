@@ -1,0 +1,28 @@
+{
+  "asset_id": 77727,
+  "title": "Tech Note: Label Wizard 64-bit in 4D",
+  "technote_number": "17-04",
+  "year": 2017,
+  "published_date": "2017-02-16",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77727",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-04_LabelWizard64bit.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Label Wizard (64-bit)",
+    ".4lb label files",
+    "4D DOM commands (XML)",
+    "JSON settings file",
+    "offscreen label printing"
+  ],
+  "historical_commentary": {
+    "text": "The 64-bit Label Wizard and its programmatic/JSON-driven label generation remain part of current 4D; this note is a reasonably durable reference, though newer projects increasingly favor 4D Write Pro or custom PDF/print generation for more flexible layouts.",
+    "status": "still_relevant",
+    "related_updates": [
+      "The 64-bit Label Wizard and its programmatic/JSON-driven label generation remain part of current 4D; this note is a reasonably durable reference, though newer projects increasingly favor 4D Write Pro or custom PDF/print generation for more flexible layouts."
+    ]
+  }
+}

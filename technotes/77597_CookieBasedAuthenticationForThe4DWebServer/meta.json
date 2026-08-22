@@ -1,0 +1,30 @@
+{
+  "asset_id": 77597,
+  "title": "Tech Note: Cookie-Based Authentication for the 4D Web Server",
+  "technote_number": "16-10",
+  "year": 2016,
+  "published_date": "August 11, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77597",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-10_CookieBaseWebAuth.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Server",
+    "4D Automatic Session Management",
+    "HTTP cookies",
+    "Ajax",
+    "Bootstrap CSS framework",
+    "Salted password hashing"
+  ],
+  "historical_commentary": {
+    "text": "The session/cookie mechanics and salted-password approach described here are still conceptually valid, but the broader context has shifted: modern 4D web development increasingly uses REST + ORDA with token-based or session-cookie auth patterns wired through 4D's built-in REST authentication, and front ends are more often built with modern JS frameworks than server-rendered Bootstrap pages. Developers today would likely reach for 4D's REST API session/authentication support rather than hand-rolling the entire flow shown here.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D REST server built-in session/token authentication (introduced with ORDA/REST, v16 R5+)",
+      "Qodly Studio and REST-based front ends replacing classic 4D Web Server-rendered pages"
+    ]
+  }
+}

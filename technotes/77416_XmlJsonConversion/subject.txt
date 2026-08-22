@@ -1,0 +1,1 @@
+Conversion between XML and JSON (TN 15-21, 4D v17, November 2015) — shows how to recursively convert between XML documents and 4D objects/JSON using the classic DOM XML commands and OB SET/JSON STRINGIFY.

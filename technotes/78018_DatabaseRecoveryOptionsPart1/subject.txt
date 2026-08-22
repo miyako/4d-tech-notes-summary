@@ -1,0 +1,1 @@
+Tech Note: 4D Database Recovery Options – Part I (TN 18-09, 4D v16, May 2018) — an overview of 4D's Maintenance and Security Center, backup system, restore/rollback, and mirroring features for minimizing downtime after database corruption.

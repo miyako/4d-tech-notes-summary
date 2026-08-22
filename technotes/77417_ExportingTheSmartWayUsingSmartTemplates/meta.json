@@ -1,0 +1,28 @@
+{
+  "asset_id": 77417,
+  "title": "Tech Note: Exporting the Smart Way — Using Smart Templates",
+  "technote_number": "15-22",
+  "year": 2015,
+  "published_date": "November 17, 2015",
+  "product": "4D",
+  "version": "15",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, VP of Strategy – 4D Product Line, 4D Germany (edited by Charlie Vass, 4D Inc.)",
+  "page_url": "https://kb.4d.com/assetid=77417",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-22_ExportTheSmartWay.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v14 R5+ template execution model",
+    "SEND PACKET (classic export baseline)",
+    "HTML/Excel/Word document generation from 4D",
+    "Conditional formatting in generated Excel output"
+  ],
+  "historical_commentary": {
+    "text": "The Smart Templates architecture is a durable, still-valuable idea — decoupling report/export definitions from compiled application code so exports can be updated without a redeploy — and the specific output formats it targets (tab-delimited text, HTML, Excel, Word) are exactly what developers still need to produce. As a 4D-Germany-authored technique rather than a core 4D feature, its practical relevance today depends on whether a project actually adopted this or an equivalent templating approach, but the concept itself is not dated by the classic-to-Project-Mode transition or by ORDA.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Any newer 4D-native or third-party report/export templating tools that may have superseded a from-scratch Smart Templates implementation",
+      "4D's continued native support for generating HTML/Excel/Word-compatible output"
+    ]
+  }
+}

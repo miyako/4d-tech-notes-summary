@@ -1,0 +1,1 @@
+Transmit Base64-Encoded Content in 4D Mobile Method (TN 15-18, 4D Mobile v15, September 2015) — shows how to Base64-encode/decode binary data (images, PDFs) so it can travel through the JSON-based 4D Mobile/Wakanda REST API.

@@ -1,0 +1,1 @@
+Tech Note: Stemming Algorithm for Query Expansion (TN 16-11, 4D v15.x, August 2016) — implements the Porter 2 (Snowball) English stemming algorithm as a 4D component to broaden text-search query results.

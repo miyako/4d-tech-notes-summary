@@ -1,0 +1,1 @@
+Tech Note: 4D Mobile Return Custom Selection (TN 16-08, 4D Mobile on v15.x, June 2016) — extends 4D's native "Mobile Return selection" command to support multiple simultaneous table selections and custom user data returned to 4D Mobile/Wakanda apps.

@@ -1,0 +1,20 @@
+{
+  "asset_id": 78017,
+  "title": "Tech Note: Server Process Activity Component",
+  "technote_number": "18-08",
+  "year": 2018,
+  "published_date": "May 14, 2018",
+  "product": "4D",
+  "version": "16 R4",
+  "platform": "Mac & Win",
+  "author": "Kristopher Merolla, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78017",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-08_ServerProcessActivity.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Get process activity command", "Workers", "Form objects / listboxes", "JSON/TEXT logging", "Graphing (CPU top 5)"],
+  "historical_commentary": {
+    "text": "Get process activity, introduced in 4D v16 R4, is still a supported and useful command for building custom server monitoring dashboards, so the core technique remains valid. The component's specific UI (classic listbox forms) and JSON/text logging approach are dated in style but functionally still workable; 4D's built-in server administration tools have also continued to improve since, somewhat reducing the need for a fully custom monitor.",
+    "status": "still_relevant",
+    "related_updates": ["Get process activity remains part of the 4D language today", "4D Server's built-in monitoring UI and tools have been enhanced in subsequent releases", "Workers and preemptive process concepts introduced around this era remain current"]
+  }
+}

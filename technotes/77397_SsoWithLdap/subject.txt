@@ -1,0 +1,1 @@
+Single Sign On with Lightweight Directory Access Protocol (TN 15-20, 4D v15, October 2015) — introduces 4D v15's new LDAP commands and demonstrates a basic single sign-on implementation that authenticates against an LDAP directory to auto-launch other applications.

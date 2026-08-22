@@ -1,0 +1,1 @@
+Tech Note: Server Process Activity Component (TN 18-08, 4D v16 R4, May 2018) — builds a custom server-monitoring component around the Get process activity command, with filtering, CPU graphing, and JSON/text logging.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 77671,
+  "title": "Tech Note: ACME Client Component for 4D - Part I",
+  "technote_number": "16-17",
+  "year": 2016,
+  "published_date": "2016-10-28",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77671",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-17_ACMEClientComponent.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ACME protocol",
+    "Let's Encrypt Certificate Authority",
+    "4D-ACME-Client component",
+    "JSON Web Signature (JWS) over HTTPS",
+    "4D Web Server SSL/TLS"
+  ],
+  "historical_commentary": {
+    "text": "4D subsequently added native, built-in Let's Encrypt/ACME certificate support directly in 4D Server's web settings, making this custom open-source component (still referenced/available on GitHub) largely redundant for straightforward use cases, though it remains a valid educational example of implementing ACME from scratch in 4D.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D subsequently added native, built-in Let's Encrypt/ACME certificate support directly in 4D Server's web settings, making this custom open-source component (still referenced/available on GitHub) largely redundant for straightforward use cases, though it remains a valid educational example of implementing ACME from scratch in 4D."
+    ]
+  }
+}

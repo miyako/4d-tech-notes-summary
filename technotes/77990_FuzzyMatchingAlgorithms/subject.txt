@@ -1,0 +1,1 @@
+Tech Note: [3rd Party] Fuzzy Matching Algorithms for Sets and Binary Properties (TN 18-07, 4D v16R6, April 2018) — a math-focused guide to the Jaccard, Simple Matching, and Sørensen–Dice coefficients for scoring similarity between records using 4D Sets and binary properties.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 77572,
+  "title": "Tech Note: CodeTracker Component",
+  "technote_number": "16-07",
+  "year": 2016,
+  "published_date": "June 23, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Charlie Vass, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77572",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-07_CodeTracker_R2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Design Object Access commands (METHOD GET PATHS, etc.)",
+    "4D binary/Design Mode method storage",
+    "Macros for automation",
+    "Custom diffing logic"
+  ],
+  "historical_commentary": {
+    "text": "CodeTracker directly addresses a gap that no longer exists in modern 4D: since Project Mode arrived in v17 (2018), every method is natively stored as an individual text file in a Git-friendly folder structure, so diffing and history tracking are handled by standard tools like git rather than a custom export/compare component. For any project still on legacy Design Mode this note remains a useful stopgap, but for current development the recommended path is migrating to Project Mode and using real source control.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Project Mode (v17+), storing methods as individual text files",
+      "Native Git integration in 4D Project Mode workflows"
+    ]
+  }
+}

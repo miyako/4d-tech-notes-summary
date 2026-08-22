@@ -1,0 +1,1 @@
+Data encryption and decryption between 4D and PHP (TN 17-06, 4D v16, March 2017) — shows how to interoperate 4D's ENCRYPT BLOB/DECRYPT BLOB RSA encryption with PHP's OpenSSL/phpseclib.

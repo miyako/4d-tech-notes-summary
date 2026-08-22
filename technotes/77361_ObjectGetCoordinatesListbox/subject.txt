@@ -1,0 +1,1 @@
+Extended Functionality with Object Get Coordinates and Listbox Sub Objects (TN 15-15, 4D v15, September 2015) — explains a v15 enhancement letting OBJECT GET COORDINATES return accurate pixel coordinates for listbox sub objects (columns, headers, footers) rather than just the parent listbox.

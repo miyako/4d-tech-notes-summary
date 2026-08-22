@@ -1,0 +1,1 @@
+Format Data For Display in 4D Mobile (TN 17-05, 4D v16, March 2017) — explains 4D Mobile's attribute-level display formatting for numbers, strings, and dates via the Wakanda data model and REST/client-side APIs.

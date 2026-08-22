@@ -1,0 +1,1 @@
+Tech Note: Enhanced Graph Component (TN 16-12, 4D v15 R5 64-bit, August 2016) — a downloadable component providing a graphical Graph Designer UI over the enhanced GRAPH command's 35+ OBJECT-parameter elements.

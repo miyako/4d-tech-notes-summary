@@ -1,0 +1,26 @@
+{
+  "asset_id": 77396,
+  "title": "Tech Note: [3rd Party Tech Note] Improving Program Quality with Custom Error Logging",
+  "technote_number": "15-19",
+  "year": 2015,
+  "published_date": "October 27, 2015",
+  "product": "4D",
+  "version": "14.x",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=77396",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-19_ErrorLogging.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ON ERR CALL",
+    "GET LAST ERROR STACK",
+    "Custom error definition records/tables",
+    "Named error constants (as data, not language constants)",
+    "SQL/Big Data log export concepts"
+  ],
+  "historical_commentary": {
+    "text": "The core methodology here — treat errors as named, structured data; catch via ON ERR CALL/GET LAST ERROR STACK; record with contextual detail; analyze later — is timeless software-engineering advice that remains directly applicable in modern 4D (Project Mode, classes, ORDA) with no real syntax changes needed. This is one of the more evergreen notes of the era since it's about architecture and discipline rather than a specific soon-to-be-superseded API.",
+    "status": "still_relevant",
+    "related_updates": ["ON ERR CALL and GET LAST ERROR STACK remain the standard 4D error handling primitives", "Modern 4D adds try/catch-like patterns and class-based error objects that could implement these same ideas more cleanly"]
+  }
+}

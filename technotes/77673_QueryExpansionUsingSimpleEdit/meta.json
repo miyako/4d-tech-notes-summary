@@ -1,0 +1,26 @@
+{
+  "asset_id": 77673,
+  "title": "Tech Note: Query Expansion using Simple Edit",
+  "technote_number": "16-19",
+  "year": 2016,
+  "published_date": "2016-10-31",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77673",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-19_QueryWithSimpleEdit.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Peter Norvig's simple-edit-distance spelling algorithm",
+    "4D arrays (ARRAY TEXT)",
+    "Fuzzy/expanded query matching component"
+  ],
+  "historical_commentary": {
+    "text": "The edit-distance algorithm itself is a timeless, language-agnostic technique (still the basis of modern fuzzy search/autocorrect); the 4D implementation using classic ARRAY commands still runs today, though contemporary 4D code would likely use collections instead of arrays, and production fuzzy-search needs are often now offloaded to a full-text search engine (e.g., Elasticsearch) rather than 4D-side edit-distance generation.",
+    "status": "current",
+    "related_updates": [
+      "The edit-distance algorithm itself is a timeless, language-agnostic technique (still the basis of modern fuzzy search/autocorrect); the 4D implementation using classic ARRAY commands still runs today, though contemporary 4D code would likely use collections instead of arrays, and production fuzzy-search needs are often now offloaded to a full-text search engine (e.g., Elasticsearch) rather than 4D-side edit-distance generation."
+    ]
+  }
+}

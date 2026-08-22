@@ -1,0 +1,27 @@
+{
+  "asset_id": 77515,
+  "title": "Tech Note: 4D Method Explorer",
+  "technote_number": "16-03",
+  "year": 2016,
+  "published_date": "April 20, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77515",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-03_4DMethodExplorer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Design Object Access command suite (4D v13+)",
+    "Custom list/search UI in classic 4D forms",
+    "Method introspection and execution"
+  ],
+  "historical_commentary": {
+    "text": "This custom Method Explorer solves a real problem specific to binary/Design-Mode 4D databases, where there is no ordinary file system to browse methods in; once a database migrates to Project Mode (v17+), methods become plain text files in normal folders, so developers can use standard code editors, IDE fuzzy finders, or OS search to locate methods, largely superseding the need for this specific tool, though the Design Object Access commands themselves remain valid and useful for other introspection tasks.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Project Mode's file-per-method text structure, browsable with any code editor or OS search",
+      "Modern IDE-style fuzzy file/symbol search available once a project is text-based"
+    ]
+  }
+}

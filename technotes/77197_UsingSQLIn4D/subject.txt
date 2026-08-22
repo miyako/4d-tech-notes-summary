@@ -1,0 +1,1 @@
+Using SQL in a 4D Database Application (TN 14-18, 4D v14.3, December 19, 2014) — a side-by-side comparison of native 4D commands and embedded SQL for schema definition (create/alter/drop/truncate table) and data manipulation (select/insert/delete/update, one-to-many/many-to-one relationships).

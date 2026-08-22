@@ -1,0 +1,1 @@
+Tech Note: 4D Mobile Generate PDF From HTML (TN 18-06, 4D Mobile v16, April 2018) — demonstrates using Wakanda Enterprise's Print service and REST API to generate, download, and upload PDF documents rendered from HTML within a 4D Mobile solution.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 77168,
+  "title": "Working With the Spell Check System and Dictionary in 4Dv14",
+  "technote_number": "14-16",
+  "year": 2014,
+  "published_date": "November 3, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77168",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-16_SpellCheck_V14.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Hunspell dictionary engine",
+    "4D passive/active spell check",
+    "Custom and user dictionary files",
+    "Mac OS X native spell check integration"
+  ],
+  "historical_commentary": {
+    "text": "The switch from the Cordial to the Hunspell dictionary engine in v14 was a significant, still-standing architectural change; Hunspell remains 4D's spell-check backend in current versions, so this note's dictionary-location and customization guidance is largely still applicable, aside from any incremental changes to file paths/formats in much newer releases.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Hunspell continues as 4D's dictionary engine in subsequent versions, though file locations/details may have shifted slightly since v14"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 77362,
+  "title": "Tech Note: Introduction to Object field in v15",
+  "technote_number": "15-16",
+  "year": 2015,
+  "published_date": "September 3, 2015",
+  "product": "4D",
+  "version": "15",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77362",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-16_ObjectField.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Object field data type (new in v15)",
+    "QUERY BY ATTRIBUTE",
+    "OB SET / JSON PARSE with Object fields",
+    "Indexed schema-less storage"
+  ],
+  "historical_commentary": {
+    "text": "The v15 Object field was a genuinely forward-looking feature, foreshadowing 4D's later embrace of native, indexable JSON-like storage; it remains supported and useful today for schema-less/semi-structured data, though ORDA (introduced ~v16 R5/R6) and the maturing object/entity model have layered richer querying and object-oriented access on top of what QUERY BY ATTRIBUTE offered here. The note's specific syntax and query-string conventions are still functional but somewhat dated compared to ORDA's dot-notation entity selection queries.",
+    "status": "still_relevant",
+    "related_updates": ["ORDA (v16 R5/R6, 2017+) added a richer, dot-notation query language over structured/object data", "Object fields remain a supported 4D data type for schema-less JSON-like storage", "QUERY BY ATTRIBUTE remains available but is used less often now that ORDA entity selections and formulas cover similar ground"]
+  }
+}

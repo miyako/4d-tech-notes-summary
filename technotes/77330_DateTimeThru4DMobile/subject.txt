@@ -1,0 +1,1 @@
+Handle Date and Time through 4D Mobile (TN 15-14, 4D Mobile v14.x, July 2015) — clarifies the mismatch between 4D's separate Date and Time fields and JavaScript's single Date object, and shows how to read, query, and modify 4D date/time data from 4D Mobile client and Wakanda server code.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 77199,
+  "title": "A Modular Approach to Building a User Interface",
+  "technote_number": "14-20",
+  "year": 2014,
+  "published_date": "December 29, 2014",
+  "product": "4D",
+  "version": "14 R4",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77199",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-20_ModularUI.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Tabbed Document Interface (TDI)",
+    "Multi-page forms vs. separate forms + subforms",
+    "4D's include-form/subform mechanism"
+  ],
+  "historical_commentary": {
+    "text": "Building a TDI from separate per-tab forms composed via subforms, instead of one giant multi-page form, is a sound modularity principle that remains valid in modern 4D \u2014 though today it would typically be complemented (not replaced) by class-based logic and, in Project Mode, by cleanly separated form files that are much easier to diff/merge in Git.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Project Mode (v17+) makes each form a separate text file, reinforcing the same modular-form philosophy the note argues for, now with better version-control diffing",
+      "Modern list box/panel and subform enhancements provide additional composition tools beyond what was available in 2014"
+    ]
+  }
+}

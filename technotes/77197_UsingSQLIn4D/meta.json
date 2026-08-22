@@ -1,0 +1,27 @@
+{
+  "asset_id": 77197,
+  "title": "Using SQL in a 4D Database Application",
+  "technote_number": "14-18",
+  "year": 2014,
+  "published_date": "December 19, 2014",
+  "product": "4D",
+  "version": "14.3",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77197",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-18_UsingSQLIn4D.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SQL engine (embedded SQL)",
+    "4D native commands (CREATE TABLE/ALTER TABLE equivalents, QUERY, CREATE RECORD, relations)",
+    "Side-by-side 4D-vs-SQL comparison"
+  ],
+  "historical_commentary": {
+    "text": "4D's embedded SQL engine and side-by-side 4D-command equivalence described here are still present and functional in current 4D, so this note remains directly usable reference material, though modern applications increasingly favor ORDA's object/entity-based querying over either raw 4D commands or embedded SQL for new development.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA (entity selections, `.query()`, class-based data access) introduced from v16 R5/17+ as a newer alternative to both classic 4D commands and SQL for data access",
+      "4D's SQL engine itself has continued to receive updates since this 2014 note"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Colors with User Interface in 4D (TN 17-02, 4D v16, January 2017) — surveys UI color theory (contrast ratios, color harmonies) and shows 4D methods to generate contrasting colors and monochromatic palettes programmatically.

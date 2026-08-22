@@ -1,0 +1,1 @@
+GET DATABASE MEASURES (TN 15-02, 4D v14 R5, January 12, 2015) — an explanation, with accompanying graphing tools, of the values returned by the v14 R3 `GET DATABASE MEASURES` command for diagnosing engine, memory, disk, query and sort performance.

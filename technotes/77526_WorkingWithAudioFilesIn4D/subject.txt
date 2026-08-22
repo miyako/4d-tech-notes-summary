@@ -1,0 +1,1 @@
+Tech Note: Working With Audio Files in 4D (TN 16-04, 4D v15.x, May 2016) — explains and implements low-level parsing/editing of WAV and MP3 (ID3v1/ID3v2) audio file formats using 4D BLOB and bit-manipulation commands.

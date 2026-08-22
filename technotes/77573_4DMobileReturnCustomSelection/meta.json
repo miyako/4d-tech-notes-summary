@@ -1,0 +1,28 @@
+{
+  "asset_id": 77573,
+  "title": "Tech Note: 4D Mobile Return Custom Selection",
+  "technote_number": "16-08",
+  "year": 2016,
+  "published_date": "June 23, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77573",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-08_MobileReturnSelection.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Mobile (Wakanda-based native client framework)",
+    "Mobile Return selection command",
+    "Selected record number command",
+    "JSON entity collections"
+  ],
+  "historical_commentary": {
+    "text": "4D Mobile — the Wakanda-derived native iOS/Android client technology this note targets — was discontinued by 4D years ago in favor of REST/ORDA-based web and mobile development, and later Qodly; the specific \"Mobile Return selection\" command and 4D Mobile client APIs referenced here are no longer part of any current 4D roadmap. The underlying idea of shaping custom JSON responses for a client is still valid for today's REST/ORDA APIs, but this note's concrete techniques do not transfer directly.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's REST server + ORDA entity selections for client-server data exchange (introduced ~v16 R5/R6, matured through v18+)",
+      "Qodly-based low-code app front ends replacing the discontinued 4D Mobile"
+    ]
+  }
+}

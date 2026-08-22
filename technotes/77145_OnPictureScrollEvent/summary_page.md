@@ -1,0 +1,33 @@
+# Tech Note 14-14: On Picture Scroll Event
+
+**Author:** Timothy Tse, Technical Services Engineer, 4D Inc.
+**Published:** September 16, 2014 | **Product/Version:** 4D v14.0 | **Platform:** Mac & Win
+**Page:** https://kb.4d.com/assetid=77145
+**Download:** https://kb.4d.com/DLTN/TN/2014/14-14_PictureScroll.zip
+
+## Proposition
+This note documents the On Picture Scroll form event, triggered when a user scrolls the content of a picture field or variable (via scrollbar drag, mouse wheel, or keyboard), and walks through practical uses: synchronizing the scroll position of two separate picture objects, and detecting scroll direction/wheel input to drive a custom zoom interaction, including handling different picture display formats.
+
+## Key Points
+- **Trigger conditions:** fires on scrollbar drag, mouse wheel over a picture, or keyboard scrolling (arrow keys, Alt+arrow for pixel-level, Page Up/Down for page-level).
+- **Requirements and limitations** for when the event actually fires are spelled out, since not every picture configuration supports it.
+- **Example 1 — linked scrolling:** two separate picture objects scroll in sync by relaying position changes between their respective methods.
+- **Example 2 — different display formats:** demonstrates linking images that use different display/scaling formats, including drawing/moving a rectangle to represent a viewport and scrolling within a larger picture variable.
+- **Scroll-direction detection:** shows how to determine which direction the user scrolled/wheeled, enabling custom behaviors like zoom-in/zoom-out.
+- **Format-specific wheel detection caveats** are covered for picture variables using different formats.
+
+## Featured Technology
+- On Picture Scroll form event
+- Picture field/variable scrolling (scrollbar, mouse wheel, keyboard)
+- Synchronized multi-image scroll linking
+- Scroll-direction-based zoom
+
+## Context / Positioning
+Published September 2014 for 4D v14.0, a narrowly scoped classic-forms UI event note from the pre-Project-Mode, pre-ORDA era. Picture-object scrolling behavior is a low-level forms detail unrelated to the data-layer changes that came later, so it has aged unusually well.
+
+## Historical Commentary
+**Status:** Still Relevant
+
+Because this is a UI-event mechanic tied to classic form picture objects rather than to the data/storage layer, it has not been affected by the ORDA/Project Mode transition and remains directly applicable to current 4D classic forms using picture fields/variables.
+
+Developers building custom image viewers, comparators, or zoom/pan interactions in 4D forms today can still follow this note's guidance largely as-is; it is a good example of a Tech Note whose narrow, presentation-layer scope has kept it relevant far longer than notes tied to data access patterns.

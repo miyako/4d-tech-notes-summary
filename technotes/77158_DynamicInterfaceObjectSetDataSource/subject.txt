@@ -1,0 +1,1 @@
+Dynamic Interface using Object Set Data Source (TN 14-15, 4D v14.0, October 9, 2014) — a demonstration of the (then new in v14) OBJECT SET DATA SOURCE command, which lets a form object's field/variable binding be changed dynamically at runtime instead of being fixed at design time, illustrated with a tab-based dynamic field browser..

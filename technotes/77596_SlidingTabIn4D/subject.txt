@@ -1,0 +1,1 @@
+Tech Note: Sliding Tab in 4D (TN 16-09, 4D v15.x, August 2016) — a subform-based component implementing an animated, mobile-app-style sliding tab/carousel UI control for classic 4D forms.

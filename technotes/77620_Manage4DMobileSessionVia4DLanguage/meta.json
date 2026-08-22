@@ -1,0 +1,28 @@
+{
+  "asset_id": 77620,
+  "title": "Tech Note: Manage 4D Mobile Session via 4D Language",
+  "technote_number": "16-14",
+  "year": 2016,
+  "published_date": "2016-09-12",
+  "product": "4D",
+  "version": "15 R5",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77620",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-14_Manage4DMobileSession.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Mobile session management",
+    "WEB Get Current Session ID / WEB CLOSE SESSION / WEB GET SESSION EXPIRATION",
+    "WEB Get session process count",
+    "On Web Close Process database method",
+    "Wakanda session model"
+  ],
+  "historical_commentary": {
+    "text": "4D Mobile (and its bundled Wakanda web server) has been fully discontinued, so this session-management workflow no longer applies; the underlying WEB session commands referenced still exist for 4D's own web server, but the 4D Mobile-specific behaviors and the Wakanda administration console use case described here are defunct.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Mobile (and its bundled Wakanda web server) has been fully discontinued, so this session-management workflow no longer applies; the underlying WEB session commands referenced still exist for 4D's own web server, but the 4D Mobile-specific behaviors and the Wakanda administration console use case described here are defunct."
+    ]
+  }
+}

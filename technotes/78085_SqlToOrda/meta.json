@@ -1,0 +1,20 @@
+{
+  "asset_id": 78085,
+  "title": "Tech Note: SQL to ORDA",
+  "technote_number": "18-12",
+  "year": 2018,
+  "published_date": "June 28, 2018",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Kristopher Merolla, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78085",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-12_SQL_to_ORDA.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["ORDA", "4D SQL", "Datastore", "Dataclass", "Entity Selections", "Entities", "CRUD operations", "Optimistic/Pessimistic locking"],
+  "historical_commentary": {
+    "text": "This note captures ORDA at its very first public release in v17 (2018), before the object/dataclass/entity model matured with computed attributes, remote datastores, dataclass functions, and the eventual REST-first architecture; the fundamentals shown (ds, dataclass, entity selections, new()/save()/lock()) remain accurate and are still the core ORDA vocabulary today. The SQL-vs-ORDA framing itself is dated in spirit since 4D now actively steers new development toward ORDA/collections rather than presenting them as parallel equally-weighted options.",
+    "status": "partially_superseded",
+    "related_updates": ["ORDA gained many additional member functions, computed/alias/related attributes, and dataclass class functions in v18-v20", "4D now recommends ORDA (with classes and formulas) as the primary data-access layer; classic SQL/QUERY remain supported mainly for legacy code", "Locking and CRUD conventions described are still valid today"]
+  }
+}

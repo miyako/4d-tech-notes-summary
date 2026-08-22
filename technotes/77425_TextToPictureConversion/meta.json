@@ -1,0 +1,27 @@
+{
+  "asset_id": 77425,
+  "title": "Tech Note: Text to Picture Conversion",
+  "technote_number": "15-23",
+  "year": 2015,
+  "published_date": "December 7, 2015",
+  "product": "4D",
+  "version": "14.x",
+  "platform": "Mac & Win",
+  "author": "Jean-Pierre Ribreau (JPR) – 4D Trainer and Consultant",
+  "page_url": "https://kb.4d.com/assetid=77425",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-23_Text2PictConversion.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SVG (Scalable Vector Graphics) commands in 4D",
+    "4D Object / JSON-type parameters",
+    "Legacy QuickDraw/PICT technology (context only)"
+  ],
+  "historical_commentary": {
+    "text": "This note aged unusually well: its core recommendation to replace QuickDraw/PICT with SVG for text-to-picture rendering remains exactly the correct modern approach in current 4D, and its advocacy for object-based (JSON-type) parameter passing anticipated a coding style that became mainstream 4D practice, later reinforced by 4D's own class-based object features. Aside from minor syntax modernization, the techniques shown are still directly usable today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's continued SVG picture support in current versions",
+      "Widespread modern adoption of object/collection-based parameter passing, later formalized further by 4D classes"
+    ]
+  }
+}

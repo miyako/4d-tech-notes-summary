@@ -1,0 +1,27 @@
+{
+  "asset_id": 77397,
+  "title": "Tech Note: Single Sign On with Lightweight Directory Access Protocol",
+  "technote_number": "15-20",
+  "year": 2015,
+  "published_date": "October 27, 2015",
+  "product": "4D",
+  "version": "15",
+  "platform": "Mac & Win",
+  "author": "Tai BUI, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77397",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-20_SSO_with_LDAP.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "LDAP LOGIN",
+    "LDAP LOGOUT",
+    "LDAP Search",
+    "LDAP SEARCH ALL",
+    "Apache Directory Studio (ADS)",
+    "LAUNCH EXTERNAL PROCESS"
+  ],
+  "historical_commentary": {
+    "text": "Native LDAP commands introduced in 4D v15 remain valid and supported today; LDAP itself is still a widely used enterprise directory standard, so the core commands and concepts here are still current. The specific SSO demo (auto-launching Skype/FileZilla via LAUNCH EXTERNAL PROCESS with stored credentials) is a dated, fragile pattern that modern security practice would avoid in favor of proper SSO protocols like SAML/OAuth/OIDC.",
+    "status": "still_relevant",
+    "related_updates": ["4D's LDAP command set has remained largely stable since v15", "Modern SSO implementations favor SAML/OAuth2/OIDC over storing plaintext credentials for local app launch"]
+  }
+}

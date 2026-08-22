@@ -1,0 +1,20 @@
+{
+  "asset_id": 78069,
+  "title": "Tech Note: Introduction to Form Data",
+  "technote_number": "18-10",
+  "year": 2018,
+  "published_date": "June 8, 2018",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78069",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-10_FormData.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["FORM command", "formData (C_Object bound to form)", "DIALOG command", "Subforms", "Object fields"],
+  "historical_commentary": {
+    "text": "The new v17 FORM command and formData mechanism described here are still valid, current 4D features for binding an object to a form instance to avoid process-variable juggling across multiple open windows/dialogs. It remains a solid technical description, though the C_Object declaration style is now more commonly written with typed `var` declarations, and later 4D added more object-notation form-scripting patterns since.",
+    "status": "still_relevant",
+    "related_updates": ["formData remains a core 4D form concept today", "Typed var declarations (v19+) are now preferred over C_Object for new code", "ORDA entities are increasingly bound directly to forms alongside/instead of plain formData objects"]
+  }
+}

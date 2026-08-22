@@ -1,0 +1,27 @@
+{
+  "asset_id": 77526,
+  "title": "Tech Note: Working With Audio Files in 4D",
+  "technote_number": "16-04",
+  "year": 2016,
+  "published_date": "May 12, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77526",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-04_WorkingWithAudioFiles.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D BLOB commands",
+    "Binary/bitwise manipulation in 4D",
+    "WAV file format",
+    "MP3/MPEG Audio Layer & ID3v1/ID3v2 tags"
+  ],
+  "historical_commentary": {
+    "text": "WAV and MP3/ID3 are stable, well-documented legacy formats that have not meaningfully changed since this note was written, so the format knowledge and byte-level BLOB manipulation techniques described remain directly applicable in current 4D versions. Some of the custom conversion utility methods might be replaceable by newer built-in 4D commands added since 2016, but nothing here has been deprecated or broken by the classic Design Mode-to-Project Mode transition.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Any newer native 4D BLOB/byte-conversion commands added since v15/v16 that could simplify some utility methods shown"
+    ]
+  }
+}

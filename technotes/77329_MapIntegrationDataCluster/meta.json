@@ -1,0 +1,26 @@
+{
+  "asset_id": 77329,
+  "title": "Tech Note: Map Integration with Data Cluster Display",
+  "technote_number": "15-13",
+  "year": 2015,
+  "published_date": "July 8, 2015",
+  "product": "4D",
+  "version": "15",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, VP of Strategy \u2013 4D Product Line, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=77329",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-13_MapWithDataCluster.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Leaflet.js",
+    "OpenStreetMap",
+    "4D WebArea / HTML area",
+    "Geocoding (Geo_Geocoding routine)",
+    "Marker clustering"
+  ],
+  "historical_commentary": {
+    "text": "This note's choice of Leaflet.js + OpenStreetMap over Google Maps (citing Google's licensing changes) has proven durable and prescient \u2014 Leaflet remains a leading open-source mapping library today, and the general approach of embedding a JS mapping library inside a 4D web area is still exactly how mapping integrations are built in modern 4D. The specific 4D-side integration code (classic HTML area, v15-era geocoding helper) is dated, but the architecture and library choice hold up well.",
+    "status": "still_relevant",
+    "related_updates": ["Leaflet.js remains actively maintained and widely used", "4D web areas/HTML areas continue to be the standard mechanism for embedding JS mapping libraries", "Modern 4D projects would likely use ORDA to feed geocoded data to the same kind of JS mapping front end"]
+  }
+}

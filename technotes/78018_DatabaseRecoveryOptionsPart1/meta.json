@@ -1,0 +1,20 @@
+{
+  "asset_id": 78018,
+  "title": "Tech Note: 4D Database Recovery Options – Part I",
+  "technote_number": "18-09",
+  "year": 2018,
+  "published_date": "May 14, 2018",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78018",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-09_DatabaseRecoveryOptionsP1.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["Maintenance and Security Center (MSC)", "Verify/Repair", "Backup system", "Restore/Rollback", "Mirroring", ".4DB/.4DD structure files"],
+  "historical_commentary": {
+    "text": "The core disaster-recovery mechanisms described — MSC Verify/Repair, the backup system, restore/rollback, and mirroring for failover — remain part of 4D's data-protection story today, so the overall guidance is still broadly applicable. However, the note is framed entirely around the classic binary .4DB/.4DD structure file model that predates Project Mode (introduced v17/2018+), and some UI/workflow details for MSC and mirroring have evolved since 4D v16.",
+    "status": "still_relevant",
+    "related_updates": ["4D's backup, log file, and mirror architecture is largely still in place conceptually in modern 4D Server", "Project Mode (.4DProject, text-based) changes how structure files are stored/versioned, altering some recovery scenarios not covered here", "MSC interface and options have been refined in newer 4D releases"]
+  }
+}

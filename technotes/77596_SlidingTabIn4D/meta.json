@@ -1,0 +1,28 @@
+{
+  "asset_id": 77596,
+  "title": "Tech Note: Sliding Tab in 4D",
+  "technote_number": "16-09",
+  "year": 2016,
+  "published_date": "August 11, 2016",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77596",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-09_SlidingTabIn4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Subforms (classic Design Mode)",
+    "4D form object events (On Load, On Bound Variable Change, On Timer)",
+    "JSON for component configuration",
+    "Manual pixel-based object animation"
+  ],
+  "historical_commentary": {
+    "text": "This is a textbook example of classic-4D-era custom UI engineering that modern 4D development would rarely reproduce this way: today's equivalent would typically be built with CSS/JS transitions in a web area or a fully web-based (Qodly/ORDA-REST) front end, which handle sliding/carousel effects natively and far more efficiently than manual pixel-shifting timers on classic form objects. The component would still run technically, but the approach is superseded by web UI techniques.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Web Area with CSS/JS carousel libraries",
+      "Qodly Studio web components for modern responsive UI"
+    ]
+  }
+}

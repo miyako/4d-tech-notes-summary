@@ -1,0 +1,1 @@
+Camera Interface - Revised (TN 15-01, 4D v14.3, January 12, 2015) — a revised edition of a technique for embedding a live camera feed into a 4D application by integrating third-party capture software.

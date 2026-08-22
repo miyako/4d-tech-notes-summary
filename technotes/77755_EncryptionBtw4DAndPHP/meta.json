@@ -1,0 +1,28 @@
+{
+  "asset_id": 77755,
+  "title": "Tech Note: Data encryption and decryption between 4D and PHP",
+  "technote_number": "17-06",
+  "year": 2017,
+  "published_date": "2017-03-27",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Nicolas Brachfogel, Senior Developer, 4D SAS",
+  "page_url": "https://kb.4d.com/assetid=77755",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-06_EncryptionBtw4DAndPHP.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "GENERATE ENCRYPTION KEYPAIR",
+    "ENCRYPT BLOB / DECRYPT BLOB",
+    "PHP EXECUTE",
+    "RSA/PKCS#1 keys",
+    "BLOB TO DOCUMENT / DOCUMENT TO BLOB"
+  ],
+  "historical_commentary": {
+    "text": "4D's ENCRYPT BLOB/DECRYPT BLOB and GENERATE ENCRYPTION KEYPAIR commands are still present in modern 4D; the interoperability caveats (PKCS#1 vs SubjectPublicKeyInfo, 4D's proprietary header bytes) remain accurate for any classic-4D-encryption-to-external-system integration.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's ENCRYPT BLOB/DECRYPT BLOB and GENERATE ENCRYPTION KEYPAIR commands are still present in modern 4D; the interoperability caveats (PKCS#1 vs SubjectPublicKeyInfo, 4D's proprietary header bytes) remain accurate for any classic-4D-encryption-to-external-system integration."
+    ]
+  }
+}

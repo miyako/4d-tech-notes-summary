@@ -1,0 +1,1 @@
+Tech Note: [3rd Party Tech Note] Migrating Away from the 4D Picture Library (TN 16-01, 4D v14.x, January 2016) — a third-party guide for moving from 4D's legacy resource-file-based Picture Library to modern external picture files, including dump utilities and missing-image detection.

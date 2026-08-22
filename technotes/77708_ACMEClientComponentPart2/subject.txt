@@ -1,0 +1,1 @@
+ACME Client Component for 4D - Part II (TN 17-01, 4D v15.x, January 2017) — extends the 4D-ACME-Client component with certificate-expiration-checking methods and thread-safe, preemptive-web-server-compatible renewal routines for free Let's Encrypt TLS certificates.

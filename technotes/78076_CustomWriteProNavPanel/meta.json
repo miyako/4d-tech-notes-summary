@@ -1,0 +1,20 @@
+{
+  "asset_id": 78076,
+  "title": "Tech Note: Custom 4D Write Pro Navigation Panel",
+  "technote_number": "18-11",
+  "year": 2018,
+  "published_date": "June 21, 2018",
+  "product": "4D Write Pro",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78076",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-11_4DWriteProNavPanel.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Write Pro", "Form components", "Subforms", "Storage object", "CALL SUBFORM CONTAINER", "WP New / WP object notation"],
+  "historical_commentary": {
+    "text": "This is squarely a 4D Write Pro (the modern, object-based word processor introduced in v15) note, so the underlying premise — Write Pro as a manipulable object — remains valid, but the specific implementation relies on v17-era commands, classic form components, and C_LONGINT/C_TEXT typed declarations that predate 4D's later class-based and typed-variable (`var`) conventions. 4D Write Pro itself has continued to gain native pagination/navigation and outline features since, which may reduce the need for a fully custom navigation panel like this one.", 
+    "status": "partially_superseded",
+    "related_updates": ["4D Write Pro gained more built-in navigation, TOC, and page-thumbnail capabilities in subsequent versions", "Component architecture has since evolved toward project-based components; classic form components still work but are less emphasized", "C_LONGINT/C_TEXT-style declarations superseded by typed `var` declarations in v19+"]
+  }
+}

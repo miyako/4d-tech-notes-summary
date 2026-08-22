@@ -1,0 +1,27 @@
+{
+  "asset_id": 77685,
+  "title": "Tech Note: Access Files in 4D using 4D Mobile",
+  "technote_number": "16-21",
+  "year": 2016,
+  "published_date": "2016-11-22",
+  "product": "4D",
+  "version": "15.3",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77685",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-21_AccessFilesThru4DMobile.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Mobile / Wakanda File API",
+    "Wakanda BLOB/File JavaScript classes",
+    "Base64 encoding of BLOBs",
+    "W3C File API (HTML5)"
+  ],
+  "historical_commentary": {
+    "text": "4D Mobile and its embedded Wakanda server were discontinued; the Wakanda-specific File/BLOB JavaScript API described here no longer exists in current 4D. File transfer to web/mobile clients today is handled through ORDA REST APIs, standard HTTP file endpoints, or 4D's own web server BLOB handling.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Mobile and its embedded Wakanda server were discontinued; the Wakanda-specific File/BLOB JavaScript API described here no longer exists in current 4D. File transfer to web/mobile clients today is handled through ORDA REST APIs, standard HTTP file endpoints, or 4D's own web server BLOB handling."
+    ]
+  }
+}

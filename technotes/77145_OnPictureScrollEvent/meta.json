@@ -1,0 +1,27 @@
+{
+  "asset_id": 77145,
+  "title": "On Picture Scroll Event",
+  "technote_number": "14-14",
+  "year": 2014,
+  "published_date": "September 16, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77145",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-14_PictureScroll.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "On Picture Scroll form event",
+    "Picture field/variable scrolling (scrollbar, mouse wheel, keyboard)",
+    "Synchronized multi-image scroll linking",
+    "Scroll-direction-based zoom"
+  ],
+  "historical_commentary": {
+    "text": "The On Picture Scroll form event is a longstanding, narrowly-scoped classic-forms feature for building custom image viewers/comparators (e.g. linked image panning, wheel-to-zoom); it remains functional in current 4D versions and this note's techniques still apply directly to classic-form picture objects, with no major architectural shift affecting it.",
+    "status": "still_relevant",
+    "related_updates": [
+      "No significant replacement \u2014 remains a niche but still-supported classic-form image-handling event in current 4D"
+    ]
+  }
+}

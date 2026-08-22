@@ -1,0 +1,1 @@
+Tech Note: New Listbox Capabilities in v15 R Branch (TN 16-02, 4D v15 R3/R4, February 2016) — surveys new classic listbox features introduced in the v15 R-release branch: single-click cell editing, ellipsis truncation, hidden blank rows, and per-row disabled/non-selectable control.

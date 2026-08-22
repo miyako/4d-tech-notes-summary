@@ -1,0 +1,27 @@
+{
+  "asset_id": 77710,
+  "title": "Tech Note: Colors with User Interface in 4D",
+  "technote_number": "17-02",
+  "year": 2017,
+  "published_date": "2017-01-26",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77710",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-02_ColorsAndUI.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "WCAG 2.0 contrast ratio guidelines",
+    "Color harmony / color wheel theory",
+    "Programmatic contrasting-color generation in 4D",
+    "Monochromatic color calculation"
+  ],
+  "historical_commentary": {
+    "text": "Color theory, WCAG contrast ratios, and color-harmony math are timeless and still cited today (WCAG has since progressed to 2.1/2.2 with refined criteria); the 4D-specific color manipulation code (RGB/HSL conversions via classic commands) still runs, though modern UI work increasingly happens via CSS-styled web forms or Qodly, where color theory is applied through stylesheets rather than 4D method code.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Color theory, WCAG contrast ratios, and color-harmony math are timeless and still cited today (WCAG has since progressed to 2.1/2.2 with refined criteria); the 4D-specific color manipulation code (RGB/HSL conversions via classic commands) still runs, though modern UI work increasingly happens via CSS-styled web forms or Qodly, where color theory is applied through stylesheets rather than 4D method code."
+    ]
+  }
+}

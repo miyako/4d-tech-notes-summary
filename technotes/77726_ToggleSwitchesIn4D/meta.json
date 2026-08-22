@@ -1,0 +1,28 @@
+{
+  "asset_id": 77726,
+  "title": "Tech Note: Toggle Switches in 4D",
+  "technote_number": "17-03",
+  "year": 2017,
+  "published_date": "2017-02-16",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77726",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-03_ToggleSwitchesIn4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "On Mouse Up (form event)",
+    "Is waiting mouse up (command)",
+    "Picture variables",
+    "READ PICTURE FILE",
+    "4D Object (encapsulated toggle state)"
+  ],
+  "historical_commentary": {
+    "text": "The On Mouse Up event and Is waiting mouse up command introduced in v16 are still supported; the manual picture-swap toggle technique remains valid classic-form UI code, though modern 4D form objects (and web-based front-ends) offer native switch/toggle controls that make this DIY approach less necessary today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "The On Mouse Up event and Is waiting mouse up command introduced in v16 are still supported; the manual picture-swap toggle technique remains valid classic-form UI code, though modern 4D form objects (and web-based front-ends) offer native switch/toggle controls that make this DIY approach less necessary today."
+    ]
+  }
+}

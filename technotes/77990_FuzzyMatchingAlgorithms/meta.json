@@ -1,0 +1,20 @@
+{
+  "asset_id": 77990,
+  "title": "Tech Note: [3rd Party Tech Note] Fuzzy Matching Algorithms for Sets and Binary Properties",
+  "technote_number": "18-07",
+  "year": 2018,
+  "published_date": "April 24, 2018",
+  "product": "4D",
+  "version": "16R6",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=77990",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-07_Fuzzy_Sets.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Jaccard coefficient/index", "Simple Matching Coefficient", "Sørensen–Dice coefficient", "Binary property vectors", "Dichotomization of discrete/categorical/continuous values", "4D Sets"],
+  "historical_commentary": {
+    "text": "This is a math/algorithms note (Jaccard index, Simple Matching Coefficient, Sørensen–Dice) rather than a 4D-API-specific note, so the substantive content is essentially timeless and unaffected by 4D's Design Mode-to-Project Mode or ORDA transitions. The 4D-specific implementation detail (working with classic 4D Sets) is now a legacy technique, but the underlying similarity-scoring algorithms remain exactly as valid and applicable today, whether implemented against Sets, entity selections, or plain collections.",
+    "status": "still_relevant",
+    "related_updates": ["The mathematical algorithms (Jaccard, SMC, Sørensen-Dice) are unchanged and remain standard techniques", "Implementation could be modernized using ORDA entity selections/collections instead of classic 4D Sets", "General approach to fuzzy matching and dichotomization remains a valid data-science technique regardless of 4D version"]
+  }
+}

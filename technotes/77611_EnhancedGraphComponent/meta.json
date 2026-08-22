@@ -1,0 +1,30 @@
+{
+  "asset_id": 77611,
+  "title": "Tech Note: Enhanced Graph Component",
+  "technote_number": "16-12",
+  "year": 2016,
+  "published_date": "August 26, 2016",
+  "product": "4D",
+  "version": "15 R5 64-bit",
+  "platform": "Mac & Win",
+  "author": "Charlie Vass, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77611",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-12_EnhancedGraph.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v15 R4/R5 64-bit",
+    "Enhanced GRAPH command",
+    "OBJECT parameter (graph settings)",
+    "4D Components (Design Mode)",
+    "SVG export"
+  ],
+  "historical_commentary": {
+    "text": "The enhanced GRAPH command and its OBJECT parameter remain part of 4D's language today, so the underlying charting mechanism is still valid; however, this specific EnhancedGraph component is a Design Mode-era download component that predates Project Mode and has not been kept current, and 4D's later focus shifted toward View Pro/chart objects and web-based charting for many reporting scenarios.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's built-in chart/GRAPH improvements in later v16-v20 releases",
+      "View Pro chart objects",
+      "Third-party/JS charting embedded via 4D web area for modern reporting"
+    ]
+  }
+}

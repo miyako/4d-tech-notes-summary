@@ -1,0 +1,26 @@
+{
+  "asset_id": 77644,
+  "title": "Tech Note: Custom Shadow for Object Focus",
+  "technote_number": "16-15",
+  "year": 2016,
+  "published_date": "2016-09-30",
+  "product": "4D",
+  "version": "15.x",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77644",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-15_CustomShadow.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Gradient picture assets for shadow rendering",
+    "4D form object focus properties",
+    "showBorderShadow/showFloorShadow custom methods"
+  ],
+  "historical_commentary": {
+    "text": "This picture-composited shadow technique for classic 4D forms still works today since it relies on basic picture objects and methods, but it is a workaround for a lack of native drop-shadow/elevation styling; modern 4D form object styling (and especially web-based Qodly/HTML front-ends with CSS box-shadow) make this manual approach largely unnecessary now.",
+    "status": "still_relevant",
+    "related_updates": [
+      "This picture-composited shadow technique for classic 4D forms still works today since it relies on basic picture objects and methods, but it is a workaround for a lack of native drop-shadow/elevation styling; modern 4D form object styling (and especially web-based Qodly/HTML front-ends with CSS box-shadow) make this manual approach largely unnecessary now."
+    ]
+  }
+}

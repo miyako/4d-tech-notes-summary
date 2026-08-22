@@ -1,0 +1,1 @@
+Tech Note: 4D Method Explorer (TN 16-03, 4D v15.x, April 2016) — a custom method-search/browser tool built on the Design Object Access command suite, offering on-the-fly filtering, sorting, previewing, and running of project methods by name.

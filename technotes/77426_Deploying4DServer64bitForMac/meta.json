@@ -1,0 +1,28 @@
+{
+  "asset_id": 77426,
+  "title": "Tech Note: Deploying 4D Server 64-bit for Mac",
+  "technote_number": "15-24",
+  "year": 2015,
+  "published_date": "December 7, 2015",
+  "product": "4D",
+  "version": "15.1",
+  "platform": "Mac OS X",
+  "author": "Timothy A. Penner, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77426",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-24_Deploy4DServer64bitforMac.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server 64-bit (Mac OS X)",
+    "ServerNet network layer",
+    "Encrypted client-server connections",
+    "4D merged client architecture"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a one-time, long-completed platform transition: 4D Server has been 64-bit-only for many years now, and ServerNet has been the standard (not new) network layer since shortly after this note was published, so the specific migration guidance, unsupported-features caveats, and legacy-network-layer toggling described here no longer apply to any current 4D deployment.",
+    "status": "obsolete",
+    "related_updates": [
+      "Current 4D Server, which is 64-bit-only with ServerNet as the sole, mature network layer",
+      "Modern 4D security/connection guidance superseding the encrypted-connection setup described here"
+    ]
+  }
+}

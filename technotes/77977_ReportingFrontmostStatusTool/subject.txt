@@ -1,0 +1,1 @@
+Tech Note: Reporting Frontmost Status Tool with 4D (TN 18-05, 4D v16R6, March 2018) — implements a client/server component that tracks whether 4D is the frontmost application on each connected client, using Storage, Workers, and preemptive processing.

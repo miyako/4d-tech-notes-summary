@@ -1,0 +1,20 @@
+{
+  "asset_id": 77976,
+  "title": "Tech Note: Kiosk Mode on Windows 10",
+  "technote_number": "18-04",
+  "year": 2018,
+  "published_date": "March 27, 2018",
+  "product": "4D",
+  "version": "16",
+  "platform": "Win",
+  "author": "Guillaume Kotulski, Developer, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=77976",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-04_KioskModeOnWindows10.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["Windows Configuration Designer", "Windows 10 Kiosk Mode", "PowerShell"],
+  "historical_commentary": {
+    "text": "This note is essentially a Windows OS administration guide (using the Windows Configuration Designer) rather than a 4D-specific technique, so its accuracy depends on Microsoft's kiosk-mode tooling rather than on 4D's own evolution — and Microsoft has since changed its recommended kiosk-configuration approach (e.g., shifting from Windows Configuration Designer/assigned access toward Microsoft Intune and other MDM-based kiosk management, especially for Windows 10/11 in enterprise settings). The 4D-side guidance (pointing the kiosk shell at a 4D application executable) is still conceptually valid.",
+    "status": "partially_superseded",
+    "related_updates": ["Microsoft has evolved Windows kiosk configuration tooling and guidance since 2018 (Intune/MDM-based approaches now common)", "Windows Configuration Designer and Assigned Access still exist but are one of several options today", "The core 4D-side setup (launching a 4D app as the kiosk shell) remains valid regardless of which OS tool is used to configure kiosk mode"]
+  }
+}

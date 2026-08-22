@@ -1,0 +1,30 @@
+{
+  "asset_id": 77232,
+  "title": "Authenticate 4D Mobile Users in 4D and Wakanda",
+  "technote_number": "15-04",
+  "year": 2015,
+  "published_date": "February 9, 2015",
+  "product": "4D Mobile",
+  "version": "14 R5",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77232",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-04_Auth4DMobileUser.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Mobile (Wakanda-based)",
+    "4D password-based authentication",
+    "Wakanda Directory",
+    "Wakanda Login Listener",
+    "Basic/Digest HTTP authentication"
+  ],
+  "historical_commentary": {
+    "text": "This note documents authentication for the original 4D Mobile, which paired 4D Server with a separate Wakanda Enterprise Server layer \u2014 an architecture 4D fully replaced with the native 4D Mobile App (iOS/Android) and later ORDA/REST-based web and mobile stacks; the Wakanda dependency makes essentially the entire mechanism obsolete today.",
+    "status": "obsolete",
+    "related_updates": [
+      "Original 4D Mobile (Wakanda-based) product line discontinued",
+      "Native 4D Mobile App (iOS/Android, ~2016) using 4D Mobile project commands, itself later superseded",
+      "Modern REST/ORDA-based authentication (session tokens, `Session` class, `ds.WebServer`) for web/mobile clients"
+    ]
+  }
+}

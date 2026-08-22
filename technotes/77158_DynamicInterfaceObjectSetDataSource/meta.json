@@ -1,0 +1,26 @@
+{
+  "asset_id": 77158,
+  "title": "Dynamic Interface using Object Set Data Source",
+  "technote_number": "14-15",
+  "year": 2014,
+  "published_date": "October 9, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77158",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-15_DynamicInterface.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "OBJECT SET DATA SOURCE command",
+    "Control Tab / Tab Control object",
+    "Runtime rebinding of form object data sources"
+  ],
+  "historical_commentary": {
+    "text": "OBJECT SET DATA SOURCE, introduced in v14, remains a supported way to rebind a form object's data source at runtime and is still used for dynamic, single-form-many-fields UIs; it now coexists with (rather than being replaced by) ORDA-based dynamic binding to entity attributes, and generic listbox/collection-driven UI patterns that emerged later.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA entity attributes and dynamic collection-bound list boxes provide additional/alternative ways to build data-driven dynamic forms in later 4D versions"
+    ]
+  }
+}

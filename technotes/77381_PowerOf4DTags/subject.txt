@@ -1,0 +1,1 @@
+Exploring the Power and Versatility of 4D Tags (TN 15-17, 4D v15, September 2015) — a deep dive into the PROCESS 4D TAGS command (formerly PROCESS HTML TAGS) showing how 4D's template-tag dialect can drive dynamic HTML web serving as well as general-purpose document/report templating and automation scripts.

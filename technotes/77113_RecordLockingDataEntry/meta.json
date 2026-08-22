@@ -1,0 +1,27 @@
+{
+  "asset_id": 77113,
+  "title": "[3rd Party Tech Note] A Practical Approach To Record Locking and Data Entry",
+  "technote_number": "14-13",
+  "year": 2014,
+  "published_date": "August 1, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Dave Terry, Pacific Data Management, Inc.",
+  "page_url": "https://kb.4d.com/assetid=77113",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-13_RecordLockingDataEntry.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D pessimistic record locking",
+    "Optimistic locking pattern (version/timestamp column comparison)",
+    "Hybrid locking strategy for data entry UX"
+  ],
+  "historical_commentary": {
+    "text": "This note's core subject \u2014 pessimistic vs. optimistic record locking and a hybrid UX-friendly strategy \u2014 describes concepts that remain fundamentally valid, but 4D's own locking model changed significantly with ORDA, which added true optimistic entity locking as a first-class, built-in mechanism rather than something developers had to hand-roll on top of classic pessimistic locks.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "ORDA optimistic entity locking (built-in `.save()` conflict detection, v16 R5+) natively provides much of what this hybrid approach worked around manually",
+      "Classic pessimistic `READ WRITE`/lock commands remain available for non-ORDA classic-form apps"
+    ]
+  }
+}

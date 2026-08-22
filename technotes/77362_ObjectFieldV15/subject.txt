@@ -1,0 +1,1 @@
+Introduction to Object field in v15 (TN 15-16, 4D v15, September 2015) — introduces 4D v15's new Object field data type for storing schema-less, JSON-like data directly in a table field, and demonstrates indexed querying via QUERY BY ATTRIBUTE.

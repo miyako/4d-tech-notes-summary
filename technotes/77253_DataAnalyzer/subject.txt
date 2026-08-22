@@ -1,0 +1,1 @@
+DataAnalyzer V1.0 (TN 15-05, 4D v14.3, March 9, 2015) — a first-look guide to a companion diagnostic tool that opens raw .4DD/.waData files and visually maps their low-level block structure to find corruption or help understand file layout.

@@ -1,0 +1,1 @@
+Tech Note: Elevated Privileges on macOS using sudo (TN 18-02, 4D v16, January 2018) — configures /etc/sudoers to allow specific or all commands to run with elevated privileges from within a 4D application without repeatedly prompting for the admin password.

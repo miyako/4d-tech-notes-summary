@@ -1,0 +1,1 @@
+Tech Note: Exporting the Smart Way — Using Smart Templates (TN 15-22, 4D v15, November 2015) — introduces a template-driven export architecture (v14 R5+) that replaces hand-coded SEND PACKET export loops with reusable, non-developer-editable templates for tab-delimited text, HTML, Excel, and Word output.

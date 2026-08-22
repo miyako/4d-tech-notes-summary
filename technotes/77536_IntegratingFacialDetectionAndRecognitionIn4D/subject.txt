@@ -1,0 +1,1 @@
+Tech Note: Integrating Facial Detection and Recognition in 4D - Revised (TN 16-06, 4D v15.x, May 2016) — bridges 4D to Python/OpenCV via Haar Cascade face detection and LBPH face recognition, exposing PY_DETECT_FACES/PY_CROP_FACES/PY_CREATE_RECOGNIZER functions.

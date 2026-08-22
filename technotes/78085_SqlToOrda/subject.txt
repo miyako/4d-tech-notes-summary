@@ -1,0 +1,1 @@
+Tech Note: SQL to ORDA (TN 18-12, 4D v17, June 2018) — introduces ORDA's Datastore/Dataclass/Entity Selection/Entity model as a thread-safe, object-notation alternative to SQL for CRUD operations.

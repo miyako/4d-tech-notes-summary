@@ -1,0 +1,20 @@
+{
+  "asset_id": 77953,
+  "title": "Tech Note: Image Pixelizer",
+  "technote_number": "18-03",
+  "year": 2018,
+  "published_date": "February 22, 2018",
+  "product": "4D",
+  "version": "16R4",
+  "platform": "Mac & Win",
+  "author": "Kristopher Merolla, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77953",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-03_Image_Pixelizer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Web Area", "SVG drawing (SVG_New, SVG_New_rect)", "JavaScript execution in Web Area", "Base64 encoding", "DOM Export to VAR / DOM CLOSE", "XML Decode / BLOB TO PICTURE"],
+  "historical_commentary": {
+    "text": "This is a clever workaround note that leans on the 4D Web Area to run JavaScript (for canvas-based pixel averaging) and SVG rectangle drawing because native 4D commands couldn't do this directly at the time — the technique itself still works today, but 4D has since added its own image-manipulation and picture-handling capabilities that may make some of this Web-Area/JS/SVG round-tripping unnecessary for simpler cases. The Web Area, DOM Export to VAR, and BLOB TO PICTURE commands used are all still current.",
+    "status": "still_relevant",
+    "related_updates": ["Web Area and DOM Export to VAR remain current commands", "4D has since expanded native picture/image manipulation commands, potentially reducing need for this JS/SVG workaround for some use cases", "SVG drawing commands and Base64 handling remain valid in current 4D"]
+  }
+}

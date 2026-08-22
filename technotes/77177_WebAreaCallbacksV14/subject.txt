@@ -1,0 +1,1 @@
+Web Area Callbacks in v14 (TN 14-17, 4D v14.0, November 13, 2014) — an explanation of 4D v14's new built-in mechanism for calling 4D methods from JavaScript running inside a Web Area, via the $4d object and configurable callback methods.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 77381,
+  "title": "Tech Note: Exploring the Power and Versatility of 4D Tags",
+  "technote_number": "15-17",
+  "year": 2015,
+  "published_date": "September 28, 2015",
+  "product": "4D",
+  "version": "15 (feature enhanced in v14 R4)",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77381",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-17_ExploringPowerOf4DTags.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PROCESS 4D TAGS",
+    "4DHTML, 4DBASE, 4DELSEIF, 4DEVAL, 4DSCRIPT, 4DLOOP tags",
+    "4DACTION / 4DCGI",
+    "4D web server (classic)"
+  ],
+  "historical_commentary": {
+    "text": "PROCESS 4D TAGS and the 4D Tags templating system (renamed from PROCESS HTML TAGS) were 4D's original server-side templating mechanism, used both for classic web serving and generic document/report templating; the command still exists in modern 4D for backward compatibility but has been largely superseded by newer, more standard approaches such as REST/JSON-driven front ends, WebArea/QuickReport alternatives, and general string/formula-based templating that don't require a proprietary tag dialect.",
+    "status": "partially_superseded",
+    "related_updates": ["Classic 4D web server templating gave way to REST APIs plus modern JS front ends", "4D Write Pro merge fields/expressions offer a more modern templating alternative for documents", "PROCESS 4D TAGS remains available but is rarely the recommended approach for new projects"]
+  }
+}

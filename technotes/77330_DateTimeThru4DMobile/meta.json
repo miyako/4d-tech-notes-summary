@@ -1,0 +1,25 @@
+{
+  "asset_id": 77330,
+  "title": "Tech Note: Handle Date and Time through 4D Mobile",
+  "technote_number": "15-14",
+  "year": 2015,
+  "published_date": "July 8, 2015",
+  "product": "4D Mobile",
+  "version": "14.x (demos require Wakanda Enterprise 10 and 4D v14 R5+)",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77330",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-14_DateTimeThru4DMB.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "JavaScript Date object",
+    "Wakanda date/duration attributes",
+    "4D Date and Time fields",
+    "4D Mobile client/server methods"
+  ],
+  "historical_commentary": {
+    "text": "This note is entirely scoped to the original 4D Mobile + Wakanda architecture, which has since been fully discontinued and replaced by ORDA-based REST and Qodly tooling; the date/time impedance mismatch it addresses (single JS Date vs. separate 4D Date/Time fields) is a real, still-relevant conceptual issue when bridging 4D to JSON/JS clients, but the specific Wakanda-based mechanics described no longer apply to current 4D development.",
+    "status": "obsolete",
+    "related_updates": ["4D Mobile and Wakanda both fully discontinued", "ORDA REST APIs now handle date/time serialization to JSON directly", "The underlying date/time modeling mismatch between 4D and JS remains a general integration consideration"]
+  }
+}

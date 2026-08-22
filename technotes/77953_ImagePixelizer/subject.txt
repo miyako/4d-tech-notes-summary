@@ -1,0 +1,1 @@
+Tech Note: Image Pixelizer (TN 18-03, 4D v16R4, February 2018) — pixelates images by chunking a picture, averaging pixel colors via JavaScript in a hidden Web Area, and redrawing the result as SVG rectangles converted back into a 4D picture.

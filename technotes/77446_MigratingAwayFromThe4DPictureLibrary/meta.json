@@ -1,0 +1,28 @@
+{
+  "asset_id": 77446,
+  "title": "Tech Note: [3rd Party Tech Note] Migrating Away from the 4D Picture Library",
+  "technote_number": "16-01",
+  "year": 2016,
+  "published_date": "January 14, 2016",
+  "product": "4D",
+  "version": "14.x",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=77446",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-01_PictureLibrary.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Picture Library (legacy, 4D 6.5+)",
+    "External picture files",
+    "OBJECT SET FORMAT command",
+    "4D Resource Viewer tool"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's own long-running, deliberate deprecation of the Picture Library in favor of external picture files, a direction that has only strengthened over the subsequent decade; the guidance, migration utilities, and missing-file handling patterns remain directly applicable today, and any database still relying on the Picture Library should still follow essentially this same migration path.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Continued 4D guidance favoring external picture/file references over any embedded binary picture storage",
+      "Modern 4D picture handling in Project Mode, which has no equivalent to the old resource-based Picture Library at all"
+    ]
+  }
+}

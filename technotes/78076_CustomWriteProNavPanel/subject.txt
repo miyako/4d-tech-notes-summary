@@ -1,0 +1,1 @@
+Tech Note: Custom 4D Write Pro Navigation Panel (TN 18-11, 4D v17, June 2018) — builds a drop-in WPNP component providing a page-thumbnail navigation subform and full-screen presentation mode for 4D Write Pro documents.

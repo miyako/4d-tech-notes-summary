@@ -1,0 +1,1 @@
+Improving Program Quality with Custom Error Logging (TN 15-19, 4D v14.x, October 2015) — a third-party guest note by David Adams presenting a full methodology for defining, catching, recording, and analyzing custom application errors as structured data.

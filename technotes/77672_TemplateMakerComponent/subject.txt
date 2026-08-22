@@ -1,0 +1,1 @@
+Template Maker Component (TN 16-18, 4D v15 R5, October 2016) — a component and macro toolkit that lets developers turn a project method into a reusable, security-protected 4D Transformation Tag template deployable to a live database without a structure update.

@@ -1,0 +1,26 @@
+{
+  "asset_id": 77619,
+  "title": "Tech Note: Creating a Range Slider in 4D",
+  "technote_number": "16-13",
+  "year": 2016,
+  "published_date": "2016-09-12",
+  "product": "4D",
+  "version": "15.2",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77619",
+  "download_url": "https://kb.4d.com/DLTN/TN/2016/16-13_RangeSlider_3.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Custom range-slider UI component",
+    "4D form picture/slider objects",
+    "Reusable 4D component packaging"
+  ],
+  "historical_commentary": {
+    "text": "The classic-form DIY range-slider technique (track + two draggable sliders built from pictures/objects) still functions in current 4D since it uses fundamental form objects and methods, but it remains a workaround for a control 4D never added natively; teams building modern web-facing UIs would more likely reach for an HTML/CSS/JS range-slider component in a Qodly or browser-based front-end instead.",
+    "status": "still_relevant",
+    "related_updates": [
+      "The classic-form DIY range-slider technique (track + two draggable sliders built from pictures/objects) still functions in current 4D since it uses fundamental form objects and methods, but it remains a workaround for a control 4D never added natively; teams building modern web-facing UIs would more likely reach for an HTML/CSS/JS range-slider component in a Qodly or browser-based front-end instead."
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 77229,
+  "title": "Breadcrumbs in 4D",
+  "technote_number": "15-03",
+  "year": 2015,
+  "published_date": "February 9, 2015",
+  "product": "4D",
+  "version": "14 R5",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77229",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-03_Breadcrumbs.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PROCESS 4D TAGS / 4DEVAL transformation tag",
+    "Subforms with On Bound Variable Change",
+    "Text arrays as shared subform state"
+  ],
+  "historical_commentary": {
+    "text": "The 4DEVAL tag and PROCESS 4D TAGS (formerly PROCESS HTML TAGS) are classic 4D web-area/HTML templating mechanisms; they still work in modern 4D but the broader trend since has been toward richer client-side JS frameworks and, for forms navigation, native form/page objects \u2014 so this specific breadcrumb recipe is a valid but dated UI pattern rather than a current best practice.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Modern 4D form object model (list box/subform improvements) offers alternative navigation UI patterns",
+      "For web contexts, client-side JS routing/breadcrumb libraries are now far more common than server-side 4DEVAL templating"
+    ]
+  }
+}

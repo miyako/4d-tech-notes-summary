@@ -1,0 +1,1 @@
+Tech Note: Cookie-Based Authentication for the 4D Web Server (TN 16-10, 4D v15.x, August 2016) — demonstrates a custom cookie/session-based login system for the 4D Web Server as a customizable alternative to built-in Web Passwords (BASIC/DIGEST) authentication.

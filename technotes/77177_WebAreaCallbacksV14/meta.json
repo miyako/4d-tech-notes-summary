@@ -1,0 +1,29 @@
+{
+  "asset_id": 77177,
+  "title": "Web Area Callbacks in v14",
+  "technote_number": "14-17",
+  "year": 2014,
+  "published_date": "November 13, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron PENNER, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77177",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-17_WebAreaCallbacks.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Area (WebKit engine)",
+    "$4d JavaScript object",
+    "WA EXECUTE JAVASCRIPT FUNCTION / WA EVALUATE JAVASCRIPT",
+    "JavaScript-to-4D callback mechanism"
+  ],
+  "historical_commentary": {
+    "text": "The v14 WebKit-based Web Area and its $4d JavaScript callback bridge were the standard way to embed rich HTML/JS content with two-way 4D communication for years; this remains functional in later 4D versions, though newer options like offscreen web areas and, more broadly, ORDA/REST-driven external web front ends have shifted where developers do this kind of integration.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Offscreen Web Areas (introduced later, e.g. v18 R3-era) for headless HTML/JS processing",
+      "Continued WebKit-engine improvements in subsequent 4D versions kept the $4d callback mechanism current",
+      "REST/ORDA-based external web apps as an alternative architecture to embedding a Web Area inside a 4D form"
+    ]
+  }
+}

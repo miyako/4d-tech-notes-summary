@@ -1,0 +1,1 @@
+An Alternate Technique to Display Records (TN 15-06, 4D v14 R4, March 18, 2015) — a technique for viewing/editing multiple records in tabs without locking, using a list box plus hand-built record 'container' objects instead of standard Input forms.

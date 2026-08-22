@@ -1,0 +1,24 @@
+{
+  "asset_id": 77361,
+  "title": "Tech Note: Extended Functionality with Object Get Coordinates and Listbox Sub Objects",
+  "technote_number": "15-15",
+  "year": 2015,
+  "published_date": "September 3, 2015",
+  "product": "4D",
+  "version": "15",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77361",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-15_ExtendedFnWithOGC.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "OBJECT GET COORDINATES",
+    "Listbox sub objects (columns, headers, footers)",
+    "Classic 4D Design Mode form objects"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a v15-era refinement to a classic Design Mode form command (OBJECT GET COORDINATES) for listbox sub-object geometry; the command and classic listbox object model still exist in 4D today for binary/Design Mode-style forms, but form design has since evolved substantially with newer listbox and form object capabilities, and much of this pixel-coordinate-based UI scripting approach feels dated compared to more declarative form design available in later 4D versions.",
+    "status": "still_relevant",
+    "related_updates": ["OBJECT GET COORDINATES remains available and functionally unchanged in current 4D", "4D's form/listbox engine has since added further listbox enhancements", "Design Mode-era form scripting patterns coexist with, but are less emphasized than, modern form object techniques"]
+  }
+}
