@@ -1,1 +1,0 @@
-Tech Note: Keyword Support in 4D v11 SQL (TN 01-08, 4D Developer v11, January 9, 2008) — This Technical Note covers the new keyword features in 4D v11 SQL.

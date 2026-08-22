@@ -1,1 +1,0 @@
-Tech Note: MD5 Algorithm Implemented in 4D v11 SQL (TN 08-39, 4D v11, November 12, 2008) — Nowadays more and more businesses are conducted over the internet, and security for changing information is becoming a problem.

@@ -1,1 +1,0 @@
-Tech Note: Resources: 4D 2004 vs 4D v11 SQL (TN 08-33, 4D v11.2, September 12, 2008) — .

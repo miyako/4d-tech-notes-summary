@@ -1,1 +1,0 @@
-Tech Note: Upgrades with User Created Tables (TN 02-08, 4D Developer v11, January 17, 2008) — This Technical Note prepares developers for creating a 4D application which allows end users to create their own tables.

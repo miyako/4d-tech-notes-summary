@@ -1,1 +1,0 @@
-Tech Note: Method History Component (TN 08-40, 4D v11.3, November 20, 2008) — Method History Component By Thomas Maul, 4D Germany Technical Note 08-40 Page 1 Table of Contents ------------------------------------------------------------------------------------------------------------------------------------------------------------------ Table of Contents.

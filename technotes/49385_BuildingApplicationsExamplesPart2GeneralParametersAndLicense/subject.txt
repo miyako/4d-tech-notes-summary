@@ -1,1 +1,0 @@
-Tech Note: Building Applications Examples – Part 2 General Parameters and Licenses (TN 08-13, 4D v2004.7r3, April 7, 2008) — 4D 2004 features over 80 XML keys that can be used to build customized applications.

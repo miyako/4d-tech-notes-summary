@@ -1,1 +1,0 @@
-Tech Note: Components in 4D v11 SQL (TN 08-08, 4D Developer v11, March 5, 2008) — 4D Components since their inception have represented the most flexible and secure way to create and distribute additional functionalities to be installed in other databases.

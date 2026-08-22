@@ -1,0 +1,32 @@
+{
+  "asset_id": 51737,
+  "title": "Tech Note: The Structure Window",
+  "technote_number": "08-42",
+  "year": 2008,
+  "published_date": "December 2, 2008",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Silvio Belini, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=51737",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_42-44_(DEC)/08-42_Structure_Window.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Structure Window visual interface",
+    "Database schema design",
+    "Table and field management",
+    "Relation visualization",
+    "Index management",
+    "Inspector palette",
+    "Structure organization tools"
+  ],
+  "historical_commentary": {
+    "text": "This note comprehensively documents the Structure Window visual interface in 4D v11 SQL, which had evolved into the central hub for database schema management. The toolbar, Information bar, and Inspector—along with features like folders, color coding, search, sorting, and index management—represented the state-of-the-art visual design experience for 4D developers in 2008. While the core concepts of visual database design remain relevant today, the specific UI (with classic toolbars and palettes) has been modernized in Project Mode (v17+) and current Design Center.",
+    "status": "still relevant",
+    "related_updates": [
+      "Project Mode (4D v17, 2018) introduced file-based development with a redesigned Structure editor that works with JSON-based storage",
+      "Modern 4D (v18+) Design Center provides improved visual UX with enhanced drag-and-drop, real-time validation, and integrated editing replacing the classic palette model",
+      "Core concepts of table/field/relation visualization and index management remain essential, though UI and underlying architecture have evolved"
+    ]
+  }
+}

@@ -1,1 +1,0 @@
-Tech Note: My First Web Grid (TN 08-36, 4D Web 2.0 Pack v11.2, October 16, 2008) — This article is a first introduction to the 4D Ajax Framework Data Grid 2.

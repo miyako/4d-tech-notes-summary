@@ -1,1 +1,0 @@
-Tech Note: Exploring 4D Ajax Framework Offline Mode (TN 08-28, 4D Web 2.0 Pack v11.2, August 6, 2008) — .

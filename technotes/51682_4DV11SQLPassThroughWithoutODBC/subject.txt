@@ -1,1 +1,0 @@
-Tech Note: 4D v11 SQL Pass-Through without ODBC (TN 08-41, 4D v11.3, November 25, 2008) — Since the introduction of 4D v11 SQL and prior to 4D v11 SQL 11.

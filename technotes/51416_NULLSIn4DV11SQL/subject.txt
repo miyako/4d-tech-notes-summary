@@ -1,1 +1,0 @@
-Tech Note: NULLS in 4D v11 SQL (TN 08-38, 4D v11, October 30, 2008) — For all of the vast improvements that 4D v11 SQL provides over its predecessors with respect to performance and scalability, some of the more subtle aspects of this latest offering are worth spending some time with.

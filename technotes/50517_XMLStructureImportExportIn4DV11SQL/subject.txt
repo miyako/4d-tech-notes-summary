@@ -1,1 +1,0 @@
-Tech Note: XML Structure Import/Export in 4D v11 SQL (TN 08-26, 4D v11.1, July 23, 2008) — .

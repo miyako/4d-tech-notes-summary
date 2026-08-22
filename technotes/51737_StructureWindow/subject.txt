@@ -1,0 +1,1 @@
+Tech Note: The Structure Window (TN 08-42, 4D v11.3, December 2008) — comprehensive guide to the Structure Window visual interface for creating and managing tables, fields, relations, and indexes in a 4D database.

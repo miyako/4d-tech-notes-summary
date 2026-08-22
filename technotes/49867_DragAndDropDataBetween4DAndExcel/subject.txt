@@ -1,1 +1,0 @@
-Tech Note: Drag and Drop Data between 4D and Excel (TN 08-19, 4D v11, May 21, 2008) — This Technical Note covers how to implement the new Drag and Drop mechanism as well as the pasteboard functionality in 4D v11 SQL to copy text data between a 4D Listbox and Excel spreadsheet.

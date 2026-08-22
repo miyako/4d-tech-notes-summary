@@ -1,1 +1,0 @@
-Tech Note: Integrating the YUI DataTable with the 4D Ajax Framework Data Bridge (TN 08-10, 4D Web 2.0 Pack v11, March 19, 2008) — The flexibility of the 4D Ajax Framework allows for it to interact and be integrated alongside other Ajax frameworks and API’s.

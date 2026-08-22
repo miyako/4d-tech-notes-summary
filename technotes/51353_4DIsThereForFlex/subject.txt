@@ -1,1 +1,0 @@
-Tech Note: 4D (Is There) for Flex (TN 08-37, 4D Web 2.0 Pack v11.2, October 23, 2008) — If you have 4D v11 SQL and want to connect a Flex application to 4D, you can take advantage of the latest addition to the 4D Web 2.

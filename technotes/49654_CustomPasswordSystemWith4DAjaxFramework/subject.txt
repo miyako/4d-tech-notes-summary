@@ -1,1 +1,0 @@
-Tech Note: Custom Password System with 4D Ajax Framework (TN 08-16, 4D Web 2.0 Pack v11.1, April 30, 2008) — Adding the 4D Ajax Framework to a basic database is very simple.

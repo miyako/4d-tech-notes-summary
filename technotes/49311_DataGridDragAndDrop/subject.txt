@@ -1,1 +1,0 @@
-Tech Note: Data Grid Drag-and-Drop (TN 08-12, 4D Web 2.0 Pack v11.1, April 2, 2008) — This Technical Note covers the drag-and-drop functionality of the new Data Grid that is available as part of the 4D Ajax Framework v11 Release 1 (11.
