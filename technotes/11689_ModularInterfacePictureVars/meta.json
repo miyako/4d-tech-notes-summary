@@ -1,0 +1,30 @@
+{
+  "asset_id": 11689,
+  "title": "Tech Note: Modular Interface Design Using Picture Variables",
+  "technote_number": "96-06",
+  "year": 1996,
+  "published_date": "February 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Forrest Swilling",
+  "page_url": "https://kb.4d.com/assetid=11689",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_06-10_(FEB)/96-06_Interface.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Picture variables / picture fields (active objects)",
+    "PICT resources loaded via ACI Pack (GetPicture)",
+    "4D Insider (layout/database size analysis)",
+    "MacsBug (Macintosh low-level debugger, used for RAM measurement)",
+    "ResEdit and Customizer Plus (resource editing/Update resource for 4D Server clients)"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to use non-enterable picture variables loaded from PICT resources (via ACI Pack) as shared, modular backdrops for fields and controls, demonstrating with 4D Insider/MacsBug measurements that this approach is far more file-size- and memory-efficient than duplicating 4D graphic objects or embedding large PICTs on every layout; the specific tooling (ResEdit-based PICT resources, ACI Pack, Customizer Plus's Update resource, MacsBug) is entirely classic Mac OS/4D v3.x-era, but the underlying UI-efficiency principle of reusing shared bitmap assets instead of duplicating graphics per-layout remains a recognizable, still-valid idea in modern UI design.",
+    "status": "obsolete",
+    "related_updates": [
+      "ResEdit, MacsBug, PICT resources, and 4D Insider are all obsolete classic Mac OS/4D v3.x-era tools with no modern equivalents in current 4D or macOS",
+      "Modern 4D form/object architecture provides native picture/icon object types and modern image formats, removing the need for hand-loaded PICT resources and ACI Pack's GetPicture command",
+      "Customizer Plus and the .res/.rex client resource file model described here reflect a 4D Server client architecture that has been substantially modernized in later 4D versions"
+    ]
+  }
+}

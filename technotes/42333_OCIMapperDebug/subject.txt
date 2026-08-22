@@ -1,0 +1,1 @@
+Tech Note: OCI Mapper Debug 2004-1 (TN 06-12, 4D Oracle, March 2006) — a companion component that adds text-file logging of OCI Mapper method calls and underlying 4D for OCI calls to aid debugging of Oracle connectivity code.

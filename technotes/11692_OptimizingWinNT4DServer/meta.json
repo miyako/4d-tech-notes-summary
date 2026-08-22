@@ -1,0 +1,30 @@
+{
+  "asset_id": 11692,
+  "title": "Tech Note: Optimizing Windows NT for High-Performance with 4D Server",
+  "technote_number": "96-10",
+  "year": 1996,
+  "published_date": "February 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Win",
+  "author": "Christopher Chapman",
+  "page_url": "https://kb.4d.com/assetid=11692",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_06-10_(FEB)/96-10_Optimizing_NT.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Windows NT File System (NTFS)",
+    "Windows NT pagefile / virtual memory tuning",
+    "NTFS directory/file compression",
+    "REALTIME process priority (start /REALTIME)",
+    "Windows NT display and desktop configuration"
+  ],
+  "historical_commentary": {
+    "text": "This note gives concrete Windows NT tuning recommendations for 4D Server — using NTFS, sizing the pagefile relative to RAM and spreading it across drives, compressing the data file's directory, launching 4DSERVER.EXE with REALTIME process priority via a batch file, and minimizing display/desktop overhead — all aimed at maximizing server throughput on 1996-era hardware; while the specific numeric formulas and OS-version details (Windows NT Workstation/Server, MB-scale RAM) are entirely obsolete relative to modern hardware and OS memory management, the general principles of using a fast filesystem, giving a database server process high scheduling priority, and minimizing unnecessary desktop/display overhead remain conceptually recognizable server-tuning ideas.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern Windows Server versions and 4D Server run on vastly more capable hardware with automatic, far more sophisticated virtual memory and I/O management, making these manual 1996-era pagefile-sizing formulas obsolete",
+      "NTFS has been the default/standard Windows filesystem for decades; the note's advocacy for NTFS over FAT/HPFS is no longer a meaningful choice",
+      "REALTIME process priority tuning via a manual batch file is largely superseded by modern OS process/service management and 4D Server's own updated deployment guidance"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 43020,
+  "title": "Tech Note: Fuzzy Tools Component",
+  "technote_number": "06-19",
+  "year": 2006,
+  "published_date": "May 12, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=43020",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_18-21_(MAY)/06-19_Fuzzy_Tools_Component.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "FuzzyTools 4D component",
+    "Phonetic matching (Metaphone4/6, Skeleton_Key, Soundex variants)",
+    "Fuzzy_GetPhoneticKey / Fuzzy_GetDistancePercentage APIs",
+    "Edit distance and Longest Common Subsequence (LCS) algorithms",
+    "WordList text-comparison utilities"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the public API of the FuzzyTools component, a compiled-methods 4D component wrapping classic phonetic (Soundex variants, Metaphone) and string-distance (edit distance, LCS) fuzzy-matching algorithms behind a small, error-checked gateway interface. As a component-design case study (protected gateway routines validating inputs before dispatching to private workers) it is a still-relevant pattern, and the fuzzy-matching algorithms themselves are timeless computer science, but the component and its exact method names are a third-party 4D 2004-era artifact that would need to be sourced or reimplemented for use in any modern 4D application, especially one using 4D's native SQL engine (introduced in v11, 2007) or built-in string functions that may now cover some of this ground.",
+    "status": "historical interest only",
+    "related_updates": [
+      "FuzzyTools is a compiled-component add-on from the 4D 2004 era, not a built-in or currently distributed 4D feature",
+      "4D v11 (2007) later introduced 4D's native SQL engine, which along with modern 4D language additions may offer alternative approaches to some string-matching tasks"
+    ]
+  }
+}

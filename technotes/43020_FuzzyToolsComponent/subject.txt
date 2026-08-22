@@ -1,0 +1,1 @@
+Tech Note: Fuzzy Tools Component (TN 06-19, 4D v2004, May 2006) — documents and demonstrates the FuzzyTools 4D component's public API for phonetic (Soundex/Metaphone) and string-distance (edit distance, LCS) fuzzy comparisons, with a sample database covering word matching, duplicate detection, and WordList text comparison.

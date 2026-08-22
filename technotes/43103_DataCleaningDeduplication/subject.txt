@@ -1,0 +1,1 @@
+Tech Note: Data Cleaning and Deduplication (TN 06-20, 4D v2004, May 2006) — a methodology overview covering address standardization, record blocking, fuzzy-match duplicate detection, and merge workflows, built around the companion FuzzyTools component.

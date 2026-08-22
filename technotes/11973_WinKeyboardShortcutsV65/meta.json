@@ -1,0 +1,27 @@
+{
+  "asset_id": 11973,
+  "title": "Tech Note: Windows Keyboard Shortcuts in 4th Dimension/4D Server v6.5",
+  "technote_number": "00-31",
+  "year": 2000,
+  "published_date": "July 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Win",
+  "author": "Steve Hartman, 4D, Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11973",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_31-35_%28JUL%29/00-31_Windows_KeyShortcuts.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension Design Environment",
+    "4D Debugger",
+    "4D Tools / Customizer Plus"
+  ],
+  "historical_commentary": {
+    "text": "This is the Windows counterpart to the Macintosh keyboard-shortcut reference (asset 11979 in this same archive), covering 4th Dimension/4D Server v6.5 and companion utilities 4D Tools and Customizer Plus on Windows 98/2000/NT of that era. Customizer Plus has been discontinued, and 4D's Design environment interface, menu structure, and shortcut conventions have changed considerably across two decades of subsequent releases, so while historically informative, this reference is no longer directly usable with current 4D software.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Customizer Plus, a companion utility referenced throughout, has been discontinued",
+      "4D's Design environment interface and keyboard shortcuts on Windows have changed substantially since v6.5"
+    ]
+  }
+}

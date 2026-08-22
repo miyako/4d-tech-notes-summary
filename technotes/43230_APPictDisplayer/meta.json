@@ -1,0 +1,29 @@
+{
+  "asset_id": 43230,
+  "title": "Tech Note: The AP PICT Displayer Plug-in Area",
+  "technote_number": "06-22",
+  "year": 2006,
+  "published_date": "June 2, 2006",
+  "product": "4D Pack",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, Quality Assurance Manager, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43230",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_22-26_(JUN)/06-22_AP_Pict_Displayer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Pack plug-in",
+    "AP PICT displayer plug-in area",
+    "AP PICT UPDATER command",
+    "4D Chart offscreen areas",
+    "Picture library and picture operators"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a workaround for 4D 2004's inability to redraw the GUI during method execution, using the 4D Pack plug-in's AP PICT displayer area to fake live progress bars and animations without spawning a second process. The underlying problem it solves (blocking single-threaded UI redraw during long-running code) was later addressed natively through improved process/thread handling and modern progress indicator support in later 4D versions, and 4D Pack itself was discontinued long ago, making this technique obsolete. The general pattern of building custom picture-based UI feedback is a historical curiosity rather than a practical approach in current 4D development.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Pack and its plug-in areas (including AP PICT displayer) have long been discontinued/superseded by native 4D form objects and built-in progress-bar support",
+      "Modern 4D versions handle asynchronous processes and UI redraw very differently, removing the need for this kind of picture-swapping workaround"
+    ]
+  }
+}

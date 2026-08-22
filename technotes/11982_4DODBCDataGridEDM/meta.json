@@ -1,0 +1,27 @@
+{
+  "asset_id": 11982,
+  "title": "Tech Note: 4D ODBC in DataGrid's Enterprise Data Module - Beta 1",
+  "technote_number": "00-40",
+  "year": 2000,
+  "published_date": "August 1, 2000",
+  "product": "4D ODBC",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Sebastian Frey, Sextant Technologies, Inc.",
+  "page_url": "https://kb.4d.com/assetid=11982",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_36-40_%28AUG%29/00-40_4D_ODBC_in_DataGrid.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D ODBC plug-in",
+    "ODBC Driver for 4D Server",
+    "DataGrid Enterprise Data Module (EDM)"
+  ],
+  "historical_commentary": {
+    "text": "This note, the fifth in Sextant Technologies' DataGrid series, explains 4D ODBC (which lets 4D act as an ODBC client) as integrated into DataGrid's Enterprise Data Module, and it carefully distinguishes 4D ODBC from the separate ODBC Driver for 4D Server (which lets 4D act as an ODBC server for tools like Crystal Reports or Visual Basic) — a distinction that confused many developers even at the time. DataGrid itself is long defunct, and while ODBC connectivity concepts remain broadly relevant, 4D's own architecture for both consuming and exposing external data sources has evolved considerably since this Beta-1-era plug-in integration, making the specific implementation obsolete.",
+    "status": "obsolete",
+    "related_updates": [
+      "DataGrid and its Enterprise Data Module, the third-party application this note documents, are long discontinued",
+      "4D's own connectivity options for consuming external databases and exposing 4D data to other tools have significantly evolved since this 2000-era plug-in architecture"
+    ]
+  }
+}

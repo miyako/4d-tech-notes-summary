@@ -1,0 +1,27 @@
+{
+  "asset_id": 11981,
+  "title": "Tech Note: Creating Referer Logs with 4D Web Server",
+  "technote_number": "00-57",
+  "year": 2000,
+  "published_date": "December 1, 2000",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11981",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-57_Creating_Referer_Logs.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Server",
+    "4DSCRIPT/RefererGrabber",
+    "Server-side includes (.shtml)"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to capture HTTP Referer information using a 4DSCRIPT tag embedded in server-side-include-enabled .shtml pages served by 4D's built-in web server, a common web-analytics need in the dot-com-boom era before dedicated web analytics platforms were widespread. The general need to track referer/traffic-source data remains relevant today, but it is now almost universally handled by external analytics services (Google Analytics and similar) or by modern web server/application log analysis rather than a bespoke 4D server-side-include tag, making this specific mechanism superseded.",
+    "status": "superseded",
+    "related_updates": [
+      "Referer/traffic-source tracking today is typically handled by external web analytics platforms rather than custom 4D server-side-include tags",
+      "4D's web server and server-side scripting model have evolved considerably since this v6.7-era .shtml/4DSCRIPT mechanism"
+    ]
+  }
+}

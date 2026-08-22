@@ -1,0 +1,29 @@
+{
+  "asset_id": 11696,
+  "title": "Tech Note: Using Non-Decimal Numbers for Bar Coding and Other Purposes",
+  "technote_number": "96-15",
+  "year": 1996,
+  "published_date": "March 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Kent Wilbur",
+  "page_url": "https://kb.4d.com/assetid=11696",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_11-15_(MAR)/96-15_NonDecimal_Numbers.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Custom base-conversion methods (BA_ToDecimal, BA_FromDecimal)",
+    "Code 39 bar code encoding (base 36)",
+    "Adobe CodeThirtyNine bar code font",
+    "4D method-based performance/speed testing"
+  ],
+  "historical_commentary": {
+    "text": "This note presents hand-written 4D methods for converting numbers between decimal and arbitrary bases (from binary up through base 111), motivated primarily by Code 39 bar code generation (which encodes data in base 36), and includes speed benchmarks and font-based rendering guidance using the Adobe CodeThirtyNine font; the specific base-conversion algorithms remain mathematically valid and could still be used today, but the surrounding practice of building bar codes via a font mapped through custom 4D routines is dated compared to modern dedicated bar-code generation libraries, plugins, and printer-level bar code support.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern bar-code generation is typically handled via dedicated plugins, libraries, or printer-native bar code commands rather than custom base-conversion methods paired with a bar-code font",
+      "4D has since gained more robust ways to interface with printing and graphics that reduce the need for hand-rolled base-conversion utility methods for this purpose",
+      "The underlying base-conversion algorithms (decimal to/from arbitrary base) remain correct and reusable as general-purpose utility code independent of bar coding"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Keyword Indexes, Part 1 (TN 00-37, 4D v6.5, August 2000) — the first part of a series introducing keyword indexing in 4D, using a related many-table populated with individual words and an excludable stop-word list to speed up text queries.

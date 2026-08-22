@@ -1,0 +1,1 @@
+Tech Note: 4D Open in DataGrid's Enterprise Data Module - Beta 1 (TN 00-39, 4D Open v6.5, August 2000) — a description of how 4D Open for 4D was implemented as the low-level connectivity layer of DataGrid's Enterprise Data Module, enabling connections to one or many 4D Servers over a network.

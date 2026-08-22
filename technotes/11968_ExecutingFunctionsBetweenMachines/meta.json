@@ -1,0 +1,27 @@
+{
+  "asset_id": 11968,
+  "title": "Tech Note: Executing Functions Between Different Machines",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "June 1, 2000",
+  "product": "4D Server",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11968",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "EXECUTE ON CLIENT / EXECUTE ON SERVER (era-equivalent)",
+    "4D Client/4D Server process communication",
+    "Inter-process variables"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates how to trigger a task on a remote machine (between two 4D Clients, or between 4D Client and 4D Server) and retrieve a result back from it — a foundational distributed-execution pattern for classic 4D client-server architecture. The general need (run code elsewhere, get a result back) remains completely valid today, but 4D has since introduced dedicated, more robust language commands for exactly this purpose (executing code on the server or on other client processes and passing results back), making the specific 2000-era mechanism this note likely relied on superseded by cleaner, purpose-built commands.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's language has since added dedicated commands for executing code on the server or other client processes and retrieving results, replacing the more manual inter-process signaling techniques common in this era",
+      "The general architectural need this note addresses — triggering remote execution and retrieving a result — remains a standard requirement in modern 4D client-server applications"
+    ]
+  }
+}

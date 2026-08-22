@@ -1,0 +1,27 @@
+{
+  "asset_id": 11972,
+  "title": "Tech Note: Storing Binary Values in Long Integers",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "February 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11972",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Longint bit-packing",
+    "Boolean/multi-choice bit flags",
+    "Compiled mode performance"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to pack up to 32 individual boolean flags (or multi-bit multiple-choice values) into the bits of a single 32-bit Longint field, a space-efficient technique for representing many yes/no or small-enumeration values without dedicating a separate field to each one. Bitwise packing of flags into integer fields is a general low-level programming technique that remains just as valid in current 4D (Longint/bitwise operators are unchanged), so unlike most other notes in this batch, this one is still directly usable guidance today, though the note's specific warning about needing compiled mode for acceptable performance is less critical on modern hardware.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's Longint type and bitwise operators used for this technique remain unchanged and fully supported in current 4D versions",
+      "Modern hardware and the current 4D compiler/interpreter performance profile make the note's original compiled-mode-only performance warning less critical than in 2000, though compiled mode still performs better for bit-heavy loops"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Optimizing Windows NT for High-Performance with 4D Server (TN 96-10, 4D Server v3.x, February 1996) — practical Windows NT tuning recommendations for maximizing 4D Server performance, covering filesystem choice, pagefile sizing, data compression, process priority, and display/desktop configuration.

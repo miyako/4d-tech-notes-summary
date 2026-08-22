@@ -1,0 +1,1 @@
+Tech Note: The AP PICT Displayer Plug-in Area (TN 06-22, 4D Pack v2004, June 2006) — explains how to use the 4D Pack "AP PICT displayer" plug-in area and AP PICT UPDATER command to fake live GUI redraw (progress bars, animations) during a running 4D method.

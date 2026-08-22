@@ -1,0 +1,1 @@
+Tech Note: Using ASCII Maps to Export and Import Data on the Windows Platform (TN 96-09, 4D v3.x, February 1996) — explains 4D's ASCII Map feature for translating high-order (128-255) ASCII characters between 4D's internal Macintosh character set and Windows ASCII character sets during data import/export.

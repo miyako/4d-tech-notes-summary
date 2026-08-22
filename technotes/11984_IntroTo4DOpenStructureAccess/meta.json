@@ -1,0 +1,27 @@
+{
+  "asset_id": 11984,
+  "title": "Tech Note: Introduction to 4D Open",
+  "technote_number": "00-44",
+  "year": 2000,
+  "published_date": "September 1, 2000",
+  "product": "4D Open",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Aziz Elghomari, 4D S.A. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11984",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_41-45_%28SEP%29/00-44_Intro_to_4D_Open.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Open",
+    "Structure access API",
+    "Network components (ADSP/TCP)"
+  ],
+  "historical_commentary": {
+    "text": "This is the first of a pair of introductory 4D Open notes (its data-access companion, also archived here as asset 11987, followed a month later), explaining 4D Open's four functional themes and walking through initializing a connection and retrieving structure information (tables, fields, attributes) from a 4D Server. 4D Open, described here as a C-style API with explicit entry points and network-component initialization calls, has been discontinued for many years; modern external programmatic access to 4D Server data is done through 4D's REST/ORDA web data server, which offers a fundamentally different, HTTP-based architecture rather than a linked C library.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Open has been discontinued; there is no direct modern product carrying its name forward",
+      "4D's REST/ORDA data server is the modern replacement path for programmatic, cross-platform access to a 4D Server's structure and data"
+    ]
+  }
+}

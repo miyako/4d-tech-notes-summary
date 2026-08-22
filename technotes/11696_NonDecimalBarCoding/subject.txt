@@ -1,0 +1,1 @@
+Tech Note: Using Non-Decimal Numbers for Bar Coding and Other Purposes (TN 96-15, 4D v3.x, March 1996) — presents custom 4D methods for converting numbers between decimal and arbitrary bases, applied to Code 39 bar code generation via the Adobe CodeThirtyNine font, with accompanying speed benchmarks.

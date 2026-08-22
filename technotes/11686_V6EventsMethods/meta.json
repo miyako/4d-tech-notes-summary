@@ -1,0 +1,30 @@
+{
+  "asset_id": 11686,
+  "title": "Tech Note: 4D V6: Events Replace Phases, Methods Replace Procedures",
+  "technote_number": "96-47",
+  "year": 1996,
+  "published_date": "November 1, 1996",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": "Thomas D’Urso",
+  "page_url": "https://kb.4d.com/assetid=11686",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_45-50_(NOV)/96-47_Events-Triggers.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D V6 Methods (Database/Project/Table/Form/Object Methods)",
+    "4D V6 Events (Database/Form/user-generated events)",
+    "Triggers (Table Methods)",
+    "4D V6 Constants",
+    "Explorer and Browser design-environment dialogs"
+  ],
+  "historical_commentary": {
+    "text": "This note is a preview, for an unreleased 4D V6 Developer Release, of the terminology and architecture shift from Version 3's procedures/scripts/phases model to V6's Methods/Events/Constants model (Database, Project, Table, Form, and Object Methods; Database and Form Events; Triggers); this V6-era terminology has been the standard 4D vocabulary ever since (Project Methods, Form Methods, Triggers, Constants are all still current concepts), making the core content still directly relevant, though some UI details (Explorer/Browser dialogs) have evolved in subsequent 4D versions.",
+    "status": "still relevant",
+    "related_updates": [
+      "The terminology introduced here — Project Methods, Table Methods/Triggers, Form Methods, Object Methods, Database Methods, and Constants — remains 4D's standard vocabulary today, decades after V6",
+      "The specific V6-era Explorer/Browser dialogs described have been superseded by the modern 4D Design environment's Explorer, Method Editor, and Property List panels",
+      "Project Mode (text-based, introduced in 4D v17, 2018) coexists with the still-supported Design Mode (binary structure file) that this V6-era note describes"
+    ]
+  }
+}

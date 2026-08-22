@@ -1,0 +1,29 @@
+{
+  "asset_id": 43174,
+  "title": "Tech Note: Creating Client/Server Applications: Managing clients, plug-ins, tips and tricks",
+  "technote_number": "06-21",
+  "year": 2006,
+  "published_date": "May 26, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Chiheb NASR, QA Engineer, 4D S.A.",
+  "page_url": "https://kb.4d.com/assetid=43174",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_18-21_(MAY)/06-21_Creating_CS_Apps.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Client/Server application generator (BUILD APPLICATION command)",
+    "XML build project files (BuildApp.XML)",
+    "EnginedServer.xml auto-connect file",
+    "4D Client automatic upgrade mechanism",
+    "4D Server / 4D Client plug-in management"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the mechanics of 4D 2004's compiled client/server application generator — XML build project keys, the EnginedServer.xml auto-connect file, the automatic client-upgrade script pipeline (upgclnt.bat/upgclnt.sh), and plug-in folder precedence rules. It is squarely a Design Mode / binary structure-file era document (a decade before Project Mode) describing deployment tooling that has since been substantially reworked in modern 4D Server/Client releases, though the underlying goals — versioned client/server deployment and automatic client updates — remain a live concern in 4D today, just handled through newer mechanisms. Practically all the specific XML tag names, file names, and folder-priority details described are legacy and would need to be re-verified against a current 4D release before reuse.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's client/server build and update tooling has evolved significantly since 4D 2004/2004.1 (the note itself notes a tag rename between versions)",
+      "Modern 4D Server/Client deployment still supports automatic client updating, but the specific XML build-project schema described here is legacy and not guaranteed to match current 4D versions"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 11687,
+  "title": "Tech Note: Removing Win32s",
+  "technote_number": "96-04",
+  "year": 1996,
+  "published_date": "January 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Win",
+  "author": "Christopher Chapman",
+  "page_url": "https://kb.4d.com/assetid=11687",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_01-05_(JAN)/96-04_Removing_Win32s.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Win32s (32-bit Windows compatibility layer for Windows 3.1/WfW)",
+    "SYSTEM.INI manual editing",
+    "DOS deltree command"
+  ],
+  "historical_commentary": {
+    "text": "This note gives step-by-step DOS/SYSTEM.INI instructions for manually removing a corrupted or conflicting Win32s installation (the 32-bit thunking layer that let 4D, 4D Client, and 4D Server run under 16-bit Windows 3.1/Windows for Workgroups) so it can be cleanly reinstalled; Win32s and 16-bit Windows 3.1/WfW have been completely obsolete for decades, making this note of historical interest only.",
+    "status": "obsolete",
+    "related_updates": [
+      "Win32s and Windows 3.1/Windows for Workgroups have been obsolete since the late 1990s, superseded by native 32-bit (and later 64-bit) Windows versions starting with Windows 95/NT",
+      "4D has not required any 16-bit-to-32-bit thunking layer since Windows 95/NT became the baseline, and modern 4D runs as a native 32-bit/64-bit Windows application"
+    ]
+  }
+}

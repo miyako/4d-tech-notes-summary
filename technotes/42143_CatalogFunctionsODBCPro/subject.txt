@@ -1,0 +1,1 @@
+Tech Note: Catalog Functions in ODBC Pro (TN 06-10, 4D ODBC v2004, March 2006) — a guide to using the ODBC Pro plug-in's catalog commands to introspect an external database's tables, columns, keys, and privileges for building dynamic SQL requests.

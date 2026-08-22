@@ -1,0 +1,27 @@
+{
+  "asset_id": 11694,
+  "title": "Tech Note: Maintaining a Web Site with 4th Dimension",
+  "technote_number": "96-18",
+  "year": 1996,
+  "published_date": "April 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11694",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_16-21_(APR)/96-18_Maintaining_Web.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D-based web site content management (circa 1996)",
+    "CGI-driven page generation on demand"
+  ],
+  "historical_commentary": {
+    "text": "The extracted text for this asset is corrupted at the character level (likely a subsetted PDF font with no usable ToUnicode mapping), so this summary is based only on the title, download-path naming (TN_1996_16-21_(APR), implying Technical Note 96-18), and known metadata rather than verified document content. Based on the title alone, this note described using 4th Dimension to manage and maintain the content of a web site — an idea (data-driven, database-backed web content management) that remains generically relevant in spirit, though any specific 1996-era mechanism it described (most likely CGI-based, given the era's tooling landscape covered by companion notes like TN 96-11) would be entirely superseded by 4D's later built-in web server and Internet Commands, and by modern content-management approaches generally.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D gained a built-in web server and 4D Internet Commands plugin around 1997-1998, superseding the third-party/CGI-based web site maintenance techniques this note likely described",
+      "Modern web content management is handled by dedicated CMS platforms or application frameworks rather than bespoke database-driven page generation of the kind implied by this note's title and era",
+      "The specific implementation details of this note cannot be verified due to corrupted source text extraction"
+    ]
+  }
+}

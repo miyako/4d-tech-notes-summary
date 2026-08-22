@@ -1,0 +1,27 @@
+{
+  "asset_id": 11993,
+  "title": "Tech Note: Web Assistant for Dummies",
+  "technote_number": "00-54",
+  "year": 2000,
+  "published_date": "November 1, 2000",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11993",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-54_Using_Web_Assistant.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Assistant",
+    "4D Web Server",
+    "Static/dynamic web publishing"
+  ],
+  "historical_commentary": {
+    "text": "The 4D Web Assistant was a no-code/low-code tool aimed at letting non-programmers publish 4D data to the web during the dot-com-boom era, well before REST APIs, ORDA, or modern JS front ends existed. The Web Assistant product itself has long since been discontinued and its wizard-driven approach to web publishing bears little resemblance to how 4D applications expose data to the web today (4D's built-in REST/ORDA data server, Qodly, and standard web frameworks), making this note of historical interest only.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's Web Assistant tool was discontinued long ago and has no direct modern equivalent",
+      "Publishing 4D data to the web today is typically done via 4D's REST/ORDA data server, Qodly, or custom web frameworks rather than a wizard-driven assistant"
+    ]
+  }
+}

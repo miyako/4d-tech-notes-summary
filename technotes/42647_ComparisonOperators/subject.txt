@@ -1,0 +1,1 @@
+Tech Note: Comparison Operators (TN 06-15, 4D v2004, April 2006) — a tutorial reference explaining 4th Dimension's equality/inequality/relational operators and how they behave across String, Numeric, Date, Time, and Pointer data types, including case-insensitivity, wildcards, and real-number rounding pitfalls.

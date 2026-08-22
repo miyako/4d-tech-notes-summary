@@ -1,0 +1,27 @@
+{
+  "asset_id": 11994,
+  "title": "Tech Note: Simple Applications for Choice Lists",
+  "technote_number": "00-55",
+  "year": 2000,
+  "published_date": "November 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11994",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-55_Uses_for_Choice_Lists.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Choice Lists",
+    "Data file storage",
+    "Form tab objects"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a real structural limitation of classic 4D Design Mode: choice lists live in the binary structure file, so any end-user edits to a list are silently wiped out the next time a developer redeploys a structure update. Project Mode (introduced in 4D v17, 2018), which stores structure elements as individual text files under source control, changes this picture considerably by making structure elements easier to manage and merge, though the specific data-file storage workaround this note proposes remains a reasonable technique for classic/Design Mode databases still in production.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Project Mode (v17+) stores structure definitions as text files rather than one opaque binary structure file, changing how developers manage and version choice-list-like structure data",
+      "Databases still running in classic Design Mode retain the exact storage behavior this note describes"
+    ]
+  }
+}

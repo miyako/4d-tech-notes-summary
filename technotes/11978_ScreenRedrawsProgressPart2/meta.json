@@ -1,0 +1,27 @@
+{
+  "asset_id": 11978,
+  "title": "Tech Note: Forcing Screen Redraws: Updating a Progress Display on a Form, Part II",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "June 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11978",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Forced form redraw technique",
+    "MESSAGE command",
+    "Progress display optimization"
+  ],
+  "historical_commentary": {
+    "text": "This note combines a manual forced-redraw trick with the MESSAGE command to build a faster, lower-overhead progress display in classic 4D forms — a real necessity in an era before native progress-bar objects and modern process/UI-thread handling existed in 4D. The specific low-level redraw-forcing workaround is superseded by later 4D releases' built-in progress indicator objects and improved automatic screen-refresh handling during long-running processes, though the general goal of giving users responsive visual feedback during long operations remains just as important today.",
+    "status": "superseded",
+    "related_updates": [
+      "Later 4D releases introduced native progress-indicator form objects and improved automatic screen-refresh behavior during long-running processes, reducing the need for manual forced-redraw tricks like this one",
+      "The MESSAGE command and general process-status-display concepts remain part of 4D, even as the specific redraw-forcing workaround described here is no longer the recommended approach"
+    ]
+  }
+}

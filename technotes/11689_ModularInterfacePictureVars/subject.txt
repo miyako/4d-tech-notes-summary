@@ -1,0 +1,1 @@
+Tech Note: Modular Interface Design Using Picture Variables (TN 96-06, 4D v3.x, February 1996) — demonstrates using non-enterable picture variables as shared, resource-based backdrops for fields and controls in 4D layouts, with measured file-size and RAM savings over duplicating standard 4D graphic objects.

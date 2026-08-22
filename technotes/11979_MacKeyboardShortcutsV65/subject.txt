@@ -1,0 +1,1 @@
+Tech Note: Macintosh Keyboard Shortcuts in 4th Dimension/4D Server v6.5 (TN 00-32, 4D v6.5, July 2000) — a comprehensive reference listing every keyboard shortcut available in 4th Dimension, 4D Server, and their companion utilities on classic Mac OS.

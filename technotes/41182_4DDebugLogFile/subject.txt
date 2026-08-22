@@ -1,0 +1,1 @@
+Tech Note: The 4DDebugLog.txt File (TN 06-01, 4D v2004.3, January 2006) — an explanation of 4D's execution-tracing debug log file and a sample method for archiving and rotating it to avoid filling the hard disk.

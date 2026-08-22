@@ -1,0 +1,1 @@
+Tech Note: Backup Settings for Distributed Applications (TN 06-13, 4D Backup v2004, March 2006) — shows how to avoid the invalid-backup-path dialog in distributed 4D applications by generating a custom Backup.XML file from an XML template at startup using the PROCESS HTML TAGS command.

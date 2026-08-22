@@ -1,0 +1,1 @@
+Tech Note: Understanding the ASIFONT.MAP File (TN 96-03, 4D v3.x, January 1996) — explains the font-substitution lookup file 4D uses to map Macintosh font names/FOND IDs to equivalent Windows fonts when porting a database cross-platform, and how to add custom font mappings.

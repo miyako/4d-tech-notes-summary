@@ -1,0 +1,27 @@
+{
+  "asset_id": 11969,
+  "title": "Tech Note: Serving Dynamic HTML Pages",
+  "technote_number": "00-36",
+  "year": 2000,
+  "published_date": "August 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Hugo Fournier, 4D, Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11969",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_36-40_%28AUG%29/00-36_Serving_Dynamic_HTML.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D ACTION in URL",
+    "SEND HTML BLOB",
+    "4D non-contextual web mode"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates a foundational dynamic-web-publishing pattern for 4D's era: using 4D ACTION embedded in a URL to trigger a non-contextual web method that assembles an HTML template with data pulled from 4D fields, then returns it with SEND HTML BLOB. This template-and-BLOB style of dynamic HTML generation was the standard way to publish data-driven web pages from 4D at the time; today, equivalent needs are far more often served by 4D's REST/ORDA data server feeding modern JavaScript front ends, or by page-based web templating systems introduced in later 4D releases, making the specific technique here superseded even though the general concept of building HTML dynamically from data is timeless.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's REST/ORDA data server and modern JavaScript front-end frameworks are now the more common way to serve data-driven web content from a 4D backend",
+      "Later 4D releases introduced more structured, page-based web templating options beyond hand-assembling SEND HTML BLOB output from a 4D ACTION URL"
+    ]
+  }
+}

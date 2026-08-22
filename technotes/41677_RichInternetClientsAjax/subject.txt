@@ -1,0 +1,1 @@
+Tech Note: Rich Internet Clients – First Steps with AJAX (TN 06-05, 4D v2004, February 2006) — 4D's first Tech Note on Ajax, introducing JavaScript/DOM basics, the XMLHttpRequest object, and how to build interactive, asynchronous web UIs (type-ahead search, live scrolling grids) against a 4D Web server backend.

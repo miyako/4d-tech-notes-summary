@@ -1,0 +1,30 @@
+{
+  "asset_id": 41677,
+  "title": "Tech Note: Rich Internet Clients \u2013 First Steps with AJAX",
+  "technote_number": "06-05",
+  "year": 2006,
+  "published_date": "February 3, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=41677",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_05-08_(FEB)/06-05_Rich_Internet_Clients.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Ajax (Asynchronous JavaScript and XML)",
+    "XMLHttpRequest object",
+    "4D Web Server / 4DAction",
+    "JavaScript DOM manipulation",
+    "Type Ahead / Live Grid UI patterns",
+    "GET WEB FORM VARIABLES, SEND HTML TEXT"
+  ],
+  "historical_commentary": {
+    "text": "This note is 4D's first Tech Note introducing Ajax, teaching basic JavaScript/DOM concepts and the XMLHttpRequest object, then showing how to wire them to a 4D Web server backend via 4DAction methods for live examples like type-ahead actor search and a scrolling 'Live Grid.' It captures the excitement of the mid-2000s Ajax/Web 2.0 wave (referencing Google Suggest, Gmail, Flickr) as a genuinely new technique for 4D web developers at the time. The core Ajax concepts (asynchronous XMLHttpRequest, DOM updates) remain foundational to the web platform, but the specific implementation details shown (hand-written cross-browser XMLHttpRequest detection, cache-busting via HTML form POST, raw 4DAction URL routing, manual JavaScript frameworks like Prototype/Rico) have been thoroughly superseded by native browser fetch/XHR abstractions, modern JS frameworks, and 4D's own later Web server and Ajax framework (4DAF/A4D) improvements.",
+    "status": "superseded",
+    "related_updates": [
+      "Ajax as a general web technique became mainstream and standardized; native XMLHttpRequest/fetch APIs and modern JS frameworks have long since superseded the hand-rolled cross-browser detection code shown here",
+      "4D later shipped its own more structured 4D Ajax Framework (4DAF/A4D) for building richer web UIs, itself since superseded by more modern 4D web tooling"
+    ]
+  }
+}

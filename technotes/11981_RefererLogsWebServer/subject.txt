@@ -1,0 +1,1 @@
+Tech Note: Creating Referer Logs with 4D Web Server (TN 00-57, 4D v6.7, December 2000) — an easy method for collecting HTTP Referer information from visitors to a 4D-served web site using a 4DSCRIPT tag on server-side-include-enabled pages.

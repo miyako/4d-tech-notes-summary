@@ -1,0 +1,29 @@
+{
+  "asset_id": 42436,
+  "title": "Tech Note: Backup Settings for Distributed Applications",
+  "technote_number": "06-13",
+  "year": 2006,
+  "published_date": "March 31, 2006",
+  "product": "4D Backup",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, QA Manager, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=42436",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_09-13_(MAR)/06-13_Backup_Settings.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Backup system and Backup.XML project file",
+    "PROCESS HTML TAGS command for XML templating",
+    "On Startup / On Server Startup database methods",
+    "Get 4D folder / Test path name commands",
+    "4D DOM/XML commands (contrasted approach)"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a genuinely recurring pain point for distributed 4D applications of its era: a Backup.XML project file baked in at development time containing a stale local backup destination path, which forces an unwanted folder-selection dialog once the application is moved to a new machine. Its proposed solution \u2014 a Backup.XML2 template processed at startup with PROCESS HTML TAGS rather than hard-coded DOM/XML-building code \u2014 is a clever, still-instructive templating pattern, though it depends entirely on 4D Backup's classic XML project file format and the companion 4D Backup product from that generation, both of which should be re-verified against current 4D Backup/4D Server behavior before reuse.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Backup's project file format and startup behavior are specific to this generation of 4D (v2004) and should be re-checked against current 4D Server/Backup documentation before applying this technique",
+      "4D Backup, 4D Write, 4D View, and similar companion products from this era have themselves evolved considerably (e.g., 4D Write Pro launched in 2016, 4D View Pro in 2018), and backup/preferences handling in modern 4D may differ from what is described here"
+    ]
+  }
+}

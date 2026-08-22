@@ -1,0 +1,1 @@
+Tech Note: Keyword Indexes (Part 3) (TN 00-45, 4D v6.5, September 2000) — the third part of a series on building keyword indexes with related many-tables, extending the technique to index keywords across multiple tables at once.

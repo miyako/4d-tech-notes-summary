@@ -1,0 +1,28 @@
+{
+  "asset_id": 42036,
+  "title": "Tech Note: 4D for OCI PL/SQL",
+  "technote_number": "06-09",
+  "year": 2006,
+  "published_date": "March 3, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Noreddine Margoum, QA Engineer, 4D SA.",
+  "page_url": "https://kb.4d.com/assetid=42036",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_09-13_(MAR)/06-09_4D_for_OCI_PL-SQL.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D for OCI plug-in",
+    "Oracle PL/SQL",
+    "OCIBindByName / OCIStmtPrepare / OCIStmtExecute",
+    "Anonymous PL/SQL blocks"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to create and call Oracle PL/SQL functions and stored procedures from 4D via the low-level 4D for OCI plug-in, using a recursive factorial function and a simple user/date/time-reading procedure as teaching examples. The plug-in-level OCI binding technique is Oracle- and 4D-for-OCI-specific and now legacy, but the underlying pattern of calling stored PL/SQL routines with bound input/output parameters remains conceptually identical in any Oracle integration written today, just typically via more modern connectivity layers rather than 4D for OCI.",
+    "status": "superseded",
+    "related_updates": [
+      "4D for OCI was 4D's low-level Oracle connectivity plug-in for 4D 2004-era databases, following the discontinuation of the older, higher-level 4D Oracle plug-in",
+      "4D's later native SQL engine (v11, 2007) and evolving external database connectivity options changed how 4D applications typically integrate with SQL databases"
+    ]
+  }
+}

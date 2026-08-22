@@ -1,0 +1,28 @@
+{
+  "asset_id": 42553,
+  "title": "Tech Note: Difference between DOM and SAX",
+  "technote_number": "06-14",
+  "year": 2006,
+  "published_date": "April 7, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Yvan Ayaay, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=42553",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_14-17_(APR)/06-14_Dif_btw_DOM_Sax.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D DOM (Document Object Model) XML commands",
+    "4D SAX (Simple API for XML) commands",
+    "XML tree parsing and XPath-based navigation",
+    "Xerces XML library (underlying 4D's XML engine)"
+  ],
+  "historical_commentary": {
+    "text": "This note is a clear, still largely accurate explanation of the classic DOM-vs-SAX XML parsing tradeoff (in-memory random-access tree vs. streaming linear event parsing) as implemented by 4D's own DOM and SAX command sets, built on the Xerces library. The conceptual DOM/SAX distinction remains standard industry knowledge and 4D's XML commands from this era are still present in the classic 4D language, though modern 4D development increasingly favors JSON and native object/collection types for structured-data interchange rather than XML, and any large-XML/document-interchange work today would also consider 4D's SQL engine (added in v11, 2007) or newer JSON parsing commands introduced well after this note.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's classic DOM/SAX XML command sets described here are still part of the 4D language, though 4D has since added extensive native JSON support that is now often preferred over XML for structured data interchange",
+      "4D v11 (2007) later introduced 4D's native SQL engine, offering another route to structured querying that didn't exist when this note was written"
+    ]
+  }
+}

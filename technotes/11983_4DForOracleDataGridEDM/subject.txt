@@ -1,0 +1,1 @@
+Tech Note: 4D for Oracle in DataGrid's Enterprise Data Module - Beta 1 (TN 00-41, 4D Oracle v6.5, September 2000) — a description of how the 4D for Oracle plug-in was implemented as the Oracle-specific low-level layer of DataGrid's Enterprise Data Module, covering connection, querying, and Oracle client library requirements.

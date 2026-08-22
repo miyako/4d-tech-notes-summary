@@ -1,0 +1,1 @@
+Tech Note: Storing Binary Values in Long Integers (4D v6.5, February 2000) — a technique for packing up to 32 individual boolean or multiple-choice values into the bits of a single Longint field instead of using separate fields.

@@ -1,0 +1,1 @@
+Tech Note: Logging Off an Inactive User (TN 96-02, 4D Server v3.x, January 1996) — presents a blended polling/event-driven technique to automatically log off idle 4D Server users to free concurrent-use licenses and improve security, plus a controlled shutdown pattern that saves in-progress work before quitting.

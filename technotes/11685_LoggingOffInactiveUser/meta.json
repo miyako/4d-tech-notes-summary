@@ -1,0 +1,29 @@
+{
+  "asset_id": 11685,
+  "title": "Tech Note: Logging Off an Inactive User",
+  "technote_number": "96-02",
+  "year": 1996,
+  "published_date": "January 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Kent Wilbur",
+  "page_url": "https://kb.4d.com/assetid=11685",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_01-05_(JAN)/96-02_Logging_Off_Users.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server concurrent-usage licensing",
+    "ON EVENT CALL",
+    "Custom processes and DELAY PROCESS/PAUSE PROCESS/RESUME PROCESS",
+    "Controlled shutdown pattern (OUTSIDE CALL)"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a hand-built, blended polling/event-driven technique for auto-logging off idle 4D Server users to free concurrent-usage licenses and improve security, plus a controlled-shutdown pattern using custom processes and OUTSIDE CALL; the core business need (session timeout, freeing licenses, graceful save-before-quit) is timeless, but the specific low-level implementation (manual process scheduling with DELAY PROCESS/ON EVENT CALL, licensing model tied to concurrent connections) reflects a pre-modern 4D architecture that has been significantly modernized.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added built-in idle/session timeout and user management capabilities in later versions, reducing the need for this fully hand-rolled polling/event technique",
+      "4D's licensing model and client/server architecture have evolved considerably since the mid-1990s 4D Server 3.x/6.0 era",
+      "Events and Methods terminology (replacing Phases and Procedures) arrived in 4D V6 (1997), the same year this note's underlying language concepts predate"
+    ]
+  }
+}

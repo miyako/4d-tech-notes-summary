@@ -1,0 +1,27 @@
+{
+  "asset_id": 11987,
+  "title": "Tech Note: Introduction to 4D Open",
+  "technote_number": "00-50",
+  "year": 2000,
+  "published_date": "October 1, 2000",
+  "product": "4D Open",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11987",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_46-50_(OCT)/00-50_Intro_to_4D_Open.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Open",
+    "Thin client architecture (4dopen.dll)",
+    "Blobs and Sets"
+  ],
+  "historical_commentary": {
+    "text": "This note covers 4D Open's data-manipulation side (entering/deleting/searching/sorting data, handling Blobs and Sets) and highlights one of 4D Open's genuine selling points at the time: a thin-client footprint (a 264KB DLL versus an 8.6MB full 4D client). 4D Open, the C/C++/Java API precursor to modern client-server access technologies, has been discontinued for many years; developers building thin, programmatic clients against 4D data today use 4D's REST/ORDA web data server instead, which did not exist at the time this note was written.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Open has been discontinued; there is no direct modern successor product by that name",
+      "4D's REST/ORDA data server now provides the modern equivalent of thin, programmatic, cross-platform access to 4D Server data that 4D Open aimed to provide in 2000"
+    ]
+  }
+}

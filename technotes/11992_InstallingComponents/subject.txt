@@ -1,0 +1,1 @@
+Tech Note: Installing Components (TN 00-53, 4D Insider v6.7, November 2000) — a description of the installation process for 4D components, used to deploy protected and independently updatable pieces of code.

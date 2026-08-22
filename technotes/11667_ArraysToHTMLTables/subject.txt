@@ -1,0 +1,1 @@
+Tech Note: Converting Arrays to HTML Tables (TN 96-14, 4D v3.x, March 1996) — a 4D procedure (ArraysToTable) that converts a set of parallel string arrays into a Netscape-style HTML table for publishing 4D data on the web.

@@ -1,0 +1,29 @@
+{
+  "asset_id": 42855,
+  "title": "Tech Note: QuickTime Container 1.2 \u2013 More Features",
+  "technote_number": "06-17",
+  "year": 2006,
+  "published_date": "April 28, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=42855",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_14-17_(APR)/06-17_QTime_Container_1.2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "QuickTime Container plug-in (QTContainer)",
+    "QTNewOffscreenArea / QTDeleteOffscreenArea offscreen movie handling",
+    "QTGetTags MP3/ID3 and picture EXIF metadata reading",
+    "QTScreenshot movie-frame capture",
+    "Apple QuickTime framework integration"
+  ],
+  "historical_commentary": {
+    "text": "This note documents version 1.2 of 4D's QuickTime Container plug-in, adding offscreen movie/audio handling, MP3/picture metadata tag reading, and movie-frame screenshot capture, all built on Apple's QuickTime framework. QuickTime itself was deprecated and eventually discontinued by Apple (QuickTime for Windows was end-of-lifed in 2016, and QuickTime Player/frameworks were phased out on macOS in favor of AVFoundation), so this plug-in and its entire command set are obsolete; any modern 4D media-handling requirement would use different, current-generation APIs.",
+    "status": "obsolete",
+    "related_updates": [
+      "Apple deprecated and later discontinued QuickTime (QuickTime for Windows support ended in 2016; macOS long ago transitioned to AVFoundation), making the underlying framework this plug-in wraps obsolete",
+      "4D's own media/picture/video handling capabilities have evolved considerably since this 2006-era plug-in, though a direct successor timeline is not confirmed here"
+    ]
+  }
+}

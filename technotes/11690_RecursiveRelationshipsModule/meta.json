@@ -1,0 +1,28 @@
+{
+  "asset_id": 11690,
+  "title": "Tech Note: A Module for Managing Recursive Relationships",
+  "technote_number": "96-07",
+  "year": 1996,
+  "published_date": "February 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Forrest Swilling",
+  "page_url": "https://kb.4d.com/assetid=11690",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_06-10_(FEB)/96-07_Recursive_Package.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D recursive two-file relationship structure ([Objects]/[Links])",
+    "PROJECT SELECTION and JOIN commands",
+    "4D Sets (CREATE SET, UNION, DIFFERENCE)",
+    "Arrays (SELECTION TO ARRAY, Find in array)"
+  ],
+  "historical_commentary": {
+    "text": "This note extends a classic two-file recursive relationship pattern (from a 1990 Tech Note) with a reusable module of procedures (FindBranch, FindNonBranch, FindNextLevel, FindOrphans, FindTop) built on 4D's PROJECT SELECTION, JOIN, and Set commands to navigate arbitrarily deep hierarchical/tree data (file structures, genealogies, bills of materials, org charts); the specific classic-4D-language commands and idioms are largely superseded by modern 4D language features (and, for genuinely hierarchical data, arguably by JSON/ORDA-based structures), but the conceptual recursive relationship pattern itself remains a standard, still-relevant data-modeling technique in relational databases generally.",
+    "status": "still relevant",
+    "related_updates": [
+      "The specific commands used (PROJECT SELECTION, CREATE SET/UNION/DIFFERENCE, SELECTION TO ARRAY) are classic 4D language-era idioms; modern 4D offers newer collection/entity-selection based approaches (ORDA) that can express similar hierarchical queries differently",
+      "The core recursive/self-referencing relationship pattern for hierarchical data (parent-child trees) remains a standard, still-used relational data modeling technique across databases generally, independent of 4D version"
+    ]
+  }
+}

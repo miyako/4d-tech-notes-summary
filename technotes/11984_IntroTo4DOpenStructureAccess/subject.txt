@@ -1,0 +1,1 @@
+Tech Note: Introduction to 4D Open (TN 00-44, 4D Open v6.5, September 2000) — an introduction to 4D Open's four functional themes (access management, structure access, selections, and data access), focused on initializing a connection and retrieving structure information.

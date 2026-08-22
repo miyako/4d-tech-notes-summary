@@ -1,0 +1,27 @@
+{
+  "asset_id": 11977,
+  "title": "Tech Note: Emulating the FileMaker Pro Book Object in 4D, Part II",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "June 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11977",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D ruler object",
+    "Record navigation UI",
+    "FileMaker Pro book object emulation"
+  ],
+  "historical_commentary": {
+    "text": "This note shows a simpler way to emulate FileMaker Pro's iconic 'book object' record-navigation control in 4D using the 4D ruler form object, trading exact visual fidelity for simpler code and smoother tab movement compared to a prior, more literal emulation technique. Competing with FileMaker's specific UI conventions was a real concern for 4D developers migrating users from FileMaker Pro in this era; today, record-navigation UI patterns and the specific 4D ruler-object mechanics described are dated compared to modern list/table form objects, giving this note mainly historical interest, though the general idea of repurposing a slider-like object for record navigation remains conceptually approachable.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern 4D form objects (list boxes, table forms) offer more contemporary ways to build record-navigation UI than repurposing a ruler object",
+      "This note's approach was explicitly aimed at competing with FileMaker Pro's specific book-object UI convention of that era, a design pattern less commonly emulated today"
+    ]
+  }
+}

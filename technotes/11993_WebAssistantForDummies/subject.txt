@@ -1,0 +1,1 @@
+Tech Note: Web Assistant for Dummies (TN 00-54, 4D v6.7, November 2000) — an introductory, non-technical walkthrough of installing and using the 4D Web Assistant tool to publish data to the web without programming.

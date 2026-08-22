@@ -1,0 +1,29 @@
+{
+  "asset_id": 42333,
+  "title": "Tech Note: OCI Mapper Debug 2004-1",
+  "technote_number": "06-12",
+  "year": 2006,
+  "published_date": "March 24, 2006",
+  "product": "4D Oracle",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=42333",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_09-13_(MAR)/06-12_OCI_Mapper_Debug.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D for OCI",
+    "OCI Mapper component",
+    "Oracle Call Interface (OCI)",
+    "4D component architecture",
+    "Text-file logging / debugging harness"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a debug-logging companion component for the OCI Mapper, a hand-rolled 4D-language wrapper that emulated the old 4D Oracle plug-in's high-level commands on top of the lower-level 4D for OCI plug-in. The entire OCI Mapper ecosystem (4D Oracle, 4D for OCI, OCI Mapper) predates 4D's native SQL engine (introduced in v11, 2007) and modern ORDA-based data access, so this is now of historical/archival interest only for developers maintaining decades-old Oracle-connected 4D databases. The debugging technique itself (process-based text logging with stack-level indentation) is a generic, still-understandable pattern, but the specific commands and component are long obsolete.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D introduced its own integrated SQL engine in 4D v11 (2007), reducing reliance on plug-in-based external database bridges like 4D for OCI",
+      "The 4D Oracle and 4D for OCI plug-ins and the community OCI Mapper component are no longer part of current 4D product offerings"
+    ]
+  }
+}

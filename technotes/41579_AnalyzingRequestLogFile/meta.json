@@ -1,0 +1,28 @@
+{
+  "asset_id": 41579,
+  "title": "Tech Note: Analyzing the Request Log file",
+  "technote_number": "06-04",
+  "year": 2006,
+  "published_date": "January 27, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon",
+  "page_url": "https://kb.4d.com/assetid=41579",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_01-04_(JAN)/06-04_Analyzing_Request_Log.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server request log file (SET DATABASE PARAMETER ID 28)",
+    "4D Client/Server network request analysis",
+    "NEXT RECORD / GOTO SELECTED RECORD / GOTO RECORD performance comparison",
+    "Stored procedures, semaphores, GET PROCESS VARIABLE"
+  ],
+  "historical_commentary": {
+    "text": "This note is a deep, request-by-request analysis of 4D Server's request log file, comparing the network cost of different ways to browse, modify, sort, and search a selection, plus stored procedure/semaphore and inter-process variable transfer patterns, all measured in raw bytes-in/bytes-out/duration per client-server round trip. It is a direct continuation of TN 06-03 and reflects a specifically Client/Server-era 4D architecture concern (minimizing chatty network requests over LAN/WAN) that remains conceptually important for performance tuning any client/server 4D application today, even though the exact request-log format and some cited command names are specific to this generation of 4D Server.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Server's request logging and client/server request-based architecture concepts described here have carried forward, though 4D has since added more modern diagnostic and monitoring tools (e.g., the SQL/ORDA-era network optimizations and newer Server Administration Window logs)",
+      "The specific request names and log format shown are tied to the mid-2000s 4D Server generation and may differ in exact naming in current 4D Server versions"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 41950,
+  "title": "Tech Note: Making Quick Reports Compatible with Excel",
+  "technote_number": "06-08",
+  "year": 2006,
+  "published_date": "February 24, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Yvan Ayaay, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=41950",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_05-08_(FEB)/06-08_Quick_Reports_Excel.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Quick Report",
+    "QR SET HTML TEMPLATE / QR SET DESTINATION commands",
+    "XML / SpreadsheetML (Excel XML Spreadsheet format)",
+    "Custom XML schemas for Microsoft Excel 2003"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to hijack 4D's Quick Report HTML-templating tags to generate XML output (both a generic custom XML schema and Excel's own SpreadsheetML/XML Spreadsheet format) that Microsoft Excel 2003 could open directly. It is a clever but very version-specific workaround from an era before 4D had first-class Excel/spreadsheet export commands and long before modern file formats like .xlsx (OOXML) existed. While the specific Excel 2003 XML Spreadsheet schema and Quick Report tag-based templating approach are now obsolete, the underlying idea of programmatically generating structured export files for spreadsheet consumption is still a relevant integration pattern.",
+    "status": "obsolete",
+    "related_updates": [
+      "Microsoft Excel moved to the .xlsx (Office Open XML) format starting with Excel 2007, superseding the XML Spreadsheet (SpreadsheetML) format targeted by this note",
+      "4D has since added more direct commands and libraries for generating modern spreadsheet files, reducing the need for this HTML-template-tag workaround"
+    ]
+  }
+}

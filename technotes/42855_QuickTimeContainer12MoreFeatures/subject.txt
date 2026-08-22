@@ -1,0 +1,1 @@
+Tech Note: QuickTime Container 1.2 – More Features (TN 06-17, 4D v2004, April 2006) — documents new offscreen-area, MP3/picture metadata tag reading, and movie-frame screenshot commands added to the QuickTime Container plug-in for 4D.

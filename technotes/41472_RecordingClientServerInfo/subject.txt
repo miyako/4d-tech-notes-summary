@@ -1,0 +1,1 @@
+Tech Note: Recording Information sent Between 4D Client and 4D Server (TN 06-03, 4D v2004, January 2006) — introduces 4D Server's request log recording feature and a demonstration database for importing, analyzing, and graphing client/server request traffic.

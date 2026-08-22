@@ -1,0 +1,29 @@
+{
+  "asset_id": 11691,
+  "title": "Tech Note: Using ASCII Maps to Export and Import Data on the Windows Platform",
+  "technote_number": "96-09",
+  "year": 1996,
+  "published_date": "February 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Win",
+  "author": "Jeff Browning",
+  "page_url": "https://kb.4d.com/assetid=11691",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_06-10_(FEB)/96-09_ASCII_Map.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D ASCII Maps (input/output character translation tables)",
+    "USE ASCII MAP command",
+    "Altura Mac2Win porting layer",
+    "IMPORT/EXPORT TEXT, DIF, SYLK; RECEIVE/SEND PACKET"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's built-in ASCII map feature for translating high-order (128-255) diacritical/symbol characters between 4D's internal Macintosh character set and the many different Windows ASCII character sets, needed whenever data was imported/exported between 4D (always Mac-encoded internally, even under Windows) and native Windows text files; this entire character-set translation problem is obsolete now that modern systems use Unicode throughout, eliminating the Mac-vs-Windows high-order ASCII mismatch altogether.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern 4D and virtually all modern software use Unicode (UTF-8/UTF-16) internally and for import/export, eliminating the Macintosh-vs-Windows high-order ASCII character set mismatch this note addresses",
+      "The Altura Mac2Win porting layer that 4D for Windows historically ran on has long been retired from current 4D versions",
+      "4D's ASCII Map feature and USE ASCII MAP command reflect a pre-Unicode text encoding model no longer central to current 4D development"
+    ]
+  }
+}

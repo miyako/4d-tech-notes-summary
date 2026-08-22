@@ -1,0 +1,29 @@
+{
+  "asset_id": 11695,
+  "title": "Tech Note: Localizing the Textual Representation of Numbers in Various Languages Using STRtoArray",
+  "technote_number": "96-24",
+  "year": 1996,
+  "published_date": "May 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Kent Wilbur",
+  "page_url": "https://kb.4d.com/assetid=11695",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_22-26_(MAY)/96-24_Numbers_to_Text.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ACI_PACK external (STRtoArray)",
+    "STR# Macintosh resources (via ResEdit/Resorcerer)",
+    "4D arrays (hard-coded vs. resource-driven localization)",
+    "Multi-language currency/number-to-words conversion (English, French, German, Spanish)"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to localize the textual (spelled-out) representation of numbers and currency amounts (e.g. \"one hundred dollars\") across English, French, German, and Spanish, comparing a hard-coded-array approach against a more maintainable approach using STR# Macintosh resources loaded at runtime via ACI_PACK's STRtoArray external; the specific mechanism (STR# resources edited with ResEdit/Resorcerer, ACI_PACK) is entirely obsolete classic-Mac-OS tooling, but the general problem of localizing number/currency spelling into multiple languages remains a real, still-relevant software localization concern, now typically solved with dedicated i18n libraries rather than resource forks.",
+    "status": "obsolete",
+    "related_updates": [
+      "ACI_PACK, STR# resources, and ResEdit/Resorcerer are all classic Mac OS-era tools with no equivalent in current 4D or modern operating systems",
+      "Modern number/currency localization (including spelled-out text representations) is typically handled via dedicated internationalization (i18n) libraries or platform locale APIs rather than resource-fork-based string tables",
+      "4D's own plugin/resource architecture has been substantially modernized since 1996, removing the need for Mac-resource-fork-based localization data"
+    ]
+  }
+}

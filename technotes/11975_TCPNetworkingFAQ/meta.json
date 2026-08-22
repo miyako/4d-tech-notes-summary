@@ -1,0 +1,27 @@
+{
+  "asset_id": 11975,
+  "title": "Tech Note: TCP Networking FAQ",
+  "technote_number": "00-35",
+  "year": 2000,
+  "published_date": "July 1, 2000",
+  "product": "Network Components",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Thomas D'Urso",
+  "page_url": "https://kb.4d.com/assetid=11975",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_31-35_%28JUL%29/00-35_TCP_Networking_FAQ.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "TCP/IP networking",
+    "4D network components (ADSP/TCP)",
+    "4D Server / 4D Web Server port configuration"
+  ],
+  "historical_commentary": {
+    "text": "This FAQ covers TCP/IP basics, 4D's platform-specific 'network components' abstraction, port number usage, and troubleshooting steps for 4D Server and 4D Web Server connectivity circa v6/6.5. The general TCP/IP and port-number material remains conceptually accurate today, but the Mac-specific 'network components' abstraction described here was tied to classic Mac OS's pluggable networking stack (pre-dating Mac OS X's Unix-based, unified TCP/IP stack that arrived the following year), so that portion of the note is superseded, along with several of the 4D-version-specific port-number behaviors it documents.",
+    "status": "superseded",
+    "related_updates": [
+      "Mac OS X's Unix-based networking stack unified TCP/IP handling and obsoleted the classic Mac OS 'network components' concept this note explains",
+      "4D's own network configuration and port-handling behavior has been refined across many releases since v6.5"
+    ]
+  }
+}

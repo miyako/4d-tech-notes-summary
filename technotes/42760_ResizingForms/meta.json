@@ -1,0 +1,29 @@
+{
+  "asset_id": 42760,
+  "title": "Tech Note: Resizing Forms",
+  "technote_number": "06-16",
+  "year": 2006,
+  "published_date": "April 21, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=42760",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_14-17_(APR)/06-16_Resizing_Forms.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SET WINDOW RECT / GET WINDOW RECT commands",
+    "RESIZE FORM WINDOW command",
+    "SET FORM HORIZONTAL RESIZING / SET FORM VERTICAL RESIZING commands",
+    "Form object Move/Grow properties and the 'pusher' system",
+    "Form Display Limits editor feature"
+  ],
+  "historical_commentary": {
+    "text": "This note explains a significant behavioral change 4D 2004 introduced to window/form resizing commands (splitting the old, simpler SET WINDOW RECT behavior into a distinct RESIZE FORM WINDOW command plus a non-resizing SET WINDOW RECT, alongside a new object 'pusher' system and per-form horizontal/vertical resizing constraints) versus the 6.8-era behavior. It remains historically interesting as a case study in migrating older 4D databases across a breaking API change, and its core form-resizing concepts (fixed vs. resizable dialogs, min/max size constraints, Move/Grow object properties) are still conceptually present in classic Design Mode forms today, though this is all specific to the pre-Project-Mode, form-based UI system that predates responsive/GUI paradigms introduced with 4D's modern web and Qodly-based UI tooling.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's form/window resizing command set (SET WINDOW RECT, RESIZE FORM WINDOW, SET FORM HORIZONTAL/VERTICAL RESIZING) has remained part of classic 4D forms for years since this 2006 migration note, though any given command's exact behavior should be checked against current 4D documentation",
+      "This note addresses classic Design Mode form windows; 4D's later Project Mode, Qodly Studio, and web-based UI approaches (2018+) use fundamentally different layout/resizing paradigms"
+    ]
+  }
+}

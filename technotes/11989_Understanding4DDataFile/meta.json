@@ -1,0 +1,27 @@
+{
+  "asset_id": 11989,
+  "title": "Tech Note: Understanding the 4D Data File",
+  "technote_number": "00-49",
+  "year": 2000,
+  "published_date": "October 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11989",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2000/windows/tn_2000_46-50_(oct)/00-49_the_4d_data_file.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D data file (.4DD)",
+    "4D structure file",
+    "Data segments"
+  ],
+  "historical_commentary": {
+    "text": "This note explains the classic two-file architecture of a 4D database (structure file plus data file) and the internal segment structure of the data file, information that was practically important in 2000 given the smaller disk/file-size limits and single-segment-at-a-time addressing constraints of that era. The basic structure-file/data-file split is still how classic (Design Mode) 4D databases work today, but concerns about multi-segment data files stemming from older operating-system file-size limitations are largely moot on modern systems, and 4D's newer Project Mode changes how the structure side of this picture is stored and versioned.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern operating systems and file systems have eliminated most of the practical file-size constraints that historically motivated splitting 4D data files into multiple segments",
+      "4D Project Mode (v17+) changes how the structure side of a database is stored (as text files) even though the core structure-file/data-file conceptual split for data still applies to classic databases"
+    ]
+  }
+}

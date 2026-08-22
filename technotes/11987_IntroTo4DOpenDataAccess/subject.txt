@@ -1,0 +1,1 @@
+Tech Note: Introduction to 4D Open (TN 00-50, 4D Open v, October 2000) — an explanation of how to perform data entry, deletion, searching, sorting, and Blob/Set handling using 4D Open, framed around its thin-client footprint advantage.

@@ -1,0 +1,1 @@
+Tech Note: The DataGrid Spreadsheet - Beta 1 (TN 00-33, 4D Calc v6.5, July 2000) — an explanation of how DataGrid's spreadsheet interface was built as an abstracted grid object over the GRD and CAL (4D Calc) modules.

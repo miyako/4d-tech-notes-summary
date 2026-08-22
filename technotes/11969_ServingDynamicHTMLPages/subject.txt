@@ -1,0 +1,1 @@
+Tech Note: Serving Dynamic HTML Pages (TN 00-36, 4D v6.5, August 2000) — a walkthrough of publishing data-driven dynamic HTML pages in 4D using 4D ACTION in a URL, an HTML template stored in the database, and SEND HTML BLOB.

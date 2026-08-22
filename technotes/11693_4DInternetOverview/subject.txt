@@ -1,0 +1,1 @@
+Tech Note: 4D and The Internet, An Overview (TN 96-11, 4D Server v3.x, March 1996) — a broad overview positioning 4D within the emerging Internet/Web landscape of 1996, covering interactive CGI-via-AppleEvents integration, database-driven web publishing, Internet client features, and building full Web/FTP/mail servers in 4D using third-party TCP toolkits.

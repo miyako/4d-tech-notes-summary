@@ -1,0 +1,30 @@
+{
+  "asset_id": 41182,
+  "title": "Tech Note: The 4DDebugLog.txt File",
+  "technote_number": "06-01",
+  "year": 2006,
+  "published_date": "January 3, 2006",
+  "product": "4D",
+  "version": "2004.3",
+  "platform": "Mac & Win",
+  "author": "Hugo Fournier, Technical Support Manager, 4D, Inc.",
+  "page_url": "https://kb.4d.com/assetid=41182",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_01-04_(JAN)/06-01_4DDebugLog.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004.3",
+    "SET DATABASE PARAMETER (selector 34)",
+    "4DDebugLog.txt debug logging",
+    "4D Server / 4D Client / 4th Dimension",
+    "Process-based log archiving/rotation"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the 4DDebugLog.txt low-level execution trace facility introduced in 4D 2004.3, along with a hand-rolled log rotation/archiving scheme built from a monitoring process and DELAY PROCESS polling loop. The underlying diagnostic concept (a rolling execution trace for post-mortem crash analysis) is still conceptually useful and a similar debug log mechanism has persisted in later 4D versions, but the specific command syntax (SET DATABASE PARAMETER selector 34) and the manual polling-based archiving code shown here reflect very old-school 4D idioms predating the SQL engine, Project Mode, and modern logging/monitoring tooling.", 
+    "status": "superseded",
+    "related_updates": [
+      "4D has since introduced more structured logging and debugging tools (e.g. the 4D debugger, structured log commands, and 4D Server's activity/administration logs) beyond a single flat debug text file",
+      "Later 4D releases generally favor dedicated commands and preference-based settings over manually managed SET DATABASE PARAMETER selectors for many diagnostic features",
+      "4D v11 (2007) introduced 4D's native SQL engine, part of the broader platform modernization that followed this 2006 note"
+    ]
+  }
+}

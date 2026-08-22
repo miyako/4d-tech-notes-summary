@@ -1,0 +1,1 @@
+Tech Note: Color Codes in 4D, 4D Chart, and the 4D Productivity Modules (TN 00-19, 4D Draw v6.5, April 2000) — an explanation of the three parallel color-coding systems used across 4D, 4D Chart, and the 4D Productivity Modules, with an accompanying example database demonstrating the full color spectrum.

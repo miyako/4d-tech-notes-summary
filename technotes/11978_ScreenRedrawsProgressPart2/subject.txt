@@ -1,0 +1,1 @@
+Tech Note: Forcing Screen Redraws: Updating a Progress Display on a Form, Part II (4D v6.5, June 2000) — the second part of a two-part series combining a manual forced-redraw trick with the MESSAGE command to build a faster, lower-overhead progress display on a form.

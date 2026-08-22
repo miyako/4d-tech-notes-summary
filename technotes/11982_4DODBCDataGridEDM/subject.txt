@@ -1,0 +1,1 @@
+Tech Note: 4D ODBC in DataGrid's Enterprise Data Module - Beta 1 (TN 00-40, 4D ODBC v6.5, August 2000) — a description of how the 4D ODBC plug-in was implemented as the ODBC-specific low-level layer of DataGrid's Enterprise Data Module, including a clarification of how 4D ODBC differs from the ODBC Driver for 4D Server.

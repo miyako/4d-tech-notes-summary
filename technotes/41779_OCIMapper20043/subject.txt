@@ -1,0 +1,1 @@
+Tech Note: OCI Mapper 2004.3 (TN 06-06, 4D v2004.3, February 2006) — an update to the open-source OCI Mapper component that emulates 4D Oracle's high-level commands on top of the 4D for OCI plug-in, easing migration for legacy 4D Oracle databases.

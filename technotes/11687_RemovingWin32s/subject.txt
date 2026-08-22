@@ -1,0 +1,1 @@
+Tech Note: Removing Win32s (TN 96-04, 4D v3.x, January 1996) — step-by-step instructions for manually removing a corrupted Win32s 32-bit thunking layer from Windows 3.1/Windows for Workgroups so it can be cleanly reinstalled for use with 4D, 4D Client, or 4D Server.

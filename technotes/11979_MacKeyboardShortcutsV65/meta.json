@@ -1,0 +1,27 @@
+{
+  "asset_id": 11979,
+  "title": "Tech Note: Macintosh Keyboard Shortcuts in 4th Dimension/4D Server v6.5",
+  "technote_number": "00-32",
+  "year": 2000,
+  "published_date": "July 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac",
+  "author": "Steve Hartman, 4D, Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11979",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_31-35_%28JUL%29/00-32_Mac_KeyShortcuts.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension Design Environment",
+    "4D Debugger",
+    "4D Tools / 4D Transporter / Customizer Plus"
+  ],
+  "historical_commentary": {
+    "text": "This note is a comprehensive Macintosh keyboard-shortcut reference for 4th Dimension/4D Server v6.5 and its companion utilities of the era (4D Tools, 4D Transporter, Customizer Plus). Several of the named companion applications have been discontinued, the classic Mac OS 9 modifier-key conventions referenced throughout predate Mac OS X entirely (which launched the following year), and the Design environment's UI and shortcut set have changed substantially across two decades of 4D releases, so this is now of historical interest only rather than a usable reference.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D Transporter and Customizer Plus, companion utilities referenced throughout, have long been discontinued",
+      "4D's Design environment interface and keyboard shortcut conventions have changed substantially since v6.5, and modern 4D runs on macOS rather than classic Mac OS 9"
+    ]
+  }
+}

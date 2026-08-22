@@ -1,0 +1,1 @@
+Tech Note: Are You V6 Ready? (TN 96-42, 4D v6.0, September 1996) — a pre-release preparation guide for developers upgrading to 4D v6, covering the Files-to-Tables and Layouts-to-Forms terminology change, EXECUTE statement compatibility via STR# resource #8, longer 31-character names, a new pointer sign, and stored procedures returning negative process IDs.

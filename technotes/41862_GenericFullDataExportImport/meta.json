@@ -1,0 +1,28 @@
+{
+  "asset_id": 41862,
+  "title": "Tech Note: Generic Full Data Export-Import Routine",
+  "technote_number": "06-07",
+  "year": 2006,
+  "published_date": "February 17, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=41862",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_05-08_(FEB)/06-07_Generic_Full_Data_v2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "XML full-database export/import",
+    "BLOB and picture field Base64 encoding",
+    "Generic single-method utility (ExportImport)",
+    "Data file defragmentation / index rebuild / sequence number restoration"
+  ],
+  "historical_commentary": {
+    "text": "This note provides a single, self-contained 4D method that exports or imports an entire database (all tables, subtables, pictures, and BLOBs) to/from XML, intended for long-term archiving, disaster recovery, and defragmenting data files by round-tripping through a text export. The generic full-export/full-import-to-repair-data-file pattern remains a legitimate and still-used technique in 4D today, though the specific single-method implementation, its manual handling of table/field name sanitization, and the 1.5GB per-file segmentation workaround for older Mac OS file-size limits are dated relative to 4D's later built-in backup, XML, and data-file maintenance tooling.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since expanded its native XML import/export commands and data file maintenance tools (compacting, verifying, and repairing structure/data files) beyond what was available in 4D 2004",
+      "The 1.5GB Mac OS file-size segmentation workaround described here reflects limitations of mid-2000s Mac OS file systems that no longer apply to modern systems"
+    ]
+  }
+}

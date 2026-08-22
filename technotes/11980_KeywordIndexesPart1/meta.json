@@ -1,0 +1,27 @@
+{
+  "asset_id": 11980,
+  "title": "Tech Note: Keyword Indexes, Part 1",
+  "technote_number": "00-37",
+  "year": 2000,
+  "published_date": "August 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Steve Hussey, CEO, Alto Stratus LLC",
+  "page_url": "https://kb.4d.com/assetid=11980",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_36-40_%28AUG%29/00-37_Keyword_Indexes_Pt_1.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Keyword Indexes",
+    "Related many-tables",
+    "4D query/set system"
+  ],
+  "historical_commentary": {
+    "text": "This is the first of Steve Hussey's three-part series (Part 3 is also archived here as asset 11985) on building keyword indexes by decomposing text fields into individual keyword records in a related many-table, with a stop-word exclusion list to skip indexing common prepositions and the like. This manual pattern for fast text search predates any native full-text or keyword indexing 4D later introduced, so the specific mechanics are superseded, though the underlying relational data-modeling technique it teaches remains sound and broadly instructive.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since introduced more capable native indexing options that reduce the need to hand-build a many-table keyword index of this kind for basic text search",
+      "The many-to-one relational data modeling pattern taught in this note remains valid, general database design knowledge"
+    ]
+  }
+}

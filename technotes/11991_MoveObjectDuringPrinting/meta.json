@@ -1,0 +1,27 @@
+{
+  "asset_id": 11991,
+  "title": "Tech Note: Using MOVE OBJECT During Printing",
+  "technote_number": "00-51",
+  "year": 2000,
+  "published_date": "November 1, 2000",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11991",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-51_MOVE_OBJECT_Printing.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "MOVE OBJECT command",
+    "GET OBJECT RECT command",
+    "4D print engine (PRINT SELECTION/PRINT FORM/PRINT RECORD)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a 4D v6.7 enhancement that let developers reposition and resize form objects dynamically during PRINT SELECTION, PRINT FORM, and PRINT RECORD operations using MOVE OBJECT and GET OBJECT RECT. Both commands remain part of the current 4D language and the general technique of repositioning objects for print layouts is still valid, though many modern 4D reporting needs are now served by higher-level tools such as 4D Write Pro-based reports, making this a still-usable but somewhat lower-level approach today.",
+    "status": "still relevant",
+    "related_updates": [
+      "MOVE OBJECT and GET OBJECT RECT remain part of the current 4D language for programmatic form/print layout control",
+      "4D Write Pro and other modern reporting tools now offer a higher-level alternative for many dynamic print/report layout needs that once required manual object repositioning"
+    ]
+  }
+}

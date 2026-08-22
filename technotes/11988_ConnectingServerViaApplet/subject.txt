@@ -1,0 +1,1 @@
+Tech Note: Connecting to a 4D Server Using an Applet (TN 00-48, 4D Server v6.7, October 2000) — a walkthrough of using a Java applet, launched via Java's policytool for faster startup, as a convenient way to connect a 4D Open for Java client to 4D Server.

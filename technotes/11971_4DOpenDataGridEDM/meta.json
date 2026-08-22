@@ -1,0 +1,27 @@
+{
+  "asset_id": 11971,
+  "title": "Tech Note: 4D Open in DataGrid's Enterprise Data Module - Beta 1",
+  "technote_number": "00-39",
+  "year": 2000,
+  "published_date": "August 1, 2000",
+  "product": "4D Open",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Sebastian Frey, Sextant Technologies, Inc.",
+  "page_url": "https://kb.4d.com/assetid=11971",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_36-40_%28AUG%29/00-39_4D_Open_in_DataGrid.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Open (4D Open for 4D)",
+    "DataGrid Enterprise Data Module (EDM)",
+    "Stored procedures, Sets, Named Selections"
+  ],
+  "historical_commentary": {
+    "text": "This note is the fourth in Sextant Technologies' DataGrid series, describing how 4D Open (specifically its '4D Open for 4D' variant, distinct from 4D Open for Java and 4D Open for C++) was used as a low-level connectivity layer letting 4D Client connect to any 4D Server on the network, including its own 'local' server. Both DataGrid and 4D Open are long discontinued; the note's own admission that the API 'will at first seem awkward' with particular error messages underscores how much friendlier modern connectivity approaches (4D's REST/ORDA data server) are by comparison, making this purely of historical/archival interest today.",
+    "status": "obsolete",
+    "related_updates": [
+      "DataGrid and its Enterprise Data Module are long-discontinued third-party products",
+      "4D Open (in all its variants, including 4D Open for 4D described here) has been discontinued; 4D's REST/ORDA data server is the modern approach to similar connectivity goals"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 11990,
+  "title": "Tech Note: Inherited Forms in 4D v6.7",
+  "technote_number": "00-60",
+  "year": 2000,
+  "published_date": "December 1, 2000",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11990",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-60_Inherited_Forms.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Inherited forms",
+    "4D form architecture",
+    "Table()/Self() context detection"
+  ],
+  "historical_commentary": {
+    "text": "Inherited forms — one form defined once and reused across multiple tables for consistent buttons/layout — was a genuinely useful v6.7-era feature, but it created a real problem: form code couldn't automatically tell which table it was currently running against. This note's technique for detecting the calling table from within a shared form's method is squarely a workaround for classic Design Mode form architecture; modern 4D form and object-method architecture provides cleaner, more built-in ways to write table-agnostic form code, though the underlying goal of reusable, standardized forms remains entirely valid today.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's form architecture and object/form method model have evolved substantially since v6.7, offering more structured ways to write reusable, table-agnostic form logic",
+      "The core idea of standardizing buttons and layout across multiple tables via shared forms remains a common and valid practice in current 4D development"
+    ]
+  }
+}

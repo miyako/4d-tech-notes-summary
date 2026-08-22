@@ -1,0 +1,1 @@
+Tech Note: Fuzzy Matching in 4th Dimension (TN 06-18, 4D v2004, May 2006) — a deep-dive into approximate string matching theory and the source code architecture of the FuzzyTools component, covering phonetic transcription and edit-distance/LCS algorithms plus guidance for extending the code.

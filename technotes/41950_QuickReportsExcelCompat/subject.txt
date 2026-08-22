@@ -1,0 +1,1 @@
+Tech Note: Making Quick Reports Compatible with Excel (TN 06-08, 4D v2004, February 2006) — a technique for repurposing 4D Quick Report's HTML template tags to generate custom XML and Excel-native XML Spreadsheet (SpreadsheetML) output that Microsoft Excel 2003 can open directly.

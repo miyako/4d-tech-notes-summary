@@ -1,0 +1,29 @@
+{
+  "asset_id": 42939,
+  "title": "Tech Note: Fuzzy Matching in 4th Dimension",
+  "technote_number": "06-18",
+  "year": 2006,
+  "published_date": "May 5, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=42939",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_18-21_(MAY)/06-18_Fuzzy_Matching.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "FuzzyTools component source code",
+    "Approximate string matching theory",
+    "Phonetic transcription algorithms (Soundex, Metaphone)",
+    "Edit distance / LCS distance algorithms",
+    "Gateway/private-routine component architecture"
+  ],
+  "historical_commentary": {
+    "text": "This note is the deepest of a three-part FuzzyTools series, covering the theory of approximate string matching, real-world scenarios motivating fuzzy record matching, and the internal source-code architecture (protected gateway routines with input-validation \"contracts\" calling private worker routines, plus self-testing routines) of the FuzzyTools component. The computer-science content — phonetic transcription and edit-distance/LCS theory, and the gateway/contract software design pattern — is timeless and still directly applicable to any language including modern 4D, but the concrete artifact (the FuzzyTools component and its specific method names) is a 2006-era third-party add-on tied to the classic procedural 4D language, well before 4D's SQL engine or ORDA existed.",
+    "status": "historical interest only",
+    "related_updates": [
+      "FuzzyTools is a third-party/community 4D component from 2006, not part of any current 4D distribution",
+      "The referenced companion note 'Scanning Text and BLOBs Efficiently' (TN 05-42) is likewise a period-specific performance note for classic 4D BLOB/text handling"
+    ]
+  }
+}

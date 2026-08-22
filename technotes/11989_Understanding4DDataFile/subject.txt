@@ -1,0 +1,1 @@
+Tech Note: Understanding the 4D Data File (TN 00-49, 4D v6.5, October 2000) — a broad overview of the 4D data file's internal structure and data segments, aimed at helping developers manage applications and recover from data problems.

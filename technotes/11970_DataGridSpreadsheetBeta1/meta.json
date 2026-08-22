@@ -1,0 +1,27 @@
+{
+  "asset_id": 11970,
+  "title": "Tech Note: The DataGrid Spreadsheet - Beta 1",
+  "technote_number": "00-33",
+  "year": 2000,
+  "published_date": "July 1, 2000",
+  "product": "4D Calc",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Sebastian Frey, Sextant Technologies, Inc.",
+  "page_url": "https://kb.4d.com/assetid=11970",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_31-35_%28JUL%29/00-33_DataGrid_Spreadsheet.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "DataGrid GRD and CAL modules",
+    "4D Calc grid abstraction",
+    "Enterprise Data Module (EDM)"
+  ],
+  "historical_commentary": {
+    "text": "This is the second note in Sextant Technologies' DataGrid series, explaining how the DataGrid application's spreadsheet UI was built atop an abstracted 'grid' concept implemented via the GRD module, which at Beta 1 time was tightly coupled to the 4D Calc plug-in (the CAL module) since 4D Calc was the only grid tool available. DataGrid, 4D Calc, and the broader 4D Productivity Modules line are all long defunct, and modern 4D applications requiring spreadsheet-like grids use entirely different, actively-maintained components, so this note is now historical only.",
+    "status": "obsolete",
+    "related_updates": [
+      "DataGrid, the Sextant Technologies application this note documents, and 4D Calc, the underlying grid plug-in it depended on, are both long discontinued",
+      "Modern 4D applications needing spreadsheet-like grid interfaces use current, actively maintained grid/list components rather than the GRD/CAL module architecture described here"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 11995,
+  "title": "Tech Note: Installation of 4D Server as a Service on Windows 2000 Server",
+  "technote_number": "00-56",
+  "year": 2000,
+  "published_date": "December 1, 2000",
+  "product": "4D Server",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11995",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-56_4D_as_Win2K_Service.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server",
+    "Windows 2000 Server",
+    "Windows Services"
+  ],
+  "historical_commentary": {
+    "text": "This note documents how to register 4D Server as a Windows 2000 Service so it auto-launches at boot, a real operational concern in the early Windows NT-family server era. Windows Server service registration mechanics and 4D Server's own startup model have since evolved considerably (4D Server ships with more modern, built-in service-mode installation options on current Windows Server releases), so the specific 2000-era steps described are no longer directly applicable, though the underlying goal of running 4D Server as an unattended background service remains standard practice today.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Server now offers built-in, documented options for running as a Windows service on modern Windows Server versions, without needing this manual registration workaround",
+      "Windows Server's own service management tooling (services.msc, sc.exe, PowerShell) has changed substantially since Windows 2000"
+    ]
+  }
+}

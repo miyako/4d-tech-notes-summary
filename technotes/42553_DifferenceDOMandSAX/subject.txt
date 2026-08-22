@@ -1,0 +1,1 @@
+Tech Note: Difference between DOM and SAX (TN 06-14, 4D v2004, April 2006) — explains and contrasts 4D's DOM (in-memory tree) and SAX (streaming event) XML parsing command sets with side-by-side code examples for creating and parsing the same XML document in each mode.

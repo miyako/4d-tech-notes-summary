@@ -1,0 +1,1 @@
+Tech Note: Detecting the Presence of Externals in a 4D Database (TN 96-01R, 4D Server v3.x, January 1996, revised) — a platform-independent 4D coding technique using ON ERR CALL to detect whether a given 4D external/plugin (e.g. 4D Write) is installed, for both the old and new external architectures.

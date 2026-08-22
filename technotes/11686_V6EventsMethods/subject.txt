@@ -1,0 +1,1 @@
+Tech Note: 4D V6: Events Replace Phases, Methods Replace Procedures (TN 96-47, 4D v6.0, November 1996) — a preview for developers of 4D Version 6's new Methods/Events/Constants terminology and architecture, replacing Version 3's procedures, scripts, and phases.

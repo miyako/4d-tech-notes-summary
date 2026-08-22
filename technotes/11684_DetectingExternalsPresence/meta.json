@@ -1,0 +1,28 @@
+{
+  "asset_id": 11684,
+  "title": "Tech Note: Detecting the Presence of Externals in a 4D Database",
+  "technote_number": "96-01R",
+  "year": 1996,
+  "published_date": "January 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Julie Pearson (revised by Jeff Browning)",
+  "page_url": "https://kb.4d.com/assetid=11684",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_01-05_(JAN)/96-01_Detecting_Externals.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D external/plugin architecture (Mac4DX / Win4DX)",
+    "ON ERR CALL error trapping",
+    "4D Write (used as the example external)"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a clever workaround — deliberately triggering and trapping a syntax error via ON ERR CALL to detect whether an external/plugin such as 4D Write is installed — which was necessary because 4D lacked a built-in command to directly query plugin availability; the specific old/new external-architecture distinction (Mac4DX/Win4DX folders vs. pre-1.5 externals) is obsolete, but the general error-trapping technique remains conceptually recognizable, even though modern 4D plugin management and ORDA-era architecture make it largely unnecessary.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's plugin/component architecture has been substantially modernized since (4D Plugin SDK evolutions, and later Components/ORDA-based extension mechanisms), reducing the need for this error-trapping detection trick",
+      "4D Write itself was superseded by 4D Write Pro, introduced in 4D v14 (2016)",
+      "Modern 4D provides more direct ways to enumerate installed plugins/components rather than relying on deliberately causing and trapping a syntax error"
+    ]
+  }
+}

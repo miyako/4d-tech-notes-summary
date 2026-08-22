@@ -1,0 +1,27 @@
+{
+  "asset_id": 11976,
+  "title": "Tech Note: DataGrid's Enterprise Data Module - Beta 1",
+  "technote_number": "00-34",
+  "year": 2000,
+  "published_date": "July 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Sebastian Frey, Sextant Technologies, Inc.",
+  "page_url": "https://kb.4d.com/assetid=11976",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_31-35_%28JUL%29/00-34_DataGrid_Data_Module.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "DataGrid Enterprise Data Module (EDM)",
+    "Model and Query conceptual objects",
+    "Accessor method array pattern"
+  ],
+  "historical_commentary": {
+    "text": "This note is the core architectural entry in Sextant Technologies' DataGrid series, explaining the Enterprise Data Module's foundational 'Model' and 'Query' conceptual objects and the accessor-method pattern used to simulate object-oriented behavior over array-based storage in classic 4D. DataGrid, the third-party application this describes, is long defunct, and 4D's own language has since gained genuine object/class support, making this array-based object-simulation technique an interesting historical artifact rather than a pattern developers would reach for today.",
+    "status": "obsolete",
+    "related_updates": [
+      "DataGrid, the Sextant Technologies application whose architecture this note documents, is a long-discontinued third-party product",
+      "4D's language has since gained native object/class support, reducing the need for the array-based 'accessor method' object-simulation pattern described here"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11667,
+  "title": "Tech Note: Converting Arrays to HTML Tables",
+  "technote_number": "96-14",
+  "year": 1996,
+  "published_date": "March 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "David Adams and Forrest Swilling",
+  "page_url": "https://kb.4d.com/assetid=11667",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_11-15_(MAR)/96-14_Arrays_to_Table.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D procedural language (arrays, pointers)",
+    "HTML table generation",
+    "Netscape Navigator HTML table tags (HTML 3.0 draft)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a hand-rolled 4D procedure (ArraysToTable) for generating HTML <TABLE> markup from 4D arrays, targeting the then-new Netscape-extended HTML 3.0 table tags; the specific need to manually assemble HTML strings from arrays is obsolete in an era of modern templating, ORDA-based REST/JSON APIs, and client-side rendering frameworks, but the underlying pattern of procedurally generating markup from structured data remains conceptually familiar.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's web capabilities have since gained a built-in web server, WebArea/QuickReport-style tools, and ORDA/REST endpoints, making manual per-tag HTML string concatenation unnecessary for most modern use cases",
+      "The Netscape-specific HTML table tags described here were later formalized and superseded by standard HTML4/HTML5 and CSS-based table styling",
+      "Global procedures are called Project Methods since 4D v6 (1997), and file/table naming and array-parameter idioms shown here reflect the pre-V6 language"
+    ]
+  }
+}

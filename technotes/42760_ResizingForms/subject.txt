@@ -1,0 +1,1 @@
+Tech Note: Resizing Forms (TN 06-16, 4D v2004, April 2006) — explains the breaking behavioral changes 4D 2004 introduced to window/form resizing commands (SET WINDOW RECT, the new RESIZE FORM WINDOW, and per-form horizontal/vertical resizing constraints) compared to prior 4D versions, with worked migration examples.

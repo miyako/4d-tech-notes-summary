@@ -1,0 +1,1 @@
+Tech Note: Active Directory - Single Sign-on Using 4D 2004 (TN 06-02, 4D v2004, January 2006) — a Windows-only guide showing how to integrate a 4D application with Active Directory single sign-on without a plug-in, using a VBScript helper and 4D's password/group system.

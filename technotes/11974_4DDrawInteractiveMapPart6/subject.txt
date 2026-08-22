@@ -1,0 +1,1 @@
+Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part VI: Implementing an Interactive Map (TN 00-25, 4D Draw v6.5, May 2000) — the sixth part of a series on building interactive graphic interfaces with 4D Draw, applying the series' accumulated techniques to implement an interactive map.

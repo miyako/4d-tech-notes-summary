@@ -1,0 +1,28 @@
+{
+  "asset_id": 11967,
+  "title": "Tech Note: Color Codes in 4D, 4D Chart, and the 4D Productivity Modules",
+  "technote_number": "00-19",
+  "year": 2000,
+  "published_date": "April 1, 2000",
+  "product": "4D Draw",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11967",
+  "download_url": "https://kb.4d.com/f/DLTN/TN/2000/MacOS/TN_2000_16-20_(APR)/00-19_Color_Codes_in_4D.hqx",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D native color codes",
+    "RGB color components",
+    "4D indexed color palette (256 colors)",
+    "4D Chart / 4D Productivity Modules (4D Calc, 4D Draw, 4D Write)"
+  ],
+  "historical_commentary": {
+    "text": "This note explains the three parallel color-coding systems 4D, 4D Chart, and the 4D Productivity Modules used to describe 24-bit RGB colors: native color codes, individual RGB components, and 4D's 256-color indexed palette, along with a grounding in additive vs. subtractive color theory. 4D Chart, 4D Draw, and 4D Write (the original 4D Productivity Modules) have all been discontinued or superseded by newer tools (notably 4D Write Pro), and while RGB color theory itself is timeless, the specific native/indexed color-code systems these discontinued modules relied on are now obsolete alongside the modules themselves.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart, 4D Draw, and the original 4D Write have all been discontinued; 4D Write Pro is the modern successor for document/word-processing needs",
+      "Modern 4D development expresses colors primarily via standard RGB/CSS-style color values rather than the native 4D or 256-color indexed palette systems described in this note"
+    ]
+  }
+}

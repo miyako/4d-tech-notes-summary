@@ -1,0 +1,1 @@
+Tech Note: TCP Networking FAQ (TN 00-35, Network Components v6.5, July 2000) — a frequently-asked-questions document covering TCP/IP basics, 4D's network components abstraction, port numbers, diagnostic tools, and troubleshooting steps for 4D Server and 4D Web Server connectivity.

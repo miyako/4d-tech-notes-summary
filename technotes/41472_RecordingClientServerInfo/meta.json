@@ -1,0 +1,29 @@
+{
+  "asset_id": 41472,
+  "title": "Tech Note: Recording Information sent Between 4D Client and 4D Server",
+  "technote_number": "06-03",
+  "year": 2006,
+  "published_date": "January 20, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, QA Manager, 4D, Inc.",
+  "page_url": "https://kb.4d.com/assetid=41472",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_01-04_(JAN)/06-03_Info_bw_Client_Server.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SET DATABASE PARAMETER (ID 28, 4D Server Log Recording)",
+    "4D Server request log file format",
+    "4D Quick Report-based XML statistics generation",
+    "4D Chart graphs (bytes/duration per request)",
+    "Named selections for large listbox display"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces 4D Server's request log recording feature (SET DATABASE PARAMETER ID 28), explains the raw log file's columns (time, PID, UID, CID, request ID, bytes in/out, duration), and provides a demonstration database that imports these text logs into a table and visualizes them via listboxes, Quick-Report-driven statistics, and 4D Chart graphs. It is foundational, companion material to TN 06-04's deeper analysis and captures a Client/Server-era performance-monitoring workflow built entirely from first-generation 4D tools (Quick Report, 4D Chart, named selections) rather than any built-in profiler. The core need to monitor and analyze client/server network traffic remains relevant to 4D Client/Server deployments today, though the specific visualization tooling (4D Chart, Quick-Report-to-XML) is dated relative to more modern 4D reporting and monitoring options.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Server's request logging mechanism and the general practice of analyzing client/server request traffic for performance tuning remain applicable in modern 4D Client/Server deployments",
+      "The specific visualization stack shown (4D Chart, Quick Report XML export) reflects mid-2000s 4D tooling that has since been supplemented by more modern reporting and monitoring capabilities in later 4D versions"
+    ]
+  }
+}

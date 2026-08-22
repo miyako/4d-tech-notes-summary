@@ -1,0 +1,29 @@
+{
+  "asset_id": 43103,
+  "title": "Tech Note: Data Cleaning and Deduplication",
+  "technote_number": "06-20",
+  "year": 2006,
+  "published_date": "May 19, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=43103",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_18-21_(MAY)/06-20_Data_Cleaning.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "FuzzyTools component",
+    "Address standardization (USPS/UPS Web Services)",
+    "WordList word-comparison utilities",
+    "Fuzzy_GetDistancePercentage / edit distance",
+    "APPLY XSLT TRANSFORMATION"
+  ],
+  "historical_commentary": {
+    "text": "This note is a well-written, largely platform-agnostic overview of data cleaning and record-deduplication methodology (standardization, blocking/reducing comparison sets, fuzzy matching, human-reviewed merging, and probabilistic weighting) that remains conceptually sound today, even though it is tied to the long-superseded, third-party FuzzyTools component and 4D 2004-era commands like APPLY XSLT TRANSFORMATION. The specific commercial address-cleaning vendors mentioned (PostCode Anywhere, AddressDoctor, DesertSoft) and the free USPS/UPS web tools referenced are almost certainly changed, rebranded, or defunct two decades later. As a methodology primer the note holds up well; as a concrete how-to tied to specific 4D commands and vendors it is dated.",
+    "status": "still relevant",
+    "related_updates": [
+      "The FuzzyTools component described here is a third-party/community add-on from this era, not a built-in 4D feature, and is not maintained as part of modern 4D",
+      "The specific commercial address-verification vendors and free postal web services named (PostCode Anywhere, AddressDoctor, DesertSoft, USPS/UPS web tools) should be independently re-verified as current offerings have likely changed substantially"
+    ]
+  }
+}

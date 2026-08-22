@@ -1,0 +1,1 @@
+Tech Note: Emulating the FileMaker Pro Book Object in 4D, Part II (4D v6.5, June 2000) — a simpler technique using 4D's ruler object to emulate FileMaker Pro's book object for navigating through a selection of records.

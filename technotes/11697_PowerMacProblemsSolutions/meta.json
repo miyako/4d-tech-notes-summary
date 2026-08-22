@@ -1,0 +1,30 @@
+{
+  "asset_id": 11697,
+  "title": "Tech Note: Some Common Problems Encountered When Using 4th Dimension on the Power Macintosh",
+  "technote_number": "96-17",
+  "year": 1996,
+  "published_date": "March 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=11697",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_16-20_(MAR)/96-17_PowerMac_Problems.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Power Macintosh native (PowerPC) vs. 68K emulation",
+    "Macintosh memory allocation (application/partition sizing)",
+    "WorldScript text-handling",
+    "System extension conflict diagnosis",
+    "4D Compiler memory-sizing formula"
+  ],
+  "historical_commentary": {
+    "text": "This note catalogs common Power Macintosh compatibility problems developers hit when running 4th Dimension in the mid-1990s transition from 68K to PowerPC Macs — Type 11 errors from insufficient memory partitions, memory-allocation differences between RISC PowerPC and CISC 68K code, a WorldScript international text-handling bug, a CommonGround Shortcut extension conflict, general system extension conflicts, and a compiler memory-sizing formula — all of which are entirely obsolete now that classic Mac OS, 68K emulation, WorldScript, and the extension-based system architecture they describe no longer exist on any current Macintosh platform.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS, the 68K-to-PowerPC transition, WorldScript, and INIT/extension-based system architecture have all been fully superseded by Mac OS X and subsequent macOS releases with a completely different memory and process model",
+      "Type 11 errors and manual memory-partition sizing are artifacts of classic Mac OS's cooperative, statically-partitioned memory model, replaced by protected virtual memory in Mac OS X",
+      "4D's own compiler and memory management have been substantially modernized since 1996, removing the need for the manual memory-sizing formula described here"
+    ]
+  }
+}

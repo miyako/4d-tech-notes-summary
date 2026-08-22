@@ -1,0 +1,1 @@
+Tech Note: Executing Functions Between Different Machines (4D Server v6.5, June 2000) — an example of executing a task between two 4D Clients, or between 4D Client and 4D Server, and retrieving a result from that task.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 11983,
+  "title": "Tech Note: 4D for Oracle in DataGrid's Enterprise Data Module - Beta 1",
+  "technote_number": "00-41",
+  "year": 2000,
+  "published_date": "September 1, 2000",
+  "product": "4D Oracle",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Sebastian Frey, Sextant Technologies, Inc.",
+  "page_url": "https://kb.4d.com/assetid=11983",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_41-45_%28SEP%29/00-41_DataGrid_EDM_Beta_1.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D for Oracle plug-in",
+    "DataGrid Enterprise Data Module (EDM)",
+    "Oracle OCI client libraries"
+  ],
+  "historical_commentary": {
+    "text": "This note is the sixth in Sextant Technologies' DataGrid series, documenting how the 4D for Oracle plug-in (part of 4D's Connectivity Products suite) was integrated as a low-level data source under DataGrid's Enterprise Data Module. Both DataGrid (a third-party Sextant Technologies product) and the 4D Connectivity Products suite of that era (4D for Oracle, 4D Open Suite) are long defunct, and connecting 4D to Oracle today is typically done through modern ODBC/JDBC-style connectivity or dedicated current-era plug-ins rather than this specific 2000-era plug-in and Oracle OCI 7.3 client library combination, making this note historically interesting but not practically applicable.",
+    "status": "obsolete",
+    "related_updates": [
+      "DataGrid (the Sextant Technologies application this note documents) and its Enterprise Data Module are long discontinued third-party products",
+      "The specific 4D for Oracle plug-in and Oracle OCI 7.3-era client library requirements described here are obsolete; connecting modern 4D applications to Oracle uses newer connectivity approaches"
+    ]
+  }
+}

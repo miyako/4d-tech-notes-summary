@@ -1,0 +1,1 @@
+Tech Note: Localizing the Textual Representation of Numbers in Various Languages Using STRtoArray (TN 96-24, 4D v3.x, May 1996) — demonstrates converting numbers into their spelled-out textual/currency representation across English, French, German, and Spanish, comparing hard-coded arrays against a more maintainable STR# resource-driven approach using ACI_PACK's STRtoArray.

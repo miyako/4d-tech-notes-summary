@@ -1,0 +1,28 @@
+{
+  "asset_id": 42238,
+  "title": "Tech Note: 4D System Tool",
+  "technote_number": "06-11",
+  "year": 2006,
+  "published_date": "March 17, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jeremy Sullivan, Developer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=42238",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_09-13_(MAR)/06-11_4D_System_Tool.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "LAUNCH EXTERNAL PROCESS command",
+    "Mac OS X Unix shell integration (bash, groff, osascript)",
+    "Windows DOS command execution",
+    "4D 2004 language"
+  ],
+  "historical_commentary": {
+    "text": "This note is a demo/utility showcase for the LAUNCH EXTERNAL PROCESS command (new in 4D 2004), illustrating platform-specific system utility calls on Mac OS X 10.4 and Windows XP such as running shell/DOS commands, viewing Unix man pages, and managing running processes. The underlying language command still exists in current 4D, so the core technique of shelling out to OS utilities remains valid, but the specific example utilities, target OS versions (OS X 10.4, Windows XP), and use cases (Cocktail/Onyx-style system tweaking) are dated and mostly of nostalgic/reference interest today.", 
+    "status": "historical interest only",
+    "related_updates": [
+      "LAUNCH EXTERNAL PROCESS remains part of the 4D language today, though behavior and options have evolved across many subsequent 4D releases",
+      "Mac OS X 10.4 (Tiger) and Windows XP are long out of support and no longer relevant target platforms for current 4D applications"
+    ]
+  }
+}

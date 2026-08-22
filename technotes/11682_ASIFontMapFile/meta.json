@@ -1,0 +1,28 @@
+{
+  "asset_id": 11682,
+  "title": "Tech Note: Understanding the ASIFONT.MAP File",
+  "technote_number": "96-03",
+  "year": 1996,
+  "published_date": "January 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Christopher Chapman",
+  "page_url": "https://kb.4d.com/assetid=11682",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_01-05_(JAN)/96-03_ASIFONT.MAP.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ASIFONT.MAP font-substitution file",
+    "Cross-platform (Mac-to-Windows) database porting",
+    "ResEdit (Macintosh FOND resource inspection)"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to hand-edit a plain-text font substitution lookup file (ASIFONT.MAP) so that Macintosh font names/FOND IDs map to equivalent Windows fonts when porting a 4D database between platforms; this entire mechanism is a relic of an era before Unicode-aware, cross-platform font handling and is obsolete, since modern 4D relies on standard OS font matching and TrueType/OpenType fonts rather than a manual Mac-FOND-to-Windows-font translation table.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern operating systems and 4D versions use standard cross-platform font names and Unicode text handling instead of a manual ASIFONT.MAP substitution file",
+      "ResEdit and classic Mac OS FOND resources are long obsolete, having been replaced by modern font formats (TrueType/OpenType) with standardized naming",
+      "4D for Windows historically ran on Altura's Mac2Win emulation layer in this era, a compatibility approach no longer used in current 4D releases"
+    ]
+  }
+}

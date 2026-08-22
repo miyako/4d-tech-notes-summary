@@ -1,0 +1,1 @@
+Tech Note: A Module for Managing Recursive Relationships (TN 96-07, 4D v3.x, February 1996) — a reusable module of 4D procedures (FindBranch, FindNonBranch, FindNextLevel, FindOrphans, FindTop) that navigates a classic two-file recursive/hierarchical relationship structure of unlimited depth, using JOIN, PROJECT SELECTION, and 4D Sets.

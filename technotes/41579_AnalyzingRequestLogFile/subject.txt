@@ -1,0 +1,1 @@
+Tech Note: Analyzing the Request Log file (TN 06-04, 4D v2004, January 2006) — a detailed, example-driven analysis of 4D Server's request log file used to measure and compare the network cost of common client/server programming patterns.

@@ -1,0 +1,1 @@
+Tech Note: 4D System Tool (TN 06-11, 4D v2004, March 2006) — a cross-platform demo database showing how to use the LAUNCH EXTERNAL PROCESS command to run Mac OS X Unix utilities and Windows DOS commands from within a 4D application.

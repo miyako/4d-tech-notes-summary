@@ -1,0 +1,1 @@
+Tech Note: Creating Client/Server Applications: Managing clients, plug-ins, tips and tricks (TN 06-21, 4D v2004, May 2006) — explains how to build multiplatform, auto-updating 4D Client/Server applications using the Build Application dialog and XML project files, including client auto-connect and plug-in inclusion mechanics.

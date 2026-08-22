@@ -1,0 +1,29 @@
+{
+  "asset_id": 11688,
+  "title": "Tech Note: Selecting the Proper Transport Layer on the Macintosh Version of 4D Server",
+  "technote_number": "96-05",
+  "year": 1996,
+  "published_date": "January 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac",
+  "author": "Christopher Chapman",
+  "page_url": "https://kb.4d.com/assetid=11688",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_01-05_(JAN)/96-05_Transport_Layer.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "AppleTalk / EtherTalk networking",
+    "Ethernet transport layer (TCP/IP, IPX/SPX)",
+    "MacTCP and MacIPX control panels",
+    "4D Server (Mac) / 4D Client (Windows) cross-platform networking"
+  ],
+  "historical_commentary": {
+    "text": "This note explains why a Macintosh running 4D Server must select the Ethernet (native packet format) transport layer rather than EtherTalk (AppleTalk-encapsulated) when Windows 4D Clients need to connect, since most PCs of the era lacked AppleTalk stack support; AppleTalk networking itself was discontinued by Apple in the 2000s, and the entire transport-layer-selection concern is obsolete now that all platforms use standard TCP/IP.",
+    "status": "obsolete",
+    "related_updates": [
+      "AppleTalk networking protocol was discontinued by Apple in the 2000s (Mac OS X eventually dropped AppleTalk support entirely)",
+      "All modern 4D Server/Client connections use standard TCP/IP exclusively; there is no EtherTalk-vs-Ethernet transport layer choice to make anymore",
+      "MacTCP and MacIPX control panels are classic Mac OS artifacts with no equivalent in any current operating system"
+    ]
+  }
+}

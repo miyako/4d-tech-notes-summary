@@ -1,0 +1,27 @@
+{
+  "asset_id": 11992,
+  "title": "Tech Note: Installing Components",
+  "technote_number": "00-53",
+  "year": 2000,
+  "published_date": "November 1, 2000",
+  "product": "4D Insider",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11992",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-53_Installing_Components.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Components",
+    "4D Insider",
+    "Protected code deployment"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the mechanics of installing 4D components as they existed circa 4D v6.7, when components were a relatively new mechanism (paired with 4D Insider) for deploying protected, updatable pieces of code into a host structure. The concept of packaging and deploying reusable, access-controlled code has remained a core 4D concept for two decades, but the tooling, packaging format, and workflow around components have been substantially modernized since this era, so the specific installation steps described here are outdated even though the underlying goal persists.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's component architecture and tooling have evolved substantially since v6.7, including changes to how components are packaged, referenced, and updated in a host database",
+      "4D Insider itself, the companion structure-documentation tool referenced here, is from a much earlier generation of 4D's developer tooling"
+    ]
+  }
+}

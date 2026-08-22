@@ -1,0 +1,1 @@
+Tech Note: Generic Full Data Export-Import Routine (TN 06-07, 4D v2004, February 2006) — a single generic 4D method that exports or imports an entire database, including subtables, pictures, and BLOBs, as XML for archiving and data-file repair/defragmentation.

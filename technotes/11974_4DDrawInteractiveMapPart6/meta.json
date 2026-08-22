@@ -1,0 +1,27 @@
+{
+  "asset_id": 11974,
+  "title": "Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part VI: Implementing an Interactive Map",
+  "technote_number": "00-25",
+  "year": 2000,
+  "published_date": "May 1, 2000",
+  "product": "4D Draw",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Tim Tonooka, 4D, Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11974",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_21-25_(MAY)/00-25_Graphic_Interfaces_6.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Draw",
+    "v65Trace example database",
+    "BMP picture pixel-color analysis"
+  ],
+  "historical_commentary": {
+    "text": "This is the sixth installment of a lengthy series on building interactive vector-graphic interfaces with 4D Draw, here applying the accumulated techniques from Parts I-V to implement an interactive map. 4D Draw, part of the 4D Productivity Modules alongside 4D Calc and 4D Write, was discontinued long ago; modern 4D applications requiring interactive graphics or mapping rely on entirely different tools (web-based mapping components, picture/area objects, or third-party plug-ins), so the specific 4D Draw techniques described are obsolete, though the underlying UI-interaction concepts (hit-testing clicks against graphic objects, highlighting selections) remain generally instructive.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Draw and the broader 4D Productivity Modules suite (4D Calc, 4D Draw, 4D Write, superseded partly by 4D Write Pro) have been discontinued or replaced by modern equivalents",
+      "Interactive mapping and graphic interfaces in current 4D applications are typically built with web technologies or modern 4D picture/form objects rather than 4D Draw vector areas"
+    ]
+  }
+}

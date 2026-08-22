@@ -1,0 +1,1 @@
+Tech Note: Some Common Problems Encountered When Using 4th Dimension on the Power Macintosh (TN 96-17, 4D Server v3.x, March 1996) — a troubleshooting roundup of Power Macintosh-specific issues affecting 4th Dimension in 1996, covering Type 11 memory errors, PowerPC vs. 68K memory allocation differences, a WorldScript bug, extension conflicts, and compiler memory sizing.

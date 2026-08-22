@@ -1,0 +1,28 @@
+{
+  "asset_id": 42143,
+  "title": "Tech Note: Catalog Functions in ODBC Pro",
+  "technote_number": "06-10",
+  "year": 2006,
+  "published_date": "March 12, 2006",
+  "product": "4D ODBC",
+  "version": "2004",
+  "platform": "Win",
+  "author": "Noreddine Margoum, QA Engineer, 4D S.A.",
+  "page_url": "https://kb.4d.com/assetid=42143",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_09-13_(MAR)/06-10_Catalog_ODBC_Pro.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ODBC Pro plug-in",
+    "ODBC catalog functions (ODBC_SQLTables, ODBC_SQLColumns, ODBC_SQLPrimaryKeys, ODBC_SQLForeignKeys, etc.)",
+    "Dynamic SQL request generation",
+    "4D 2004 language"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the ODBC Pro plug-in's catalog introspection commands (tables, columns, keys, privileges, stored procedures) used to build dynamic SQL against external databases, a common integration pattern before 4D had any native SQL support. The general concept of querying a database's catalog/metadata to build dynamic queries remains standard practice, but the specific ODBC Pro plug-in commands shown are tied to a legacy 4D plug-in generation that predates 4D's built-in SQL engine (v11, 2007) and later native ODBC/SQL data-source connectivity improvements.",
+    "status": "superseded",
+    "related_updates": [
+      "4D introduced its own integrated SQL engine and later native external SQL data source connectivity, reducing reliance on the standalone ODBC Pro plug-in for many use cases",
+      "ODBC Pro as described here (a separate plug-in with dedicated ODBC_SQL* commands) is a legacy component distinct from 4D's modern built-in ODBC/SQL support"
+    ]
+  }
+}

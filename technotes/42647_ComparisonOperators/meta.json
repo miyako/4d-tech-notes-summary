@@ -1,0 +1,29 @@
+{
+  "asset_id": 42647,
+  "title": "Tech Note: Comparison Operators",
+  "technote_number": "06-15",
+  "year": 2006,
+  "published_date": "April 14, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Robert Molina, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=42647",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_14-17_(APR)/06-15_Comparison_Operators.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension comparison operators (=, #, <, >, <=, >=)",
+    "Boolean conditional statements and control flow",
+    "String, Numeric, Date, Time, and Pointer data type comparisons",
+    "Ascii command for case/diacritic-sensitive comparison",
+    "Round command for real-number comparison precision"
+  ],
+  "historical_commentary": {
+    "text": "This is a foundational, tutorial-style reference on 4th Dimension's core comparison operators across String, Numeric, Date, Time, and Pointer types, including case/diacritic-insensitive string comparison, the wildcard (@) matching character, and real-number rounding pitfalls. Because these are basic language operators rather than product-specific tooling, virtually everything described remains accurate and directly applicable in current 4D (including within 4D's SQL engine syntax, added in v11/2007, and modern 4D code), making this one of the more evergreen notes in the archive; only the specific documentation URLs cited (4d.com/docs/CMU/...) are certain to be outdated.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D v11 (2007) later added 4D's native SQL engine, which has its own comparison operator syntax in SQL statements alongside the classic language operators described here",
+      "The specific 4D documentation URLs referenced in this note (4d.com/docs/CMU/...) are from the 2006-era doc site structure and are outdated links"
+    ]
+  }
+}

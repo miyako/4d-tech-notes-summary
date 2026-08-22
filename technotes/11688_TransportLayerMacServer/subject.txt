@@ -1,0 +1,1 @@
+Tech Note: Selecting the Proper Transport Layer on the Macintosh Version of 4D Server (TN 96-05, 4D v3.x, January 1996) — explains why a Mac running 4D Server must select the Ethernet (not EtherTalk) transport layer in MacTCP/MacIPX so that Windows 4D Clients running TCP/IP or IPX/SPX can properly decode its network packets.

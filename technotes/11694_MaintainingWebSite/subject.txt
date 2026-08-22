@@ -1,0 +1,1 @@
+Tech Note: Maintaining a Web Site with 4th Dimension (TN 96-18, 4D v3.x, April 1996) — a companion note in the 1996 4D Internet series addressing web site content maintenance; source text extraction was corrupted, so this summary is based on title and metadata only.

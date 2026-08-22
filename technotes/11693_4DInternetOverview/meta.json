@@ -1,0 +1,30 @@
+{
+  "asset_id": 11693,
+  "title": "Tech Note: 4D and The Internet, An Overview",
+  "technote_number": "96-11",
+  "year": 1996,
+  "published_date": "March 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=11693",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_11-15_(MAR)/96-11_4D_and_the_Internet.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "CGI via AppleEvents (NetLink/4D, System 7 Pack)",
+    "Third-party 4D Internet toolkits (ITK, PDM Internet Tools, TCP ToolKit)",
+    "4D-based Web servers (NetWings, Web Server 4D)",
+    "4D Server over TCP/IP; 4D Open for 4D",
+    "WebSTAR / MacHTTP Macintosh web servers"
+  ],
+  "historical_commentary": {
+    "text": "This note is a broad 1996 overview/roadmap of how 4D could participate in the still-young Web/Internet — as a CGI via AppleEvents, as a page-management/database-publishing tool, as an Internet client, or as a full Web/FTP/mail server built with third-party TCP toolkits — referencing a landscape of now-defunct products (WebSTAR, NetLink/4D, ITK, NetWings, Web Server 4D) and pre-Web-standard practices; the specific products and CGI-via-AppleEvents architecture are entirely obsolete, but the note's framing of database-driven dynamic web content and Internet-client integration reflects a still-relevant idea that 4D (like any database) can be a powerful engine behind web-facing systems.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D gained a built-in web server and 4D Internet Commands plugin around 1997-1998, replacing the third-party AppleEvent/CGI approach (NetLink/4D, WebSTAR, System 7 Pack) described here",
+      "Virtually all of the named third-party products (NetLink/4D, NetWings, Web Server 4D, ITK, PDM Internet Tools, TCP ToolKit, WebSTAR, MacHTTP) are long discontinued",
+      "Modern 4D web development uses ORDA and REST APIs, not CGI/AppleEvent bridging to an external web server"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "asset_id": 11698,
+  "title": "Tech Note: Are You V6 Ready?",
+  "technote_number": "96-42",
+  "year": 1996,
+  "published_date": "September 1, 1996",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=11698",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_41-45_(SEP)/96-42_V6_Ready.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v6.0 terminology changes (Tables/Forms replacing Files/Layouts)",
+    "EXECUTE statement / STR# resource #8 compatibility mechanism",
+    "31-character identifier name length limit",
+    "New pointer sign `->`",
+    "Stored procedures returning negative process IDs"
+  ],
+  "historical_commentary": {
+    "text": "Published ahead of 4D v6's release, this note prepares developers for breaking changes coming in the new version — renamed core terminology (Files become Tables, Layouts become Forms), a compatibility mechanism for EXECUTE statement source code stored via STR# resource #8, much longer identifier names (31 characters, up from 15/11), a new pointer sign syntax, and stored procedures now returning negative process IDs — all of which describe a one-time historical migration milestone that has long since been completed and superseded by many subsequent major 4D versions.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has undergone many major version transitions since v6 (v6->v7->...->v20+), each with its own compatibility and migration considerations documented in later release notes",
+      "The specific v6 terminology changes (Tables/Forms) described here have long since become simply the standard, familiar 4D vocabulary",
+      "Modern 4D's compiler and language have evolved substantially further (Project Mode, ORDA, modern object/collection types) beyond anything anticipated in this 1996 pre-release note"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 41779,
+  "title": "Tech Note: OCI Mapper 2004.3",
+  "technote_number": "06-06",
+  "year": 2006,
+  "published_date": "February 10, 2006",
+  "product": "4D",
+  "version": "2004.3",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D, Inc.",
+  "page_url": "https://kb.4d.com/assetid=41779",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_05-08_(FEB)/06-06_OCI_Mapper_2004-3.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "OCI Mapper component (open-source 4D component)",
+    "4D for OCI plug-in",
+    "4D Oracle plug-in (legacy, discontinued)",
+    "OCI cursors, error handling (OD ON ERROR CALL, OD Last Error)",
+    "Oracle tnsnames.ora / Oracle Home resolution"
+  ],
+  "historical_commentary": {
+    "text": "This note documents an update to the OCI Mapper, a 4D component that emulated the discontinued 4D Oracle plug-in's high-level commands on top of the newer, lower-level 4D for OCI plug-in introduced in 4D 2004, aiming to give 4D Oracle developers an upgrade path without rewriting source code. It is squarely about a legacy Oracle connectivity transition (4D Oracle to 4D for OCI) that predates 4D's own native SQL engine (v11, 2007) by over a year, and the entire plug-in stack it discusses (4D Oracle, 4D for OCI, OCI Mapper) is long retired from current 4D products, making this note historical archive material for anyone maintaining decades-old 4D-Oracle systems rather than a practical current-day reference.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Oracle (the original high-level Oracle plug-in) had already been discontinued by the time of 4D 2004, prompting the OCI Mapper transition tool described here",
+      "4D's later native SQL engine (v11, 2007) and subsequent database connectivity features superseded this entire generation of Oracle plug-ins and community mapping components"
+    ]
+  }
+}

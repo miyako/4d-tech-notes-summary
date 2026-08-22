@@ -1,0 +1,1 @@
+Tech Note: DataGrid's Enterprise Data Module - Beta 1 (TN 00-34, 4D v6.5, July 2000) — an explanation of the core architecture of DataGrid's Enterprise Data Module, introducing its Model and Query conceptual objects and the accessor-method pattern used to work with them.

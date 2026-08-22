@@ -1,0 +1,1 @@
+Tech Note: Getting Started With 4D Open for Java (TN 00-47, 4D Open v6.7, October 2000) — a beginner's introduction to 4D Open for Java, showing how open connections work between Java code, applets, and 4D Server.

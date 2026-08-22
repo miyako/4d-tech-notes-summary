@@ -1,0 +1,1 @@
+Tech Note: 4D for OCI PL/SQL (TN 06-09, 4D v2004, March 2006) — a walkthrough of creating, calling, and dropping Oracle PL/SQL functions and procedures from 4D using the 4D for OCI plug-in's bind and execute commands.
