@@ -1,0 +1,1 @@
+Tech Note: Web Area Inspector (TN 14-09, 4D v14, June 2014) — shows how to enable and use the WebKit Web Inspector newly exposed inside 4D v14's Web Area form object, for debugging load times, JavaScript, and console output of embedded web content.

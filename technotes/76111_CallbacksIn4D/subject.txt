@@ -1,0 +1,1 @@
+How to Create and Use Callbacks in 4D (TN 10-17, 4D v11.6) — explains what a callback is, why it enables encapsulated, reusable components and databases, and how to implement 4D Method-based callbacks between host databases and components.

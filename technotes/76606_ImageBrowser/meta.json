@@ -1,0 +1,27 @@
+{
+  "asset_id": 76606,
+  "title": "Tech Note: Image Browser",
+  "technote_number": "12-12",
+  "year": 2012,
+  "published_date": "June 29, 2012",
+  "product": "4D",
+  "version": "13.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=76606",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-12_ImageBrowser.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web areas",
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates building a dynamic photo grid inside a 4D Web area using HTML, CSS and JavaScript — a technique that predates 4D's modern picture-handling and web component options but whose core idea (using a Web area as an embeddable HTML/CSS/JS surface) remains valid, since 4D Web areas are still supported today. However, for new development, 4D now offers additional native approaches for image display (list boxes with picture columns, form picture objects) and, for richer web front-ends, REST/ORDA-backed JavaScript frameworks or Qodly Studio would typically be considered before hand-building an HTML/CSS/JS grid inside a classic Web area.", "status": "still_relevant",
+    "related_updates": [
+      "4D list box picture columns and form picture objects provide native alternatives for displaying image grids without a Web area",
+      "REST APIs built on ORDA (4D v16 R5/R6, 2017) combined with modern JS frameworks or Qodly Studio are now the preferred approach for rich web-based media browsing UIs"
+    ]
+  }
+}

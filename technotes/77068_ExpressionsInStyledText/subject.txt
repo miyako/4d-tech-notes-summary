@@ -1,0 +1,1 @@
+Tech Note: Using Expressions in 4D Styled Text (TN 14-10, 4D v14, June 2014) — explains the new 4D v14 capability to embed live 4D expressions (fields, variables, commands, methods) inside Multi-style styled text variables, and demonstrates building a rich text editor with an emailing feature using this capability.

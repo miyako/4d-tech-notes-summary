@@ -1,0 +1,1 @@
+4D SQL Query Browser (TN 11-25, 4D v12, August 9, 2011) — a sample database demonstrating SQL Pass-through and the SQL LOGIN command to build a client that connects to and browses multiple 4D Server (v11+) databases simultaneously over SQL.

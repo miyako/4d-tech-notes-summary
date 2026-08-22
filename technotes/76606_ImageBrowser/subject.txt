@@ -1,0 +1,1 @@
+Tech Note: Image Browser (TN 12-12, 4D v13.1, June 2012) — building a dynamic photo grid inside a 4D Web area using HTML, CSS and JavaScript. (Teaser-only source; full PDF unavailable.)

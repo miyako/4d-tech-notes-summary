@@ -1,0 +1,28 @@
+{
+  "asset_id": 77068,
+  "title": "Tech Note: Using Expressions in 4D Styled Text",
+  "technote_number": "14-10",
+  "year": 2014,
+  "published_date": "June 12, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77068",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-10_ExpressionInStyledText.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Styled text (Multi-style) variables",
+    "ST INSERT EXPRESSION / ST SET OPTIONS / ST COMPUTE EXPRESSIONS / ST FREEZE EXPRESSIONS",
+    "ST GET PLAIN TEXT / ST GET TEXT",
+    "4D Internet Commands (SMTP) email integration"
+  ],
+  "historical_commentary": {
+    "text": "Embedding live 4D expressions into styled-text variables for mail-merge-style letters, emails, and templates was a genuinely useful capability for its time, and the classic ST_ command family it relies on still exists and functions in current 4D versions. However, for serious document generation and mail-merge scenarios 4D has since introduced 4D Write Pro, a far more capable rich-document engine with its own reference/formula mechanism, making this styled-text-variable approach a lighter-weight but now secondary technique rather than the primary recommended path for rich document generation.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Write Pro (introduced 4D v16) provides a full word-processing engine with references and formulas, now the recommended approach for rich document/email generation",
+      "4D Write Pro documents use an open, text-friendly format better suited to Project Mode workflows"
+    ]
+  }
+}

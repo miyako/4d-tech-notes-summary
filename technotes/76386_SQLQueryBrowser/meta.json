@@ -1,0 +1,27 @@
+{
+  "asset_id": 76386,
+  "title": "4D SQL Query Browser",
+  "technote_number": "11-25",
+  "year": 2011,
+  "published_date": "August 9, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76386",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-25_4DSQLQueryBrowser.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SQL LOGIN command (SQL Pass-through)",
+    "4D Server SQL engine (v11+)",
+    "Per-process multi-connection client architecture"
+  ],
+  "historical_commentary": {
+    "text": "SQL Pass-through via SQL LOGIN and 4D's embedded SQL engine remain functional in current 4D, so this sample browser's core mechanism still works as a way to connect to and explore multiple 4D Server databases simultaneously via SQL. However, for building new client tools that inspect or browse remote 4D data, developers today would more likely reach for 4D's REST/ORDA APIs, which offer JSON-based, HTTP-native browsing without requiring a SQL client license or SQL Server to be separately enabled.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D REST server built on ORDA (introduced v16 R5/17+) offers an HTTP/JSON alternative to SQL Pass-through for external tooling",
+      "4D's SQL engine itself has continued to be maintained and used as a supported access method since this 2011 note"
+    ]
+  }
+}

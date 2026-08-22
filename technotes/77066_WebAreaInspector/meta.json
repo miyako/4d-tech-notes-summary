@@ -1,0 +1,28 @@
+{
+  "asset_id": 77066,
+  "title": "Tech Note: Web Area Inspector",
+  "technote_number": "14-09",
+  "year": 2014,
+  "published_date": "June 2, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77066",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-09_WebAreaInspector.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Web Area form object (integrated WebKit engine)",
+    "WA SET PREFERENCE / WA Evaluate JavaScript",
+    "WebKit Web Inspector (Network, Scripts, Console tabs)",
+    "$4d object for invoking 4D methods from JavaScript"
+  ],
+  "historical_commentary": {
+    "text": "Exposing the WebKit Web Inspector inside 4D's Web Area was a valuable debugging aid at a time when the integrated WebKit engine was new and cross-platform. However, 4D has since replaced the integrated WebKit rendering engine with a Chromium-based Web Area engine (introduced around 4D v18), which comes with its own modern Chromium DevTools rather than the legacy WebKit Web Inspector described here. The specific commands and inspector UI in this note are tied to the now-retired WebKit engine, though the general practice of using browser dev tools to debug embedded web content, and exposing a $4d-like bridge object, remains conceptually current.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's Web Area component moved from the WebKit engine to a Chromium-based engine (4D v18+), which exposes Chromium DevTools instead of the WebKit Web Inspector shown here",
+      "4D's REST/ORDA-based web layer (introduced v16 R5+) reduces reliance on hand-rolled Web Area/JavaScript bridges for many data-access scenarios"
+    ]
+  }
+}
