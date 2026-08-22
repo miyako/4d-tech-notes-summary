@@ -1,0 +1,19 @@
+{
+  "asset_id": 79267,
+  "title": "Tech Note: CSS Style Sheets in 4D Project Mode",
+  "technote_number": "23-15",
+  "year": 2023,
+  "published_date": "August 24, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Shayanna Gatchalian, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79267",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-15_CSSin4DProjectMode.zip",
+  "featured_technology": ["External CSS style sheets (CSS2)", "styleSheets.css / _mac / _windows", "@import / @media (prefers-color-scheme)", "CSS Preview in Form Editor", "JSON pointer ($ref) dynamic stylesheets", ".4DForm / theme.json"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

@@ -1,0 +1,1 @@
+Sentinel: A Multi-Layer Web Security Architecture Using HTTP Request Handlers and HTTP Rules (TN 26-05, 4D v21, May 2026) — an eleven-gate defense pipeline (allowlist/blocklist, rate limiting, WAF, honeypots, IDS/IPS scoring, panic mode) built on 4D v21 LTS's declarative HTTPHandlers.json routing and HTTPRules.json security-header injection.

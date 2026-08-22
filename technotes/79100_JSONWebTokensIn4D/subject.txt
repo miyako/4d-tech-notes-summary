@@ -1,0 +1,1 @@
+JSON Web Tokens in 4D (TN 23-01, 4D v19, Jan 2023) — generating and verifying JWTs natively in 4D using JSON objects, BASE64 ENCODE/DECODE, and the CryptoKey class for HMAC/RSA/ECDSA-based signature hashing, for use as REST API authentication tokens.

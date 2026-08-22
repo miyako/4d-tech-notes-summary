@@ -1,0 +1,19 @@
+{
+  "asset_id": 79155,
+  "title": "7 Changes to Check When Transitioning to Project Mode",
+  "technote_number": "23-06",
+  "year": 2023,
+  "published_date": "March 27, 2023",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79155",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-06_ChangesInProjectMode.zip",
+  "featured_technology": ["CHANGE CURRENT USER", "USERS TO BLOB / BLOB TO USERS", "directory.json", "READ PICTURE FILE", "SVG custom buttons", "Radio Group property"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

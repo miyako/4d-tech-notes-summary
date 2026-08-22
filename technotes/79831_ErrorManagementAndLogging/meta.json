@@ -1,0 +1,19 @@
+{
+  "asset_id": 79831,
+  "title": "Error Management and Logging in 4D Applications",
+  "technote_number": "25-09",
+  "year": 2025,
+  "published_date": "September 29, 2025",
+  "product": "4D",
+  "version": "20 R9",
+  "platform": "Mac & Win",
+  "author": "Karim Meghraoui Technical Support Engineer, 4D Morocco.",
+  "page_url": "https://kb.4d.com/assetid=79831",
+  "download_url": "https://kb.4d.com/TN/2025/25-09_ErrorManagement.zip",
+  "featured_technology": ["ON ERR CALL", "throw()", "Try() / Try...Catch...End try", "Last errors", "Method called on error", "LOG EVENT"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

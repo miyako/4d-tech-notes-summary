@@ -1,0 +1,19 @@
+{
+  "asset_id": 79244,
+  "title": "Handling Errors in 4D",
+  "technote_number": "23-13",
+  "year": 2023,
+  "published_date": "July 24, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79244",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-13_Handling4DErrors.zip",
+  "featured_technology": ["ON ERR CALL", "Method called on error", "Last errors", "Get call chain", "Get system info", "GET LAST ERROR STACK"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

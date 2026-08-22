@@ -1,0 +1,1 @@
+ORDA Events in 4D: Controlling Data Operations with Event-Driven Logic (TN 26-03, 4D v21, Mar 2026) — seven entity-level lifecycle events (touched, validateSave, saving, afterSave, validateDrop, dropping, afterDrop) defined in Entity classes replace table-locking classic triggers with parallel, record-level, object-oriented business-rule enforcement.

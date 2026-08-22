@@ -1,0 +1,19 @@
+{
+  "asset_id": 79860,
+  "title": "Force Login for REST Authentication in 4d",
+  "technote_number": "25-10",
+  "year": 2025,
+  "published_date": "October 31, 2025",
+  "product": "4D Server",
+  "version": "20 R",
+  "platform": "Mac & Win",
+  "author": "Abir HSAINI, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79860",
+  "download_url": "https://kb.4d.com/TN/2025/25-10_ForceLoginforRESTAuth.zip",
+  "featured_technology": ["roles.json", "ds.authentify()", "Session.setPrivileges()", "ds.hasPrivilege()/getPrivileges()", "Qodly Roles and Privileges UI", "ORDA REST API"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

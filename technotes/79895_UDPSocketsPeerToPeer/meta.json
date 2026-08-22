@@ -1,0 +1,19 @@
+{
+  "asset_id": 79895,
+  "title": "UDP Sockets: Peer-to-Peer Communication",
+  "technote_number": "25-12",
+  "year": 2025,
+  "published_date": "December 22, 2025",
+  "product": "4D",
+  "version": "20 R10",
+  "platform": "Mac & Win",
+  "author": "Anouar Moustarih, Quality Support Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=79895",
+  "download_url": "https://kb.4d.com/TN/2025/25-12_UPDPeerToPeer.zip",
+  "featured_technology": ["4D.UDPSocket", "4D.UDPEvent", "4D.Signal", "CALL WORKER", "shared collections/objects", "UDP broadcast"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

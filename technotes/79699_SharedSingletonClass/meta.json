@@ -1,0 +1,19 @@
+{
+  "asset_id": 79699,
+  "title": "Tech Note: Introduction to Shared Singleton Class: Dynamic Global Variables",
+  "technote_number": "25-04",
+  "year": 2025,
+  "published_date": "April 28, 2025",
+  "product": "4D",
+  "version": "20 R",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79699",
+  "download_url": "https://kb.4d.com/DLTN/TN/2025/25-04_SharedSingletonClass.zip",
+  "featured_technology": ["shared classes", "singleton classes", "shared singleton classes", "Use...End use", "shared objects/collections", "CALL WORKER"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

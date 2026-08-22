@@ -1,0 +1,19 @@
+{
+  "asset_id": 79918,
+  "title": "Using 4D AIKit in Modern 4D Applications",
+  "technote_number": "26-01",
+  "year": 2026,
+  "published_date": "January 29, 2026",
+  "product": "4D",
+  "version": "21",
+  "platform": "Mac & Win",
+  "author": "Soukaina BACHIKH, Customer Success Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79918",
+  "download_url": "https://kb.4d.com/TN/2026/26-01_AIKitInModernApp.zip",
+  "featured_technology": ["cs.AIKit.OpenAI", "OpenAIChatCompletionsAPI", "OpenAIVisionHelper", "OpenAIImagesAPI", "OpenAIError", "CALL WORKER"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

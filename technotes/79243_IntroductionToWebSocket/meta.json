@@ -1,0 +1,19 @@
+{
+  "asset_id": 79243,
+  "title": "Introduction to WebSocket",
+  "technote_number": "23-12",
+  "year": 2023,
+  "published_date": "July 24, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79243",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-12_WebSocket_r2.zip",
+  "featured_technology": ["4D.WebSocketServer", "4D.WebSocketConnection", "CALL WORKER", "Tabulator.js", "WebSocket protocol"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

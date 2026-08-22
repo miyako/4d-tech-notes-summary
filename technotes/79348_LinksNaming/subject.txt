@@ -1,0 +1,1 @@
+Tech Note: Links Naming (TN 23-23, 4D v20, Dec 2023) — a naming convention for ORDA one-to-many/many-to-one link attributes (singular lower-case for N-to-1, plural lower-case for 1-to-N, no direction/table prefixes), plus a scan script and a catalog.4DCatalog XML editing trick for renaming legacy default link names in bulk.

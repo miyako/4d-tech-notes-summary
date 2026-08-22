@@ -1,0 +1,1 @@
+Programmatic Implementation of Conditional Formatting in 4D View Pro (TN 23-10, 4D View Pro v19, May 2023) — applying and managing conditional-format rules programmatically by manipulating the View Pro/SpreadJS object's "conditionalFormats" property via `VP Export to object`/`VP Import from object`, since no dedicated VP commands exist for it.

@@ -1,0 +1,19 @@
+{
+  "asset_id": 80043,
+  "title": "4D Sessions: From Desktop to Web in a Single Shared Session",
+  "technote_number": "26-06",
+  "year": 2026,
+  "published_date": "June 29, 2026",
+  "product": "4D",
+  "version": "20 R",
+  "platform": "Mac & Win",
+  "author": "Al Mahdi Bakkali, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=80043",
+  "download_url": "https://kb.4d.com/TN/2026/26-06_4DSessions.zip",
+  "featured_technology": ["Session.info", "Session.createOTP()", "Session.storage", "Session.setPrivileges()/clearPrivileges()", "$4DSID OTP URL mechanism", "QR code pairing"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

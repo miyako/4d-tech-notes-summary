@@ -1,0 +1,19 @@
+{
+  "asset_id": 79332,
+  "title": "Tech Note: QUERY BY FORMULA use SQL Join",
+  "technote_number": "23-19",
+  "year": 2023,
+  "published_date": "November 28, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Abdelhafid Elhour, PS 4D and PS Web/mobile manager, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=79332",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-19_QueryByFormula_SQLJoin.pdf",
+  "featured_technology": ["QUERY BY FORMULA / QUERY SELECTION BY FORMULA", "QUERY BY FORMULA use SQL Join compatibility property", "DESCRIBE QUERY EXECUTION", "Get last query plan / Get last query path", "SET DATABASE PARAMETER (selector 49)"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

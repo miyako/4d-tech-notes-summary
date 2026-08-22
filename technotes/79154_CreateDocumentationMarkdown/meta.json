@@ -1,0 +1,19 @@
+{
+  "asset_id": 79154,
+  "title": "Create Documentation for 4D Methods, Forms, and Classes",
+  "technote_number": "23-05",
+  "year": 2023,
+  "published_date": "March 27, 2023",
+  "product": "4D",
+  "version": "19 R7",
+  "platform": "Mac & Win",
+  "author": "Ricki Barragan, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79154",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-05_DocumentWithMarkdown.zip",
+  "featured_technology": ["4D Explorer documentation panel", "Markdown (.md) files", "Documentation folder", "Class documentation"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

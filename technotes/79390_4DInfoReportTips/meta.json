@@ -1,0 +1,19 @@
+{
+  "asset_id": 79390,
+  "title": "Tech Note: 4D_Info_Report Tips and Support Cases",
+  "technote_number": "24-03",
+  "year": 2024,
+  "published_date": "February 29, 2024",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Thomas SCHLUMBERGER, Technical Services Engineer, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=79390",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-03_4DInfoReportsTips.zip",
+  "featured_technology": ["4D_Info_Report component", "stored procedure monitoring (aa4D_NP_Schedule_Reports_Server)", "Array_profiler.json", "Attention_report.txt", "Compare/Graph dialogs", "ADJUST TABLE/INDEX/BLOBS CACHE PRIORITY"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

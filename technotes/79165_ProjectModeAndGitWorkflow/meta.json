@@ -1,0 +1,19 @@
+{
+  "asset_id": 79165,
+  "title": "Project Mode and Git Workflow",
+  "technote_number": "23-07",
+  "year": 2023,
+  "published_date": "April 18, 2023",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79165",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-07_ProjectModeAndGitWorkflow.pdf",
+  "featured_technology": ["4D project mode (.4DProject)", "Git CLI", "GitHub", ".gitignore", "Feature branch workflow"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

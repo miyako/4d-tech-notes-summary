@@ -1,0 +1,19 @@
+{
+  "asset_id": 79294,
+  "title": "Tech Note: Running Headless using tool4d",
+  "technote_number": "23-16",
+  "year": 2023,
+  "published_date": "September 29, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Erick, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79294",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-16_Running_Headless_using_tool4d.zip",
+  "featured_technology": ["tool4d CLI executable", "LOG EVENT", "Get database parameter (User param value)", "--startup-method / --user-param arguments", "EXPORT TEXT / PRINT SELECTION / VERIFY CURRENT DATA FILE"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

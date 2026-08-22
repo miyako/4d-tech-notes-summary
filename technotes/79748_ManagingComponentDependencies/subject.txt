@@ -1,0 +1,1 @@
+Managing Component Dependencies: Challenges and Solutions (TN 25-06, 4D v20 R8, Jun 2025) — declaring, resolving, and troubleshooting local and GitHub-hosted 4D component dependencies via dependencies.json, environment4d.json, and the graphical Project Dependencies panel.

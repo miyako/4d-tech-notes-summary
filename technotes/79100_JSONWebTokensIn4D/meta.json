@@ -1,0 +1,19 @@
+{
+  "asset_id": 79100,
+  "title": "JSON Web Tokens in 4D",
+  "technote_number": "23-01",
+  "year": 2023,
+  "published_date": "January 23, 2023",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79100",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-01_JWT.zip",
+  "featured_technology": ["JSON Web Token (JWT) structure", "BASE64 ENCODE/DECODE", "4D CryptoKey class", "HMAC/RSA/ECDSA signing"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

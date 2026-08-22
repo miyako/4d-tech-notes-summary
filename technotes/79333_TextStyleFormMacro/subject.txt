@@ -1,0 +1,1 @@
+Tech Note: Text Style Form Macro (TN 23-20, 4D v20, Nov 2023) — a form editor macro component that opens a modal Text Style Editor with a live font-preview list box, letting developers preview, build, apply, or export (as JSON) a complete text style directly onto selected 4D form elements.

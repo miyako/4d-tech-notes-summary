@@ -1,0 +1,1 @@
+Tech Note: Hash-Based Set Class Component (TN 23-18, 4D v20, Oct 2023) — implements a chainable, hash-table-backed "Set" data structure class (add/has/delete/clear/collection) using twin internal objects for text and number values, then builds union/difference/intersection operations on top and packages it as a namespaced ("Hash") 4D component.

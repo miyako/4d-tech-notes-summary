@@ -1,0 +1,19 @@
+{
+  "asset_id": 80020,
+  "title": "Sentinel: A Multi-Layer Web Security Architecture Using HTTP Request Handlers and HTTP Rules",
+  "technote_number": "26-05",
+  "year": 2026,
+  "published_date": "May 28, 2026",
+  "product": "4D",
+  "version": "21",
+  "platform": "Mac & Win",
+  "author": "Anouar Moustarih, Quality Support Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=80020",
+  "download_url": "https://kb.4d.com/TN/2026/26-05_MultiLayerWebSecurity.zip",
+  "featured_technology": ["HTTP Request Handlers (HTTPHandlers.json)", "HTTP Rules (HTTPRules.json)", "On Web Authentication", "shared singleton classes", "4D.Signal", "bcrypt", "regex-based WAF"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

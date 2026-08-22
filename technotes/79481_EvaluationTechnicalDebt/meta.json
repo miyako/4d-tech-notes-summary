@@ -1,0 +1,19 @@
+{
+  "asset_id": 79481,
+  "title": "Tech Note: Evaluation Technical-Debt of the 4D Code",
+  "technote_number": "24-09",
+  "year": 2024,
+  "published_date": "July 25, 2024",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Thomas SCHLUMBERGER, Technical Services Engineer, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=79481",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-09_EvaluationTechnicalDebt.zip",
+  "featured_technology": ["Methods_Statistics component", "shared methods", "code parsing/statistics collection", "JSON report export", "CSV export"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

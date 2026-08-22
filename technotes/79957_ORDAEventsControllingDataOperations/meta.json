@@ -1,0 +1,19 @@
+{
+  "asset_id": 79957,
+  "title": "ORDA Events in 4D: Controlling Data Operations with Event-Driven Logic",
+  "technote_number": "26-03",
+  "year": 2026,
+  "published_date": "March 23, 2026",
+  "product": "4D",
+  "version": "21",
+  "platform": "Mac & Win",
+  "author": "Abir HSAINI, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79957",
+  "download_url": "https://kb.4d.com/TN/2026/26-03_ORDAEvents.zip",
+  "featured_technology": ["ORDA Entity Class events", "touched", "validateSave", "saving", "afterSave", "validateDrop/dropping/afterDrop", "classic 4D triggers"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

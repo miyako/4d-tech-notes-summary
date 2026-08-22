@@ -1,0 +1,1 @@
+Automating Build and Deployment processes with Build4D Component (TN 25-07, 4D v20 R, Jul 2025) — scripted, reproducible 4D build/packaging pipelines using the Build4D component's cs.Build4D classes, driven headlessly via Tool4D and wired into GitHub Actions CI/CD with self-hosted runners.

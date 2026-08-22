@@ -1,0 +1,19 @@
+{
+  "asset_id": 79266,
+  "title": "Tech Note: Exploring 4D ORDA Classes and Class Functions",
+  "technote_number": "23-14",
+  "year": 2023,
+  "published_date": "August 24, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "MOUSTARIH Anouar, Technical Services Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=79266",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-14_ExploringORDAClasses.zip",
+  "featured_technology": ["ORDA (Datastore/Dataclass/Entity/EntitySelection classes)", "Class extends DataClass / Class extends Entity", "ds.<Table>.query()", "4D.EntitySelection", "This (entity context)"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

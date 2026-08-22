@@ -1,0 +1,1 @@
+Force Login for REST Authentication in 4d (TN 25-10, 4D Server v20 R, Oct 2025) — the deny-by-default "Force Login" REST security model (4D 20 R6+) requires an exposed authentify() datastore function to grant privileges via Session.setPrivileges(), with fine-grained access defined per resource in roles.json, replacing the deprecated "On REST Authentication" method.

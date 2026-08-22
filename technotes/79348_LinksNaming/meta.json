@@ -1,0 +1,19 @@
+{
+  "asset_id": 79348,
+  "title": "Tech Note: Links Naming",
+  "technote_number": "23-23",
+  "year": 2023,
+  "published_date": "December 27, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Abdelhafid Elhour, PS 4D and PS Web/mobile manager, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=79348",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-22_LinksNaming.pdf",
+  "featured_technology": ["ORDA (relatedEntity attributes)", "ds/dataclass introspection", "catalog.4DCatalog XML (project mode)", "Collection.distinct()/join()"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

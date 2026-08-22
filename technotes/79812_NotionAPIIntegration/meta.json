@@ -1,0 +1,19 @@
+{
+  "asset_id": 79812,
+  "title": "Integrating 4D with Notion: Creating Pages and Databases Using the Notion API",
+  "technote_number": "25-08",
+  "year": 2025,
+  "published_date": "August 29, 2025",
+  "product": "4D",
+  "version": "20 R9",
+  "platform": "Mac & Win",
+  "author": "Al Mahdi Bakkali, Quality Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79812",
+  "download_url": "https://kb.4d.com/TN/2025/25-08_NotionAPIIntegration.zip",
+  "featured_technology": ["4D.HTTPRequest", "Notion API (Internal Integration)", "Storage shared object", "Qodly Studio", "JSON property mapping"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

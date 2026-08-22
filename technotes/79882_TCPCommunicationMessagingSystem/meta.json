@@ -1,0 +1,19 @@
+{
+  "asset_id": 79882,
+  "title": "TCP Communication, Data Exchange Methods: Creating a Messaging System",
+  "technote_number": "25-11",
+  "year": 2025,
+  "published_date": "November 29, 2025",
+  "product": "4D",
+  "version": "21",
+  "platform": "Mac & Win",
+  "author": "Olivier Marolleau, Quality Support Engineer, 4D France.",
+  "page_url": "https://kb.4d.com/assetid=79882",
+  "download_url": "https://kb.4d.com/TN/2025/25-11_4DMessenger.zip",
+  "featured_technology": ["4D.TCPListener", "4D.TCPConnection", "Encrypt data BLOB / Decrypt data BLOB", "Web Area + WA EXECUTE JAVASCRIPT FUNCTION", "MD5 digest validation"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

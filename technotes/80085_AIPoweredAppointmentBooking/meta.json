@@ -1,0 +1,19 @@
+{
+  "asset_id": 80085,
+  "title": "AI-Powered Appointment Booking with Tool Calling in 4D AIKit",
+  "technote_number": "26-08",
+  "year": 2026,
+  "published_date": "August 19, 2026",
+  "product": "4D",
+  "version": "21",
+  "platform": "Mac & Win",
+  "author": "Soukaina Bachikh, Customer Success Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=80085",
+  "download_url": "https://kb.4d.com/TN/2026/26-08_BookingWithAI.zip",
+  "featured_technology": ["4D AIKit", "OpenAI Tool Calling", "cs.AIKit.OpenAITool", "ORDA", "4D Web Server", "$4d bridge"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

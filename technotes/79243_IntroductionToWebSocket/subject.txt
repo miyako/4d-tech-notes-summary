@@ -1,0 +1,1 @@
+Introduction to WebSocket (TN 23-12, 4D v20, Jul 2023) — real-time, full-duplex client/server communication in 4D via the new 4D.WebSocketServer and 4D.WebSocketConnection classes, demonstrated with a Tabulator.js-based live prospect-list demo.

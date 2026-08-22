@@ -1,0 +1,1 @@
+UDP Sockets: Peer-to-Peer Communication (TN 25-12, 4D v20 R10, Dec 2025) — a serverless PeerDiscovery class built on 4D.UDPSocket/UDPEvent uses UDP broadcast ANNOUNCE/PROBE/BYE messages and TTL pruning to give 4D application instances real-time awareness of peers on the same local network.

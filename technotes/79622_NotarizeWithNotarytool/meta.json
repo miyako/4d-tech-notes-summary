@@ -1,0 +1,19 @@
+{
+  "asset_id": 79622,
+  "title": "Tech Note: Using Apple's \"notarytool\" to Notarize Applications",
+  "technote_number": "25-01",
+  "year": 2025,
+  "published_date": "January 16, 2025",
+  "product": "4D",
+  "version": "20 R",
+  "platform": "Mac & Win",
+  "author": "Brianna Rentfrow, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79622",
+  "download_url": "https://kb.4d.com/DLTN/TN/2025/25-01_Notarization.pdf",
+  "featured_technology": ["xcrun notarytool", "codesign", "Apple Developer ID Application Certificate", "keychain profile credentials", "xcrun stapler", "LAUNCH EXTERNAL PROCESS"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

@@ -1,0 +1,1 @@
+OpenSSL in 4D using System Workers (TN 26-02, 4D v21, Feb 2026) — an asynchronous, callback-based OpenSSLWorker class built on 4D.SystemWorker (via CALL WORKER) drives non-blocking private-key, CSR, self-signed-certificate, and signed-XML generation, feeding certificates directly into 4D's built-in web server.

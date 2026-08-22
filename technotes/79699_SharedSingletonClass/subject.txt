@@ -1,0 +1,1 @@
+Introduction to Shared Singleton Class: Dynamic Global Variables (TN 25-04, 4D v20 R, Apr 2025) — thread-safe global state management across all 4D processes using a shared singleton class in place of deprecated interprocess variables.

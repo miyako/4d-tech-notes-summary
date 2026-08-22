@@ -1,0 +1,1 @@
+Error Management and Logging in 4D Applications (TN 25-09, 4D v20 R9, Sep 2025) — covers traditional scoped ON ERR CALL handlers (local/global/component) alongside the modern throw()/Try()/Try...Catch language additions (20 R4/R5) and Last errors, contrasting blocking system error dialogs with structured, loggable error recovery.

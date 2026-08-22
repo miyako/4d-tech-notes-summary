@@ -1,0 +1,19 @@
+{
+  "asset_id": 79748,
+  "title": "Tech Note: Managing Component Dependencies: Challenges and Solutions",
+  "technote_number": "25-06",
+  "year": 2025,
+  "published_date": "June 30, 2025",
+  "product": "4D",
+  "version": "20 R8",
+  "platform": "Mac & Win",
+  "author": "Abir HSAINI, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79748",
+  "download_url": "https://kb.4d.com/DLTN/TN/2025/25-06_ManagingDependencies.zip",
+  "featured_technology": ["dependencies.json", "environment4d.json", "Project Dependencies panel", "GitHub component hosting", "Semantic Versioning", "Interpreted vs. Compiled components"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

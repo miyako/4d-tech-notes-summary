@@ -1,0 +1,1 @@
+Structure Info Class (TN 24-10, 4D v20 R5, Aug 2024) — a shared singleton class that parses the project's catalog.xml into a queryable object, exposing helper functions to look up table, field, relation, and index metadata by name, UUID, or pointer.

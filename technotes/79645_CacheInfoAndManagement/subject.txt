@@ -1,0 +1,1 @@
+Cache information and management (TN 25-02, 4D v20 R, Feb 2025) — history and modern monitoring of 4D's memory cache, using GET MEMORY STATISTICS, Cache info, Get database measures, and 4D_Info_Report to observe and tune cache size, flush behavior, and the separate ORDA remote cache.

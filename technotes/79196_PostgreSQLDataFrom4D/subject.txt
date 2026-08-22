@@ -1,0 +1,1 @@
+Manipulating PostgreSQL Data from 4D (TN 23-09, 4D v19, May 2023) — exchanging records with an external PostgreSQL database using PostgREST as a REST façade and 4D's `HTTP Request` command for GET/POST/PUT/DELETE calls.

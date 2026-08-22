@@ -1,0 +1,19 @@
+{
+  "asset_id": 79310,
+  "title": "Tech Note: Hash-Based Set Class Component",
+  "technote_number": "23-18",
+  "year": 2023,
+  "published_date": "October 30, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79310",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-18_HashSetClass.zip",
+  "featured_technology": ["4D Classes (cs.Set)", "Object literal as hash table", "OB REMOVE", "Value type command", "Component namespaces", "Chainable methods (return This)"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

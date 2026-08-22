@@ -1,0 +1,1 @@
+Single Window App – Modernize your application (TN 24-14, 4D v20 R5, Dec 2024) — converting a classic double-click/output-form 4D app into a single-window, Outlook-style experience via a resizable class-based toolbar, a dynamic ORDA list box, and a live preview pane.

@@ -1,0 +1,1 @@
+Using 4D AIKit in Modern 4D Applications (TN 26-01, 4D v21, Jan 2026) — a foundational tour of the cs.AIKit component (chat completions, vision/OCR, image generation) and its architecture best practices, demonstrated via a Demo-AIKit document-intelligence app combining vision extraction, summarization, and chat.

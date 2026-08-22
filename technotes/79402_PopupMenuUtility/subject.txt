@@ -1,0 +1,1 @@
+Tech Note: Pop-Up Menu Utility (TN 24-05, 4D v20, Mar 2024) — a data-driven popup-menu framework built on a single collection-based definition consumed by a `popup()` method that wraps Dynamic pop up menu, handling multi-level menus, disabled items, font styles, checkmarks, and toggle states without manual menu-building code.

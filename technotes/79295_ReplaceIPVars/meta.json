@@ -1,0 +1,19 @@
+{
+  "asset_id": 79295,
+  "title": "Tech Note: Replacing Interprocess Variables",
+  "technote_number": "23-17",
+  "year": 2023,
+  "published_date": "September 29, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79295",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-17_ReplaceIPVars.zip",
+  "featured_technology": ["4D Custom Constants (XLIFF)", "New shared object / New shared collection", "Use...End use", "Storage object", "4D Tables / ORDA underscore-hidden tables", "Find in design / METHOD GET CODE"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

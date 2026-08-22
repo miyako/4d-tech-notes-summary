@@ -1,0 +1,19 @@
+{
+  "asset_id": 79334,
+  "title": "Tech Note: Managing SVG for images and the web within 4D (Revised on Nov 29th, 2023)",
+  "technote_number": "23-21",
+  "year": 2023,
+  "published_date": "November 28, 2023",
+  "product": "4D",
+  "version": "20.2",
+  "platform": "Mac & Win",
+  "author": "Thomas SCHLUMBERGER, Technical Support Engineer, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=79334",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-21_ManageSVGAndTheWeb_R2.zip",
+  "featured_technology": ["SVG (Scalable Vector Graphics)", "Web Area (WA OPEN URL, WA ZOOM IN/OUT)", "READ PICTURE FILE", "GET/SET PICTURE METADATA", "4D Class (ClassSVG)", "OPEN URL"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

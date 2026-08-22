@@ -1,0 +1,1 @@
+Tech Note: Visualize Real-Time Data with WebSocket Client & 4D View Pro (TN 24-02, 4D v19 R3, Jan 2024) — connects a 4D.WebSocket client to Coinbase's live ticker feed and streams the parsed JSON prices into a 4D View Pro area, which is turned into a live-updating line-chart dashboard via SpreadJS JavaScript calls and VP styling commands.

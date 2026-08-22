@@ -1,0 +1,1 @@
+Maintaining 4D Users and Groups in Project Mode (TN 24-08, 4D v20, Jun 2024) — preventing loss of deployed users/groups during structure updates by automatically backing up and restoring the project-mode "directory.json" file via paired On Startup/On Exit (or Server) database methods.

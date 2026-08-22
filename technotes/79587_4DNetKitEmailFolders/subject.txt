@@ -1,0 +1,1 @@
+Managing Email and Folders with 4D NetKit (TN 24-13, 4D v20 R6, Nov 2024) — OAuth 2.0-authenticated email/folder management against Google Gmail and Microsoft Graph APIs using 4D NetKit's OAuth2Provider, Google, and Office365 classes.

@@ -1,0 +1,1 @@
+Two Factor Authentification using TOTP (TN 24-07, 4D v20 R5, May 2024) — adding smartphone-authenticator-based Two-Factor Authentication to a 4D application using open-source TOTP classes, a base32 shared secret, a QR-code provisioning URI, and the qrencode plugin.

@@ -1,0 +1,1 @@
+TCP Data Acquisition and Event Logging (TN 25-05, 4D v20 R8, May 2025) — asynchronous TCP client connectivity and event-driven data/error handling via the new 4D.TCPConnection and 4D.TCPEvent classes.

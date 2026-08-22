@@ -1,0 +1,1 @@
+Integrating 4D with Notion: Creating Pages and Databases Using the Notion API (TN 25-08, 4D v20 R9, Aug 2025) — a 4D.HTTPRequest-based inventory-sync demo performs full CRUD (create/update/query/archive) against a Notion database via Internal Integration bearer-token auth, mapping 4D fields to Notion property schemas.

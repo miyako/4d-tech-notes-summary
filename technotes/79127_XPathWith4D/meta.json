@@ -1,0 +1,19 @@
+{
+  "asset_id": 79127,
+  "title": "Hands-on practice with XPath with 4D",
+  "technote_number": "23-03",
+  "year": 2023,
+  "published_date": "February 23, 2023",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Olivier Marolleau & Anouar Moustarih, Technical Services Engineer, 4D SAS & 4D Morocco.",
+  "page_url": "https://kb.4d.com/assetid=79127",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-03_XPathWith4D.zip",
+  "featured_technology": ["XPath (standard, v18R3+)", "DOM Find XML element", "DOM Parse XML source/variable", "EXPORT STRUCTURE"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

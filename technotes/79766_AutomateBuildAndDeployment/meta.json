@@ -1,0 +1,19 @@
+{
+  "asset_id": 79766,
+  "title": "Automating Build and Deployment processes with Build4D Component",
+  "technote_number": "25-07",
+  "year": 2025,
+  "published_date": "July 24, 2025",
+  "product": "4D",
+  "version": "20 R",
+  "platform": "Win",
+  "author": "Soukaina BACHIKH, Customer Success Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79766",
+  "download_url": "https://kb.4d.com/DLTN/TN/2025/25-07_AutomateBuildAndDeployment_R2.zip",
+  "featured_technology": ["Build4D component", "cs.Build4D.CompiledProject/Component/Standalone/Server/Client", "Tool4D CLI", "GitHub Actions", "self-hosted CI runners"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

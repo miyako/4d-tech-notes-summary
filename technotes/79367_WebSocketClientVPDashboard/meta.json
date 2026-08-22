@@ -1,0 +1,19 @@
+{
+  "asset_id": 79367,
+  "title": "Tech Note: Visualize Real-Time Data with WebSocket Client & 4D View Pro",
+  "technote_number": "24-02",
+  "year": 2024,
+  "published_date": "January 23, 2024",
+  "product": "4D View Pro",
+  "version": "19 R3",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79367",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-02_WebSocketClientVPDashboard.zip",
+  "featured_technology": ["4D.WebSocket class", "Coinbase WebSocket feed", "JSON Parse", "4D View Pro (VP SET VALUE, VP Cell)", "SpreadJS JavaScript API (WA Evaluate JavaScript)", "VP SET DEFAULT STYLE / VP SET CELL STYLE"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

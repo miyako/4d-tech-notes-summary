@@ -1,0 +1,1 @@
+4D Sessions: From Desktop to Web in a Single Shared Session (TN 26-06, 4D v20 R, Jun 2026) — a KYC-style demo app shows how the client-accessible Session.info, Session.createOTP(), and Session.storage (4D 21 R3+) let a desktop client, browser, and mobile device share one live 4D session via $4DSID OTP tokens.

@@ -1,0 +1,19 @@
+{
+  "asset_id": 79506,
+  "title": "Tech Note: Structure Info Class",
+  "technote_number": "24-10",
+  "year": 2024,
+  "published_date": "August 27, 2024",
+  "product": "4D",
+  "version": "20 R5",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, VP 4D Product Strategy, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=79506",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-10_StructureInfoClass.pdf",
+  "featured_technology": ["shared singleton class", "catalog.4DCatalog / catalog.xml", "File().getText()", "4D Filesystem pathnames", "collection.query()"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

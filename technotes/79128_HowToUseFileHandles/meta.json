@@ -1,0 +1,19 @@
+{
+  "asset_id": 79128,
+  "title": "How to Use File Handles",
+  "technote_number": "23-04",
+  "year": 2023,
+  "published_date": "February 23, 2023",
+  "product": "4D",
+  "version": "19 R7",
+  "platform": "Mac & Win",
+  "author": "Shayanna Gatchalian, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79128",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-04_FileHandles.zip",
+  "featured_technology": ["4D.FileHandle class", "4D.File class", "4D.Folder class", ".readLine()/.writeLine()", "RECEIVE PACKET/SEND PACKET (legacy)"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

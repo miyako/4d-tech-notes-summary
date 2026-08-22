@@ -1,0 +1,19 @@
+{
+  "asset_id": 79197,
+  "title": "Programmatic Implementation of Conditional Formatting in 4D View Pro",
+  "technote_number": "23-10",
+  "year": 2023,
+  "published_date": "May 22, 2023",
+  "product": "4D View Pro",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Shayanna Gatchalian, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79197",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-10_ConditionalFormatting.zip",
+  "featured_technology": ["4D View Pro", "VP Export to object", "VP Import from object", "SpreadJS conditionalFormats", "ORDA"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

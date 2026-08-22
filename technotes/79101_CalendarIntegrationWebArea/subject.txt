@@ -1,0 +1,1 @@
+4D for Mobile: Calendar Integration via Web Area (TN 23-02, 4D for Mobile v19 R, Jan 2023) — building a custom calendar view for a 4D for Mobile iOS app using the new Open URL action to load an HTML/FullCalendar-based web area, demonstrated with a PTO-request approval app.

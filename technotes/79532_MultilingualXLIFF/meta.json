@@ -1,0 +1,19 @@
+{
+  "asset_id": 79532,
+  "title": "Tech Note: Multilingual Support in 4D Databases with XLIFF Integration",
+  "technote_number": "24-11",
+  "year": 2024,
+  "published_date": "September 25, 2024",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Karim MEGHRAOUI, Technical Support Engineer, 4D Morocco.",
+  "page_url": "https://kb.4d.com/assetid=79532",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-11_MultilingualWithXLIFF.zip",
+  "featured_technology": ["XLIFF (.xlf) files", "SET DATABASE LOCALIZATION", "Get database localization", "Get localized string", "lproj folders", "Unicode / UTF-8"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

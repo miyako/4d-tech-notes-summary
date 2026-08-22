@@ -1,0 +1,1 @@
+Handling Errors in 4D (TN 23-13, 4D v20, Jul 2023) — installing custom error-handling methods with ON ERR CALL and scoped handlers (local/global/component), then gathering diagnostics via system variables, Last errors, and Get call chain to replace the default blocking error dialog.

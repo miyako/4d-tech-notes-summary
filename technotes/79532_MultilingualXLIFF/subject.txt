@@ -1,0 +1,1 @@
+Multilingual Support in 4D Databases with XLIFF Integration (TN 24-11, 4D v20, Sep 2024) — localizing 4D application interfaces into multiple languages using OASIS XLIFF translation files, lproj folder conventions, and the SET/Get DATABASE LOCALIZATION and Get localized string commands.

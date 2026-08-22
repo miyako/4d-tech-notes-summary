@@ -1,0 +1,1 @@
+How to Use File Handles (TN 23-04, 4D v19 R7, Feb 2023) — the new object-oriented FileHandle class for line-by-line, offset-tracked reading and writing of files, replacing the classic OPEN DOCUMENT/RECEIVE PACKET/SEND PACKET/CLOSE DOCUMENT workflow.

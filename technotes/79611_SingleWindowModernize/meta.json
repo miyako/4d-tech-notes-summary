@@ -1,0 +1,19 @@
+{
+  "asset_id": 79611,
+  "title": "Tech Note: Single Window App \u2013 Modernize your application",
+  "technote_number": "24-14",
+  "year": 2024,
+  "published_date": "December 23, 2024",
+  "product": "4D",
+  "version": "20 R5",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=79611",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-14_SingleWindowModernize.pdf",
+  "featured_technology": ["4D classes (Toolbar, Toolbar_Button)", "ORDA_Listbox class", "ORDA EntitySelection/DataClass", "sub forms / EXECUTE METHOD IN SUBFORM", "ORDA REST request logging"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

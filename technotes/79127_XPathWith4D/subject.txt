@@ -1,0 +1,1 @@
+Hands-on practice with XPath with 4D (TN 23-03, 4D v19, Feb 2023) — navigating and extracting XML data with the stabilized "standard XPath" implementation (v18R3+) via 4D's DOM commands, applied to real 4D settings/structure XML files.

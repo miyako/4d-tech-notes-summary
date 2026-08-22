@@ -1,0 +1,1 @@
+Tech Note: 4D_Info_Report Tips and Support Cases (TN 24-03, 4D v20, Feb 2024) — practical guide to deploying and using the 4D_Info_Report component's shared methods and stored-procedure reporting to capture Server context snapshots, then diagnosing real memory-leak, cache-saturation, and power-outage incidents via its Compare/Graph dialogs.

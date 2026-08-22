@@ -1,0 +1,19 @@
+{
+  "asset_id": 79166,
+  "title": "Loading 4D Data into Excel using REST API",
+  "technote_number": "23-08",
+  "year": 2023,
+  "published_date": "April 18, 2023",
+  "product": "4D Server",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79166",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-08_4DtoExcelViaRest.zip",
+  "featured_technology": ["4D REST server", "ORDA", "$filter query", "Excel Power Query", "On REST Authentication"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

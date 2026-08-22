@@ -1,0 +1,1 @@
+Modular Sort Interface for 4D (ORDA and Classic Mode) (TN 26-07, 4D v21, Jul 2026) — a no-code, drag-and-drop multi-criteria sort editor built on a modular class (Lib_Mod2) and an embedded HTML/JS Web Area that works transparently against both classic selections (TRI) and ORDA entity selections.

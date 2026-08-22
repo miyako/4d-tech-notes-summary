@@ -1,0 +1,19 @@
+{
+  "asset_id": 79556,
+  "title": "Tech Note: Method Properties Manager",
+  "technote_number": "24-12",
+  "year": 2024,
+  "published_date": "October 23, 2024",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Elliott Jensen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79556",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-12_MethodPropertiesManager.zip",
+  "featured_technology": ["METHOD GET ATTRIBUTE", "METHOD SET ATTRIBUTE", "Batch setting of attributes", ".4dm method attribute header", "Properties Manager Component"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

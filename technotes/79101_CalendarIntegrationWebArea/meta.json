@@ -1,0 +1,19 @@
+{
+  "asset_id": 79101,
+  "title": "4D for Mobile: Calendar Integration via Web Area",
+  "technote_number": "23-02",
+  "year": 2023,
+  "published_date": "January 23, 2023",
+  "product": "4D for Mobile",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79101",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-02_4DforMobileWebArea.zip",
+  "featured_technology": ["Open URL action (4D for Mobile)", "FullCalendar JS library", "PROCESS 4D TAGS", "$4d.mobile.dismiss()", "Mobile web area"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

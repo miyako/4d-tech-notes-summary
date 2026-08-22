@@ -1,0 +1,1 @@
+Tech Note: Developer Tool: Structure Definition Class (TN 24-06, 4D v20 R4, Apr 2024) — parses the HTML output of EXPORT STRUCTURE into a JSON object and wraps it in a "StructDef" class with findTables/findFields/findRelations query functions, plus a sample UI form for exploring an application's structure programmatically.

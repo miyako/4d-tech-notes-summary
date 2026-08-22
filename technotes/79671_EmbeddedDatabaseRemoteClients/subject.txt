@@ -1,0 +1,1 @@
+Embedded Database Structures with Built Remote Clients (TN 25-03, 4D v20 R, Mar 2025) — running custom code in a built 4D Remote Client before server connection by embedding a compiled standalone structure, demonstrated via an automatic primary/failover server selection.

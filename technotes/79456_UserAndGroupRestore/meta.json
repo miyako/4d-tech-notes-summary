@@ -1,0 +1,19 @@
+{
+  "asset_id": 79456,
+  "title": "Tech Note: Maintaining 4D Users and Groups in Project Mode",
+  "technote_number": "24-08",
+  "year": 2024,
+  "published_date": "June 25, 2024",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79456",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-08_UserAndGroupRestore.zip",
+  "featured_technology": ["directory.json", "EDIT ACCESS 4D", "USERS TO BLOB / BLOB TO USERS", "On Server Startup/Shutdown methods", "Generate digest (MD5)"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

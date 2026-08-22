@@ -1,0 +1,1 @@
+Project Mode and Git Workflow (TN 23-07, 4D v19, Apr 2023) — using Git version control with 4D project-mode applications, since forms/methods/classes are stored as discrete text files (.4dm, .4DForm) that Git can track, diff, and merge, including GitHub remote setup and centralized vs. feature-branch team workflows.

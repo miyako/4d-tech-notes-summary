@@ -1,0 +1,19 @@
+{
+  "asset_id": 79435,
+  "title": "Tech Note: Two Factor Authentification using TOTP",
+  "technote_number": "24-07",
+  "year": 2024,
+  "published_date": "May 29, 2024",
+  "product": "4D",
+  "version": "20 R5",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, VP 4D Product Strategy, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=79435",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-07_TwoFactorAuthUsingTOTP.zip",
+  "featured_technology": ["TOTP (Time-based One-Time Password)", "cs.TOTP / cs.HOTP / cs.OTP classes", "qrencode plugin", "Auth_tools singleton class", "Random_token_base32"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

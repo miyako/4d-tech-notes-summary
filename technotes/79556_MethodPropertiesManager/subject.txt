@@ -1,0 +1,1 @@
+Method Properties Manager (TN 24-12, 4D v20, Oct 2024) — a component for bulk-viewing and bulk-editing 4D method properties (preemptive-capable, web-published, etc.) beyond the limits of 4D's naming-convention-based batch attribute tool, built on METHOD GET/SET ATTRIBUTE.

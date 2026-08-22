@@ -1,0 +1,1 @@
+Updated Notarization Guide using Notary Tools (TN 23-11, 4D v19 R, Jun 2023) — notarizing a built/engined 4D Mac app with Apple's modern `notarytool`/`stapler` CLI (replacing the deprecated `altool`) using keychain-stored Developer ID credentials.

@@ -1,0 +1,19 @@
+{
+  "asset_id": 79645,
+  "title": "Tech Note: Cache information and management",
+  "technote_number": "25-02",
+  "year": 2025,
+  "published_date": "February 24, 2025",
+  "product": "4D",
+  "version": "20 R",
+  "platform": "Mac & Win",
+  "author": "Thomas SCHLUMBERGER, Technical Support Engineer, 4D France.",
+  "page_url": "https://kb.4d.com/assetid=79645",
+  "download_url": "https://kb.4d.com/DLTN/TN/2025/25-02_CacheInfoAndManagement.pdf",
+  "featured_technology": ["GET MEMORY STATISTICS", "Get database measures", "Cache info", "Priority in Cache", "DataStoreClass.flushAndLock()", "4D_Info_Report", "ORDA remote cache"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

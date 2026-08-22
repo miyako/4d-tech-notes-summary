@@ -1,0 +1,19 @@
+{
+  "asset_id": 79366,
+  "title": "Tech Note: Generating Barcodes and QR Codes with 4D View Pro",
+  "technote_number": "24-01",
+  "year": 2024,
+  "published_date": "January 23, 2024",
+  "product": "4D View Pro",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79366",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-01_VPBarAndQRCode.zip",
+  "featured_technology": ["4D View Pro barcode functions (BC_QRCODE, BC_CODE128, etc.)", "SpreadJS formula functions", "VP Run offscreen area / On VP Ready", "WA Evaluate JavaScript / WA EXECUTE JAVASCRIPT FUNCTION", "4D Classes (inheritance hierarchy)", "Picture data type"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

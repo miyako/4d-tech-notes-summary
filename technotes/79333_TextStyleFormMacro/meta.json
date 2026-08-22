@@ -1,0 +1,19 @@
+{
+  "asset_id": 79333,
+  "title": "Tech Note: Text Style Form Macro",
+  "technote_number": "23-20",
+  "year": 2023,
+  "published_date": "November 28, 2023",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Shayanna Gatchalian, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79333",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-20_TextStyleFormMacro.zip",
+  "featured_technology": ["4D Form Editor macros", "4D Classes (openTextStyleDialog)", "project mode (Export Structure to project)", "JSON text export", "Get text from pasteboard"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

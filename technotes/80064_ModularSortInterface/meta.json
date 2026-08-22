@@ -1,0 +1,19 @@
+{
+  "asset_id": 80064,
+  "title": "Modular Sort Interface for 4D (ORDA and Classic Mode)",
+  "technote_number": "26-07",
+  "year": 2026,
+  "published_date": "July 29, 2026",
+  "product": "4D",
+  "version": "21",
+  "platform": "Mac & Win",
+  "author": "Olivier Marolleau, Quality Support Engineer, 4D France",
+  "page_url": "https://kb.4d.com/assetid=80064",
+  "download_url": "https://kb.4d.com/TN/2026/26-07_ModularSortInterface.zip",
+  "featured_technology": ["ORDA", "TRI command", "4D Classes", "Web Area", "$4d bridge", "i18n JavaScript library", ".4od file format"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

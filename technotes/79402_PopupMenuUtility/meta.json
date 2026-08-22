@@ -1,0 +1,19 @@
+{
+  "asset_id": 79402,
+  "title": "Tech Note: Pop-Up Menu Utility",
+  "technote_number": "24-05",
+  "year": 2024,
+  "published_date": "March 26, 2024",
+  "product": "4D",
+  "version": "20",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79402",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-05_PopupMenuUtility.zip",
+  "featured_technology": ["Pop up menu", "Dynamic pop up menu", "Create menu / APPEND MENU ITEM / SET MENU ITEM PARAMETER", "OBJECT GET COORDINATES", "Collection-based menu definitions", "4D Object/Collection literals"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

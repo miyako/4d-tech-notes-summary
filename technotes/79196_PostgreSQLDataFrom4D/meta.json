@@ -1,0 +1,19 @@
+{
+  "asset_id": 79196,
+  "title": "Manipulating PostgreSQL Data from 4D",
+  "technote_number": "23-09",
+  "year": 2023,
+  "published_date": "May 22, 2023",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "EL BHIOUI Chaima, Technical Services Engineer, 4D Morocco.",
+  "page_url": "https://kb.4d.com/assetid=79196",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-09_4DToPostgreSQLViaRest.zip",
+  "featured_technology": ["PostgREST", "HTTP Request", "PostgreSQL", "Docker", "JSON Parse/Stringify"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

@@ -1,0 +1,1 @@
+Semantic Icon Search in 4D Using AI and Vector Embeddings (TN 26-04, 4D v21HF2, Apr 2026) — meaning-based icon search via OpenAI embeddings stored in 4D.Vector fields, queried through ORDA cosine-similarity.

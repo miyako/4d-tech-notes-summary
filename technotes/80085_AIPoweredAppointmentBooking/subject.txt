@@ -1,0 +1,1 @@
+AI-Powered Appointment Booking with Tool Calling in 4D AIKit (TN 26-08, 4D v21, Aug 2026) — an OpenAI "tool calling" pattern lets an LLM pick and invoke ORDA-backed 4D methods (checkAvailability, createAppointment, etc.) instead of hand-coded keyword/intent parsing.

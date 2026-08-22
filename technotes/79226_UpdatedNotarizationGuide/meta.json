@@ -1,0 +1,19 @@
+{
+  "asset_id": 79226,
+  "title": "Updated Notarization Guide using Notary Tools",
+  "technote_number": "23-11",
+  "year": 2023,
+  "published_date": "June 27, 2023",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79226",
+  "download_url": "https://kb.4d.com/DLTN/TN/2023/23-11_Updated_Notarization.pdf",
+  "featured_technology": ["xcrun notarytool", "Keychain Access", "Developer ID Application certificate", "xcrun stapler", "Apple notary service"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

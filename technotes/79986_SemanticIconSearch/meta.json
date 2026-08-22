@@ -1,0 +1,19 @@
+{
+  "asset_id": 79986,
+  "title": "Semantic Icon Search in 4D Using AI and Vector Embeddings",
+  "technote_number": "26-04",
+  "year": 2026,
+  "published_date": "April 23, 2026",
+  "product": "4D",
+  "version": "21HF2",
+  "platform": "Mac & Win",
+  "author": "Karim Meghraoui, Technical Services Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=79986",
+  "download_url": "https://kb.4d.com/TN/2026/26-04_SematicIconSearch.zip",
+  "featured_technology": ["4D AI Kit", "ORDA", "4D.Vector", "OpenAI Embeddings API", "cosine similarity"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

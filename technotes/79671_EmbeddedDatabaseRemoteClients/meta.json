@@ -1,0 +1,19 @@
+{
+  "asset_id": 79671,
+  "title": "Tech Note: Embedded Database Structures with Built Remote Clients",
+  "technote_number": "25-03",
+  "year": 2025,
+  "published_date": "March 27, 2025",
+  "product": "4D",
+  "version": "20 R",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79671",
+  "download_url": "https://kb.4d.com/DLTN/TN/2025/25-03_4DEmbeddedDB.zip",
+  "featured_technology": ["Embedded compiled standalone database", "Build XML (DatabaseToEmbedInClientMacFolder/WinFolder)", "OPEN DATABASE", ".4dlink files", "4D Internet Commands (UDP check)"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

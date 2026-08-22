@@ -1,0 +1,1 @@
+Evaluation Technical-Debt of the 4D Code (TN 24-09, 4D v20, Jul 2024) — the Methods_Statistics component that parses a host 4D project's code to count legacy patterns (C_xxx declarations, interprocess variables, deprecated commands) and export timestamped JSON/CSV reports for migration and refactoring planning.

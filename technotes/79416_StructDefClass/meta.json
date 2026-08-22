@@ -1,0 +1,19 @@
+{
+  "asset_id": 79416,
+  "title": "Tech Note: Developer Tool: Structure Definition Class",
+  "technote_number": "24-06",
+  "year": 2024,
+  "published_date": "April 30, 2024",
+  "product": "4D",
+  "version": "20 R4",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79416",
+  "download_url": "https://kb.4d.com/DLTN/TN/2024/24-06_StructDefClass.zip",
+  "featured_technology": ["EXPORT STRUCTURE", "HTML structure definition export", "JSON object model", "4D class (StructDef)", "Collection.push/findIndex", "component packaging"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}

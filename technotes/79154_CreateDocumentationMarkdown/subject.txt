@@ -1,0 +1,1 @@
+Create Documentation for 4D Methods, Forms, and Classes (TN 23-05, 4D v19 R7, Mar 2023) — generating and editing per-element Markdown documentation directly from the 4D Explorer window (methods, forms, and, since v19R7, classes), stored as `.md` files in the project's Documentation folder.

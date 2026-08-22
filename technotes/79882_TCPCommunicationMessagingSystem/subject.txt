@@ -1,0 +1,1 @@
+TCP Communication, Data Exchange Methods: Creating a Messaging System (TN 25-11, 4D v21, Nov 2025) — a peer-to-peer chat/file-transfer demo built on the modern TCPListener/TCPConnection classes, using a custom encrypted binary request framing (with hash-validated padding removal) and a Web Area for rich text/image/video message rendering.

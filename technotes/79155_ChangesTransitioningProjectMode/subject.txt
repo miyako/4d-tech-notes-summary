@@ -1,0 +1,1 @@
+7 Changes to Check When Transitioning to Project Mode (TN 23-06, 4D v19, Mar 2023) — a demo-driven checklist of seven binary-to-project-mode behavior differences (user management, picture handling, highlight buttons, radio button grouping, and remote-client list access) that require manual code review after conversion.

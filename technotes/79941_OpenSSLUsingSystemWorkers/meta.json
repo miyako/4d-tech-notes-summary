@@ -1,0 +1,19 @@
+{
+  "asset_id": 79941,
+  "title": "OpenSSL in 4D using System Workers",
+  "technote_number": "26-02",
+  "year": 2026,
+  "published_date": "February 27, 2026",
+  "product": "4D",
+  "version": "21",
+  "platform": "Mac & Win",
+  "author": "Al Mahdi Bakkali, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79941",
+  "download_url": "https://kb.4d.com/TN/2026/26-02_OpenSSL.zip",
+  "featured_technology": ["4D.SystemWorker", "CALL WORKER", "OpenSSL CLI", "openssl.cnf", "4D.WebServer class", "4D.File / platformPath"],
+  "historical_commentary": {
+    "text": null,
+    "status": "current",
+    "related_updates": []
+  }
+}
