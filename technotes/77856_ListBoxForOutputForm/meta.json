@@ -1,0 +1,29 @@
+{
+  "asset_id": 77856,
+  "title": "Tech Note: List Box for Output form",
+  "technote_number": "17-17",
+  "year": 2017,
+  "published_date": "September 26, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Sara NAKKACH, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77856",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-17_ListboxForOutputForm.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "List Box form object",
+    "Output form / List form",
+    "Named selections",
+    "Current selection",
+    "4D Language dynamic list box control"
+  ],
+  "historical_commentary": {
+    "text": "The recommendation to replace traditional List-form Output forms with the List Box object remains valid and, if anything, is even more strongly the standard approach in current 4D since List Box (and its View Pro-backed evolution) has become the default choice for tabular record display; this note's step-by-step conversion guidance is still broadly applicable today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D View Pro later added a spreadsheet-grid alternative for even richer tabular display needs",
+      "List Box gained further collection/entity-selection data source support in later ORDA-era versions"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Using a Custom Component to Patch Deployed Data Files (TN 17-14, 4D v16, July 2017) — a third-party tech note describing a component-based strategy for safely running ad hoc data-repair code against deployed customer databases in the field.

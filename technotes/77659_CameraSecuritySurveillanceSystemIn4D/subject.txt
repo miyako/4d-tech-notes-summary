@@ -1,0 +1,1 @@
+Camera Security Surveillance System in 4D (TN 16-16, 4D v15.x, October 2016) — [teaser only] outlines integrating a camera-based security surveillance system into a 4D database.

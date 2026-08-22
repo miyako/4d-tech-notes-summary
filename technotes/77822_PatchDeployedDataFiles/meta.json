@@ -1,0 +1,28 @@
+{
+  "asset_id": 77822,
+  "title": "Tech Note: [3rd Party Tech Note] Using a Custom Component to Patch Deployed Data Files",
+  "technote_number": "17-14",
+  "year": 2017,
+  "published_date": "July 27, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Cam Adams, Justin Carr, and David Adams",
+  "page_url": "https://kb.4d.com/assetid=77822",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-14_PatchDeployedDataFile.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Components",
+    "SQL (embedded 4D SQL)",
+    "Custom constants",
+    "External data files"
+  ],
+  "historical_commentary": {
+    "text": "This third-party note's core architectural pattern \u2014 packaging patch logic as a versioned 4D component that can safely modify field-level data in deployed customer databases without a full rebuild \u2014 remains a valid and still-used technique for supporting deployed 4D applications, though today it would more likely be built with 4D classes/modules under Project Mode and ORDA data access rather than classic components and embedded SQL.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Project Mode (v17+) changed how components/modules are packaged and versioned",
+      "ORDA-based data access has largely replaced embedded SQL as the preferred way to read/write records in new code, though SQL remains supported"
+    ]
+  }
+}

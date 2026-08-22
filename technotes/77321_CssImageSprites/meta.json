@@ -1,0 +1,26 @@
+{
+  "asset_id": 77321,
+  "title": "Tech Note: Creating CSS Image Sprites files in 4D",
+  "technote_number": "15-12",
+  "year": 2015,
+  "published_date": "June 23, 2015",
+  "product": "4D",
+  "version": "14.x",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77321",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-12_CreatingSpritesImages.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "COMBINE PICTURES",
+    "TRANSFORM PICTURE",
+    "4D Picture Operators",
+    "CSS background-position",
+    "4D CSS SPRITES Maker tool"
+  ],
+  "historical_commentary": {
+    "text": "CSS image sprites were a mainstream web-performance technique circa 2004-2015 for reducing HTTP requests, but the technique has become largely obsolete with HTTP/2 multiplexing (which removes most of the per-request overhead sprites were designed to avoid) and the rise of SVG icon systems and icon fonts; the note's underlying 4D picture-manipulation commands (COMBINE PICTURES, TRANSFORM PICTURE) remain functional, but the web technique itself is now a historical curiosity for most modern sites.",
+    "status": "obsolete",
+    "related_updates": ["HTTP/2 (and HTTP/3) multiplexing largely eliminated the request-overhead problem CSS sprites solved", "SVG icons, icon fonts, and modern image formats (WebP/AVIF) replaced sprite sheets for most icon/graphic delivery", "COMBINE PICTURES / TRANSFORM PICTURE remain valid 4D commands, just rarely used for this specific purpose now"]
+  }
+}

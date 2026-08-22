@@ -1,0 +1,25 @@
+{
+  "asset_id": 77315,
+  "title": "Tech Note: Adding Window Snapping to 4D",
+  "technote_number": "15-11",
+  "year": 2015,
+  "published_date": "June 23, 2015",
+  "product": "4D",
+  "version": "14.x",
+  "platform": "Mac & Win",
+  "author": "Tai BUI, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77315",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-11_WindowSnapping.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Menu bar shortcuts",
+    "Invisible form buttons",
+    "Palette window + window manipulation events",
+    "Classic 4D window commands (SET WINDOW RECT-style positioning)"
+  ],
+  "historical_commentary": {
+    "text": "This note reimplements OS-level window snapping (a native Windows feature since Windows 7) manually inside 4D applications because 4D forms/windows did not natively support it; this is a classic example of a 4D developer working around a platform gap with custom code. The techniques (menu shortcuts, invisible buttons, event-driven palette window) remain functionally valid in classic 4D windows today, though this is a niche UI convenience most developers now skip in favor of relying on the OS's native window management.",
+    "status": "still_relevant",
+    "related_updates": ["Native OS window snapping (Windows Snap, macOS window tiling) has become more capable and often makes app-level snapping redundant", "The described classic-window techniques still function in current 4D for developers who still want in-app snapping control"]
+  }
+}

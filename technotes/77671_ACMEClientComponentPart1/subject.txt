@@ -1,0 +1,1 @@
+ACME Client Component for 4D - Part I (TN 16-17, 4D v15.x, October 2016) — introduces the open-source 4D-ACME-Client component that obtains free Let's Encrypt Domain Validated TLS certificates for a 4D Web Server via the ACME protocol.

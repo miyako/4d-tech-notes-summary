@@ -1,0 +1,28 @@
+{
+  "asset_id": 77787,
+  "title": "Tech Note: Object Columns in Listboxes",
+  "technote_number": "17-10",
+  "year": 2017,
+  "published_date": "May 25, 2017",
+  "product": "4D View Pro",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77787",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-10_ObjectColumnsInListbox.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "List Box object columns",
+    "4D Object type",
+    "4D View Pro license requirement",
+    "Listbox events and properties"
+  ],
+  "historical_commentary": {
+    "text": "The v15-introduced List Box object-column feature described here (mixed-type columns driven by a 4D object array, requiring a 4D View Pro license) remains part of current 4D, so this note's technical content is still directly applicable; it's a narrow, still-valid feature note rather than one made obsolete by later changes.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D View Pro itself has continued to expand (spreadsheet-grade features, pivot tables, charts) well beyond this note's scope",
+      "Object columns in list boxes remain supported and are commonly combined with ORDA entity selections in modern 4D apps"
+    ]
+  }
+}

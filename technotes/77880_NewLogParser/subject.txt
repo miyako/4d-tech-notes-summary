@@ -1,0 +1,1 @@
+Tech Note: New Log Parser (TN 17-20, 4D v16 R5, November 2017) — documents the Request Log and Debug Log file formats and introduces a tool that correlates them by process for performance profiling.

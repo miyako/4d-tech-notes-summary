@@ -1,0 +1,29 @@
+{
+  "asset_id": 77879,
+  "title": "Tech Note: Running a REST Server from 4D",
+  "technote_number": "17-19",
+  "year": 2017,
+  "published_date": "November 2, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77879",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-19_4DRESTServer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Server",
+    "REST",
+    "HTTP GET/POST parameters",
+    "JSON",
+    "Web access control / authentication"
+  ],
+  "historical_commentary": {
+    "text": "This note describes hand-rolled REST endpoints built on 4D's HTTP web server, which predates 4D's own native ORDA-based REST server (introduced with 4D v16 R6/v17). The manual request-handling, parameter parsing, and authentication patterns shown are largely superseded by 4D's built-in REST server, though the general HTTP/REST concepts explained remain accurate.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D introduced a native, built-in ORDA-based REST server (v16 R6/v17+) that auto-exposes dataclasses and methods as REST endpoints, replacing much of the manual routing shown here",
+      "Modern 4D REST also supports JWT/session tokens and richer query operators ($filter, $method) beyond the custom parameter handling in this note"
+    ]
+  }
+}

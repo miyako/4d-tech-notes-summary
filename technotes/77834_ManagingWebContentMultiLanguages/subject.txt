@@ -1,0 +1,1 @@
+Tech Note: Managing web content for multiple languages (TN 17-15, 4D v16, August 2017) — demonstrates using HTTP cookies and the browser's Accept-Language header inside a 4D Web Server's On Web Connection method to serve localized page content.

@@ -1,0 +1,20 @@
+{
+  "asset_id": 77910,
+  "title": "Tech Note: 4D Mobile Unit Testing (Revised)",
+  "technote_number": "17-24",
+  "year": 2017,
+  "published_date": "December 20, 2017",
+  "product": "4D Mobile",
+  "version": "16 R4",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77910",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-24_4DMobileUnitTesting_r2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Wakanda unit testing", "Mocha", "Chai", "4D Mobile table/attribute/method exposure", "CRUD and query testing"],
+  "historical_commentary": {
+    "text": "4D Mobile and its Wakanda Studio-based unit-testing framework (Mocha/Chai) have been fully discontinued along with the broader Wakanda platform, so this exact tooling can no longer be used with current 4D. The general principle of unit-testing exposed data-layer operations (CRUD, method calls) with Mocha/Chai-style frameworks remains standard JavaScript testing practice, but must now be applied to 4D's REST/ORDA-based APIs using modern JS test tooling rather than Wakanda Studio.",
+    "status": "obsolete",
+    "related_updates": ["4D Mobile and Wakanda fully discontinued", "4D's REST server (ORDA-based) is the modern equivalent surface for exposing data to be tested from JS clients", "Mocha/Chai remain popular general JS testing frameworks, but the Wakanda Studio integration described no longer exists"]
+  }
+}

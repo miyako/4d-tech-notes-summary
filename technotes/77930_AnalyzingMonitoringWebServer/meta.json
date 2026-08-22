@@ -1,0 +1,20 @@
+{
+  "asset_id": 77930,
+  "title": "Tech Note: Analyzing and Monitoring 4D Web Server",
+  "technote_number": "18-01",
+  "year": 2018,
+  "published_date": "January 18, 2018",
+  "product": "4D",
+  "version": "16 R5",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77930",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-01_4DWebServerInfo.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["WEB Get server info", "4D Web Server settings", "Custom monitoring dashboard", "Logging (JSON)"],
+  "historical_commentary": {
+    "text": "WEB Get server info, introduced in v16 R5, remains a supported command in current 4D for retrieving web server metrics, so the core monitoring technique described is still directly usable today. This predates ORDA/REST-first web architectures, and 4D's own web server admin tooling has been enhanced since, but the command and monitoring pattern itself have not been deprecated.",
+    "status": "still_relevant",
+    "related_updates": ["WEB Get server info remains part of the 4D language today", "4D's built-in web server administration UI has continued to evolve since v16 R5", "REST server (built on ORDA) introduced later added additional web-server-adjacent monitoring surface not covered by this note"]
+  }
+}

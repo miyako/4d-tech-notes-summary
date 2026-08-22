@@ -1,0 +1,1 @@
+Tech Note: Object Columns in Listboxes (TN 17-10, 4D v16, May 2017) — explains 4D v15's object-type list box column feature, letting a single column display mixed data types (text, numeric, boolean, etc.) driven by 4D object properties, requiring a 4D View Pro license.

@@ -1,0 +1,30 @@
+{
+  "asset_id": 77857,
+  "title": "Tech Note: Build Infinite Scroll of records with 4D Mobile",
+  "technote_number": "17-18",
+  "year": 2017,
+  "published_date": "September 26, 2017",
+  "product": "4D Mobile",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77857",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-18_4DMobileInfiniteScroll.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Mobile",
+    "Wakanda REST API",
+    "Angular-Wakanda",
+    "entity collections",
+    "jQuery/Ajax",
+    "$top/$skip pagination"
+  ],
+  "historical_commentary": {
+    "text": "This note is built entirely on the 4D Mobile / Wakanda stack (Angular-Wakanda framework, Wakanda REST entity collections), which 4D has since fully discontinued in favor of ORDA-based REST and later Qodly for web/mobile app building; the pagination concepts ($top/$skip, lazy loading) remain generally valid but the specific APIs and framework shown no longer exist in current 4D offerings.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Mobile / Wakanda was discontinued; 4D moved to ORDA-based REST APIs consumable by any modern frontend framework",
+      "4D later introduced Qodly as its low-code web/app builder, replacing the Angular-Wakanda approach entirely"
+    ]
+  }
+}

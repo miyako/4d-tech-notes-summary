@@ -1,0 +1,1 @@
+Tech Note: Managing Custom Constants with Code (TN 17-12, 4D v16, June 2017) — a third-party tech note providing code-based tools for defining and managing custom constants directly in source code rather than through external XML editors like 4D Pop.

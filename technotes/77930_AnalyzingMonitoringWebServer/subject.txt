@@ -1,0 +1,1 @@
+Tech Note: Analyzing and Monitoring 4D Web Server (TN 18-01, 4D v16 R5, January 2018) — shows how to use the new WEB Get server info command to build a custom monitoring dashboard and logging system for the 4D Web Server.

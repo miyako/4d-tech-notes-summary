@@ -1,0 +1,28 @@
+{
+  "asset_id": 77768,
+  "title": "Tech Note: An Approach to Implementing a Panel Bar in 4D",
+  "technote_number": "17-07",
+  "year": 2017,
+  "published_date": "April 20, 2017",
+  "product": "4D",
+  "version": "16 R2",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77768",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-07_PanelBar.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "List box-based panel bar UI",
+    "Menu parsing",
+    "Form initialization method",
+    "Listbox sizing and display formatting"
+  ],
+  "historical_commentary": {
+    "text": "This note's list box-driven, menu-parsed panel bar UI pattern is a classic-era custom-UI technique that remains functionally usable today, but such vertical navigation bars are now more commonly built using 4D's later, richer form object and list box capabilities (and sometimes web-based UI via 4D View Pro/Qodly for browser-facing apps) rather than hand-rolled list box panel bars.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's form object model and list box capabilities have continued to expand, offering more built-in options for modern navigation UI than were available in v16",
+      "Many modern 4D applications now offer web-based UIs where navigation bars are built with HTML/CSS/JS rather than native form objects"
+    ]
+  }
+}

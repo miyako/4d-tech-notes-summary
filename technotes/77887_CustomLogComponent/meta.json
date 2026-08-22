@@ -1,0 +1,29 @@
+{
+  "asset_id": 77887,
+  "title": "Tech Note: Custom Log Component (R2) - Revised 5/7/2018",
+  "technote_number": "17-21",
+  "year": 2017,
+  "published_date": "November 16, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri \u2013 Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77887",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-21_CustomLogsR2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "CALL WORKER",
+    "Custom logging component",
+    "JSON log format",
+    "Preemptive processes",
+    "Text log format"
+  ],
+  "historical_commentary": {
+    "text": "This note's core idea \u2014 a worker-process-serialized custom logger writing simple text or JSON log files \u2014 remains a sound and still-usable pattern in modern 4D, since CALL WORKER and preemptive-safe logging are still core mechanisms today. The specific component code is classic-mode 4D (methods, no classes), so a present-day implementation would likely be rebuilt using 4D classes/singletons for the logger object.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D added native class-based patterns (v17 Project Mode, v16 R6+ classes) that make encapsulating a logger singleton cleaner than the method-based component shown here",
+      "4D's built-in debug/request logs and OSW (On Server Web) logs have also evolved separately"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Key Value Pairs Using Objects vs. Arrays (TN 17-16, 4D v16, August 2017) — compares using two parallel arrays versus a single 4D object for key/value pair storage, favoring objects for ease of use, performance, and portability.

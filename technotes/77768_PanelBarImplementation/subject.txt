@@ -1,0 +1,1 @@
+Tech Note: An Approach to Implementing a Panel Bar in 4D (TN 17-07, 4D v16 R2, April 20, 2017) — presents a technique for building a vertical, menu-driven panel bar UI in 4D using a list box, motivated by modern widescreen monitor trends favoring vertical navigation elements.

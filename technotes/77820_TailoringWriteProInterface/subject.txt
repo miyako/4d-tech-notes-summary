@@ -1,0 +1,1 @@
+Tech Note: A Look into Tailoring the 4D Write Pro Interface (TN 17-13, 4D Write Pro v16 R4, July 2017) — explores customizing 4D Write Pro's default UI controls, contextual menus, and menu bars as 4D transitions from the old 32-bit 4D Write plug-in to the new 64-bit 4D Write Pro object.

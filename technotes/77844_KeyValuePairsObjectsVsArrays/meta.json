@@ -1,0 +1,28 @@
+{
+  "asset_id": 77844,
+  "title": "Tech Note: Key Value Pairs Using Objects vs. Arrays",
+  "technote_number": "17-16",
+  "year": 2017,
+  "published_date": "August 31, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77844",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-16_KVPairUsingObject.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Object (C_OBJECT)",
+    "OB SET / OB Get",
+    "ARRAY TEXT",
+    "JSON export/import"
+  ],
+  "historical_commentary": {
+    "text": "The core recommendation \u2014 prefer 4D objects over parallel array pairs for key/value storage \u2014 remains valid and has only strengthened over time as 4D's object and collection support matured; the specific commands shown (C_OBJECT, OB SET) are classic-era syntax that has since been supplemented by newer typed declarations and dot-notation object literals, but the underlying advice still holds.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D added native object literal syntax (New object(), dot notation) and later typed `var` declarations (v19+) that make working with objects even more convenient than the OB SET commands shown here",
+      "4D classes (introduced later) offer a further structured alternative for key/value-like data with behavior attached"
+    ]
+  }
+}

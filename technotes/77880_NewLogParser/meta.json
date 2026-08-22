@@ -1,0 +1,29 @@
+{
+  "asset_id": 77880,
+  "title": "Tech Note: New Log Parser",
+  "technote_number": "17-20",
+  "year": 2017,
+  "published_date": "November 2, 2017",
+  "product": "4D",
+  "version": "16 R5",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77880",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-20_NewLogParser.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4DRequestLog.txt",
+    "4DDebugLog.txt",
+    "SET DATABASE PARAMETER",
+    "Log correlation tool",
+    "Performance profiling"
+  ],
+  "historical_commentary": {
+    "text": "The Request Log and Debug Log file formats documented here (and the v16 R5 process-ID correlation field) remain part of 4D's diagnostic toolkit today, so the underlying knowledge is still useful, though the standalone log parser tool itself is a point-in-time utility that has likely been superseded by 4D's later built-in Analyzer/Debugger improvements and modern log tooling.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D later improved built-in log viewing/analysis tooling in subsequent releases",
+      "Debug log and request log formats have continued to evolve across v17-v20 with additional fields"
+    ]
+  }
+}

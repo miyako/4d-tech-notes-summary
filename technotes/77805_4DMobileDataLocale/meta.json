@@ -1,0 +1,28 @@
+{
+  "asset_id": 77805,
+  "title": "Tech Note: 4D Mobile Customize Data display using Locale",
+  "technote_number": "17-11",
+  "year": 2017,
+  "published_date": "June 30, 2017",
+  "product": "4D Mobile",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=77805",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-11_4DMobileDataLocale.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Mobile",
+    "Wakanda Enterprise / Wakanda Studio",
+    "Angular",
+    "Locale-based date/time/number formatting"
+  ],
+  "historical_commentary": {
+    "text": "This note is a Read Me / setup guide tied entirely to the discontinued 4D Mobile / Wakanda Enterprise stack (requiring a separate Wakanda Enterprise license and Wakanda Studio); the locale-based formatting concept it teaches is timeless, but the specific product, licensing, and tooling described no longer exist in current 4D, making the note obsolete as a practical how-to.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Mobile and the Wakanda platform have been fully discontinued",
+      "Locale-aware date/time/number formatting is now handled via standard 4D/ORDA commands or client-side JS frameworks rather than Wakanda-specific model.js customization"
+    ]
+  }
+}

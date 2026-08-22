@@ -1,0 +1,1 @@
+Adding Window Snapping to 4D (TN 15-11, 4D v14.x, June 2015) — implements Windows-style window snapping (docking/resizing windows to screen edges) inside a 4D application using menu shortcuts, invisible buttons, and window-drag event handling.

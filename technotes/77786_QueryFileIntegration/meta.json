@@ -1,0 +1,28 @@
+{
+  "asset_id": 77786,
+  "title": "Tech Note: Query file integration in 4D",
+  "technote_number": "17-09",
+  "year": 2017,
+  "published_date": "May 19, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77786",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-09_QueryFileIntegration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Query Editor JSON export",
+    "PROCESS 4D TAGS",
+    "Custom query components (OF_Execute_Query, OF_Display_Readable_Query, OF_Display_4D_Code_Query)",
+    "List box tabs for query management"
+  ],
+  "historical_commentary": {
+    "text": "This note is built entirely around the classic Query Editor's JSON export format and the PROCESS 4D TAGS command for reconstructing and executing queries without the Query Editor UI; while this classic query-file mechanism still exists in 4D for backward compatibility, ORDA's dataclass query()/queryByFormula() methods and the modern query editor experience have become the preferred approach for building dynamic, saveable queries, making this note's core technique a legacy pattern today.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "ORDA introduced query()/queryByFormula() methods on dataclasses/entity selections that provide a more modern way to build and execute dynamic queries",
+      "The classic Query Editor and its JSON export format still exist for backward compatibility but are less emphasized in current documentation and new development"
+    ]
+  }
+}

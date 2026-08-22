@@ -1,0 +1,1 @@
+Tech Note: List Box for Output form (TN 17-17, 4D v16, September 2017) — walks through converting a traditional List-form Output form to a List Box-based form, highlighting automatic UI features and dynamic control via 4D Language.

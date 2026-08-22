@@ -1,0 +1,1 @@
+Tech Note: Query file integration in 4D (TN 17-09, 4D v16, May 2017) — explains the JSON structure of 4D's exported Query Editor files and builds a component to parse, display, and execute saved queries programmatically without opening the Query Editor.

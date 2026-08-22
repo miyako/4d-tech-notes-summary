@@ -1,0 +1,1 @@
+Tech Note: Build Infinite Scroll of records with 4D Mobile (TN 17-18, 4D Mobile v16, September 2017) — demonstrates implementing infinite-scroll record lists using 4D Mobile's Wakanda REST API with Angular-Wakanda and plain jQuery/Ajax.

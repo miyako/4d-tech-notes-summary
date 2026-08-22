@@ -1,0 +1,29 @@
+{
+  "asset_id": 77820,
+  "title": "Tech Note: A Look into Tailoring the 4D Write Pro Interface",
+  "technote_number": "17-13",
+  "year": 2017,
+  "published_date": "July 27, 2017",
+  "product": "4D Write Pro",
+  "version": "16 R4",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77820",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-13_Tailoring4DWritePro.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Write Pro",
+    "Control bars",
+    "Contextual menus",
+    "Menu bars",
+    "4D Write Pro form object"
+  ],
+  "historical_commentary": {
+    "text": "This note documents an early, formative period of 4D Write Pro (v15R3-v16R4) right as it replaced the old 32-bit 4D Write plug-in for 64-bit compatibility; the specific UI customization mechanisms (control bars, contextual menus, menu bars) described are largely still valid in current 4D Write Pro, though the product has continued to gain features well beyond this early snapshot.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D Write Pro has continued to add features (styles, headers/footers, page setup via JSON, mail merge, etc.) well beyond this v16R4 snapshot",
+      "4D Write (classic) has been fully retired in favor of 4D Write Pro"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Running a REST Server from 4D (TN 17-19, 4D v16, November 2017) — explains REST concepts and demonstrates building a custom REST server on top of 4D's web server, handling GET/POST parameters, errors, and authentication manually.

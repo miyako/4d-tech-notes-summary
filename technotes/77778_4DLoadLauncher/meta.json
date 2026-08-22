@@ -1,0 +1,27 @@
+{
+  "asset_id": 77778,
+  "title": "Tech Note: 4D Load Launcher",
+  "technote_number": "17-08",
+  "year": 2017,
+  "published_date": "May 15, 2017",
+  "product": "4D Server",
+  "version": "16",
+  "platform": "Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77778",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-08_LoadLauncher.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "LAUNCH EXTERNAL PROCESS",
+    "4D Client isolated resource folders",
+    "Windows-only load testing tool"
+  ],
+  "historical_commentary": {
+    "text": "This note's technique \u2014 launching many isolated 4D Client instances from a single controlling UI via LAUNCH EXTERNAL PROCESS to generate local load for benchmarking \u2014 is a still-workable, if dated, approach for basic client-server load testing; more rigorous performance testing today would typically use dedicated load-testing tools or cloud-based multi-machine setups rather than a single-machine multi-instance launcher, but the note's core idea remains sound for quick local benchmarking.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D and third parties have since offered more sophisticated load-testing approaches, including cloud-based and headless testing setups",
+      "LAUNCH EXTERNAL PROCESS and isolated client resource folders remain valid mechanisms in current 4D"
+    ]
+  }
+}

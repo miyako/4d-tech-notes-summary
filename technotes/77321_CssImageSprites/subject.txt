@@ -1,0 +1,1 @@
+Creating CSS Image Sprites files in 4D (TN 15-12, 4D v14.x, June 2015) — shows how to use 4D's COMBINE PICTURES and TRANSFORM PICTURE commands to programmatically build CSS sprite sheets for web pages, including a bundled sprite-maker tool.

@@ -1,0 +1,1 @@
+Tech Note: 4D Mobile Customize Data display using Locale (TN 17-11, 4D Mobile v16, June 2017) — a setup and development guide (Read Me style) for customizing date/time/number locale formatting in a 4D Mobile app built on Wakanda Enterprise and Angular.

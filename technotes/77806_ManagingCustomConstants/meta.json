@@ -1,0 +1,28 @@
+{
+  "asset_id": 77806,
+  "title": "Tech Note: [3rd Party Tech Note] Managing Custom Constants with Code",
+  "technote_number": "17-12",
+  "year": 2017,
+  "published_date": "June 30, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Cannon Smith and David Adams",
+  "page_url": "https://kb.4d.com/assetid=77806",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-12_CustomConstants.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Custom constants (XML-based)",
+    "4D Pop component",
+    "Compiler behavior with constants",
+    "Client/Server development considerations"
+  ],
+  "historical_commentary": {
+    "text": "The rationale for using custom constants (readability, typo protection, reduced reliance on static interprocess variables, compiler error detection) remains sound and still applies to current 4D development, though the described XML-based constants mechanism and reliance on tools like the 4D Pop component are specific to classic-era 4D and have since been complemented by 4D's own constant/enum handling and, in Project Mode, more code-as-text-friendly conventions.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's constants system (Method/Form/Constants editors) has continued largely unchanged in spirit, though Project Mode text-based storage changes how these files are versioned",
+      "4D classes can now also encapsulate related constants as class attributes/functions, offering an alternative organizational approach"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: 4D Mobile Unit Testing (Revised) (TN 17-24, 4D Mobile v16 R4, December 2017) — shows how to use Wakanda Studio's Mocha/Chai-based unit testing to validate 4D Mobile-exposed tables, attributes, and methods.
