@@ -1,0 +1,30 @@
+{
+  "asset_id": 75942,
+  "title": "Using the Amazon Product Advertising API with 4D",
+  "technote_number": "09-41",
+  "year": 2009,
+  "published_date": "November 5, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=75942",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_41-45_(NOV)/09-41_AmazonProductAdvertisingAPI.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Amazon Product Advertising API (SOAP and REST)",
+    "HMAC-SHA256 request signing via a custom 4D OpenSSL Plugin",
+    "DOM Parse XML source for REST calls",
+    "4D Internet Commands-based custom SOAP call (bypassing CALL WEB SERVICE)",
+    "4D AWS Library component with XSLT-based request generation (APPLY XSLT TRANSFORMATION)"
+  ],
+  "historical_commentary": {
+    "text": "This note is a genuinely advanced piece of web-services engineering for its time, working around three real limitations of 4D v11 SQL's built-in SOAP client (no complex response parsing, no multi-element SOAP headers, and no native HMAC-SHA256) by writing a custom OpenSSL-calling plugin and hand-built SOAP/REST request logic. However, the specific target — Amazon's 2009-era Product Advertising API (then requiring only HMAC-SHA256 and an AWS access key) — is obsolete: Amazon has since retired that SOAP interface, deprecated multiple REST API versions, and now requires AWS Signature Version 4 plus an active, sales-qualified Associates account under the current Product Advertising API 5.0, so none of this Tech Note's request-signing or endpoint code will work against Amazon's API as it exists today. The general SOAP/REST/HMAC workaround techniques remain instructive, but the concrete Amazon integration is non-functional as written.",
+    "status": "obsolete",
+    "related_updates": [
+      "Amazon Product Advertising API 5.0 (current) requires AWS Signature Version 4 and an active, sales-qualifying Associates account — incompatible with this note's HMAC-SHA256-only signing scheme",
+      "4D now has native HTTP/REST request commands and built-in cryptographic hashing (SHA-family) commands, removing the need for a custom OpenSSL-calling plugin",
+      "Modern 4D REST + ORDA and native JSON support make ad-hoc XSLT-based request generation largely unnecessary for calling REST APIs"
+    ]
+  }
+}

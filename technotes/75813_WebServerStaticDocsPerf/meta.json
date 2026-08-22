@@ -1,0 +1,26 @@
+{
+  "asset_id": 75813,
+  "title": "Tech Note: Performance Test: 4D Web Server and Static Documents",
+  "technote_number": "09-25",
+  "year": 2009,
+  "published_date": "June 24, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=75813",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_22-26_(JUN)/09-25_StaticWebContent.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Server (built-in HTTP server)",
+    "Static document serving / web performance benchmarking"
+  ],
+  "historical_commentary": {
+    "text": "The extracted text for this asset did not contain the actual Tech Note content (the source file resolved to an unrelated 4D v11 SQL Language Reference manual instead), so this summary is based only on the title and known metadata rather than the note's actual findings. Based on the title alone, this note benchmarked 4D's built-in web server serving static documents circa 2009 v11.4 \u2014 a topic still generically relevant, but any specific throughput numbers from that era would be entirely obsolete on modern hardware, OS network stacks, and the current 4D web server implementation, which has been substantially rearchitected since (including HTTPS/HTTP2 support and performance improvements) in later 4D versions.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's built-in web server has been substantially rearchitected in later versions (improved HTTP/HTTPS handling, performance, and configuration options), making any 2009-era static-content benchmark numbers obsolete",
+      "Modern deployments commonly place a reverse proxy or CDN (e.g. nginx, cloud CDN) in front of 4D for static content, changing the performance profile this note likely measured"
+    ]
+  }
+}

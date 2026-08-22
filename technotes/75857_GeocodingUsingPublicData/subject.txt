@@ -1,0 +1,1 @@
+Geocoding Using Public Data (TN 09-30) — using free, Creative Commons-licensed geocoding services (Geonames.org and OpenStreetMap) from 4D, as an alternative to the commercial Google Maps API covered in TN 09-29.

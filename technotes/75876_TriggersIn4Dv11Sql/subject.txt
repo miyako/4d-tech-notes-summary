@@ -1,0 +1,1 @@
+Triggers in 4D v11 SQL (TN 09-33) — explains 4D's table-level trigger mechanism (Saving New/Existing Record, Deleting Record events), how triggers behave in single-user vs. remote mode, and how to use cascading triggers, process variables, and error handling in a sample database.

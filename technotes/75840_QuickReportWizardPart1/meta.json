@@ -1,0 +1,28 @@
+{
+  "asset_id": 75840,
+  "title": "Tech Note: Quick Report Wizard - Part I",
+  "technote_number": "09-28",
+  "year": 2009,
+  "published_date": "July 16, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75840",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_27-30_(JUL)/09-28_Quick_Report_Wizard.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Quick Report plug-in / Report Plug-in Area (List and Cross-Tab reports)",
+    "QR SET REPORT KIND / QR SET TABLE / QR INSERT COLUMN / QR GET INFO COLUMN (Quick Report commands)",
+    "Drag and drop (DRAG AND DROP PROPERTIES, QR Get drop column)",
+    "Custom Quick Report Wizard dialog (interface/UX layer)"
+  ],
+  "historical_commentary": {
+    "text": "This note walked through recreating the built-in Quick Report interface as a guided Wizard using 4D v11 SQL's Report Plug-in Area and its 40+ QR commands, targeting List and Cross-Tab reports. The classic Quick Report engine and its QR command set are still present and functional in current 4D versions, so the described commands remain usable, but 4D has since introduced 4D Write Pro and 4D View Pro as far more capable, modern reporting/document-generation engines, and most new report-building projects today would lean on those rather than the legacy Quick Report plug-in area described here.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Write Pro and 4D View Pro (introduced ~v16-v18) provide richer, more flexible report and document generation than the classic Quick Report plug-in",
+      "The QR command set and Report Plug-in Area remain backward compatible and still work in current 4D, but are considered legacy for new report-building work"
+    ]
+  }
+}

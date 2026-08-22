@@ -1,0 +1,1 @@
+Embedding Maps in 4D using Google Maps (TN 09-29) — using a 4D v11 SQL Web Area with the Google Maps API to display maps, markers, geocoding/reverse-geocoding, and Google Earth integration inside a 4D form.

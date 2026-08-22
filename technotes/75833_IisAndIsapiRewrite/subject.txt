@@ -1,0 +1,1 @@
+IIS and ISAPI REWRITE (TN 09-27) — using the 3rd-party Helicon ISAPI_Rewrite filter to front 4D's built-in Web Server with Microsoft IIS as a reverse proxy, with sample rewrite/proxy configurations including SOAP request routing.

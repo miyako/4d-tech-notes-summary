@@ -1,0 +1,1 @@
+Calling 4D Methods From SQL Statements (TN 09-37) — using the `{fn method_name(...) AS TYPE}` syntax to invoke 4D project methods as scalar functions inside SQL SELECT/WHERE clauses in 4D v11 SQL.

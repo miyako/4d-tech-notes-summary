@@ -1,0 +1,29 @@
+{
+  "asset_id": 75882,
+  "title": "Multi-Keyword Search",
+  "technote_number": "09-34",
+  "year": 2009,
+  "published_date": "August 27, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Joe Resuello, Tech Marketing Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75882",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_31-35_(AUG)/09-34_MultiKeywordSearch.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL keyword indexing (Alpha/Text fields)",
+    "% (contains keyword) operator",
+    "QUERY command with compound (*) syntax",
+    "DISTINCT VALUES command",
+    "ICU-based keyword definition algorithm (4D v11.2+)"
+  ],
+  "historical_commentary": {
+    "text": "This note is a clever classic-language technique built entirely on 4D v11 SQL's keyword-index feature and the QUERY/DISTINCT VALUES commands operating on selections and arrays — the exact kind of imperative, selection-based data access that ORDA's entity selections and fluent query methods were designed to replace starting in 4D v16 R5/R6 (2017). The underlying keyword-index engine and the % operator still exist in 4D today and the classic code will still run unmodified, but a modern implementation would more likely build the query string dynamically with ORDA's .query() and keyword search predicates against an entity selection rather than chaining QUERY calls with wildcard continuation syntax. The core insight — delegate word-boundary logic to 4D's own keyword algorithm instead of reinventing tokenization — remains a genuinely good, timeless idea.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "ORDA entity selections and dataclass query methods (4D v16 R5+, 2017) offer a more modern fluent alternative to chained QUERY/DISTINCT VALUES",
+      "Keyword indexing (%) and DISTINCT VALUES remain supported in current 4D for classic-mode code"
+    ]
+  }
+}

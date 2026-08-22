@@ -1,0 +1,1 @@
+Multi-Keyword Search (TN 09-34) — using 4D's own keyword-indexing algorithm (via DISTINCT VALUES on a saved-search field) to parse multi-word user searches instead of manually splitting on spaces/punctuation.

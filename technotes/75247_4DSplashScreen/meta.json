@@ -1,0 +1,29 @@
+{
+  "asset_id": 75247,
+  "title": "Tech Note: 4D Splash Screen",
+  "technote_number": "09-14",
+  "year": 2009,
+  "published_date": "April 9, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Thomas Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75247",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_13-17_(APR)/09-14_4DSplashScreen.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4DSplash reusable component database (design-mode / .4dbase component)",
+    "XML preferences file (demoinfo.xml) read/written via DOM XML commands",
+    "SET COLOR / GOTO PAGE / SET TIMER classic form commands",
+    "New Process for displaying a modal splash screen window"
+  ],
+  "historical_commentary": {
+    "text": "This note shows a classic-era pattern: a compiled component database, distributed and installed by dropping a .4dbase file into a binary-structure database's Components folder, configured via DOM XML commands writing to an XML preferences file. The underlying idea of a custom startup splash screen remains relevant, but the specific implementation is tied to Design Mode's binary component architecture, which was superseded by Project Mode's text-based, git-friendly structure (4D v17+, 2018), and to the legacy 4D DOM XML API alongside SET COLOR-style numeric color constants that have long been supplanted by richer object/CSS-based styling. Modern 4D projects would typically implement this with a project method, JSON preferences, and a plain form/window rather than a shipped compiled component.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Project mode (4D v17+, 2018) replaced binary .4DBase/.4DProject component packaging with text-based, version-controllable components",
+      "JSON (via JSON commands / classes) is now the preferred settings-storage format over hand-built DOM XML trees",
+      "Modern 4D form/window and object styling (CSS-based) supersedes numeric SET COLOR constants"
+    ]
+  }
+}

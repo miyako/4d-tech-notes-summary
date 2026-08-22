@@ -1,0 +1,26 @@
+{
+  "asset_id": 76053,
+  "title": "Generating Weighted Lists in 4D",
+  "technote_number": "10-08",
+  "year": 2010,
+  "published_date": "March 15, 2010",
+  "product": "4D",
+  "version": "11.6",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76053",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_07-11_(MAR)/10-08_WeightedLists.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Weighted list / relevance-ranking algorithms",
+    "Parallel data + weight array sorting",
+    "Keyword frequency and distinct-value search techniques"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a general algorithmic technique for building relevance-ranked (weighted) lists in 4D — pairing a data array with a parallel weights array and sorting both together — illustrated through search-term frequency and multi-field relevance scoring. The underlying algorithm is a timeless, database-agnostic concept unrelated to any deprecated 4D mechanism, and the classic array-sorting commands used remain fully functional today. It is still a perfectly valid approach, though modern 4D developers working with ORDA-based entity selections might instead compute and sort relevance using collection classes or SQL ORDER BY expressions rather than parallel classic arrays; the core idea, however, has not been superseded.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA entity selections and 4D's Collection class (4D v16+) offer alternative modern containers for implementing the same weighted-ranking pattern"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 75207,
+  "title": "Tech Note: 4D Gantt Chart Component",
+  "technote_number": "09-10",
+  "year": 2009,
+  "published_date": "March 11, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75207",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_09-12_(MAR)/09-10_4D_Gantt_Chart.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG Component (120 commands) introduced in 4D v11 SQL Release 3",
+    "Interactive SVG Gantt chart built from SVG_New_rect/line/polygon/text and gradients",
+    "SVG_Export_to_picture and DOM XML manipulation of the SVG structure",
+    "Gantt Chart Wizard driven by field mapping to a 4D table"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates building an interactive Gantt chart by hand-driving the 4D SVG Component's low-level drawing commands (rectangles, polygons, lines, gradients) and manipulating the resulting SVG/XML tree in response to mouse clicks. The 4D SVG Component itself was an add-on around at the time and its command-by-command approach to vector graphics has been largely superseded by 4D's built-in picture/vector capabilities and, for genuine business charting/reporting needs, by 4D View Pro (spreadsheet/chart component, ~v17-18) which natively supports Gantt-style timeline visualizations without hand-coded SVG. The specific component and wizard shown here would not be how a developer would build this feature in a current 4D project.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D View Pro (4D v17-18+) provides native spreadsheet/charting capability that can build Gantt-style visualizations without manual SVG coding",
+      "4D's native picture object and CSS-based styling reduce the need for hand-built SVG DOM manipulation for many graphic tasks",
+      "Project mode (4D v17+, 2018) replaced the binary component packaging used to distribute this Gantt Chart component"
+    ]
+  }
+}

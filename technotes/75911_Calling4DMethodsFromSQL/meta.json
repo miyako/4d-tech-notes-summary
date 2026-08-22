@@ -1,0 +1,29 @@
+{
+  "asset_id": 75911,
+  "title": "Calling 4D Methods From SQL Statements",
+  "technote_number": "09-37",
+  "year": 2009,
+  "published_date": "September 17, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75911",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_36-39_(SEP)/09-37_calling4DMethodsFromSQL.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL engine (Begin SQL/End SQL)",
+    "EXECUTE IMMEDIATE",
+    "SQL EXECUTE / SQL LOGIN / SQL LOAD RECORD / SQL LOGOUT",
+    "QUERY BY SQL",
+    "\"Available through SQL\" project method property"
+  ],
+  "historical_commentary": {
+    "text": "This note documents calling 4D project methods as scalar functions from within SQL statements using the '{fn method_name(...) AS TYPE}' syntax -- a bridging technique that was new and notable when 4D v11 introduced its embedded SQL engine. The mechanics described (Begin/End SQL, EXECUTE IMMEDIATE, SQL EXECUTE, QUERY BY SQL, and the 'Available through SQL' method flag) are still functionally present in 4D today and the classic language commands still work, so this remains largely usable as documented. That said, 4D's data-access story has since been reshaped by ORDA, which offers an object/entity-based way to query and combine data that many developers now reach for instead of hand-written SQL-plus-method hybrids; SQL itself, however, continues to be actively maintained and is arguably more relevant now given ongoing SQL engine improvements.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA (4D v16 R5+, 2017) introduced an alternative entity-based data access model alongside classic SQL/4D language queries",
+      "4D's SQL engine has continued to receive functional and performance improvements since v11"
+    ]
+  }
+}

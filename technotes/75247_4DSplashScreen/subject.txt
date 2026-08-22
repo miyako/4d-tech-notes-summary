@@ -1,0 +1,1 @@
+Tech Note 09-14: introduces the reusable 4DSplash component for adding a custom, configurable startup splash screen to any 4D v11.3 database via a Wizard form, programmatic call, or manual XML preferences editing.

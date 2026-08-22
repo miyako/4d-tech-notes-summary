@@ -1,0 +1,1 @@
+Tech Note: Array Utilities (TN 10-05) — a 4D v11 SQL component providing dozens of utility methods (ARR_ prefixed) for validating, sizing, searching, copying, and performing set operations and statistical calculations on classic 4D arrays.

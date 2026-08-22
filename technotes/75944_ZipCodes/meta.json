@@ -1,0 +1,28 @@
+{
+  "asset_id": 75944,
+  "title": "ZIP Codes in 4D v11 SQL",
+  "technote_number": "09-42",
+  "year": 2009,
+  "published_date": "November 12, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Luis Piñeiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75944",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_41-45_(NOV)/09-42_ZIPCodes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Bundled ZIP Code lookup table (80,000+ US ZIP codes)",
+    "SOAP web service call to www.webservicex.net ZIP code service",
+    "Latitude/longitude-based distance approximation",
+    "4D form field focus/tab-order automation"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates two era-appropriate approaches to ZIP-code lookup: a bundled static database table, and a free public SOAP web service. The bundled-table approach is timeless in concept but the specific 80,000-row dataset from 2009 is now hopelessly outdated for real US ZIP/city/state mappings and would need to be replaced with a current data source. The SOAP web service dependency on webservicex.net is very likely defunct or unreliable today, since that free-tier SOAP ecosystem from the late 2000s has largely disappeared in favor of modern REST/JSON APIs (e.g. Zippopotam.us, USPS APIs, or paid geocoding services), so that portion of the note is effectively obsolete as written.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Modern REST-based ZIP/postal code and geocoding APIs (e.g. USPS Web Tools, Zippopotam.us, Google Maps Geocoding API) replace the free SOAP service referenced here",
+      "4D's native REST request commands (introduced v16+) would be the modern way to call any such external lookup service instead of the legacy CALL WEB SERVICE/SOAP approach"
+    ]
+  }
+}

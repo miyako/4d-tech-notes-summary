@@ -1,0 +1,1 @@
+4D Debug Log Analyzer (TN 09-39) — a sample 4D database that imports 4D Debug Log (4DDL) files and generates method-level call-count and execution-time statistics for performance troubleshooting.

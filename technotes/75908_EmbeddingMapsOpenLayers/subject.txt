@@ -1,0 +1,1 @@
+Embedding Maps in 4D using Open Layers (TN 09-36) — displaying OpenStreetMap-based maps in a 4D Web Area using the OpenLayers JavaScript framework as an alternative to Google Maps, including JavaScript injection and image export.

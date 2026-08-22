@@ -1,0 +1,30 @@
+{
+  "asset_id": 75829,
+  "title": "Tech Note: How to Save and Restore 4D Hierarchical Lists",
+  "technote_number": "09-26",
+  "year": 2009,
+  "published_date": "July 1, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75829",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_22-26_(JUN)/09-26_SaveRestoreHLists.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Hierarchical Lists (in-memory ListRef objects and form-level list objects)",
+    "4D SAX XML commands (XML export/import)",
+    "BLOB to list / list to BLOB commands",
+    "On Backup Startup/Shutdown Database Method hooks",
+    "Recursive method design for nested list structures"
+  ],
+  "historical_commentary": {
+    "text": "This note addressed a real pain point of the classic Design-mode era: hierarchical lists were stored inside the binary structure (.4DB) file, so any user customization to a list was silently lost whenever a developer redeployed a new structure, forcing developers to build custom XML/BLOB export-import archiving around backups. The underlying problem is substantially reduced today because 4D's Project mode (text-based .4DProject) makes structure elements diffable and versionable, and many list-like configuration needs are now more naturally modeled with ORDA entities or JSON preferences rather than binary hierarchical list objects, though the classic List/ListRef commands themselves still exist and function for backward compatibility.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Project mode (4D v17+, 2018) stores structure elements as text, reducing (though not eliminating) the class of \"lost user customization on redeploy\" problems this note solves for hierarchical lists",
+      "Storing user-configurable list-like data in a JSON preferences file or an ORDA-backed table is now often preferred over binary Hierarchical List objects for this kind of persisted, user-editable configuration",
+      "The 4D SAX XML and List/ListRef commands used in this note remain functional and backward compatible in current 4D versions"
+    ]
+  }
+}

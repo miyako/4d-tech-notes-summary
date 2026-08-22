@@ -1,0 +1,1 @@
+Tech Note: The New Multithreading Model in 4D v11 SQL (TN 10-06) — explains cooperative vs. preemptive threading concepts and details how 4D v11 SQL's rewritten data engine runs the Application Server, Web Server, and SQL Server in separate threads on distinct ports to take advantage of multi-core hardware.

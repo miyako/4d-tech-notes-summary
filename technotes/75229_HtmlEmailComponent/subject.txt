@@ -1,0 +1,1 @@
+Tech Note 09-12: a component and sample database for displaying, WYSIWYG-editing (via an embedded TinyMCE JavaScript editor in a Web Area), and sending HTML-formatted email from a 4D v11.3 database.

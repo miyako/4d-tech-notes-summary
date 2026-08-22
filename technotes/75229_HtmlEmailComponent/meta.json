@@ -1,0 +1,29 @@
+{
+  "asset_id": 75229,
+  "title": "Tech Note: HTML Email Component",
+  "technote_number": "09-12",
+  "year": 2009,
+  "published_date": "March 25, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=75229",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_09-12_(MAR)/09-12_EMail_Component.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Area displaying/editing HTML email via embedded WebKit (Mac) / MS IE (Windows)",
+    "TinyMCE 3.2.1 JavaScript rich-text editor embedded via WA EXECUTE JAVASCRIPT FUNCTION",
+    "SMTP sending via 4D Internet Commands (EMail_Send)",
+    "XLIFF-based component localization; Unicode wrapper component for non-Unicode hosts"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a component that displays, edits, and sends HTML email using a 4D Web Area hosting the legacy embedded system browser engine (WebKit on Mac, MS Internet Explorer on Windows) combined with the TinyMCE 3.x JavaScript editor for WYSIWYG HTML editing. The core technique — driving a JavaScript-based rich text editor inside a Web Area via 4D's JS-bridge commands and sending mail through 4D Internet Commands/SMTP — is conceptually still valid, but the implementation is dated: 4D's Web Area engine was later modernized (e.g. moving to Chromium-based rendering), MS IE as a Windows web engine is long obsolete, and the Unicode-wrapper-component workaround addresses a non-Unicode-mode 4D that no longer exists in current versions (project mode 4D is Unicode-native). A modern equivalent would use current 4D Web Area APIs/CSS and a maintained editor library rather than this decade-old TinyMCE build and IE-era Web Area assumptions.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Web Area now uses a modern Chromium-based rendering engine on both platforms instead of era-specific WebKit/MS IE",
+      "4D is fully Unicode-native today, making the described 'Unicode Wrapper' compatibility component unnecessary",
+      "Project mode components (4D v17+) replace the binary component packaging described here"
+    ]
+  }
+}

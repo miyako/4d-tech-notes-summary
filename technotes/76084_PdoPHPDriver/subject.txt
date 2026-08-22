@@ -1,0 +1,1 @@
+Tech Note: PDO_4D Driver (TN 10-12) — documents the open-source PDO_4D driver that lets PHP code on Apache/IIS access a 4D database's SQL Server using standard PHP Data Objects syntax, with setup steps and a full CRUD example.

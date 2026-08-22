@@ -1,0 +1,1 @@
+Tech Note: Generating Weighted Lists in 4D (TN 10-08) — explains the general concept of weighted/relevance-ranked lists (as seen in search engines and Spotlight) and demonstrates two 4D search algorithms, one for multi-field/related-record term matching and one for large single-text-field searches, using a sample database.

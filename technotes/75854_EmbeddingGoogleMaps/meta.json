@@ -1,0 +1,30 @@
+{
+  "asset_id": 75854,
+  "title": "Tech Note: Embedding Maps in 4D using Google Maps",
+  "technote_number": "09-29",
+  "year": 2009,
+  "published_date": "July 23, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=75854",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_27-30_(JUL)/09-29_GoogleMaps.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Web Area (4D v11 SQL)",
+    "Google Maps API (JavaScript, key-based)",
+    "Google Maps Geocoding / Reverse Geocoding",
+    "WA OPEN URL / On URL Filtering (Web Area URL interception)",
+    "Google Earth integration (KML)"
+  ],
+  "historical_commentary": {
+    "text": "This note showed how to embed Google Maps into a 4D v11 SQL form via the classic Web Area object, using URL-based tricks and JavaScript callbacks routed through On URL Filtering to bridge 4D and the browser-hosted map. That general Web Area + JS bridge pattern is still functionally valid, but the specific Google Maps JavaScript API v2 techniques shown are long deprecated by Google (the API has been through multiple major revisions and now requires billing-linked API keys), and modern 4D development would typically use 4D's native HTTP/JSON commands to call Google's REST Geocoding API directly rather than scraping results from an embedded page.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Google Maps JavaScript API v2 used here was deprecated by Google years ago in favor of newer versions with different key/billing requirements",
+      "4D's native HTTP request and JSON commands now allow calling Google's Geocoding/Maps REST APIs directly, without needing a Web Area/JavaScript round-trip",
+      "4D Write Pro and 4D View Pro/Web Area improvements since v16-v18 offer richer embedded-web-content integration than the 2009-era Web Area"
+    ]
+  }
+}

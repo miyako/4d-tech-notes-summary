@@ -1,0 +1,1 @@
+Quick Report Wizard - Part I (TN 09-28) — recreating 4D v11 SQL's built-in Quick Report environment as a custom step-by-step Wizard dialog using the Report Plug-in Area and QR commands, covering List Reports (Part I of a two-part series).

@@ -1,0 +1,30 @@
+{
+  "asset_id": 75857,
+  "title": "Geocoding Using Public Data",
+  "technote_number": "09-30",
+  "year": 2009,
+  "published_date": "July 30, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=75857",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_27-30_(JUL)/09-30_OpenGeocoding.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Geonames.org web services (search, postal code, reverse geocoding)",
+    "OpenStreetMap Name Finder / node search",
+    "Creative Commons-licensed open geographic data",
+    "HTTP_Download helper method (from TN 05-31)",
+    "DOM XML parsing commands"
+  ],
+  "historical_commentary": {
+    "text": "This note's specific integrations — the ws.geonames.org XML endpoints and the OpenStreetMap Name Finder as accessed circa 2009 — have largely been superseded or restructured; geonames.org's API has evolved considerably (now requiring registered usernames/API keys) and OSM's own search tooling has moved to Nominatim, so the exact request URLs and XML shapes shown here should be treated as historical rather than directly reusable. However, the general concept — geocoding/reverse-geocoding against free, openly-licensed data as an alternative to commercial map APIs — remains entirely valid, and is now most commonly done via Google Maps Geocoding API, Mapbox, or OpenStreetMap's Nominatim service rather than raw HTTP_Download + DOM XML parsing.", 
+    "status": "obsolete",
+    "related_updates": [
+      "geonames.org now requires a registered account/username parameter for its web services, unlike the anonymous requests shown in this 2009 note",
+      "OpenStreetMap's modern geocoding entry point is Nominatim (nominatim.openstreetmap.org), not the original Name Finder wiki tool referenced here",
+      "Modern 4D geocoding integrations more commonly use REST-based JSON APIs (Google Maps Geocoding API, Mapbox) with 4D's native JSON parsing rather than raw HTTP_Download + DOM XML parsing"
+    ]
+  }
+}

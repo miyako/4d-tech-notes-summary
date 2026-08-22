@@ -1,0 +1,1 @@
+Tech Note 09-11: introduces 4D Pop, an extensible Design-Mode palette of developer productivity components (bookmarks, color chart, command finder, constants editor, image manager, rulers, SQL schema editor, XLIFF editor) built on 4D v11 SQL's new component architecture.

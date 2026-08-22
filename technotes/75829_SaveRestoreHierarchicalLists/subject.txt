@@ -1,0 +1,1 @@
+How to Save and Restore 4D Hierarchical Lists (TN 09-26) — exporting and importing 4D Hierarchical Lists (and their associated pictures) to/from XML and BLOB files using SAX XML commands and recursive methods, so user customizations survive structure redeployments.

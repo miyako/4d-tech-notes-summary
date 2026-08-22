@@ -1,0 +1,28 @@
+{
+  "asset_id": 76079,
+  "title": "Password Wizard: 4D v11 SQL Component for the Creation and Management of Passwords",
+  "technote_number": "10-11",
+  "year": 2010,
+  "published_date": "April 9, 2010",
+  "product": "4D",
+  "version": "11.6",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76079",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_11-14_(APR)/10-11_PasswordWizard.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Password Wizard component",
+    "Password entropy calculation",
+    "PW_GenerateKeyPair / PW_EncryptPassword",
+    "BLOB-based encrypted password storage"
+  ],
+  "historical_commentary": {
+    "text": "This note explains password entropy theory and provides a self-contained 4D component for generating, rating, and encrypting passwords for storage as BLOBs in a 4D data file. The underlying cryptographic and entropy concepts are timeless and the classic-language component would still technically function, but modern secure-password practice has moved toward standardized, vetted algorithms (bcrypt/scrypt/Argon2, or platform-provided credential/keychain APIs) rather than a bespoke home-grown key-pair/BLOB scheme, and 4D now offers built-in encryption commands unavailable in 2010. Developers building new authentication today should prefer current cryptographic libraries and 4D's built-in security features over this legacy component.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Modern 4D applications typically use vetted hashing algorithms (bcrypt/Argon2) and 4D's newer built-in encryption/hash commands rather than this custom component",
+      "4D's built-in CryptoKey/Verify password and related security commands introduced in later versions supersede bespoke password-strength tooling"
+    ]
+  }
+}

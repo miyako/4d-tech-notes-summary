@@ -1,0 +1,1 @@
+The 4D v11 SQL Data File Cache (TN 09-43) — explains the redesigned, larger, more efficient v11 SQL data cache, how 4D purges/flushes it, and the new statistics tools available to diagnose cache sizing and health.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 75217,
+  "title": "Tech Note: 4D Pop: Developer Components",
+  "technote_number": "09-11",
+  "year": 2009,
+  "published_date": "March 18, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75217",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_09-12_(MAR)/09-11_4D_Pop.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Pop palette window and its XML-based (4DPop.xml) tool-plugin architecture",
+    "Design-mode developer productivity components: Bookmarks, Color Chart, Commands lookup, Constants Editor, Image Buddy, Rulers, SqlSchemas, XLIFF editor",
+    "4D v11 SQL component architecture enhancements enabling easy component installation",
+    "Migration Assistants (Constants, Macros, Shortcuts) for pre-v11 SQL databases"
+  ],
+  "historical_commentary": {
+    "text": "4D Pop was a community-extensible palette of Design-Mode developer productivity tools (bookmarks, color picker, command finder, constants/XLIFF editors, SQL schema editor, etc.) built on 4D v11 SQL's then-new, simplified component architecture. Nearly everything described here is tied to the classic binary Design Mode IDE, its resource-file-based (rsrc) constants, and its XLIFF-based string localization workflow, all of which were fundamentally reworked when 4D moved to Project Mode (text-based .4DProject, v17+, 2018) with a modern built-in code editor, integrated command/method search, and JSON-based settings and localization. 4D Pop itself and most of its listed components are no longer relevant to a current 4D IDE, though the general idea of developer productivity tooling persists in 4D's built-in tooling today.",
+    "status": "obsolete",
+    "related_updates": [
+      "Project mode (4D v17+, 2018) replaced Design Mode's binary component/constants/XLIFF architecture that 4D Pop's tools targeted",
+      "The current 4D IDE (Explorer, code editor) now natively provides command search, quick access, and other productivity features 4D Pop's components once supplied as third-party add-ons"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Performance Test: 4D Web Server and Static Documents (TN 09-25) — a benchmarking Tech Note evaluating 4D v11.4's built-in web server performance serving static documents; full text unavailable (extraction returned an unrelated document), summary based on title/metadata only.

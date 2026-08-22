@@ -1,0 +1,29 @@
+{
+  "asset_id": 75797,
+  "title": "Tech Note: Web Security 4D v11 SQL Component",
+  "technote_number": "09-23",
+  "year": 2009,
+  "published_date": "June 11, 2009",
+  "product": "4D SQL",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75797",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_22-26_(JUN)/09-23_WebSecurity.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "On Web Authentication / On Web Connection database methods",
+    "4D built-in Users & Groups password system",
+    "HTTP Basic and Digest authentication",
+    "4DACTION / 4DSCRIPT (web method invocation)",
+    "Custom web security realm component"
+  ],
+  "historical_commentary": {
+    "text": "This note explained 4D v11 SQL's web request security model \u2014 On Web Authentication/On Web Connection hooks, Basic vs. Digest authentication, and 4D's built-in password system \u2014 and provided a component for building a custom security realm. The fundamental request-authentication hooks described are still present in 4D's classic web server today, so the concepts remain broadly applicable, but the overall approach reflects a page/URL-oriented classic web server model that has been complemented since by REST-based, token/session-oriented security for ORDA and REST APIs, which is the more common security model for modern 4D-built web/mobile clients.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "ORDA and 4D's REST server (4D v16 R5+, 2017) introduced a privileges/session-token based security model that is now the more common approach for modern API-driven 4D web and mobile clients",
+      "On Web Authentication/On Web Connection and HTTP Basic/Digest auth remain functional in 4D's classic web server for page-based scenarios, but are less central to security design than at the time of this note"
+    ]
+  }
+}

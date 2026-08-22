@@ -1,0 +1,28 @@
+{
+  "asset_id": 75808,
+  "title": "Tech Note: An Approach to Preferences",
+  "technote_number": "09-24",
+  "year": 2009,
+  "published_date": "June 18, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75808",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_22-26_(JUN)/09-24_Preferences.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D DOM XML commands (in-memory XML preferences store)",
+    "Custom XML preferences file format with theme support",
+    "4D component (reusable Preferences engine)",
+    "Preferences Viewer GUI"
+  ],
+  "historical_commentary": {
+    "text": "This note proposed a themed, XML-file-based preferences engine built on 4D's DOM commands as an alternative to storing application settings inside 4D's data engine \u2014 a sensible pattern at the time given the tooling available. The core idea (external, human-editable, easily copyable preference storage) remains sound today, but current 4D applications more commonly use 4D's native JSON object support (JSON Parse/Stringify, the dot/bracket object syntax) rather than DOM-based XML for this kind of key-value configuration store, since JSON is simpler to read/write and integrates naturally with 4D's object and collection types introduced in later versions.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's native JSON support (objects/collections, JSON Parse and JSON Stringify) is now generally preferred over DOM-based XML for lightweight preferences/configuration storage",
+      "4D's object (ORDA/entity) storage or a simple JSON file are common modern alternatives to a custom XML preferences component"
+    ]
+  }
+}

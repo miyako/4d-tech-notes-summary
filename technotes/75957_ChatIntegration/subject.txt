@@ -1,0 +1,1 @@
+Chat Integration in 4D v11 SQL (TN 09-44) — building a simple client-to-client chat feature in 4D Server using a Web Area UI, shared server-side arrays, and On Timer polling.

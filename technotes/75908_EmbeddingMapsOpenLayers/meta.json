@@ -1,0 +1,30 @@
+{
+  "asset_id": 75908,
+  "title": "Embedding Maps in 4D using Open Layers",
+  "technote_number": "09-36",
+  "year": 2009,
+  "published_date": "September 10, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=75908",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_36-39_(SEP)/09-36_OpenLayers.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "OpenLayers JavaScript mapping framework (legacy v2-era)",
+    "OpenStreetMap tile/data source",
+    "4D Web Area (WA OPEN URL, WA Execute JavaScript)",
+    "PROCESS HTML TAGS / #4DVAR template substitution",
+    "Google Maps layers (via OpenLayers)"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates embedding OpenStreetMap-based maps into a 4D form via the classic Web Area, using the (now very old) OpenLayers 2-era JavaScript library, JavaScript injection via WA Execute JavaScript, and an HTML template pipeline built on PROCESS HTML TAGS. The specific library version and API used here are long obsolete -- OpenLayers has been through multiple major rewrites since (OpenLayers 3+ uses a completely different API), and Leaflet or Google Maps' modern JS API are now more commonly chosen for lightweight embeds. The overall approach of building a local HTML page with template placeholders and loading it into a Web Area, plus injecting JavaScript to manipulate the page, remains conceptually valid in 4D's Web Area today, though the Web Area component itself has also seen engine improvements since 2009 (e.g. modern browser engines) that reduce the need for some of these workarounds.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "OpenLayers has undergone multiple major API rewrites since v2 (current major version is 6+/9+), making this note's code samples non-functional as-is",
+      "4D's Web Area component has since been updated with modern browser engines, improving native JS/HTML support",
+      "Leaflet.js has become a popular lighter-weight alternative to OpenLayers for embedded maps"
+    ]
+  }
+}

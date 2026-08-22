@@ -1,0 +1,1 @@
+Tech Note: SSDs and 4D v11 SQL (TN 10-09) — examines whether solid-state drives improve 4D performance, explaining SSD internals and performance-degradation causes, then benchmarking specific 2009-2010 SSDs against HDDs across three disk-intensive 4D workloads.

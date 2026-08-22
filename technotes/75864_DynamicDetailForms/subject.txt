@@ -1,0 +1,1 @@
+Dynamic Detail Forms (TN 09-31) — a component that auto-generates HTML/JavaScript detail-entry forms from table metadata and displays/edits them via a 4D v11 SQL Web Area and the WA EXECUTE JAVASCRIPT FUNCTION command.

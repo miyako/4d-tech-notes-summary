@@ -1,0 +1,30 @@
+{
+  "asset_id": 75957,
+  "title": "Chat Integration in 4D v11 SQL",
+  "technote_number": "09-44",
+  "year": 2009,
+  "published_date": "November 25, 2009",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75957",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_41-45_(NOV)/09-44_ChatIntegration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Area (HTML/CSS/JavaScript rendering)",
+    "WA EXECUTE JAVASCRIPT FUNCTION",
+    "EXECUTE ON CLIENT / Execute on Server method property",
+    "Blob-based array serialization (VARIABLE TO BLOB / BLOB TO VARIABLE)",
+    "On Timer form event polling"
+  ],
+  "historical_commentary": {
+    "text": "This note builds a real-time-feeling chat feature entirely from 4D v11 SQL primitives: a Web Area for rendering, client/server round-trips through EXECUTE ON CLIENT and Execute-on-Server methods, and On Timer polling to simulate push updates, since 4D had no publisher/subscriber or WebSocket mechanism at the time. The polling-and-shared-array architecture is a clever workaround but is inherently laggy and non-scalable compared to what's available now. Modern 4D includes native WebSocket support and server-side push (e.g. session/worker processes, CALL WORKER, and full WebSocket client/server commands added in later v16-v18 releases), which would replace this timer-polling approach entirely, and 4D Write/View Pro-era Web Areas render more modern HTML/JS engines as well.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Native WebSocket client/server commands (4D v16 R6+ and later) replace timer-polling for real-time messaging",
+      "CALL WORKER / worker processes provide safer inter-process messaging than shared arrays guarded by Execute-on-Server",
+      "Modern Web Area engine (Chromium-based, 4D v15+) supersedes the old embedded browser used to render Chat.html"
+    ]
+  }
+}

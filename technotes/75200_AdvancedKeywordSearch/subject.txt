@@ -1,0 +1,1 @@
+Tech Note 09-09: builds on 4D v11 SQL's new keyword indexing and % (Contains Keyword) operator to implement fast, precise multi-word search across a 5,000-article Wikipedia sample database.

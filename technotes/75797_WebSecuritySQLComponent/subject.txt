@@ -1,0 +1,1 @@
+Web Security 4D v11 SQL Component (TN 09-23) — building a custom web security realm using On Web Authentication and On Web Connection database methods, alongside 4D's built-in password system, Basic/Digest authentication, and a bundled component/sample database.

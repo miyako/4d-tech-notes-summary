@@ -1,0 +1,27 @@
+{
+  "asset_id": 75200,
+  "title": "Tech Note: Advanced Keyword Search",
+  "technote_number": "09-09",
+  "year": 2009,
+  "published_date": "March 4, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75200",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_09-12_(MAR)/09-09_Advanced_Keyword_Search.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Keyword Index for Alpha/Text fields",
+    "% (Contains Keyword) query operator",
+    "QUERY command with compound (&) statements for multi-keyword search",
+    "Custom word-tokenizing utility (Util_GetStringToken) for splitting multi-word search input"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D v11 SQL's then-new keyword indexing and the % (Contains Keyword) query operator, a genuine performance and precision improvement over @text@ contains-matching, plus a technique for building multi-word AND searches by chaining compound QUERY statements. The classic QUERY/keyword-index approach described here is still fully supported and remains the standard way to do fast full-text-style search in 4D today, including when working through ORDA entity selections, since ORDA queries ultimately compile down to the same classic query engine and operators. The main change since is that ORDA (4D v16 R5+, 2017) gives an alternative object/entity-based syntax (dataClass.query()) for expressing these same queries, but the underlying keyword index and % operator concepts remain unchanged and directly applicable.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA (4D v16 R5+, 2017) offers an additional entity-based query syntax (dataClass.query()) that can express the same keyword searches shown here"
+    ]
+  }
+}

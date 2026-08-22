@@ -1,0 +1,30 @@
+{
+  "asset_id": 75833,
+  "title": "Tech Note: IIS and ISAPI REWRITE",
+  "technote_number": "09-27",
+  "year": 2009,
+  "published_date": "July 9, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Timothy Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75833",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_27-30_(JUL)/09-27_ISAPI_Rewrite.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Microsoft IIS (Internet Information Services)",
+    "ISAPI (Internet Server Application Programming Interface)",
+    "Helicon Tech ISAPI_Rewrite filter (3rd-party reverse proxy/URL rewriter)",
+    "4D Web Server (as reverse-proxy target)",
+    "SOAP request routing via reverse proxy"
+  ],
+  "historical_commentary": {
+    "text": "This note explained how to front 4D's built-in web server with Microsoft IIS using the 3rd-party Helicon ISAPI_Rewrite filter, mainly to satisfy corporate IT departments that insisted on IIS. The general need — fronting 4D's web server with a standard reverse proxy for corporate compliance, SSL termination, or URL rewriting — is still valid and unremarkable today, but the specific tool (a now largely legacy ISAPI filter) has been overtaken by more modern, actively maintained reverse-proxy options (IIS's own URL Rewrite module, nginx, or a cloud/CDN-based proxy), and the SOAP-specific routing examples reflect a web-services approach 4D has since moved beyond with REST and ORDA.", 
+    "status": "partially_superseded",
+    "related_updates": [
+      "Microsoft's own free URL Rewrite Module for IIS has since become the standard native way to achieve this instead of the 3rd-party Helicon ISAPI_Rewrite filter",
+      "REST + ORDA (4D v16 R5+, 2017) has largely superseded SOAP as 4D's recommended web services approach, making the SOAP-specific proxy examples less relevant today",
+      "Reverse proxying 4D's web server behind IIS, nginx, or a cloud load balancer remains a common and still-relevant deployment pattern"
+    ]
+  }
+}

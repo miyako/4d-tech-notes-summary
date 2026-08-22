@@ -1,0 +1,29 @@
+{
+  "asset_id": 75945,
+  "title": "The 4D v11 SQL Data File Cache",
+  "technote_number": "09-43",
+  "year": 2009,
+  "published_date": "November 19, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75945",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_41-45_(NOV)/09-43_4Dv11SQLCache.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D data file cache (in-memory object manager)",
+    "FLUSH BUFFERS(*)",
+    "GET CACHE STATISTICS",
+    "_USER_IND_COLUMNS system table (4D SQL engine)",
+    "Keep Cache in Physical Memory preference"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the 4D v11 SQL cache redesign (3-way associative addressing, larger 32-bit-addressable caches on 64-bit OSes, in-cache BLOB/Picture storage) as a genuine architectural improvement over 4D 2004, and the underlying concepts of purge/flush behavior and cache sizing guidance remain broadly applicable to how the 4D engine manages memory today. However, the specific numeric ceilings discussed (2-4GB caches, 8GB RAM recommendations, 32-bit process limits) are entirely obsolete now that 4D has been a native 64-bit application for years, removing the described 32-bit addressing constraints. GET CACHE STATISTICS and FLUSH BUFFERS remain valid diagnostic commands, so the tooling guidance is still useful even though the hardware-era numbers are historical curiosities.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D has been a native 64-bit application since v13 (2012), removing the 32-bit cache/address-space ceilings discussed in this note",
+      "Modern 4D Server documentation and Runtime Explorer provide updated cache-sizing guidance suited to today's much larger RAM configurations"
+    ]
+  }
+}

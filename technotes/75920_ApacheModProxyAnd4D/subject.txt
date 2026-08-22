@@ -1,0 +1,1 @@
+Apache, Mod_Proxy, & 4D (TN 09-38) — configuring Apache's mod_proxy module as a reverse-proxy front end to 4D's built-in Web Server, including SOAP request routing and WSDL considerations.

@@ -1,0 +1,1 @@
+Using the Amazon Product Advertising API with 4D (TN 09-41) — working around 4D v11 SQL's SOAP client limitations (complex responses, complex headers, no HMAC-SHA256) with a custom OpenSSL plugin, REST/DOM parsing, and a full 4D AWS Library component.

@@ -1,0 +1,1 @@
+Tech Note: 2048 bit SSL Keys and the NEW Cipher List in 4D v11 SQL Release 6 (TN 10-07) — covers SSL/RSA cryptography theory, generating key pairs and certificate requests in 4D, configuring 4D's SSLv2/SSLv3 cipher list, and activating SSL for the Web Server, SQL Server, and Client-Server connections.

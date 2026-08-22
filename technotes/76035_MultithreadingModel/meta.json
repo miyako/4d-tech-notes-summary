@@ -1,0 +1,27 @@
+{
+  "asset_id": 76035,
+  "title": "The New Multithreading Model in 4D v11 SQL",
+  "technote_number": "10-06",
+  "year": 2010,
+  "published_date": "February 26, 2010",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76035",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_04-07_(FEB)/10-06_NewMultithreadingModel.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL multithreading architecture (cooperative and preemptive threads)",
+    "Application Server / Web Server / SQL Server running as separate threads",
+    "Stored procedures and Execute on Server method property",
+    "Multi-core scalability"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D v11 SQL's then-new multithreaded engine, which let the Application Server, Web Server, and SQL Server run in separate preemptive/cooperative threads on distinct ports to exploit multi-core hardware, while 4D language code itself remained single-threaded/cooperative per process. This foundational threading model is still substantially the architecture 4D uses today, and understanding cooperative vs. preemptive processes remains directly relevant for performance tuning. It is a still-valid conceptual reference, though later 4D versions have continued to refine scalability (e.g., more granular preemptive process support for compiled code) beyond what is described here.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Later 4D releases (v13+) extended preemptive process support to compiled 4D method code, building further on the multithreading foundation described here"
+    ]
+  }
+}

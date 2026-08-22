@@ -1,0 +1,28 @@
+{
+  "asset_id": 76046,
+  "title": "2048 bit SSL Keys and the NEW Cipher List in 4D v11 SQL Release 6",
+  "technote_number": "10-07",
+  "year": 2010,
+  "published_date": "March 8, 2010",
+  "product": "4D",
+  "version": "11.6",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76046",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_11-14_(APR)/10-07_SSLKeys_CipherList.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "GENERATE ENCRYPTION KEYPAIR command",
+    "GENERATE CERTIFICATE REQUEST command",
+    "4D SSL cipher list configuration (SSLv2/SSLv3 cipher suites)",
+    "SSL for Web Server, SQL Server, and Client-Server connections"
+  ],
+  "historical_commentary": {
+    "text": "This note explains SSL/RSA key theory, how to generate 2048-bit key pairs and certificate requests in 4D, and how to configure 4D v11.6's cipher list, including specific SSLv2 and SSLv3 cipher suites. The RSA/public-key cryptography concepts remain valid, but the specific protocol guidance is now obsolete: SSLv2 and SSLv3 are both deprecated/broken (SSLv3 broken by POODLE in 2014) and have been removed from modern browsers and TLS libraries, so the cipher lists and configuration examples described here no longer represent secure or even connectable configurations. Any 4D system still relying on this note's specific cipher settings needs to be upgraded to TLS 1.2/1.3 with a modern cipher suite.",
+    "status": "obsolete",
+    "related_updates": [
+      "SSLv2 and SSLv3 are deprecated/insecure protocols removed from modern clients and 4D's own default cipher configuration long since updated to prefer TLS 1.2/1.3",
+      "Modern 4D versions default to and recommend TLS-based configurations rather than the SSLv2/SSLv3 cipher suites detailed in this note"
+    ]
+  }
+}

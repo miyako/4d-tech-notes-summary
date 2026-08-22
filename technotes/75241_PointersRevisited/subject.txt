@@ -1,0 +1,1 @@
+Tech Note 09-13: a comprehensive refresher on 4D pointers — how they work, what they can reference (variables, fields, tables, arrays, pointers-to-pointers), and how to pass them between methods and components.

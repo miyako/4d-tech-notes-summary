@@ -1,0 +1,28 @@
+{
+  "asset_id": 75241,
+  "title": "Tech Note: Pointers Revisited",
+  "technote_number": "09-13",
+  "year": 2009,
+  "published_date": "April 2, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Timothy Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75241",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_13-17_(APR)/09-13_Pointers_Revisited.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Pointer type (C_POINTER) and pointer/dereference operator (->)",
+    "Get pointer / Self / Table / Field / RESOLVE POINTER commands",
+    "Pointers to variables, fields, tables, arrays, array elements, and pointers-to-pointers",
+    "Passing pointers between component and host database"
+  ],
+  "historical_commentary": {
+    "text": "This is a foundational-language tutorial on the classic 4D pointer type, an update to 2001's \"Pointers from Scratch,\" and it remains almost entirely accurate today because 4D has kept full backward compatibility with the classic language and its pointer semantics. The content on referencing/dereferencing, pointer typing flexibility, and pointer scope with process/local variables is timeless procedural-language material unrelated to any deprecated 4D mechanism. The one area that has partially evolved is object/array-oriented data access: for many use cases where pointers were historically used to pass mutable references between methods, 4D now also offers object references, shared objects/collections, and classes (introduced across 4D v16-v17+) as arguably more modern alternatives, though pointers themselves are still fully supported and commonly used.",
+    "status": "current",
+    "related_updates": [
+      "4D classes and object references (4D v17+) now offer an additional, often preferred, way to share and mutate state across methods for certain use cases",
+      "Pointers remain a core, fully supported part of the 4D language today with no deprecation"
+    ]
+  }
+}

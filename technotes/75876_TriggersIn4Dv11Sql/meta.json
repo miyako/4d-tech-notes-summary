@@ -1,0 +1,28 @@
+{
+  "asset_id": 75876,
+  "title": "Triggers in 4D v11 SQL",
+  "technote_number": "09-33",
+  "year": 2009,
+  "published_date": "August 20, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75876",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_31-35_(AUG)/09-33_Triggers.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D table triggers (On Saving New/Existing Record, On Deleting Record events)",
+    "parallel/concurrent trigger execution (new in 4D v11)",
+    "cascading triggers, TRIGGER LEVEL and TRIGGER PROPERTIES commands",
+    "VARIABLE TO VARIABLE / GET PROCESS VARIABLES / SET PROCESS VARIABLES",
+    "Execute on server method property"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's classic table-level trigger mechanism, which fires uniformly regardless of whether records are modified via the 4D language, forms, SQL, ODBC, or the web — a design that has proven durable. Triggers remain a core, actively supported part of 4D today and are still the recommended place to enforce table-level data integrity, though ORDA (4D v16 R5+, 2017) adds complementary entity-level events (e.g. onSaving, onDeleting datastore class events) for object-oriented / REST-driven data access. The concurrency and process-variable details described (parallel trigger execution introduced in v11, per-trigger process variable tables) are still accurate to how classic triggers behave today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA datastore class events (onSaving, onDeleting, onLoad, etc., 4D v17+) provide an entity/REST-oriented complement to classic table triggers"
+    ]
+  }
+}

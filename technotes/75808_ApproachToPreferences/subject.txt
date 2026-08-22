@@ -1,0 +1,1 @@
+An Approach to Preferences (TN 09-24) — a themed, XML-file-based preferences engine (built with 4D's DOM XML commands, an included component, and a Preferences Viewer GUI) for storing and retrieving user/application settings outside 4D's data engine.

@@ -1,0 +1,1 @@
+Tech Note: Naming Indexes and Relations in 4D v11 SQL (TN 10-10) — recommends applying descriptive, SQL-style naming conventions (e.g. Pkc, Pknc, Ncu, Nc prefixes) to indexes and table relations so they can be found, audited, and referenced via System Tables more easily than 4D's auto-generated UUIDs.

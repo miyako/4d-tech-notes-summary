@@ -1,0 +1,28 @@
+{
+  "asset_id": 75926,
+  "title": "4D Debug Log Analyzer",
+  "technote_number": "09-39",
+  "year": 2009,
+  "published_date": "October 22, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75926",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_38-40_(OCT)/09-39_debugLogAnalyzer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Debug Log (4DDL) file / SET DATABASE PARAMETER",
+    "Sample 4D database (Design Mode) with import/reporting engine",
+    "DBL_ prefixed API (DBL_M_Import, DBL_M_LogSummary, DBL_DATA_DenormalizeData, DBL_DATA_CalcExecTimes, DBL_RPT_ commands)",
+    "Tab-delimited text export for spreadsheet analysis"
+  ],
+  "historical_commentary": {
+    "text": "This note provides a sample 4D database that parses the 4DDL debug log (interpreted-mode only) into a relational [Debug_Logs]/[Log_Lines] schema so developers can generate per-method call-count and execution-time statistics -- a genuinely clever use of 4D itself to analyze 4D's own logging output at a time when spreadsheets couldn't handle millions of log lines. The core technique (parsing a text log into tables, then reporting) is timeless and the underlying 4DDL log format is still part of 4D today, but the tool itself is a Design Mode-era binary database (not a modern Project mode component) and predates 4D's built-in performance analysis tools; a developer today would more likely reach for 4D's integrated Debugger/Runtime Explorer, structured logging, or a dedicated APM-style solution rather than hand-rolling a log-import database. The note is explicit that it only handles interpreted-mode logs, a limitation that still applies.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's built-in Debugger and code coverage/profiling tools have expanded significantly since v11",
+      "Project mode (4D v17+, 2018) means a modern equivalent tool would ship as a text-based .4DProject rather than a binary database"
+    ]
+  }
+}

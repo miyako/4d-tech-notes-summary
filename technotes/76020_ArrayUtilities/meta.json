@@ -1,0 +1,28 @@
+{
+  "asset_id": 76020,
+  "title": "Array Utilities: 4D v11 SQL Component for the Management and Manipulation of 4D Arrays",
+  "technote_number": "10-05",
+  "year": 2010,
+  "published_date": "February 12, 2010",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76020",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_04-07_(FEB)/10-05_ArrayUtilities.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Array Utilities 4D v11 SQL component",
+    "Array set operations (ARR_Intersect, ARR_Difference, ARR_Union)",
+    "Array statistics (mean, median, mode, standard deviation, variance)",
+    "Array search/copy/fill utility methods"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a self-contained component library adding dozens of utility methods for classic 4D arrays: information/validation checks, resizing, set operations (intersect/difference/union), statistical functions (mean, median, mode, variance, standard deviation), running calculations, search, and copy/fill helpers. Classic arrays and these utility methods remain fully functional in current 4D versions, so the component is still technically usable, but 4D has since introduced native Collection objects (with built-in methods like .min(), .max(), .average(), .distinct(), .sort()) that cover much of this same ground with a more modern, object-oriented syntax. Developers starting new projects today would generally reach for Collections rather than this classic-array utility component, though it remains a valid option for maintaining legacy code.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's Collection class (introduced 4D v16, ~2016) provides built-in statistical, search, set, and sort methods that overlap significantly with this component's array utilities",
+      "ORDA entity selections (4D v16 R5+, 2017) offer another modern alternative for working with sets of records instead of raw parallel arrays"
+    ]
+  }
+}

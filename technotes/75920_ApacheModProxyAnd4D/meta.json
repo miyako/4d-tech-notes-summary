@@ -1,0 +1,28 @@
+{
+  "asset_id": 75920,
+  "title": "Apache, Mod_Proxy, & 4D",
+  "technote_number": "09-38",
+  "year": 2009,
+  "published_date": "October 15, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Timothy Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75920",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_38-40_(OCT)/09-38_mod_proxy.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Apache HTTP Server mod_proxy module",
+    "ProxyRequests, ProxyPass, ProxyPassReverse directives",
+    "4D's built-in Web Server",
+    "4D SOAP web services (4DSOAP / WSDL)"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to reverse-proxy Apache to 4D's built-in web server using mod_proxy, a well-established and still widely used Apache module; the general reverse-proxy technique (ProxyPass/ProxyPassReverse) remains valid and is still a common deployment pattern for fronting an application server with Apache or nginx today. The SOAP-specific example (proxying /4DSOAP requests and manually patching the WSDL's soap:address) is dated, however, since 4D's web services story has since shifted heavily toward REST and ORDA-based data access, making raw SOAP/WSDL considerations far less central. The core Apache configuration knowledge is still directly applicable, but the SOAP use case has faded in relevance.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "REST + ORDA (4D v16 R5+, 2017) largely superseded SOAP as 4D's primary web-service integration approach",
+      "4D's web server has since gained more built-in HTTPS/reverse-proxy-friendly options, reducing some (not all) of the need for a separate Apache front end"
+    ]
+  }
+}

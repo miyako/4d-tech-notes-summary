@@ -1,0 +1,1 @@
+Tech Note: Password Wizard (TN 10-11) — a 4D v11 SQL component and companion discussion of password security theory, offering three techniques (user-rated, pattern-based, and random generation) for creating strong passwords plus encrypted BLOB storage.

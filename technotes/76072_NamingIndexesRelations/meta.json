@@ -1,0 +1,27 @@
+{
+  "asset_id": 76072,
+  "title": "Naming Indexes and Relations in 4D v11 SQL",
+  "technote_number": "10-10",
+  "year": 2010,
+  "published_date": "April 2, 2010",
+  "product": "4D",
+  "version": "11.6",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76072",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_07-11_(MAR)/10-10_Naming_Indexes_and_Relations.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL System Tables",
+    "Index/relation naming conventions (SQL-style prefixes: Pkc, Pknc, Ncu, Nc)",
+    "Structure Editor search tools"
+  ],
+  "historical_commentary": {
+    "text": "This note recommends applying disciplined, SQL-style naming conventions to indexes and table relations in 4D's Design-mode Structure Editor, using the newly introduced System Tables to query and audit index/relation metadata. The general principle — descriptive, consistent naming of database structure objects — remains genuinely timeless good practice today. However, the specific mechanism (the binary-file Design-mode Structure Editor and its UUID-based index/relation naming) is tied to the classic structure model that Project mode (introduced 4D v17, 2018) reorganizes into plain-text, version-controllable files, and ORDA's entity-based data access reduces day-to-day reliance on raw relation/index names for navigating data.", 
+    "status": "partially_superseded",
+    "related_updates": [
+      "Project mode (4D v17+, 2018) stores structure as text files, changing how developers organize and reference structure objects",
+      "ORDA (4D v16 R5+, 2017) reduces the need to interact directly with relation/index names via classic System Tables for day-to-day data access"
+    ]
+  }
+}

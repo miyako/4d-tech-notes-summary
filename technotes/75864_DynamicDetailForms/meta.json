@@ -1,0 +1,30 @@
+{
+  "asset_id": 75864,
+  "title": "Dynamic Detail Forms",
+  "technote_number": "09-31",
+  "year": 2009,
+  "published_date": "August 6, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75864",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_31-35_(AUG)/09-31_Dynamic_Detail_Forms.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Web Area",
+    "WA EXECUTE JAVASCRIPT FUNCTION command",
+    "HTML forms with 4DVAR / 4DSCRIPT tags",
+    "Dynamically generated HTML detail forms from table/field metadata",
+    "Component-based shared methods (DDF_onload, DDF_saveRecord, etc.)"
+  ],
+  "historical_commentary": {
+    "text": "This note builds dynamic record-entry forms by generating raw HTML/CSS/JavaScript on the fly and rendering it inside a classic 4D Web Area, using WA EXECUTE JAVASCRIPT FUNCTION to shuttle field values between JavaScript and 4D method code — a workaround necessitated by the lack of any native dynamic-form or object-based UI layer in 4D v11. That whole approach is functionally obsolete today: 4D now has ORDA (v16 R5+, 2017) for introspecting table/field metadata and entities without hand-rolled pointer-and-array bookkeeping, plus 4D Write Pro and modern form objects (and eventually 4D for iOS/webforms) for building UI dynamically without hosting a hand-authored HTML mini-application inside a Web Area. The specific component (raw HTML generation + WA EXECUTE JAVASCRIPT FUNCTION plumbing) would not be how a developer would tackle this problem today.",
+    "status": "obsolete",
+    "related_updates": [
+      "ORDA (4D v16 R5+, 2017) provides native metadata introspection (dataclass/attribute enumeration) instead of manual Field()/Table() pointer walking",
+      "4D form objects and dynamic form generation APIs (form editor scripting, list forms) have matured well beyond hosting a hand-built HTML app in a Web Area",
+      "4D Write Pro / modern web project mode reduce the need for this kind of raw-HTML Web-Area workaround"
+    ]
+  }
+}
