@@ -1,0 +1,20 @@
+{
+  "asset_id": 78277,
+  "title": "Tech Note: 4D on GitHub",
+  "technote_number": "19-11",
+  "year": 2019,
+  "published_date": "June 21, 2019",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Ayoub Khali, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78277",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-11_4DonGitHub.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Project Mode", "Git", "GitHub", "Git Bash", "Git branching/stashing/merge conflict resolution"],
+  "historical_commentary": {
+    "text": "This is a foundational note on 4D Project Mode + Git that remains highly relevant: Project Mode (introduced experimentally in v17R5 as described here) went on to become the standard, default development mode in 4D v18+ and later, fully superseding classic binary-mode (.4DB) team development workflows. The general Git/GitHub instructions are still accurate, though some UI screenshots (GitHub signup flow, installer links) will be visually outdated.",
+    "status": "still_relevant",
+    "related_updates": ["4D Project Mode became the standard, default project format starting v18 (with binary/.4DB Design Mode now considered legacy)", "4D has since published more detailed Project Mode + Git integration guidance and tooling (e.g., improved diff-friendly file formats) as the format matured"]
+  }
+}

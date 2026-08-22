@@ -1,0 +1,20 @@
+{
+  "asset_id": 78265,
+  "title": "Tech Note: Sign a 4D App Package using SignTool on Windows",
+  "technote_number": "19-08",
+  "year": 2019,
+  "published_date": "May 30, 2019",
+  "product": "4D",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Karim Meghraoui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78265",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-08_SignAppUsingSignTool.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["SignTool (Windows SDK)", "New-SelfSignedCertificate (PowerShell)", "SHA1/SHA256 code signing", "Microsoft Management Console (MMC)"],
+  "historical_commentary": {
+    "text": "Code signing itself remains essential for Windows deployment, but the specific mechanics have moved on: Microsoft has deprecated SHA1 for code signing (SHA256 is now mandatory), and self-signed certificates like the one generated here are not trusted by Windows SmartScreen/antivirus for public distribution — a properly issued certificate from a trusted CA (or an EV certificate) is required in practice today. The SignTool command-line tool itself is still the correct/current tool.",
+    "status": "partially_superseded",
+    "related_updates": ["SHA1 signing is deprecated/no longer trusted by modern Windows and browsers; SHA256 (or newer) is now required", "Self-signed certificates as shown are suitable only for testing, not real-world distribution which requires a CA-issued (ideally EV) code-signing certificate", "SignTool remains the current, standard Windows code-signing utility"]
+  }
+}

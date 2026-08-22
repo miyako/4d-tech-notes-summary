@@ -1,0 +1,20 @@
+{
+  "asset_id": 78381,
+  "title": "Tech Note: 4D Migrating from HTTP to HTTPS",
+  "technote_number": "19-23",
+  "year": 2019,
+  "published_date": "December 30, 2019",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Sofia BACKEIKH, Quality Support Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=78381",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-23_HTTP2HTTPS.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["TLS/SSL certificates (cert.pem/key.pem)", "4D Web Server HTTPS settings", "WEB SEND HTTP REDIRECT"],
+  "historical_commentary": {
+    "text": "This is a general HTTPS/TLS educational overview plus basic 4D configuration steps; the concepts (TLS handshake, certificate types, HTTPS adoption rationale) and the 4D-side steps (cert.pem/key.pem placement, enabling HTTPS in Database Settings) remain accurate and current.",
+    "status": "still_relevant",
+    "related_updates": ["4D's TLS/HTTPS configuration approach for the Web Server is unchanged since this note", "General web security best practice has only reinforced HTTPS-by-default since 2019, e.g. broader browser warnings and HSTS adoption"]
+  }
+}

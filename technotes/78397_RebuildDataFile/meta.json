@@ -1,0 +1,20 @@
+{
+  "asset_id": 78397,
+  "title": "Tech Note: A Technique to Rebuild a Data File",
+  "technote_number": "20-01",
+  "year": 2020,
+  "published_date": "January 29, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78397",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-01_DataFileReconstruction.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D mirroring / log files", "New log file command", "INTEGRATE MIRROR LOG FILE", "CREATE DATA FILE"],
+  "historical_commentary": {
+    "text": "This technique repurposes 4D's mirroring/log-file infrastructure to rebuild a clean datafile from an existing one; the underlying commands (New log file, INTEGRATE MIRROR LOG FILE, CREATE DATA FILE) are still present in 4D today, so the core approach remains valid, though it requires 4D Server and is a fairly advanced/niche maintenance technique.",
+    "status": "still_relevant",
+    "related_updates": ["4D's mirroring and log integration commands remain part of the current 4D language with no deprecation", "Regular use of 'Verify and repair' / structure maintenance tools alongside proper backup strategy is still the primary recommended approach for data file health; this note offers a supplementary advanced technique"]
+  }
+}

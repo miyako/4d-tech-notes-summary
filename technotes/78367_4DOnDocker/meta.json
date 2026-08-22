@@ -1,0 +1,20 @@
+{
+  "asset_id": 78367,
+  "title": "Tech Note: 4D on Docker",
+  "technote_number": "19-20",
+  "year": 2019,
+  "published_date": "December 3, 2019",
+  "product": "4D",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Ayoub Khali, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78367",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-20_4DonDocker.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["Docker (images, containers, volumes)", "Dockerfile", "4D Server standalone/embedded license", "VNC / X Server for GUI containers"],
+  "historical_commentary": {
+    "text": "Docker containerization of 4D Server is still a fully valid and increasingly common deployment pattern today (especially for headless 4D Server in Linux containers), so the fundamental approach in this note remains relevant, though the specific Docker CLI/installation details have evolved somewhat since 2019.",
+    "status": "still_relevant",
+    "related_updates": ["4D Server on Linux (a later addition to 4D's platform support) has made Docker/container deployment of 4D Server considerably more natural than the Windows/macOS-guest-in-container approach implied here", "Docker Desktop licensing and installation flows have changed since 2019, but core Docker concepts (images, containers, volumes, Dockerfile) are unchanged"]
+  }
+}

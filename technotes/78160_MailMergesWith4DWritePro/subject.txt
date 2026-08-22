@@ -1,0 +1,1 @@
+Mail Merges with 4D Write Pro (TN 18-20, 4D Write Pro v17, November 2018) — covers converting legacy 4D Write v6/v7 documents to 4D Write Pro and rebuilding classic mail-merge workflows using embedded expressions, printing, and HTML email export.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 78951,
+  "title": "Tech Note: Managing Lists in Project Mode",
+  "technote_number": "22-11",
+  "year": 2022,
+  "published_date": "June 21, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78951",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-11_ManagingListsinPM.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Project mode lists.json",
+    "SAVE LIST / Load list (classic commands)",
+    "LIST TO BLOB / BLOB to list",
+    "Custom loadList()/saveList() table-backed replacement"
+  ],
+  "historical_commentary": {
+    "text": "This limitation and workaround were specific to the early-to-mid project-mode era; whether 4D has since made lists.json writable in compiled/remote-client scenarios in a later release could not be confirmed with certainty here, so developers on current 4D versions should verify the current behavior of SAVE LIST before assuming this workaround is still required. Regardless, the table-backed loadList()/saveList() pattern itself remains a sound, still-valid technique for storing any kind of mutable configuration data that must survive in compiled/client-server deployments, independent of whether the original SAVE LIST limitation has since been addressed.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Verify current SAVE LIST behavior in compiled/remote-client project-mode apps on the latest 4D release — this may have been addressed since 2022; the table-backed storage pattern itself remains valid regardless."
+    ]
+  }
+}

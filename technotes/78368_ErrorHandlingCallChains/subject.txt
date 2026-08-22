@@ -1,0 +1,1 @@
+Tech Note: Error Handling with Call Chains (TN 19-21, 4D v18, December 2019) — introduces the Get call chain command and shows building a JSON-based error handler and log parser around it.

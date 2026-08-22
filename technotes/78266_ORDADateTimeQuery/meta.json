@@ -1,0 +1,20 @@
+{
+  "asset_id": 78266,
+  "title": "Tech Note: Query and Access Date-and-Time in the era of ORDA",
+  "technote_number": "19-09",
+  "year": 2019,
+  "published_date": "May 30, 2019",
+  "product": "4D",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=78266",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-09_ORDA_AccessQuery_DateTime.zip",
+  "content_source": "teaser_only",
+  "featured_technology": ["ORDA", "Entity selections", "Collections", "Date/time querying"],
+  "historical_commentary": {
+    "text": "ORDA-based date/time querying on entity selections and collections is a durable, still-current 4D pattern; nothing about querying/filtering dates by month, day, hour, minute, or second via ORDA has been deprecated since 2019. Only the full walkthrough/code detail is unavailable here since the sample database's full text could not be retrieved.",
+    "status": "still_relevant",
+    "related_updates": ["ORDA query and filtering techniques for date/time fields remain fully current in 4D today"]
+  }
+}

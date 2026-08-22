@@ -1,0 +1,20 @@
+{
+  "asset_id": 78221,
+  "title": "Tech Note: Manage 4D Mobile sessions with $info parameter in V17",
+  "technote_number": "19-04",
+  "year": 2019,
+  "published_date": "February 28, 2019",
+  "product": "4D Mobile",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=78221",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-04_4DMobileManageSessions.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Mobile", "REST server", "$catalog", "session management"],
+  "historical_commentary": {
+    "text": "4D Mobile as a distinct branded product line (paired with the Wakanda-based mobile generation tooling) was discontinued; the underlying REST session-management mechanics described here (listing/ending sessions via REST calls, admin vs client sessions) persist conceptually in 4D's ORDA/REST server session model, but the specific '4D Mobile' UI and workflow shown is obsolete.",
+    "status": "obsolete",
+    "related_updates": ["4D Mobile app generation and Wakanda-based tooling were discontinued", "modern 4D REST/ORDA server exposes session and force-login management through different, actively maintained APIs", "Qodly Studio and responsive ORDA/REST web apps are 4D's current mobile-facing approach"]
+  }
+}

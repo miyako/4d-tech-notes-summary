@@ -1,0 +1,1 @@
+Enrich UX and UI with Unicode Special Characters (TN 21-08, 4D v18 R6, May 2021) — a practical guide to using Unicode symbols and Emoji as lightweight icons in buttons, pop-up menus, Listbox indicators, and toolbars, including converting characters to pictures for consistent cross-platform rendering.

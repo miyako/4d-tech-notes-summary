@@ -1,0 +1,33 @@
+{
+  "asset_id": 78634,
+  "title": "Tech Note: Managing and Encrypting 4D Data Files",
+  "technote_number": "21-01",
+  "year": 2021,
+  "published_date": "January 25, 2021",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78634",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-01_DataEncryption.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Data File (.4DD) architecture",
+    "Maintenance and Security Center (MSC)",
+    "AES encryption + 256-bit SHA passphrase",
+    "Encrypt data file command",
+    "New data key / Discover data key / Register data key",
+    ".provideDataKey() datastore function",
+    ".4DKeyChain files",
+    "DOM XML commands (catalog.4DCatalog manipulation in Project mode)"
+  ],
+  "historical_commentary": {
+    "text": "Data file (.4DD) encryption introduced in 4D v18 is still the current, supported mechanism for at-rest table encryption and remains fully relevant; the AES + SHA-256 passphrase design and the MSC-based workflow described here are unchanged in spirit in modern 4D releases, though the ORDA/.provideDataKey() API has become the more standard programmatic entry point over the older 'Register data key' command as 4D has continued to push object notation as default.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D data file encryption (AES/SHA-256, MSC Encrypt tab) remains a current supported 4D Server/4D feature with no major architecture change since v18",
+      "Project mode's catalog.4DCatalog XML manipulation trick for toggling 'Encryptable' programmatically is a project-mode-only technique; binary mode databases are increasingly rare as 4D has fully embraced Project Mode as the default going forward",
+      "Object notation (ds.provideDataKey()) is now the standard/preferred style over the classic 'Register data key' command form"
+    ]
+  }
+}

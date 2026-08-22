@@ -1,0 +1,1 @@
+4D for iOS: Push Notifications and Beyond (TN 21-07, 4D v18 R6, April 2021) — revisits 4D for iOS to cover advanced features added since the original introductory tech note, including restricted queries, custom relation buttons, push notifications, and deep linking.

@@ -1,0 +1,20 @@
+{
+  "asset_id": 78452,
+  "title": "Tech Note: Implementing a Remote Datastore",
+  "technote_number": "20-07",
+  "year": 2020,
+  "published_date": "April 22, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78452",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-07_RemoteDatastore.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["ORDA remote datastore", "Open datastore command", "REST resource exposure", "On REST Authentication method"],
+  "historical_commentary": {
+    "text": "The remote datastore feature (Open datastore, REST server exposure) introduced in 4D v18 is a foundational ORDA capability that is still current and central to how 4D applications interoperate with each other and with external clients today.",
+    "status": "still_relevant",
+    "related_updates": ["ORDA remote datastores remain a core, actively maintained 4D feature used for 4D-to-4D and general REST-based integration", "This is the modern replacement for older approaches like connecting via SQL server or the legacy 4D Open/ODBC style access between databases"]
+  }
+}

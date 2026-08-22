@@ -1,0 +1,20 @@
+{
+  "asset_id": 78783,
+  "title": "Tech Note: Guide to Converting 4D Write to 4D Write Pro",
+  "technote_number": "21-17",
+  "year": 2021,
+  "published_date": "September 20, 2021",
+  "product": "4D Write Pro",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78783",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-17_4DWriteConversionGuide.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Write Pro", "4D Write (classic, 32-bit)", "WP Import document", "WR New offscreen area"],
+  "historical_commentary": {
+    "text": "This note documents a mandatory, one-time migration path that 4D itself forced with the move to 64-bit-only builds; the underlying problem (classic 4D Write being 32-bit-only and unsupported past 17.5/17R4) is now ancient history for any active database, since virtually all databases have long since been converted or abandoned classic 4D Write.",
+    "status": "obsolete",
+    "related_updates": ["4D Write classic is fully retired; 4D Write Pro (HTML/CSS-based, ORDA/collection-friendly) is the only supported rich-text engine since 4D v17R5/v18+", "Any database still holding unconverted .4w6/.4w7 documents needs a legacy 32-bit copy of 4D (17.5 or 17 R4 max) to do this conversion, which is now very hard to source and run on modern OSes (Catalina+ dropped 32-bit apps entirely)"]
+  }
+}

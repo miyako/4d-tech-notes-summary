@@ -1,0 +1,1 @@
+Updating Custom PHP Libraries used by 4D (TN 19-03, 4D v17, February 2019) — walks through compiling a custom PHP FastCGI engine with extra extensions to replace 4D's bundled PHP interpreter on Mac and Windows.

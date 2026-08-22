@@ -1,0 +1,1 @@
+Mailing Feature: Sending and Archiving Emails with ORDA (TN 21-16, 4D v19 R2, September 2021) — demonstrates sending mail via the native SMTP Transporter commands from both a 4D Write Pro desktop form and a web contact form, archiving each message as an ORDA entity.

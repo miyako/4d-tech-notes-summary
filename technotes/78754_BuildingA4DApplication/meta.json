@@ -1,0 +1,20 @@
+{
+  "asset_id": 78754,
+  "title": "Tech Note: Building a 4D Application",
+  "technote_number": "21-13",
+  "year": 2021,
+  "published_date": "July 29, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78754",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-13_BuildingApplication.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["Application Builder", "Build Application command", "buildApp.4DSettings file", "4D Volume Desktop", "PackProject"],
+  "historical_commentary": {
+    "text": "The overall Application Builder workflow, compiled-structure vs stand-alone vs client/server build types, and the buildApp settings file mechanism remain 4D's current build/deployment model; the note is also notable for capturing the exact v19-era transition point where buildApp.xml was renamed buildApp.4DSettings and Project mode's PackProject setting first appeared.",
+    "status": "still_relevant",
+    "related_updates": ["Project mode (.4DZ compiled structure, PackProject setting) has since become the default and near-universal database format, making the binary-mode .4DC path increasingly a legacy option", "The Application Builder UI and Build Application command remain largely the same shape in current 4D versions, though specific dialogs/options have been refined release over release"]
+  }
+}

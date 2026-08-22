@@ -1,0 +1,1 @@
+Tech Note: Engaging Database Tests in your 4D Database (TN 19-06, 4D v17 R3, April 2019) — shows how to use the new User parameter (SET/GET DATABASE PARAMETER, command-line --user-param, and 4D Link file) introduced in v17R3 to automate unit testing on startup.

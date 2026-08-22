@@ -1,0 +1,1 @@
+Tech Note: Publishing a 4D Component on its dedicated Web Server (TN 20-11, 4D v18 R3, June 2020) — shows how to give a 4D component its own independent HTTP server using the new WEB Server object commands.

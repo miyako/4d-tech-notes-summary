@@ -1,0 +1,1 @@
+Tech Note: 4D Migrating from HTTP to HTTPS (TN 19-23, 4D v17, December 2019) — an educational overview of HTTPS/TLS fundamentals plus the concrete steps to enable HTTPS on a 4D Web Server.

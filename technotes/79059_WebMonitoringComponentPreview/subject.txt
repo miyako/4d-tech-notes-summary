@@ -1,0 +1,1 @@
+Tech Note: A First Preview of the Updated Web Monitoring Component (TN 22-22, 4D v19 R6, November 2022) — walks through installing and customizing an updated version of 4D's web-based 4D Server administration dashboard component, covering dashboard, users, processes, and settings pages driven by ORDA-era 4D Server APIs.

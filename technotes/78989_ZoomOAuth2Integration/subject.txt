@@ -1,0 +1,1 @@
+Tech Note: Connecting 4D and Zoom via OAuth 2.0 (TN 22-16, 4D v19 R5, August 2022) — demonstrates 4D's built-in OAuth2 provider class to authenticate against Zoom's developer API and list/create/update/delete Zoom meetings from a 4D application, including a web-area calendar view.

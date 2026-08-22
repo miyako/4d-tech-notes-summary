@@ -1,0 +1,1 @@
+Tech Note: 4D REST API: Connecting 4D with ReactJS (TN 20-20, 4D Server v18 R4, October 2020) — builds a short-stories reading web app with a ReactJS frontend and a 4D REST/ORDA backend, covering login, entity/attribute filtering, and calling custom Entity Selection Class functions via REST.

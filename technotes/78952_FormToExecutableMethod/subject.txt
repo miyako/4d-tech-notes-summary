@@ -1,0 +1,1 @@
+Tech Note: Transform a Utility Form into One Executable Method (TN 22-12, 4D v19 R, June 2022) — provides a macro-driven technique to consolidate a project form's definition, form method, and object methods into a single self-contained, shareable project method.

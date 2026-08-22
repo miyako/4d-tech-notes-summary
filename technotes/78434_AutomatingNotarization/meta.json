@@ -1,0 +1,20 @@
+{
+  "asset_id": 78434,
+  "title": "Tech Note: Automating Notarization",
+  "technote_number": "20-04",
+  "year": 2020,
+  "published_date": "March 25, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78434",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-04_AutomatingNotarization.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Bash scripting", "xcrun altool (Apple notary service)", "hdiutil / codesign", "PlistBuddy"],
+  "historical_commentary": {
+    "text": "This note's shell-scripting approach still teaches valid Bash fundamentals, but the specific Apple tool it automates (altool with --notarize-app / --notarization-info) has been deprecated and replaced by 'xcrun notarytool', so the exact commands shown no longer work on current macOS/Xcode toolchains.",
+    "status": "partially_superseded",
+    "related_updates": ["Apple deprecated 'altool' for notarization; 'notarytool' (introduced 2021, mandatory since late 2023) is now required, using different flags and an app-specific keychain profile instead of inline credentials", "The general automation pattern (script that builds, signs, uploads, polls status, staples) is still exactly how notarization automation is done today, just with notarytool commands instead of altool"]
+  }
+}

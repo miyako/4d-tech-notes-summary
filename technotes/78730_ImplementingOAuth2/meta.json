@@ -1,0 +1,20 @@
+{
+  "asset_id": 78730,
+  "title": "Tech Note: Implementing OAuth2 in 4D",
+  "technote_number": "21-11",
+  "year": 2021,
+  "published_date": "June 21, 2021",
+  "product": "4D",
+  "version": "18 R6",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78730",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-11_OAuth2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["OAuth 2.0", "HTTP Request/JSON Parse", "SMTP New transporter with OAuth2", "4D web server (On Web Connection)", "ORDA"],
+  "historical_commentary": {
+    "text": "The manual OAuth2 authorization-code-flow implementation shown here (parsing client_secrets.json, building the auth URL by hand, exchanging codes for tokens via raw HTTP POSTs) is still functionally correct, but 4D has since added first-class OAuth2 support directly into SMTP New transporter's parameters, making much of this hand-rolled plumbing unnecessary for the specific mail use case the note leads with.",
+    "status": "partially_superseded",
+    "related_updates": ["Later 4D versions added a dedicated authenticationMode: SMTP authentication OAUTH2 parameter path (already previewed at the end of this very note) that simplifies Gmail/Office365 OAuth2 mail auth considerably", "For general-purpose OAuth2 (non-mail APIs), this note's manual flow using HTTP Request, JSON Parse, and ORDA-based token storage remains a valid, still-current pattern with no built-in 4D command replacing it"]
+  }
+}

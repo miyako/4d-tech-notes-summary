@@ -1,0 +1,1 @@
+Power your ORDA queries with query options (TN 18-21, 4D v17 R, December 2018) — a deep-dive on dataClass.query()'s query-string syntax, comparing it to classic QUERY/QUERY BY ATTRIBUTE and sharing undocumented best practices for building accurate, performant ORDA queries.

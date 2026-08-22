@@ -1,0 +1,1 @@
+Tech Note: The Power of System Workers (TN 22-09, 4D v19 R, May 2022) — compares LAUNCH EXTERNAL PROCESS with the new System Worker class to show asynchronous command-line execution in 4D.

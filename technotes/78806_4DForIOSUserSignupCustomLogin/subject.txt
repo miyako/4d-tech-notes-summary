@@ -1,0 +1,1 @@
+Tech Note: 4D for iOS: User Signup & Custom Login Form (TN 21-18, 4D v19, October 2021) — builds a DishDoc recipe-book iOS app with 4D for iOS, implementing a web-based signup form with hashed password storage and a custom authenticated login tied to per-user data filtering.

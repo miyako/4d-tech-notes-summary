@@ -1,0 +1,20 @@
+{
+  "asset_id": 78276,
+  "title": "Tech Note: Preemptive Processes on 4D Remote",
+  "technote_number": "19-10",
+  "year": 2019,
+  "published_date": "June 21, 2019",
+  "product": "4D",
+  "version": "17 R4",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78276",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-10_PreemptiveProcessOn4DRemote.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["Preemptive vs Cooperative processes", "New Network Layer", "New process / CALL WORKER", "New signal", "PROCESS PROPERTIES", "Thread-safe compiler checks"],
+  "historical_commentary": {
+    "text": "Preemptive multitasking, thread-safety declarations, and the New Network Layer requirement described here remain the current 4D concurrency model; this note's technical content is still accurate. The main change since 2019 is that 32-bit 4D and the legacy network layer are now long obsolete/removed, so the conditional caveats about needing 64-bit or opting into the new network layer are now moot — those are simply the only options in current 4D.",
+    "status": "still_relevant",
+    "related_updates": ["32-bit 4D versions and the legacy network layer have since been fully phased out, making the 'requirements' in this note the unconditional default rather than an opt-in choice", "The Signal object and CALL WORKER/New process patterns for mixing preemptive and cooperative code remain 4D's current concurrency toolkit"]
+  }
+}

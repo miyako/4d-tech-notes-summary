@@ -1,0 +1,20 @@
+{
+  "asset_id": 78117,
+  "title": "Tech Note: Generating a Listbox using Dynamic forms",
+  "technote_number": "18-16",
+  "year": 2018,
+  "published_date": "September 4, 2018",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78117",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-16_DynamicListbox.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Dynamic Forms", "JSON form definition", "list box (selection/array/collection/entity-selection based)", "Open form window", "OBJECT SET SUBFORM", "ds.Table.all()"],
+  "historical_commentary": {
+    "text": "Building list boxes purely from JSON via Dynamic Forms remains a valid, still-current 4D technique; the four data-source styles compared (current selection, array, collection, entity selection) are all still supported in 4D today, though collection/entity-selection-based list boxes are now generally the preferred modern approach over classic selection/array binding.",
+    "status": "still_relevant",
+    "related_updates": ["Dynamic Forms and JSON-defined list boxes remain fully supported and current", "ORDA collection/entity-selection-based list boxes have become the more common modern pattern versus classic current-selection or array-based list boxes", "no deprecated APIs in this note; all four list box data-source types remain valid, though ORDA-based patterns are now favored for new development"]
+  }
+}

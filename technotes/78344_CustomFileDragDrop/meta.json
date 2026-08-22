@@ -1,0 +1,20 @@
+{
+  "asset_id": 78344,
+  "title": "Tech Note: Custom File Drag and Drop Area",
+  "technote_number": "19-18",
+  "year": 2019,
+  "published_date": "October 28, 2019",
+  "product": "4D",
+  "version": "17 R6",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78344",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-18_CustomFileDragAndDropArea.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["OBJECT SET VISIBLE", "Get file from pasteboard", "Collection-based list box", "LISTBOX SELECT ROW", "SET TIMER", "Form events (On Drag Over, On Mouse Leave, On Drop)"],
+  "historical_commentary": {
+    "text": "The event-driven drag-and-drop technique and collection-based listbox pattern described here are still valid and commonly used in classic 4D form development today. The approach hasn't been architecturally superseded, though modern 4D Explorer-style projects might also consider a web-based (HTML5 drag/drop in a web area) alternative for cross-platform consistency.",
+    "status": "still_relevant",
+    "related_updates": ["Still a standard approach for native 4D form UIs; collections/object notation used throughout remain current 4D practice"]
+  }
+}

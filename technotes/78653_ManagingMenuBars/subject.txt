@@ -1,0 +1,1 @@
+Managing Menu Bars Across Forms and Processes (TN 21-03, 4D v18 R, February 2021) — explains how to use menu bar references (Create menu / SET MENU BAR / RELEASE MENU) to maintain independent, per-form menu bar states across form navigation and across processes.

@@ -1,0 +1,30 @@
+{
+  "asset_id": 78598,
+  "title": "Tech Note: New Variable Declaration",
+  "technote_number": "20-21",
+  "year": 2020,
+  "published_date": "November 30, 2020",
+  "product": "4D",
+  "version": "18 R4",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78598",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-21_NewVariableDeclaration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "var keyword variable declaration",
+    "4D.<className> / cs.<className> type references",
+    "Autocomplete / type-ahead in the code editor",
+    "Private class functions (underscore prefix)",
+    "Conversion component (Compiler theme -> var)"
+  ],
+  "historical_commentary": {
+    "text": "The 'var' typed-declaration syntax introduced around v18R4 became 4D's standard, recommended way to declare variables and has only become more entrenched since, fully superseding the older C_TEXT/C_OBJECT-style 'Compiler theme' directives for new code; this note's guidance is still accurate and describes what remains current best practice.",
+    "status": "still_relevant",
+    "related_updates": [
+      "'var' with typed class references (4D.ClassName / cs.ClassName) is now the standard, encouraged variable declaration style in current 4D versions",
+      "Old C_TEXT/C_OBJECT/C_LONGINT-style Compiler theme declarations are still supported for compatibility but are considered legacy style for new development",
+      "Arrays and inter-process variables mentioned as unsupported by 'var' at the time remain declared via the older Array/Compiler theme commands, as arrays are a distinct 4D language concept"
+    ]
+  }
+}

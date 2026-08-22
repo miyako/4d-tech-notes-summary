@@ -1,0 +1,1 @@
+Tech Note: Automating Form Changes in Project Mode (TN 21-23, 4D v19, December 2021) — shows how to bulk-edit .4DForm JSON files across an entire project to fix or standardize form-object properties programmatically instead of manually, one form at a time.

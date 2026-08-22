@@ -1,0 +1,20 @@
+{
+  "asset_id": 78327,
+  "title": "Tech Note: FullCalendar Integration",
+  "technote_number": "19-17",
+  "year": 2019,
+  "published_date": "September 25, 2019",
+  "product": "4D",
+  "version": "17 R5",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78327",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-17_fullcalendarintegration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["FullCalendar 4.3.1 (JavaScript)", "Web Area", "WA EXECUTE JAVASCRIPT FUNCTION", "PROCESS 4D TAGS", "ORDA (ds.Events.query)", "$4d callback bridge"],
+  "historical_commentary": {
+    "text": "The general pattern of embedding a JS library in a 4D Web Area and bridging events via WA EXECUTE JAVASCRIPT FUNCTION and the $4d callback object is still valid, but FullCalendar 4.3.1 (2019) is many major versions behind current FullCalendar releases (v6+), and the ORDA syntax shown (ds.Events.query, .save()) is stable and current. A developer starting this today should use a current FullCalendar version and could also consider a Qodly/web-component-based calendar for pure web/ORDA-REST apps.",
+    "status": "partially_superseded",
+    "related_updates": ["FullCalendar has advanced many major versions past 4.3.1; API details (plugins array, defaultView naming) changed in FullCalendar v5+", "ORDA data access patterns (ds.table.query(), entity.save()) shown here remain current 4D practice", "Web Area JS bridging technique (WA EXECUTE JAVASCRIPT FUNCTION, $4d object) is still the standard way to integrate JS libraries in classic 4D forms"]
+  }
+}

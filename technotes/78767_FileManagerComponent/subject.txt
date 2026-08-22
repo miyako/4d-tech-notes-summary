@@ -1,0 +1,1 @@
+Component for Managing Server Files from 4D Remote (TN 21-15, 4D v19, August 2021) — a modernized, component-packaged file manager UI that lets a 4D Remote client browse, upload, download, rename, and delete files on the 4D Server machine.

@@ -1,0 +1,1 @@
+Tech Note: Notarizing a Built 4D Application in v17 and v18 (TN 19-22, 4D v18, December 2019) — compares the streamlined v18 "Sign application" notarization workflow against the more manual, inside-out signing process required in v17.

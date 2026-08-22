@@ -1,0 +1,1 @@
+Tech Note: 4D REST API: Connecting 4D with Angular (TN 22-04, 4D v19, February 2022) — demonstrates using 4D's REST API as a backend for an Angular single-page application with basic CRUD via HTTP.

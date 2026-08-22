@@ -1,0 +1,27 @@
+{
+  "asset_id": 79011,
+  "title": "Tech Note: Intro to HTTPRequest: Asynchronous API Requests with Callbacks",
+  "technote_number": "22-17",
+  "year": 2022,
+  "published_date": "September 26, 2022",
+  "product": "4D",
+  "version": "19 R6",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79011",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-17_NewHTTPRequest.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D.HTTPRequest class (v19 R6+)",
+    "onResponse / onError / onHeaders / onTerminate callbacks",
+    "request.wait()",
+    "Art Institute of Chicago public API demo"
+  ],
+  "historical_commentary": {
+    "text": "4D.HTTPRequest remains the current, recommended way to perform outbound HTTP calls in 4D; the classic HTTP Request/HTTP Get commands still exist for backward compatibility but 4D's own documentation and sample code have continued to favor the class-based, async/callback approach introduced here. Nothing in later 4D releases has superseded this API — it is a genuine, durable upgrade, not a stopgap.",
+    "status": "current",
+    "related_updates": [
+      "Still fully valid; 4D.HTTPRequest remains the recommended networking API over the legacy HTTP Request/HTTP Get commands."
+    ]
+  }
+}

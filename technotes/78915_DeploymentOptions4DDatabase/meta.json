@@ -1,0 +1,29 @@
+{
+  "asset_id": 78915,
+  "title": "Tech Note: Deployment Options for a 4D Database",
+  "technote_number": "22-08",
+  "year": 2022,
+  "published_date": "April 26, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78915",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-08_DeploymentOptions.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server",
+    "Windows Services",
+    "Headless mode",
+    "LOG EVENT (stdout/stderr)",
+    "Administration window"
+  ],
+  "historical_commentary": {
+    "text": "Still fully relevant: the three deployment models described (user-executed app, Windows Service, headless mode) remain the current options for running 4D Server today, with headless mode continuing to be the modern, cross-platform preferred approach for automated/server deployments.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Headless mode (--headless CLI flag) has continued to be developed in newer 4D releases and remains the recommended approach for CI/containerized/server deployments on both macOS and Windows.",
+      "No architectural change since — this is general operational guidance, not tied to a specific deprecated feature."
+    ]
+  }
+}

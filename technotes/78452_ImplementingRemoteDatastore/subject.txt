@@ -1,0 +1,1 @@
+Tech Note: Implementing a Remote Datastore (TN 20-07, 4D v18, April 2020) — explains how to expose a 4D database as an ORDA REST server and connect to it as a remote datastore from another 4D application.

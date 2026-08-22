@@ -1,0 +1,20 @@
+{
+  "asset_id": 78198,
+  "title": "Tech Note: Processing Write Pro documents (faceless)",
+  "technote_number": "19-01",
+  "year": 2019,
+  "published_date": "January 30, 2019",
+  "product": "4D Write Pro",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78198",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-01_WriteProDocProcessingFaceless.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Write Pro", "WR INSERT EXPRESSION", "PROCESS 4D TAGS", "SET ALLOWED METHODS", "4D Write Pro object model", "faceless/backend document processing"],
+  "historical_commentary": {
+    "text": "The core problem (batch/backend generation of documents with embedded expressions, without a form UI) is still a common need and 4D Write Pro remains the current document engine; the specific workaround shown here (encapsulating expressions inside an EVALUATION_METHOD wrapper processed via PROCESS 4D TAGS) reflects an early-4D-Write-Pro-era limitation that later 4D Write Pro versions have addressed more directly with native faceless/offscreen document object handling.",
+    "status": "partially_superseded",
+    "related_updates": ["4D Write Pro has since gained more native, documented support for headless/backend document manipulation, reducing the need for the EVALUATION_METHOD/PROCESS_EXPRESSIONS workaround", "4D Write (classic) is fully retired in 64-bit 4D; any migration guidance about converting legacy 4D Write documents is now purely historical", "PROCESS 4D TAGS and expression evaluation concepts remain valid 4D language features"]
+  }
+}

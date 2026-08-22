@@ -1,0 +1,20 @@
+{
+  "asset_id": 78326,
+  "title": "Tech Note: Creating a Custom File Explorer",
+  "technote_number": "19-16",
+  "year": 2019,
+  "published_date": "September 25, 2019",
+  "product": "4D",
+  "version": "17 R5",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78326",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-16_CustomFileExplorer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Folder/File object commands (folder.folders(), folder.files())", "Collection-based list box", "OBJECT GET/SET COORDINATES", "LISTBOX Get rows height", "folder.create()/folder.delete()", "Collections as navigation stacks"],
+  "historical_commentary": {
+    "text": "The object-notation File/Folder command family (folder.folders(), folder.files(), folder.create(), folder.delete()) introduced around v17R5 is still the current, standard way to do file-system operations in 4D — this note remains fully applicable today with no significant API changes.",
+    "status": "still_relevant",
+    "related_updates": ["File/Folder object commands remain the standard 4D file-system API; no deprecation since introduction", "Collection-based list boxes are still the recommended list box paradigm over classic array-based list boxes"]
+  }
+}

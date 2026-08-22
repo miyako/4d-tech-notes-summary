@@ -1,0 +1,20 @@
+{
+  "asset_id": 78160,
+  "title": "Tech Note: Mail Merges with 4D Write Pro",
+  "technote_number": "18-20",
+  "year": 2018,
+  "published_date": "November 16, 2018",
+  "product": "4D Write Pro",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78160",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-20_MailMergeswith4DWritePro.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Write Pro", "WP Import document", "WP EXPORT DOCUMENT", "WP New", "ST INSERT EXPRESSION", "WP Print", "legacy 4D Write conversion", "mail merge templates"],
+  "historical_commentary": {
+    "text": "4D Write (classic) is fully retired from 64-bit 4D, so the v6/v7-era conversion paths (32-bit-only legacy plugin, offscreen area, blob conversion) documented here are now purely historical/legacy migration reference; the underlying mail-merge pattern of embedded expressions in 4D Write Pro documents remains the current, valid approach.",
+    "status": "partially_superseded",
+    "related_updates": ["4D Write classic and its legacy plugin are gone in current 64-bit 4D, so the 32-bit conversion steps described are obsolete except for archival migration of very old documents", "4D Write Pro remains 4D's current document/mail-merge engine, and expression-based mail merges are still built the same conceptual way"]
+  }
+}

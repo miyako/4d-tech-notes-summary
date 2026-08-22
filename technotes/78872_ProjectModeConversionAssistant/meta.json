@@ -1,0 +1,27 @@
+{
+  "asset_id": 78872,
+  "title": "Tech Note: Project Mode Conversion Assistant Component",
+  "technote_number": "22-03",
+  "year": 2022,
+  "published_date": "February 25, 2022",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78872",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-03_BinToProjectAssistant.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Project mode conversion log (Conversion_*.json)",
+    "4D component architecture",
+    "Binary-to-project export"
+  ],
+  "historical_commentary": {
+    "text": "This tool is squarely tied to the binary-to-project-mode migration window; it remains directly useful today for any team still converting legacy binary (.4DB/.4DC) databases to project mode, a task that continues for organizations with older 4D applications.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Project mode (introduced v17-18) is now 4D's default and recommended development mode; conversion assistants like this remain relevant precisely because many legacy binary databases still need migrating years later.",
+      "The underlying JSON conversion-log format this component parses has been stable since project mode's introduction, so this component should still function on current 4D versions doing binary-to-project conversions."
+    ]
+  }
+}

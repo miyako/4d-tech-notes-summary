@@ -1,0 +1,20 @@
+{
+  "asset_id": 78782,
+  "title": "Tech Note: Mailing Feature: Sending and Archiving Emails with ORDA",
+  "technote_number": "21-16",
+  "year": 2021,
+  "published_date": "September 20, 2021",
+  "product": "4D",
+  "version": "19 R2",
+  "platform": "Mac & Win",
+  "author": "Marouane Ait Salah, Technical Services Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=78782",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-16_IncomingAndOutgoingMail.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["SMTP New transporter", "ORDA", "4D Write Pro", "MAIL Convert from MIME", "4D web server"],
+  "historical_commentary": {
+    "text": "The native Transporter-based SMTP commands and ORDA entity storage shown here remain 4D's current, fully supported approach to email sending in 2026 — nothing about this pattern has been superseded.",
+    "status": "still_relevant",
+    "related_updates": ["The old 4DIC (4D Internet Commands) plugin mentioned as legacy is now essentially unused; native Transporter commands (SMTP/IMAP/POP3 New transporter) are the standard", "Later 4D versions expanded OAuth2 support directly into SMTP New transporter parameters (see also TN 21-11), reducing the need for hand-rolled password-based Gmail auth shown in some of this note's examples"]
+  }
+}

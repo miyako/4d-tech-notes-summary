@@ -1,0 +1,28 @@
+{
+  "asset_id": 78837,
+  "title": "Tech Note: Automating Form Changes in Project Mode",
+  "technote_number": "21-23",
+  "year": 2021,
+  "published_date": "December 20, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78837",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-23_AutomatingFormChanges.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Project mode .4DForm JSON files",
+    "JSON Parse / JSON Stringify",
+    "FORM GET NAMES / GET TABLE TITLES",
+    "TEXT TO DOCUMENT"
+  ],
+  "historical_commentary": {
+    "text": "Still fully valid: project-mode forms are indeed plain JSON (.4DForm) files, and directly parsing/patching them with JSON Parse/JSON Stringify remains a completely current, supported technique for bulk form edits.",
+    "status": "current",
+    "related_updates": [
+      "Project mode (introduced v17-18) stores every form as a .4DForm JSON file exactly as described; this hasn't changed, so the bulk-editing technique shown here is directly applicable to current 4D versions.",
+      "This kind of scripted form migration is especially relevant to organizations doing (or having done) the binary-to-project-mode conversion, complementing tools like the Conversion Assistant component (TN 22-03)."
+    ]
+  }
+}

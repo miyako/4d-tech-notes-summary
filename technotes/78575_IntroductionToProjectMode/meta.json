@@ -1,0 +1,31 @@
+{
+  "asset_id": 78575,
+  "title": "Tech Note: Introduction to Project Mode",
+  "technote_number": "20-18",
+  "year": 2020,
+  "published_date": "October 26, 2020",
+  "product": "4D",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Rajae CHETOUANI, Quality Support Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=78575",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-18_IntroProjectMode.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Project mode (.4DProject architecture)",
+    "Structure to project conversion (binary -> project)",
+    "catalog.4DCatalog / folder.json / directory.json / menu.json",
+    ".4dm method files, .4DForm form files",
+    "Source control (git) friendly plain-text project files",
+    ".4dz compiled/compressed deployment format"
+  ],
+  "historical_commentary": {
+    "text": "Project mode, introduced starting v17 R5 and described here in its early form, has since become 4D's default and strongly recommended database architecture, with binary/.4DB Design mode now considered legacy; the note's core description of the plain-text, source-control-friendly file layout (methods, forms, catalog, users/groups, menus) remains an accurate account of how Project mode still works today, though the tooling around it (Git integration, conversion assistants) has matured significantly since 2020.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Project mode is now 4D's default and recommended database format; binary/Design mode (.4DB) is legacy and mainly relevant only for very old databases not yet converted",
+      "4D has since released more advanced Project Mode Conversion Assistant tooling and deeper git-workflow integration than existed when this introductory note was written",
+      "The specific JSON/text file layout described (folder.json, directory.json, menu.json, catalog.4DCatalog, .4dm/.4DForm files) remains substantially the same structural approach used by Project mode today"
+    ]
+  }
+}

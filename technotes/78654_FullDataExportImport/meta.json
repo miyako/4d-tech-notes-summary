@@ -1,0 +1,20 @@
+{
+  "asset_id": 78654,
+  "title": "Tech Note: Full Data Export and Import",
+  "technote_number": "21-04",
+  "year": 2021,
+  "published_date": "February 22, 2021",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Timothy A Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78654",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-04_Export-Import.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["EXPORT DATA / IMPORT DATA", "DOM Create XML Ref (project definition XML)", "SQL ALTER DATABASE (disable indexes/constraints/triggers)"],
+  "historical_commentary": {
+    "text": "The classic EXPORT DATA/IMPORT DATA per-table wrapper pattern shown here remains valid and still works in current 4D versions, though it operates at the classic table/field level rather than through ORDA entities, which is the more common data-access layer developers reach for first today for most day-to-day data manipulation (export/import for full backup or migration purposes is a more specialized, still-legitimate use of this classic API).",
+    "status": "still_relevant",
+    "related_updates": ["EXPORT DATA/IMPORT DATA are unchanged, still-supported classic 4D language commands with no ORDA equivalent for this specific bulk full-database use case", "For record-level data manipulation generally, ORDA entities/entity selections are now the default modern approach, but this note's use case — full-database export/import via a generic per-table wrapper — remains a specialized, still-useful classic-API technique"]
+  }
+}

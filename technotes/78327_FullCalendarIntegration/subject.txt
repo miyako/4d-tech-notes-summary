@@ -1,0 +1,1 @@
+Tech Note: FullCalendar Integration (TN 19-17, 4D v17 R5, September 2019) — demonstrates embedding the FullCalendar JavaScript library in a 4D Web Area, bridging click/drag/resize events back to ORDA-based 4D methods.

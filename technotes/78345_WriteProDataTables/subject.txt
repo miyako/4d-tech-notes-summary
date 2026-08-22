@@ -1,0 +1,1 @@
+Tech Note: Adding Data Tables in a Write Pro Document (TN 19-19, 4D v17 R6, October 2019) — shows how to programmatically insert and populate tables in a 4D Write Pro document from an entity selection using object-range commands.

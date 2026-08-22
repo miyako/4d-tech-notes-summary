@@ -1,0 +1,20 @@
+{
+  "asset_id": 78712,
+  "title": "Tech Note: The Possibilities of Form Macros",
+  "technote_number": "21-09",
+  "year": 2021,
+  "published_date": "May 25, 2021",
+  "product": "4D",
+  "version": "18 R6",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78712",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-09_FormMacro.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Form Macros (formMacros.json)", "4D Classes (onInvoke/onErr)", "Project mode form editor API", "OB Copy"],
+  "historical_commentary": {
+    "text": "Form macros remain a current, Project-mode-exclusive 4D feature used for exactly the workflow described here (form/object automation, dev-productivity helpers, conversion/error checking); the feature has continued to exist unchanged in later 4D versions rather than being replaced.",
+    "status": "still_relevant",
+    "related_updates": ["Form macros are inherently tied to Project mode (.4DProject text-based structure) and formMacros.json/4D Class architecture, both of which remain 4D's current, standard project format and extension mechanism", "No successor feature has replaced form macros; they continue to be documented and used in current 4D versions for form/project automation tasks"]
+  }
+}

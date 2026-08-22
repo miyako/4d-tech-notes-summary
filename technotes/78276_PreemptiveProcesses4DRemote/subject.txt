@@ -1,0 +1,1 @@
+Tech Note: Preemptive Processes on 4D Remote (TN 19-10, 4D v17 R4, June 2019) — explains the requirements (64-bit, compiled, thread-safe, New Network Layer) and techniques for running true multi-core preemptive processes on 4D Remote clients.

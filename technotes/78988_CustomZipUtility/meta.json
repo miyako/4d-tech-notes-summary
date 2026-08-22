@@ -1,0 +1,27 @@
+{
+  "asset_id": 78988,
+  "title": "Tech Note: Custom Zip Utility for a 4D Solution",
+  "technote_number": "22-15",
+  "year": 2022,
+  "published_date": "August 22, 2022",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78988",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-15_ZipUtility.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ZIP Create archive / ZIP Read archive (native commands, v18+)",
+    "AES 256-bit password encryption",
+    "zipItWindow utility UI",
+    "zipItems() / unzipItem() project methods"
+  ],
+  "historical_commentary": {
+    "text": "The underlying ZIP Create archive / ZIP Read archive commands remain fully current, native 4D language features with no deprecation or replacement; this utility wrapper is simply a sample implementation on top of stable commands, so both the technique and the specific commands referenced are still valid to use today exactly as described.",
+    "status": "current",
+    "related_updates": [
+      "Still fully valid — ZIP Create archive / ZIP Read archive are stable native commands unchanged since v18."
+    ]
+  }
+}

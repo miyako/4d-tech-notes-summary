@@ -1,0 +1,28 @@
+{
+  "asset_id": 78807,
+  "title": "Tech Note: Automatic Output and Input Forms",
+  "technote_number": "21-19",
+  "year": 2021,
+  "published_date": "October 28, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78807",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-19_AutoForms.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Project-mode component architecture (.4dbase/.4DZ)",
+    "var declarations (vs. C_TEXT/C_LONGINT compiler directives)",
+    "ORDA object notation",
+    "Dynamic listbox-based input/output forms"
+  ],
+  "historical_commentary": {
+    "text": "The specific component fills a gap created by project mode itself (loss of the old binary-mode auto-generated input/output forms), and remains a valid, still-usable utility; its coding style (var declarations, ORDA notation) reflects best practice that is now even more standard in current 4D.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Binary mode's automatic input/output form generation for tables with no defined forms was intentionally dropped in project mode due to ORDA's paradigm shift and the preference for listbox-based UIs over classic list forms — this component is a community/support-provided replacement for that lost convenience.",
+      "The modern `var $x : Type` declaration syntax shown here (vs. classic C_TEXT/C_LONGINT compiler directives) has become the standard, recommended style in current 4D code, so this note's coding conventions remain exemplary rather than dated."
+    ]
+  }
+}

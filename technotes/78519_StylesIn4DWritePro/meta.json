@@ -1,0 +1,29 @@
+{
+  "asset_id": 78519,
+  "title": "Tech Note: Applying and Managing Styles in 4D Write Pro",
+  "technote_number": "20-14",
+  "year": 2020,
+  "published_date": "July 27, 2020",
+  "product": "4D Write Pro",
+  "version": "18 R3",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78519",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-14_4D WriteProStyles.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "WP SET ATTRIBUTES / WP GET ATTRIBUTES",
+    "4D Write Pro object notation for range attributes",
+    "WP New style sheet (character vs paragraph)",
+    "wk style sheet / wk font bold style constants",
+    "4D Write Pro ranges and elements (headers, footers, tables, paragraphs)"
+  ],
+  "historical_commentary": {
+    "text": "4D Write Pro's attribute/range/style-sheet model described here remains the current, unchanged way to procedurally style documents in 4D, since 4D Write Pro (unlike classic 4D Write) continues to be actively developed; the object-notation vs. command-based dual API contrast shown is still accurate today.",
+    "status": "current",
+    "related_updates": [
+      "4D Write Pro's document/range/style attribute model (WP SET/GET ATTRIBUTES, style sheets) remains the current, standard API with no architectural replacement",
+      "Using bracket notation with wk-prefixed constants for object-notation attribute access is still the recommended safer style over hardcoded dot-notation property names"
+    ]
+  }
+}

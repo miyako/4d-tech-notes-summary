@@ -1,0 +1,1 @@
+Tech Note: 4D Write to 4D Write Pro Conversion Guidelines: Form and Off-screen areas (TN 20-06, 4D Write Pro v17, April 2020) — a practical migration guide for converting legacy 4D Write documents, off-screen areas, and forms to 4D Write Pro's object-based model.

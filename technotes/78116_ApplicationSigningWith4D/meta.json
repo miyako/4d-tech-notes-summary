@@ -1,0 +1,20 @@
+{
+  "asset_id": 78116,
+  "title": "Tech Note: Application Signing with 4D",
+  "technote_number": "18-15",
+  "year": 2018,
+  "published_date": "September 4, 2018",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78116",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-15_AppSigning.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["code signing", "New-SelfSignedCertificate", "signtool.exe", "BUILD APPLICATION", "codesign (macOS)", "Apple Developer certificates", "Windows SDK signtool"],
+  "historical_commentary": {
+    "text": "Application/code signing on macOS and Windows is still a fundamental, current requirement for distributing 4D-built applications, and 4D's BUILD APPLICATION signing integration continues to exist, but the specific tooling details here (older signtool/Windows SDK versions, older macOS notarization-less codesign flow) are dated given Apple's introduction of mandatory notarization and Microsoft's evolving certificate/EV requirements since 2018.",
+    "status": "partially_superseded",
+    "related_updates": ["Apple has since made notarization (not just signing) mandatory for smooth Gatekeeper execution on macOS, which this 2018 note does not cover", "Windows code-signing certificate requirements have tightened (EV certificates increasingly required/recommended for reputation with SmartScreen), beyond the self-signed-certificate demo shown here", "the basic 4D BUILD APPLICATION signing hook and signtool/codesign mechanics remain conceptually valid starting points"]
+  }
+}

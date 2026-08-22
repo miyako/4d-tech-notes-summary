@@ -1,0 +1,30 @@
+{
+  "asset_id": 79034,
+  "title": "Tech Note: Working with Tables in 4D View Pro (R2: November 11th, 2022)",
+  "technote_number": "22-20",
+  "year": 2022,
+  "published_date": "October 25, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79034",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-20_TablesIn4DVP_2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D View Pro (SpreadJS-based spreadsheet component)",
+    "VP CREATE TABLE",
+    "VP Run offscreen area",
+    "On VP Ready event",
+    "Pivot tables (SpreadJS pivot API)",
+    "Ribbon / Toolbar UI modes",
+    "VP SET DATA CONTEXT"
+  ],
+  "historical_commentary": {
+    "text": "4D View Pro (built on SpreadJS) remains 4D's current spreadsheet component and classic 4D View is legacy technology; the table and pivot-table APIs documented here (VP CREATE TABLE, pivot configuration objects, VP Run offscreen area) are still part of the supported 4D language today. 4D View Pro has continued to receive new VP commands and SpreadJS version upgrades in subsequent releases, so while the fundamentals in this note remain valid, developers should check the current 4D documentation for any newer, more direct pivot-table commands added since 19 R.",
+    "status": "current",
+    "related_updates": [
+      "4D View Pro / SpreadJS remains current (classic 4D View is legacy); check later release notes for any newer native pivot-table commands added after 19 R."
+    ]
+  }
+}

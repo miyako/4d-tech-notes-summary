@@ -1,0 +1,29 @@
+{
+  "asset_id": 78969,
+  "title": "Tech Note: Chart Wizard with 4D View Pro (R2)",
+  "technote_number": "22-13",
+  "year": 2022,
+  "published_date": "July 19, 2022",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78969",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-13_ChartWizard_R2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D View Pro (SpreadJS-based)",
+    "WA Evaluate JavaScript",
+    "SpreadJS Charts API (sheet.charts.add)",
+    "VP Export to object / VP IMPORT FROM OBJECT",
+    "VP EXPORT DOCUMENT",
+    "LAUNCH EXTERNAL PROCESS (Xpdf)"
+  ],
+  "historical_commentary": {
+    "text": "4D View Pro/SpreadJS remains the current spreadsheet engine, and driving its JS API via WA Evaluate JavaScript is still a valid, supported escape hatch for advanced features. However, the specific cross-platform export workaround here — relying on the third-party Xpdf executable to convert PDF to PNG on Windows because 4D's PDF handling was macOS-only — is the kind of gap that later 4D releases have targeted for improvement; developers today should check whether current 4D versions offer native PDF/picture export parity across platforms before adopting this specific workaround, as it may no longer be necessary.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D View Pro/SpreadJS remains current; the Xpdf-based PDF-to-PNG Windows workaround may be unnecessary in later 4D releases if native cross-platform picture export has since improved — verify against current documentation before reusing this workaround."
+    ]
+  }
+}

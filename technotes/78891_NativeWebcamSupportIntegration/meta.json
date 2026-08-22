@@ -1,0 +1,29 @@
+{
+  "asset_id": 78891,
+  "title": "Tech Note: Native Webcam Support and Integration",
+  "technote_number": "22-06",
+  "year": 2022,
+  "published_date": "March 17, 2022",
+  "product": "4D",
+  "version": "19 R3",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78891",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-06_WebCamIntegration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Web Area (embedded rendering engine)",
+    "HTML5 <video> / getUserMedia",
+    "WA EXECUTE JAVASCRIPT FUNCTION",
+    "HTML5 canvas snapshot capture",
+    "snapShot / Photo Booth component"
+  ],
+  "historical_commentary": {
+    "text": "Still relevant: native webcam access via the embedded Web Area rendering engine and getUserMedia remains the current technique in 4D; it superseded the older 2015-era external-framework approach referenced in the note itself.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Directly supersedes 4D's own 2015 Tech Note that needed third-party frameworks for camera access — this v19R3 approach via the embedded Chromium-based Web Area engine and HTML5 getUserMedia is the durable modern replacement and remains valid today.",
+      "The Web Area's embedded rendering engine has continued to be updated/maintained by 4D, so HTML5 camera APIs used here should still function on current 4D versions."
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Handling User Picture Inserts Into 4D Write Pro (TN 20-19, 4D Write Pro v18, October 2020) — explains 4D Write Pro's three picture types (background, in-line, anchored) and shows how to intercept and control user drag-and-drop or paste-image actions rather than accept 4D Write Pro's default in-line insertion.

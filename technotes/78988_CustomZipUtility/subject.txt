@@ -1,0 +1,1 @@
+Tech Note: Custom Zip Utility for a 4D Solution (TN 22-15, 4D v19, August 2022) — packages 4D's native ZIP Create archive / ZIP Read archive commands (available since v18) into a drag-and-drop compress/uncompress utility window plus a simple zipItems()/unzipItem() programmatic API, including optional AES-256 password protection.

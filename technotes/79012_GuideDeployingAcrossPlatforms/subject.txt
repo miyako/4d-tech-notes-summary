@@ -1,0 +1,1 @@
+Tech Note: Guide to Deploying Across Platforms (TN 22-18, 4D v19, September 2022) — a scenario-by-scenario deployment guide for 4D client-server apps across Windows/macOS and Intel/Apple Silicon combinations, including automatic client update handling for each combination.

@@ -1,0 +1,20 @@
+{
+  "asset_id": 78398,
+  "title": "Tech Note: The Power of 4D for iOS",
+  "technote_number": "20-02",
+  "year": 2020,
+  "published_date": "January 29, 2020",
+  "product": "4D for iOS",
+  "version": "18",
+  "platform": "Mac",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78398",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-02_PowerOf4DforIOS.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D for iOS (native mobile project generator)", "Xcode/Swift project generation", "4D Mobile App Server / data sync"],
+  "historical_commentary": {
+    "text": "4D for iOS (the native Swift/Xcode-generating mobile tool showcased here) was discontinued by 4D; the entire product line described in this tech note no longer exists in current 4D versions, making this note purely of historical interest.",
+    "status": "obsolete",
+    "related_updates": ["4D for iOS / 4D Mobile App generation was discontinued as a 4D product line", "Modern 4D mobile strategy centers on responsive web apps built with ORDA/REST and, for low-code app building, 4D's separate Qodly platform, rather than generating native Xcode projects from within 4D"]
+  }
+}

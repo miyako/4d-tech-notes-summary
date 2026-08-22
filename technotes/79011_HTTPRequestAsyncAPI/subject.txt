@@ -1,0 +1,1 @@
+Tech Note: Intro to HTTPRequest: Asynchronous API Requests with Callbacks (TN 22-17, 4D v19 R6, September 2022) — introduces the 4D.HTTPRequest class store class for asynchronous, callback-driven HTTP requests, contrasted with the older blocking HTTP Request/HTTP Get commands, via a working art-gallery demo against a public REST API.

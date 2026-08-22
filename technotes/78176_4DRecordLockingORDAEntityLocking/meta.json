@@ -1,0 +1,20 @@
+{
+  "asset_id": 78176,
+  "title": "Tech Note: 4D Record Locking and ORDA Entity Locking",
+  "technote_number": "18-22",
+  "year": 2018,
+  "published_date": "December 28, 2018",
+  "product": "4D",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78176",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-22_4DLockingTypes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["classic 4D record locking", "READ ONLY/READ WRITE", "Locked/LOCKED BY/Get locked records info", "ORDA entity.lock()/entity.unlock()", "entity.save()", "entity stamps", "dk auto merge"],
+  "historical_commentary": {
+    "text": "Both locking systems described are still fully current in 4D: classic pessimistic table/record locking (READ ONLY/READ WRITE, Locked, LOCKED BY) remains unchanged, and ORDA entity locking (entity.lock()/unlock(), stamp-based optimistic locking via entity.save(), and dk auto merge) is the standard approach for ORDA-based apps and has only been extended with more options since.",
+    "status": "still_relevant",
+    "related_updates": ["ORDA entity locking has continued to mature with additional save() options and conflict-resolution flags in later 4D versions", "classic 4D locking commands remain unchanged and fully supported for non-ORDA/legacy code"]
+  }
+}

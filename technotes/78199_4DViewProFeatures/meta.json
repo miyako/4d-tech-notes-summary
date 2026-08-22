@@ -1,0 +1,20 @@
+{
+  "asset_id": 78199,
+  "title": "Tech Note: A Look at The Features of 4D View Pro",
+  "technote_number": "19-02",
+  "year": 2019,
+  "published_date": "January 30, 2019",
+  "product": "4D View Pro",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78199",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-02_4DVPFeatures.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D View Pro", "VP commands", "SpreadJS", "list box Object Type Arrays", "Row Height Array", "4D View Pro Ranges", "Named Ranges/Formulas"],
+  "historical_commentary": {
+    "text": "4D View Pro (built on SpreadJS, 64-bit, object-based) is still 4D's current spreadsheet/grid technology and has continued to receive substantial feature updates since this v17R4-era note; the legacy 32-bit 4D View plugin it describes as being deprecated has since been fully retired from current 4D releases.",
+    "status": "partially_superseded",
+    "related_updates": ["legacy 4D View plugin (32-bit) is no longer usable/available in current 4D versions", "4D View Pro has evolved considerably since v17R4 with many new APIs, and its underlying SpreadJS engine has been upgraded multiple times, so specific API/behavior details from this note should be checked against current documentation", "list box features like Object Type Arrays and Row/Automatic Row Height remain valid concepts still in use today"]
+  }
+}

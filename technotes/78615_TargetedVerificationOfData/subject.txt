@@ -1,0 +1,1 @@
+Tech Note: Targeted Verification of Data (TN 20-22, 4D v18 R, December 2020) — surveys 4D's data-integrity checking tools (MSC, Server Admin Window) and shows how to build custom, targeted verification tooling with VERIFY CURRENT DATA FILE and a callback method.

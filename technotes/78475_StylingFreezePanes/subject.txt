@@ -1,0 +1,1 @@
+Tech Note: Styling Freeze Panes (TN 20-09, 4D View Pro v18 R2, May 2020) — shows how to apply and auto-manage custom cell styles on 4D View Pro freeze panes using the v18R2 command set.

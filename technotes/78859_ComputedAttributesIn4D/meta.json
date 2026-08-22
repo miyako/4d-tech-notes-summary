@@ -1,0 +1,28 @@
+{
+  "asset_id": 78859,
+  "title": "Tech Note: Computed Attributes in 4D",
+  "technote_number": "22-02",
+  "year": 2022,
+  "published_date": "January 24, 2022",
+  "product": "4D",
+  "version": "19 R3",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78859",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-02_ComputedAttributes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ORDA (Object Relational Data Access)",
+    "4D Classes (Class extends Entity/EntitySelection)",
+    "Computed attributes (get/set/query/orderBy functions)",
+    "Datastore / Entity / EntitySelection classes"
+  ],
+  "historical_commentary": {
+    "text": "Fully current and foundational: computed attributes remain a core, actively used ORDA feature in 4D today, and this note's explanation of get/set/query/orderBy functions on {Table}Entity classes still matches current 4D class/ORDA documentation.",
+    "status": "current",
+    "related_updates": [
+      "ORDA (introduced v17) and classes (introduced v18R3) are both now standard, mature parts of 4D; computed attributes built on them remain unchanged in concept and API since this note.",
+      "No successor feature has replaced computed attributes — they are still the recommended way to expose calculated/derived values as queryable, sortable entity attributes."
+    ]
+  }
+}

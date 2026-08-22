@@ -1,0 +1,1 @@
+Tech Note: Automating Notarization (TN 20-04, 4D v18, March 2020) — provides a Bash script that fully automates macOS app notarization: build, sign, upload, poll status, and staple.

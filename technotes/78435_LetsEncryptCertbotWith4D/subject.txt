@@ -1,0 +1,1 @@
+Tech Note: Let's Encrypt CERTBOT with a 4D Web Server (TN 20-05, 4D v18, March 2020) — replaces 4D's aging ACME component with the official Certbot tool for obtaining free TLS certificates for a 4D web server on Mac and Windows.

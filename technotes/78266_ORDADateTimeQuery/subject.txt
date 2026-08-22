@@ -1,0 +1,1 @@
+Tech Note: Query and Access Date-and-Time in the era of ORDA (TN 19-09, 4D v17 R, May 2019) — sample-database readme covering storing, querying, and filtering date/time values in ORDA entity selections and collections by month, day, hour, minute, or second.

@@ -1,0 +1,1 @@
+Tech Note: Offscreen Web Areas in v18 R3 (TN 20-12, 4D v18 R3, July 2020) — introduces the new WA Run Offscreen Area command for loading web pages and running JavaScript in memory (even on headless servers), with a Formula-based event callback and structured error handling.

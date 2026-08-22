@@ -1,0 +1,1 @@
+Tech Note: Associative Arrays (EN/FR) (TN 22-19, 4D v19, October 2022) — introduces associative arrays as an in-memory data-structuring technique in 4D, framed around non-functional (performance) requirements and under-used by 4D developers.

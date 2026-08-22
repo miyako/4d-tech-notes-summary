@@ -1,0 +1,1 @@
+Tech Note: 4D on GitHub (TN 19-11, 4D v17, June 2019) — introduces the then-new 4D Project Mode (text-based, per-file source) alongside a full Git/GitHub primer covering installation, branching, and conflict resolution for 4D team development.

@@ -1,0 +1,20 @@
+{
+  "asset_id": 78766,
+  "title": "Tech Note: Sending & Receiving SMS in 4D with Twilio",
+  "technote_number": "21-14",
+  "year": 2021,
+  "published_date": "August 26, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78766",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-14_SMSIntegrationWithTwilio.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Twilio REST API", "HTTP Request / HTTP AUTHENTICATE", "4D web server (On Web Connection)", "PHP interop", "ngrok"],
+  "historical_commentary": {
+    "text": "The core integration approach — calling Twilio's REST API over HTTP Basic auth with 4D's native HTTP Request/HTTP AUTHENTICATE commands, and handling inbound webhooks in On Web Connection — is still exactly how you would integrate Twilio SMS into 4D today; only the PHP-based demo path is a bit dated since 4D's own HTTP commands make PHP unnecessary.",
+    "status": "still_relevant",
+    "related_updates": ["4D's native HTTP Request and HTTP AUTHENTICATE commands are the durable, still-current mechanism for calling any REST API including Twilio; no ORDA/REST-specific replacement was needed here since this was already the 'modern' approach", "The PHP + Composer + Twilio PHP Helper Library path shown as an alternative is largely superseded in practice by calling the Twilio REST endpoints directly from 4D, avoiding an external PHP runtime dependency"]
+  }
+}

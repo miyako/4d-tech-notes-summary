@@ -1,0 +1,28 @@
+{
+  "asset_id": 78806,
+  "title": "Tech Note: 4D for iOS: User Signup & Custom Login Form",
+  "technote_number": "21-18",
+  "year": 2021,
+  "published_date": "October 28, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78806",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-18_4DiOSCustomLogin.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D for iOS (4D Mobile app generator)",
+    "On Mobile App Authentication / On Mobile App Action",
+    "Web-based signup form (WEB SEND FILE, On Web Connection)",
+    "Password hashing (pwhash field)"
+  ],
+  "historical_commentary": {
+    "text": "Obsolete as a product path: 4D discontinued the native 4D for iOS mobile app generator, so this specific Mobile Project workflow no longer applies; the underlying secure-signup/password-hashing and REST-filtering concepts remain valid but would now be implemented in a REST/ORDA web or PWA context instead.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D discontinued its native 4D for iOS/Android mobile app generation product line; developers today build mobile-friendly experiences with responsive ORDA/REST-based web apps (and increasingly Qodly Studio) rather than 4D's native mobile project generator shown here.",
+      "The security practices demonstrated — hashing passwords rather than storing them in plaintext, excluding sensitive tables/fields from REST exposure, filtering data by authenticated user — remain sound, current best practice regardless of the specific (now-retired) delivery mechanism."
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: A Technique to Rebuild a Data File (TN 20-01, 4D v18, January 2020) — repurposes 4D Server's mirroring/log-file infrastructure to rebuild a clean, compacted datafile from an existing one, with optional table exclusion.

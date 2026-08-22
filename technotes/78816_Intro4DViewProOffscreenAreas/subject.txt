@@ -1,0 +1,1 @@
+Tech Note: Intro to 4D View Pro Offscreen Areas (TN 21-20, 4D v19 R, November 2021) — introduces 4D View Pro's offscreen area API for creating, importing, editing, and exporting spreadsheet documents entirely in the background, with both class-based and formula-based event handling.

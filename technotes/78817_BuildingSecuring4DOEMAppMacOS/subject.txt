@@ -1,0 +1,1 @@
+Tech Note: Building and Securing 4D OEM Application on macOS (TN 21-21, 4D v19, November 2021) — walks through obtaining Apple Developer certificates, code-signing, and notarizing a 4D OEM application so it passes macOS Gatekeeper, alongside an overview of 4D's OEM licensing tiers.

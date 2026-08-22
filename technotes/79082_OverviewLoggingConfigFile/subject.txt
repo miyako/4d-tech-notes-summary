@@ -1,0 +1,1 @@
+Tech Note: Overview of Logging and Configuration File (TN 22-24, 4D v19 R, December 2022) — introduces the logConfig.json schema (available since 19 R3) for centrally configuring 4D Server request, debug, diagnostic, HTTP, mail-protocol, and ORDA logs, plus a per-scenario troubleshooting checklist pairing these logs with ProcDump, macOS crash logs, and the Info Reports component.

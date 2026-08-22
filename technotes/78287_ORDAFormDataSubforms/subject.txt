@@ -1,0 +1,1 @@
+Tech Note: Using ORDA with Form Data and Subforms (TN 19-12, 4D v17 R5, July 2019) — explains the object-based scope, event order, and update patterns for passing ORDA-driven form data between parent forms and subforms.

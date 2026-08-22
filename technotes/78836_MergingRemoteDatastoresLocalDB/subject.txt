@@ -1,0 +1,1 @@
+Tech Note: Merging Data from Remote Datastores into a Local Database (TN 21-22, 4D v19, December 2021) — uses ORDA's Open datastore command to pull and merge company data from two separately-hosted 4D Server databases (Spain, France) into a single local 'Europe' database, then visualizes the merged data with 4D View Pro.

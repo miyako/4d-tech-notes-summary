@@ -1,0 +1,20 @@
+{
+  "asset_id": 78653,
+  "title": "Tech Note: Managing Menu Bars Across Forms and Processes",
+  "technote_number": "21-03",
+  "year": 2021,
+  "published_date": "February 22, 2021",
+  "product": "4D",
+  "version": "18 R",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78653",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-03_ManagingMenuBars.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["SET MENU BAR", "Create menu / RELEASE MENU (menu bar references)", "SET/GET MENU ITEM PARAMETER and PROPERTY", "DISABLE/ENABLE MENU ITEM"],
+  "historical_commentary": {
+    "text": "Menu bar management via SET MENU BAR, Create menu references, and menu item parameters/properties remains 4D's current, unchanged mechanism for classic desktop application menus; nothing here has been deprecated, though this entire topic applies only to classic desktop 4D apps, not to web/ORDA-based UIs where menu bars are not the relevant UI paradigm.",
+    "status": "still_relevant",
+    "related_updates": ["No successor feature has replaced classic menu bar commands (SET MENU BAR, Create menu, DISABLE/ENABLE MENU ITEM) for desktop 4D applications", "The note's mention that Active Menu Bar form property is automatically enabled in Project mode forms reflects Project mode's now-default status; this remains true in current versions"]
+  }
+}

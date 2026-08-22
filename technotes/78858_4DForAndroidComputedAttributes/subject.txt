@@ -1,0 +1,1 @@
+Tech Note: 4D for Android: Computed Attributes and More (TN 22-01, 4D v19 R3, January 2022) — builds a schoolDB Android app using 4D for Android's Mobile Project editor, showcasing exposed computed attributes, custom data formatters, and authenticated data filtering.

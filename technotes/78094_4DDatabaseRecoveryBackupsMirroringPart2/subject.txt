@@ -1,0 +1,1 @@
+4D Database Recovery using Backups and Mirroring – Part II (TN 18-14, 4D v17, July 2018) — details how 4D mirroring works internally (warm standby, log shipping) and walks through the exact recovery process for restoring service from a mirror after the principal database is damaged.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 79033,
+  "title": "Tech Note: Associative Arrays (EN/FR)",
+  "technote_number": "22-19",
+  "year": 2022,
+  "published_date": "October 25, 2022",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=79033",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-19_AssociativeArrays_2.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Associative arrays (object/collection-based in-memory data structures)",
+    "4D performance/algorithm design"
+  ],
+  "historical_commentary": {
+    "text": "The core technique — using 4D's Object and Collection types as associative (key-value) in-memory structures — remains fully current and is widely used in modern 4D code, including as the backbone of ORDA entity/collection handling. No later 4D feature has deprecated or replaced this pattern, so despite the missing full text, the topic itself is safely assessed as still relevant today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Object/Collection-based associative arrays remain a standard, current 4D technique."
+    ]
+  }
+}

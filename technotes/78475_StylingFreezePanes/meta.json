@@ -1,0 +1,20 @@
+{
+  "asset_id": 78475,
+  "title": "Tech Note: Styling Freeze Panes",
+  "technote_number": "20-09",
+  "year": 2020,
+  "published_date": "May 26, 2020",
+  "product": "4D View Pro",
+  "version": "18 R2",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78475",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-09_StylingFreezePanes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D View Pro", "VP SET FROZEN PANES / VP Get frozen panes", "VP SET CELL STYLE", "VP Font to object / VP Object to font", "VP COLUMN AUTOFIT / VP ROW AUTOFIT"],
+  "historical_commentary": {
+    "text": "This note documents freeze-pane styling commands added in 4D View Pro v18R2, which remain part of the current 4D View Pro API; the technique is still valid, though View Pro has continued to gain features since, so newer built-in styling options may reduce the need for this level of manual scripting.",
+    "status": "still_relevant",
+    "related_updates": ["4D View Pro (based on SpreadJS/GrapeCity) has continued to expand its command set across 4D releases; VP SET FROZEN PANES, VP SET CELL STYLE, VP Get/Set default style remain current commands", "4D Write/View 'classic' plugins were long superseded — but this note is about 4D View Pro, which is itself the modern spreadsheet component, so it is not affected by that transition"]
+  }
+}

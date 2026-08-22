@@ -1,0 +1,20 @@
+{
+  "asset_id": 78435,
+  "title": "Tech Note: Let\u2019s Encrypt CERTBOT with a 4D Web Server",
+  "technote_number": "20-05",
+  "year": 2020,
+  "published_date": "March 25, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78435",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-05_LetsencryptCertbotWith4D.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["Certbot (Let's Encrypt)", "4D Web Server TLS (cert.pem / key.pem)", "Homebrew (macOS)", "Windows Subsystem for Linux / Ubuntu"],
+  "historical_commentary": {
+    "text": "This note replaced 4D's own aging ACME component with the official Certbot tool because the ACME protocol had changed; Certbot remains the standard, actively maintained way to obtain free Let's Encrypt certificates for a 4D web server today, so this guidance is still broadly applicable.",
+    "status": "still_relevant",
+    "related_updates": ["4D's own bundled 16-17/17-01 Let's Encrypt component was retired in favor of the official, externally-maintained Certbot tool described here, which is still the recommended external tool", "cert.pem/key.pem placement and HTTPS enabling in Database Settings remain the same in current 4D versions"]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 78873,
+  "title": "Tech Note: 4D REST API: Connecting 4D with Angular",
+  "technote_number": "22-04",
+  "year": 2022,
+  "published_date": "February 25, 2022",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=78873",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-04_RESTandAngular.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D REST API",
+    "Angular",
+    "CRUD via HTTP requests"
+  ],
+  "historical_commentary": {
+    "text": "The general approach (4D REST API as backend for an Angular SPA) is still valid and is 4D's standard modern web-integration pattern, though the full technical detail (specific Angular version, HttpClient code, exact REST endpoint configuration) cannot be verified since only the published abstract is available.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D REST (built on ORDA) remains 4D's standard mechanism for serving data to any modern SPA framework (Angular, React, Vue); this is still the recommended architecture today.",
+      "SOAP-based web services are legacy by comparison; REST + ORDA, as demonstrated here, is the modern standard 4D promotes for exactly this kind of frontend integration."
+    ]
+  }
+}

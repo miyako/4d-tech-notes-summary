@@ -1,0 +1,1 @@
+Application Signing with 4D (TN 18-15, 4D v17, September 2018) — a hands-on guide to obtaining signing certificates and code-signing 4D built applications on both macOS (Developer ID via Xcode/Apple Developer) and Windows (New-SelfSignedCertificate/signtool), including integration with BUILD APPLICATION.

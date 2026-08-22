@@ -1,0 +1,20 @@
+{
+  "asset_id": 78287,
+  "title": "Tech Note: Using ORDA with Form Data and Subforms",
+  "technote_number": "19-12",
+  "year": 2019,
+  "published_date": "July 19, 2019",
+  "product": "4D",
+  "version": "17 R5",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78287",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-12_ORDA_FormData_Subforms.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["ORDA", "Form object (Form.*)", "OBJECT SET SUBFORM", "EXECUTE METHOD IN SUBFORM", "CALL SUBFORM CONTAINER", "Collection-based list box"],
+  "historical_commentary": {
+    "text": "The ORDA-plus-Form-object pattern for parent/subform data flow is still the current, recommended approach in 4D and remains accurate. The note itself already documents that OBJECT SET SUBFORM became unnecessary starting v17R6, so readers should apply that later-version simplification rather than the workaround shown for pre-R6 versions.",
+    "status": "still_relevant",
+    "related_updates": ["OBJECT SET SUBFORM is no longer required since v17R6, as noted within the tech note itself — modern versions auto-update the listbox reference", "The object-oriented, ORDA-based form data model described remains 4D's current, actively recommended UI architecture"]
+  }
+}

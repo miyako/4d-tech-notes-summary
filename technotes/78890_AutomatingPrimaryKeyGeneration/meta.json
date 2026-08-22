@@ -1,0 +1,28 @@
+{
+  "asset_id": 78890,
+  "title": "Tech Note: Automating Primary Key Generation",
+  "technote_number": "22-05",
+  "year": 2022,
+  "published_date": "March 17, 2022",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78890",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-05_Automating-PK.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SQL engine (Begin SQL/End SQL)",
+    "System tables (_USER_TABLES, _USER_CONSTRAINTS, _USER_CONS_COLUMNS)",
+    "ALTER TABLE (ADD/MODIFY/DROP PRIMARY KEY)",
+    "AUTO_GENERATE (UUID) / AUTO_INCREMENT"
+  ],
+  "historical_commentary": {
+    "text": "Still relevant, and specifically useful for pre-v14-era or legacy databases being modernized: the SQL/system-table approach for bulk primary key detection and creation remains valid, though it's a workaround rather than a built-in bulk feature (4D's structure editor still lacks a bulk PK generator).",
+    "status": "still_relevant",
+    "related_updates": [
+      "Primary keys remain mandatory for full ORDA/REST functionality, so this kind of bulk-remediation tool remains useful when migrating older databases toward project mode/ORDA.",
+      "No new built-in 4D feature has since added bulk primary-key generation to the structure editor, so the SQL-based component approach described here is still a valid technique."
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "asset_id": 78577,
+  "title": "Tech Note: 4D REST API: Connecting 4D with ReactJS",
+  "technote_number": "20-20",
+  "year": 2020,
+  "published_date": "October 26, 2020",
+  "product": "4D Server",
+  "version": "18 R4",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78577",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-20_4DRESTwithReactJS.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D REST Server (v18)",
+    "On REST Authentication database method",
+    "CORS configuration",
+    "REST Dataclass API (entity/attribute filtering)",
+    "Entity Selection Class Functions callable via POST",
+    "ReactJS + fetch() + create-react-app",
+    "$filter query parameter"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's REST server essentially as it still works today: session-cookie login via On REST Authentication, dataclass/entity REST endpoints, and Entity Selection Class functions exposed as POST endpoints remain the current, standard way to expose 4D data to any JS frontend, so the architecture described here is still valid; only some ancillary tooling details (React's create-react-app scaffolding is now deprecated in favor of Vite, and $directory/login-style URLs may vary slightly across REST server versions) have shifted.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D REST server (dataclass endpoints, ORDA class functions as POST endpoints, $filter, $expand) is still 4D's current standard REST/ORDA API surface, largely unchanged in concept since v17-18",
+      "create-react-app (used to scaffold the React app in this note) was deprecated by the React team in 2023 in favor of Vite or framework-based tooling (Next.js, Remix); the React-side scaffolding steps are dated even though the 4D REST integration pattern is not",
+      "CORS/REST server configuration steps in the 4D Structure Settings remain essentially the same today"
+    ]
+  }
+}

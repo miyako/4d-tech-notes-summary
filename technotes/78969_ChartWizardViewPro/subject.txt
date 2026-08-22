@@ -1,0 +1,1 @@
+Tech Note: Chart Wizard with 4D View Pro (TN 22-13, 4D v19, July 2022) — builds a 3-step chart-creation wizard (chart type, table/fields, styling) on top of 4D View Pro by generating and executing SpreadJS JavaScript charting code, then exporting the result as a picture.

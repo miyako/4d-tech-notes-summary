@@ -1,0 +1,20 @@
+{
+  "asset_id": 78380,
+  "title": "Tech Note: Notarizing a Built 4D Application in v17 and v18",
+  "technote_number": "19-22",
+  "year": 2019,
+  "published_date": "December 30, 2019",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78380",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-22_Notarization.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["macOS Gatekeeper / Notarization", "xcrun altool (legacy)", "codesign / entitlements", "stapler"],
+  "historical_commentary": {
+    "text": "This note documents notarizing via the legacy 'xcrun altool' workflow that Apple has since deprecated and shut down in favor of 'xcrun notarytool'; the v17-specific manual entitlements/inside-out signing steps are still conceptually informative but the exact commands no longer work on current macOS/Xcode toolchains.",
+    "status": "partially_superseded",
+    "related_updates": ["Apple retired the altool notarization API; 'notarytool' is now mandatory, with different command syntax and keychain-profile-based credentials", "4D's 'Sign application' build feature (highlighted here as hassle-free starting in v18) remains the current recommended way to sign 4D apps prior to notarization"]
+  }
+}

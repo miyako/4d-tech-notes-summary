@@ -1,0 +1,20 @@
+{
+  "asset_id": 78094,
+  "title": "Tech Note: 4D Database Recovery using Backups and Mirroring – Part II",
+  "technote_number": "18-14",
+  "year": 2018,
+  "published_date": "July 20, 2018",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78094",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-14_DatabaseRecoveryOptionsP2.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D mirroring (warm standby)", "New log file", "Integrate Mirror Log File", "current log file (.journal)", "4D Server backup/recovery workflow"],
+  "historical_commentary": {
+    "text": "4D's core mirroring architecture (principal/mirror servers, warm-standby log shipping, New log file / Integrate Mirror Log File commands) is still fundamentally how 4D mirroring and disaster recovery work today; this remains a solid, still-accurate technical reference, though 4D has continued to refine mirror setup tooling and documentation (e.g., more guided mirror configuration in the Server admin interface) since 2018.",
+    "status": "still_relevant",
+    "related_updates": ["4D's log-shipping-based mirroring model (New log file / Integrate Mirror Log File) is unchanged in its fundamentals", "4D has added more built-in tooling/guidance for configuring and monitoring mirrors in later Server releases, but the manual recovery process described remains valid as a fallback/understanding of internals"]
+  }
+}

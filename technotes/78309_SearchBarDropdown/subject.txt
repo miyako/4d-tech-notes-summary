@@ -1,0 +1,1 @@
+Tech Note: Creating a Search Bar with Dropdown List (TN 19-14, 4D v17, August 2019) — walks through building an autocomplete-style search bar backed by QUERY and a selection-based dropdown list box, including keyboard navigation and scrolling.

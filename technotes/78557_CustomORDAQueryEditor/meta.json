@@ -1,0 +1,29 @@
+{
+  "asset_id": 78557,
+  "title": "Tech Note: Creating a Custom ORDA Query Editor",
+  "technote_number": "20-17",
+  "year": 2020,
+  "published_date": "September 30, 2020",
+  "product": "4D",
+  "version": "18 R",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78557",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-17_ORDA_Query_Editor.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ORDA dataClass.query()",
+    "Hierarchical list / dropdown popup form objects",
+    "Form.queryRows collection tracking",
+    "GET TABLE TITLES / GET FIELD TITLES",
+    "Entity selection to current selection conversion"
+  ],
+  "historical_commentary": {
+    "text": "Building a custom query UI on top of dataClass.query() is still exactly how developers construct dynamic ORDA-based query builders today, so this note's approach is fully current; the classic 4D Query Editor mentioned as the 'old way' is itself increasingly a legacy UI as ORDA-first development has become the default across the platform.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA's dataClass.query() remains the standard query mechanism; the technique of dynamically building query row UI and combining it into a single query string is still valid practice",
+      "The 'classic 4D Query Editor' this note contrasts against is itself now largely a legacy UI feature as ORDA became the default data-access layer"
+    ]
+  }
+}

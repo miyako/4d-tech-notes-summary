@@ -1,0 +1,1 @@
+Utilizing Info Report Component (TN 21-05, 4D v18, March 2021) — explains how to install, configure logging for, and analyze reports from the long-running community-maintained Info Report component used to troubleshoot memory leaks and performance issues over time.

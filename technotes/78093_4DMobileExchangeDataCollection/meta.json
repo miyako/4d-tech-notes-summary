@@ -1,0 +1,20 @@
+{
+  "asset_id": 78093,
+  "title": "Tech Note: 4D Mobile Exchange Data using Collection",
+  "technote_number": "18-13",
+  "year": 2018,
+  "published_date": "July 20, 2018",
+  "product": "4D",
+  "version": "16 R",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=78093",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-13_4DMobile_Collection.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Mobile", "Wakanda Enterprise", "collection <-> array conversion", "returnCollectionFrom4D/sendCollectionTo4D", "convertArrayToCollection/convertCollectionToArray"],
+  "historical_commentary": {
+    "text": "This demo shows basic bidirectional data exchange (collection <-> array, 4D <-> Wakanda Enterprise) for 4D Mobile clients; both the 4D Mobile product and Wakanda Enterprise Studio dependency are discontinued, making the demo environment obsolete, though converting between 4D arrays and ORDA collections remains a routinely used, still-valid 4D technique on its own.",
+    "status": "obsolete",
+    "related_updates": ["4D Mobile and its Wakanda Enterprise dependency were discontinued", "modern equivalent is exchanging JSON/collections with web/mobile clients via 4D's REST server, without Wakanda", "array<->collection conversion utility commands remain valid, commonly used 4D techniques independent of the mobile-specific context here"]
+  }
+}

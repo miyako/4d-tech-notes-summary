@@ -1,0 +1,1 @@
+Tech Note: ORDA and Forms (TN 20-16, 4D v18 R, September 2020) — a foundational tutorial demonstrating full CRUD (create, read, update, delete) against an ORDA entity selection bound to a list box, using .new(), .query(), .save(), and .drop().

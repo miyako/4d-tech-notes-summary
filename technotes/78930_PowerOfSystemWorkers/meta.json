@@ -1,0 +1,29 @@
+{
+  "asset_id": 78930,
+  "title": "Tech Note: The Power of System Workers",
+  "technote_number": "22-09",
+  "year": 2022,
+  "published_date": "May 19, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78930",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-09_SystemWorker.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "System Worker class",
+    "LAUNCH EXTERNAL PROCESS (LEP)",
+    "asynchronous callbacks",
+    "class store",
+    "Git command-line integration"
+  ],
+  "historical_commentary": {
+    "text": "Still fully current: the System Worker class remains 4D's recommended way to shell out to the command line asynchronously, and LEP is still supported but positioned as the legacy/synchronous option.",
+    "status": "still_relevant",
+    "related_updates": [
+      "System Worker (introduced v19R4) has since been joined/extended by further worker- and class-based concurrency primitives in 4D; the core async-callback pattern shown here is still the documented approach.",
+      "Project mode / classes are required for this feature, reinforcing 4D's move away from binary-mode procedural code."
+    ]
+  }
+}

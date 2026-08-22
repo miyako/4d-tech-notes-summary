@@ -1,0 +1,1 @@
+Tech Note: Getting Acquainted with Classes to Improve Development in 4D (TN 22-14, 4D v19 R, July 2022) — an introduction to user-defined 4D classes (project-mode only), covering class structure, creation, attributes/functions/getters-setters, built-in ORDA classes, and code-editor improvements that come with adopting object notation.

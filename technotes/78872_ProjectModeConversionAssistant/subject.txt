@@ -1,0 +1,1 @@
+Tech Note: Project Mode Conversion Assistant Component (TN 22-03, 4D v19, February 2022) — a component that parses the JSON conversion log produced when exporting a binary 4D structure to project mode, letting developers triage info/warning/error messages and jump directly to problem forms.

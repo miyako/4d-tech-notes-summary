@@ -1,0 +1,30 @@
+{
+  "asset_id": 79059,
+  "title": "Tech Note: A First Preview of the Updated Web Monitoring Component",
+  "technote_number": "22-22",
+  "year": 2022,
+  "published_date": "November 30, 2022",
+  "product": "4D",
+  "version": "19 R6",
+  "platform": "Mac & Win",
+  "author": "Cédric Gareau, Technical Services Engineer, 4D SAS & Marouane AIT SALAH, Technical Services Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=79059",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-22_WebMonitoring.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Web Monitoring component",
+    "WEB Server (multiple web servers, 18 R3+)",
+    "On Host Database Event",
+    "GET MEMORY STATISTICS",
+    "Get process activity",
+    "CALL WORKER",
+    "Shared objects (Storage)"
+  ],
+  "historical_commentary": {
+    "text": "As a sample/community component (not a core 4D product feature), this specific web-monitoring implementation is not guaranteed to be maintained long-term, and organizations should check whether a newer revision exists before adopting the 2022 version verbatim. That said, the underlying APIs it relies on — WEB Server, Get process activity, GET MEMORY STATISTICS, CALL WORKER, On Host Database Event — are all still current, actively used 4D Server administration and worker APIs, so the architectural approach remains valid even if this exact component build has since been superseded by further \"previews\" or by customers' own extensions.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Underlying APIs (WEB Server, Get process activity, CALL WORKER) remain current; check for a newer revision of the Web Monitoring component itself before deploying."
+    ]
+  }
+}

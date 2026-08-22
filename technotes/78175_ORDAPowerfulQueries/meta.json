@@ -1,0 +1,20 @@
+{
+  "asset_id": 78175,
+  "title": "Tech Note: Power your ORDA queries with query options",
+  "technote_number": "18-21",
+  "year": 2018,
+  "published_date": "December 28, 2018",
+  "product": "4D",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Xiang Liu, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78175",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-21_ORDAPowerfulQueries.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["dataClass.query()", "ORDA query string syntax", "attributePath dot notation", "NOT comparator", "IN operator with collections", "EXCEPT logic operator", "querySettings/queryPath/queryPlan"],
+  "historical_commentary": {
+    "text": "dataClass.query() and its query-string syntax (attributePath/comparator/value/logicalOperator, IN, NOT, dot-notation relations) remain the core, still-current way to query ORDA data classes in 4D today; this note's best practices around NOT, EXCEPT, and null-handling are still accurate and useful, though some 'undocumented' options mentioned may since have been formally documented as ORDA matured.",
+    "status": "still_relevant",
+    "related_updates": ["ORDA's query() syntax has remained stable and is 4D's standard modern query API, now fully documented including options this note called undocumented at the time", "classic QUERY/QUERY BY ATTRIBUTE commands still exist for non-ORDA/array-based code but ORDA query() is the recommended approach for entity-based data access"]
+  }
+}

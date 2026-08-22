@@ -1,0 +1,20 @@
+{
+  "asset_id": 78368,
+  "title": "Tech Note: Error Handling with Call Chains",
+  "technote_number": "19-21",
+  "year": 2019,
+  "published_date": "December 3, 2019",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78368",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-21_ErrorHandlingWithCallChains.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Get call chain", "GET LAST ERROR STACK", "JSON error logging", "custom error handler methods"],
+  "historical_commentary": {
+    "text": "The Get call chain command introduced around v17R6/v18 remains a current, actively used 4D API for building rich error handlers and diagnostic logging; this note's pattern of combining it with GET LAST ERROR STACK and JSON logging is still standard practice today.",
+    "status": "still_relevant",
+    "related_updates": ["Get call chain is still documented and supported in current 4D versions with no changes to its core behavior", "JSON-based structured error logging remains best practice; 4D has since added further error/exception handling capabilities (e.g., try/catch-style constructs in later versions) that can complement, not replace, this technique"]
+  }
+}

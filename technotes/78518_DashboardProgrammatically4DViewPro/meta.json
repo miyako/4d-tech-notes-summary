@@ -1,0 +1,31 @@
+{
+  "asset_id": 78518,
+  "title": "Tech Note: Create a Dashboard Programmatically in 4D View Pro",
+  "technote_number": "20-13",
+  "year": 2020,
+  "published_date": "July 27, 2020",
+  "product": "4D View Pro",
+  "version": "18 R2",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78518",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-13_DashboardWith4DVP.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "VP SET VALUE / VP SET VALUES",
+    "WA Evaluate JavaScript + SpreadJS charts API",
+    "VP SET DEFAULT STYLE / VP SET CELL STYLE",
+    "VP Export to object / VP IMPORT FROM OBJECT",
+    "VP SET FROZEN PANES",
+    "SpreadJS (GrapeCity) underlying 4D View Pro"
+  ],
+  "historical_commentary": {
+    "text": "4D View Pro, built on GrapeCity's SpreadJS, remains 4D's current spreadsheet component and successor to legacy 4D View, and the technique of reaching into the underlying SpreadJS JavaScript API via WA Evaluate JavaScript for charting/dashboard features that lack a dedicated 4D command is still the standard, necessary approach today, so this note remains fully relevant.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D View Pro (built on GrapeCity SpreadJS) is 4D's current, actively developed spreadsheet technology, successor to legacy 4D View",
+      "Dropping to raw SpreadJS JavaScript via WA Evaluate JavaScript for features (like charts) not exposed as native 4D VP commands remains a standard, still-necessary technique",
+      "4D has since added more native chart-related VP commands in some releases, so developers should check current documentation for whether a chart can now be created without the raw JavaScript bridge, but the underlying dashboard-priming technique (VP Export/Import to object) remains valid"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Setting Up a PIN Authentication System (TN 20-15, 4D v18, September 2020) — shows how to build a numeric-keypad PIN login screen backed by a "user" table storing hashed PINs, as an alternative or supplement to 4D's built-in password system.

@@ -1,0 +1,1 @@
+Tech Note: Deployment Options for a 4D Database (TN 22-08, 4D v19 R, April 2022) — surveys the three ways to run a 4D/4D Server database (user-executed app, Windows Service, headless mode) and their administration implications.

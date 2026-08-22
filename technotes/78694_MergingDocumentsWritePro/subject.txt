@@ -1,0 +1,1 @@
+Merging Documents In 4D Write Pro (TN 21-06, 4D v18 R6, April 2021) — explains the WP INSERT DOCUMENT command and 4D Write Pro range/target model for merging templates and documents while preserving styles, with five progressive demos.

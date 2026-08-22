@@ -1,0 +1,1 @@
+Manage 4D Mobile sessions with $info parameter in V17 (TN 19-04, 4D v17, February 2019) — demonstrates listing and terminating active 4D Mobile REST sessions from a project method-driven form.

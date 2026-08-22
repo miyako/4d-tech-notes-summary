@@ -1,0 +1,1 @@
+Tech Note: Native Webcam Support and Integration (TN 22-06, 4D v19 R3, March 2022) — implements live webcam video capture and photo snapshots inside a 4D Web Area using HTML5 getUserMedia, superseding 4D's older 2015 camera-integration approach.

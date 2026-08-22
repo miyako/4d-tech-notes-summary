@@ -1,0 +1,20 @@
+{
+  "asset_id": 78729,
+  "title": "Tech Note: Deep linking with 4D for iOS: implementation and deployment",
+  "technote_number": "21-10",
+  "year": 2021,
+  "published_date": "June 21, 2021",
+  "product": "4D for iOS",
+  "version": "18 R6",
+  "platform": "Mac & Win",
+  "author": "Chaima ELBHIOUI, Technical Support Engineer, 4D Morocco",
+  "page_url": "https://kb.4d.com/assetid=78729",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-10_4DforiOSDeeplinking.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D for iOS", "URI scheme deep linking", "Universal Links", "MobileAppServer.Action / MobileAppServer.WebHandler classes"],
+  "historical_commentary": {
+    "text": "4D for iOS, the native mobile-app-generation product this entire note is built on, has since been discontinued by 4D, making this deep-linking guidance obsolete along with the whole product line it depended on.",
+    "status": "obsolete",
+    "related_updates": ["4D for iOS (and the related 4D for Android generation) was discontinued as 4D shifted its mobile strategy toward Qodly, a separate low-code platform, and toward responsive ORDA/REST-based web apps accessible from mobile browsers", "Developers needing deep-linking-like behavior today would implement it at the web-app/PWA level (universal-link-style routing in a responsive ORDA/REST web front end) rather than through the retired native app generator described here"]
+  }
+}

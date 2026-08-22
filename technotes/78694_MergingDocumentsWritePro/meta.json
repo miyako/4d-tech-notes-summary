@@ -1,0 +1,20 @@
+{
+  "asset_id": 78694,
+  "title": "Tech Note: Merging Documents In 4D Write Pro",
+  "technote_number": "21-06",
+  "year": 2021,
+  "published_date": "April 29, 2021",
+  "product": "4D Write Pro",
+  "version": "18 R6",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78694",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-06_4DWPMerge.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["WP INSERT DOCUMENT", "4D Write Pro ranges (WP Selection range)", "WP New (temporary document creation)"],
+  "historical_commentary": {
+    "text": "WP INSERT DOCUMENT and the Write Pro range/target model described here remain 4D's current, fully supported document-merging mechanism; this is core, still-accurate 4D Write Pro API documentation rather than a technique that has been superseded.",
+    "status": "current",
+    "related_updates": ["No successor needed — WP INSERT DOCUMENT is still the standard command for merging 4D Write Pro documents/templates in current 4D versions", "4D Write Pro itself has continued to gain features since 2021, but the merge command and range/target model documented here remain unchanged"]
+  }
+}

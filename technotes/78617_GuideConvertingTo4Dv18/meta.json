@@ -1,0 +1,33 @@
+{
+  "asset_id": 78617,
+  "title": "Tech Note: Guide for Converting to 4Dv18 and Newer",
+  "technote_number": "20-24",
+  "year": 2020,
+  "published_date": "December 29, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78617",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-24_v18ConvertionGuide.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "64-bit-only architecture (v18 drops 32-bit)",
+    "ORDA primary key assistant",
+    "Unicode mode / object notation compatibility settings",
+    "Subtable-to-related-table migration",
+    "Obsolete command finder (_O_ prefixed commands)",
+    "PICT-to-PNG picture library conversion utility",
+    "4D View Pro / 4D Write Pro migration"
+  ],
+  "historical_commentary": {
+    "text": "This conversion guide documents a real, one-time historical transition (32-bit to 64-bit-only, deprecation of PICT images and subtables) that is now complete industry-wide; any database still needing this guide today would be extremely old and would also need to additionally cross the Design-Mode-to-Project-Mode transition and multiple ORDA/4D Write Pro/View Pro migrations not covered here.",
+    "status": "obsolete",
+    "related_updates": [
+      "32-bit vs 64-bit conversion is now moot; all supported 4D versions are 64-bit only and this has been true for years",
+      "PICT image format and subtables were already legacy at the time of writing and are essentially nonexistent in databases still viable to convert",
+      "4D View classic / 4D Write classic referenced as needing rewriting are now fully superseded by 4D View Pro / 4D Write Pro",
+      "Databases converting today would follow a much longer path also including binary-to-Project-mode conversion, which this note does not cover"
+    ]
+  }
+}

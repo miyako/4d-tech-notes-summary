@@ -1,0 +1,1 @@
+Tech Note: Custom File Drag and Drop Area (TN 19-18, 4D v17 R6, October 2019) — walks through building a native drag-and-drop file collection interface using form events and a collection-based list box.

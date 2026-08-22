@@ -1,0 +1,20 @@
+{
+  "asset_id": 78131,
+  "title": "Tech Note: 4D Mobile Exchange Records using Collection",
+  "technote_number": "18-17",
+  "year": 2018,
+  "published_date": "September 27, 2018",
+  "product": "4D Mobile",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=78131",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-17_4DMobileSelectionExchange.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Mobile", "Wakanda Enterprise", "entity selection to collection conversion", "collectionWithOption/collectionWithFilter", "entity locking over 4D Mobile", "timestamped collections"],
+  "historical_commentary": {
+    "text": "This demonstrates data exchange between 4D and Wakanda Enterprise (the JS backend underpinning 4D Mobile) using collections converted from entity selections; both 4D Mobile and Wakanda Enterprise Studio have been discontinued, making the demo's tooling obsolete, though the general concept of converting entity selections to/from collections for interchange with an external JS environment maps onto how ORDA-based REST/web integrations work today.",
+    "status": "obsolete",
+    "related_updates": ["4D Mobile product line and its dependency on Wakanda Enterprise Studio were discontinued", "modern equivalent: ORDA entity selections are exchanged with web/mobile clients via 4D's REST server and standard JSON, without any Wakanda dependency", "collection<->entitySelection conversion APIs (entitySelectionToCollection style patterns) remain conceptually valid in current ORDA usage even though the specific mobile integration shown is gone"]
+  }
+}

@@ -1,0 +1,1 @@
+4D Record Locking and ORDA Entity Locking (TN 18-22, 4D v17 R, December 2018) — contrasts classic pessimistic 4D record locking with the newer optimistic ORDA entity locking model, covering both APIs with practical examples.

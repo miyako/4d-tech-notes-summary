@@ -1,0 +1,1 @@
+A Look at The Features of 4D View Pro (TN 19-02, 4D View Pro v17 R, January 2019) — surveys 4D View Pro's list box integrations, area/toolbar, document structure, and range/formula APIs as of v17R4, positioning it as the 64-bit successor to legacy 4D View.

@@ -1,0 +1,20 @@
+{
+  "asset_id": 78310,
+  "title": "Tech Note: Custom User Login",
+  "technote_number": "19-15",
+  "year": 2019,
+  "published_date": "August 30, 2019",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78310",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-15_CustomUserLogin.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Password System", "CHANGE PASSWORD", "GET USER LIST", "Validate password", "CHANGE CURRENT USER", "Default User (Database Settings)"],
+  "historical_commentary": {
+    "text": "The classic 4D built-in Password/User/Group system and the default-user + custom-login-dialog pattern described here are still valid for native 4D client/server and standalone apps and remain fully functional in current 4D versions. However, for modern web/ORDA/REST applications, 4D now also offers separate authentication mechanisms (e.g., REST session/force-login options, and third-party/OAuth-based flows), so this note's scope should be understood as specific to the classic desktop/4D Remote login experience, not web app authentication.",
+    "status": "still_relevant",
+    "related_updates": ["Classic 4D Password System commands (CHANGE PASSWORD, GET USER LIST, Validate password, CHANGE CURRENT USER) are unchanged and still current", "For REST/web apps, 4D has since added additional authentication options (session-based REST auth, OAuth2 patterns) covered in separate later tech notes"]
+  }
+}

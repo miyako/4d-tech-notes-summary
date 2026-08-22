@@ -1,0 +1,1 @@
+Tech Note: Associative Arrays Part II (EN/FR) (TN 22-23, 4D v19, December 2022) — continues Part I with more advanced use cases for structuring in-memory data via associative-array techniques for readability, maintainability, and execution speed.

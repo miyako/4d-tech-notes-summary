@@ -1,0 +1,20 @@
+{
+  "asset_id": 78245,
+  "title": "Tech Note: Engaging Database Tests in your 4D Database",
+  "technote_number": "19-06",
+  "year": 2019,
+  "published_date": "April 24, 2019",
+  "product": "4D",
+  "version": "17 R3",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78245",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-06_EngagingDatabaseTests.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["SET DATABASE PARAMETER (User param value)", "GET DATABASE PARAMETER", "4D command line --user-param", "4D Link file (user_param)", "JSON Parse/JSON Stringify"],
+  "historical_commentary": {
+    "text": "The User parameter mechanism (SET/GET DATABASE PARAMETER with the User param value selector, plus --user-param on the command line and user_param in .4DLink files) introduced in v17R3 is still a current, valid 4D feature for automating test/mode selection at startup, and remains unchanged in modern 4D versions.",
+    "status": "still_relevant",
+    "related_updates": ["The User parameter database parameter feature remains current and unchanged since its v17R3 introduction", "4D has since also grown its testing ecosystem more broadly, but this specific startup-parameter mechanism is still a valid technique"]
+  }
+}

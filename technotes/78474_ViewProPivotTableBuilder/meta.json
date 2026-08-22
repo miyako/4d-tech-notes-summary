@@ -1,0 +1,20 @@
+{
+  "asset_id": 78474,
+  "title": "Tech Note: 4D View Pro Pivot Table Builder",
+  "technote_number": "20-08",
+  "year": 2020,
+  "published_date": "May 26, 2020",
+  "product": "4D View Pro",
+  "version": "18 R2",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78474",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-08_ViewProPivotTable.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D View Pro", "ORDA (dataclass entity selections)", "VP DELETE/INSERT COLUMNS", "Collections"],
+  "historical_commentary": {
+    "text": "This note builds a manual pivot-table tool using ORDA entity selections and v18R2 View Pro commands; it's still a technically valid approach today, though 4D View Pro has since gained a native, built-in Pivot Table feature that makes this hand-rolled implementation largely unnecessary for new projects.",
+    "status": "partially_superseded",
+    "related_updates": ["4D View Pro added a native Pivot Table / Pivot Panel feature in later versions, making custom pivot-builders like this one mostly a historical/educational exercise rather than the recommended approach", "ORDA (introduced ~v16-17) is now the standard, fully current way to query data, exactly as used here"]
+  }
+}

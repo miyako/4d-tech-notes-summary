@@ -1,0 +1,29 @@
+{
+  "asset_id": 78913,
+  "title": "Tech Note: Generating QR Codes in 4D (Revised on Aug 4th, 2023)",
+  "technote_number": "22-07",
+  "year": 2022,
+  "published_date": "April 26, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78913",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-07_GenerateQRCode_r2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Web Area",
+    "PROCESS 4D TAGS / 4DTEXT tags",
+    "qr-code-styling JavaScript library",
+    "WA EXECUTE JAVASCRIPT FUNCTION",
+    "BASE64 DECODE / BLOB TO PICTURE"
+  ],
+  "historical_commentary": {
+    "text": "Still fully valid: generating QR codes via an embedded web area and a JS library remains a standard, still-current 4D technique; only the specific third-party JS library choice might change over time.",
+    "status": "still_relevant",
+    "related_updates": [
+      "The web-area + PROCESS 4D TAGS + WA EXECUTE JAVASCRIPT FUNCTION pattern is unchanged in modern 4D and continues to be the recommended way to bridge 4D code and client-side JavaScript/HTML.",
+      "No native/built-in QR-generation command has since been added to 4D, so this JS-library-based technique remains necessary and current."
+    ]
+  }
+}

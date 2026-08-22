@@ -1,0 +1,1 @@
+Tech Note: 4D for Mobile: Object Field Management (TN 22-10, 4D Mobile v19 R, May 2022) — shows how to use 4D's object-attribute fields in generated iOS and Android mobile apps via a sample 'Nutrition coaching' diet-tracking application.

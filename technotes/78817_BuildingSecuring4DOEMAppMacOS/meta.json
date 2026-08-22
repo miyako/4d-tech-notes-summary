@@ -1,0 +1,28 @@
+{
+  "asset_id": 78817,
+  "title": "Tech Note: Building and Securing 4D OEM Application on macOS",
+  "technote_number": "21-21",
+  "year": 2021,
+  "published_date": "November 15, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Karim Meghraoui, Technical Services Engineer, 4D Morocco.",
+  "page_url": "https://kb.4d.com/assetid=78817",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-21_OEMApplication.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Apple Developer Program / Developer ID certificates",
+    "Code signing (Keychain Access / Xcode)",
+    "Apple Notarization",
+    "4D OEM licenses (4D Developer OEM, 4D OEM Desktop)"
+  ],
+  "historical_commentary": {
+    "text": "Partially superseded by time-bound specifics: the core requirement (sign + notarize any macOS app, including 4D OEM builds, to satisfy Gatekeeper) is still mandatory and unchanged in principle, but the exact tool versions referenced (macOS Big Sur, Xcode 12.5) are outdated, and Apple's notarization tooling has since moved from `altool`/Application Loader-based workflows to the modern `notarytool` (as covered in 4D's own later Tech Note on the updated notarization process).",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Apple deprecated altool-based notarization submission in November 2023 in favor of `xcrun notarytool`; a subsequent 4D Tech Note ('Updated Notarization Guide') documents the current notarytool-based workflow that developers should follow instead of the process implied here.",
+      "The specific OS/Xcode version requirements (Big Sur, Xcode 12.5) are long outdated; current macOS/Xcode/Apple Developer Portal UI flows differ in detail, though the underlying concepts (CSR, Developer ID Application cert, notarization) persist."
+    ]
+  }
+}

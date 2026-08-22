@@ -1,0 +1,29 @@
+{
+  "asset_id": 78858,
+  "title": "Tech Note: 4D for Android: Computed Attributes and More",
+  "technote_number": "22-01",
+  "year": 2022,
+  "published_date": "January 24, 2022",
+  "product": "4D",
+  "version": "19 R3",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78858",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-01_CumputedAttrib_4DforAndroid.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D for Android (4D Mobile app generator)",
+    "ORDA computed attributes (exposed getters)",
+    "Custom data formatters (manifest.json)",
+    "Mobile Project editor (Structure/Forms/Publishing sections)",
+    "On Mobile App Authentication"
+  ],
+  "historical_commentary": {
+    "text": "Largely obsolete as a product path: the 4D for Android / 4D Mobile app-generation product line covered here was discontinued by 4D, so this specific mobile-project-editor workflow no longer applies to current 4D versions, even though the underlying computed-attributes/ORDA concepts remain valid.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D discontinued the native 4D for iOS/Android mobile app generator product line; 4D's current mobile/web strategy centers on Qodly Studio and responsive ORDA/REST-based web apps rather than generating native Android/iOS apps from within 4D.",
+      "The computed-attributes technique itself (exposed getter functions on {Table}Entity classes) remains valid ORDA/4D syntax and is documented in the companion note (TN 22-02); only the Android-specific mobile-project tooling shown here is gone."
+    ]
+  }
+}

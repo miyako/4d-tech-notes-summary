@@ -1,0 +1,1 @@
+Tech Note: Managing Lists in Project Mode (TN 22-11, 4D v19 R, June 2022) — documents why SAVE LIST silently fails to persist changes in compiled/client-server project-mode apps (because lists now live in a read-only lists.json under Sources), and provides a table-backed loadList()/saveList() replacement that works in every mode.

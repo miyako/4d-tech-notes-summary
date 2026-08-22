@@ -1,0 +1,26 @@
+{
+  "asset_id": 78931,
+  "title": "Tech Note: 4D for Mobile: Object Field Management",
+  "technote_number": "22-10",
+  "year": 2022,
+  "published_date": "May 19, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=78931",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-10_MobileObjectFieldManagement.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Mobile (4D for iOS/Android app generation)",
+    "Object fields (attributes)",
+    "Sample 'Nutrition coaching' app"
+  ],
+  "historical_commentary": {
+    "text": "4D's native mobile app-generation product line (4D for iOS / 4D Mobile) that this note depends on was discontinued; 4D subsequently redirected its mobile/low-code strategy toward Qodly Studio and responsive, ORDA/REST-based web applications rather than generating native iOS/Android binaries directly from a 4D structure. As a result, this note's specific mobile-app-generation workflow is no longer applicable to current 4D development, even though the general underlying concept — using flexible object-attribute fields to model per-record varying data — remains a sound and current data-modeling technique in 4D/ORDA generally, just not via the discontinued mobile pipeline described here.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Mobile / 4D for iOS native app-generation product line was discontinued; Qodly Studio and ORDA/REST-based responsive web apps are 4D's current mobile strategy."
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: 4D View Pro Pivot Table Builder (TN 20-08, 4D View Pro v18 R2, May 2020) — walks through hand-building a basic pivot table tool on top of ORDA and new v18R2 View Pro commands.

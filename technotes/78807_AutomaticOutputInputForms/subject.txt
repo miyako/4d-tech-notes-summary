@@ -1,0 +1,1 @@
+Tech Note: Automatic Output and Input Forms (TN 21-19, 4D v19, October 2021) — provides an autoForms component that restores binary mode's convenience of automatically generated input/output forms for any table, built with dynamic listboxes and modern var-based, ORDA-flavored 4D code.

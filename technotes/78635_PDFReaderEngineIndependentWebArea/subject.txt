@@ -1,0 +1,1 @@
+Tech Note: 4D PDF Reader Using Engine-Independent Web Area (TN 21-02, 4D v18 R4, January 2021) — shows how to rasterize a PDF into PNGs with the open-source Xpdf pdftopng tool and render them as paginated HTML inside a Web Area, avoiding dependence on the OS's web-rendering-engine PDF plugin.

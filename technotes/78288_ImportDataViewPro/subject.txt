@@ -1,0 +1,1 @@
+Tech Note: Importing Data to 4D View Pro (TN 19-13, 4D v17 R5, July 2019) — shows how to import an entity selection into a 4D View Pro spreadsheet area cell-by-cell, including sizing the sheet via JavaScript when needed.

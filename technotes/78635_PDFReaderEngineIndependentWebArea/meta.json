@@ -1,0 +1,32 @@
+{
+  "asset_id": 78635,
+  "title": "Tech Note: 4D PDF Reader Using Engine-Independent Web Area",
+  "technote_number": "21-02",
+  "year": 2021,
+  "published_date": "January 25, 2021",
+  "product": "4D",
+  "version": "18 R4",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78635",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-02_PDFReader.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "LAUNCH EXTERNAL PROCESS",
+    "Xpdf (pdftopng, 3rd-party CLI tool)",
+    "PROCESS 4D TAGS / 4D template tags",
+    "WA OPEN URL",
+    "Web Area (classic engine-dependent)",
+    "List box with Picture array (thumbnails)",
+    "4D component architecture"
+  ],
+  "historical_commentary": {
+    "text": "The core technique (shelling out to an external CLI tool via LAUNCH EXTERNAL PROCESS, then rendering generated assets as HTML in a Web Area) is still technically valid, but it is a workaround from an era before 4D's Web Area had reliable native PDF viewing; today's Chromium-based Web Area (post v19/v20) can display PDFs natively in most cases, making this rasterize-to-PNG approach largely unnecessary for simple viewing needs.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's Web Area engine moved to a bundled Chromium engine in later versions (v19+), which natively renders PDFs without needing engine-specific plugins",
+      "The classic 'engine-dependent' problem (relying on system webkit/IE PDF plugins) that motivated this note is largely moot since 4D standardized on Chromium",
+      "The general pattern of using LAUNCH EXTERNAL PROCESS + PROCESS 4D TAGS templating is still valid 4D technique, though 4D now favors classes/ORDA and native file APIs (4D.File) for such glue code"
+    ]
+  }
+}

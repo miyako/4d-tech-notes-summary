@@ -1,0 +1,1 @@
+Tech Note: Implementing Singleton Classes with Static Member Functions in 4D (TN 20-23, 4D v18 R3, December 2020) — proposes a workaround for simulating static/singleton class members in 4D using shared objects/collections and a reference-counting concurrency scheme, illustrated with a File-locking use case.

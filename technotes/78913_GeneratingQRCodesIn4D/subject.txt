@@ -1,0 +1,1 @@
+Tech Note: Generating QR Codes in 4D (TN 22-07, 4D v19 R, April 2022) — shows two ways to generate and render QR codes in a 4D web area using the qr-code-styling JavaScript library.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 78952,
+  "title": "Tech Note: Transform a Utility Form into One Executable Method",
+  "technote_number": "22-12",
+  "year": 2022,
+  "published_date": "June 21, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78952",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-12_FormDef2Method.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Project mode macros (Macros v2)",
+    "codeText_fromObject",
+    "meth_mergeObjectFormMethods",
+    "Open form window / DIALOG",
+    "Form definition objects"
+  ],
+  "historical_commentary": {
+    "text": "This is a niche but still-valid technique for anyone needing to package and share a self-contained utility dialog as a single file; nothing about project-mode forms, macros, or the Open form window/DIALOG commands referenced here has been deprecated. It remains a specialized trick rather than a mainstream workflow, and most teams today would more likely share reusable UI via a proper 4D component or shared project rather than a single consolidated method, but the underlying technique described still works as documented.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Still technically valid; for larger-scale reuse, most teams today would prefer packaging shared UI as a proper 4D component rather than a single consolidated method."
+    ]
+  }
+}

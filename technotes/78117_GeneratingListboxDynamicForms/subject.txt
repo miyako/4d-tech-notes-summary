@@ -1,0 +1,1 @@
+Generating a Listbox using Dynamic forms (TN 18-16, 4D v17, September 2018) — compares conventional form-editor list box setup against building the same list box entirely from a JSON Dynamic Form definition, across all four data source types.

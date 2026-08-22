@@ -1,0 +1,1 @@
+Tech Note: Saving and Loading Page Setups via JSON (TN 20-10, 4D v18, June 2020) — demonstrates combining the deprecated _O_PAGE SETUP command with GET/SET PRINT OPTION and JSON to persist per-form print settings outside the form context.

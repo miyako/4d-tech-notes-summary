@@ -1,0 +1,1 @@
+Tech Note: The Power of 4D for iOS (TN 20-02, 4D for iOS v18, January 2020) — a walkthrough of building a native iOS CRUD app ("WorkPin") from a 4D database using 4D's now-discontinued 4D for iOS mobile project generator.

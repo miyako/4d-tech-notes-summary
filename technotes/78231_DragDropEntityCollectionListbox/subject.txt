@@ -1,0 +1,1 @@
+Tech Note: Implementing Drag-and-Drop with Entity/Collection Listboxes (TN 19-05, 4D v17 R, March 2019) — compares entity-selection and collection list box data sources and shows drag-and-drop add/remove/insert/swap implementations for each.

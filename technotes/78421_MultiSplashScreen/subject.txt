@@ -1,0 +1,1 @@
+Tech Note: Multi-Splash Screen (TN 20-03, 4D v18, February 2020) — a DIY technique for randomly displaying one of several developer-selected splash images (including animated GIFs) at application startup.

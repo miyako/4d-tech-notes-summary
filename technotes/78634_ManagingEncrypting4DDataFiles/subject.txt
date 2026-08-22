@@ -1,0 +1,1 @@
+Tech Note: Managing and Encrypting 4D Data Files (TN 21-01, 4D v18, January 2021) — explains the 4D .4DD data file's structure and placement, and walks through 4D v18's new AES/SHA-256 datafile encryption feature via the MSC UI and programmatic commands.

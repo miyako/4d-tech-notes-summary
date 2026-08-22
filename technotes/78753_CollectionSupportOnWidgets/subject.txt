@@ -1,0 +1,1 @@
+Collection Support on Popup Dropdown List, Combo Box, and Tab Control (TN 21-12, 4D v19, July 2021) — introduces the v19 object/collection-based data source for these three form widgets, contrasted with the classic array-based approach, using values/index/currentValue properties.

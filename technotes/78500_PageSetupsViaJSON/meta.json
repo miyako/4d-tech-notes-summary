@@ -1,0 +1,20 @@
+{
+  "asset_id": 78500,
+  "title": "Tech Note: Saving and Loading Page Setups via JSON",
+  "technote_number": "20-10",
+  "year": 2020,
+  "published_date": "June 29, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78500",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-10_Page_Setups_via_JSON.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["_O_PAGE SETUP (deprecated command)", "GET PRINT OPTION / SET PRINT OPTION", "JSON Stringify / JSON Parse", "Print form"],
+  "historical_commentary": {
+    "text": "This note explicitly relies on the deprecated command _O_PAGE SETUP because, at the time, it was the only way to retrieve a form's print settings outside the form's own context; it still works today for classic forms but is a legacy technique for an increasingly legacy printing model (classic 4D forms with GDI/QuickDraw-style print settings).",
+    "status": "partially_superseded",
+    "related_updates": ["_O_PAGE SETUP is documented as deprecated in 4D's command reference and has no direct modern replacement outside form context; new development favors handling print/export via 4D Write Pro/4D View Pro or PDF generation commands", "Classic form-based printing (GET/SET PRINT OPTION) is still supported in 4D but is not the direction of newer form/report technology (Qodly forms, ORDA-based reporting, 4D Write Pro/View Pro documents)"]
+  }
+}

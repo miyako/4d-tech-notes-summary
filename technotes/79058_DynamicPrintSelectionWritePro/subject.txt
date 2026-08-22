@@ -1,0 +1,1 @@
+Tech Note: Dynamic Print Selection Using 4D Write Pro (TN 22-21, 4D Write Pro v19 R7, November 2022) — reimplements the classic list-form "print selection" report layout as a data-driven 4D Write Pro document, and packages the technique into a reusable apiWPPrintSelection/apiWPSetHeader/apiWPSetFooter API.

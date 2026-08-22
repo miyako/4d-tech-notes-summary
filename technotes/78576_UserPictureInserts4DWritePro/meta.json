@@ -1,0 +1,30 @@
+{
+  "asset_id": 78576,
+  "title": "Tech Note: Handling User Picture Inserts Into 4D Write Pro",
+  "technote_number": "20-19",
+  "year": 2020,
+  "published_date": "October 26, 2020",
+  "product": "4D Write Pro",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78576",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-19_4DWPUserPict.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Write Pro (background, in-line, anchored pictures)",
+    "WP SET/GET ATTRIBUTES",
+    "WP INSERT PICTURE / WP Add picture",
+    "On Drop / On Before Keystroke / On After Edit form events",
+    "Pasteboard command theme",
+    "wk background/anchor attribute set"
+  ],
+  "historical_commentary": {
+    "text": "4D Write Pro remains 4D's current, actively developed word-processing engine (the successor to legacy 4D Write), so the picture model (background/in-line/anchored) and attribute-based API (WP SET ATTRIBUTES, WP INSERT PICTURE, WP Add picture) described here are still fully current; the drag/drop and paste handling techniques via On Drop and On Before Keystroke events are workaround-style solutions that remain necessary since 4D Write Pro still lacks a native 'on paste' event.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D Write Pro is the modern, ongoing successor to classic 4D Write and continues to be actively enhanced; this note's API usage is current",
+      "No native 'On Paste' event has been added as of the note's writing; the On Before Keystroke workaround pattern shown here is still the documented approach unless a more direct paste event was added in a later release"
+    ]
+  }
+}

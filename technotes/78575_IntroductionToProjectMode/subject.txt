@@ -1,0 +1,1 @@
+Tech Note: Introduction to Project Mode (TN 20-18, 4D v17 R, October 2020) — an early overview of 4D's then-new Project mode architecture, explaining how converting a binary database exposes its code, forms, tables, users, and menus as plain-text/JSON files suitable for source control.

@@ -1,0 +1,1 @@
+Tech Note: Creating a Custom ORDA Query Editor (TN 20-17, 4D v18 R, September 2020) — walks through building a form-based, dynamic multi-row query builder UI that assembles user selections into a dataClass.query() call, replacing the classic 4D Query Editor's non-ORDA behavior.

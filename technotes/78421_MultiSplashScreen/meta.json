@@ -1,0 +1,20 @@
+{
+  "asset_id": 78421,
+  "title": "Tech Note: Multi-Splash Screen",
+  "technote_number": "20-03",
+  "year": 2020,
+  "published_date": "February 26, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78421",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-03_MultiSplashScreen.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Picture Library", "On Startup database method", "JSON persistence", "Web Area (for GIF splash)"],
+  "historical_commentary": {
+    "text": "This is a classic-forms UI recipe (picture library, variable objects, custom splash form) that still works today in 4D but is a manual DIY pattern; nothing about it has been deprecated, though it predates and is unrelated to newer Qodly-based UI approaches.",
+    "status": "still_relevant",
+    "related_updates": ["Picture Library, On Startup, and JSON-based settings persistence are all still fully current 4D techniques with no replacement needed", "No built-in multi-splash-screen feature has since been added to 4D, so this DIY approach remains the way to achieve this effect"]
+  }
+}

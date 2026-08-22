@@ -1,0 +1,29 @@
+{
+  "asset_id": 79082,
+  "title": "Tech Note: Overview of Logging and Configuration File",
+  "technote_number": "22-24",
+  "year": 2022,
+  "published_date": "December 28, 2022",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79082",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-24_LogConfiguration.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "logConfig.json schema",
+    "SET DATABASE PARAMETER",
+    "ProcDump (Windows)",
+    "macOS DiagnosticReports crash logs",
+    "Info Reports component",
+    "requestLogs / debugLogs / diagnosticLogs / httpDebugLogs / ORDALogs"
+  ],
+  "historical_commentary": {
+    "text": "The logConfig.json mechanism described here is a durable, still-current feature of 4D Server administration; there has been no successor mechanism, and JSON-driven configuration remains squarely in line with 4D's broader move toward JSON/object-based configuration everywhere (settings files, ORDA, ROLES, ORDALogs, etc.). The specific per-scenario recommendations (ProcDump, macOS crash logs, Info Reports) also remain standard 4D technical-support practice as of this writing.",
+    "status": "current",
+    "related_updates": [
+      "Still fully valid — no major changes to the logConfig.json schema or workflow since 19 R3."
+    ]
+  }
+}

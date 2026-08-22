@@ -1,0 +1,31 @@
+{
+  "asset_id": 78615,
+  "title": "Tech Note: Targeted Verification of Data",
+  "technote_number": "20-22",
+  "year": 2020,
+  "published_date": "December 29, 2020",
+  "product": "4D",
+  "version": "18 R",
+  "platform": "Mac & Win",
+  "author": "Tim Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78615",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-22_TargetedDataVerification.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Maintenance Security Center (MSC) Verify tab",
+    "4D Server Administration Window Maintenance tab",
+    "VERIFY DATA FILE / VERIFY CURRENT DATA FILE commands",
+    "Callback methods for verification events",
+    "SELECTION TO ARRAY error-triggered table scanning",
+    "GET LAST ERROR STACK",
+    "JSON Stringify for verification reports"
+  ],
+  "historical_commentary": {
+    "text": "Programmatic, targeted data-file verification via VERIFY CURRENT DATA FILE with a callback is still a current and fully valid 4D technique for building custom health-check tooling, since 4D has not replaced this command or the MSC/Admin Window verification UI; the component patterns shown (table-subset checks, JSON-based error logs) remain directly applicable today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "VERIFY DATA FILE / VERIFY CURRENT DATA FILE and the MSC Verify tab remain the standard data integrity tools in current 4D versions, unchanged in core approach",
+      "Modern 4D code would likely use ORDA-oriented object/collection handling (as already shown here) rather than any older array-heavy techniques, but the core commands and callback pattern are still current"
+    ]
+  }
+}

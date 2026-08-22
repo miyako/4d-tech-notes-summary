@@ -1,0 +1,20 @@
+{
+  "asset_id": 78501,
+  "title": "Tech Note: Publishing a 4D Component on its dedicated Web Server",
+  "technote_number": "20-11",
+  "year": 2020,
+  "published_date": "June 29, 2020",
+  "product": "4D",
+  "version": "18 R3",
+  "platform": "Mac & Win",
+  "author": "Karim Meghraoui, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78501",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-11_PublishWebFromComponent.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["WEB Server command", "4D components", "4D Web Server / HTTP Server", "On Host Database Event"],
+  "historical_commentary": {
+    "text": "The WEB Server object/command family introduced in v18R3 to give components their own independent web server is still the current architecture in 4D today; this remains a valid, supported technique for building modular component-based web services.",
+    "status": "still_relevant",
+    "related_updates": ["WEB Server, WEB Server list and related object-based web server commands remain part of the current 4D language reference with no deprecation", "Component distribution model (interpreted .4dbase in Components folder) is unchanged since v18, though 4D also now supports compiled components/packages in later versions"]
+  }
+}

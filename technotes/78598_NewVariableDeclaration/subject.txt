@@ -1,0 +1,1 @@
+Tech Note: New Variable Declaration (TN 20-21, 4D v18 R4, November 2020) — introduces the new 'var' keyword syntax for declaring typed variables and class-referenced objects, and provides a conversion component to migrate old Compiler-theme declarations to it.

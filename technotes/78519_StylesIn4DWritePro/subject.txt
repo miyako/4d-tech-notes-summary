@@ -1,0 +1,1 @@
+Tech Note: Applying and Managing Styles in 4D Write Pro (TN 20-14, 4D Write Pro v18 R3, July 2020) — explains 4D Write Pro's document/element/range object model, how to apply styles via WP SET/GET ATTRIBUTES or object notation, and how to create reusable character/paragraph style sheets.

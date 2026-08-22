@@ -1,0 +1,20 @@
+{
+  "asset_id": 78676,
+  "title": "Tech Note: Utilizing Info Report Component",
+  "technote_number": "21-05",
+  "year": 2021,
+  "published_date": "March 29, 2021",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78676",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-05_Uitilizing_InfoReport.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Info Report component (TAOW)", "aa4D_NP_* component methods", "Execute on Server attribute", "Get database parameter"],
+  "historical_commentary": {
+    "text": "The 4D Info Report component remains a real, actively maintained third-party/community component available on TAOW and is still a commonly recommended first-step diagnostic tool for troubleshooting long-running 4D database issues; the technique described is still applicable, contingent on downloading the current version matching one's 4D release.",
+    "status": "still_relevant",
+    "related_updates": ["The info report component (maintained by Thomas Schlumberger, distributed via TAOW) continues to be updated for newer 4D versions and remains a go-to lightweight monitoring tool", "No native 4D replacement has subsumed this component's functionality; developers still install/configure it the same way described in this note for the appropriate 4D version"]
+  }
+}

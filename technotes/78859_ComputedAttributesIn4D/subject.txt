@@ -1,0 +1,1 @@
+Tech Note: Computed Attributes in 4D (TN 22-02, 4D v19 R3, January 2022) — explains ORDA and 4D classes as background, then shows how to define get/set/query/orderBy functions on a {Table}Entity class to create computed attributes.

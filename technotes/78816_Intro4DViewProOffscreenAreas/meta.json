@@ -1,0 +1,28 @@
+{
+  "asset_id": 78816,
+  "title": "Tech Note: Intro to 4D View Pro Offscreen Areas",
+  "technote_number": "21-20",
+  "year": 2021,
+  "published_date": "November 15, 2021",
+  "product": "4D",
+  "version": "19 R",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78816",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-20_VPOffscreenAreas.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D View Pro (VP) offscreen areas",
+    "VP Run offscreen area",
+    "VP NEW DOCUMENT / VP IMPORT DOCUMENT / VP EXPORT DOCUMENT",
+    "Class-based and formula-based onEvent handlers"
+  ],
+  "historical_commentary": {
+    "text": "Still fully current: 4D View Pro offscreen areas remain the standard way to process spreadsheet documents headlessly in 4D, and the API and patterns described (VP Run offscreen area, onEvent handling, class vs. formula callback style) are unchanged in modern 4D.",
+    "status": "current",
+    "related_updates": [
+      "4D View Pro itself has long since superseded classic 4D View as the spreadsheet/reporting component in 4D, and offscreen areas remain the recommended technique for background/headless spreadsheet processing (e.g., generating reports on a server with no UI).",
+      "No successor mechanism has replaced VP offscreen areas since this note; they remain documented and used exactly as described."
+    ]
+  }
+}

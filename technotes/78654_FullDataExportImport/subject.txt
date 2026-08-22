@@ -1,0 +1,1 @@
+Full Data Export and Import (TN 21-04, 4D v18, February 2021) — a reusable component method that wraps 4D's single-table EXPORT DATA/IMPORT DATA commands into a full-database export and reimport routine, choosing binary or XML text format at runtime.

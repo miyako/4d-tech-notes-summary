@@ -1,0 +1,28 @@
+{
+  "asset_id": 79012,
+  "title": "Tech Note: Guide to Deploying Across Platforms",
+  "technote_number": "22-18",
+  "year": 2022,
+  "published_date": "September 26, 2022",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=79012",
+  "download_url": "https://kb.4d.com/DLTN/TN/2022/22-18_DeplyingAcrossPlatforms.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server / 4D Volume Desktop merged deployment",
+    "Automatic client update (.4darchive)",
+    "Apple Silicon (M1) vs Intel builds & Rosetta",
+    "Project mode compilation targets (All processors)",
+    "BUILD APPLICATION / buildApp.4DSettings"
+  ],
+  "historical_commentary": {
+    "text": "The cross-OS deployment mechanics (build-per-platform, .4darchive-based automatic updates) remain current 4D practice, but the Apple Silicon/Rosetta-specific guidance is a transitional-era concern that is steadily becoming less relevant: Intel Macs are increasingly rare in the field, 4D's project-mode 'All processors' universal builds have matured, and the industry-wide Intel-to-Apple-Silicon migration that motivated much of this note is now largely complete. Developers deploying today are far more likely to be dealing purely with Apple Silicon Macs and can often skip the Rosetta-specific steps entirely, though the Windows-server-to-Mac-client Compiled Database folder requirement may still apply for organizations building exclusively on Windows.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Intel Mac usage has declined sharply since 2022; Rosetta-specific guidance is increasingly a legacy concern, though cross-platform build/update mechanics remain valid."
+    ]
+  }
+}

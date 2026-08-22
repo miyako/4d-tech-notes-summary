@@ -1,0 +1,20 @@
+{
+  "asset_id": 78711,
+  "title": "Tech Note: Enrich UX and UI with Unicode Special Characters",
+  "technote_number": "21-08",
+  "year": 2021,
+  "published_date": "May 25, 2021",
+  "product": "4D",
+  "version": "18 R6",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78711",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-08_EnrichUXwithUnicode.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Unicode/Emoji characters", "Char command", "ST Get plain text (multi-style spans)", "SVG_ commands (character-to-picture)"],
+  "historical_commentary": {
+    "text": "Unicode/emoji handling in 4D via Char, multi-style spans, and Listbox/button icon techniques remains fully valid today; this is a UI craftsmanship how-to with no dependency on any deprecated 4D feature.",
+    "status": "still_relevant",
+    "related_updates": ["No 4D feature used here has been deprecated — Char, multi-style text spans, and the SVG_ plugin/component commands for converting characters to pictures are all still available", "Cross-platform font rendering differences for symbols/emoji described in the note are an OS-level reality that still applies today, independent of 4D version"]
+  }
+}

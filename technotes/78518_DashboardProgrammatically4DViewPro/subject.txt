@@ -1,0 +1,1 @@
+Tech Note: Create a Dashboard Programmatically in 4D View Pro (TN 20-13, 4D View Pro v18 R2, July 2020) — demonstrates turning a 4D View Pro spreadsheet area into a live, read-only dashboard by loading data, adding a SpreadJS-based chart via JavaScript, applying VP styling commands, and stripping away interactive spreadsheet UI.

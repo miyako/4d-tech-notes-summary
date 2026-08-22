@@ -1,0 +1,20 @@
+{
+  "asset_id": 78151,
+  "title": "Tech Note: Introduction to Using Collections and Entity Selections in List Boxes",
+  "technote_number": "18-19",
+  "year": 2018,
+  "published_date": "October 31, 2018",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78151",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-19_4DCollectionEntityLB.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D collections", "ORDA entity selections", "list box Data Source: Collection or entity selection", "Datastore/DataClass/Entity object model", "list box column/row APIs"],
+  "historical_commentary": {
+    "text": "Collection- and entity-selection-backed list boxes remain a core, still-current 4D form-building technique; ORDA's Datastore/DataClass/entitySelection object model described here is exactly how ORDA is still structured today, so this note's fundamentals have aged very well.",
+    "status": "still_relevant",
+    "related_updates": ["list boxes bound to collections/entity selections are still the recommended modern approach, largely unchanged since v17", "ORDA's core object model (ds -> DataClass -> entitySelection -> entity) is unchanged and remains foundational to 4D development"]
+  }
+}

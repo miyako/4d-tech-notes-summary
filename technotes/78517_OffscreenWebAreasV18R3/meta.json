@@ -1,0 +1,30 @@
+{
+  "asset_id": 78517,
+  "title": "Tech Note: Offscreen Web Areas in v18 R3",
+  "technote_number": "20-12",
+  "year": 2020,
+  "published_date": "July 27, 2020",
+  "product": "4D",
+  "version": "18 R3",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78517",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-12_OffscreenWebAreas18R3.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "WA Run offscreen area (new in v18 R3)",
+    "Formula-based onEvent callback (On Load/Unload/On End URL Loading/On URL Loading Error)",
+    "WA Evaluate JavaScript",
+    "WA GET LAST URL ERROR",
+    "Headless web page scraping/automation"
+  ],
+  "historical_commentary": {
+    "text": "WA Run offscreen area is a still-current, actively supported 4D command for headless web automation/scraping introduced in v18R3, and this pattern (in-memory web area, formula callback, JavaScript evaluation) remains fully valid; it has become especially useful as 4D's Web Area engine has since moved to Chromium, giving offscreen areas more modern and consistent JS/DOM behavior than at the time of writing.",
+    "status": "current",
+    "related_updates": [
+      "WA Run offscreen area remains a current, supported 4D command for headless web page processing/scraping, unchanged in core design since v18R3",
+      "4D's Web Area engine (including offscreen areas) later moved to a bundled Chromium engine, improving JavaScript/DOM consistency versus the engine available at the time of this note",
+      "The Formula-based onEvent callback pattern shown is still the standard way to handle Offscreen Web Area lifecycle events today"
+    ]
+  }
+}

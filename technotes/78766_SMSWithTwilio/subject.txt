@@ -1,0 +1,1 @@
+Sending & Receiving SMS in 4D with Twilio (TN 21-14, 4D v19, August 2021) — a walkthrough of integrating Twilio's SMS API into a 4D application for two-factor authentication, appointment reminders, and inbound-reply handling via the 4D web server.

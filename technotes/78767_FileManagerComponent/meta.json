@@ -1,0 +1,20 @@
+{
+  "asset_id": 78767,
+  "title": "Tech Note: Component for Managing Server Files from 4D Remote (R2) - Revised 2/24/2022",
+  "technote_number": "21-15",
+  "year": 2021,
+  "published_date": "August 26, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri, Director of Technical Services, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78767",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-15_FileManagerComponent_2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Execute on Server method attribute", "Collection-based Listbox", "Folder/File classes", "4D component architecture"],
+  "historical_commentary": {
+    "text": "The core technique — using the Execute on Server method property to run file operations on the server and a component to package the UI — remains a valid and still-used 4D pattern for remote file management; this is a modernization of a 2015 tech note (15-07) rather than a fundamentally new approach.",
+    "status": "still_relevant",
+    "related_updates": ["The underlying Execute on Server attribute and component packaging model are unchanged in current 4D versions", "The collection-based Listbox and Folder/File object-based file system classes used for the 2021 rewrite reflect the ORDA-era, object/collection-first style that continues to be 4D's recommended approach over legacy arrays"]
+  }
+}

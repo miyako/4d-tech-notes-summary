@@ -1,0 +1,1 @@
+Processing Write Pro documents (faceless) (TN 19-01, 4D Write Pro v17 R, January 2019) — shows how to evaluate embedded expressions in a 4D Write Pro document programmatically, without any form UI, for batch printing/emailing workflows.

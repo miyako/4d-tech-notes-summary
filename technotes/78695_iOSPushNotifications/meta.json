@@ -1,0 +1,20 @@
+{
+  "asset_id": 78695,
+  "title": "Tech Note: 4D for iOS: Push Notifications and Beyond",
+  "technote_number": "21-07",
+  "year": 2021,
+  "published_date": "April 29, 2021",
+  "product": "4D for iOS",
+  "version": "18 R6",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=78695",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-07_iOSPushNotification.zip",
+  "content_source": "teaser_only",
+  "featured_technology": ["4D for iOS", "Push Notifications", "Restricted queries", "Custom relation buttons", "Deep linking"],
+  "historical_commentary": {
+    "text": "4D for iOS, the native mobile-app-generation feature this note extends with push notifications and other advanced capabilities, has since been discontinued, making the entire subject matter obsolete regardless of the specific push-notification mechanism used.",
+    "status": "obsolete",
+    "related_updates": ["4D for iOS (and 4D for Android) was discontinued in favor of Qodly (a separate low-code app platform) and responsive ORDA/REST-based web apps", "Push notifications for a mobile-facing 4D solution today would be implemented via a native/hybrid or PWA shell calling a push service (e.g. APNs/FCM) directly, rather than through the retired 4D for iOS generator"]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 78836,
+  "title": "Tech Note: Merging Data from Remote Datastores into a Local Database",
+  "technote_number": "21-22",
+  "year": 2021,
+  "published_date": "December 20, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Mehdi AARAB, Technical Services Engineer, 4D Morocco.",
+  "page_url": "https://kb.4d.com/assetid=78836",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-22_MergeDataFromRemoteDS.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ORDA Remote Datastore (Open datastore)",
+    "4D REST server",
+    "4D View Pro reporting",
+    "Entity/EntitySelection .all()/.new()/.save()"
+  ],
+  "historical_commentary": {
+    "text": "Still fully current: ORDA remote datastores (via Open datastore over REST) remain a supported, standard 4D feature for cross-database data access, and this cross-datastore merge pattern is still valid practice today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA remote datastore access (Open datastore, introduced with 4D's REST server in v18) has not been superseded and remains the recommended way to connect separately-hosted 4D databases together.",
+      "4D View Pro (used here for reporting) remains the current spreadsheet/reporting component, having long since replaced classic 4D View."
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "asset_id": 78451,
+  "title": "Tech Note: 4D Write to 4D Write Pro Conversion Guidelines: Form and Off-screen areas",
+  "technote_number": "20-06",
+  "year": 2020,
+  "published_date": "April 22, 2020",
+  "product": "4D Write Pro",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Hamza Aharbil, Quality Support Engineer, 4D Morocco.",
+  "page_url": "https://kb.4d.com/assetid=78451",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-06_4DWrite-to-4DWritePro.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Write Pro (WP commands)", "Styled Text (ST commands)", "4D Write classic (WR commands, deprecated 32-bit plugin)", "WP New / WP Print / ST COMPUTE EXPRESSIONS"],
+  "historical_commentary": {
+    "text": "This is a migration guide for moving off the legacy 32-bit 4D Write plugin onto 4D Write Pro; today 4D Write classic is long discontinued/unsupported and virtually all remaining 4D Write databases should already have migrated, making this note now primarily of historical/archival interest for anyone still holding very old databases.",
+    "status": "obsolete",
+    "related_updates": ["4D Write classic (WR commands, external plugin) was removed from 64-bit 4D entirely; 4D Write Pro (WP/ST commands) has been the only supported word-processing engine in 4D for many years", "4D Write Pro itself has continued to evolve substantially since v17/v18 with a modern object-based document model, HTML/CSS-influenced styling, and deeper ORDA/forms integration"]
+  }
+}

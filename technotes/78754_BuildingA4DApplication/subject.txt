@@ -1,0 +1,1 @@
+Building a 4D Application (TN 21-13, 4D v19, July 2021) — a comprehensive walkthrough of the Application Builder and the Build Application command, covering compiled structures, stand-alone apps, client/server deployments, licensing, and the buildApp settings file.

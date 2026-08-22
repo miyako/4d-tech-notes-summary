@@ -1,0 +1,20 @@
+{
+  "asset_id": 78309,
+  "title": "Tech Note: Creating a Search Bar with Dropdown List",
+  "technote_number": "19-14",
+  "year": 2019,
+  "published_date": "August 30, 2019",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78309",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-14_SearchBar.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["QUERY / QUERY SELECTION", "Split string", "Selection-based list box", "LISTBOX SELECT ROW", "OBJECT SET SCROLL POSITION", "HIGHLIGHT TEXT", "Selected record number"],
+  "historical_commentary": {
+    "text": "The described technique (QUERY-driven search combined with a selection-based dropdown list box, manual arrow-key handling) is a classic-mode pattern using array/selection-based records rather than ORDA. It is still functional in current 4D, but a developer building this today would more likely implement it using ORDA entity selections/collections and a collection-based list box, consistent with 4D's broader post-v16 shift away from classic table selections.",
+    "status": "partially_superseded",
+    "related_updates": ["ORDA entity/collection-based list boxes are now the preferred data source for new development over classic selection-based list boxes", "The core UX pattern (dropdown-as-you-type search) remains valid and common; only the underlying data access layer has shifted"]
+  }
+}

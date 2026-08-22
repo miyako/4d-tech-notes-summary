@@ -1,0 +1,1 @@
+JSON Definition Tool for Dynamic Forms (TN 18-18, 4D v17, October 2018) — catalogs the JSON schema for nearly every 4D form object type used in Dynamic Forms, plus a bundled visual tool for generating/editing these definitions.

@@ -1,0 +1,1 @@
+Tech Note: Guide for Converting to 4Dv18 and Newer (TN 20-24, 4D v18, December 2020) — a step-by-step guide for migrating older 4D databases to the 64-bit-only v18 line, covering primary keys, Unicode/object notation, subtables, obsolete commands, and PICT image conversion.

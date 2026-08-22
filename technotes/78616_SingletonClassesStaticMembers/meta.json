@@ -1,0 +1,31 @@
+{
+  "asset_id": 78616,
+  "title": "Tech Note: Implementing Singleton Classes with Static Member Functions in 4D",
+  "technote_number": "20-23",
+  "year": 2020,
+  "published_date": "December 29, 2020",
+  "product": "4D",
+  "version": "18 R3",
+  "platform": "Mac & Win",
+  "author": "Dominique Delahaye, 4D Expert, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=78616",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-23_SingletonClasses.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Classes (Class Constructor, Class extends)",
+    "Shared objects / Shared collections",
+    "Use...End use concurrency blocks",
+    "OB Class, OB Copy, OB Remove commands",
+    "Reference counting pattern",
+    "Class inheritance (Object -> File)"
+  ],
+  "historical_commentary": {
+    "text": "The singleton-via-static-shared-collection-plus-reference-counting pattern described here is a legitimate, still-usable OOP technique in 4D classes, and 4D classes/OOP themselves have only grown more central since v18R3; however, native support for true static class properties/members was added to the 4D language in later versions, which now provides a more direct way to implement statics/singletons than this shared-object workaround.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D later added native static properties and shared singleton class support directly in the language/framework, reducing the need for the manual has_static/get_static workaround shown here",
+      "4D classes and OOP (Class Constructor, Class extends, Function, etc.) introduced ~v17R5-18 have remained the standard and continued to mature since this note",
+      "Shared objects/collections with Use...End use remain the correct primitive for cross-process concurrency control in 4D, unchanged"
+    ]
+  }
+}

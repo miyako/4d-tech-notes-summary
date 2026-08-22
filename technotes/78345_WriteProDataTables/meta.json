@@ -1,0 +1,20 @@
+{
+  "asset_id": 78345,
+  "title": "Tech Note: Adding Data Tables in a Write Pro Document",
+  "technote_number": "19-19",
+  "year": 2019,
+  "published_date": "October 28, 2019",
+  "product": "4D Write Pro",
+  "version": "17 R6",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78345",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-19_AddDataTablesIn4DWP.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Write Pro", "WP Insert Table", "WP Table append row", "WP Table get cells", "WP SET ATTRIBUTES", "WP SET TEXT", "WP Selection range", "Entity selections", "Object notation"],
+  "historical_commentary": {
+    "text": "4D Write Pro table support has matured substantially since v17R6 — later versions added the ability to insert/delete rows and columns natively and improved table formatting, so some of the 'not possible as of 17R6' limitations noted here (e.g. removing/adding columns) have since been addressed. The core object-range-based API (WP Insert Table, WP Table append row, WP SET ATTRIBUTES) is still the current approach.",
+    "status": "partially_superseded",
+    "related_updates": ["4D Write Pro table manipulation commands were expanded in later 4D versions (row/column insert-delete became easier)", "4D Write Pro remains the current, actively developed document/word-processing engine, having fully superseded the legacy 4D Write plugin"]
+  }
+}

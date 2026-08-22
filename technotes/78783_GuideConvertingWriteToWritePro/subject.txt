@@ -1,0 +1,1 @@
+Guide to Converting 4D Write to 4D Write Pro (TN 21-17, 4D v19, September 2021) — a step-by-step migration guide for moving stored 4D Write documents, form areas, and WR command code to 4D Write Pro ahead of 4D's 64-bit-only transition.

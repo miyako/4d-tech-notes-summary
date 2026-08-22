@@ -1,0 +1,29 @@
+{
+  "asset_id": 78537,
+  "title": "Tech Note: Setting Up a PIN Authentication System",
+  "technote_number": "20-15",
+  "year": 2020,
+  "published_date": "September 1, 2020",
+  "product": "4D",
+  "version": "18",
+  "platform": "Mac & Win",
+  "author": "Bryan Yen, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78537",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-15_PinAuthentication.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Numeric keypad form UI",
+    "Generate password hash / Verify password hash",
+    "ds.user ORDA table for PIN storage",
+    "Current user command",
+    "GET USER LIST"
+  ],
+  "historical_commentary": {
+    "text": "This is a UI/application-level custom authentication pattern layered on top of 4D's built-in Current user and password-hash commands, not a core platform feature; it remains fully valid and current since it relies on stable, still-supported 4D commands (Generate/Verify password hash, Current user), though a project today might implement PIN storage as a proper 4D class rather than loose form/project methods.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Generate password hash / Verify password hash and Current user remain current, supported 4D commands with no replacement",
+      "Modern equivalents of this pattern (e.g., a companion 2FA/TOTP Tech Note published later) show 4D's authentication tooling story has expanded, but this PIN approach itself is not deprecated"
+    ]
+  }
+}

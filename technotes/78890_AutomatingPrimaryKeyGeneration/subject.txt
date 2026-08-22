@@ -1,0 +1,1 @@
+Tech Note: Automating Primary Key Generation (TN 22-05, 4D v19, March 2022) — provides a component built on 4D's SQL engine and system tables to bulk-detect and auto-generate missing primary keys across an entire database.

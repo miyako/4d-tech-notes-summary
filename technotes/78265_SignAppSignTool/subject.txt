@@ -1,0 +1,1 @@
+Tech Note: Sign a 4D App Package using SignTool on Windows (TN 19-08, 4D v17 R, May 2019) — step-by-step guide to generating a self-signed certificate and using Microsoft's SignTool to digitally sign a merged 4D Windows executable.

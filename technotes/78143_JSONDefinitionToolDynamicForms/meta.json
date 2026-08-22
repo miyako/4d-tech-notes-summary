@@ -1,0 +1,20 @@
+{
+  "asset_id": 78143,
+  "title": "Tech Note: JSON Definition Tool for Dynamic Forms",
+  "technote_number": "18-18",
+  "year": 2018,
+  "published_date": "October 31, 2018",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78143",
+  "download_url": "https://kb.4d.com/DLTN/TN/2018/18-18_DynamicFormObjectDefinition.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Dynamic Forms", "JSON form definition", "Open form window", "OBJECT SET SUBFORM", "New object/New collection", "form object JSON schemas (list box, web area, Write Pro, View Pro, etc.)"],
+  "historical_commentary": {
+    "text": "Dynamic Forms defined via JSON remain a supported 4D feature and the general mechanics (Open form window / OBJECT SET SUBFORM consuming a JSON/object form definition) are unchanged in concept, though 4D's official documentation for Dynamic Form JSON schemas has since expanded significantly, making this note's exhaustive per-object catalog a useful but no longer sole reference.",
+    "status": "still_relevant",
+    "related_updates": ["4D's official Dynamic Form documentation has grown substantially since v17, covering more form object types and properties than catalogued here", "the JSON/object-based dynamic form generation mechanism itself is unchanged and still current in 4D today", "Project Mode (v17-18+) forms are still stored as JSON on disk, making familiarity with this JSON schema even more broadly useful than in Design Mode/binary-structure days"]
+  }
+}

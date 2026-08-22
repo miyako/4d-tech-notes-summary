@@ -1,0 +1,1 @@
+Tech Note: Communication Between Processes in 4D (TN 19-07, 4D v17 R4, April 2019) — a comprehensive survey of 4D's inter-process communication mechanisms, from classic interprocess variables to shared objects, Storage, semaphores, workers, and signals.

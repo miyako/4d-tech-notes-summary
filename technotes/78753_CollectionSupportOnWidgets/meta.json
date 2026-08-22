@@ -1,0 +1,20 @@
+{
+  "asset_id": 78753,
+  "title": "Tech Note: Collection Support on Popup Dropdown List, Combo Box, and Tab Control",
+  "technote_number": "21-12",
+  "year": 2021,
+  "published_date": "July 29, 2021",
+  "product": "4D",
+  "version": "19",
+  "platform": "Mac & Win",
+  "author": "Nhat Do, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78753",
+  "download_url": "https://kb.4d.com/DLTN/TN/2021/21-12_CollectionSupportOnWidgets.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Collections (values/index/currentValue object)", "Form data objects", "DIALOG command", "Classic array-based form objects"],
+  "historical_commentary": {
+    "text": "Object/collection-based data sources for drop-down lists, combo boxes, and tab controls (introduced in v19) are still the recommended, current approach; the classic array-based technique documented for comparison remains functional but is now considered the legacy pattern.",
+    "status": "current",
+    "related_updates": ["No replacement needed — this collection-based object pattern for form widget data sources is still 4D's current recommended technique", "Continues 4D's broader multi-year shift from arrays/pointers toward collections and objects across the whole language and form engine"]
+  }
+}

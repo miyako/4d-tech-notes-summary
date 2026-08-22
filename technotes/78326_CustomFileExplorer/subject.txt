@@ -1,0 +1,1 @@
+Tech Note: Creating a Custom File Explorer (TN 19-16, 4D v17 R5, September 2019) — builds a native file explorer UI using the object-based File/Folder commands and a collection-based list box, with sorting, navigation history, and folder create/delete.

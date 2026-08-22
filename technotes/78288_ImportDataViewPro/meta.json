@@ -1,0 +1,20 @@
+{
+  "asset_id": 78288,
+  "title": "Tech Note: Importing Data to 4D View Pro",
+  "technote_number": "19-13",
+  "year": 2019,
+  "published_date": "July 19, 2019",
+  "product": "4D",
+  "version": "17 R5",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78288",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-13_4DVPImportData.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D View Pro (SpreadJS-based)", "VP Get active cell", "VP SET VALUE", "VP Cell", "VP Export to object", "WA Evaluate JavaScript", "Entity selections (ORDA)"],
+  "historical_commentary": {
+    "text": "4D View Pro remains 4D's current native spreadsheet component (built on SpreadJS) and the object/range-based API shown (VP Get active cell, VP SET VALUE, VP Cell) is still the standard approach today. Later 4D versions have added more native row/column manipulation commands, reducing the need for the JavaScript workaround (WA Evaluate JavaScript / spread.getActiveSheet()) described here for resizing sheets.",
+    "status": "partially_superseded",
+    "related_updates": ["4D View Pro has gained additional native commands for row/column manipulation in later versions, reducing reliance on the JavaScript-based workaround shown here", "4D View Pro (built on SpreadJS) remains the current, actively developed spreadsheet feature, having fully replaced the legacy 4D View plugin"]
+  }
+}

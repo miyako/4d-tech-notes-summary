@@ -1,0 +1,20 @@
+{
+  "asset_id": 78220,
+  "title": "Tech Note: Updating Custom PHP Libraries used by 4D",
+  "technote_number": "19-03",
+  "year": 2019,
+  "published_date": "February 28, 2019",
+  "product": "4D",
+  "version": "17",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78220",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-03_BuildAndUpdatePHPEngine.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": ["PHP execution in 4D", "PHP Execute", "php-fcgi-4d", "FastCGI", "PHP SDK (Windows)", "php.ini extensions"],
+  "historical_commentary": {
+    "text": "The note is tied to 4D's bundled PHP 7.3 FastCGI interpreter used by commands like PHP Execute; PHP interop in 4D is a long-lived but niche feature, and the specific PHP version/build instructions here are now outdated since 4D has since bundled newer PHP releases and the underlying OS toolchains (Xcode/Visual Studio versions) referenced have moved on substantially.",
+    "status": "partially_superseded",
+    "related_updates": ["4D has continued to update its bundled PHP engine version over subsequent releases, obsoleting the specific PHP 7.3 build steps and Visual Studio 2015/2017 toolchain guidance here", "the core technique of building a custom PHP engine with FastCGI support and swapping in php-fcgi-4d is still conceptually applicable, but exact commands/compiler versions must be adapted to the current 4D/PHP version pairing"]
+  }
+}

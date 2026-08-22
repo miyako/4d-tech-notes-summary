@@ -1,0 +1,1 @@
+Tech Note: 4D on Docker (TN 19-20, 4D v17 R, December 2019) — an introduction to Docker concepts and a walkthrough of containerizing a 4D Server deployment.

@@ -1,0 +1,1 @@
+Introduction to Using Collections and Entity Selections in List Boxes (TN 18-19, 4D v17, October 2018) — explains how to bind list boxes to the two new ORDA-era dataset types, collections and entity selections, replacing/augmenting classic array- and current-selection-based list boxes.

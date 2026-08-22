@@ -1,0 +1,29 @@
+{
+  "asset_id": 78556,
+  "title": "Tech Note: ORDA and Forms",
+  "technote_number": "20-16",
+  "year": 2020,
+  "published_date": "September 30, 2020",
+  "product": "4D",
+  "version": "18 R",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Senior Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78556",
+  "download_url": "https://kb.4d.com/DLTN/TN/2020/20-16_ORDAandForms.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ORDA .new()/.save()/.query()/.all()/.drop()",
+    "Entity selection bound to Form.selection",
+    "List box with Entity Selection data source",
+    "This.FieldName listbox column expressions",
+    "DIALOG command for sheet-form CRUD dialogs"
+  ],
+  "historical_commentary": {
+    "text": "This is a foundational, still fully accurate ORDA CRUD tutorial: .new()/.save()/.query()/.all()/.drop() and binding a list box directly to an entity selection via Form.selection remain the standard, current way to build ORDA-driven forms in 4D, unchanged since this note's publication.",
+    "status": "current",
+    "related_updates": [
+      "ORDA entity/entity-selection CRUD (.new(), .save(), .query(), .all(), .drop()) remains 4D's current, unchanged data-access API",
+      "Binding list boxes directly to an Entity Selection with This.FieldName column expressions is still the standard modern 4D form pattern"
+    ]
+  }
+}

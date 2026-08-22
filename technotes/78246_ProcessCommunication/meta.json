@@ -1,0 +1,20 @@
+{
+  "asset_id": 78246,
+  "title": "Tech Note: Communication Between Processes in 4D",
+  "technote_number": "19-07",
+  "year": 2019,
+  "published_date": "April 24, 2019",
+  "product": "4D",
+  "version": "17 R4",
+  "platform": "Mac & Win",
+  "author": "Tai Bui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78246",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-07_CommunicationBtwProcesses.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Interprocess variables", "SET/GET PROCESS VARIABLE", "Shared objects/collections (New shared object)", "Storage", "Semaphore/CLEAR SEMAPHORE", "CALL WORKER/KILL WORKER", "New signal"],
+  "historical_commentary": {
+    "text": "This is a comprehensive, still fully accurate reference on 4D's inter-process communication toolkit — interprocess variables, shared objects/collections, Storage, semaphores, workers, and signals are all current, unchanged 4D concurrency primitives. Nothing here has been deprecated; if anything, workers and shared objects/collections have only grown in importance as 4D's concurrency model has matured.",
+    "status": "still_relevant",
+    "related_updates": ["All commands and patterns described (interprocess variables, Storage, shared objects/collections, semaphores, CALL WORKER, signals) remain current and are the standard 4D concurrency toolkit today"]
+  }
+}

@@ -1,0 +1,1 @@
+4D Mobile Exchange Data using Collection (TN 18-13, 4D v16 R, July 2018) — demo showing basic bidirectional data exchange and array/collection conversion between 4D and a Wakanda Enterprise-based 4D Mobile client.

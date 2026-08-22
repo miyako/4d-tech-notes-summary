@@ -1,0 +1,1 @@
+Tech Note: Working with Tables in 4D View Pro (TN 22-20, 4D v19 R, October 2022) — shows how to build spreadsheet-style tables and pivot tables in 4D View Pro both interactively (Ribbon/Toolbar) and procedurally (VP CREATE TABLE, offscreen areas, pivot-table configuration objects) to organize and summarize 4D data.

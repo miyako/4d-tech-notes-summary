@@ -1,0 +1,20 @@
+{
+  "asset_id": 78231,
+  "title": "Tech Note: Implementing Drag-and-Drop with Entity/Collection Listboxes",
+  "technote_number": "19-05",
+  "year": 2019,
+  "published_date": "March 25, 2019",
+  "product": "4D",
+  "version": "17 R",
+  "platform": "Mac & Win",
+  "author": "Erick Lui, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=78231",
+  "download_url": "https://kb.4d.com/DLTN/TN/2019/19-05_EntityCollectionDragDrop.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["ORDA entity selections (ordered/unordered)", "Collections", "entitySelection.or()/.minus()/.add()", "collection.combine()/.filter()/.insert()", "Drop position", "On Begin Drag Over / On Drop"],
+  "historical_commentary": {
+    "text": "The drag-and-drop patterns for entity-selection- and collection-based list boxes described here remain the current, standard 4D approach and are unchanged in modern versions — this is a durable reference for ORDA-era list box manipulation.",
+    "status": "still_relevant",
+    "related_updates": ["Entity selection and collection manipulation methods (or, minus, combine, filter) used here remain current 4D ORDA/collection API"]
+  }
+}
