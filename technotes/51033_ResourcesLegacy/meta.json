@@ -1,0 +1,33 @@
+{
+  "asset_id": 51033,
+  "title": "Tech Note: Resources: 4D 2004 vs 4D v11 SQL",
+  "technote_number": "08-33",
+  "year": 2008,
+  "published_date": "September 12, 2008",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina",
+  "page_url": "https://kb.4d.com/assetid=51033",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_32-35_(SEP)/08-33_Resources.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Resource fork-based architecture (4D 2004)",
+    "File-based resource system (4D v11 SQL)",
+    "XLIFF file format",
+    "String and picture resources",
+    "Mac OS X standards compliance",
+    "Resource compatibility and migration"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a fundamental architectural shift in 4D v11 SQL: the transition from Macintosh resource fork-based storage (inherited from Mac OS 9 era) to a modern file-based resource system compliant with Mac OS X standards. In 4D 2004, resources were stored in .RSR files using resource forks and accessed via Resource theme commands (Get string resource, Get picture resource, etc.). 4D v11 SQL replaces this with XLIFF-based strings (XML Localization Interchange Format) and individual picture files stored in a Resources folder, aligning with Apple's deprecation of resource forks. The note provides detailed comparison of both architectures, sample databases demonstrating upgrade paths, and guidance on maintaining backward compatibility. While the note explicitly acknowledges that old-style resources are obsolete per Apple and progressively deprecated, it also documents compatibility mechanisms allowing legacy .RSR resources to function in v11 SQL, easing migration for converted databases.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Mac OS X officially deprecated resource forks; modern macOS versions no longer support them",
+      "4D's file-based resource system became the standard from v11 SQL onward; no further changes to this architecture",
+      "XLIFF-based localization is the industry standard; 4D continues to use it in modern versions",
+      "Developers converting legacy 4D 2004 databases need to upgrade resources to file-based format for long-term compatibility",
+      "Resource forks are no longer accessible or used in modern versions of 4D or macOS"
+    ]
+  }
+}

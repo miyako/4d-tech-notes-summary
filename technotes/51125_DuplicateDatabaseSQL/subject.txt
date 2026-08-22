@@ -1,0 +1,1 @@
+Tech Note: How to Duplicate a Database in 4D v11 SQL (TN 08-34, 4D v11.2, September 2008) — a step-by-step guide to successfully replicating database objects and structure between two running instances of 4D v11 SQL using XML export/import and drag-and-drop mechanisms while preserving table/field numbering and referential integrity.

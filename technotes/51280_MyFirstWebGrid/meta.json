@@ -1,0 +1,32 @@
+{
+  "asset_id": 51280,
+  "title": "Tech Note: My First Web Grid",
+  "technote_number": "08-36",
+  "year": 2008,
+  "published_date": "October 16, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Add Komoncharoensiri",
+  "page_url": "https://kb.4d.com/assetid=51280",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_35-39_(OCT)/08-36_My_First_WebGrid.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF/A4D)",
+    "Data Grid 2.0",
+    "Web 2.0 technologies",
+    "JavaScript API",
+    "HTML/CSS integration",
+    "AJAX-based data display"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the 4D Ajax Framework's Data Grid 2.0 component, a cornerstone of 4D's early-2000s web strategy for displaying tabular data with Web 2.0 AJAX/JavaScript interaction. The framework provided pre-built CSS themes, localization support, and JavaScript constructors for customizing grid appearance and behavior inline. As a practical guide to integrating AJAX data grids into custom HTML pages, the note showcases the framework's then-modern approach to dynamic web UIs. However, the 4DAF/A4D framework has been entirely superseded by 4D's modern REST-based architecture, web components, and Qodly (4D's low-code platform from 2023+), rendering both the specific tooling and architectural patterns described here obsolete.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and 4DAF/A4D have been fully discontinued and replaced by REST APIs",
+      "Modern 4D web development uses web components, Vue.js integration, and Qodly instead of AJAX grids",
+      "Localization, styling, and data binding are now handled via ORDA and client-side frameworks",
+      "CSS theme system and JavaScript API for grids no longer exist in current 4D product lines"
+    ]
+  }
+}

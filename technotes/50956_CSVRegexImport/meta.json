@@ -1,0 +1,32 @@
+{
+  "asset_id": 50956,
+  "title": "Tech Note: Using Match regex to Import CSV data",
+  "technote_number": "08-32",
+  "year": 2008,
+  "published_date": "September 4, 2008",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Charles Vass",
+  "page_url": "https://kb.4d.com/assetid=50956",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_32-35_(SEP)/08-32_Match_regex.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Match regex command",
+    "Regular expressions",
+    "CSV parsing",
+    "Data import",
+    "Pattern matching",
+    "Field delimiter handling"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a practical data import challenge: parsing Comma-Separated Values (CSV) files into 4D databases, a task that historically required dozens of lines of string manipulation code to handle CSV's deceptively complex edge cases (quoted fields, embedded commas, line breaks within fields, leading/trailing spaces, etc.). The introduction of the Match regex command in 4D v11 SQL provided a powerful pattern-matching tool that drastically simplified CSV parsing by allowing developers to define the CSV field structure as regular expressions. The note argues that despite CSV's status as a legacy format (superseded by XML in new applications), support for CSV import remains critical for financial software and data exchange scenarios where billions of lines of legacy code continue to depend on it. The Match regex approach demonstrated here exemplifies how 4D v11 SQL's new regex support brought enterprise-grade data parsing capabilities to developers. However, modern CSV libraries and standardized parsing frameworks have since emerged, and the specific regex patterns and line-by-line parsing approach described here has become less necessary as higher-level CSV handling tools are now ubiquitous.",
+    "status": "still relevant",
+    "related_updates": [
+      "CSV remains a de facto data interchange standard despite being a legacy format",
+      "Modern solutions favor dedicated CSV libraries (e.g., Apache Commons CSV, Python csv module) over regex-based parsing",
+      "4D v11 SQL's Match regex command introduced powerful regex support; ORDA and modern 4D versions maintain regex capability",
+      "Data import patterns in modern 4D leverage REST APIs, JSON, and structured data formats more frequently than CSV"
+    ]
+  }
+}

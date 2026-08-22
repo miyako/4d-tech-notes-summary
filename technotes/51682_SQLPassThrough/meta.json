@@ -1,0 +1,32 @@
+{
+  "asset_id": 51682,
+  "title": "Tech Note: 4D v11 SQL Pass-Through without ODBC",
+  "technote_number": "08-41",
+  "year": 2008,
+  "published_date": "November 25, 2008",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Charles Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=51682",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_40-41_(NOV)/08-41_SQL_Pass_Through.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SQL pass-through TCP/IP",
+    "Direct 4D Server to 4D Professional connections",
+    "SQL LOGIN/LOGOUT commands",
+    "Synchronous data exchange",
+    "Field-level change tracking",
+    "BLOB storage in picture variables",
+    "SSL-secured SQL connections"
+  ],
+  "historical_commentary": {
+    "text": "This technical note documents a major advancement in 4D v11 SQL Release 3: the introduction of native, direct SQL pass-through communications between 4D Server and 4D Professional applications via TCP/IP, eliminating the need for ODBC drivers or intervening layers. This feature addressed a long-standing gap left by the discontinuation of the 4D Open plug-in (which had facilitated database-to-database communication in pre-SQL versions). The note covers the conceptual rationale, detailed SQL LOGIN/LOGOUT syntax, field-level change tracking with ownership and collision prevention, and the new picture variable/array BLOB storage capability introduced in Release 3. While modern 4D has evolved significantly beyond SQL pass-through to embrace ORDA, REST APIs, and remote object methods, the core concepts of synchronous data exchange and secure inter-process communication remain foundational.",
+    "status": "superseded",
+    "related_updates": [
+      "ORDA (Object-Relational Data Model, 4D v2018+) provides a modern, object-centric alternative to SQL pass-through for inter-application communication and data synchronization",
+      "4D Remote Objects and modern REST/WebSocket APIs have largely replaced direct SQL pass-through as the preferred mechanism for database-to-application communication",
+      "SSL encryption for SQL connections evolved into modern TLS/certificate-based security in current 4D versions; the concept of SQL connection security remains valid but implementation details have advanced"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: 4D (Is There) for Flex (TN 08-37, 4D Web 2.0 Pack v11.2, October 2008) — demonstrates building Rich Internet Applications (RIAs) with Adobe Flex connected to 4D Server via SQL queries using 4D for Flex SQLService and SQLResultSet components.

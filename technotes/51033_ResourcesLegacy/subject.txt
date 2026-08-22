@@ -1,0 +1,1 @@
+Tech Note: Resources: 4D 2004 vs 4D v11 SQL (TN 08-33, 4D v11.2, September 2008) — a comprehensive comparison of the legacy resource fork-based architecture from 4D 2004 and the new file-based resource system in 4D v11 SQL, including migration strategies and backward compatibility mechanisms.

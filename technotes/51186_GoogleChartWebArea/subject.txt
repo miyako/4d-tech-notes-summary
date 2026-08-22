@@ -1,0 +1,1 @@
+Tech Note: Google Chart API and Web Area Integration (TN 08-35, 4D v11.2, October 2008) — an update from TN 08-04, demonstrating integration of Google's Chart API with the new Web Area form object to generate and display interactive charts dynamically within 4D applications.

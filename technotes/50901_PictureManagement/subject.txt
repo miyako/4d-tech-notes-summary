@@ -1,0 +1,1 @@
+Tech Note: Picture Management in 4D v11 SQL (TN 08-31, 4D v11.2, August 2008) — a comprehensive guide to native picture format support, codec handling, and picture transformation capabilities in 4D v11.2, including commands for scaling, cropping, flipping, and combining pictures while preserving format characteristics.

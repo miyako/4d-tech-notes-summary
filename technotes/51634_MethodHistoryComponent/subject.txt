@@ -1,0 +1,1 @@
+Tech Note: Method History Component (TN 08-40, 4D v11.3, November 2008) — a reusable component for automatically tracking and comparing 4D method modifications using macro events, SQL Pass-through, and Web Area-based visual diff display.

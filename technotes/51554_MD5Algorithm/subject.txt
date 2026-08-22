@@ -1,0 +1,1 @@
+Tech Note: MD5 Algorithm Implemented in 4D v11 SQL (TN 08-39, 4D v11, November 2008) — demonstrates implementing the MD5 cryptographic hash algorithm in 4D via JavaScript execution in Web Area form objects, with both on-screen and offscreen usage patterns.

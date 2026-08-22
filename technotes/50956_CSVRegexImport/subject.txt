@@ -1,0 +1,1 @@
+Tech Note: Using Match regex to Import CSV data (TN 08-32, 4D v11.2, September 2008) — a guide to leveraging the new Match regex command in 4D v11 SQL to efficiently parse and import Comma-Separated Values files, handling complex CSV edge cases and field delimiters with regular expressions.

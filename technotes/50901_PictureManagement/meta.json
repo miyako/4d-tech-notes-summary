@@ -1,0 +1,33 @@
+{
+  "asset_id": 50901,
+  "title": "Tech Note: Picture Management in 4D v11 SQL",
+  "technote_number": "08-31",
+  "year": 2008,
+  "published_date": "August 27, 2008",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros",
+  "page_url": "https://kb.4d.com/assetid=50901",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_28-31_(AUG)/08-31_Picture_Mgmnt.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Native picture format support",
+    "Picture codecs (JPEG, PNG, GIF, TIFF, PDF)",
+    "Picture transformation commands",
+    "SCALE, CROP, FLIP, FADE operations",
+    "COMBINE PICTURES",
+    "Drag-and-drop picture import",
+    "Picture field variables"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D v11.2's significant enhancement to picture handling, introducing native support for current Mac OS X and Windows picture formats (JPEG, PNG, GIF, TIFF, PDF, etc.) without requiring intermediate format conversion that would lose transparency, gradients, or other native format characteristics. The release added sophisticated picture transformation commands (SCALE, CROP, FLIP HORIZONTALLY, FLIP VERTICALLY, FADE TO GREY SCALE, COMBINE PICTURES) and introduced drag-and-drop picture import, contextual menu support, and scrollbars for truncated pictures. The note provides extensive technical detail on picture codecs, format conversion, and a comprehensive reference to all transformation commands with parameter descriptions. While the note's specific codec list and command syntax are tied to 4D v11.2 (2008), the foundational concepts remain valid: native format preservation, non-destructive transformations, and efficient image handling are still core to modern 4D's picture support. However, the specific command names and codec references are outdated for current 4D versions.",
+    "status": "still relevant",
+    "related_updates": [
+      "Modern 4D continues to support native picture formats; codec list has expanded to include newer formats",
+      "4D v4D's picture transformation architecture remains fundamentally similar to v11.2's approach",
+      "Web-based image processing (canvas, SVG, etc.) is now available in addition to native picture commands",
+      "4D Write Pro (2016+) and 4D View Pro (2018+) provide enhanced document/picture integration beyond v11.2 capabilities"
+    ]
+  }
+}

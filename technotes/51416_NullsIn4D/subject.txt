@@ -1,0 +1,1 @@
+Tech Note: NULLS in 4D v11 SQL (TN 08-38, 4D v11, October 2008) — comprehensive guide to understanding, managing, and working with NULL values (unknown/missing data) in 4D SQL databases via language commands, field properties, and SQL operators.

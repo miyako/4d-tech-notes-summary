@@ -1,0 +1,1 @@
+Tech Note: 4D v11 SQL Database Access Files (4DLINK) (TN 08-30, 4D v11.2, August 2008) — a guide to creating and using 4DLINK, XML-based database access files that automate launching, connection, and login for 4D databases, replacing legacy Path Documents and CLI-based launching.

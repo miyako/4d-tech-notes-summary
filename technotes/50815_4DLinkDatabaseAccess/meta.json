@@ -1,0 +1,33 @@
+{
+  "asset_id": 50815,
+  "title": "Tech Note: 4D v11 SQL Database Access Files (4DLINK)",
+  "technote_number": "08-30",
+  "year": 2008,
+  "published_date": "August 20, 2008",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Timothy Penner",
+  "page_url": "https://kb.4d.com/assetid=50815",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_28-31_(AUG)/08-30_4D_Link.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4DLINK files",
+    "XML-based database access",
+    "Database shortcuts",
+    "Automated login",
+    "4D Server connection",
+    "Local database launchers",
+    "Path Documents replacement"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D v11 SQL's introduction of 4DLINK files, a new XML-based database access file format that supersedes both the deprecated Path Documents (.PTH) files used in earlier versions and the command-line interface (CLI) for database launching and connection. 4DLINK files allow developers to create small XML files containing database launch parameters (structure/data file paths, 4D Server connection details, automatic login credentials, database opening mode, encrypted passwords via MD5) that automate and simplify opening or connecting to 4D databases. The format is flexible enough to support both local database shortcuts and 4D Server remote connections. The note provides the DTD schema (included as database_link.dtd) and demonstrates how to construct valid 4DLINK files with various attributes. Users can launch databases via double-click, drag-and-drop onto 4D, selection in the Open dialog, or from the Open Recent Databases menu. This innovation represented significant improvement over CLI and Path Documents, providing a more maintainable, user-friendly approach to database launching—though the specific 4DLINK format has since evolved with 4D's modern architecture.",
+    "status": "obsolete",
+    "related_updates": [
+      "4DLINK files continue to exist in modern 4D versions but serve limited functions in modern workflows",
+      "Project Mode (v17+) and REST API-based database access have reduced reliance on local database shortcuts",
+      "Modern 4D deployments favor Docker containerization, cloud hosting, and web-based access over local 4DLINK launchers",
+      "Command-line database launching via 4D CLI has evolved but remains available for scripted deployment scenarios"
+    ]
+  }
+}

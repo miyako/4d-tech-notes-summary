@@ -1,0 +1,32 @@
+{
+  "asset_id": 51186,
+  "title": "Tech Note: Google Chart API and Web Area Integration",
+  "technote_number": "08-35",
+  "year": 2008,
+  "published_date": "October 1, 2008",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros",
+  "page_url": "https://kb.4d.com/assetid=51186",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_35-39_(OCT)/08-35_Google_Web_Area.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Google Chart API",
+    "Web Area form object (v11 SQL Release 2)",
+    "Data visualization",
+    "URL parameterization",
+    "Real-time chart generation",
+    "Remote charting service integration"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's integration with Google's Chart API via the newly introduced Web Area form object (Release 2 of 4D v11 SQL), replacing the earlier 4D Live Window plug-in approach from Technical Note 08-04. The update showcases how developers could build interactive charting UIs by parameterizing Google Chart API URLs from within 4D and rendering the results in a Web Area—a common pattern for leveraging free third-party visualization services. The note is marked as an update from 08-04, reflecting 4D's move away from custom plug-ins toward native web-based form objects. However, Google Chart API has since been deprecated in favor of Google Charts (a modern JavaScript library), and Web Area usage patterns have evolved dramatically with modern frameworks like Vue and Qodly, making the specific techniques and tooling described here historical.",
+    "status": "obsolete",
+    "related_updates": [
+      "Google Chart API (legacy remote PNG-based charting) has been superseded by Google Charts JavaScript library",
+      "Web Area now integrates with modern web frameworks and REST APIs rather than simple URL-based charting",
+      "4D v11 SQL Release 2 and the form object architecture have been replaced by ORDA/Project Mode (v17+)",
+      "Charting in modern 4D is handled via Qodly charts, Vue.js libraries (Chart.js, D3.js), or Webix UI components"
+    ]
+  }
+}

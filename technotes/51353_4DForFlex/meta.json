@@ -1,0 +1,35 @@
+{
+  "asset_id": 51353,
+  "title": "Tech Note: 4D (Is There) for Flex",
+  "technote_number": "08-37",
+  "year": 2008,
+  "published_date": "October 23, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Tim Kaufman, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=51353",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_35-39_(OCT)/08-37_4D_for_Flex.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Adobe Flex framework",
+    "4D for Flex (SQL-oriented components)",
+    "SQLService and SQLResultSet classes",
+    "MXML and ActionScript 3",
+    "Flex DataGrid and ComboBox controls",
+    "Data binding in Flex",
+    "Form building with Flex",
+    "SQL queries from Flex to 4D Server",
+    "Flash Player and 4D Web server integration"
+  ],
+  "historical_commentary": {
+    "text": "This technical note demonstrates how to build Rich Internet Applications (RIAs) using Adobe Flex (Flash-based framework) connected to 4D Server via SQL queries, showcasing a particular web 2.0 era pattern that was contemporary circa 2008. The note covers the 4D Web 2.0 Pack's Flex components (SQLService, SQLResultSet), MXML declarative UI syntax, ActionScript 3 event handling, and data binding—technologies that were cutting-edge for web UI development at the time. Flex was marketed as an alternative to AJAX/JavaScript for building complex interactive web clients, offering strong typing and component-based architecture. However, Flex (Flash-based) has been completely superseded by modern web standards (HTML5, JavaScript/TypeScript, modern frameworks like React, Vue, Angular). 4D's modern web strategy (Qodly, 4D Web Components, REST APIs) has moved entirely away from Flash/Flex toward standards-based web technologies.",
+    "status": "obsolete",
+    "related_updates": [
+      "Adobe discontinued Flash/Flex; Flash Player was end-of-life December 2020. No modern browser support.",
+      "4D v17+ introduced Qodly, a modern low-code web builder using standard web technologies (HTML5, JavaScript) and ORDA-based REST APIs, replacing the Flex/Web 2.0 Pack approach entirely",
+      "Modern 4D web development uses standard frameworks (Vue, React, Angular) with 4D's REST API or GraphQL endpoints, rather than Flex's proprietary SWC components",
+      "SQLService and SQLResultSet classes from 4D Web 2.0 Pack are now obsolete; modern data binding uses REST/JSON APIs"
+    ]
+  }
+}

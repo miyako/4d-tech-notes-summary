@@ -1,0 +1,1 @@
+Tech Note: 4D v11 SQL Pass-Through without ODBC (TN 08-41, 4D v11.3, November 2008) — introduces native TCP/IP direct SQL communication between 4D Servers and 4D Professional applications, replacing ODBC with a faster, more flexible synchronous data exchange mechanism.

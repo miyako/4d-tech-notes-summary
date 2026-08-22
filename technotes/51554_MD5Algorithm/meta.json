@@ -1,0 +1,33 @@
+{
+  "asset_id": 51554,
+  "title": "Tech Note: MD5 Algorithm Implemented in 4D v11 SQL",
+  "technote_number": "08-39",
+  "year": 2008,
+  "published_date": "November 12, 2008",
+  "product": "4D",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=51554",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_35-39_(OCT)/08-39_MD5_in_4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "MD5 hashing algorithm",
+    "JavaScript in 4D Web Area",
+    "Web Area form object",
+    "WA EXECUTE JAVASCRIPT FUNCTION",
+    "WA OPEN URL",
+    "Cryptographic message digest",
+    "Security and encryption"
+  ],
+  "historical_commentary": {
+    "text": "This technical note demonstrates how to implement the MD5 (Message Digest Algorithm 5) cryptographic hash function in 4D v11 SQL Release 2+ by leveraging the newly introduced Web Area form object and JavaScript execution capabilities. The note covers MD5 theory (four-round Merkle-Damgard construction, 128-bit output), provides a complete JavaScript implementation (translated from PHP), and demonstrates two practical patterns: displaying MD5 in a Web Area-based UI, and using Web Area as an offscreen shell for JavaScript function execution with results returned to 4D forms. While MD5 itself has been cryptographically weakened (collision vulnerabilities discovered circa 2004, though still useful for non-security checksums), the pattern of embedding JavaScript algorithms in Web Areas opened doors for 4D developers to leverage the vast ecosystem of JavaScript libraries. Modern 4D has moved away from Web Area-based JavaScript execution toward native Web Components, standard crypto APIs, and third-party extension libraries.",
+    "status": "superseded",
+    "related_updates": [
+      "4D v17+ and modern web standards shifted away from Web Area JavaScript execution toward native Web Components and browser APIs",
+      "For cryptography, modern 4D developers use native commands (GENERATE DIGEST for SHA-256, SHA-512, MD5 checksums) rather than implementing algorithms in JavaScript",
+      "MD5 is no longer recommended for security purposes (collision vulnerabilities); SHA-256 and modern algorithms are preferred. This note's value is educational/historical rather than practical for modern applications",
+      "Web Area rendering has been superseded by native form objects and modern web component frameworks; the offscreen Web Area pattern is now an anti-pattern in modern 4D"
+    ]
+  }
+}

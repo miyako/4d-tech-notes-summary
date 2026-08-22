@@ -1,0 +1,32 @@
+{
+  "asset_id": 51634,
+  "title": "Tech Note: Method History Component",
+  "technote_number": "08-40",
+  "year": 2008,
+  "published_date": "November 20, 2008",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=51634",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_40-41_(NOV)/08-40_Method_History.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Method history tracking component",
+    "SQL Pass-through (TCP/IP and ODBC)",
+    "Macro system (macro events)",
+    "Web Area form object",
+    "JavaScript diff library",
+    "CSS-based method comparison display",
+    "External database storage (4D Server or MS SQL)"
+  ],
+  "historical_commentary": {
+    "text": "This technical note presents a component-based solution for automatically tracking method modifications in 4D v11 SQL Release 3, demonstrating the sophisticated capabilities of 4D's component architecture, macro system, and Web Area object. The component uses 4D v11.3's new macro events (triggered on method save), SQL pass-through (for both internal and external database storage), a Web Area-based visual diff display (powered by JavaScript diff libraries from open-source projects), and CSS styling to show colorized method differences. While the component pattern itself is still valid, the specific technologies it leverages (macro events for method hooks, Web Area for UI, traditional SQL storage for versioning) have been largely superseded by modern 4D's native IDE integrations, git-based version control, and source management tooling. The technique of using a Web Area for display rendering, though clever for 2008, has been replaced by native form objects and web components.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D v17+ (Project Mode) introduced native method version control via git-based file storage; built-in IDE method history is now handled by the repository system rather than custom components",
+      "Modern 4D IDE provides native method history/diff viewing without the need for external components or Web Area workarounds",
+      "Macro events and Web Area rendering techniques are still available but are rarely used for IDE-level tools in modern 4D; native form objects and component libraries have superseded this pattern"
+    ]
+  }
+}

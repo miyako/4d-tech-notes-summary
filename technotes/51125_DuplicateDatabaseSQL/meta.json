@@ -1,0 +1,32 @@
+{
+  "asset_id": 51125,
+  "title": "Tech Note: How to Duplicate a Database in 4D v11 SQL",
+  "technote_number": "08-34",
+  "year": 2008,
+  "published_date": "September 24, 2008",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Silvio Belini",
+  "page_url": "https://kb.4d.com/assetid=51125",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_32-35_(SEP)/08-34_Duplicate_DB.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "XML structure import/export",
+    "Drag-and-drop object copying",
+    "Table duplication",
+    "Field/method migration",
+    "Referential integrity preservation",
+    "Database object reuse"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a practical database development workflow in 4D v11 SQL: duplicating and migrating database objects between separate 4D instances to enable reuse of forms, methods, tables, and resources without losing structural integrity and internal object numbering. The process requires careful sequencing—emptying table trash, exporting/importing XML structure definitions, handling resource files from converted databases, and manually moving toolbox objects, menus, and methods. This workflow was essential for developers managing multiple database versions or consolidating databases during development. However, the XML structure import/export mechanism and the manual drag-drop workflow it describes have been largely superseded by modern 4D source control integration (Git), Project Mode (v17+), and component-based architecture (packages/shared components), rendering the specific step-by-step procedure documented here obsolete for contemporary development.",
+    "status": "superseded",
+    "related_updates": [
+      "4D v17+ Project Mode introduced text-based source control and component packages, eliminating manual duplication workflows",
+      "Git integration and collaborative development platforms have replaced file-based XML export/import",
+      "Drag-and-drop object copying between instances is deprecated in favor of modular component architecture",
+      "Modern 4D emphasizes version control and automated project structure management over manual object migration"
+    ]
+  }
+}
