@@ -1,0 +1,26 @@
+{
+  "asset_id": 77280,
+  "title": "Tech Note: Defensive Programming 101",
+  "technote_number": "15-08",
+  "year": 2015,
+  "published_date": "April 22, 2015",
+  "product": "4D",
+  "version": "14.3",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77280",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-08_DefensiveProgramming101.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Size of array",
+    "Test path name",
+    "CLEAR NAMED SELECTION",
+    "Pointer type checking",
+    "Array/list/SVG/XML reference validation patterns"
+  ],
+  "historical_commentary": {
+    "text": "This is a timeless, still-directly-applicable defensive-coding checklist \u2014 checking array bounds, validating pointers before dereferencing, testing file/folder paths before use, and cleaning up named selections \u2014 that remains standard advice for 4D developers today, even in Project Mode/ORDA-based code, since the underlying classic-language commands referenced (Size of array, Test path name, CLEAR NAMED SELECTION) are all still current.",
+    "status": "still_relevant",
+    "related_updates": ["All referenced commands (Size of array, Test path name, CLEAR NAMED SELECTION) remain current in modern 4D", "General defensive-programming principles apply equally to newer class-based/ORDA code"]
+  }
+}

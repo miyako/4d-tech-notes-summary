@@ -1,0 +1,1 @@
+Interactive Charting with 4D SVG (TN 11-28, 4D v12.3, December 9, 2011) — using the 4D SVG component's SC_ command set and object method callbacks to build interactive bar, line, pie, stacked, step, XY, and stock-tracker charts, going beyond the static images produced by the native 4D Chart plugin.

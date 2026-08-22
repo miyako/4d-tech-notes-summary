@@ -1,0 +1,1 @@
+Tech Note: Programmable and Portable Component Subforms (TN 12-14, 4D v12.4, August 2012) — using 4D v12 subform containers, dynamic variables, and new commands to build reusable, communicative list/detail subforms distributed via components.

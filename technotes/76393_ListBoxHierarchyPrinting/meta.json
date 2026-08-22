@@ -1,0 +1,27 @@
+{
+  "asset_id": 76393,
+  "title": "List Boxes in 4D v12: Hierarchy and Printing",
+  "technote_number": "11-26",
+  "year": 2011,
+  "published_date": "August 18, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Bertrand Soubeyrand, Soubeyrand Consultant.",
+  "page_url": "https://kb.4d.com/assetid=76393",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-26_ListBoxExtendedFeatures.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Array-type list boxes (LISTBOX SET HIERARCHY / LISTBOX GET HIERARCHY / LISTBOX COLLAPSE / LISTBOX EXPAND)",
+    "List box printing (OPEN PRINTING JOB, OPEN PRINTING FORM, LISTBOX GET PRINT INFORMATION)",
+    "XML export of list box configuration"
+  ],
+  "historical_commentary": {
+    "text": "Array-based hierarchical list boxes and the LISTBOX printing commands documented here still exist and function in current 4D, so the technique remains usable, but 4D has since added collection/entity-selection-based list boxes that are generally preferred for new development because they integrate directly with ORDA data sources rather than requiring manual array population and synchronization. Developers building new hierarchical or printable list boxes today would likely start from the newer selection/collection list box type rather than the pure-array approach shown here.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Collection/entity-selection-based list boxes (added later in the v13-v16 timeframe, refined further with ORDA) reduce the need for manual array synchronization",
+      "ORDA entity selections (introduced 4D v16 R5/17+) as the modern way to back list box data instead of raw arrays"
+    ]
+  }
+}

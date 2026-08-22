@@ -1,0 +1,29 @@
+{
+  "asset_id": 76630,
+  "title": "Tech Note: Programmable and Portable Component Subforms",
+  "technote_number": "12-14",
+  "year": 2012,
+  "published_date": "August 8, 2012",
+  "product": "4D",
+  "version": "12.4",
+  "platform": "Mac & Win",
+  "author": "Bertrand Soubeyrand, Consultants",
+  "page_url": "https://kb.4d.com/assetid=76630",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-14_ComponentSubform.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v12 subforms (list and page/detail subforms)",
+    "CALL SUBFORM CONTAINER",
+    "OBJECT Get pointer / OBJECT Get name",
+    "EXECUTE METHOD IN SUBFORM",
+    "Dynamic (process-free) form variables",
+    "4D components sharing forms"
+  ],
+  "historical_commentary": {
+    "text": "The subform communication mechanisms described here (CALL SUBFORM CONTAINER, OBJECT Get pointer, EXECUTE METHOD IN SUBFORM, dynamic variables) are classic-language 4D form commands that remain fully supported and are still the standard way to build reusable subforms in binary Design Mode or Project Mode databases today; the pointer-based, event-driven communication pattern between host and subform has not been replaced by any newer mechanism. However, the note's context — forms and components stored in binary .4DB/.4DC Design Mode structures — reflects the pre-Project-Mode era, and building similarly reusable UI today would more likely leverage Project Mode's text-based form files and, for simpler encapsulated pieces of logic, 4D classes rather than pointer-passing between object methods.", "status": "still_relevant",
+    "related_updates": [
+      "Project mode with text-based .4DProject structure and form files (4D v17+, 2018) changes how components and shared forms are stored/versioned",
+      "4D classes (introduced 4D v18/v19, 2019-2020) offer an alternative to pointer-based inter-form communication for encapsulating shared logic"
+    ]
+  }
+}

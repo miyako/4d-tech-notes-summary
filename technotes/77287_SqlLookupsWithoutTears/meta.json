@@ -1,0 +1,24 @@
+{
+  "asset_id": 77287,
+  "title": "Tech Note: [3rd Party Tech Note] SQL Lookups without Tears",
+  "technote_number": "15-09",
+  "year": 2015,
+  "published_date": "May 8, 2015",
+  "product": "4D",
+  "version": "14.x",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=77287",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-09_SQLLookup.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D embedded SQL (Begin SQL/End SQL)",
+    "Named SQL Lookup system (custom framework)",
+    "4D Pop custom constants tool"
+  ],
+  "historical_commentary": {
+    "text": "4D's embedded SQL (Begin SQL/End SQL) remains supported today, so this note's core technique \u2014 a validated, named-lookup wrapper around ad hoc SQL SELECT statements to avoid silent breakage from renamed/retyped fields \u2014 is still directly usable. That said, ORDA's entity/attribute-based queries, introduced from v16 R5/R6 onward, offer a more structurally safe alternative for many of the same lookup scenarios without needing hand-rolled validation tooling.",
+    "status": "still_relevant",
+    "related_updates": ["4D embedded SQL remains a supported feature", "ORDA entity selections/attribute queries (v16 R5/R6, 2017+) provide a structurally validated alternative to raw SQL string lookups for many use cases"]
+  }
+}

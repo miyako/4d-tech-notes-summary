@@ -1,0 +1,1 @@
+Defensive Programming 101 (TN 15-08, 4D v14.3, April 2015) — a practical checklist of common 4D coding pitfalls (unchecked arrays, invalid pointers, stale references, unvalidated paths) and the defensive checks that prevent code from working on the developer's machine but failing for customers.

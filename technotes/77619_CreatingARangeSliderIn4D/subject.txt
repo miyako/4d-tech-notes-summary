@@ -1,0 +1,1 @@
+Creating a Range Slider in 4D (TN 16-13, 4D v15.2, September 2016) — builds a reusable two-handle range-slider UI component from scratch using classic 4D form objects, for narrowing numeric query ranges.

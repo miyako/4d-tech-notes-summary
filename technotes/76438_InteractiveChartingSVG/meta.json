@@ -1,0 +1,27 @@
+{
+  "asset_id": 76438,
+  "title": "Interactive Charting with 4D SVG",
+  "technote_number": "11-28",
+  "year": 2011,
+  "published_date": "December 9, 2011",
+  "product": "4D",
+  "version": "12.3",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76438",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-28_InteractiveChartingWithSVG.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG component (SC_ command set)",
+    "4D Graph commands (SVG-based charting)",
+    "Object method callbacks for chart interactivity"
+  ],
+  "historical_commentary": {
+    "text": "The 4D SVG component and its SC_ command family described here were retired as 4D moved toward web-standard charting; modern 4D applications typically render interactive charts using embedded HTML/JavaScript charting libraries (e.g., via 4D View Pro or web areas with JS chart libraries) rather than 4D's own SVG rendering engine. The underlying SVG concepts (viewBox, transforms) remain valid web knowledge, but the specific 4D SC_ API and object-method-callback interaction model are now legacy techniques.",
+    "status": "obsolete",
+    "related_updates": [
+      "Web area-embedded JavaScript charting libraries (e.g., Chart.js, D3) driven from 4D via REST/ORDA for interactive charts",
+      "4D View Pro (introduced v17+) for spreadsheet-style charting/data visualization"
+    ]
+  }
+}

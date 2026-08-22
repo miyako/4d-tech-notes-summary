@@ -1,0 +1,1 @@
+Tech Note: Dynamic Web Serving (TN 12-13, 4D v13.1, June 2012) — second in a series covering how to generate dynamic web content and receive form data using the 4D Web Server's 4D Tags, 4DScript, 4DAction and 4DCGI mechanisms.

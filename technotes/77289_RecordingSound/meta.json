@@ -1,0 +1,22 @@
+{
+  "asset_id": 77289,
+  "title": "Tech Note: Recording Sound in 4D",
+  "technote_number": "15-10",
+  "year": 2015,
+  "published_date": "May 8, 2015",
+  "product": "4D",
+  "version": "14.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=77289",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-10_RecordingSoundIn4DR1.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "3rd-party sound recording/playback component (integrated as a 4D component)"
+  ],
+  "historical_commentary": {
+    "text": "Based only on the available teaser text, this note appears to integrate a third-party sound-recording component as a classic 4D component/plugin, a pattern typical of the pre-Project Mode component ecosystem; without the full PDF it's not possible to confirm exact commands, but such classic binary components are generally superseded by newer plugin/component packaging and platform audio APIs, and the note is flagged as likely dated pending fuller verification.",
+    "status": "partially_superseded",
+    "related_updates": ["4D's plugin/component architecture has evolved since the classic era", "Modern audio recording in web/mobile contexts typically relies on browser/OS-native APIs rather than legacy desktop components"]
+  }
+}

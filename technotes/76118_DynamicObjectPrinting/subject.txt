@@ -1,0 +1,1 @@
+Dynamic Object Printing (TN 10-18, 4D v12) — an advanced technique that reuses a single, minimal printing form and its objects for many different roles within one complex print job, using the new Print object and OPEN PRINTING FORM commands.

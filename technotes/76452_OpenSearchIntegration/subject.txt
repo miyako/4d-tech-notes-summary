@@ -1,0 +1,1 @@
+Integrating OpenSearch with 4D v12 (TN 11-29, 4D v12, December 16, 2011) — how to make a 4D Web Server-hosted database discoverable and searchable directly from a browser's search box using the OpenSearch protocol, illustrated with a Wikipedia-article sample database.

@@ -1,0 +1,26 @@
+{
+  "asset_id": 77275,
+  "title": "Tech Note: Managing Server Files from the Client",
+  "technote_number": "15-07",
+  "year": 2015,
+  "published_date": "April 22, 2015",
+  "product": "4D",
+  "version": "14 R4",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77275",
+  "download_url": "https://kb.4d.com/DLTN/TN/2015/15-07_FileManager.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Execute on server method property",
+    "FOLDER LIST / DOCUMENT LIST",
+    "GET DOCUMENT PROPERTIES / GET DOCUMENT ICON",
+    "Array-based listbox (classic)",
+    "Drag-and-drop file upload/download"
+  ],
+  "historical_commentary": {
+    "text": "The client/server file-browsing pattern here \u2014 using Execute on server methods plus FOLDER LIST/DOCUMENT LIST to expose a sandboxed server directory to remote 4D clients \u2014 remains fully valid in current 4D for classic client/server deployments, since all referenced commands are still supported. It's less commonly needed today given that many deployments have shifted toward web/REST-based architectures where file management is handled differently (e.g. through REST endpoints or cloud storage), but for traditional 4D client/server apps this is still a directly usable pattern.",
+    "status": "still_relevant",
+    "related_updates": ["FOLDER LIST, DOCUMENT LIST, GET DOCUMENT PROPERTIES/ICON remain current 4D commands", "Execute on server remains the standard mechanism for client/server method dispatch", "Web/REST-based deployments now offer alternative file-management approaches outside classic client/server"]
+  }
+}

@@ -1,0 +1,1 @@
+Recording Sound in 4D (TN 15-10, 4D v14.x, May 2015) — (teaser only) reportedly shows how to add sound recording and playback to a 4D database by integrating a third-party component.

@@ -1,0 +1,1 @@
+Tech Note: Custom Sequence Number (TN 17-23, 4D v16, December 2017) — builds a multi-user-safe custom sequence numbering method using semaphores and transaction suspension, as an alternative to 4D's built-in Sequence number function.

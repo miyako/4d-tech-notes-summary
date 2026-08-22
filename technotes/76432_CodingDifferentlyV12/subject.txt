@@ -1,0 +1,1 @@
+Coding differently in 4D V12 (TN 11-27, 4D v12, November 9, 2011) — a grab-bag of code editor productivity techniques for 4D v12, including structured method comments for help tips, code folding, review comments, local variable declaration blocks, error-hiding patterns, assertions, refactoring tools, and code navigation/highlighting tricks.

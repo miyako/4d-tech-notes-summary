@@ -1,0 +1,1 @@
+Custom Shadow for Object Focus (TN 16-15, 4D v15.x, September 2016) — builds a floating drop-shadow visual effect from gradient picture assets to modernize object-focus indication in classic 4D forms.

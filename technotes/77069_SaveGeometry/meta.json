@@ -1,0 +1,27 @@
+{
+  "asset_id": 77069,
+  "title": "Tech Note: Preserving display state with Save Geometry",
+  "technote_number": "14-11",
+  "year": 2014,
+  "published_date": "July 14, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77069",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-11_SaveGeometry.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Save Geometry form property (4D v14)",
+    "Save Value object property",
+    "JSON-based window/form preference files",
+    "OPEN FORM WINDOW command"
+  ],
+  "historical_commentary": {
+    "text": "Save Geometry addressed a genuinely persistent developer pain point — manually saving/restoring form and object states — and the feature itself, along with the underlying window-bounds JSON preference file mechanism, has remained part of 4D's form engine for over a decade. The specific file-path locations described (tied to the classic binary structure's per-database Windows/Mac cache folders) reflect Design Mode-era conventions, but the feature's behavior carries over largely unchanged into Project Mode. This is a durable, still-used piece of the platform rather than something that was replaced by a new architecture.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Project Mode (4D v17+, 2018) changed how forms themselves are stored (as JSON .4DForm files) but the Save Geometry/Save Value runtime behavior described here is unaffected"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 76124,
+  "title": "LDAP and 4D v12",
+  "technote_number": "10-20",
+  "year": 2010,
+  "published_date": "June 29, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76124",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_17-20_(JUN)/10-20_LDAP_and_4D v12.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PHP Execute (4D v12's PHP integration)",
+    "PHP LDAP module",
+    "LDAP directory authentication (e.g. Active Directory)",
+    "PHP GET FULL RESPONSE for error handling",
+    "[LDAP_Preferences] table-driven server configuration"
+  ],
+  "historical_commentary": {
+    "text": "This note leans on 4D v12's newly-introduced PHP Execute bridge to reach the PHP LDAP module, since 4D itself had no native LDAP or Active Directory commands at the time. That PHP-bridge approach is dated and clunky by modern standards, but LDAP/AD authentication remains a common integration need; today it would more likely be handled via a compiled plugin, a REST-based identity provider/SSO integration, or a scripted external process, rather than shelling out through 4D's PHP interpreter bridge.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Later 4D Tech Note 'SSO with LDAP' (asset 77397) revisits LDAP/SSO integration with more current techniques",
+      "Modern deployments typically favor REST/OAuth-based SSO or dedicated LDAP plugins over the PHP Execute bridge"
+    ]
+  }
+}

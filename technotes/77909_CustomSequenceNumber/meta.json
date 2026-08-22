@@ -1,0 +1,20 @@
+{
+  "asset_id": 77909,
+  "title": "Tech Note: Custom Sequence Number",
+  "technote_number": "17-23",
+  "year": 2017,
+  "published_date": "December 20, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Kristopher Merolla, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77909",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-23_CustomSequenceNumber.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["Sequence number", "Semaphores", "Transactions (transaction suspension)", "Auto-increment/primary keys"],
+  "historical_commentary": {
+    "text": "Semaphores and transaction control (including transaction suspension) remain current, supported 4D concurrency mechanisms, so this technique for building a race-condition-safe custom sequence number is still fully valid and used today. This is a timeless multi-user database concurrency pattern unaffected by 4D's ORDA or Project Mode transitions, since sequence generation logic sits below both.",
+    "status": "still_relevant",
+    "related_updates": ["Semaphores and transaction commands remain part of current 4D", "The built-in Sequence number function referenced still exists as an alternative for simpler cases", "Pattern is equally applicable whether records are created via classic commands or ORDA entities"]
+  }
+}

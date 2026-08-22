@@ -1,0 +1,20 @@
+{
+  "asset_id": 77888,
+  "title": "Tech Note: Inexpensive Wireless Status Display Solution with 4D",
+  "technote_number": "17-22",
+  "year": 2017,
+  "published_date": "November 16, 2017",
+  "product": "4D",
+  "version": "16",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77888",
+  "download_url": "https://kb.4d.com/DLTN/TN/2017/17-22_WirelessStatusDisplayWith4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": ["4D Web Server", "Microcontroller (WeMos ESP8266 / Arduino)", "I2C LCD display", "Arduino IDE", "WiFi (ESP8266)"],
+  "historical_commentary": {
+    "text": "This is a hardware/IoT hobbyist-style tutorial (Arduino IDE, WeMos ESP8266, I2C LCD wiring) whose core idea — a 4D method serving status data over the 4D Web Server to a cheap WiFi microcontroller display — remains architecturally valid, though specific product links (AliExpress listings), driver URLs, and Arduino board-manager steps are highly likely to have gone stale or changed since 2017. The general microcontroller/IoT ecosystem has also evolved substantially (newer ESP32/ESP8266 variants, updated Arduino IDE versions), so exact steps would need revalidation, but 4D's role (a Web Server method returning status data) is unaffected by 4D's own product evolution.",
+    "status": "partially_superseded",
+    "related_updates": ["4D Web Server method-based status endpoint pattern is still valid today", "Specific hardware links, driver download URLs, and Arduino IDE/board-manager steps from 2017 are likely outdated", "Newer/cheaper microcontroller boards (e.g., ESP32) have since become more common than the WeMos ESP8266 featured here"]
+  }
+}

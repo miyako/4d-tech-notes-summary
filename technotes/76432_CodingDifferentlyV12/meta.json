@@ -1,0 +1,27 @@
+{
+  "asset_id": 76432,
+  "title": "Coding differently in 4D V12",
+  "technote_number": "11-27",
+  "year": 2011,
+  "published_date": "November 9, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Christophe Keromen, Cabinet de Consultants CKTI",
+  "page_url": "https://kb.4d.com/assetid=76432",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-27_CodingDifferentlyIn4Dv12.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Method comments and code editor help tips",
+    "Code folding, method Explorer, and 'Goto Definition'",
+    "Assertions (ASSERT) and code refactoring/renaming tools"
+  ],
+  "historical_commentary": {
+    "text": "Most of the code-editor productivity techniques here (structured comments, help tips, folding, ASSERT, Goto Definition, renaming, hyperlinked comments) operate within 4D's classic binary Design Mode method editor and are still functionally present and useful in current 4D, so they remain largely still relevant as coding hygiene practices. However, since methods now live as plain text files under Project mode, some workflow specifics (e.g., navigating the binary Explorer, component-private-method highlighting tied to old component packaging) are dated, and text-based version control/diffing now offers additional refactoring safety nets that did not exist in 2011.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Project mode (text-based .4DProject structure/methods, introduced 4D v17, 2018) changes how code is organized, versioned, and diffed compared to binary Design Mode",
+      "4D language classes (introduced v18/v19) offer additional modern code-organization patterns beyond the method-level tips described here"
+    ]
+  }
+}

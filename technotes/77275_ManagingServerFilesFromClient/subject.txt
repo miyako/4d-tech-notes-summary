@@ -1,0 +1,1 @@
+Managing Server Files from the Client (TN 15-07, 4D v14 R4, April 2015) — builds a sandboxed file browser UI letting 4D client machines view, upload, download, rename, and delete files on the server, using Execute on server methods and FOLDER LIST/DOCUMENT LIST.

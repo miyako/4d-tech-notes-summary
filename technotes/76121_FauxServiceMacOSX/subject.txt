@@ -1,0 +1,1 @@
+Running 4D Server as a Mac OS X "Faux" Service (TN 10-19, 4D Server v11.6, Mac) — a Login Items + AppleScript workaround to auto-launch and cleanly shut down 4D Server on Mac OS X, since it could not be registered as a true OS service like on Windows.

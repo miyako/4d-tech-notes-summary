@@ -1,0 +1,1 @@
+Tech Note: Inexpensive Wireless Status Display Solution with 4D (TN 17-22, 4D v16, November 2017) — builds a cheap WiFi-connected LCD status display using a WeMos ESP8266 microcontroller that polls a 4D Web Server method for status information.

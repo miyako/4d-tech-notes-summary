@@ -1,0 +1,1 @@
+List Boxes in 4D v12: Hierarchy and Printing (TN 11-26, 4D v12, August 18, 2011) — using the new v12 list box commands to build hierarchical, collapsible/expandable array-based list boxes and to print list box content, illustrated with an example database and code excerpts.

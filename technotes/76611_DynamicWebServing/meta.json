@@ -1,0 +1,29 @@
+{
+  "asset_id": 76611,
+  "title": "Tech Note: Dynamic Web Serving",
+  "technote_number": "12-13",
+  "year": 2012,
+  "published_date": "June 29, 2012",
+  "product": "4D",
+  "version": "13.1",
+  "platform": "Mac & Win",
+  "author": "Darrell Draper, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76611",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-13_DynamicWebServing.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Tags",
+    "4DScript",
+    "4DAction",
+    "4DCGI",
+    "On Web Connection / On Web Connection database method",
+    "4D built-in Web Server"
+  ],
+  "historical_commentary": {
+    "text": "This note surveys 4D's classic server-side web content generation techniques (4D Tags, 4DScript, 4DAction, 4DCGI, On Web Connection) for producing semi-dynamic and dynamic pages from the built-in Web Server. These mechanisms still exist and function in current 4D versions for classic web publishing, but 4D's web strategy has since shifted decisively toward REST APIs built on ORDA plus modern client-side frameworks (or Qodly Studio for low-code web/mobile apps), making direct HTML-embedded 4D tag/CGI-style page generation a legacy pattern that is rarely recommended for new development.", "status": "partially_superseded",
+    "related_updates": [
+      "REST APIs built on ORDA (introduced 4D v16 R5/R6, 2017) are now the standard way to expose and consume 4D data from web/mobile clients",
+      "Qodly Studio for low-code web and mobile app development is the modern successor path for building web front-ends against 4D data"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 76121,
+  "title": "Running 4D Server as a Mac OS X \"Faux\" Service",
+  "technote_number": "10-19",
+  "year": 2010,
+  "published_date": "June 24, 2010",
+  "product": "4D",
+  "version": "11.6",
+  "platform": "Mac",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76121",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_17-20_(JUN)/10-19_OSXFauxService.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Mac OS X User Accounts Login Items",
+    "AppleScript application launching and shutdown handling",
+    "4DLink files for pairing 4D Server with a database",
+    ".4dbase self-contained bundles",
+    "PairingsMaker utility database (included with the note)"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a genuine historical gap: unlike Windows, older Mac OS X versions had no built-in mechanism to register 4D Server as a true background service, so the workaround used Login Items plus a paired AppleScript application to launch/quit the server. Modern macOS has since gained first-class facilities for this (launchd daemons/agents via launchctl and .plist definitions), which are more robust and are what 4D's own current server deployment documentation and most admins now recommend instead of the AppleScript/Login Items workaround described here.",
+    "status": "obsolete",
+    "related_updates": [
+      "macOS launchd daemons/agents (launchctl + LaunchDaemon/LaunchAgent .plist files) are the modern, supported way to run 4D Server as a background service on macOS",
+      "4D's own current 4D Server documentation for macOS service/startup configuration supersedes this AppleScript-based technique"
+    ]
+  }
+}

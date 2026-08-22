@@ -1,0 +1,28 @@
+{
+  "asset_id": 76631,
+  "title": "Tech Note: Multiple Web Servers on a Single OS",
+  "technote_number": "12-15",
+  "year": 2012,
+  "published_date": "August 8, 2012",
+  "product": "4D",
+  "version": "12.4",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76631",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-15_MultiWebserversOnSingleOS.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Server (WEB SET OPTION, WEB START/STOP SERVER)",
+    "4D Internet Commands plugin (NET_Resolve)",
+    "Multiple IP addresses on a single OS (Windows & Mac OS X)",
+    "DNS / Fully Qualified Domain Name (FQDN) configuration",
+    "External configuration file for listen IP"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a purely infrastructure/OS-level networking problem (binding multiple IP addresses to one network card and pointing the 4D Web Server at a specific one) rather than a 4D-language feature, so the core technique of configuring multiple static IPs on Windows and Mac OS X is still conceptually valid today, though the specific OS dialogs shown (Windows XP/7-era Network Connections, older Mac OS X Network preference panel) are outdated and modern deployments increasingly favor containerization or reverse proxies over multi-IP single-OS setups. The 4D code itself (WEB SET OPTION with the Web IP address to listen selector) remains part of the current classic language and continues to work in Project mode databases.", "status": "still_relevant",
+    "related_updates": [
+      "Modern multi-server hosting more commonly uses containers/VMs or reverse proxies (e.g. nginx) rather than multiple IPs on one OS",
+      "4D Web Server administration commands (WEB SET OPTION) remain supported in current 4D versions"
+    ]
+  }
+}

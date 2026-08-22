@@ -1,0 +1,1 @@
+Tech Note: Preserving display state with Save Geometry (TN 14-11, 4D v14, July 2014) — introduces the new Save Geometry/Save Value form properties that automatically persist and restore window position, form geometry, and object states via a JSON preference file, eliminating the need for manual programmatic state saving.

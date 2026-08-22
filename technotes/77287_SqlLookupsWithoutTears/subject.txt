@@ -1,0 +1,1 @@
+SQL Lookups without Tears (TN 15-09, 4D v14.x, May 2015) — a third-party guest note presenting a validated "named SQL lookup" framework that wraps 4D's embedded SQL to fetch single field values safely, without breaking silently when tables or fields are renamed or retyped.

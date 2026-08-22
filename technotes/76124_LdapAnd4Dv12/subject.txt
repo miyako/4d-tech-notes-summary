@@ -1,0 +1,1 @@
+LDAP and 4D v12 (TN 10-20) — using 4D v12's new PHP Execute bridge and the PHP LDAP module to authenticate users and share password systems against an LDAP directory such as Active Directory.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 76452,
+  "title": "Integrating OpenSearch with 4D v12",
+  "technote_number": "11-29",
+  "year": 2011,
+  "published_date": "December 16, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Sonya Rackwitz, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76452",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-29_IntegratingOpenSearch.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "OpenSearch description document (XML)",
+    "4D Web Server (built-in HTTP server)",
+    "SQL/query-based keyword search against a Wikipedia sample database"
+  ],
+  "historical_commentary": {
+    "text": "OpenSearch itself is a standards-based browser-search-plugin protocol that never became core 4D API, so nothing here technically broke, but the underlying implementation relies on 4D's classic built-in Web Server and record-selection-based keyword indexing rather than any REST/ORDA data layer. A modern equivalent would expose the same OpenSearch description document from a 4D REST/ORDA endpoint instead of hand-rolled HTML/XML page generation, and browser support for OpenSearch itself has waned industry-wide since 2011.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D REST server built on ORDA (introduced v16 R5/17+) for exposing queryable search endpoints",
+      "Browser vendors have largely deprecated native OpenSearch toolbar integration since the early 2010s, independent of 4D"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Multiple Web Servers on a Single OS (TN 12-15, 4D v12.4, August 2012) — configuring multiple static IP addresses on one machine so several 4D Web Servers can run side by side.

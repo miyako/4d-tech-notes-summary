@@ -1,0 +1,1 @@
+Manage 4D Mobile Session via 4D Language (TN 16-14, 4D Mobile v15 R5, September 2016) — documents new/updated WEB session commands that let 4D methods retrieve, track, and terminate 4D Mobile sessions shared across multiple web processes.
