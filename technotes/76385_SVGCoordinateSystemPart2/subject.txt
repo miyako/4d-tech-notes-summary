@@ -1,0 +1,1 @@
+SVG Coordinate System – Part 2 (TN 11-24, 4D v12, August 1, 2011) — the second installment on 4D SVG transformations, covering the "rotate" and "skew" values of the SVG transform attribute after the earlier note covered "translate" and "scale".

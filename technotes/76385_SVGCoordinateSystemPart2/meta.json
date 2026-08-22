@@ -1,0 +1,27 @@
+{
+  "asset_id": 76385,
+  "title": "SVG Coordinate System \u2013 Part 2",
+  "technote_number": "11-24",
+  "year": 2011,
+  "published_date": "August 1, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76385",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-24_SVG_Coordinate_System_P2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG rendering engine",
+    "SVG transform attribute: rotate and skew",
+    "SVG viewport / viewBox coordinate system"
+  ],
+  "historical_commentary": {
+    "text": "The SVG standard itself (viewport, viewBox, transform rotate/skew) is timeless web knowledge that remains accurate today, but the specific delivery mechanism — 4D's proprietary SVG rendering engine used to draw picture objects in classic Design Mode forms — has fallen out of favor as 4D applications increasingly embed standard web content via web areas instead. Developers wanting rotated/skewed vector graphics in a 4D app today would more likely use an HTML5/SVG web area or a JS charting library than 4D's native SVG picture-object engine.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Web areas embedding standard browser-rendered SVG/HTML5/JS content are now the more common way to display rich interactive vector graphics in 4D applications",
+      "4D View Pro (introduced v17+) for many chart/data-visualization use cases that once relied on 4D SVG"
+    ]
+  }
+}
