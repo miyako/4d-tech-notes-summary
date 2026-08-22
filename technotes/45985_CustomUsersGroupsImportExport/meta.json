@@ -1,0 +1,29 @@
+{
+  "asset_id": 45985,
+  "title": "Tech Note: Custom Users and Groups Import/Export",
+  "technote_number": "07-12",
+  "year": 2007,
+  "published_date": "March 28, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=45985",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_10-12_(MAR)/07-12_Custom_Users_Groups.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "USERS TO BLOB / BLOB TO USERS",
+    "SET PLUGIN ACCESS / Get plugin access",
+    "4D DOM XML commands",
+    "BLOB ENCODE/DECODE (Base64)",
+    "Users and Groups access system"
+  ],
+  "historical_commentary": {
+    "text": "This note builds a custom Users and Groups import/export module (via USERS TO BLOB/BLOB TO USERS plus DOM-based XML serialization) that additionally captures per-plug-in access group assignments, a gap in 4D 2004's built-in import/export feature. The specific plug-in-access commands (SET PLUGIN ACCESS, Get plugin access) target the classic serialized-plug-in licensing model (4D Write, 4D View, 4D Draw, ODBC Pro, etc.) from the mid-2000s, and the XML-via-DOM-commands approach is dated compared to modern JSON/ORDA-based tooling, but the underlying need to programmatically export/import the security model (users, groups, permissions) between databases remains a common administrative task in current 4D.",
+    "status": "superseded",
+    "related_updates": [
+      "USERS TO BLOB/BLOB TO USERS and the plug-in access commands are legacy classic-4D commands still present for backward compatibility but the plug-in licensing model they target (serialized plug-ins like 4D Write/4D View) has evolved substantially",
+      "Modern 4D favors JSON-based data exchange and, for permissions, ORDA/REST-based privilege management over ad hoc DOM-XML serialization"
+    ]
+  }
+}

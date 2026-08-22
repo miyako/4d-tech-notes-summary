@@ -1,0 +1,27 @@
+{
+  "asset_id": 46052,
+  "title": "Tech Note: The Flush Variable",
+  "technote_number": "001",
+  "year": 2007,
+  "published_date": "April 1, 2007",
+  "product": "4D",
+  "version": "1.0",
+  "platform": "Mac & Win",
+  "author": "ACIUS, March",
+  "page_url": "https://kb.4d.com/assetid=46052",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_13-16_(APR)/07-13_Flush_Variable.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Flush system variable",
+    "Macintosh File Manager disk buffering",
+    "Batch record import performance"
+  ],
+  "historical_commentary": {
+    "text": "This is a nostalgia republication (issued as an April Fools' Day tribute in 2007) of the very first 4D Technical Note ever published, originally written in March 1987 by ACIUS (4D's original publisher) and describing the classic Macintosh-era 'Flush' system variable used to defer disk buffer writes for faster batch imports at the cost of crash safety. The note is explicitly and humorously flagged even in 2007 as inapplicable to then-current 4D versions, since it describes 1980s classic Mac OS File Manager buffering behavior that predates the modern 4D engine, journaling, and storage architecture entirely; it survives purely as a historical curiosity illustrating 4D's origins and the two-decade lineage of its Tech Note program.",
+    "status": "historical interest only",
+    "related_updates": [
+      "The Flush system variable and the classic Mac OS File Manager buffering behavior it controlled no longer exist in any current 4D version",
+      "Modern 4D uses a different, journaled storage engine with its own transaction and durability mechanisms unrelated to this 1987-era technique"
+    ]
+  }
+}

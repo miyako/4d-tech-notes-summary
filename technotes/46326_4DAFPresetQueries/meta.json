@@ -1,0 +1,28 @@
+{
+  "asset_id": 46326,
+  "title": "Tech Note: 4D Ajax Framework: Preset Queries",
+  "technote_number": "07-17",
+  "year": 2007,
+  "published_date": "May 1, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=46326",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_17-21_(MAY)/07-17_4DAF_Preset_Queries.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "4D Web 2.0 Pack",
+    "Preset Queries",
+    "Portlet/Portal UI"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates 'Preset Queries', a usability feature of the 4D Ajax Framework (4DAF) that let end users run canned searches against a 4D database from a rich AJAX web portal, revamping an Invoicing demo database as its example. The 4D Ajax Framework itself was a Web 2.0-era subscription add-on for 4D and has long since been superseded by 4D's built-in Web Server, modern JS frameworks, and Qodly-based UI tooling. Only the teaser abstract survives in this archive, so the specific implementation details of how the preset queries were built cannot be assessed, but the underlying concept (offering users predefined saved searches) remains a common and still-relevant UI pattern today.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D Ajax Framework (4DAF) and 4D Web 2.0 Pack subscription products have been discontinued and are not part of current 4D releases",
+      "Modern 4D web development uses the built-in 4D Web Server, REST/ORDA APIs, and contemporary JS frameworks or Qodly Studio instead of 4DAF portlets and Developer Defined Windows"
+    ]
+  }
+}

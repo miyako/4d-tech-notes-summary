@@ -1,0 +1,28 @@
+{
+  "asset_id": 45884,
+  "title": "Tech Note: Printing with 4D View",
+  "technote_number": "07-11",
+  "year": 2007,
+  "published_date": "March 20, 2007",
+  "product": "4D View",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Larry Sharpe",
+  "page_url": "https://kb.4d.com/assetid=45884",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_10-12_(MAR)/07-11_4D_View_Printing.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D View plug-in",
+    "PV PRINT / PV EXECUTE COMMAND",
+    "PV SORT COLUMN",
+    "4D View print preview/page setup"
+  ],
+  "historical_commentary": {
+    "text": "This note updates an earlier 2002 Tech Note's 4D View spreadsheet-style component to add one-click printing of 4D View areas exactly as displayed, using PV PRINT and related commands, and documents a syntax change (PV SORT COLUMN replacing part of PV SET COLUMN HEADER) between 4D View versions. 4D View was a companion spreadsheet/grid plug-in for 4D that predates 4D View Pro (introduced in 4D v17, 2018), and its entire PV_* command set has since been superseded by 4D View Pro's modern spreadsheet engine and API; the note's specific commands and workflow are obsolete, though the general goal (letting users print exactly what they see in a data grid) remains a standard requirement addressed differently in current tooling.",
+    "status": "superseded",
+    "related_updates": [
+      "The legacy 4D View plug-in and its PV_* command set have been superseded by 4D View Pro, introduced in 4D v17 (2018), which uses a different, modern spreadsheet API",
+      "Current 4D View Pro areas have their own built-in printing and export capabilities rather than relying on PV PRINT/PV EXECUTE COMMAND"
+    ]
+  }
+}

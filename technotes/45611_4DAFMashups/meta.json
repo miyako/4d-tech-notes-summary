@@ -1,0 +1,29 @@
+{
+  "asset_id": 45611,
+  "title": "Tech Note: Creating Mashups in the 4D Ajax Framework Client",
+  "technote_number": "07-08",
+  "year": 2007,
+  "published_date": "February 27, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.x",
+  "platform": "Mac & Win",
+  "author": "Jason T. Slack, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=45611",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_05-09_(FEB)/07-08_4DAF_Mashups.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "4D Web 2.0 Pack",
+    "Developer Defined Windows (DDW)",
+    "Google Maps API mashup",
+    "DAX_Dev_DDW_GetAttributes"
+  ],
+  "historical_commentary": {
+    "text": "This note walks through building a Web 2.0-style 'mashup' — embedding a Google Maps view triggered from address data — inside the 4D Ajax Framework Client using a Developer Defined Window (DDW) that opens external HTML/URL content and a small 4D method that constructs a Google Maps URL from record fields. It captures a snapshot of 2007-era rich-internet-application thinking built on 4D's now-discontinued Web 2.0 Pack/4DAF product and the classic Google Maps URL API, both of which have been superseded by 4D's built-in Web Server, modern JS frameworks, and current mapping APIs/embed methods; the specific DAX_Dev_DDW_GetAttributes commands and 4DAF Portal/Settings UI no longer exist in current 4D. The general mashup concept (combining external web content/APIs with local data) remains a standard web development pattern today, just implemented very differently.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D Ajax Framework (4DAF) and 4D Web 2.0 Pack subscription products, including Developer Defined Windows, have been discontinued and removed from current 4D releases",
+      "Modern 4D web/mobile projects would integrate mapping APIs (e.g. Google Maps JavaScript API) directly via the built-in Web Server, REST/ORDA data access, or a custom web component rather than a DDW"
+    ]
+  }
+}

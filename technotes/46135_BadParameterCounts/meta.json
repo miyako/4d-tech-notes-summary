@@ -1,0 +1,29 @@
+{
+  "asset_id": 46135,
+  "title": "Tech Note: Protecting Against Bad Parameter Counts",
+  "technote_number": "07-14",
+  "year": 2007,
+  "published_date": "April 11, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=46135",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_13-16_(APR)/07-14_Bad_Parameter_Counts.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Count parameters",
+    "Compiled vs interpreted mode behavior",
+    "Range checking (compiler option)",
+    "ON ERR CALL",
+    "Defensive programming pattern"
+  ],
+  "historical_commentary": {
+    "text": "This note documents how classic 4D (interpreted vs. compiled, with/without range checking) behaves when a method is called with the wrong number of parameters — ranging from a syntax error dialog to a hard crash or silently corrupted data — and proposes a defensive Count parameters check plus a centralized ParameterCountIsOkay validator method. The specific compiler behaviors described (crash dialogs, uninitialized-memory reads on OS X/Windows) are tied to the classic 4D compiler and pre-date modern 4D's more robust type system and error handling, but the core defensive-programming discipline of validating parameter counts before use remains directly relevant advice for any procedural or scripting-language codebase, including current 4D code with optional parameters.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's language has since added named/typed parameters and other declarative parameter-checking mechanisms in newer versions, reducing (but not eliminating) the need for manual Count parameters checks",
+      "The general principle of validating parameter counts/types defensively before use remains standard practice in 4D development today"
+    ]
+  }
+}

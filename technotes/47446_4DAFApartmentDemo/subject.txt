@@ -1,0 +1,1 @@
+Tech Note: 4D Ajax Framework Apartment Demo (TN 07-35, 4D Web 2.0 Pack v1.1, September 2007) — a step-by-step tutorial for building an apartment-listing web application using the 4DAF Image Matrix object, the Data Filler, and a Google Maps iframe.

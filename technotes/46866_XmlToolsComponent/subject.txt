@@ -1,0 +1,1 @@
+Tech Note: The XML Tools Component (TN 07-25, 4D v2004, July 2007) — introduces a ~70-method 4D component that wraps native DOM XML commands with higher-level, error-safe utilities for reading, writing, searching, and displaying XML data.

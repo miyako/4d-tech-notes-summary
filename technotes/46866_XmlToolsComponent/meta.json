@@ -1,0 +1,29 @@
+{
+  "asset_id": 46866,
+  "title": "Tech Note: The XML Tools Component",
+  "technote_number": "07-25",
+  "year": 2007,
+  "published_date": "July 3, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=46866",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_22-25_(JUN)/07-25_XML_Tools_Component.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "XML Tools component",
+    "4D DOM XML commands",
+    "XmlNode / XmlTree / XmlTreeWalker / XmlTreeList / XmlFind / XmlPath utilities",
+    "4D component compilation"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces a comprehensive, ~70-method 4D component wrapping 4D's native DOM XML commands with error-safe, higher-level utilities for reading, writing, searching, and displaying XML, packaged as a distributable component to simplify updates and reduce boilerplate error checking across databases. Its design principles (reducing surface complexity, centralizing error handling behind gateway methods, recommending compilation for recursive tree code) are sound software-engineering practices that remain relevant, but the specific component and its 2004-era procedural APIs have been superseded by improvements to 4D's own native XML commands and by the industry's broad shift toward JSON as the default interchange format. It predates 4D v11's SQL engine, Project Mode, and ORDA.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's native XML/DOM command set has been extended and improved in many releases since 2007",
+      "JSON has largely replaced XML as the default data-interchange format in modern 4D development",
+      "The standalone XML Tools component is not part of any current, actively distributed 4D toolkit"
+    ]
+  }
+}

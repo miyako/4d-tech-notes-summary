@@ -1,0 +1,28 @@
+{
+  "asset_id": 11796,
+  "title": "Using ACI_PACK to read and display pictures",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "March 1, 1998",
+  "product": "ACI Pack",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11796",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "ACI_PACK plug-in",
+    "4D Picture handling",
+    "PICT/BMP/JPEG/GIF/WMF/EMF image formats",
+    "Blob-based picture I/O"
+  ],
+  "historical_commentary": {
+    "text": "ACI_PACK was a widely used productivity plug-in bundled with 4D in the v6 era, providing extended picture handling and other utility routines that 4D's built-in language did not yet offer. The specific AP-prefixed commands (AP Get Picture Type, AP Read Picture Blob, etc.) have long been superseded by native 4D picture commands and BLOB operations introduced in later versions. The image format landscape has also shifted dramatically — PICT is extinct, WMF/EMF rarely used — but the concept of reading and writing multiple image formats from 4D remains fundamental.",
+    "status": "obsolete",
+    "related_updates": [
+      "ACI_PACK has been discontinued; its picture-handling functions were absorbed into native 4D commands (READ PICTURE FILE, WRITE PICTURE FILE, PICTURE CODEC LIST, etc.)",
+      "PICT format support was dropped by Apple and 4D; modern 4D works with PNG, JPEG, SVG, and other contemporary formats natively"
+    ]
+  }
+}

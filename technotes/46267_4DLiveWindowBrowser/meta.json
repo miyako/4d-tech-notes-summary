@@ -1,0 +1,29 @@
+{
+  "asset_id": 46267,
+  "title": "Tech Note: Building a Simple Browser with 4D Live Window",
+  "technote_number": "07-16",
+  "year": 2007,
+  "published_date": "April 26, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.0",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=46267",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_13-16_(APR)/07-16_4DLW_Browser.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Live Window plug-in",
+    "4D Web 2.0 Pack",
+    "WEB_SetPreferences / navigation events",
+    "CALL PROCESS",
+    "Embedded web browser control"
+  ],
+  "historical_commentary": {
+    "text": "This is a development-diary style note walking through building a simple embedded web browser UI using the 4D Live Window plug-in, focusing on its event callback model (Before/During/After/Error) for tracking browser navigation state. 4D Live Window was a Web 2.0 Pack component for embedding a native browser control inside 4D forms, a need now served natively by 4D's built-in Web Area / Web Area 4D View components in modern 4D versions without requiring a separate plug-in. The specific plug-in, its licensing model, and its command set (WEB_SetURL, WEB_Back, WEB_SetPreferences) are obsolete, though the underlying event-driven navigation-tracking pattern described remains conceptually applicable to any embedded browser control.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D Live Window plug-in and 4D Web 2.0 Pack subscription products have been discontinued",
+      "Current 4D versions provide a built-in Web Area form object for embedding browser content, removing the need for a separate plug-in and its custom WEB_* commands"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 46210,
+  "title": "Tech Note: Optimizing Fuzzy Searches",
+  "technote_number": "07-15",
+  "year": 2007,
+  "published_date": "April 19, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=46210",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_13-16_(APR)/07-15_Fuzzy_Searches.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "FuzzyTools component",
+    "Edit distance (Levenshtein) algorithm",
+    "Longest Common Subsequence (LCS) algorithm",
+    "QUERY SELECTION optimization",
+    "SELECTION TO ARRAY"
+  ],
+  "historical_commentary": {
+    "text": "This note optimizes fuzzy string matching (edit distance and LCS algorithms) in the FuzzyTools component by pre-filtering candidate records using indexed string-length fields before running expensive sequential comparisons. The specific FuzzyTools component and its 4D 2004-era command syntax (Fuzzy_FindByEditDistanceCount, Fuzzy_FindByLCSLength) are tied to classic procedural 4D code predating 4D v11's native SQL engine and predating ORDA, but the core algorithmic insight — using string length as an indexed pre-filter to bound edit-distance/LCS search space before sequential comparison — is a timeless optimization technique still valid in any fuzzy-matching implementation today. Modern 4D developers would more likely reach for full-text search indexes or external fuzzy-matching libraries/services rather than a custom component like this.",
+    "status": "historical interest only",
+    "related_updates": [
+      "The specific FuzzyTools component and its command set are a third-party/community 4D component from this era, not part of core 4D",
+      "The length-based pre-filtering optimization technique for edit-distance/LCS fuzzy matching remains generally applicable regardless of platform"
+    ]
+  }
+}

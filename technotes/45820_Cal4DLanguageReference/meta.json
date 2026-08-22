@@ -1,0 +1,27 @@
+{
+  "asset_id": 45820,
+  "title": "Tech Note: Cal4D Component - Language Reference",
+  "technote_number": "07-10",
+  "year": 2007,
+  "published_date": "March 14, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Dave Batton (Cal4D component author)",
+  "page_url": "https://kb.4d.com/assetid=45820",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_10-12_(MAR)/07-10_Cal4D_Language.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Cal4D component",
+    "4D 2004 calendar/scheduling UI",
+    "4D Partnerware component licensing"
+  ],
+  "historical_commentary": {
+    "text": "This is Part Two of a two-part note covering the Cal4D calendar component for 4D 2004, providing a public-method language reference for developers who already installed the full-featured calendar component described in Part One. Only the short teaser abstract is available in this archive since the original distribution was a self-extracting .exe not accessible in this environment, so no method-level details can be assessed here. Cal4D was a third-party/partnerware component for adding calendar UI to a classic 4D 2004 database (pre-dating 4D's built-in Picture/Calendar form objects and pre-dating Project Mode and ORDA entirely), and any component built against that era's 4D API would need significant rework to run on current 4D versions.",
+    "status": "obsolete",
+    "related_updates": [
+      "The full archive for this note could not be recovered in this environment (old self-extracting .exe format), so only the teaser text is available",
+      "Cal4D was a third-party component for 4D 2004; current 4D versions offer their own calendar-related form objects and would require a modern, actively maintained calendar component instead"
+    ]
+  }
+}
