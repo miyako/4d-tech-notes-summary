@@ -5,14 +5,6 @@ A complete, browsable summary of every **4D Tech Note** ever published on
 each reduced to a 4-file summary (one-line subject, one-paragraph summary,
 one-page summary, and structured metadata with historical commentary).
 
-> **What is 4D?** 4D is an application development IDE first released in the
-> 1980s, notable for extremely long-lived backward compatibility.
->
-> **What are Tech Notes?** Documents + sample databases 4D published to its
-> developer community to showcase new/advanced techniques. Reading them in
-> reverse chronological order traces the product's technical evolution and
-> the "zeitgeist" of each era (client-server → web → ORDA → cloud/AI).
-
 ## Repository layout
 
 ```
