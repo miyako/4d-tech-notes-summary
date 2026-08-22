@@ -1,0 +1,28 @@
+{
+  "asset_id": 75998,
+  "title": "Dynamically Creating Tag Clouds with SVG",
+  "technote_number": "10-03",
+  "year": 2010,
+  "published_date": "January 25, 2010",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75998",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_01-04_(JAN)/10-03_TagCloud.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL SVG support (DOM EXPORT TO PICTURE, XML/DOM commands)",
+    "4D SVG component for designing SVG graphics",
+    "Web Area for clickable/interactive image display",
+    "Tag cloud data-driven visualization algorithm"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates generating data-driven tag clouds by building SVG documents dynamically via 4D v11 SQL's newly introduced XML/DOM commands, rendering them as clickable picture variables or in a classic Web Area form object. SVG-in-4D via DOM XML commands and the classic Web Area still function today, but 4D has since added more direct, higher-level ways to work with SVG and interactive visualizations, and modern 4D web development increasingly favors HTML/CSS/JS rendered in the (now Chromium-based) Web Area or dedicated charting/visualization components rather than hand-assembling SVG through DOM XML commands. The core tag-cloud/weighted-visualization idea remains valid, but the specific SVG-construction technique is a dated way to achieve it.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's Web Area component was substantially modernized (Chromium-based rendering, later versions) improving how rich interactive/HTML content like tag clouds can be built and displayed",
+      "Modern 4D projects more commonly use HTML/CSS/JS-based visualizations or dedicated charting libraries rather than hand-built SVG via DOM XML commands"
+    ]
+  }
+}

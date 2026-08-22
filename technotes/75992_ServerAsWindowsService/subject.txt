@@ -1,0 +1,1 @@
+Tech Note: Running 4D Server as a Service on Windows (TN 10-02) — explains what a Windows service is, why running 4D Server as one is beneficial, how to register/unregister it, per-OS caveats from Windows XP through Server 2008, and how to maintain it across intermediate software and structure updates.

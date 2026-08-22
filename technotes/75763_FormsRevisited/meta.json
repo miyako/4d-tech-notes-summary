@@ -1,0 +1,29 @@
+{
+  "asset_id": 75763,
+  "title": "Tech Note: Forms Revisited",
+  "technote_number": "09-20",
+  "year": 2009,
+  "published_date": "May 21, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75763",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_18-21_(MAY)/09-20_Forms_Revisited.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D classic Form editor (Input/Output/Project/Form Wizard/User Forms)",
+    "Project Forms (introduced in 4D v11 SQL)",
+    "Inherited forms",
+    "Multi-page forms and style sheets",
+    "Dynamic form resizing / element show-hide"
+  ],
+  "historical_commentary": {
+    "text": "This note surveyed 4D's classic Design-mode form types and best practices \u2014 including Project Forms, newly introduced in v11 SQL as table-independent forms \u2014 along with inherited forms, multi-page forms, style sheets, and dynamic resizing. These classic binary-structure forms remain fully supported and are still how most existing 4D applications are built, so the concepts and guidance here are largely current, but 4D has since introduced Project mode (storing forms as JSON text files rather than binary structure objects), making forms version-controllable and diffable, which changes the underlying storage model (though the design concepts of form types, inheritance, and style sheets carry over largely unchanged).",
+    "status": "still_relevant",
+    "related_updates": [
+      "Project mode (4D v17+, 2018) stores forms as JSON text files rather than as binary objects inside the structure file, enabling version control/diffing, though the form design concepts described here (Project Forms, inheritance, style sheets, multi-page) still apply",
+      "Form inheritance, style sheets, and dynamic resizing/show-hide patterns remain core, current techniques in 4D form design today"
+    ]
+  }
+}

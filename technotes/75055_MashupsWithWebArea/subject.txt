@@ -1,0 +1,1 @@
+Using the 4D Web Area to build Web 2.0-style "Mashups" that combine 4D data with Google Maps, FedEx tracking, and generated correspondence.

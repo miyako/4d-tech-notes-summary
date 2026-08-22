@@ -1,0 +1,26 @@
+{
+  "asset_id": 75972,
+  "title": "Shortcuts in 4D v11 SQL",
+  "technote_number": "09-47",
+  "year": 2009,
+  "published_date": "December 18, 2009",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Luis Pi\u00f1eiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75972",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_46-48_(DEC)/09-47_ShortcutsIn4D.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Design mode keyboard shortcuts (Structure Editor, Method Editor, Form Editor, Debugger, etc.)",
+    "shortcuts.xml customization file"
+  ],
+  "historical_commentary": {
+    "text": "This note is a comprehensive reference of default keyboard shortcuts across 4D's Design-mode editors (Structure Editor, Method Editor, Form Editor, Debugger, and more) for both Mac and Windows, and notes that shortcuts.xml can be edited to customize them. The general value of keyboard shortcuts is timeless, but this specific reference is tied to the pre-Project-mode 4D Design environment and interface layout of v11 SQL; the editors, menu structure, and many shortcuts have since changed substantially (especially with the move to Project mode in v17 and subsequent IDE redesigns), so this document is a historical snapshot rather than an accurate current reference.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's IDE and Design/Project mode environment have been substantially redesigned since v11 SQL (notably Project mode in v17, 2018), changing many menus, editors, and their associated shortcuts",
+      "Current shortcut references are maintained in 4D's up-to-date documentation rather than this v11-era snapshot"
+    ]
+  }
+}

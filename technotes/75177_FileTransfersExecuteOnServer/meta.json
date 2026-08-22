@@ -1,0 +1,29 @@
+{
+  "asset_id": 75177,
+  "title": "Tech Note: File Transfers using Execute on Server",
+  "technote_number": "09-06",
+  "year": 2009,
+  "published_date": "February 11, 2009",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75177",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_05-08-(FEB)/09-06_Server_File_Transfers.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Execute on Server method property (4D v11 SQL Release 2), a 'twin process' alternative to the Execute on Server command",
+    "GFFS (Get Files from Server) sample: chunked BLOB file transfer using READ PACKET/SEND PACKET",
+    "Manual multipart BLOB protocol with custom header bytes for chunk numbering",
+    "4D Client/Server automatic parameter and dereferenced-pointer synchronization"
+  ],
+  "historical_commentary": {
+    "text": "This note explains the Execute on Server method property (introduced in 4D v11 SQL Release 2) as a simpler alternative to the Execute on Server command, and applies it to a hand-built chunked file-transfer scheme (GFFS) that manually splits large files into blobs with custom header bytes to work around then-current transfer size practicalities. The Execute on Server method property itself remains a current, fully supported 4D Server feature for delegating logic to the server in Client/Server mode. However, the GFFS file-chunking technique is a manual workaround for limitations in transferring large binary data between client and server that has been substantially reduced by later improvements to 4D's client/server networking and blob/document handling, and a modern implementation would likely rely on built-in document transfer facilities, REST endpoints, or newer client/server APIs rather than a hand-rolled multipart blob protocol.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "The Execute on Server method property remains a current 4D Server feature unchanged in principle since this note",
+      "4D's client/server networking and file/document handling have significantly improved since 2009, reducing the need for the hand-built chunked-blob transfer protocol (GFFS) shown here",
+      "REST server + ORDA (4D v16 R5+, 2017) offers an additional, more modern channel for transferring data/files between client and server tiers"
+    ]
+  }
+}

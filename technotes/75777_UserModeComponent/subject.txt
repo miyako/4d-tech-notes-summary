@@ -1,0 +1,1 @@
+User Mode Component (TN 09-21) — a reusable component that recreates the classic 4D "User Mode" generic record browser/editor (sort, query, import/export, report) for use in built/compiled applications, with configurable per-table, per-feature access control.

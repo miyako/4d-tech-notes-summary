@@ -1,0 +1,29 @@
+{
+  "asset_id": 75757,
+  "title": "Tech Note: Automatic Drop of External Files into 4D",
+  "technote_number": "09-19",
+  "year": 2009,
+  "published_date": "May 14, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Joe Resuello, Tech Marketing Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75757",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_18-21_(MAY)/09-19_DragDrop4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Automatic Drag / Automatic Drop properties (4D v11 SQL)",
+    "4D Web Area (drag-and-drop target for pictures, PDFs, HTML, QuickTime, rich/plain text)",
+    "Picture Variable and Text Variable drag-and-drop targets",
+    "On Data Change / On After Edit form events"
+  ],
+  "historical_commentary": {
+    "text": "This note explored 4D v11 SQL's then-new Automatic Drag/Automatic Drop properties, which let external files (pictures, PDFs, HTML, QuickTime movies, rich/plain text) be dropped directly onto Picture Variables, Web Areas, and Text Variables with no custom code. The core drag-and-drop properties and events described are still present and functional in current 4D versions, but the specific object being showcased \u2014 the classic 4D Web Area \u2014 has since been complemented by newer, Chromium-based web area implementations with materially different rendering and drop behavior, and QuickTime itself was discontinued by Apple years ago, so the QuickTime-specific behavior described is obsolete.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "QuickTime was discontinued by Apple (2016) and is no longer supported on modern macOS, making the QuickTime movie drop behavior described here obsolete",
+      "4D's Web Area has been modernized with Chromium-based rendering in later 4D versions, which may change some of the specific drag-and-drop/rendering behaviors documented for the 2009-era Web Area",
+      "The Automatic Drag/Automatic Drop properties and On Data Change/On After Edit events remain valid, current 4D form techniques"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "asset_id": 75932,
+  "title": "Web Account Registration",
+  "technote_number": "09-40",
+  "year": 2009,
+  "published_date": "October 29, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75932",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_38-40_(OCT)/09-40_WebAccountRegistration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Web Account Component (WAC) — built 4D component for account signup/login",
+    "4D classic Web Server / On Web Connection database method",
+    "4D Internet Commands plug-in (SMTP email sending)",
+    "XML-based settings/user storage outside the data file",
+    "Plain HTML/JavaScript signup and change-password forms"
+  ],
+  "historical_commentary": {
+    "text": "This note packages a fairly complete web account registration system — signup, password change, login validation, and an SMTP-driven confirmation email — as a reusable, pre-11.x-style compiled component wired through the classic On Web Connection database method. The overall need (self-service account registration for a web app) is timeless, but the implementation is entirely built on 4D's original CGI-like classic Web Server model and stores data in flat XML files, patterns 4D has since moved well beyond with its built-in REST server, ORDA-based data model, and native JSON/session handling. A modern equivalent would use 4D's REST server with ORDA entities and session tokens rather than a custom URL-routing component and hand-rolled XML persistence, and would very likely also apply password hashing/salting practices not evident in this 2009-era approach.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's built-in REST server (4D v16+) with ORDA and session-based authentication supersedes hand-rolled On Web Connection URL routing for building account/login APIs",
+      "Modern 4D web apps typically store user data as ORDA entities/data model tables rather than flat XML settings files outside the data file",
+      "Contemporary security practice requires salted password hashing (not evident in this component) rather than storing/transmitting plain email+password pairs"
+    ]
+  }
+}

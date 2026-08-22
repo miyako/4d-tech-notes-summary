@@ -1,0 +1,1 @@
+Forms Revisited (TN 09-20) — a broad survey of 4D form design: Input/Output, Project, Form Wizard, and User Forms; form elements and properties; ideal form sizing; inherited forms; multi-page forms; style sheets; resizing; and hiding/showing elements.

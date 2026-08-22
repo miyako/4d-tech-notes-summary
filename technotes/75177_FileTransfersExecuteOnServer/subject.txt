@@ -1,0 +1,1 @@
+Tech Note 09-06: explains the new Execute on Server method property introduced in 4D v11 SQL Release 2 and demonstrates it by implementing GFFS, a sample file-transfer system that pulls documents from the 4D Server machine to clients in size-limited chunks.

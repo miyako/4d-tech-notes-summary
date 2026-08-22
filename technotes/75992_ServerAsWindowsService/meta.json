@@ -1,0 +1,26 @@
+{
+  "asset_id": 75992,
+  "title": "Running 4D Server as a Service on Windows",
+  "technote_number": "10-02",
+  "year": 2010,
+  "published_date": "January 15, 2010",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75992",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_01-04_(JAN)/10-02_Running_4D_Server_as_a_Service.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Windows Service registration for 4D Server",
+    "Services Control Panel / command-line service management (sc.exe)",
+    "OS-specific caveats (Windows XP, Server 2003, Vista/7, Server 2008)"
+  ],
+  "historical_commentary": {
+    "text": "This note explains why and how to register 4D Server as a Windows service so it starts/stops automatically with the OS and runs without a logged-in user session, including per-OS caveats for Windows XP through Server 2008 and Vista/7, plus maintenance and intermediate-update guidance. Running a database server as a Windows service is still standard practice today, and 4D still supports service-mode deployment, but the specific OS-version caveats (XP, Server 2003, early Vista) are obsolete since those operating systems are long past end-of-life; current 4D documentation targets modern Windows Server releases with updated service-registration guidance.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "The OS-specific caveats for Windows XP, Server 2003, and Vista in this note are obsolete as those systems have reached end-of-life; refer to current 4D Server documentation for service deployment on supported Windows Server versions"
+    ]
+  }
+}

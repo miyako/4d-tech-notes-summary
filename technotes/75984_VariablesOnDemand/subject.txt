@@ -1,0 +1,1 @@
+Tech Note: Variables On Demand (TN 10-01) — a 4D v11 SQL component enabling runtime creation, pointer-based access, and cooperative garbage collection of "anonymous" variables, reducing reliance on statically pre-declared process/interprocess variables even in compiled databases.

@@ -1,0 +1,1 @@
+Automatic Drop of External Files into 4D (TN 09-19) — exploring 4D v11 SQL's Automatic Drag/Automatic Drop form object properties, showing what happens when pictures, PDFs, HTML, QuickTime movies, and text are dropped into Picture Variables, Web Areas, and Text Variables with no custom code.

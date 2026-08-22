@@ -1,0 +1,28 @@
+{
+  "asset_id": 75777,
+  "title": "Tech Note: User Mode Component",
+  "technote_number": "09-21",
+  "year": 2009,
+  "published_date": "May 28, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=75777",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_18-21_(MAY)/09-21_UserMode.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D component architecture",
+    "List box-based generic record browser/editor",
+    "SET ALLOWED METHODS (formula editor security)",
+    "Generic maintenance-mode UI (Show/Modify/New/Delete/Report/Import/Export/Execute controls)"
+  ],
+  "historical_commentary": {
+    "text": "This note provided a component recreating the classic 4D \"User Mode\" (a generic, table-driven record browser/editor with sort, query, import/export, and report capabilities) for use even in built/compiled applications where 4D's own Design-time User Mode is unavailable. The generic-maintenance-tool concept is timeless and the component architecture pattern shown is still valid, but the underlying list box, Quick Report, and formula editor building blocks are all classic-language UI elements; a similarly-purposed tool built today would likely be constructed with 4D's more modern list box/collection binding and could optionally leverage ORDA for more flexible, entity-based data access rather than raw table/selection based commands.",
+    "status": "still_relevant",
+    "related_updates": [
+      "The classic list box, formula editor, and table/selection commands used to build this component remain fully functional in current 4D versions",
+      "ORDA (4D v16 R5+, 2017) offers an alternative, more flexible way to build a generic data browser against entity selections rather than table-numbered classic selections"
+    ]
+  }
+}

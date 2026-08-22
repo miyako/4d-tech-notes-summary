@@ -1,0 +1,1 @@
+Tech Note: Shortcuts in 4D v11 SQL (TN 09-47) — a comprehensive Mac/Windows reference of default keyboard shortcuts across 4D's Design mode menus and editors, including the Structure Window, Method Editor, Form Editor, Debugger, and more, plus a note on customizing them via shortcuts.xml.

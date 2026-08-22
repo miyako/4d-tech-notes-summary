@@ -1,0 +1,32 @@
+{
+  "asset_id": 75055,
+  "title": "Tech Note: Mashups with 4D v11 SQL Web Area",
+  "technote_number": "08-44",
+  "year": 2008,
+  "published_date": "December 18, 2008",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75055",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_42-44_(DEC)/08-44_Web_Area_Mashups.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Area (WebKit on Mac, ActiveX on Windows)",
+    "WA OPEN URL",
+    "Google Maps URL integration",
+    "FedEx tracking URL integration",
+    "Dynamic HTML document generation from 4D",
+    "Web 2.0 'Mashup' concept"
+  ],
+  "historical_commentary": {
+    "text": "This note revisits the 'Mashup' concept (originally introduced via the older 4D Live Window plug-in) using the then-new Web Area to embed maps, external websites, shipment tracking, and generated correspondence documents inside a 4D form. Directly embedding third-party sites like Google Maps or FedEx tracking via a raw URL in an embedded browser control is a fragile, dated integration pattern - those providers now require API keys, use different URL schemas, and often block iframe/webview embedding. Displaying the same data today would more idiomatically use dedicated REST APIs (e.g., Google Maps JavaScript API, FedEx REST tracking API) called from 4D via native HTTP requests, formatted into modern responsive components rather than assembled as raw concatenated HTML strings.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's native HTTP/REST request commands (e.g., HTTP Request, later 4D.HTTPRequest class) for calling modern JSON/REST mapping and shipping APIs directly instead of embedding raw provider URLs",
+      "Google Maps and FedEx now require authenticated API access rather than open URL parameters used here",
+      "Chromium-based Web Area replacing the WebKit/ActiveX engines referenced",
+      "4D Write Pro / modern templating for generating correspondence documents instead of hand-concatenated HTML strings"
+    ]
+  }
+}

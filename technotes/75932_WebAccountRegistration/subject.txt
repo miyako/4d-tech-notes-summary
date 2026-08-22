@@ -1,0 +1,1 @@
+Web Account Registration (TN 09-40) — a reusable Web Account Component (WAC) that adds self-service signup, password-change, and login validation to a 4D web application, with SMTP-driven confirmation emails and XML-based storage.

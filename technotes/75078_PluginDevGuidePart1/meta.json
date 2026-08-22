@@ -1,0 +1,33 @@
+{
+  "asset_id": 75078,
+  "title": "Tech Note: 4D Plug-in Development Guide - Part 1",
+  "technote_number": "09-02",
+  "year": 2009,
+  "published_date": "January 14, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Keisuke Miyako, 4D Japan",
+  "page_url": "https://kb.4d.com/assetid=75078",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_01-04_(JAN)/09-02_4D_Plug-in_Dev_Guide_-_Part_1.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Plug-in API (C-based)",
+    "Xcode / Visual Studio project setup",
+    "Unicode / endianness handling",
+    "Universal Binary (PPC/Intel)",
+    "Plug-in Wizard",
+    "Cross-platform text/picture/numeric data handling",
+    "Altura library (Mac-to-Windows porting)",
+    "QuickDraw (sunset)"
+  ],
+  "historical_commentary": {
+    "text": "This is a foundational plug-in development guide written right as 4D v11 SQL introduced Unicode support, Universal Binary, and the retirement of QuickDraw and Altura-based Mac-to-Windows porting — a genuine technology inflection point for native 4D plug-ins. The core plug-in API and C/C++ toolchain approach (Xcode/Visual Studio) it describes remains largely valid today: 4D still supports compiled C-based plug-ins with a similar architecture, so this is still_relevant as an introduction to plug-in fundamentals. However, many of today's simpler cross-platform extension needs are now better served by 4D's project-based classes (introduced ~v18-19) or by calling external processes/REST APIs directly, reducing the need to write a full native plug-in for basic tasks.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D language classes (introduced 4D v18/v19, ~2019-2020) for many extension needs that previously required a compiled plug-in",
+      "4D's modern native Unicode/UTF-8 text handling throughout the language, built on the foundations this note describes",
+      "Current 4D Plug-in API documentation reflects further API evolution since 4D v11"
+    ]
+  }
+}

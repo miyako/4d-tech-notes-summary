@@ -1,0 +1,1 @@
+Tech Note: Dynamically Creating Tag Clouds with SVG (TN 10-03) — shows how to build data-driven tag clouds using 4D v11 SQL's new SVG support, generating SVG documents via DOM XML commands and rendering them as clickable images that link back to underlying records.

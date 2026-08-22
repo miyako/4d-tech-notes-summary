@@ -1,0 +1,31 @@
+{
+  "asset_id": 75071,
+  "title": "Tech Note: Collapsible Lists with Web Area",
+  "technote_number": "09-01",
+  "year": 2009,
+  "published_date": "January 7, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Joe Resuello, Technical Marketing Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75071",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_01-04_(JAN)/09-01_Collapsible_Lists.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Area (WebKit on Mac, ActiveX on Windows)",
+    "4D HTML TAGS / PROCESS HTML TAGS",
+    "WA OPEN URL command",
+    "HTML/CSS/JavaScript in a 4D form",
+    "Compositing Mode windows",
+    "BLOB TO DOCUMENT / DOCUMENT TO BLOB"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates a clever but heavyweight workaround of its time: manually generating an HTML file via 4D TAGS/PROCESS HTML TAGS and loading it into the classic Web Area to get UI capabilities (collapsible lists, custom styling) unavailable in native 4D forms. The underlying Web Area component itself (backed by platform-native WebKit/ActiveX engines) was superseded years ago by a Chromium-based Web Area, and 4D forms since ~v18+ gained much richer native styling (CSS-based form objects) and list box capabilities that reduce the need for this HTML-embedding technique. The specific 4D TAGS templating approach is largely obsolete in favor of native JSON/ORDA-backed list boxes or modern Web Area JavaScript bridges.",
+    "status": "obsolete",
+    "related_updates": [
+      "Chromium-based Web Area (replacing WebKit/ActiveX engines)",
+      "CSS-stylable form objects and object-array/collection list boxes (4D v17+)",
+      "4D Web Area JavaScript bridge (WA EXECUTE JAVASCRIPT / WA GET/SET PICTURE, WA EVALUATE JAVASCRIPT) offering direct JS interop instead of static HTML templating with 4D TAGS"
+    ]
+  }
+}

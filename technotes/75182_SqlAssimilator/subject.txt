@@ -1,0 +1,1 @@
+Tech Note 09-07: documents the 4D v11 SQL Assimilator component, a migration wizard that uses 4D's new native SQL engine (with ODBC where needed) to reproduce tables and import data from MySQL, SQL Server 2000, MS Access, or older 4D databases into a new or existing 4D v11 SQL database.

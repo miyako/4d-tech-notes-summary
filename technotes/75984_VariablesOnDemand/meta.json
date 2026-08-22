@@ -1,0 +1,27 @@
+{
+  "asset_id": 75984,
+  "title": "Variables On Demand: A 4D v11 SQL Component for the Creation and Management of Variables On Demand",
+  "technote_number": "10-01",
+  "year": 2010,
+  "published_date": "January 8, 2010",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.; Peter Lerch, Softworks AG",
+  "page_url": "https://kb.4d.com/assetid=75984",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_01-04_(JAN)/10-01_VariablesOnDemand.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Variables On Demand (VOD) 4D v11 SQL component",
+    "DVar4D_New / DVar4D_Get / DVar4D_Clear pointer-referenced variable API",
+    "Cooperative garbage collection for dynamic variable pools"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a component that lets a 4D application dynamically create, reference (via pointer), and garbage-collect anonymous variables at runtime, addressing a real limitation of the classic language where variables are statically declared and scoped at compile time even in compiled applications. This runtime-variable-pool pattern is a clever workaround for a genuine 4D classic-language constraint, and it would still function today. However, since 4D v16-17 the language has gained project-based classes, native Collection/Object types, and dynamic attribute assignment on objects, all of which give developers far more idiomatic ways to model dynamic, on-demand data than a hand-managed pool of anonymous pointer-referenced variables, making this component's technique largely superseded by more modern language features.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Objects and Collections (introduced around 4D v16, 2016) allow dynamic, runtime-defined properties/keys, replacing much of the need for a hand-built 'variable on demand' pool",
+      "4D classes (project-based classes, 4D v17.3+) offer a more modern, structured alternative for managing dynamic state than anonymous pointer-referenced variables"
+    ]
+  }
+}

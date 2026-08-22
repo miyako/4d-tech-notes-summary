@@ -1,0 +1,28 @@
+{
+  "asset_id": 75182,
+  "title": "Tech Note: 4D v11 SQL Assimilator",
+  "technote_number": "09-07",
+  "year": 2009,
+  "published_date": "February 17, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75182",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_05-08-(FEB)/09-07_4D_v11_SQL_Assimilator.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Assimilator component using native 4D SQL to read system tables of external databases",
+    "ODBC-based connections to MySQL, SQL Server 2000, MS Access; direct connection to 4D v11 SQL Server",
+    "Wizard UI for table/field selection, record preview, and cycle-based (chunked) batch import",
+    "Automatic table/data-type migration into a new or existing 4D v11 SQL structure"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's ODBC/native-SQL-based database migration wizard for pulling table structures and data from third-party SQL databases (or pre-v11 4D databases) into a new 4D v11 SQL structure, notable at the time because it was the first Assimilator built entirely on 4D's then-new native SQL engine rather than relying on ODBC plug-ins for everything. The core migration need (bring external data into 4D) is timeless, but this specific component, its ODBC/DSN-centric workflow, and its system-table-parsing implementation for long-superseded database versions (SQL Server 2000, MySQL 5-era, Access) reflect 2009-era interoperability tooling; 4D's SQL engine, connection options, and even the concept of assimilation tooling have evolved substantially since, and current migration approaches would typically favor modern connectors, direct database drivers, or custom SQL/ODBC scripts built against current-generation databases rather than this specific decade-old component.",
+    "status": "deprecated",
+    "related_updates": [
+      "4D's native SQL engine and supported database connectivity (ODBC drivers, direct connections) have been substantially updated since 2009, making the specific driver/version assumptions in this note outdated",
+      "Modern 4D data-migration needs are more commonly addressed with current ODBC/SQL connectivity or ORDA-based remote datastore access rather than this specific legacy Assimilator component"
+    ]
+  }
+}
