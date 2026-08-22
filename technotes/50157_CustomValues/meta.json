@@ -1,0 +1,33 @@
+{
+  "asset_id": 50157,
+  "title": "Tech Note: Custom Values in the 4D Ajax Framework",
+  "technote_number": "08-23",
+  "year": 2008,
+  "published_date": "June 19, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Tim Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=50157",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_21-24_(JUN)/08-23_4DAF_Custom_Values.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework Custom Values",
+    "Data Bridge 2.0 object",
+    "Frontend-to-backend data exchange (name/value pairs)",
+    "DAX_Dev_GetWebVar() backend command",
+    "DAX_Dev_SetCustomVariables() backend method",
+    "Chart, Grid, and Query custom value attachment",
+    "Car dealership quoting system example"
+  ],
+  "historical_commentary": {
+    "text": "Custom Values were a clever mechanism for passing arbitrary developer-defined parameters between the 4D Ajax Framework web frontend and the backend 4D database without relying on specific framework objects like Data Grids. Working with the beta-stage Data Bridge 2.0 object (successor to Bridge 1.0), developers could send custom values from JavaScript, intercept them in the DAX_DevHook_OnQuery backend method, and return computed results back to JavaScript—enabling scenarios like dynamic price calculation (the example uses a car dealership quoting system where model selection triggers custom value updates to recompute color/option prices). This pattern was foundational for 4DAF interactivity but became obsolete when 4D adopted REST APIs and ORDA, relegating Custom Values to a historical footnote in 4D's web architecture.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and Data Bridge 2.0 have been discontinued",
+      "Custom Values as a data exchange mechanism have no direct equivalent in modern 4D",
+      "REST APIs (v12+) replaced the DAX hook/custom variable pattern with standard HTTP request/response",
+      "ORDA (v18+) and JSON provide native, type-safe data exchange without manual name/value pair marshaling"
+    ]
+  }
+}

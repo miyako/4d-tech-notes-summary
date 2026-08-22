@@ -1,0 +1,33 @@
+{
+  "asset_id": 49987,
+  "title": "Tech Note: YouTube API and 4DAF",
+  "technote_number": "08-21",
+  "year": 2008,
+  "published_date": "June 4, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.1",
+  "platform": "Mac & Win",
+  "author": "Robert Molina",
+  "page_url": "https://kb.4d.com/assetid=49987",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_21-24_(JUN)/08-21_4DAF_YouTube.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "YouTube API and GData protocol",
+    "4D Ajax Framework (4DAF) Data Grid",
+    "4D Internet Commands for HTTP/TCP",
+    "Developer Created Selections (DCS)",
+    "XML feed parsing and processing",
+    "JavaScript front-end event handling",
+    "4D backend/JavaScript integration"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates integration of YouTube video feeds into a 4D web application using the then-current YouTube API (GData protocol) and 4DAF's Data Grid component. It shows the full stack: 4D backend fetching video feeds via HTTP GET requests to gdata.youtube.com, storing results in BLOB fields, and a JavaScript front-end rendering Data Grids with embedded video players. The YouTube API has evolved significantly and 4D Ajax Framework is long discontinued, making this note primarily of historical interest in understanding pre-modern JavaScript framework web development patterns in 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "YouTube deprecated the original GData API in favor of the YouTube Data API v3 (REST-based with JSON)",
+      "4D Ajax Framework (4DAF) was discontinued and replaced by 4D Web Components and Qodly",
+      "Modern 4D web applications use standard JavaScript frameworks (React, Vue) or Qodly rather than custom AJAX data grids",
+      "HTTP/TCP methods for API calls are superseded by 4D's native HTTP class and dedicated integrations"
+    ]
+  }
+}

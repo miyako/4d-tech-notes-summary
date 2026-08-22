@@ -1,0 +1,31 @@
+{
+  "asset_id": 50104,
+  "title": "Tech Note: Web Serving the 4D Ajax Framework on 4D Client",
+  "technote_number": "08-22",
+  "year": 2008,
+  "published_date": "June 12, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Jason Zajdel",
+  "page_url": "https://kb.4d.com/assetid=50104",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_21-24_(JUN)/08-22_4DAF_on_4D Client.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "4D Web 2.0 Pack",
+    "4D Client/Server architecture",
+    "Web server deployment on client machine",
+    "4D Pack plug-in",
+    "WebFolder and Resources folder configuration"
+  ],
+  "historical_commentary": {
+    "text": "This note details the deployment architecture for hosting 4DAF on a 4D Client machine as an intermediary web server between external users and a protected 4D Server database. The approach offered resource and security advantages by isolating the main database server while allowing web-based access through a client-machine publisher. This deployment pattern became obsolete as 4D's web architecture evolved, particularly with the introduction of Project Mode (v17, 2018) and Qodly, which removed the need for separate client-publisher machines and integrated web publishing directly into the server.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Web 2.0 Pack (4DAF) itself was discontinued, replaced by 4D Web Components and Qodly",
+      "Modern 4D web publishing is now integral to 4D Server with built-in RESTful API support and mobile/web frameworks",
+      "The client-as-publisher pattern is no longer a recommended or supported deployment model"
+    ]
+  }
+}

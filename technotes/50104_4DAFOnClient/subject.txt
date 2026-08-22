@@ -1,0 +1,1 @@
+Tech Note: Web Serving the 4D Ajax Framework on 4D Client (TN 08-22, 4D Web 2.0 Pack v11.2, June 2008) — an installation and configuration guide for deploying the 4D Ajax Framework web application server on a client machine to publish a protected 4D Server database over the web while keeping the main database server isolated behind a firewall.

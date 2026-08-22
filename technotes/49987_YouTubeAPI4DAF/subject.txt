@@ -1,0 +1,1 @@
+Tech Note: YouTube API and 4DAF (TN 08-21, 4D Web 2.0 Pack v11.1, June 2008) — a tutorial on fetching YouTube video feeds using the YouTube GData API, storing them in 4D BLOB fields, and displaying them in a 4D Ajax Framework Data Grid with JavaScript event handling for interactive video playback.

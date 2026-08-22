@@ -1,0 +1,32 @@
+{
+  "asset_id": 50574,
+  "title": "Tech Note: Printing Barcodes using 4D v11 SQL and SVG",
+  "technote_number": "08-27",
+  "year": 2008,
+  "published_date": "July 30, 2008",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=50574",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_25-29_(JUL)/08-27_Barcodes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SVG (Scalable Vector Graphics)",
+    "4D v11 SQL barcode generation",
+    "Barcode component architecture",
+    "Industrial 2 of 5, Code128, EAN, UPC encoding",
+    "Compiled component for portability",
+    "Unicode Mode vs. Compatibility Mode"
+  ],
+  "historical_commentary": {
+    "text": "This note documents an update to an earlier barcode-generation technique (TN 05-08 for 4D v9), leveraging the new SVG capabilities introduced in 4D v11 SQL to replace the older 4D Chart-based approach. SVG offered superior speed and print quality, and the solution was packaged as a reusable compiled component (Barcode.4dbase) installable via 4D's component folder—a pattern that became standard practice for library distribution before modern package managers. The note also documents a bug fix for Code 128 lowercase 'g' character rendering. While SVG remains a standard web/graphics format, barcode generation itself has evolved toward dedicated libraries and external APIs, making this 4D-specific component approach largely historical.",
+    "status": "historical interest only",
+    "related_updates": [
+      "SVG support in 4D v11 SQL has evolved; modern 4D uses 4D View Pro (v18+) for advanced graphics",
+      "Component-based library distribution was later supplemented by the Package Manager (v18+)",
+      "Barcode generation is now often delegated to external services or dedicated JS libraries rather than server-side generation",
+      "The specific barcode formats supported (Code128, EAN-13, UPC-A, etc.) remain industry standards but implementation methods have diversified"
+    ]
+  }
+}

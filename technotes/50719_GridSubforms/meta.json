@@ -1,0 +1,32 @@
+{
+  "asset_id": 50719,
+  "title": "Tech Note: Bridging Your Grids: Web 2.0 Subforms",
+  "technote_number": "08-29",
+  "year": 2008,
+  "published_date": "August 13, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Tim Kaufman, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=50719",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_28-31_(AUG)/08-29_4DAF_Subforms.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework Data Grid",
+    "Bridge object",
+    "Web 2.0 subforms",
+    "Parent-child form relationships",
+    "JavaScript event handling",
+    "Record manipulation via Bridge API"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates building dynamic parent-child web subforms using the 4D Ajax Framework's Data Grid and Bridge object to manage related records across tables—a pattern that required careful JavaScript coordination and Bridge metadata queries in the 2008 era. The Bridge object, once central to 4DAF development, became obsolete when 4D transitioned to modern web technologies (Qodly, 4D Web Components) after 2018, making the specific implementation techniques described here historical artifacts of an earlier web architecture.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and the Bridge object have been discontinued",
+      "Parent-child data relationships are now handled via ORDA and modern web component frameworks",
+      "JavaScript-based grid manipulation is superseded by 4D Web Components and Qodly platform",
+      "The subform pattern itself remains relevant in modern 4D, but implementation is entirely different"
+    ]
+  }
+}

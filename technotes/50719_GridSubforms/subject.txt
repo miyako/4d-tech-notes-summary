@@ -1,0 +1,1 @@
+Tech Note: Bridging Your Grids: Web 2.0 Subforms (TN 08-29, 4D Web 2.0 Pack v11.2, August 2008) — demonstrates building custom parent-child web forms with dynamic related record lists using the 4D Ajax Framework's Data Grid and Bridge object.

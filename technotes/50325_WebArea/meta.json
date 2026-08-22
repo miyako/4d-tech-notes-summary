@@ -1,0 +1,33 @@
+{
+  "asset_id": 50325,
+  "title": "Tech Note: Web Area in 4D v11 SQL",
+  "technote_number": "08-25",
+  "year": 2008,
+  "published_date": "July 2, 2008",
+  "product": "4D SQL",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=50325",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_25-29_(JUL)/08-25_Web_Area.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Web Area form object",
+    "WebKit (Mac OS X) and ActiveX Web Controls (Windows) rendering engines",
+    "URL and Progression variables",
+    "Standard navigation actions (back, forward, refresh, stop)",
+    "Form events for URL lifecycle (On Begin/End/Error URL Loading)",
+    "Mac OS X compositing mode requirement",
+    "JavaScript support in Web Areas"
+  ],
+  "historical_commentary": {
+    "text": "Web Area replaced the 4D Live Window plug-in in 4D v11 SQL Release 2 (2008), embedding native browser rendering into 4D forms without requiring separate plug-in installation. It used the platform's native renderer (WebKit on Mac, ActiveX on Windows), offering better integration and lower friction than plug-in distribution. However, Web Area was tied to desktop-only 4D (not web-based 4D), and when web development shifted toward cloud-native architectures (post-2015), Web Area became a legacy feature. Modern 4D web development uses REST APIs, Qodly platform, or 4D Web Components rather than embedding browser controls in desktop forms.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Live Window plug-in is no longer supported; Web Area is its official replacement in v11 SQL–v19",
+      "Web Area remains functional in modern 4D versions but is rarely used in new desktop applications",
+      "Mobile and web-first development has shifted toward REST APIs and Qodly platform (2021+)",
+      "Desktop application development continues in 4D, but Web Area usage is declining in favor of native form controls or external web views"
+    ]
+  }
+}

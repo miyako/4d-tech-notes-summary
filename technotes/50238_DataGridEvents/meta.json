@@ -1,0 +1,33 @@
+{
+  "asset_id": 50238,
+  "title": "Tech Note: Data Grid Events",
+  "technote_number": "08-24",
+  "year": 2008,
+  "published_date": "June 26, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Joe Resuello, Technical Marketing Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=50238",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_21-24_(JUN)/08-24_Grid_Events.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework Data Grid",
+    "JavaScript event handlers",
+    "Column header click events (onDataColumnClick)",
+    "Row click events (onDataRowClick, onDataRowDblClick)",
+    "Cell click events (onDataCellClick, onDataCellDblClick)",
+    "Event parameter introspection",
+    "Field metadata via events"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the JavaScript event model for the 4D Ajax Framework's marquee Data Grid component, showing how to bind event handlers to respond to user interactions (column headers, rows, cells) and extract metadata from the event parameters. The five primary events (onDataColumnClick, onDataRowClick, onDataCellClick, onDataRowDblClick, onDataCellDblClick) were central to building interactive web UIs within 4D v11.2's web ecosystem. As the 4DAF was discontinued and 4D transitioned to modern web technologies, this event-driven programming model became obsolete, replaced by component-based frameworks and REST-driven UIs.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and Data Grid have been discontinued",
+      "Event-driven JavaScript interactions are now handled by modern web frameworks (React, Vue, Angular)",
+      "4D Web Components (2020s) use reactive binding and event delegation rather than manual JavaScript handlers",
+      "REST APIs and ORDA are the standard data access layers; grid data is fetched via REST, not via framework objects"
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "asset_id": 49867,
+  "title": "Tech Note: Drag and Drop Data between 4D and Excel",
+  "technote_number": "08-19",
+  "year": 2008,
+  "published_date": "May 21, 2008",
+  "product": "4D",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov",
+  "page_url": "https://kb.4d.com/assetid=49867",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_17-20_(MAY)/08-19_Drag_Drop_Excel.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Drag and Drop mechanism in 4D v11 SQL",
+    "Pasteboard (clipboard) management",
+    "Automatic Drag and Drop properties",
+    "Listbox control interactions",
+    "On Drop and On Drag Over form events",
+    "Tab and carriage return text parsing",
+    "Cross-application data exchange"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates a major feature addition in 4D v11 SQL: native Drag and Drop support and pasteboard access, eliminating the need for plug-ins to implement drag-and-drop between 4D Listboxes and external applications like Microsoft Excel. The implementation shows both automatic drag-and-drop (via form object properties) and manual drag-and-drop (via database methods and the pasteboard), allowing bidirectional data transfer between 4D and Excel with tab-delimited and carriage-return-formatted text. This capability remains functional in modern 4D but is now considered foundational rather than noteworthy; however, the pattern of pasteboard-based cross-application data exchange is still relevant for desktop integration scenarios.",
+    "status": "still relevant",
+    "related_updates": [
+      "Drag and Drop and pasteboard APIs remain in modern 4D with largely the same syntax and behavior",
+      "Excel integration patterns have evolved to include modern file I/O (XLSX native handling) and web APIs rather than clipboard-only approaches",
+      "The on-Drop and on-Drag Over event system is still the primary mechanism for implementing advanced drag-and-drop in 4D forms"
+    ]
+  }
+}

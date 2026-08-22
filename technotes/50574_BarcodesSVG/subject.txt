@@ -1,0 +1,1 @@
+Tech Note: Printing Barcodes using 4D v11 SQL and SVG (TN 08-27, 4D v11.2, July 2008) — demonstrates using Scalable Vector Graphics to generate and print multiple barcode formats (Code128, EAN, UPC) with faster performance and higher quality than 4D Chart.

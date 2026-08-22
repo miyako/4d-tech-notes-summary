@@ -1,0 +1,32 @@
+{
+  "asset_id": 50653,
+  "title": "Tech Note: Exploring 4D Ajax Framework Offline Mode",
+  "technote_number": "08-28",
+  "year": 2008,
+  "published_date": "August 6, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Thomas Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=50653",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_25-29_(JUL)/08-28_4DAF_Offline.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework Offline Mode",
+    "HTML5 Web Applications specification",
+    "Google Gears browser extension",
+    "SQLite-based local cache",
+    "Data Grid offline querying",
+    "Browser-side data persistence and synchronization"
+  ],
+  "historical_commentary": {
+    "text": "This note captures a pivotal moment in web application architecture circa 2008, when browser-side offline support was still nascent and fragmented across competing technologies (emerging HTML5 vs. Google Gears). The Data Grid's Offline Mode feature allowed users to cache grid data locally, add/edit records offline, and auto-sync when reconnected—an important UX feature for mobile/remote workers before modern service workers and IndexedDB became standard. Both HTML5's Web Applications spec and Google Gears are now historical technologies (Gears discontinued 2011); modern offline-first web apps use service workers, IndexedDB, and progressive web app patterns entirely superseding this note's approach.",
+    "status": "obsolete",
+    "related_updates": [
+      "HTML5 Web Applications 1.0 specification was later subsumed into the broader HTML Living Standard",
+      "Google Gears was officially discontinued in December 2011 with no successor within 4D products",
+      "4D Ajax Framework and its Data Grid component have been retired",
+      "Offline-first web application patterns today use Service Workers, IndexedDB, and PWA standards rather than browser extensions"
+    ]
+  }
+}

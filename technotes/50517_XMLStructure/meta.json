@@ -1,0 +1,33 @@
+{
+  "asset_id": 50517,
+  "title": "Tech Note: XML Structure Import/Export in 4D v11 SQL",
+  "technote_number": "08-26",
+  "year": 2008,
+  "published_date": "July 23, 2008",
+  "product": "4D",
+  "version": "11.1",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=50517",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_25-29_(JUL)/08-26_XML_Structure.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "XML (Extensible Markup Language)",
+    "4D v11 SQL Structure Definition export/import",
+    "DOM (Document Object Model) parsing",
+    "SAX (Simple API for XML) parsing",
+    "XPath notation for element access",
+    "Apache Xerces and Xalan libraries",
+    "XSLT (XML Stylesheet Language Transformations)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the groundbreaking Structure Export/Import feature introduced in 4D v11 SQL Release 1 (2007), enabling database structures to be serialized as XML files and reconstructed programmatically—a capability that predated 4D's later REST/ORDA era and enabled template-based database provisioning and structure cloning. It provides a thorough XML primer (syntax, DOM vs. SAX parsing models, XPath notation) grounded in Apache's Xerces and Xalan libraries underpinning 4D's XML support. While XML remains ubiquitous, the specific XML-based structure import/export feature was superseded by REST APIs and ORDA (2018+), and most modern development avoids XML in favor of JSON; the note is now primarily of historical interest to legacy 4D database maintainers.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D v12+ (2012) introduced REST APIs as the modern interoperability standard",
+      "ORDA (2018+) became the preferred data access layer, with native JSON serialization",
+      "XML-based structure cloning was never widely adopted; developers typically used 4D's GUI structure editor instead",
+      "JSON has become the de facto standard for data serialization in web/REST contexts, replacing XML in most use cases"
+    ]
+  }
+}
