@@ -1,0 +1,27 @@
+{
+  "asset_id": 37462,
+  "title": "Tech Note: Clusters: Using Saved Sets Effectively - Part I",
+  "technote_number": "05-21",
+  "year": 2005,
+  "published_date": "June 3, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=37462",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_21-24_(JUN)/05-21_Clusters_Part_I.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Saved sets (Sets)",
+    "Cluster-based query performance technique",
+    "Set creation and maintenance"
+  ],
+  "historical_commentary": {
+    "text": "This first half of a two-part series covers creating and maintaining \"clusters\" of saved sets, a manual, developer-managed performance technique for speeding up subsequent data retrieval (covered in Part II) in the classic 4D language. As with Part II, the underlying Saved Sets feature persists in current 4D, but query engine, indexing, and ORDA entity-selection improvements in later versions have reduced how often this manual clustering approach is needed for new development.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's classic query engine and indexing have been substantially optimized in versions since 2005, reducing the performance gap this manual clustering technique aimed to close",
+      "ORDA's entity selections (introduced 2017/v16 R2+) provide lazy-loaded, cursor-like access to large record sets, addressing similar performance concerns with a different, more modern mechanism"
+    ]
+  }
+}

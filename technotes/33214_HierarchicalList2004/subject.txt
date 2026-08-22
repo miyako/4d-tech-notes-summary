@@ -1,0 +1,1 @@
+Tech Note: Working with Hierarchical List in 2004 (TN 04-27, 4D v2003.3, July 2004) — an overview of changes to 4th Dimension's Hierarchical List commands made in 4D 2004, with examples of the improved data manipulation and control they enable.

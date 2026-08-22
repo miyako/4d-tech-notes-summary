@@ -1,0 +1,27 @@
+{
+  "asset_id": 19046,
+  "title": "Tech Note: Sample Web Query Form",
+  "technote_number": "01-48",
+  "year": 2001,
+  "published_date": "October 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19046",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_46-49_(OCT)/01-48_Web_Query_Form.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Tags",
+    "HTML web forms",
+    "4D built-in Web Server query emulation"
+  ],
+  "historical_commentary": {
+    "text": "This note builds a web-based search form against a stock-symbol database, offering both a simple single-field HTML form and a more advanced one that partially emulates 4D's native Query Editor, all served through 4D's tag-based web publishing. The underlying idea of a web search form against 4D data remains universally relevant, but the specific 4D Tags/HTML-embedded implementation shown is a legacy technique that has been superseded by REST/ORDA-backed APIs consumed by modern JavaScript search UIs.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "REST/ORDA-based search and filtering APIs have replaced 4D-Tags-driven HTML query forms in modern 4D web development",
+      "4D's own Query Editor concept lives on in the classic language, but web-facing search UIs are now typically client-side JS apps calling REST endpoints"
+    ]
+  }
+}

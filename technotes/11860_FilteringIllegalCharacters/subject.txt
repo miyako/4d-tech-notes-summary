@@ -1,0 +1,1 @@
+Tech Note: Filtering Out Illegal Characters (4D, November 1999) — provides a tool for purging illegal characters from indexed Alpha fields to prevent query, sort, and index corruption.

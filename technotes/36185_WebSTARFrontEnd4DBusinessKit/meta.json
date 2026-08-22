@@ -1,0 +1,28 @@
+{
+  "asset_id": 36185,
+  "title": "Tech Note: WebSTAR: Front End for 4D Business Kit",
+  "technote_number": "05-07",
+  "year": 2005,
+  "published_date": "February 17, 2005",
+  "product": "4D Business Kit",
+  "version": "",
+  "platform": "Mac OS X",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36185",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_05-07_(FEB)/05-07_WebSTAR_Frontend_4DBK.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D WebSTAR 5.3.3 web server",
+    "4D Business Kit 2.2.2",
+    "Mac OS X web front-end configuration"
+  ],
+  "historical_commentary": {
+    "text": "This note describes configuring the 4D WebSTAR web server as a front-end for 4D Business Kit, an e-commerce/business application product from the mid-2000s Mac OS X era. Both 4D WebSTAR and 4D Business Kit have long been discontinued and are not part of any current 4D product line, making this note obsolete as a practical guide; 4D's own built-in Web Server has since become the standard way to expose 4D applications over HTTP. Only the teaser paragraph could be recovered for this note.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D WebSTAR and 4D Business Kit have both been discontinued for many years",
+      "4D's built-in Web Server (and later REST/ORDA-based web services) replaced this class of standalone front-end web server products",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

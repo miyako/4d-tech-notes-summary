@@ -1,0 +1,26 @@
+{
+  "asset_id": 13092,
+  "title": "Tech Note: Implementing a Browser using Hierarchical Lists",
+  "technote_number": "01-11",
+  "year": 2001,
+  "published_date": "March 30, 2001",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=13092",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-11_Browser_using_HLists.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Hierarchical lists (form objects)",
+    "Tree/browser-style data display"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates building a tree/browser-style interface using 4D's hierarchical list form object, a classic-language UI control for displaying nested, expandable data. Hierarchical lists remain part of 4D's current form object set and continue to function as documented, so the core technique is still usable today, though many modern 4D interfaces increasingly favor the hierarchical mode of list boxes (which offer richer formatting and data-binding options) over the older dedicated hierarchical list object for tree-style displays.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's hierarchical list form object remains supported in current versions, but list boxes with hierarchical/tree display modes now offer a more modern, flexible alternative for similar tree-style interfaces",
+      "ORDA entity selections provide a more contemporary way to back a tree/browser interface with underlying data than classic selection-driven hierarchical lists"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Using 4D HTML Tags in Version 6.7 (TN 01-01, 4D v6.7, January 2001) — a comparison of v6.7's new web server features for implementing semi-dynamic pages against the older v6.5 technique described in TN 36-00.

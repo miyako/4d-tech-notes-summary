@@ -1,0 +1,26 @@
+{
+  "asset_id": 16389,
+  "title": "Tech Note: Recursion by Example",
+  "technote_number": "01-33",
+  "year": 2001,
+  "published_date": "July 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16389",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-33_Recursion_by_Example.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Recursive method calls",
+    "Classic language control flow"
+  ],
+  "historical_commentary": {
+    "text": "This note provides a general overview of recursion in 4D's classic language, with examples and guidance on when recursion is (and isn't) an appropriate technique. Recursion is a fundamental, language-agnostic programming concept, and 4D's support for recursive method calls is unchanged since this note was written, so its explanations and guidance remain fully applicable to 4D developers today, whether working in classic Design Mode or modern Project Mode.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Recursive method calls remain fully supported and unchanged in current 4D versions",
+      "No newer 4D-specific construct has replaced recursion as a general control-flow technique"
+    ]
+  }
+}

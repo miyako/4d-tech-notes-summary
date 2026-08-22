@@ -1,0 +1,27 @@
+{
+  "asset_id": 11961,
+  "title": "Tech Note: Using Operators on Pictures",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "May 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11961",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Picture fields",
+    "Logical/Boolean picture operators",
+    "Bitmap compositing"
+  ],
+  "historical_commentary": {
+    "text": "This note clarifies how 4D's logical operators apply to Picture data (bitmap compositing operations analogous to AND/OR/XOR on Boolean values), a feature of the classic QuickDraw-era picture-handling engine in 4D v6.5. The specific picture-operator behavior described is tied to 4D's original bitmap-based Picture field implementation predating vector/4D Draw enhancements and later cross-platform picture engine rewrites, so while the Boolean-logic analogy remains conceptually instructive, the concrete operator behaviors may differ from 4D's modern picture-handling internals.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's picture field engine and supported picture formats/operations have been substantially rewritten and modernized in the many releases since 4D v6.5",
+      "Cross-platform picture handling today relies on modern image formats and APIs rather than the classic QuickDraw/GDI-based operators this note discusses"
+    ]
+  }
+}

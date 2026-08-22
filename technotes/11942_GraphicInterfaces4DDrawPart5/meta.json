@@ -1,0 +1,28 @@
+{
+  "asset_id": 11942,
+  "title": "Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part V\rGraphing a Picture",
+  "technote_number": "00-10",
+  "year": 2000,
+  "published_date": "February 1, 2000",
+  "product": "4D Draw",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Tim Tonooka, ACI Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11942",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_06-10_(FEB)/00-10_Graphic_Interfaces_5.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Draw",
+    "BMP picture parsing",
+    "Data graphing/visualization",
+    "4D Draw area click/pixel detection"
+  ],
+  "historical_commentary": {
+    "text": "This is the fifth installment of a multi-part series on building interactive graphic interfaces with 4D Draw, culminating this section by explaining the code behind a graph-view display that visualizes BMP picture data inside a 4D Draw vector-graphics area. 4D Draw itself, the vector-drawing plug-in/area technology central to this entire series, has long been superseded in 4D's product line, and building custom charting inside a 4D Draw area is now a legacy technique; the specific implementation is obsolete, though the general problem of building custom, code-driven data visualizations remains conceptually relevant, now addressed with more modern charting components, web areas, or third-party JS charting libraries.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Draw has been discontinued/superseded in the current 4D product line",
+      "Modern 4D data visualization needs are typically met with web-area-hosted JS charting libraries or newer built-in components rather than hand-built 4D Draw graphing code"
+    ]
+  }
+}

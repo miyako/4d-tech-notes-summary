@@ -1,0 +1,1 @@
+Tech Note: NT Localization (TN 01-34, 4D v6.7, July 2001) — an explanation of how 4D of that era handled foreign-language systems under Windows NT.

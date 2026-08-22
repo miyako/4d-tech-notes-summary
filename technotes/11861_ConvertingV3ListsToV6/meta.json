@@ -1,0 +1,28 @@
+{
+  "asset_id": 11861,
+  "title": "Tech Note: Converting Version 3 Lists into Version 6 Hierarchical Lists",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "December 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11861",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Hierarchical lists",
+    "4D v3 to v6 migration",
+    "List conversion methods"
+  ],
+  "historical_commentary": {
+    "text": "This migration guide addressed the specific challenge of converting 4D v3 lists to the hierarchical list format introduced in v6. The v3 list system and the v3-to-v6 migration are now ancient history—no one is migrating from v3 today. Hierarchical lists themselves are still available in modern 4D, but the conversion techniques from v3 are purely of archival interest. The note's caveat that linked lists could not be automatically retrieved during the v6 upgrade highlights the kind of breaking change that was common in major version transitions.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D v3 has been obsolete for over two decades",
+      "Hierarchical lists remain available in modern 4D but are less central than list boxes",
+      "Modern 4D migration concerns focus on binary-to-Project Mode conversion, not v3-to-v6 lists"
+    ]
+  }
+}

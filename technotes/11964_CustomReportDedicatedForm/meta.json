@@ -1,0 +1,29 @@
+{
+  "asset_id": 11964,
+  "title": "Tech Note: Creating a Custom Report Using a Dedicated Form",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "May 1, 2000",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11964",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "BREAK LEVEL",
+    "ACCUMULATE",
+    "Output forms",
+    "Report printing",
+    "Compiled mode considerations"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's classic report-printing model built around output forms, Break levels, and the BREAK LEVEL/ACCUMULATE command pair \u2014 core language features that predate any reporting add-ons and remain part of the 4D language today, unlike most other technology in this era's notes. The specific guidance about compiled-mode behavior with Break processing is a period-accurate caveat, since compiler behavior nuances of that vintage may differ from later releases. The fundamental concepts (choosing break levels, laying out control lines, associating per-level totals) are still conceptually valid for classic-form-based reporting in 4D today, even though many modern reporting needs are now met by List Box printing, 4D Write Pro, or QR/label tools rather than hand-built Break-level output forms.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Write Pro and List Box-based reporting have become common modern alternatives to hand-built Break-level output forms for many reporting tasks",
+      "The BREAK LEVEL/ACCUMULATE language commands themselves remain part of the current 4D language for classic form-based reports"
+    ]
+  }
+}

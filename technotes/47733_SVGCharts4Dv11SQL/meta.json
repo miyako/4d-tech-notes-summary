@@ -1,0 +1,28 @@
+{
+  "asset_id": 47733,
+  "title": "Tech Note: SVG Charts in 4D v11 SQL",
+  "technote_number": "07-40",
+  "year": 2007,
+  "published_date": "October 12, 2007",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Christopher Visaya, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47733",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_39-42_(OCT)/07-40_SVG_Charts.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SVG (Scalable Vector Graphics) rendering engine",
+    "GRAPH command",
+    "GRAPH SETTINGS command",
+    "4D Chart plug-in (legacy alternative)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D v11 SQL's newly native SVG rendering support, letting the GRAPH command draw vector-based charts directly into a picture variable instead of relying solely on the older 4D Chart plug-in. SVG itself is a mature, still-current web standard, and the GRAPH/GRAPH SETTINGS commands persisted in 4D for a long time, but this note's exact code patterns and the 4D Chart plug-in comparison reflect a 2007-era charting toolset that has since been joined or partly superseded by newer charting and reporting approaches in current 4D and web-based visualization libraries.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's GRAPH/GRAPH SETTINGS commands and SVG-based charting have continued to be available in 4D for many years after this note, though 4D's charting/reporting options have expanded since 2007",
+      "The older 4D Chart plug-in referenced as an alternative in this note is a legacy component from that era"
+    ]
+  }
+}

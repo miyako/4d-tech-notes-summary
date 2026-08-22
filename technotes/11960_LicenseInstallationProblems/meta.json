@@ -1,0 +1,27 @@
+{
+  "asset_id": 11960,
+  "title": "Tech Note: License Installation Problems and Solutions",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "June 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11960",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D product/expansion licenses",
+    "Serial numbers",
+    "Diskless expansion licenses"
+  ],
+  "historical_commentary": {
+    "text": "This note documents licensing mechanics specific to the classic 4D v6.5-era product and expansion license system, including serial numbers and the transition to a \"diskless\" expansion license scheme on both Mac and Windows \u2014 infrastructure that has been completely replaced by 4D's modern licensing systems since. The specific troubleshooting steps are entirely obsolete since 4D's licensing architecture (activation, license files, cloud-based license management) has changed multiple times in the decades since, but the note is a useful historical record of how software licensing friction was handled in the pre-internet-activation era of desktop database software.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's licensing system has been completely replaced multiple times since 2000, including moves toward online activation and license management distinct from physical/diskless serial schemes of this era",
+      "The specific serial-number and diskless-license troubleshooting steps in this note no longer apply to any current 4D licensing mechanism"
+    ]
+  }
+}

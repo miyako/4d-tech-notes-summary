@@ -1,0 +1,28 @@
+{
+  "asset_id": 41107,
+  "title": "Tech Note: The HashTools Component",
+  "technote_number": "05-43",
+  "year": 2005,
+  "published_date": "December 22, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=41107",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_40-46_(DEC)/05-43_Hash_Tools_Component.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "HashTools component (4D component architecture)",
+    "Hashing text, BLOBs, pictures, and documents",
+    "HashTools_FindByHash indexed search routine",
+    "Component-based error management pattern"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the public/protected API of the HashTools component, a reusable 4D component (a packaged, distributable collection of 4D methods) that wraps nine hashing algorithms for text, BLOBs, pictures, and documents, plus a hash-optimized record-finding routine. 4D's component architecture for packaging reusable code is itself a durable, still-supported mechanism, and the general pattern of gateway/protected methods for parameter validation remains good practice, but this specific classic-language component is a bespoke sample never adopted as a standard 4D feature, so its practical relevance today is mainly historical/illustrative rather than as a component developers would still install.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's component/plug-in packaging mechanisms have continued to evolve (including later support for 4D language classes as lighter-weight reusable code units)",
+      "Built-in hashing and checksum needs today are more commonly met via 4D's native cryptography/hash commands or external libraries rather than a bespoke classic-language component"
+    ]
+  }
+}

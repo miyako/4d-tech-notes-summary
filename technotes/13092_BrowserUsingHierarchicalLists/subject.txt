@@ -1,0 +1,1 @@
+Tech Note: Implementing a Browser using Hierarchical Lists (TN 01-11, 4D v6.5, March 2001) — an example implementation of a tree-style browser interface built with 4D's hierarchical list form object.

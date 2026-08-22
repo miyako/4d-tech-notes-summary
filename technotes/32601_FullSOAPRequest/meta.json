@@ -1,0 +1,28 @@
+{
+  "asset_id": 32601,
+  "title": "Tech Note: Reading a Full SOAP Request",
+  "technote_number": "04-19",
+  "year": 2004,
+  "published_date": "May 13, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=32601",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-19_Full_SOAP_Request.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "GET WEB FORM VARIABLES",
+    "GET HTTP HEADER",
+    "SOAP (Simple Object Access Protocol)",
+    "4D native Web Service publishing"
+  ],
+  "historical_commentary": {
+    "status": "superseded",
+    "text": "This note documents a low-level, partly undocumented technique (via GET WEB FORM VARIABLES) for reading raw incoming SOAP requests in 4th Dimension's native Web Service publishing system, reflecting the SOAP-centric web-services standard dominant in the early-to-mid 2000s. SOAP-based service publishing has since been broadly superseded industry-wide, and within 4D specifically, by REST APIs (especially via ORDA, introduced 2017+) as the primary way to expose 4D data and logic to external callers, though 4D's classic SOAP publishing commands likely remain available for legacy compatibility.",
+    "related_updates": [
+      "REST APIs (notably via ORDA, 2017+) have become 4D's primary mechanism for publishing data/logic to external callers, superseding SOAP-based publishing for new development",
+      "Reliance on undocumented command behavior for reading raw request data, as shown here, is inherently fragile and would be considered poor practice by modern standards; any current equivalent would look for a documented API"
+    ]
+  }
+}

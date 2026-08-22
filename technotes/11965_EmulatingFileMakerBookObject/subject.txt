@@ -1,0 +1,1 @@
+Tech Note: Emulating the FileMaker Pro Book Object in 4D (4D v6.5, May 2000) — a technique for recreating FileMaker Pro's page-flipping "book" record navigator as a custom 4D form control.

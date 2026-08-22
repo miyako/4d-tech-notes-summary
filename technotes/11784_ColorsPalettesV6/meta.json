@@ -1,0 +1,28 @@
+{
+  "asset_id": 11784,
+  "title": "Tech Note: Colors, Palettes, 4D 3.x.x and 4D V6",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "October 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11784",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Macintosh 'pltt' color palette resource",
+    "24-bit $RRGGBB color storage",
+    "Mac OS SetPalette routine",
+    "4D extensions/plugins handling color"
+  ],
+  "historical_commentary": {
+    "text": "This note explains a significant internal change in 4D V6: colors were no longer limited to a 256-entry Macintosh 'pltt' palette resource and instead stored as full 24-bit $RRGGBB values, ending the classic Mac OS 256-color-index era for 4D's UI; this is entirely tied to classic Mac OS color management, which is obsolete since Mac OS X's introduction and modern displays' universal support for millions of colors.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS 256-color palette (`pltt`) resource management was rendered obsolete by Mac OS X's modern color/graphics model and universal 24-bit+ display support",
+      "4D's UI and extension/plugin color handling has been rebuilt many times since on modern, cross-platform rendering (no relation to classic Mac OS resources)"
+    ]
+  }
+}

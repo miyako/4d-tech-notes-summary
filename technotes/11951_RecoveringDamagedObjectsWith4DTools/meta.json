@@ -1,0 +1,27 @@
+{
+  "asset_id": 11951,
+  "title": "Tech Note: Recovering Damaged Database Objects with 4D Tools 6.5",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "March 1, 2000",
+  "product": "4D Tools",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11951",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Tools 6.5",
+    "Structure file repair/diagnostics",
+    "Structure file integrity checking"
+  ],
+  "historical_commentary": {
+    "text": "This note documents diagnostic and repair capabilities added to 4D Tools 6.5 for detecting and fixing structure file damage, plus a method for having 4D itself check a structure file's integrity before opening it. 4D Tools as a distinct standalone repair utility of this specific vintage is obsolete, since 4D's database engine, file formats, and maintenance/repair tooling have all changed substantially in the many releases since 4D v6.5 (including the eventual introduction of Project Mode-based structures decades later), but the general practice of proactively checking database integrity before opening a production structure remains a sound operational habit.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's underlying data/structure file formats and repair tooling have changed substantially since 4D Tools 6.5, including the later introduction of Project Mode (v17+) alongside the classic binary structure file",
+      "Modern 4D includes its own updated diagnostic and verification tooling distinct from the specific 4D Tools 6.5 features this note describes"
+    ]
+  }
+}

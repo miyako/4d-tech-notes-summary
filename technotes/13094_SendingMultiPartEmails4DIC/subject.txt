@@ -1,0 +1,1 @@
+Tech Note: Sending Multi-Part emails Using 4D Internet Commands (TN 01-12, 4D Internet Commands v6.5, March 2001) — a comparison of 4D Internet Commands' SMTP_QuickSend versus its low-level SMTP command sequence for constructing multi-part (non-plain-text) emails.

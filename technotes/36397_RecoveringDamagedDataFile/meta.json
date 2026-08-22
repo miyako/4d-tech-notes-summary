@@ -1,0 +1,28 @@
+{
+  "asset_id": 36397,
+  "title": "Tech Note: Recovering a Damaged Data File",
+  "technote_number": "05-09",
+  "year": 2005,
+  "published_date": "March 6, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36397",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-09_RecoveringDamagedData.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D data file recovery tools",
+    "Data/index re-indexing",
+    "Record re-saving",
+    "Data export/re-import"
+  ],
+  "historical_commentary": {
+    "text": "This note surveys four classic-era techniques for recovering a corrupted 4D data file: using built-in 4D recovery tools, re-indexing, re-saving records, and exporting/re-importing into a fresh data file. Data corruption recovery remains a conceptually relevant practice today, but the specific binary .4DD data file structure and tools referenced are from the pre-SQL 4D 2004 era, and 4D has since introduced more robust logging, backup, and mirroring/recovery mechanisms. Only the teaser paragraph could be recovered for this note, limiting further technical assessment.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since introduced transaction logging, log-based recovery, and database mirroring for more robust data integrity than manual re-indexing/re-saving workflows",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

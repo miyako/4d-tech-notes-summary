@@ -1,0 +1,1 @@
+Tech Note: Storing Large Objects as Separate Files on the Hard Drive (4D v6.5, April 2000) — a design pattern for storing large objects (such as pictures or documents) as separate external files rather than inside the 4D data file, tracked via a database table.

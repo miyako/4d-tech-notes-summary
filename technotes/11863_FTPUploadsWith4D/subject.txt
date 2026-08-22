@@ -1,0 +1,1 @@
+Tech Note: FTP Uploads with 4D (4D v6.0, December 1999) — demonstrates building a cross-platform FTP client within 4D for uploading files to remote servers.

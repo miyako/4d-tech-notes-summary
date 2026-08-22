@@ -1,0 +1,1 @@
+Tech Note: Converting Version 3 Lists into Version 6 Hierarchical Lists (4D v6.0, December 1999) — provides methods for converting legacy 4D v3 lists to v6 hierarchical lists during migration.

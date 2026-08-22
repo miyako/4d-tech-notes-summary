@@ -1,0 +1,1 @@
+Tech Note: An Introduction to SQL (TN 07-45, 4D Developer v11, December 2007) — a beginner-level introduction to writing native SQL statements inside 4D methods using 4D v11 SQL's new integrated SQL engine.

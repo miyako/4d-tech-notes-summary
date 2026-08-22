@@ -1,0 +1,27 @@
+{
+  "asset_id": 32788,
+  "title": "Tech Note: The XML_Utilities Component",
+  "technote_number": "04-21",
+  "year": 2004,
+  "published_date": "May 27, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=32788",
+  "download_url": "https://kb.4d.com/ftp://@ftp.4d.com/ACI_TECHNICAL_NOTES/2004/Windows/TN_2004_21-25_(MAY)/04-21_XML_Utilities.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "XML_Utilities component",
+    "4th Dimension 2003 native XML commands",
+    "4D Insider component installation"
+  ],
+  "historical_commentary": {
+    "status": "superseded",
+    "text": "This note documents a small community/vendor-style helper component that wrapped 4th Dimension 2003's native XML commands with convenience utilities and served as example code; 4D's native XML command set has since expanded considerably, and JSON has displaced much everyday structured-data handling that once relied on XML, reducing the practical need for this specific component. The general pattern of building small utility components on top of native commands and distributing them via a component-installation mechanism (the 4D Insider tool of that era, later superseded by 4D's evolving component architecture) remains a valid and still-used development practice.",
+    "related_updates": [
+      "4D Insider (component installation tool of this era) has been superseded by 4D's later component and package management approaches",
+      "4D's native XML command set and JSON support have grown substantially since 2004, covering much of what this utility component provided"
+    ]
+  }
+}

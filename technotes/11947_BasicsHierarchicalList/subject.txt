@@ -1,0 +1,1 @@
+Tech Note: The Basics of Creating a Hierarchical List (4D v6.0, February 2000) — an introduction to hierarchical lists, a v6+ enhancement to 4D's classic list feature that supports parent/child/sibling relationships between string items.

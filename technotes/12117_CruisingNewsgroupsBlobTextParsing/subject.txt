@@ -1,0 +1,1 @@
+Tech Note: Cruising Newsgroups: Accelerated Text Parsing with BLOBs (TN 01-06, 4D Internet Commands v6.7, February 2001) — an introduction to the '4D News Jockey' NNTP newsreader example database, showcasing optimized text-parsing techniques in BLOBs to get past 4D's 32,000-character text field limit.

@@ -1,0 +1,1 @@
+Tech Note: 4D Chart (TN 04-26, 4th Dimension v2003.3, July 2004) — an introduction to generating charts within a 4D application using the 4D Chart plug-in and its commands, a bundled charting tool available since 4D version 6.0.

@@ -1,0 +1,1 @@
+Tech Note: Recovering Damaged Database Objects with 4D Tools 6.5 (4D Tools v6.5, March 2000) — a guide to 4D Tools 6.5's new diagnostic and repair features for detecting and fixing damage to a 4D structure file.

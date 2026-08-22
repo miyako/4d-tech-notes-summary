@@ -1,0 +1,1 @@
+Tech Note: Installing and Troubleshooting 4D Server - Windows (4D Server v6.0, December 1997) — explains the installation of 4D Server and 4D Client version 6 for the Windows operating system and how to troubleshoot problems with the installation; full text unavailable, summary based on the teaser only.

@@ -1,0 +1,1 @@
+Tech Note: 4D 2004 Integrated Backup Module (TN 05-46, 4D v2004, December 2005) — an overview of 4D 2004's newly integrated backup/restore module, covering manual, scheduled, and programmatic backup plus log-file-based recovery.

@@ -1,0 +1,1 @@
+Tech Note: HTML Emails (TN 05-37, 4D v2004, November 2005) — demonstrates sending automated HTML emails with embedded pictures (e.g., sales report charts) using 4D's Quick Report engine, PROCESS HTML TAGS, and 4D Internet Commands.

@@ -1,0 +1,1 @@
+Tech Note: 4D Macros in Version 2004 (TN 04-24, 4th Dimension v2003.3, June 2004) — an explanation of 4D Macros as a way to generate frequently-used code snippets automatically, including a new tag in 4D 2004 that allows macros to call project methods.

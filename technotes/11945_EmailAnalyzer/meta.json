@@ -1,0 +1,27 @@
+{
+  "asset_id": 11945,
+  "title": "Tech Note: E-mail Analyzer",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "May 1, 2000",
+  "product": "4D Internet Commands",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11945",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Internet Commands",
+    "E-mail retrieval and parsing",
+    "Rule-based text/error matching"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to use the 4D Internet Commands plug-in to retrieve e-mail messages and then apply a rule-based, extensible string-matching system to detect and extract known error patterns without hard-coding each case, useful for automated bounce/error-handling systems of the era. The 4D Internet Commands plug-in itself has been superseded by native 4D language email/networking commands and classes, so the specific implementation is dated, but the rule-driven, extensible pattern-matching design approach for text analysis remains a sound, still-applicable software design technique.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Internet Commands has been superseded by native 4D language commands/classes for e-mail and networking operations",
+      "The extensible rule-based text-matching design pattern described remains a valid general software design approach, independent of the specific plug-in used to retrieve the e-mail"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 12155,
+  "title": "Tech Note: Disabling Tab Controls",
+  "technote_number": "01-03",
+  "year": 2001,
+  "published_date": "January 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12155",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-03_Disable_Tab_Controls.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Tab controls (form objects)",
+    "Automatic action / 'go to page' method pattern",
+    "Form navigation control"
+  ],
+  "historical_commentary": {
+    "text": "This note compares two ways to restrict access to certain form pages navigated via tab controls (associated with either an automatic action or a custom 'go to page' method): disabling the tab control outright, or deleting it. Tab controls and the underlying need to conditionally restrict navigation remain a completely standard, still-current 4D form design pattern, so this note's guidance is directly usable by developers building binary or Project Mode forms today with little modification.",
+    "status": "still relevant",
+    "related_updates": [
+      "Tab controls and their enable/disable behavior remain unchanged in current 4D form design, in both Design Mode and Project Mode"
+    ]
+  }
+}

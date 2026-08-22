@@ -1,0 +1,26 @@
+{
+  "asset_id": 38355,
+  "title": "Tech Note: New Form Events in 4D 2004",
+  "technote_number": "05-27",
+  "year": 2005,
+  "published_date": "July 31, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=38355",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_25-27_(JUL)/05-27_New_Form_Events.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D 2004 form events",
+    "3D button form objects"
+  ],
+  "historical_commentary": {
+    "text": "This very short note covers form events added in 4D 2004 specifically for 3D buttons, a skeuomorphic button style typical of early-2000s desktop GUIs. The 3D button object style itself has faded from modern UI design (and from 4D's own form object palette emphasis), making the specific subject matter of largely historical interest, even though 4D's general form-event architecture continues to evolve and remain central to classic-language form programming.",
+    "status": "historical_interest_only",
+    "related_updates": [
+      "3D-style buttons are a legacy desktop GUI aesthetic no longer emphasized in modern 4D form design, which favors flat/native OS-styled controls",
+      "4D's form event model has continued to expand in subsequent versions (and works the same way in Project Mode forms), independent of this specific 3D-button-era addition"
+    ]
+  }
+}

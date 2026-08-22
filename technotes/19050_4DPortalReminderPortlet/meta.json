@@ -1,0 +1,27 @@
+{
+  "asset_id": 19050,
+  "title": "Tech Note: Exploring 4D Portal's Reminder Portlet",
+  "technote_number": "01-53",
+  "year": 2001,
+  "published_date": "November 30, 2001",
+  "product": "4D Portal",
+  "version": "6.7.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19050",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_50-53_(NOV)/01-53_Reminder_Portlet.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Portal",
+    "Reminder Portlet",
+    "Scheduled notification logic"
+  ],
+  "historical_commentary": {
+    "text": "This note details the scheduling logic behind 4D Portal's Reminder Portlet, covering monthly/weekly/daily/once reminder types and configurable lead-time alerts. Since 4D Portal itself was discontinued years ago, the specific portlet and its configuration options no longer exist in any supported 4D product, making this note of historical interest only, though the general reminder-scheduling logic pattern (recurring vs one-time triggers with lead-time offsets) remains a conceptually familiar problem in modern notification systems.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Portal was discontinued as a product line",
+      "Modern reminder/notification systems in 4D applications are typically built with the classic language's date/time commands or external push-notification services rather than a bundled portal component"
+    ]
+  }
+}

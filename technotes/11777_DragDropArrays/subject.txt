@@ -1,0 +1,1 @@
+Tech Note: Drag and Drop with Grouped or Logically Linked Arrays (4D v6.0, October 1997) — examines ideas for using 4th Dimension V6's new Drag and Drop capability with arrays and hierarchical lists, including grouped arrays and arrays whose order must stay synchronized with other hidden arrays; full text unavailable, summary based on the teaser only.

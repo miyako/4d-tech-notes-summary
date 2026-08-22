@@ -1,0 +1,27 @@
+{
+  "asset_id": 11944,
+  "title": "Tech Note: 4D Connects with Wireless Markup Language",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "January 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11944",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "WAP (Wireless Application Protocol)",
+    "WML (Wireless Markup Language)",
+    "4D web server/dynamic publishing"
+  ],
+  "historical_commentary": {
+    "text": "This note reflects the WAP/WML mobile-web hype of 2000-2001, showing how 4D's web server could dynamically generate Wireless Markup Language content for the WAP-enabled feature phones of that era. WAP and WML were almost entirely abandoned within a few years in favor of standard mobile HTML/CSS/JS as smartphones matured, making this note purely of historical interest as a snapshot of an early, ultimately unsuccessful mobile-web technology bet, with essentially no direct technical relevance to modern mobile web or app development via 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "WAP and WML were abandoned industry-wide within a few years in favor of standard mobile HTML/CSS/JavaScript, and later native mobile apps",
+      "Modern 4D mobile/web development uses standard responsive web technologies or native app frameworks (e.g., via 4D's Qodly/web project tooling) rather than WML"
+    ]
+  }
+}

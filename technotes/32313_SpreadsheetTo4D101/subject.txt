@@ -1,0 +1,1 @@
+Tech Note: Spreadsheet to 4D 101 (TN 04-16, 4D v2003.3, April 2004) — a beginner's guide to importing spreadsheet data into 4D using both the manual/programmatic Import Dialog and ODBC connectivity.

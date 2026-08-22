@@ -1,0 +1,29 @@
+{
+  "asset_id": 11874,
+  "title": "Tech Note: Understanding Cyclic Redundancy Check",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "March 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11874",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "CRC (Cyclic Redundancy Check)",
+    "Data integrity",
+    "4D code implementation",
+    "Computer science fundamentals"
+  ],
+  "historical_commentary": {
+    "text": "CRC remains a fundamental concept in data integrity and communications, used in everything from network protocols to file systems. The 4D-specific implementation code from 1999 would need updating for modern 4D syntax, but the underlying theory explained in this note is timeless. Modern 4D provides built-in hashing functions (like Generate digest) that handle many use cases where CRC was once manually implemented, but understanding CRC theory remains valuable for developers working with low-level data validation.",
+    "status": "still relevant",
+    "related_updates": [
+      "Modern 4D includes built-in Generate digest command supporting MD5, SHA-1, SHA-256, and other hash algorithms",
+      "CRC-32 is still widely used in ZIP files, PNG images, Ethernet frames, and many protocols",
+      "The theoretical concepts of polynomial division and binary arithmetic for CRC remain unchanged"
+    ]
+  }
+}

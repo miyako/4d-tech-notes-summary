@@ -1,0 +1,28 @@
+{
+  "asset_id": 34170,
+  "title": "Tech Note: Exchanging Data Between Processes",
+  "technote_number": "04-39",
+  "year": 2004,
+  "published_date": "September 30, 2004",
+  "product": "4th Dimension",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=34170",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-39_Exchanging_Data.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Multi-process 4D applications",
+    "Inter-process variable communication",
+    "Process synchronization techniques"
+  ],
+  "historical_commentary": {
+    "text": "This note tackles a perennial multi-process 4D application challenge: safely retrieving or setting values in another process's process variables, and keeping that communication synchronized rather than racing or deadlocking. Inter-process communication remains a real and relevant concern in current 4D applications, since 4D's classic multi-process model persists, though modern 4D offers additional tools (such as shared objects/collections and newer process-communication commands introduced well after 2004) that provide safer or more convenient alternatives to the manual process-variable techniques this note likely demonstrated.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Later 4D versions introduced shared objects and shared collections (with built-in synchronization) as safer alternatives to manual process-variable exchange for many use cases",
+      "4D's process communication command set has been expanded since 2004 with additional options for inter-process messaging",
+      "The fundamental need to synchronize communication between concurrent processes remains unchanged and is still a core multi-process programming concern"
+    ]
+  }
+}

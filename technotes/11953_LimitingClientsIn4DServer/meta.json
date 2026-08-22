@@ -1,0 +1,27 @@
+{
+  "asset_id": 11953,
+  "title": "Tech Note: Limiting the Number of Clients in 4D Server 6.5.x via Code",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "April 1, 2000",
+  "product": "4D Server",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11953",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server 6.5.x",
+    "Connection limiting",
+    "License/connection management code"
+  ],
+  "historical_commentary": {
+    "text": "This note describes a code-level workaround for limiting simultaneous client connections to a specific 4D Server 6.5.x instance, useful for administrators wanting a soft connection cap beyond what licensing alone enforced, but explicitly not intended for allocating specific numbers of users across multiple server instances. The technique is tied to the connection-management APIs and licensing model of 4D Server 6.5.x, which have since evolved substantially, but the underlying administrative need \u2014 controlling concurrent connection counts to a server instance \u2014 remains a relevant operational concern for any deployed 4D Server today, now typically handled via more direct, built-in server configuration and licensing controls.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Server's licensing and connection management capabilities have evolved substantially since 4D Server 6.5.x, including more direct built-in controls for connection limits",
+      "The specific code workaround from this era is superseded by current server configuration and licensing mechanisms for managing concurrent client counts"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: FAQ - List Forms in Version 2004 (TN 05-19, 4D v2004, May 2005) — an FAQ from 4D Technical Support explaining the major harmonization of Output forms, Subforms, and User mode list display in 4D 2004, including new selection modes, commands, and events.

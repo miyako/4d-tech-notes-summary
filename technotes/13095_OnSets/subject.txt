@@ -1,0 +1,1 @@
+Tech Note: On Sets (TN 01-13, 4D, March 2001) — a brief introduction to Sets as a lightweight, memory-efficient way to manipulate record selections.

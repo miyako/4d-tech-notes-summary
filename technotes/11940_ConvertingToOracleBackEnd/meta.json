@@ -1,0 +1,27 @@
+{
+  "asset_id": 11940,
+  "title": "Tech Note: Converting to Oracle as a Back End",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "January 1, 2000",
+  "product": "4D Oracle",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11940",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D for Oracle",
+    "4D as front-end / Oracle as back-end architecture",
+    "Database migration strategy"
+  ],
+  "historical_commentary": {
+    "text": "This note discusses using 4D purely as a front-end UI layer while migrating data storage to Oracle, addressing scaling limitations of the classic 4D database engine of that era and preserving developers' investment in existing 4D interfaces. The specific connectivity technology (4D for Oracle) it relies on has been superseded first by 4D's native SQL engine and later by ORDA's data-source abstraction, and 4D's own database engine capacity/performance has grown enormously since 2000, changing the calculus of when such a migration is warranted, though the general front-end/back-end architectural strategy remains a conceptually valid pattern for scaling database applications.",
+    "status": "superseded",
+    "related_updates": [
+      "4D for Oracle connectivity has been superseded by 4D's native SQL engine (v11 SQL, 2007) and later ORDA (v17+, 2018), which provide more modern, unified approaches to external data source integration",
+      "4D's own database engine capacity and performance have grown substantially since 2000, reducing (though not eliminating) the scenarios where migrating away from 4D's native data engine is necessary"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Customizing the 4D Form Wizard (4D v6.0, August 1997) — shows how to substitute custom graphics for the Form Wizard's default resources to customize the "look and feel" of generated form templates, using the MusicPro example database, and notes that custom Mac OS-based resources must be edited on a Macintosh.

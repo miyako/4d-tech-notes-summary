@@ -1,0 +1,1 @@
+Tech Note: Using Command Select Document (2004) (TN 04-37, 4th Dimension v2004, September 2004) — introduces the new Select Document command in 4D 2004, giving developers greater power over file selection dialogs, with several worked examples.

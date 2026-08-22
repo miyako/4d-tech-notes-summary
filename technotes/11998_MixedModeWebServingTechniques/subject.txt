@@ -1,0 +1,1 @@
+Tech Note: 4D Mixed-Mode Web Serving Techniques: Crossing the bridge between Contextual and Non-contextual Modes (TN 00-42, 4D v6.5, September 2000) — a comprehensive guide to combining static Non-Contextual Mode pages with dynamic Contextual Mode sessions on the same 4D-served web site, including the newer BASE HREF-based Context Referencing Mode.

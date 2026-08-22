@@ -1,0 +1,28 @@
+{
+  "asset_id": 11941,
+  "title": "Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part IV:\rA Color Palette D",
+  "technote_number": "00-02",
+  "year": 2000,
+  "published_date": "January 1, 2000",
+  "product": "4D Draw",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Tim Tonooka, ACI Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11941",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_01-05_(JAN)/00-02_Graphic_Interfaces_4.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Draw",
+    "Color palette rendering",
+    "4D Draw object click detection",
+    "Multi-object selection/highlighting"
+  ],
+  "historical_commentary": {
+    "text": "This is Part IV of the multi-part 4D Draw interactive-interface series, focused on building a clickable color-palette display (one 4D Draw object per palette color) with cross-highlighting between a BMP image and its rendered palette. Like the rest of this series, it depends entirely on 4D Draw, a vector-graphics technology that has been superseded in 4D's current product line, making the concrete techniques for constructing and click-detecting individual 4D Draw objects obsolete, even though the underlying UI patterns (clickable swatch grids, cross-highlighting between related displays, multi-select without native selection handles) remain recognizable, generally-relevant interface design concepts.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Draw has been discontinued/superseded in the current 4D product line",
+      "Clickable color-swatch and cross-highlighting UI patterns are now typically built with modern list box, picture, or web-area based components rather than hand-built 4D Draw object grids"
+    ]
+  }
+}

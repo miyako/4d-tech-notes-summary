@@ -1,0 +1,1 @@
+Tech Note: The new EDIT FORMULA dialog in 4D 2004 (TN 05-34, 4D v2004, October 2005) — a brief note on using formulas in 4D databases via the redesigned EDIT FORMULA dialog introduced in 4D 2004.

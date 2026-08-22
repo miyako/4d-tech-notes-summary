@@ -1,0 +1,27 @@
+{
+  "asset_id": 32313,
+  "title": "Tech Note: Spreadsheet to 4D 101",
+  "technote_number": "04-16",
+  "year": 2004,
+  "published_date": "April 22, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=32313",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-16_Spreadsheet_to_4D_101.exe",
+  "content_source": "teaser_only",
+  "author_guess": null,
+  "featured_technology": [
+    "4D Import Dialog and import language commands",
+    "ODBC connectivity"
+  ],
+  "historical_commentary": {
+    "text": "This introductory note walks new 4D developers through migrating spreadsheet data into a 4D database using both the built-in Import Dialog and ODBC, a very common early-career onboarding task in the pre-SQL 4D era. The manual/programmatic import workflow it teaches is still conceptually present in modern 4D, but ODBC as the primary path for external data connectivity has been substantially supplemented (and in many cases supplanted) by 4D's native SQL engine and later ORDA-based data access, making the specific mechanics here dated though the beginner-oriented intent remains recognizable.",
+    "status": "superseded",
+    "related_updates": [
+      "4D gained a native SQL engine starting with 4D v11 SQL (~2007), reducing reliance on ODBC for structured data querying/import scenarios",
+      "Modern 4D offers broader import/export tooling (including JSON, and more automated import mapping) beyond the 2004-era Import Dialog and ODBC-only approach"
+    ]
+  }
+}

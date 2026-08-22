@@ -1,0 +1,1 @@
+Tech Note: Forcing Screen Redraws: Updating a Progress Display on a Form, Part I (4D v6.5, March 2000) — Part I of a two-part series showing a trick to force an immediate partial redraw of a form, useful for live progress-display updates.

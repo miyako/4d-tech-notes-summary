@@ -1,0 +1,29 @@
+{
+  "asset_id": 15345,
+  "title": "Tech Note: Authenticating Access to a Secure Area within a Web Site",
+  "technote_number": "01-26",
+  "year": 2001,
+  "published_date": "June 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=15345",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-26_Web_Authentication.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Server (Contextual Mode)",
+    "4D password system (built-in user/group accounts)",
+    "On Web Authentication database method",
+    "WebExam example database"
+  ],
+  "historical_commentary": {
+    "text": "This note surveys techniques for restricting access to portions of a 4D-served web site circa 2001, centered on 4D's then-current Contextual Mode web server, the classic built-in 4D password/account system, and the On Web Authentication database method. The general problem \u2014 gating access to protected web resources \u2014 is timeless, but every specific mechanism described (4D's classic password system, Contextual Mode session handling, On Web Authentication) has been superseded by modern web authentication approaches (HTTPS, session tokens/JWT, REST-based APIs) and by 4D's own move away from Contextual Mode web serving toward REST/ORDA-based web services, making this note obsolete as a practical recipe today.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's web serving model has shifted decisively from Contextual/Non-contextual Mode to REST APIs built on ORDA plus modern client-side frameworks",
+      "Web authentication today is typically implemented via HTTPS session cookies, tokens (JWT/OAuth), or platform identity providers rather than 4D's classic built-in password/account system",
+      "4D's built-in password system itself has evolved considerably since this era with stronger hashing and session management options"
+    ]
+  }
+}

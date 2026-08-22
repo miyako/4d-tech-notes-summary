@@ -1,0 +1,1 @@
+Tech Note: Under the Hood of the 4D Portal 1.0.1 Database (TN 01-54, 4D Portal v6.7.1, December 2001) — an explanation of how the 4D Portal 1.0.1 companion product works and how to configure it.

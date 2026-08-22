@@ -1,0 +1,29 @@
+{
+  "asset_id": 37394,
+  "title": "Tech Note: CPU, Scheduler and Processes",
+  "technote_number": "05-20",
+  "year": 2005,
+  "published_date": "May 27, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, QA Manager",
+  "page_url": "https://kb.4d.com/assetid=37394",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_17-20_(MAY)/05-20_CPU_Sched_Processes.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D internal process scheduler",
+    "SET DATABASE PARAMETER / Get database parameter (scheduler selectors 10/11/12)",
+    "IDLE and DELAY PROCESS commands",
+    "4D Server / 4D Client process architecture",
+    "Process pooling pattern"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D's cooperative-style internal scheduler \u2014 how ticks are allocated to 4D processes, how compiled code needs explicit IDLE/DELAY PROCESS calls to yield control, and how process creation/deletion costs and over-indexing can silently degrade performance, including causing Client/Server timeout errors. The core execution model it describes (a 4D-managed scheduler allocating CPU ticks to cooperative processes, requiring explicit yielding in compiled code) remains fundamentally how classic 4D processes work today, making this note's guidance still directly applicable to performance tuning in current 4D/4D Server applications, even as later 4D versions have added additional scheduling refinements.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Later 4D versions have refined process/thread handling (including preemptive-style improvements for certain built-in operations) but the fundamental cooperative scheduler model for classic 4D processes described here still applies",
+      "4D's documentation on IDLE, DELAY PROCESS, and SET DATABASE PARAMETER scheduler selectors remains current, and this note's guidance on avoiding over-indexing and complex triggers is still standard performance-tuning advice"
+    ]
+  }
+}

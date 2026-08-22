@@ -1,0 +1,27 @@
+{
+  "asset_id": 33989,
+  "title": "Tech Note: Using Command Select Document (2004)",
+  "technote_number": "04-37",
+  "year": 2004,
+  "published_date": "September 16, 2004",
+  "product": "4th Dimension",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33989",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-37_Select_Document.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Select Document command (4D 2004)",
+    "File/document selection dialogs"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces the Select Document command, new in 4D 2004, which gave developers greater power over file selection dialogs than any prior mechanism. The Select Document command has remained part of the current 4D classic language largely unchanged in concept, continuing to serve as a standard way to prompt users for a file to open, so the core technique this note teaches is still directly applicable today, even though the specific dialog appearance and OS-level file picker conventions shown have naturally evolved over twenty years of macOS and Windows releases.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Select Document remains part of the current 4D classic language command set and continues to function as a standard file-open dialog command",
+      "The underlying macOS/Windows native file picker dialogs have changed appearance and behavior considerably since 2004, though the 4D command interface remains conceptually the same",
+      "4D has since added complementary document/file-handling commands and, more recently, ORDA/REST-friendly ways to reference and manage files"
+    ]
+  }
+}

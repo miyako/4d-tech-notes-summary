@@ -1,0 +1,30 @@
+{
+  "asset_id": 11873,
+  "title": "Tech Note: Converting the Graph Commands to 4D Chart",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "September 1, 1998",
+  "product": "4D Chart",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11873",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart",
+    "GRAPH command",
+    "GRAPH TABLE command",
+    "GRAPH SETTINGS command",
+    "Array-based graphing"
+  ],
+  "historical_commentary": {
+    "text": "Both the legacy GRAPH commands and 4D Chart have been discontinued in modern 4D. This note served as a migration guide for developers transitioning from the v3-era GRAPH commands to the 4D Chart module that was built into 4D v6. Today, 4D developers would use Web Areas with JavaScript charting libraries (Chart.js, D3.js, etc.) or 4D View Pro for data visualization, making this migration guide purely of historical interest.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart has been discontinued and removed from the 4D product line",
+      "The legacy GRAPH, GRAPH TABLE, and GRAPH SETTINGS commands have been deprecated",
+      "Modern data visualization in 4D uses Web Areas with JavaScript charting libraries or 4D View Pro"
+    ]
+  }
+}

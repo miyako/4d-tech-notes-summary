@@ -1,0 +1,28 @@
+{
+  "asset_id": 48446,
+  "title": "Tech Note: Introduction to Regular Expressions in 4D v11 SQL",
+  "technote_number": "07-47",
+  "year": 2007,
+  "published_date": "December 19, 2007",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Robert Molina, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=48446",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_46-47_(DEC)/07-47_RegEx_Intro.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Match regex command",
+    "ICU (International Components for Unicode) regex engine",
+    "Regular expressions / pattern matching",
+    "Capture groups"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the first-ever native regular-expression support in 4D, introduced via the Match regex command alongside 4D v11 SQL's new SQL engine. The ICU-based regex engine and the Match regex command described here are still present and functional in modern 4D, making the core technical content largely still valid, though 4D's language and regex command set have since expanded considerably (e.g. additional regex-related commands and PCRE-style features added in later versions). The historical framing (regex as a novel addition alongside SQL) is now purely of historical interest.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D has continued to expand its regular expression support in the language over subsequent versions",
+      "The underlying SQL engine introduced in 4D v11 (referenced throughout this note) has been substantially developed since 2007"
+    ]
+  }
+}

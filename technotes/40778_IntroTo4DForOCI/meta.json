@@ -1,0 +1,29 @@
+{
+  "asset_id": 40778,
+  "title": "Tech Note: Introduction to 4D for OCI",
+  "technote_number": "05-39",
+  "year": 2005,
+  "published_date": "December 5, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Yvan Ayaay, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=40778",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_37-39_(NOV)/4D_For_OCI_2004.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D for OCI plug-in",
+    "Oracle Call Interface (OCI)",
+    "Oracle Instant Client / Oracle Database Client installation",
+    "tnsnames.ora configuration"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces the 4D for OCI plug-in, which gave 4D 2004 applications native client connectivity to Oracle 8i/9i/10g servers via Oracle's Call Interface, and walks through installing the Oracle Client/Instant Client and configuring tnsnames.ora on both Windows and Mac OS X. The 4D for OCI plug-in has since been discontinued as a distinct product, and the manual Mac OS X installation steps shown (copying dylibs to /usr/lib, editing environment.plist) are tied to system conventions long superseded by later macOS security and library-loading changes, making the specific instructions obsolete even though the general concept of connecting 4D to Oracle via a client library remains a live requirement addressed through other means today.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D for OCI plug-in has been discontinued; direct Oracle connectivity is no longer offered as this dedicated plug-in",
+      "4D's SQL engine (from v11 SQL onward) and ODBC-based external database connections are the current paths for connecting 4D applications to Oracle and other external databases",
+      "macOS library installation and security conventions (e.g., dylib loading, SIP) have changed substantially since Mac OS X 10.3"
+    ]
+  }
+}

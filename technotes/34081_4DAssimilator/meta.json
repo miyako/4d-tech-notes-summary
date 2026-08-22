@@ -1,0 +1,28 @@
+{
+  "asset_id": 34081,
+  "title": "Tech Note: Using 4D 2004 Assimilator",
+  "technote_number": "04-38",
+  "year": 2004,
+  "published_date": "September 23, 2004",
+  "product": "4D ODBC",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=34081",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-38_Assimilator.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D 2004 Assimilator tool",
+    "ODBC-based data/structure cloning",
+    "Database migration into 4D"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the 4D 2004 Assimilator, a migration tool that could clone data structures and data files from any ODBC-compliant database and import them into a 4D database, sparing developers from manually recreating structures and data when migrating an existing database to 4D. The Assimilator tool itself is a discontinued 2004-era utility, and while the general problem it solved (migrating external databases into 4D) is still faced by developers today, current migration approaches rely on different, more modern tooling and techniques rather than this specific product.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D 2004 Assimilator as a named product/tool is no longer part of current 4D offerings",
+      "Modern database migration into 4D typically relies on ODBC/SQL import features, scripted data import via 4D's language, or ORDA-based data source connections rather than a dedicated Assimilator utility",
+      "4D's native SQL engine and later ORDA have changed the landscape of how external databases are connected to or migrated into 4D applications"
+    ]
+  }
+}

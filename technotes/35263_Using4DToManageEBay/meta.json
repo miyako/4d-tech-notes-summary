@@ -1,0 +1,28 @@
+{
+  "asset_id": 35263,
+  "title": "Tech Note: Using 4D to Manage eBay",
+  "technote_number": "04-51",
+  "year": 2004,
+  "published_date": "December 22, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=35263",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_51_(DEC)/04-51_Manage_eBay_with_4D.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "eBay Developers Program API",
+    "4D Web Services (SOAP client)",
+    "E-commerce integration"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to connect a 4D 2004 application to eBay's Developers Program API using 4D's SOAP-era Web Services capabilities, letting small businesses manage eBay listings from within their 4D database. eBay's API has been revised many times since 2004 (moving through multiple SOAP/XML and later REST generations), so the specific integration shown is obsolete, though the underlying idea of integrating 4D with a marketplace API for small-business e-commerce remains a relevant, still-common pattern, today implemented via 4D's HTTP Client commands and REST/JSON rather than 2004-era SOAP. Only the teaser paragraph could be recovered for this note.",
+    "status": "obsolete",
+    "related_updates": [
+      "eBay's developer API has changed substantially across multiple generations since 2004",
+      "4D's web-service integration has shifted from SOAP-era 4D Web Services to HTTP Client commands plus native JSON for REST-based integrations",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 16395,
+  "title": "Tech Note: Exploring the Loan Tool Database",
+  "technote_number": "01-38",
+  "year": 2001,
+  "published_date": "August 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16395",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-38_Exploring_Loan_Tool.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Amortization/loan calculation logic",
+    "Example database (Tad Michael Wheeler, DataCraft)",
+    "Form-based financial calculators"
+  ],
+  "historical_commentary": {
+    "text": "This note walks through the Loan Tool example database, an intermediate-level demo that calculates borrowing capacity, payment schedules, and amortization details (principal, interest, cumulative interest, ending balance) from user-entered loan parameters. The underlying financial/amortization math and the general pattern of a form-driven calculator remain timeless and directly portable to a modern 4D application, even though the specific 2001-era form design and Design Mode structure shown are dated.",
+    "status": "still_relevant",
+    "related_updates": [
+      "The amortization/loan-calculation logic itself is unchanged math and remains directly reusable",
+      "Modern equivalents would present the same calculator using a Project Mode form and possibly a List Box or web/ORDA-based front end instead of the 2001-era UI"
+    ]
+  }
+}

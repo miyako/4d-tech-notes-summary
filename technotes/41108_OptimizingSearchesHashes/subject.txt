@@ -1,0 +1,1 @@
+Tech Note: Optimizing Searches with Hashes (TN 05-44, 4D v2004, December 2005) — explains how hashing (via the HashTools component) can accelerate case-sensitive, BLOB, picture, and document searches beyond 4D's native query capabilities.

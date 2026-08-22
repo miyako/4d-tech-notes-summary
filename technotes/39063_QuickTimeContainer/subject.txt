@@ -1,0 +1,1 @@
+Tech Note: QuickTime Container: Plug-in to display and control movies and audio using QT (TN 05-30, 4D v2004, September 2005) — a plug-in for embedding and controlling QuickTime-based movie and audio playback inside a 4D application window.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 11773,
+  "title": "Tech Note: Installing and Troubleshooting 4D Server - Windows",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "December 1, 1997",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11773",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server (Windows)",
+    "4D Client",
+    "Windows installation/troubleshooting"
+  ],
+  "historical_commentary": {
+    "text": "This note documents installation and troubleshooting steps for 4D Server and 4D Client V6 specifically on Windows; as OS-specific installer guidance tied to the Windows NT/95-era operating systems and V6-era installer mechanics, it is now purely of historical interest, since 4D Server's installation process, supported Windows versions, and networking stack have all changed substantially over subsequent decades.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D Server's installation process, licensing, and supported Windows OS versions have changed substantially many times since 1997",
+      "Networking transport for 4D Server has shifted from an AppleTalk/TCP-IP-mixed era toward standardized TCP/IP-only networking in later 4D versions"
+    ]
+  }
+}

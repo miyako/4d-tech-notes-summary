@@ -1,0 +1,27 @@
+{
+  "asset_id": 12151,
+  "title": "Tech Note: The Blob Analyzer",
+  "technote_number": "01-10",
+  "year": 2001,
+  "published_date": "February 28, 2001",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12151",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-10_The_Blob_Analyzer.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "BLOB fields",
+    "Decimal/hexadecimal data inspection utility",
+    "Development-time debugging tool"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a real development-time gap of the era: 4D could not natively display the contents of a BLOB field on a form, which was a problem for developers making extensive use of BLOBs to store non-4D data types. The specific gap it patches has since been closed by 4D's expanded native debugging and variable-inspection tooling, and much of the raw-BLOB-as-generic-storage pattern itself has been supplemented by native JSON/object/collection handling for structured data, making this utility superseded by both better built-in tooling and evolved data-modeling practices.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's debugger and variable-inspection tools have since gained the ability to inspect BLOB and other complex variable contents natively, closing the gap this utility addressed",
+      "Structured data that once had to be packed into BLOBs is now more commonly represented using native JSON, objects, and collections in current 4D versions"
+    ]
+  }
+}

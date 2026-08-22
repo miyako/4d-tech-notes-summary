@@ -1,0 +1,1 @@
+Tech Note: HTTP Download with a Single Method (TN 05-31, 4D v2004, September 2005) — provides a single, easy-to-install 4D method for downloading HTML pages, posting data, and retrieving pictures or files over HTTP.

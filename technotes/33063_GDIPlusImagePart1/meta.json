@@ -1,0 +1,27 @@
+{
+  "asset_id": 33063,
+  "title": "Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part I of II",
+  "technote_number": "04-25",
+  "year": 2004,
+  "published_date": "June 24, 2004",
+  "product": "4th Dimension",
+  "version": "2003.3",
+  "platform": "Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33063",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-25_4D_GDIPlus_Image.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "GDIPlus_Image plug-in",
+    "Microsoft Windows GDI+",
+    "Image format conversion (BMP/JPG/GIF/EMF/WMF/TIF/PNG/ICO)"
+  ],
+  "historical_commentary": {
+    "status": "obsolete",
+    "text": "This note introduces a third-party, Windows-only plug-in (GDIPlus_Image) built around Microsoft's GDI+ API for image format conversion and manipulation in 4D applications circa 2004; the plug-in itself is not part of any current 4D distribution and has not been maintained for modern 4D versions. 4D's own native picture-handling commands and supported formats have since expanded considerably, covering much of what this specialized plug-in once uniquely provided, which renders the plug-in and this introduction obsolete as practical guidance even though the plug-in architecture concept it demonstrates remains valid.",
+    "related_updates": [
+      "4D's built-in picture/image commands have grown substantially since 2004, reducing the need for specialized third-party image plug-ins",
+      "The underlying 4D plug-in API itself was significantly modernized starting with 4D v11 SQL (Unicode, Universal Binary, later 64-bit support)"
+    ]
+  }
+}

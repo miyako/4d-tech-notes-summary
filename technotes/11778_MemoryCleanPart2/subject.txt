@@ -1,0 +1,1 @@
+Tech Note: Keeping the Memory Clean - Part 2 (4D v6.0, September 1997) — the second part of a two-part guide explaining how to write 4D code that helps keep application memory "clean" for better performance and stability; full text unavailable, summary based on the teaser only.

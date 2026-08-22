@@ -1,0 +1,26 @@
+{
+  "asset_id": 36473,
+  "title": "Tech Note: Data Formatting",
+  "technote_number": "05-10",
+  "year": 2005,
+  "published_date": "March 10, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36473",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-10_Data_Formatting.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D data-saving best practices",
+    "Data file integrity"
+  ],
+  "historical_commentary": {
+    "text": "This very short note stresses the importance of saving data properly in a 4D database, presumably covering safe-save practices for the classic binary data file format of the 4D 2004 era. The general principle of careful, validated data-saving remains timeless, but the specific 4D 2004-era data file mechanics referenced predate two decades of subsequent storage and backup improvements. Only a one-sentence teaser could be recovered for this note, so its detailed content is unknown.",
+    "status": "historical_interest_only",
+    "related_updates": [
+      "4D's data file format, backup, and integrity tooling have evolved substantially since 2004",
+      "Full archive/PDF for this note could not be recovered in this environment; only a one-sentence teaser was available"
+    ]
+  }
+}

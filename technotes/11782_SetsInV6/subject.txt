@@ -1,0 +1,1 @@
+Tech Note: Sets in 4D V6 (4D v6.0.x, October 1997) — discusses the new way sets are created and maintained in 4th Dimension version 6 for representing record selections and performing fast logical operations, plus compatibility issues with routines from version 3 databases; full text unavailable, summary based on the teaser only.

@@ -1,0 +1,26 @@
+{
+  "asset_id": 33418,
+  "title": "Tech Note: Three-State Checkboxes",
+  "technote_number": "04-30",
+  "year": 2004,
+  "published_date": "July 29, 2004",
+  "product": "4th Dimension",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33418",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-30_3-State_Checkboxes.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Three-state checkbox form object",
+    "4D 2004 UI form objects"
+  ],
+  "historical_commentary": {
+    "status": "still relevant",
+    "text": "The three-state checkbox form object introduced in 4D 2004 remains a supported form object property in current 4D versions, so the fundamental UI capability this note documents is still valid and usable today, whether in a binary Design Mode structure or a modern Project Mode form. The specific classic-language configuration steps shown are dated in presentation, but the underlying concept — a checkbox with an indeterminate 'mixed' state — is a standard UI pattern still relevant to form design.",
+    "related_updates": [
+      "The three-state checkbox remains a form object option in current 4D form editors (Design Mode and Project Mode)",
+      "4D's form/object model has otherwise evolved considerably since 2004, including CSS-based styling and responsive form layout options"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 41109,
+  "title": "Tech Note: 4D for OCI: Error Handling",
+  "technote_number": "05-45",
+  "year": 2005,
+  "published_date": "December 22, 2005",
+  "product": "4D Oracle",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=41109",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_40-46_(DEC)/05-45_4D_for_OCI_Errors.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D for OCI plug-in",
+    "Oracle Call Interface (OCI)",
+    "OCIOnErrCall / OCIErrorGet commands",
+    "Error handles and error records"
+  ],
+  "historical_commentary": {
+    "text": "This note documents error handling in the 4D for OCI plug-in, a native Oracle connectivity add-on that let 4D applications act as direct Oracle clients via the Oracle Call Interface, contrasting manual return-code checking against an ON ERR CALL-style automatic error handler. The 4D for OCI plug-in itself has since been discontinued as 4D moved database connectivity toward its built-in SQL engine (introduced in 4D v11 SQL, 2007) and standard ODBC-based external table/database access, so this specific plug-in API is now obsolete. The general error-handling pattern it teaches (checking return codes vs. installing a centralized error-catching method) mirrors 4D's own ON ERR CALL mechanism, which remains a valid and current concept.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D for OCI plug-in has been discontinued; direct Oracle connectivity is no longer offered as this dedicated plug-in",
+      "4D's native SQL engine (from 4D v11 SQL onward) and ODBC-based external database connections are the modern paths for connecting 4D to external databases including Oracle"
+    ]
+  }
+}

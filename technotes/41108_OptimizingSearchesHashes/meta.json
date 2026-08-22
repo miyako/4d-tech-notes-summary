@@ -1,0 +1,28 @@
+{
+  "asset_id": 41108,
+  "title": "Tech Note: Optimizing Searches with Hashes",
+  "technote_number": "05-44",
+  "year": 2005,
+  "published_date": "December 22, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=41108",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_40-46_(DEC)/05-44_Optimizing_Searches.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "HashTools component",
+    "Nine hashing algorithms (AP, BKDR, DJB, ELF, JS, PJW, RS, SDBM, SumBytes)",
+    "Hash-optimized queries (alternative to QUERY BY FORMULA)",
+    "Case-sensitive / full-text / BLOB / picture / document searching"
+  ],
+  "historical_commentary": {
+    "text": "This note tackles a genuine engine limitation of the era: 4D's classic database engine could not natively perform case-sensitive text searches, full BLOB/picture comparisons, or efficient full-text scans, so it teaches storing precomputed hashes and using indexed hash lookups plus QUERY BY FORMULA as a workaround, with detailed benchmark comparisons of nine hashing algorithms. The general technique (storing a hash for fast pre-filtering before an exact comparison) remains a valid, timeless database optimization pattern, but 4D's engine has since gained a proper SQL engine (v11 SQL, 2007) with richer native query/index capabilities, reducing how often developers need to hand-roll hash-based search optimizations for ordinary text search.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's SQL engine (introduced in v11 SQL) and subsequent query/indexing improvements provide more native options for advanced searches than were available in 2004/2005",
+      "The underlying hash-based pre-filtering technique described remains a generally applicable optimization pattern in any database system"
+    ]
+  }
+}

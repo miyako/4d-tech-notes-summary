@@ -1,0 +1,1 @@
+Tech Note: Included Lists with 4D View (TN 04-36, 4th Dimension v2004, September 2004) — covers the basic use of a 4D View area as a subform-type area, with a focus on included lists, an alternative to subforms available since 4D v6.8.

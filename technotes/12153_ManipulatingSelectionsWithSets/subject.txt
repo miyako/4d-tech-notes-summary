@@ -1,0 +1,1 @@
+Tech Note: Manipulating Selections with Sets (TN 01-02, 4D v6.7, January 2001) — a discussion of the performance advantages of Sets for storing, loading, relating, and clearing record selections instead of repeatedly re-querying.

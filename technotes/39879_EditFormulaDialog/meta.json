@@ -1,0 +1,26 @@
+{
+  "asset_id": 39879,
+  "title": "Tech Note: The new EDIT FORMULA dialog in 4D 2004",
+  "technote_number": "05-34",
+  "year": 2005,
+  "published_date": "October 18, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=39879",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_34-36_(OCT)/05-34_Edit_Formula_Dialog.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "EDIT FORMULA dialog",
+    "4D formulas (QUERY BY FORMULA / ORDER BY FORMULA style expressions)"
+  ],
+  "historical_commentary": {
+    "text": "Based on the available teaser text, this note covers the redesigned EDIT FORMULA dialog introduced in 4D 2004 and how to use formulas within a 4D database (e.g., for formula-based queries and calculations). Formulas remain a core 4D language concept today, but the specific dialog UI shown has been redesigned multiple times since 2005, and Project Mode's text-based method/formula editors (introduced 2018) represent a substantially different editing experience than the Design Mode dialog this note documents, so the specific UI walkthrough is dated even though the underlying formula concept endures.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's formula/method editing interface has been redesigned multiple times since 2004, including the shift to Project Mode's text-based editors starting with 4D v17 (2018)",
+      "Formula-based querying and calculation remain a core, actively used part of the current 4D language"
+    ]
+  }
+}

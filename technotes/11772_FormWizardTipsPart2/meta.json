@@ -1,0 +1,27 @@
+{
+  "asset_id": 11772,
+  "title": "Tech Note: Tricks and Tips for Using the Form Wizard - Part 2",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "August 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11772",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Form Wizard",
+    "MusicPro example database",
+    "Alpha field width control"
+  ],
+  "historical_commentary": {
+    "text": "This is Part 2 of a two-part guide to using 4D V6's new Form Wizard, a form design tool introduced with V6; Part 1 covered group boxes, active object styles, and button text, while Part 2 focuses on controlling alpha field width in output forms. The Form Wizard itself, as a V6-era tool, has been superseded by many later 4D form design improvements, though controlling field widths on output forms remains a generally relevant form-design concern.",
+    "status": "superseded",
+    "related_updates": [
+      "The V6-era Form Wizard has been superseded by newer 4D form design tools and capabilities introduced in subsequent versions",
+      "Modern 4D form design offers more direct and flexible control over object sizing/width than the V6 Form Wizard's template-driven approach described here"
+    ]
+  }
+}

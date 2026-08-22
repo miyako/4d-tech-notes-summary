@@ -1,0 +1,1 @@
+Tech Note: New List Box Features in 4D v11 SQL (TN 07-38, 4D Developer v11, September 2007) — an overview of new List Box data source options (Current Selection, Named Selection) and Project Forms introduced in 4D v11 SQL, illustrated with a People/Companies sample database.

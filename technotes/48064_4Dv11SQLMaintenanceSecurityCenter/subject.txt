@@ -1,0 +1,1 @@
+Tech Note: 4D v11 SQL Maintenance and Security Center (TN 07-43, 4D Developer v11, November 2007) — a guide to the new Maintenance and Security Center (MSC) interface that consolidates database repair, maintenance, and information functions in 4D v11 SQL.

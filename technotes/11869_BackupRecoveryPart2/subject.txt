@@ -1,0 +1,1 @@
+Tech Note: Backup and Recovery Strategies for Mission-Critical 4D Server Databases - Part 2 (4D Backup v6.0, March 1997) — the second part of a two-part guide covering automatic backup and mirroring with 4D Backup for 24/7 mission-critical 4D Server installations; full text unavailable, summary based on the teaser only.

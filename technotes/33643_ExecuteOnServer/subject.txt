@@ -1,0 +1,1 @@
+Tech Note: Taking Advantage of Execute on Server (TN 04-33, 4D v2003.4, August 2004) — a guide to using EXECUTE ON SERVER to offload network-intensive client/server operations, such as large queries or bulk formula updates, onto the server.

@@ -1,0 +1,1 @@
+Tech Note: Resource Mover (4D v6.0, October 1999) — presents a cross-platform productivity tool for manipulating pictures, icons, string lists, constants, sounds, button families, and CLUT resources in 4D.

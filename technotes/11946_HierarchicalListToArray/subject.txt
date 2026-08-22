@@ -1,0 +1,1 @@
+Tech Note: The Hierarchical LIST TO ARRAY Command (4D v6.0, January 2000) — a workaround technique that copies an entire hierarchical list, including all nested levels, into a string array — something the built-in LIST TO ARRAY command could not do on its own.

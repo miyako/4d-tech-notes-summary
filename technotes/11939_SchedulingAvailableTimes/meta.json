@@ -1,0 +1,27 @@
+{
+  "asset_id": 11939,
+  "title": "Tech Note: Storing and Searching for Available Times in a Schedule",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "January 1, 2000",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11939",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Scheduling/appointment data model",
+    "Time-slot search algorithm",
+    "Relational data design for time-based queries"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a data-modeling and search technique for appointment scheduling \u2014 dividing each day into fixed time units (e.g., 10-minute slots) and searching for open blocks matching a duration/time-window criteria, illustrated with a doctor's office scheduling example. This is a timeless database/algorithm design problem independent of any particular 4D version, and the general approach (fixed-granularity time slots plus a search/scan technique to find qualifying open runs) remains a valid, still-relevant pattern for building scheduling features in 4D or any other database platform today.",
+    "status": "still relevant",
+    "related_updates": [
+      "The core data-modeling and time-slot search technique remains a valid, general approach to scheduling problems in any database platform, including current 4D applications",
+      "Modern 4D applications might implement this with collections/ORDA entity selections rather than the classic array/selection-based code likely used in the original 2000 sample database, but the underlying algorithmic approach is unchanged"
+    ]
+  }
+}

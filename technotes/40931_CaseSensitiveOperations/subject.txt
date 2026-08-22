@@ -1,0 +1,1 @@
+Tech Note: Case-Sensitive Operations in 4th Dimension (TN 05-41, 4D v2004, December 2005) — techniques and sample code for performing case-sensitive string, array, and BLOB comparisons and searches, motivated largely by XML's case-sensitive naming rules.

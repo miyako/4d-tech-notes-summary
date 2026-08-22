@@ -1,0 +1,1 @@
+Tech Note: Inside the Runtime Explorer (TN 00-15, 4D v6.5, March 2000) — a deep dive into the classic Runtime Explorer debugging window (Watch, Process, Break, and Catch pages) and how to interpret its memory cache statistics.

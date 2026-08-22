@@ -1,0 +1,1 @@
+Tech Note: Exchanging Data Between Processes (TN 04-39, 4th Dimension v2004, September 2004) — provides techniques for safely retrieving and setting process variable values between multiple running processes in a 4D database.

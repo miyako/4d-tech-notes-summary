@@ -1,0 +1,27 @@
+{
+  "asset_id": 32705,
+  "title": "Tech Note: Reading a Full SOAP Response",
+  "technote_number": "04-20",
+  "year": 2004,
+  "published_date": "May 20, 2004",
+  "product": "4th Dimension",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=32705",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-20_Full_SOAP_Response.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "CALL WEB SERVICE command",
+    "SOAP (Simple Object Access Protocol)",
+    "4D native Web Service client"
+  ],
+  "historical_commentary": {
+    "status": "superseded",
+    "text": "This note documents an advanced technique for reading raw SOAP responses in 4th Dimension's native Web Service client, reflecting the SOAP-centric web-services standard that dominated enterprise integration in the early-to-mid 2000s. SOAP itself has since been broadly superseded by REST and JSON as the default approach for web service integration industry-wide, and 4D's own web services direction has moved decisively toward REST APIs (particularly via ORDA, introduced 2017+), though the CALL WEB SERVICE command and SOAP client capability described here likely still exist in current 4D for legacy integration needs.",
+    "related_updates": [
+      "REST and JSON have broadly replaced SOAP as the dominant web-service integration standard industry-wide",
+      "4D's own web-services strategy has shifted to REST APIs built on ORDA, alongside continued support for legacy SOAP-based commands"
+    ]
+  }
+}

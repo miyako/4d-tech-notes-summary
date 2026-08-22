@@ -1,0 +1,1 @@
+Tech Note: CPU, Scheduler and Processes (TN 05-20, 4D v2004, May 2005) — an explanation of how 4D's internal cooperative process scheduler allocates CPU time, and how developers can tune it to improve database performance.

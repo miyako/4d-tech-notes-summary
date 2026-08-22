@@ -1,0 +1,1 @@
+Tech Note: Disabling Tab Controls (TN 01-03, 4D v6.7, January 2001) — a comparison of two techniques — disabling versus deleting — for preventing users from navigating to certain pages via a tab control.

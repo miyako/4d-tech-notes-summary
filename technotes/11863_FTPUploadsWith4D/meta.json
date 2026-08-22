@@ -1,0 +1,29 @@
+{
+  "asset_id": 11863,
+  "title": "Tech Note: FTP Uploads with 4D",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "December 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11863",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "FTP protocol",
+    "4D Internet Commands",
+    "File upload",
+    "Cross-platform networking"
+  ],
+  "historical_commentary": {
+    "text": "FTP was a primary file transfer protocol in 1999, and 4D Internet Commands provided the FTP client functionality demonstrated here. FTP has since fallen out of favor due to security concerns (credentials sent in plaintext), replaced by SFTP, SCP, HTTPS uploads, and cloud storage APIs. 4D Internet Commands have been largely superseded by built-in HTTP commands and the 4D.HTTPRequest class. The note remains interesting as documentation of late-1990s internet integration practices in 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Internet Commands have been largely superseded by built-in 4D HTTP/network commands",
+      "FTP has been widely replaced by SFTP, HTTPS, and cloud storage APIs for security reasons",
+      "Modern 4D provides 4D.HTTPRequest class and built-in HTTP client capabilities"
+    ]
+  }
+}

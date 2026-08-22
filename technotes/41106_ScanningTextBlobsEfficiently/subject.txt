@@ -1,0 +1,1 @@
+Tech Note: Scanning Text and BLOBs Efficiently or Testing Performance Meaningfully (TN 05-42, 4D v2004, December 2005) — a performance case study on scanning text/BLOB data by value vs. by pointer, and a lesson in designing and interpreting meaningful benchmarks.

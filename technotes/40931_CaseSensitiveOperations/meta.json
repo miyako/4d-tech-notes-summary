@@ -1,0 +1,28 @@
+{
+  "asset_id": 40931,
+  "title": "Tech Note: Case-Sensitive Operations in 4th Dimension",
+  "technote_number": "05-41",
+  "year": 2005,
+  "published_date": "December 13, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=40931",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_40-46_(DEC)/05-41_Case_Sensitive_Ops.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Case-sensitive string/array/BLOB comparison routines",
+    "XML element/attribute name case-sensitivity",
+    "Hash-optimized case-sensitive search (HashTools)",
+    "Script Manager / OS-dependent text comparison behavior"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a core 4th Dimension 2004 language limitation — the engine's QUERY and string comparisons were natively case- and diacritic-insensitive — and provides workaround code for case-sensitive comparisons, especially motivated by the case-sensitivity requirements of XML element and attribute names in the era's growing web-services/XML integration work. Since then, 4D has added native case-sensitive comparison and search options directly to the classic language and query engine, reducing the need for the custom pointer-based comparison routines this note builds, though the underlying explanation of why case-sensitivity matters for XML remains accurate and useful context.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D has since added native case-sensitive options to query, sort, and string comparison commands, reducing reliance on custom workaround code",
+      "4D's XML/JSON support has expanded considerably since 2005 with dedicated parsing and generation commands"
+    ]
+  }
+}

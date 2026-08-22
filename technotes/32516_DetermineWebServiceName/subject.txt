@@ -1,0 +1,1 @@
+Tech Note: Determining the Name of a Requested Web Service (TN 04-18, 4D v2003.3, May 2004) — a technique for reading a SOAP-based Web Service's requested method/service name using Get Soap info and custom SoapAction header parsing.

@@ -1,0 +1,1 @@
+Tech Note: Estimating Software Development Time (4D v6.0, April 1999) — discusses project management skills for accurately estimating software development timelines.

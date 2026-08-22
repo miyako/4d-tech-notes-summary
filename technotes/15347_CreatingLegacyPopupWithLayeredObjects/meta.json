@@ -1,0 +1,27 @@
+{
+  "asset_id": 15347,
+  "title": "Tech Note: Creating a 6.0-style Pop-up in 6.7 using Layered Objects",
+  "technote_number": "01-28",
+  "year": 2001,
+  "published_date": "June 30, 2001",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=15347",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2001/windows/tn_2001_26-30_(jun)/01-28_popups_6.0_in_6.7.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Pop-up menus / Drop-down lists (form objects)",
+    "Layered objects",
+    "Object method (form event handling)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a narrow compatibility workaround for a form-object behavior change between 4D v6.0 and v6.5 (pop-up/drop-down menus firing their object method on browse, not just on selection), implemented by layering objects on a binary Design Mode form. The specific trick is tied to the old pop-up/drop-down object types and binary form editor of that era, and the underlying v6.0-vs-v6.5 behavior distinction it addresses has been irrelevant for two decades. It is preserved mainly as a historical illustration of how form-object workarounds were built before richer event models and Project Mode existed.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's form object model and event system have been significantly extended since (including list box-based dropdowns and richer On Load/On Data Change events), reducing the need for layered-object workarounds",
+      "Project Mode (4D v17+) replaced binary Design Mode structures with text-based form files, changing how forms are authored and versioned"
+    ]
+  }
+}

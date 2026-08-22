@@ -1,0 +1,1 @@
+Tech Note: Connected Multimedia Apps with 4D and Flash (TN 04-09, 4D v2003.3, March 2004) — demonstrates pairing a 4D application backend with a Macromedia Flash front-end, based on a demo from the 2003 4D Summit Conference.

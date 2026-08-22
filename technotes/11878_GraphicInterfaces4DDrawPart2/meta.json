@@ -1,0 +1,29 @@
+{
+  "asset_id": 11878,
+  "title": "Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part II",
+  "technote_number": "99-47",
+  "year": 1999,
+  "published_date": "November 1, 1999",
+  "product": "4D Draw",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11878",
+  "download_url": "https://kb.4d.com/f/DLTN/TN/1999/Windows/TN_1999_47-50_(NOV)/99-47_Graphic_Interfaces_2.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Draw",
+    "BMP file format",
+    "Vector graphics",
+    "Bitmap-to-vector conversion"
+  ],
+  "historical_commentary": {
+    "text": "4D Draw was discontinued long ago and is no longer available as a product or plug-in in modern 4D. The techniques for creating interactive graphic interfaces described here—manipulating vector objects, responding to click events, and validating BMP files—are historically interesting as examples of creative UI building within the constraints of late-1990s 4D. Modern 4D developers would use SVG, Web Areas, or external front-end frameworks for similar interactive graphic interfaces.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Draw was discontinued and removed from the 4D product line",
+      "Modern 4D supports SVG natively and Web Areas for rich interactive graphics",
+      "BMP validation logic is now handled by standard image libraries rather than manual BLOB parsing"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 41106,
+  "title": "Tech Note: Scanning Text and BLOBs Efficiently or Testing Performance Meaningfully",
+  "technote_number": "05-42",
+  "year": 2005,
+  "published_date": "December 22, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=41106",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_40-46_(DEC)/05-42_Scanning_Text_BLOBs.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Text/BLOB character-by-character scanning",
+    "Pass-by-value vs pass-by-pointer parameter performance",
+    "4D compiled-mode benchmarking methodology",
+    "BLOB {byte} vs text [[char]] syntax"
+  ],
+  "historical_commentary": {
+    "text": "This note investigates a very specific, dramatic 4th Dimension 2004 performance pitfall (scanning text through a pointer being roughly 700x slower than scanning it directly) and uses it as a case study for how to design and interpret meaningful performance tests, concluding with practical pass-by-value/pass-by-pointer rules of thumb. The specific benchmark numbers are tied to the 4D 2004.2 compiler/runtime of the era and are now obsolete given two decades of runtime, compiler, and memory-management improvements, but the methodological lesson — that raw ratios can be misleading without considering absolute time and real-world impact — remains a genuinely useful, still-relevant piece of engineering advice for any performance testing today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's compiler and runtime performance characteristics for text/BLOB operations have changed substantially since 2004/2005; these exact benchmark ratios no longer apply to current versions",
+      "The general performance-testing methodology and pass-by-value/pointer trade-off reasoning remain applicable programming principles"
+    ]
+  }
+}

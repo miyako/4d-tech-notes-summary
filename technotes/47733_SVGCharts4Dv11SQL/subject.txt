@@ -1,0 +1,1 @@
+Tech Note: SVG Charts in 4D v11 SQL (TN 07-40, 4D Developer v11, October 2007) — a guide to using 4D v11 SQL's new native SVG rendering engine with the GRAPH command to draw and export vector-based statistical charts.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 25621,
+  "title": "Tech Note: Hierarchical List Palette",
+  "technote_number": "03-4",
+  "year": 2003,
+  "published_date": "January 31, 2003",
+  "product": "4D",
+  "version": "6.8.3",
+  "platform": "Mac & Win",
+  "author": "Cha Yang, 4D Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=25621",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_01-05_(JAN)/03-04_list_palette.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Hierarchical lists",
+    "APPEND TO LIST / INSERT LIST ITEM / SET LIST ITEM / DELETE LIST ITEM",
+    "List item parent/position commands"
+  ],
+  "historical_commentary": {
+    "text": "The specific list commands discussed (APPEND TO LIST, INSERT LIST ITEM, SET LIST ITEM, List item parent, List item position) are still part of the current 4D language and remain the standard way to manipulate hierarchical lists, making this note's core technical content largely still relevant. What has changed since 2003 is mainly the surrounding tooling \u2014 Design Mode's binary structure file has since been supplemented by Project Mode, and modern 4D code would likely favor object/collection-based data structures for anything not directly tied to a list form object.",
+    "status": "still relevant",
+    "related_updates": [
+      "The list manipulation commands referenced are still present and functionally similar in current 4D versions",
+      "Modern 4D projects increasingly use collections/objects rather than list references for non-UI hierarchical data, reserving hierarchical-list commands specifically for list form objects"
+    ]
+  }
+}

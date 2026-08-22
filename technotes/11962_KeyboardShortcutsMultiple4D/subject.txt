@@ -1,0 +1,1 @@
+Tech Note: Keyboard Shortcuts for Multiple Instances of 4D (TN 00-46, 4D v6.5, October 2000) — a technique for creating shortcuts that launch 4D or 4D Server directly against a specific data file, including running multiple instances at once.

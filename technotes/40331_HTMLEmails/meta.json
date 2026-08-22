@@ -1,0 +1,30 @@
+{
+  "asset_id": 40331,
+  "title": "Tech Note: HTML Emails",
+  "technote_number": "05-37",
+  "year": 2005,
+  "published_date": "November 13, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=40331",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_37-39_(NOV)/HTML_Mail.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PROCESS HTML TAGS (4D 2004 command)",
+    "4D Quick Report engine (HTML output)",
+    "4D Chart (picture/GIF generation)",
+    "4D Internet Commands (SMTP sending)",
+    "Multipart MIME email construction"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to assemble and send HTML emails with embedded picture attachments (e.g., automated sales report charts) from 4D 2004, combining the Quick Report engine or HTML templates processed with the then-new PROCESS HTML TAGS command, 4D Chart-generated GIFs, and manual multipart MIME construction sent via the 4D Internet Commands plug-in. The general goal (automated HTML report emails with embedded charts) is still a common business need, but 4D has since added more direct native SMTP/email commands and richer built-in HTML/PDF report generation, making the note's manual MIME-boundary string manipulation and Quick-Report-to-HTML workaround largely superseded by simpler modern equivalents.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since introduced more capable native SMTP/email sending commands, reducing the need for the 4D Internet Commands plug-in and manual MIME construction shown here",
+      "4D's reporting and web-content generation tools (e.g., 4D Write Pro, modern list boxes, REST-based reporting) have superseded the Quick-Report-to-HTML workflow described",
+      "4D Email 3.0, mentioned in the note as then-in-beta, is itself a long-discontinued product"
+    ]
+  }
+}

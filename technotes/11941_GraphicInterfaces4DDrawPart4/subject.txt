@@ -1,0 +1,1 @@
+Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part IV:A Color Palette D (TN 00-02, 4D Draw v6.5, January 2000) — Part IV of a series on 4D Draw interactive interfaces, explaining how to programmatically construct and interact with a color-palette display built from individual 4D Draw objects.

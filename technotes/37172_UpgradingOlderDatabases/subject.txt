@@ -1,0 +1,1 @@
+Tech Note: Upgrading Older Databases (TN 05-17, 4D v2004, May 2005) — a step-by-step guide for migrating 4D databases from version 2/3/6.x on classic Mac OS to 4D 2003/2004, covering external/plug-in removal, platform transport, and data recovery.

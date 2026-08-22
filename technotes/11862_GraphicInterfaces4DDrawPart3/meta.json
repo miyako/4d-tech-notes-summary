@@ -1,0 +1,34 @@
+{
+  "asset_id": 11862,
+  "title": "Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part III",
+  "technote_number": "99-53",
+  "year": 1999,
+  "published_date": "December 1, 1999",
+  "product": "4D Draw",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Tim Tonooka",
+  "page_url": "https://kb.4d.com/assetid=11862",
+  "download_url": "https://kb.4d.com/DLTN/TN/1999/Windows/TN_1999_51-55_(DEC)/99-53_Graphic_Interfaces_3.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Draw",
+    "BMP pixel data reading",
+    "Interactive 4D Draw areas",
+    "DR EVENT FILTER",
+    "DR LAST CLICK",
+    "DR EXPERT COMMAND",
+    "BLOB operations",
+    "Color palette manipulation"
+  ],
+  "historical_commentary": {
+    "text": "This deeply technical Part III continues the remarkable 4D Draw interactive graphics series, demonstrating pixel-level interaction in a 4D Draw area—clicking on individual pixels in a BMP image and reading their color data from BLOB storage. The level of manual low-level programming required (calculating pixel addresses in BMP documents, managing cursor objects, configuring expert modes) showcases both the power and the complexity of 4D Draw programming. All of this is now obsolete: 4D Draw has been discontinued, and modern developers would use HTML Canvas, SVG, or WebGL in a Web Area for comparable interactive graphics. The meticulous code organization and documentation by Tim Tonooka, however, remains exemplary.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Draw has been discontinued and removed from the 4D product line",
+      "ACI_Pack plug-in is no longer available",
+      "Modern interactive pixel-level graphics would use HTML Canvas or WebGL in Web Areas",
+      "BLOB-level BMP parsing has been replaced by standard image processing libraries"
+    ]
+  }
+}

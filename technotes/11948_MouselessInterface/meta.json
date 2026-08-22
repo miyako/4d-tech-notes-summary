@@ -1,0 +1,28 @@
+{
+  "asset_id": 11948,
+  "title": "Tech Note: Designing a \"Mouseless\" Interface",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "February 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11948",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "HIGHLIGHT RECORDS command",
+    "Keyboard-driven navigation",
+    "Custom Menus environment",
+    "4D Insider library"
+  ],
+  "historical_commentary": {
+    "text": "This note documents building an entirely keyboard-navigable interface in 4D's classic Custom Menus environment, centered on the then-new HIGHLIGHT RECORDS command (introduced in 4D v6.5) for programmatically simulating Shift/Ctrl-click multi-selection. Accessibility-minded, keyboard-only interface design remains a genuinely relevant concern today, but the specific Custom Menus environment and its manual keyboard-event plumbing this note relies on have been superseded by 4D's modern Design environment, form event model, and accessibility support, alongside HIGHLIGHT RECORDS itself remaining a valid but now well-established language command.",
+    "status": "superseded",
+    "related_updates": [
+      "HIGHLIGHT RECORDS remains part of the current 4D language, now a long-established rather than newly introduced command",
+      "4D's forms and event-handling model has evolved substantially since the Custom Menus environment of this era, offering more built-in support for keyboard navigation and accessibility"
+    ]
+  }
+}

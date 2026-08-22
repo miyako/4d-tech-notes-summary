@@ -1,0 +1,29 @@
+{
+  "asset_id": 13096,
+  "title": "Tech Note: The SSL Keypair Certification Process",
+  "technote_number": "01-14",
+  "year": 2001,
+  "published_date": "March 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=13096",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-14_SSL_Keypair_Cert_Proc.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SSL / RSA encryption",
+    "4D Web Server SSL support",
+    "WebSTAR SSL integration",
+    "Key pair generation & certification"
+  ],
+  "historical_commentary": {
+    "text": "This note explains SSL fundamentals and walks through generating and certifying RSA key pairs for securing a 4D web site, in an era when 4D's web server was closely paired with WebSTAR for production HTTPS deployments. The specific WebSTAR-based SSL setup, key-pair generation workflow, and RSA-centric framing described are entirely obsolete: modern TLS certificate issuance (e.g., via standard Certificate Authorities or automated services like Let's Encrypt) and 4D's own built-in SSL/TLS configuration have completely replaced this workflow, though the underlying concept \u2014 securing a web server with a certificate to protect sensitive data in transit \u2014 remains as important as ever.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's web server now has its own built-in SSL/TLS certificate configuration, removing the need for a separate WebSTAR pairing to serve HTTPS",
+      "Modern certificate issuance/renewal (Let's Encrypt, standard CAs, ACME automation) has fully replaced the manual RSA key-pair certification process described in this note",
+      "TLS has superseded SSL industry-wide as the standard secure transport protocol"
+    ]
+  }
+}

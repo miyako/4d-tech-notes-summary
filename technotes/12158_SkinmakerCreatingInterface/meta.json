@@ -1,0 +1,27 @@
+{
+  "asset_id": 12158,
+  "title": "Tech Note: Skinmaker: Creating an Interface",
+  "technote_number": "01-05",
+  "year": 2001,
+  "published_date": "January 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12158",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-05_Skinmaker.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Custom form backgrounds",
+    "Dynamic template library",
+    "Binary Design Mode form skinning"
+  ],
+  "historical_commentary": {
+    "text": "This note ('Skinmaker') shows how to build a library of dynamically applied form-background templates in classic, binary Design Mode 4D, rather than hard-coding a static background into each form. This entire class of technique \u2014 visually 'skinning' binary Design Mode forms \u2014 has been superseded by decades of subsequent UI evolution, including Project Mode, richer native form styling, and (for web/mobile front-ends) CSS-based theming, making the specific implementation shown here of historical interest only for developers curious about period UI customization approaches.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Project Mode's text-based forms and 4D's expanded native styling options have replaced the need for hand-built 'skin library' background systems",
+      "Web and mobile front-ends built on ORDA/REST today typically use CSS-based theming rather than 4D form-object background tricks for interface skinning"
+    ]
+  }
+}

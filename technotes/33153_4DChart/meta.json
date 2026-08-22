@@ -1,0 +1,27 @@
+{
+  "asset_id": 33153,
+  "title": "Tech Note: 4D Chart",
+  "technote_number": "04-26",
+  "year": 2004,
+  "published_date": "July 1, 2004",
+  "product": "4th Dimension",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33153",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-26_4D_Chart.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart plug-in",
+    "4D Chart commands",
+    "Graphical charting of 4D data"
+  ],
+  "historical_commentary": {
+    "status": "superseded",
+    "text": "4D Chart was the bundled charting solution for 4D applications throughout the classic-language era, but 4D later introduced SVG-based charting components and, more broadly, moved toward web-technology-based visualization (HTML/CSS/JS charting libraries rendered in Web areas) as richer, more modern alternatives, making the specific 4D Chart plug-in and its command set increasingly superseded for new development. Developers building dashboards or reports in current 4D applications are more likely to reach for SVG/JS charting approaches than the original 4D Chart plug-in.",
+    "related_updates": [
+      "4D introduced SVG-based charting technical notes/components as a more modern alternative to the original 4D Chart plug-in",
+      "Modern 4D charting needs are commonly met via Web areas embedding JavaScript charting libraries rather than the native 4D Chart plug-in"
+    ]
+  }
+}

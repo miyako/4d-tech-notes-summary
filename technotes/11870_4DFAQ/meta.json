@@ -1,0 +1,39 @@
+{
+  "asset_id": 11870,
+  "title": "Tech Note: Frequently Asked Questions",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "October 1, 1997",
+  "product": "4D Write",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11870",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4th Dimension",
+    "4D Write",
+    "4D Tools",
+    "4D Server",
+    "4D Draw",
+    "DLL Tools",
+    "4D Compiler",
+    "4D Calc",
+    "4D SQL Server",
+    "4D Insider",
+    "4D Open",
+    "4D Runtime",
+    "4D Backup",
+    "4D V6 conversion/Web issues"
+  ],
+  "historical_commentary": {
+    "text": "This is an ACI Technical Support FAQ roundup covering common 1997-era questions across the entire 4D 3.x/6.0 product family, including V6 conversion and early web issues; as a snapshot of support hot-topics of the moment it is now purely of historical/archival interest, since the specific products, conversion pitfalls, and terminology it addresses (Procedures/Phases, binary structure files, 4D SQL Server as a separate product) no longer describe current 4D.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Most named companion products (4D Write, 4D Draw, 4D Calc, 4D Insider, 4D Open, DLL Tools) have been discontinued or absorbed/replaced by later 4D technology (e.g. 4D Write replaced by 4D Write Pro in 2016)",
+      "The 4D V6 conversion issues referenced predate decades of subsequent structure-file format evolution and the introduction of Project Mode (v17, 2018)",
+      "4D's SQL engine today (introduced in 4D v11 SQL, ~2007) is unrelated to the 'Optimization Issues'/older SQL Server product referenced here"
+    ]
+  }
+}

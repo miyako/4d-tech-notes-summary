@@ -1,0 +1,26 @@
+{
+  "asset_id": 33214,
+  "title": "Tech Note: Working with Hierarchical List in 2004",
+  "technote_number": "04-27",
+  "year": 2004,
+  "published_date": "July 8, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33214",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-27_HierarchicalList_2004.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Hierarchical List object",
+    "4D 2004 Hierarchical List command updates"
+  ],
+  "historical_commentary": {
+    "status": "still relevant",
+    "text": "The Hierarchical List object and its associated classic-language commands, including the enhancements described in this 2004-era note, remain part of the current 4D language and continue to function in both Design Mode and Project Mode databases, so the technique itself is still usable today. That said, many modern 4D interfaces now favor the List Box object's hierarchical/tree display mode, along with object/collection-based data structures, for building tree-like UI, meaning Hierarchical Lists are less commonly the first choice for new development than they were in 2004.",
+    "related_updates": [
+      "4D's List Box object gained hierarchical/tree display capabilities that now cover many use cases Hierarchical Lists once uniquely served",
+      "4D's object and collection data types (introduced in later versions) provide more flexible alternatives to Hierarchical List item parameters for structured data"
+    ]
+  }
+}

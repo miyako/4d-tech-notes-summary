@@ -1,0 +1,28 @@
+{
+  "asset_id": 19052,
+  "title": "Tech Note: Handling a Large Number of Records",
+  "technote_number": "01-51",
+  "year": 2001,
+  "published_date": "November 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19052",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_50-53_(NOV)/01-51_Large_Num_of_Records.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D data file architecture",
+    "Record count limits",
+    "Performance optimization",
+    "Indexing"
+  ],
+  "historical_commentary": {
+    "text": "This note discusses the then-current 16-million-record-per-table ceiling in 4D and techniques for improving performance and working around the limit. 4D's data engine has been substantially rearchitected since 2001 (including the move to a 64-bit engine around 4D v13), which raised or removed many of these classic record-count and file-size ceilings, so the specific limit cited is outdated even though the general performance techniques (proper indexing, selection management) remain conceptually useful.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's 64-bit data engine (introduced circa 4D v13) substantially raised classic record/file-size limits",
+      "General 4D indexing and selection-performance best practices from this era still apply conceptually"
+    ]
+  }
+}

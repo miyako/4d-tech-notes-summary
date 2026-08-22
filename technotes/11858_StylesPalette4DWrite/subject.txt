@@ -1,0 +1,1 @@
+Tech Note: Adding a Styles Palette to 4D Write (4D Write v6.0, October 1999) — creates a mouse-driven styles palette with dynamic help tips for faster style application in 4D Write.

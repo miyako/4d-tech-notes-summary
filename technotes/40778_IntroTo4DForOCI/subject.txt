@@ -1,0 +1,1 @@
+Tech Note: Introduction to 4D for OCI (TN 05-39, 4D v2004, December 2005) — introduces the 4D for OCI plug-in for native Oracle connectivity and walks through installing and configuring the Oracle Client on Windows and Mac OS X.

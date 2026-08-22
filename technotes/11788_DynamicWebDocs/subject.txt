@@ -1,0 +1,1 @@
+Tech Note: Dynamic Web Document Management (4D v6.0, December 1997) — demonstrates how to use 4th Dimension's new integrated database-and-Web-server feature to create and send dynamic HTML documents; full text unavailable, summary based on the teaser only.

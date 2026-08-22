@@ -1,0 +1,29 @@
+{
+  "asset_id": 11877,
+  "title": "Tech Note: Introducing the HIGHLIGHT RECORDS command",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "September 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11877",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "HIGHLIGHT RECORDS command",
+    "Keyboard-driven UI",
+    "Output forms",
+    "4D MetaBASE"
+  ],
+  "historical_commentary": {
+    "text": "The HIGHLIGHT RECORDS command introduced in 4D v6.5 was a significant UI enhancement allowing programmatic record selection in output forms, enabling fully keyboard-driven database interfaces. This command still exists in modern 4D and remains conceptually relevant, though the broader UI paradigm has shifted toward list boxes, ORDA entity selections, and web-based interfaces that make the classic output form pattern less central.",
+    "status": "still relevant",
+    "related_updates": [
+      "HIGHLIGHT RECORDS remains available in current 4D versions",
+      "List boxes have largely supplanted classic output forms for record display and selection",
+      "ORDA entity selections provide a modern alternative for programmatic record manipulation"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 18205,
+  "title": "Tech Note: How to generate a pathname document in 4D",
+  "technote_number": "01-42",
+  "year": 2001,
+  "published_date": "September 30, 2001",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=18205",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-42_Generate_Pathname_Doc.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D document/pathname commands",
+    "File system automation"
+  ],
+  "historical_commentary": {
+    "text": "This short note shows how to automatically generate a document referenced by a full pathname in 4D, a foundational file-handling task. The classic-language document and pathname-handling commands it relies on remain part of current 4D versions and function essentially the same way today, making the core technique still directly applicable, even as 4D has since added higher-level File/Folder object commands for more structured file-system access.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D later introduced object-based File and Folder commands (circa 4D v16+) offering a more structured alternative to raw pathname string manipulation",
+      "Classic document/pathname commands from this era remain supported for backward compatibility"
+    ]
+  }
+}

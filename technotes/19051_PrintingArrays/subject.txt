@@ -1,0 +1,1 @@
+Tech Note: Printing Arrays (TN 01-52, 4D v6.7, November 2001) — a technique for printing array data using form variables and the PRINT FORM command.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 47598,
+  "title": "Tech Note: New List Box Features in 4D v11 SQL",
+  "technote_number": "07-38",
+  "year": 2007,
+  "published_date": "September 26, 2007",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Larry Sharpe, 4D Developer, InfoService",
+  "page_url": "https://kb.4d.com/assetid=47598",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_35-38_(SEP)/07-38_4D_v11_SQL_Listbox.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "List Box form object",
+    "Current Selection / Named Selection data sources for List Box",
+    "Project Forms",
+    "List Box Properties / Column Properties"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D v11 SQL's introduction of Current Selection and Named Selection as new List Box data sources (alongside the previously sole array-based approach), plus the new Project Forms concept for building non-table-bound forms. List Boxes bound directly to a selection or named selection (rather than manually managed arrays) became the standard, still-current approach in 4D development, and Project Forms remained a core 4D concept for years afterward (though later superseded in relevance by Project Mode's own forms structure in v17+); the note is a useful historical snapshot of a genuine, lasting improvement to 4D's form-building capabilities.",
+    "status": "still relevant",
+    "related_updates": [
+      "List Boxes bound to Current Selection/Named Selection (rather than only arrays), introduced in 4D v11 SQL, remain a standard technique in current 4D",
+      "Project Forms, introduced around this time, later became foundational to 4D's Project Mode (introduced in 4D v17, 2018)"
+    ]
+  }
+}

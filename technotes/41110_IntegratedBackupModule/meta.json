@@ -1,0 +1,29 @@
+{
+  "asset_id": 41110,
+  "title": "Tech Note: 4D 2004 Integrated Backup Module",
+  "technote_number": "05-46",
+  "year": 2005,
+  "published_date": "December 22, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Yvan Ayaay, Technical Support Engineer, 4D, Inc.",
+  "page_url": "https://kb.4d.com/assetid=41110",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_40-46_(DEC)/05-46_Integrated_Backup.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004 integrated Backup/Restore module",
+    "Backup preferences (General Settings, Archive, Scheduler)",
+    "Backup scheduler",
+    "Log file (transaction/change log)",
+    "Backup command and On Backup Startup/Shutdown database methods"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the then-new integration of backup/restore directly into 4D 2004 (replacing the separate 4D Backup plug-in used in earlier versions), covering manual, scheduled, and programmatic backup plus log-file-based recovery. The core architecture it describes — structure+data file backups, a log file for point-in-time recovery, and a scheduler — remains conceptually the foundation of 4D's backup system today, though the specific preferences dialogs, backup file naming, and some commands shown have been refined across two decades of subsequent releases. Developers today would consult current 4D documentation for the modernized backup commands and preference structure rather than relying on this note's exact UI screenshots and syntax.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's backup/restore system has continued to evolve across many versions with refined preferences UI, additional backup commands, and improved log file handling",
+      "Modern 4D deployments often combine native backup with infrastructure-level snapshotting (cloud/VM storage backups) alongside the built-in mechanism"
+    ]
+  }
+}

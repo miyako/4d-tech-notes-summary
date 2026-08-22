@@ -1,0 +1,32 @@
+{
+  "asset_id": 37172,
+  "title": "Tech Note: Upgrading Older Databases",
+  "technote_number": "05-17",
+  "year": 2005,
+  "published_date": "May 5, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Daniel Do, Technical Support Engineer, 4D, Inc.",
+  "page_url": "https://kb.4d.com/assetid=37172",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_17-20_(MAY)/05-17_Upgrading_Older_DBs.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D version 2/3/6.x-to-2003/2004 upgrade path",
+    "ResEdit (Mac OS 9 resource editor)",
+    "External Mover utility",
+    "4D Transporter (Mac-to-Windows database transport)",
+    "4D Tools recover-by-tag data recovery",
+    "Structure/data file creator & type codes",
+    "Externals/plug-in resource removal (4BND/4BNX/4Dte/STR#/THM#/FON#)"
+  ],
+  "historical_commentary": {
+    "text": "This note is a detailed, hands-on guide for migrating very old 4D databases (version 2 through 6.x, running on classic Mac OS 8.6/9) forward to 4D 2003/2004, including using ResEdit and External Mover to strip legacy 'external' routines and plug-in resources, changing Mac creator/type codes, and recovering corrupted data with 4D Tools. Nearly every tool and intermediate version it references (ResEdit, Mac OS 9/Classic, 4D Transporter, and the specific 4D v2-v6.8 upgrade chain) is entirely obsolete today, and any database still needing this exact migration path would have needed to complete it decades ago, making the note of historical interest only, though its general recover-by-tag and 'always back up before upgrading' principles remain sound practice.",
+    "status": "historical_interest_only",
+    "related_updates": [
+      "Mac OS 9/Classic and the ResEdit resource editor are long discontinued and cannot run on any current Mac hardware or OS",
+      "4D itself has undergone many subsequent structure-file-format and licensing changes since 2004, including the introduction of Project Mode (v17, 2018), a far larger architectural shift than any covered by this note",
+      "Any database requiring this specific version 2/3/6.x-era upgrade path would have needed to migrate through these steps many 4D versions and roughly two decades ago; 4D's current upgrade documentation addresses far more recent version transitions"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 33643,
+  "title": "Tech Note: Taking Advantage of Execute on Server",
+  "technote_number": "04-33",
+  "year": 2004,
+  "published_date": "August 19, 2004",
+  "product": "4D",
+  "version": "2003.4",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33643",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-33_Execute_on_Server.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "EXECUTE ON SERVER",
+    "4D Client/Server architecture",
+    "Network-intensive operation optimization"
+  ],
+  "historical_commentary": {
+    "status": "still relevant",
+    "text": "The core problem this note solves — minimizing network chatter in Client/Server 4D applications by running bulk operations on the server rather than the client — remains a foundational performance consideration in 4D applications today, and the EXECUTE ON SERVER command (and its language successors) is still part of the current 4D classic language. The specific 1990s/2000s Client/Server networking constraints described are less severe on modern hardware and networks, but the architectural principle of minimizing client-server round trips for bulk data operations is timeless and still taught to 4D developers.",
+    "related_updates": [
+      "EXECUTE ON SERVER remains part of the modern 4D language for offloading client operations to the server",
+      "ORDA's entity selections and REST-based data access (2018+) introduced additional patterns for controlling where and how data operations execute in client/server 4D apps"
+    ]
+  }
+}

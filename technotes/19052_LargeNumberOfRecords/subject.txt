@@ -1,0 +1,1 @@
+Tech Note: Handling a Large Number of Records (TN 01-51, 4D v6.7, November 2001) — guidance on speeding up databases with very large record counts and working around the classic 16-million-record table limit.

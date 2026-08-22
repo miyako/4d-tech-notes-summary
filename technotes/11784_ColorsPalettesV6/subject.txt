@@ -1,0 +1,1 @@
+Tech Note: Colors, Palettes, 4D 3.x.x and 4D V6 (4D v6.0, October 1997) — explains how to convert a 4th Dimension 3.x.x database with a customized color palette to version 6.0, and how V6 dropped the 256-color Macintosh 'pltt' palette restriction in favor of 24-bit $RRGGBB color storage.

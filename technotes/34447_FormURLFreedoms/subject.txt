@@ -1,0 +1,1 @@
+Tech Note: 4th Dimension 2004 Allows New Freedoms in Form URLs (TN 04-42, 4D v2004, October 2004) — explains how 4D 2004's Web Server change lets form POST data be read via GET WEB FORM VARIABLES for any URL, not just 4DACTION/4DCGI/4DMETHOD-prefixed ones.

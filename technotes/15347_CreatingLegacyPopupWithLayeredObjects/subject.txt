@@ -1,0 +1,1 @@
+Tech Note: Creating a 6.0-style Pop-up in 6.7 using Layered Objects (TN 01-28, 4D v6.5, June 2001) — a form-object workaround that restores 4D v6.0's pop-up/drop-down click-only object-method behavior in v6.5+.

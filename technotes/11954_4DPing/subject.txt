@@ -1,0 +1,1 @@
+Tech Note: 4D Ping (TN 00-43, 4D Internet Commands v6.5, September 2000) — a sample utility database that implements a network "ping" tool using the 4D Internet Commands plug-in, for diagnosing network issues during application deployment.

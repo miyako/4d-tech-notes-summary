@@ -1,0 +1,27 @@
+{
+  "asset_id": 32122,
+  "title": "Tech Note: Operations on Arrays and Selections",
+  "technote_number": "04-14",
+  "year": 2004,
+  "published_date": "April 8, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=32122",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-14_Operations_on_Arrays.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Sets (union, intersection, difference)",
+    "Named selections",
+    "Custom command/method design"
+  ],
+  "historical_commentary": {
+    "text": "This note teaches how to treat named selections with set-like operations (union, intersection, difference) via custom methods, extending 4D's classic procedural record-set model that predates 4D's native SQL engine (v11 SQL, ~2007) and later ORDA collection-based data access. The underlying concepts of combining and manipulating record sets remain fully relevant in modern 4D, but the specific technique of hand-writing custom commands to bridge sets and named selections is largely superseded by more direct, built-in language support for selection/entity-set operations introduced in later 4D versions.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's language has since added more built-in commands and set operators for combining and manipulating selections directly, reducing the need for custom bridging methods like those in this note",
+      "ORDA (introduced 4D v16, 2018) introduced entity selections as a more modern, object-oriented alternative to sets and named selections for combining and querying record subsets"
+    ]
+  }
+}

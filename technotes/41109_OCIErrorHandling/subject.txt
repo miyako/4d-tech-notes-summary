@@ -1,0 +1,1 @@
+Tech Note: 4D for OCI: Error Handling (TN 05-45, 4D Oracle v2004, December 2005) — a guide to the two error-handling techniques (Standard and 4D-style OCIOnErrCall) available in the 4D for OCI plug-in for Oracle connectivity.

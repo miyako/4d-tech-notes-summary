@@ -1,0 +1,26 @@
+{
+  "asset_id": 19054,
+  "title": "Tech Note: Index Control Panel",
+  "technote_number": "01-55",
+  "year": 2001,
+  "published_date": "December 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19054",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_54-57_(DEC)/01-55_Index_Control_Panel.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SET INDEX / index management commands",
+    "Compiled database maintenance"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a practical pain point of the compiled-database era: needing to toggle field indexes on and off without access to the Design environment, since a compiled database could not be re-indexed or recompiled quickly. The technique of programmatically enabling/disabling indexes via the classic language remains valid in current 4D versions, though modern deployments increasingly manage index/data maintenance through 4D Server's administrative tools rather than hand-rolled control panels.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's classic indexing commands remain part of the current language largely unchanged",
+      "4D Server/4D Mobile administration tools now provide more built-in maintenance tooling than existed in 2001"
+    ]
+  }
+}

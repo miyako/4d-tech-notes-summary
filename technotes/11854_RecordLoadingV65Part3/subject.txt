@@ -1,0 +1,1 @@
+Tech Note: Record Loading in 4th Dimension v6.5, Part 3 (4D v6.5, October 1999) — examines record loading mechanics with focus on large records, BLOBs, memory limitations, and WAN network optimization.

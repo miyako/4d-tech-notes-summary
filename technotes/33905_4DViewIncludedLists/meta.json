@@ -1,0 +1,28 @@
+{
+  "asset_id": 33905,
+  "title": "Tech Note: Included Lists with 4D View",
+  "technote_number": "04-36",
+  "year": 2004,
+  "published_date": "September 9, 2004",
+  "product": "4th Dimension",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33905",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-36_Included_Lists.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View plug-in (since v6.8)",
+    "4D View area used as a 'subform-type' area",
+    "Included lists in 4D View"
+  ],
+  "historical_commentary": {
+    "text": "This note covers using a 4D View area (the spreadsheet-like plug-in available since 4D v6.8) as an alternative to a true subform, focusing specifically on 'included lists' within that View area. The 4D View plug-in was discontinued years ago, its spreadsheet/grid capabilities superseded first by the built-in List Box object and much later by the separate 4D View Pro product (2018), so the specific technique of using a 4D View area as a subform substitute is now obsolete, though the underlying idea of embedding a grid-like area for tabular subordinate data persists conceptually in today's List Box-based forms.",
+    "status": "obsolete",
+    "related_updates": [
+      "The original 4D View plug-in has been discontinued and replaced conceptually by 4D's built-in List Box form object",
+      "4D View Pro (introduced 2018) is a separate, modern spreadsheet component unrelated to the legacy 4D View plug-in described here",
+      "Modern 4D forms handle list/subform-style tabular data through native List Box objects or Project Mode form objects rather than embedding a 4D View area"
+    ]
+  }
+}

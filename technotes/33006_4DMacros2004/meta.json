@@ -1,0 +1,27 @@
+{
+  "asset_id": 33006,
+  "title": "Tech Note: 4D Macros in Version 2004",
+  "technote_number": "04-24",
+  "year": 2004,
+  "published_date": "June 17, 2004",
+  "product": "4th Dimension",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33006",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-24_4D_Macros_in_2004.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Macros",
+    "Method editor code-generation tags",
+    "Project method calls from macros"
+  ],
+  "historical_commentary": {
+    "status": "still relevant",
+    "text": "4D's macro system for the Method Editor, including the ability for macros to call project methods for dynamic code generation, remains part of the current 4D development environment, so the core feature this note documents is still usable conceptually today. The specific 2004-era Method Editor interface described has since been superseded by 4D's modern code editor (particularly in Project Mode databases), but the underlying macro capability and its productivity rationale (avoiding repetitive typing, enforcing conventions like comment headers) remain relevant to 4D developers.",
+    "related_updates": [
+      "4D's code editor and Method Editor interface have been substantially modernized in later versions, especially with Project Mode (2018)",
+      "4D macros remain a supported productivity feature in current 4D development environments"
+    ]
+  }
+}

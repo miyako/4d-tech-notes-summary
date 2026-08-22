@@ -1,0 +1,1 @@
+Tech Note: Exploring the Chord Tool Example Database (TN 01-20, 4D v6.7, April 2001) — an example database showing how to show/hide form objects based on bit flags in a long integer, using bitwise operators to define a 'chord' of active bits.

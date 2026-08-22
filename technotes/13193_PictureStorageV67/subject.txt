@@ -1,0 +1,1 @@
+Tech Note: Picture Storage (TN 01-18, 4D v6.7, April 2001) — a demonstration of how 4D v6.7's picture commands can be used to handle and manage pictures stored in a 4D database, plus important storage considerations.

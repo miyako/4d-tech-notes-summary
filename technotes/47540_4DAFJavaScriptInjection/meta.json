@@ -1,0 +1,30 @@
+{
+  "asset_id": 47540,
+  "title": "Tech Note: 4D Ajax Framework JavaScript Injection",
+  "technote_number": "07-37",
+  "year": 2007,
+  "published_date": "September 19, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.2",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47540",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_35-38_(SEP)/07-37_4DAF_Javasscript_Inject.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "4D Web 2.0 Pack",
+    "Developer Defined Windows (DDW)",
+    "JavaScript injection / eval",
+    "Data Grid"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a low-level technique for injecting and executing raw JavaScript returned from a 4D Developer Defined Window method, specific to the subscription-based 4D Ajax Framework (4DAF) that shipped as part of the short-lived 4D Web 2.0 Pack. The entire 4DAF/DDW/Daxipedia ecosystem it depends on has been discontinued, and manually parsing XML responses and calling eval() to inject script is a pattern modern web development actively avoids for security reasons. The underlying idea of a server pushing executable client behavior remains conceptually related to later techniques (e.g. server-driven UI, WebSockets, or Hotwire-style patterns), but as a practical guide it is entirely obsolete.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and the 4D Web 2.0 Pack were discontinued and are no longer part of any current 4D product",
+      "4D's built-in Web Server and modern web component/Qodly tooling superseded the 4DAF approach for building web UIs",
+      "Injecting raw script via eval() on parsed XML responses is now considered an anti-pattern in modern web security practice"
+    ]
+  }
+}

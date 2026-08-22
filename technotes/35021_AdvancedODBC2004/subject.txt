@@ -1,0 +1,1 @@
+Tech Note: 4D 2004 Advanced ODBC (TN 04-48, 4D ODBC v2004, December 2004) — introduces the new low-level 4D ODBC plug-in commands for 4D 2004 aimed at developers with existing SQL/DBMS knowledge.

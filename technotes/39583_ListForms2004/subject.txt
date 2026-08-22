@@ -1,0 +1,1 @@
+Tech Note: List Forms in 2004 (TN 05-33, 4D v2004, October 2005) — covers using the DISPLAY SELECTION and MODIFY SELECTION commands to programmatically show and edit record lists via list (output) forms.

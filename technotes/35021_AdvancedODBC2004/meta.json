@@ -1,0 +1,28 @@
+{
+  "asset_id": 35021,
+  "title": "Tech Note: 4D 2004 Advanced ODBC",
+  "technote_number": "04-48",
+  "year": 2004,
+  "published_date": "December 2, 2004",
+  "product": "4D ODBC",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=35021",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_46-48_(OCT)/04-48_2004_Advanced_ODBC.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D ODBC plug-in, low-level commands",
+    "SQL / DBMS connectivity",
+    "Open Database Connectivity (ODBC)"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces the low-level command set of the 4D ODBC plug-in for 4D 2004, aimed at developers with existing DBMS/SQL knowledge who need finer control over ODBC data access than the higher-level ODBC features provide. Only the teaser paragraph survived in this archive pass. ODBC connectivity concepts remain relevant, but 4D's own data access story has changed enormously since 2004 with the introduction of a native SQL engine (4D v11 SQL, ~2007) and later ORDA (2018), reducing how often developers reach for low-level ODBC plug-in commands for day-to-day data access.",
+    "status": "superseded",
+    "related_updates": [
+      "4D introduced its own native SQL engine in 4D v11 SQL (~2007), reducing reliance on ODBC for internal data access",
+      "ORDA (2018) introduced entity-based, REST-friendly data access that supersedes low-level procedural ODBC command usage for most modern 4D applications",
+      "4D still supports ODBC for external database connectivity, but tooling and best practices have evolved substantially since 2004"
+    ]
+  }
+}

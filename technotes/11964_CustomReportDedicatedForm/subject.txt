@@ -1,0 +1,1 @@
+Tech Note: Creating a Custom Report Using a Dedicated Form (4D v3.x, May 2000) — a guide to designing custom output forms and Break-level code for printing structured reports in classic 4D.

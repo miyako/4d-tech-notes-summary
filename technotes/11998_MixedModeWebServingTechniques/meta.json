@@ -1,0 +1,29 @@
+{
+  "asset_id": 11998,
+  "title": "Tech Note: 4D Mixed-Mode Web Serving Techniques: Crossing the bridge between Contextual and Non-contextual Modes",
+  "technote_number": "00-42",
+  "year": 2000,
+  "published_date": "September 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Eric Saltzen, 4D, Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11998",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_41-45_%28SEP%29/00-42_Mixed-Mode_Web.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Server (Contextual & Non-Contextual Mode)",
+    "Cookies / hidden form fields / URL encoding (session state tracking)",
+    "New Context Referencing Mode (<BASE HREF>)",
+    "4DMixedModeWeb example database"
+  ],
+  "historical_commentary": {
+    "text": "This substantial note, written by 4D's own technical support, explains how to blend 4D v6.5's new Non-Contextual Mode web serving (a 'classical' stateless HTTP server) with the existing Contextual Mode session model, covering all three era-standard state-tracking techniques (cookies, hidden form fields, URL-encoded context IDs) and a newer <BASE HREF>-based Context Referencing Mode to keep pages smaller. While cookies as a session-tracking mechanism remain an industry standard today, 4D's own Contextual/Non-Contextual Mode session architecture with Context/Subcontext IDs has been completely superseded by 4D's later move to REST APIs built on ORDA, making the note's specific mixed-mode techniques obsolete for current web development, even as it remains a well-documented artifact of a genuine architectural inflection point in 4D's web server history.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's web serving architecture has moved decisively from Contextual/Non-Contextual Mode session management to REST APIs built on ORDA, superseding the entire mixed-mode Context/Subcontext ID system this note documents",
+      "Cookie-based session tracking remains a standard web technique today, but modern implementations typically pair it with token-based authentication (JWT/OAuth) rather than 4D's proprietary Context ID mechanism",
+      "The 4D sample databases referenced (WebExam, Auction, Snap-e, eBiz) are no longer part of 4D's current example library"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11950,
+  "title": "Tech Note: Elements of Successful Arrays",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "February 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11950",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "1D/2D arrays",
+    "4D Open",
+    "4D for Oracle",
+    "Form objects backed by arrays (drop-down lists, etc.)"
+  ],
+  "historical_commentary": {
+    "text": "This note is a foundational primer on 4D arrays \u2014 one-dimensional, in-memory, single-typed lists used both as general-purpose programming constructs and as the backing data for form objects such as pop-up/drop-down menus. Arrays remain a core, unchanged part of the 4D language today, making this note's fundamental content still directly relevant, even though the specific connectivity technologies it name-checks (4D Open, 4D for Oracle) as reasons to understand arrays deeply have since been superseded by 4D's built-in SQL engine and ORDA.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D arrays remain a core, largely unchanged language feature in current 4D versions",
+      "4D Open and 4D for Oracle connectivity have been superseded by 4D's native SQL engine (v11 SQL, 2007) and later ORDA (v17+, 2018) for external and remote data access"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11963,
+  "title": "Tech Note: Keyword Indexes, Part 2",
+  "technote_number": "00-38",
+  "year": 2000,
+  "published_date": "August 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Steve Hussey, CEO, Alto Stratus LLC",
+  "page_url": "https://kb.4d.com/assetid=11963",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_36-40_%28AUG%29/00-38_Keyword_Indexes_Pt_2.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Keyword indexing",
+    "One-to-Many relations",
+    "Synonym queries",
+    "4D query/find system"
+  ],
+  "historical_commentary": {
+    "text": "This is Part 2 of a three-part classic-4D keyword indexing series, building a synonym table (a Many-to-One relation to the keyword table) so that queries for one term (e.g., \"transaction\") also surface related forms and synonyms (e.g., \"transactions\", \"folder\"/\"directory\"). The relational, One-to-Many indexing pattern it teaches is a timeless database design technique still valid in any 4D era, though the specific implementation predates 4D's full-text search and later language enhancements. Modern 4D applications would likely still use a comparable relational keyword/synonym schema for this kind of requirement, or lean on external full-text search services for large-scale needs, but the conceptual design remains sound and instructive.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D has since added more advanced text-search capabilities (e.g., improved QUERY/full-text options) that can complement or replace hand-built keyword/synonym tables for some use cases",
+      "The core relational modeling technique (One-to-Many keyword/synonym tables) remains a valid, commonly used pattern in current 4D applications"
+    ]
+  }
+}

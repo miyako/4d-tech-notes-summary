@@ -1,0 +1,1 @@
+Tech Note: Using Operators on Pictures (4D v6.5, May 2000) — an explanation of how 4D's logical (Boolean-style) operators behave when applied to Picture-type fields and variables.

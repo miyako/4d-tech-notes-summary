@@ -1,0 +1,27 @@
+{
+  "asset_id": 32516,
+  "title": "Tech Note: Determining the Name of a Requested Web Service",
+  "technote_number": "04-18",
+  "year": 2004,
+  "published_date": "May 6, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=32516",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-18_Determine_WS_Name.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Services (SOAP)",
+    "Get Soap info command",
+    "SoapAction HTTP header parsing"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a narrow but real gap in 4th Dimension 2003's early SOAP Web Services support: identifying which method or Web Service was actually requested, useful for security and logging. That SOAP-centric integration model (native 4D Web server, Get Soap info, manual HTTP header inspection) has been almost entirely superseded by REST/JSON-based web services and 4D's later, more complete Web Services/ORDA-oriented tooling, making this note's specific techniques of historical interest only.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's web services support has since expanded well beyond SOAP to include REST and JSON-based services with dedicated language commands",
+      "SOAP-based Web Services are largely legacy in modern 4D development, with REST/ORDA APIs now the standard integration approach"
+    ]
+  }
+}

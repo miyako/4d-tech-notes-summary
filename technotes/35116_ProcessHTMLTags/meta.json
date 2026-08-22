@@ -1,0 +1,27 @@
+{
+  "asset_id": 35116,
+  "title": "Tech Note: Process HTML Tags and more!",
+  "technote_number": "04-49",
+  "year": 2004,
+  "published_date": "December 9, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=35116",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_49-50_(NOV)/04-49_Process_HTML_Tags.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Process HTML Tags (4D web templating command)",
+    "4D built-in Web Server dynamic page generation",
+    "Mail merge style templating"
+  ],
+  "historical_commentary": {
+    "text": "This note promotes a single classic-language command (Process HTML Tags) as a highly versatile tool for tasks ranging from mail-merge-style document generation to maintenance routines, reflecting the tag-substitution style of dynamic web/document publishing common in 4D's mid-2000s web server era. Only the on-page teaser survived in this archive pass, so the specific techniques demonstrated cannot be confirmed, but the general approach of server-side HTML tag substitution is now a legacy pattern superseded by 4D's REST/ORDA-based web architecture and modern templating engines.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's web development has moved toward REST APIs (built on ORDA since 2018) combined with modern client-side frameworks rather than server-side HTML tag substitution",
+      "4D Write Pro (2016) and other newer document-generation tools now handle merge-style document creation rather than raw HTML tag processing"
+    ]
+  }
+}

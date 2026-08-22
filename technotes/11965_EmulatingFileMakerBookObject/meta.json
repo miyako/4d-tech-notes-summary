@@ -1,0 +1,27 @@
+{
+  "asset_id": 11965,
+  "title": "Tech Note: Emulating the FileMaker Pro Book Object in 4D",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "May 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11965",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Form object show/hide logic",
+    "Custom UI controls",
+    "Object visibility techniques"
+  ],
+  "historical_commentary": {
+    "text": "This note tackles a classic cross-product UI-parity problem: reproducing FileMaker Pro's book/page-turn navigator using only 4D's object show/hide and click-tracking primitives, a technique class that was common in the pre-plugin, pre-Web-Area era of custom 4D interfaces. The specific FileMaker-emulation goal is dated, but the underlying object-visibility trick for building slider/dial/animated custom controls remains a conceptually valid (if now largely superseded) UI technique. Modern 4D development would typically achieve this kind of custom control via richer picture/animation objects, web areas, or simply different UX conventions, making the specific implementation obsolete while the general trick is of historical interest.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's forms engine has since gained richer picture, list box, and web area objects that make bespoke show/hide record-navigation controls unnecessary for most modern UIs",
+      "Contemporary 4D UIs rarely emulate other products' widgets pixel-for-pixel via manual object toggling"
+    ]
+  }
+}

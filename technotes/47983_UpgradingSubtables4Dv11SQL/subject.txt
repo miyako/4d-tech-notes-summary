@@ -1,0 +1,1 @@
+Tech Note: Upgrading Subtables to 4D v11 SQL (TN 07-42, 4D Developer v11, November 2007) — a migration guide explaining how single-level and multi-level subtables are handled (or lost) when converting a pre-v11 4D database to 4D v11 SQL, which removed subtables entirely.

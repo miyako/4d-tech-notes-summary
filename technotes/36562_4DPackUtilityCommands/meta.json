@@ -1,0 +1,28 @@
+{
+  "asset_id": 36562,
+  "title": "Tech Note: 4D Pack 2004.1's New Utility Commands",
+  "technote_number": "05-11",
+  "year": 2005,
+  "published_date": "March 17, 2005",
+  "product": "4D",
+  "version": "2004.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36562",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-11_4D_Pack_Commands.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Pack plug-in",
+    "Database structure manipulation commands (tables/fields/relations)",
+    "4D 2004.1 utility commands"
+  ],
+  "historical_commentary": {
+    "text": "This note documents four new utility commands added to the 4D Pack plug-in in version 2004.1, mostly geared toward programmatically managing binary Design Mode database structure elements such as tables, fields, relations, and default objects. 4D Pack itself was later folded into or superseded by core 4D language commands, and today's structure manipulation increasingly happens through Project Mode's text-based structure files rather than 4D Pack-style runtime commands. Only the teaser paragraph could be recovered for this note, so the specific commands cannot be fully assessed here.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Pack plug-in commands have long since been absorbed into or superseded by core 4D language features",
+      "Project Mode (introduced 4D v17, 2018) now allows direct text-based editing of structure elements, reducing reliance on structure-manipulation commands",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

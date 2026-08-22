@@ -1,0 +1,27 @@
+{
+  "asset_id": 14004,
+  "title": "Tech Note: 4D Chart on the Web in Non-Contextual Mode",
+  "technote_number": "01-21",
+  "year": 2001,
+  "published_date": "June 4, 2001",
+  "product": "4D Chart",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=14004",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_21-25_(MAY)/01-21_4D_Chart_on_the_Web.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart (plug-in)",
+    "4D Web Server (Non-Contextual Mode)",
+    "Graph serving (field-stored and interactive)"
+  ],
+  "historical_commentary": {
+    "text": "This note updates an earlier Tech Note (98-13) on serving 4D Chart graphs to the web, moving the technique from the original Contextual-Mode-only approach to 4D v6.5's newer Non-Contextual Mode web server. Both the 4D Chart plug-in and Contextual/Non-Contextual Mode web serving concepts it depends on have been fully discontinued or replaced in current 4D: 4D Chart was retired long ago, and 4D's own web serving strategy moved to REST/ORDA-based services, making the entire technique obsolete for present-day development.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D Chart plug-in itself has been discontinued; charting today is typically handled via 4D View Pro or embedded JavaScript charting libraries in web front-ends",
+      "4D's web serving model has moved from Contextual/Non-Contextual Mode toward REST APIs built on ORDA, superseding this note's serving technique entirely"
+    ]
+  }
+}

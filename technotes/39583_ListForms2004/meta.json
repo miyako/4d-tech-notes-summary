@@ -1,0 +1,28 @@
+{
+  "asset_id": 39583,
+  "title": "Tech Note: List Forms in 2004",
+  "technote_number": "05-33",
+  "year": 2005,
+  "published_date": "October 3, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Daniel Do \u2013 4D Technical Support",
+  "page_url": "https://kb.4d.com/assetid=39583",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_30-33_(SEP)/05-33_List_Forms.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "DISPLAY SELECTION / MODIFY SELECTION commands",
+    "List (Output) forms vs Detail (Input) forms",
+    "UserSet",
+    "Enter in List mode"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to programmatically display and edit record lists using the classic DISPLAY SELECTION and MODIFY SELECTION commands, covering select-mode constants, the 'Enter in List' editing mode, the automatically maintained UserSet of highlighted records, and 2004-era GUI behavior changes (like scroll behavior past the last record matching newer OS conventions). These commands still exist and function in current 4D versions for binary/Design Mode as well as Project Mode databases, but the modern List Box form object (introduced starting with 4D v11 SQL and greatly expanded since) has become the far more common and flexible way to present and edit tabular record data, making the plain list-form approach documented here a legacy but still-functional technique.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "The List Box form object (introduced after 4D v11 SQL and substantially enhanced since) is now the standard, more flexible way to display and edit tabular/list data in 4D forms",
+      "DISPLAY SELECTION and MODIFY SELECTION remain part of the current classic language and still function for basic list-form scenarios"
+    ]
+  }
+}

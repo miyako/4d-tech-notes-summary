@@ -1,0 +1,1 @@
+Tech Note: DataGrid/EDM Overview - Beta 1 (4D v6.5, June 2000) — an early overview of the Beta 1 DataGrid application and its Enterprise Data Module (EDM) architecture for editing data across multiple back-end server types.

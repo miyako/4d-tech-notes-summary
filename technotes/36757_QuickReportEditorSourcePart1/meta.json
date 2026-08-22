@@ -1,0 +1,28 @@
+{
+  "asset_id": 36757,
+  "title": "Tech Note: 4D Quick Report Editor Source Code - Part 1",
+  "technote_number": "05-13",
+  "year": 2005,
+  "published_date": "March 31, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36757",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-13_QR_Editor_Source_I.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Quick Report editor",
+    "4D Quick Report commands/API",
+    "4D 2003 reporting engine",
+    "4D 2004 source code component"
+  ],
+  "historical_commentary": {
+    "text": "This note provides source code for a modestly enhanced version of 4D 2003's newly rewritten Quick Report editor, aimed at developers who found the new Quick Report command set daunting to use directly. The classic Quick Report editor architecture it customizes belongs to the pre-SQL, pre-ORDA Design Mode era and has since been superseded by List Box-based reporting and 4D Write Pro in modern 4D applications. Only the teaser paragraph was recoverable for this note, limiting further technical assessment.",
+    "status": "historical_interest_only",
+    "related_updates": [
+      "The classic Quick Report editor has been superseded by List Box reporting, 4D Write Pro, and other modern 4D reporting tools",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

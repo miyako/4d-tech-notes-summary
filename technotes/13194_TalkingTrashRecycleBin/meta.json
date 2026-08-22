@@ -1,0 +1,27 @@
+{
+  "asset_id": 13194,
+  "title": "Tech Note: Talking 'Trash' \u2013 Understanding the Trash and the Recycle Bin",
+  "technote_number": "01-19",
+  "year": 2001,
+  "published_date": "April 30, 2001",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=13194",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_16-20_(APR)/01-19_Talking_Trash.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Trash (Mac OS) / Recycle Bin (Windows) paths",
+    "DELETE DOCUMENT alternative",
+    "Cross-platform document management"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to determine the OS-specific paths to the Trash (Mac OS) and Recycle Bin (Windows) and move documents there instead of permanently removing them with DELETE DOCUMENT, giving users a way to recover accidentally processed files. The underlying need \u2014 moving files to the OS trash rather than permanently deleting them \u2014 remains a legitimate pattern today, and the general approach is still conceptually sound, but 4D's later File/Folder object-oriented classes (introduced well after this note) provide more modern, higher-level APIs for this kind of file-system interaction than the raw path-construction technique shown here.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's later File and Folder classes (introduced in more recent 4D versions) offer higher-level, more portable file-system operations than manually constructing OS-specific Trash/Recycle Bin paths",
+      "Both macOS and Windows have evolved their trash/recycle-bin storage locations and APIs considerably since Mac OS 9 / Windows 98-2000, so any hardcoded paths from this note would need updating regardless"
+    ]
+  }
+}

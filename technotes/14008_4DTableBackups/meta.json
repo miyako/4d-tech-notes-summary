@@ -1,0 +1,27 @@
+{
+  "asset_id": 14008,
+  "title": "Tech Note: 4D Table Backups",
+  "technote_number": null,
+  "year": 2001,
+  "published_date": "June 4, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=14008",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_21-25_(MAY)/01-25_Contact_Manager_EDB_1.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SEND RECORD / RECEIVE RECORD commands",
+    "Selective table backup and restore",
+    "Cross-platform data serialization"
+  ],
+  "historical_commentary": {
+    "text": "This note builds a general-purpose selective backup/restore mechanism on top of 4D's SEND RECORD and RECEIVE RECORD commands, which serialize record contents (including 'fat' fields like text and pictures) independent of table/field structure knowledge. The core commands themselves are still part of 4D's classic language and technically still function, but for most practical backup/restore needs, developers today rely on 4D's native structured Backup/Restore feature, data export/import, or duplicating structures rather than hand-rolling table-level backup logic this way, making the specific implementation here a superseded pattern even though the underlying commands persist.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's built-in Backup and Restore system (structured backup sets, log files, scheduled backups) is now the standard mechanism for full and partial data protection rather than custom SEND RECORD/RECEIVE RECORD scripts",
+      "Modern data migration/export needs are often addressed with structured export formats (JSON, XML, CSV) rather than 4D's internal record-serialization commands"
+    ]
+  }
+}

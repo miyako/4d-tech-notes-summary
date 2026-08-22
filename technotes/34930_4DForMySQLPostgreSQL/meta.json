@@ -1,0 +1,29 @@
+{
+  "asset_id": 34930,
+  "title": "Tech Note: Introduction to 4D for MySQL and 4D for PostgreSQL",
+  "technote_number": "04-47",
+  "year": 2004,
+  "published_date": "November 23, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=34930",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_46-48_(OCT)/04-47_4D_for_MySQL-Postgres.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D for MySQL plug-in",
+    "4D for PostgreSQL plug-in",
+    "MySQL / PostgreSQL open-source RDBMS",
+    "Direct (non-ODBC) database connectivity"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces two new 2004-era 4D plug-ins, 4D for MySQL and 4D for PostgreSQL, offering a more direct connection path to these popular open-source databases than going through generic ODBC drivers. These specific plug-ins have long since been discontinued as standalone products, and the direct-connector approach they represent has been superseded by 4D's own SQL engine, ODBC/JDBC-based connectivity, and, more recently, ORDA and REST-based integration patterns for interfacing with external open-source databases.",
+    "status": "obsolete",
+    "related_updates": [
+      "The dedicated 4D for MySQL / 4D for PostgreSQL plug-ins are no longer part of current 4D product offerings",
+      "4D's native SQL engine (from 4D v11 SQL, ~2007) and general ODBC/JDBC connectivity have become the standard ways to interface with external RDBMSs",
+      "ORDA-based data source integration (2018+) offers a more modern entity-based approach to working with external databases"
+    ]
+  }
+}

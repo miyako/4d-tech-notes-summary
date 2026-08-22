@@ -1,0 +1,28 @@
+{
+  "asset_id": 36094,
+  "title": "Tech Note: Addendum - GDIPlus Plug-in Version 1.1",
+  "technote_number": "05-06",
+  "year": 2005,
+  "published_date": "February 10, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36094",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_05-07_(FEB)/05-06_Addendum_GDIPlus_1.1.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "GDIPlus plug-in v1.1",
+    "4D 2004 Plug-In Architecture",
+    "Mac OS X plug-in stub",
+    "Get Picture as blob command"
+  ],
+  "historical_commentary": {
+    "text": "This addendum documents version 1.1 improvements to the GDIPlus plug-in, including adoption of the new 4D 2004 Plug-In Architecture, a Mac OS X stub, scrollbar/mouse-wheel support, and a new Get Picture as blob command. The GDIPlus plug-in itself is a discontinued third-party/legacy plug-in tied to the pre-Unicode, pre-Universal Binary 4D 2003/2004 plug-in API, so this specific plug-in and its API generation are now obsolete, though 4D still supports compiled plug-ins built on later, Unicode-aware API generations. Only the teaser/bullet-point summary could be recovered for this note.",
+    "status": "obsolete",
+    "related_updates": [
+      "The GDIPlus plug-in and its 2004-era plug-in API generation have long been superseded by later 4D Plug-in API versions (Unicode-aware, Universal Binary, and beyond)",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "asset_id": 11855,
+  "title": "Tech Note: Converting C Dates into 4D Dates",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "December 1, 1999",
+  "product": "4D Plugin Wizard",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11855",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Plugin development",
+    "Date format conversion",
+    "GMT date handling",
+    "C/4D interoperability",
+    "URL processing"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses the low-level challenge of converting between C date formats (typically Unix timestamps or GMT strings) and 4D's internal date representation, a common need when developing native plug-ins. The 4D Plugin Wizard and native C plug-in development approach have been largely superseded by 4D's built-in commands for date manipulation, HTTP/networking, and the ability to call system APIs. The note also references URL-related functionality, suggesting it was part of a broader internet/web development context typical of 1999. Modern 4D handles date conversions internally and provides extensive date/time functions.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Plugin SDK has evolved significantly since the v6 era",
+      "Modern 4D provides built-in date/time conversion and GMT handling commands",
+      "Components (written in 4D) have largely replaced native C plug-ins for many use cases",
+      "4D's built-in HTTP and networking commands handle date format conversions automatically"
+    ]
+  }
+}

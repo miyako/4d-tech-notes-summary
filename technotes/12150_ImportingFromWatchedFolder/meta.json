@@ -1,0 +1,27 @@
+{
+  "asset_id": 12150,
+  "title": "Tech Note: Importing From a Watched Folder",
+  "technote_number": "01-09",
+  "year": 2001,
+  "published_date": "February 28, 2001",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12150",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-09_Watched_Folder_Import.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Folder monitoring (polling)",
+    "4D processes",
+    "Automated document import"
+  ],
+  "historical_commentary": {
+    "text": "This note builds a folder-watching system using 4D processes to periodically poll a user-chosen directory and import or otherwise process its contents \u2014 a pattern still very much in use for automated file ingestion today. The general architecture (a background process polling a folder on an interval) remains valid, though the specific file-system commands used to enumerate and select folders in this era have since been supplemented by 4D's more modern, object-oriented File and Folder classes, which offer richer, more portable file-system APIs than were available in 2001.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's later File and Folder classes provide a more modern, object-oriented API for folder enumeration and monitoring than the raw commands available in this 2001-era note",
+      "The core pattern of a background process polling a folder for automated import remains a standard architecture in current 4D applications"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 31179,
+  "title": "Tech Note: Complex Form Resizing",
+  "technote_number": "04-03",
+  "year": 2004,
+  "published_date": "January 31, 2004",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31179",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-03_Complex_Form_Resizing.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D form object resizing/moving via language",
+    "4D Design Mode forms"
+  ],
+  "historical_commentary": {
+    "text": "This note tackles form resizing logic beyond 4D's basic built-in resize/move behaviors, providing a combined language-based method for computing object placement and size during form resize events. The core problem — precisely controlling how form objects reposition and resize together — remains conceptually relevant, but the note's approach is grounded in Design Mode's binary form structure and language commands of that era; current 4D forms still support similar resizing logic (and later versions added more built-in responsive/auto-resize capabilities), making the specific technique here a useful historical reference rather than the state of the art.",
+    "status": "superseded",
+    "related_updates": [
+      "Later 4D versions introduced more built-in form object anchoring/auto-resize options, reducing the need for fully custom resize methods in many common cases",
+      "4D's form and object model has continued to evolve, though the general on-form resize event and language-based approach described remains structurally similar today"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Authenticating Access to a Secure Area within a Web Site (TN 01-26, 4D v6.7, June 2001) — a survey of approaches to gating access to a secure area of a 4D-served web site, including the built-in 4D password system and the On Web Authentication method.

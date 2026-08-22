@@ -1,0 +1,1 @@
+Tech Note: Working with 4D and iCalendars (TN 04-50, 4D v2004, December 2004) — shows how to turn 4D into a data-driven WebDAV/iCalendar server so iCal, Outlook, and Firefox Calendar clients can subscribe to and publish 4D-hosted calendar data.

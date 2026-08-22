@@ -1,0 +1,27 @@
+{
+  "asset_id": 19051,
+  "title": "Tech Note: Printing Arrays",
+  "technote_number": "01-52",
+  "year": 2001,
+  "published_date": "November 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19051",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_50-53_(NOV)/01-52_Printing_Arrays.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Arrays",
+    "PRINT FORM",
+    "Report generation from array data"
+  ],
+  "historical_commentary": {
+    "text": "This note explains a workaround for a real classic-language limitation \u2014 arrays cannot be printed directly \u2014 by mapping array data into form variables and using PRINT FORM to render it. This general variable/PRINT FORM technique still functions in current 4D versions, though today a List Box bound to a collection or array, or 4D Write Pro, would often be a more convenient way to lay out and print the same tabular data.",
+    "status": "still_relevant",
+    "related_updates": [
+      "List Box objects (with array or collection data sources) now offer a more direct way to display and print tabular array data",
+      "4D Write Pro provides richer document-based printing options than plain PRINT FORM"
+    ]
+  }
+}

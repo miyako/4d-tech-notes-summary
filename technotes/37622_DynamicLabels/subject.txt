@@ -1,0 +1,1 @@
+Tech Note: Making Labels More Dynamic (TN 05-23, 4D v2004, June 2005) — a generic technique for using flashing field labels as a visual cue when enforcing entry rules that require users to re-enter field contents.

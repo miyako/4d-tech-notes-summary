@@ -1,0 +1,1 @@
+Tech Note: The XML_Utilities Component (TN 04-21, 4D v2003.3, May 2004) — a description of the XML_Utilities component, which adds convenience utility methods (xutil_CountOccurrences, xutil_ElementExists, xutil_GetValue, xutil_StripWhitespace) on top of 4th Dimension 2003's native XML commands.

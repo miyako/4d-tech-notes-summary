@@ -1,0 +1,26 @@
+{
+  "asset_id": 15348,
+  "title": "Tech Note: The 128th Byte",
+  "technote_number": "01-29",
+  "year": 2001,
+  "published_date": "June 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=15348",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-29_The_128th_Byte.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D internal record structure",
+    "Database file architecture fundamentals"
+  ],
+  "historical_commentary": {
+    "text": "This note describes the internal byte-level structure of 4D's records within its data files, aimed at helping developers optimize data access and understand 4D's inner workings, including general database-architecture tradeoffs (one file per table plus per-index files versus a consolidated format). Because 4D's on-disk record and data-file format has been re-engineered multiple times in the decades since (v11 SQL engine, then the 64-bit engine), the specific byte-level structure detailed in this note no longer matches any current 4D file format, making it a historical snapshot of early 4D internals rather than a practical reference.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's on-disk data/record format has been redesigned multiple times since 2001 (4D v11 SQL engine, later 64-bit engine)",
+      "Modern 4D data file internals bear little structural resemblance to the format described in this note"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 37047,
+  "title": "Tech Note: Handling Pictures",
+  "technote_number": "05-16",
+  "year": 2005,
+  "published_date": "April 25, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=37047",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-16_Handling_Pictures.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "READ PICTURE FILE / SAVE PICTURE TO FILE commands",
+    "PICTURE TO BLOB command",
+    "QuickTime-based picture format conversion",
+    "Byte-level picture manipulation"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how 4D reads/writes picture files across native formats (PICT, BMP, GIF, JPEG, PSD, PSP) via QuickTime, and how to use PICTURE TO BLOB to convert between the original format and a working format so a picture's raw bytes can be manipulated directly. Since Apple's QuickTime framework (which underpinned 4D's picture format conversion at the time) has been fully discontinued, this note's specific QuickTime-dependent technique is obsolete, though 4D's newer, QuickTime-independent native picture format commands (introduced in later versions) address the same underlying need today.",
+    "status": "obsolete",
+    "related_updates": [
+      "Apple discontinued QuickTime entirely (including QuickTime for Windows) around 2016, removing the technology this note's picture format conversion depended on",
+      "4D introduced native, QuickTime-independent picture format handling and conversion commands in later versions (following the 64-bit transition and QuickTime's removal from the OS), replacing this specific approach",
+      "PICTURE TO BLOB remains part of the current 4D language, but the underlying format-conversion engine it relies on is no longer QuickTime-based"
+    ]
+  }
+}

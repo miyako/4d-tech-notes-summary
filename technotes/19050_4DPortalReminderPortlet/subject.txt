@@ -1,0 +1,1 @@
+Tech Note: Exploring 4D Portal's Reminder Portlet (TN 01-53, 4D Portal v6.7.1, November 2001) — a walkthrough of the scheduling logic behind 4D Portal's monthly/weekly/daily/once Reminder Portlet.

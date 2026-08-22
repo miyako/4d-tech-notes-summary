@@ -1,0 +1,1 @@
+Tech Note: Inside the Spinners Demo Database (TN 03-5, 4D v6.8, January 2003) — a walkthrough of the sample "Spinners" database showing how to build click-and-hold numeric/date/time spinner controls using the On Timer event.

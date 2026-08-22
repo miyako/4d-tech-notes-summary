@@ -1,0 +1,1 @@
+Tech Note: Saving Data from a Non-Contextual Web Page (TN 04-01, 4D v2003, January 2004) — shows how to take input submitted from a 4D Non-Contextual web page and save it into a table in the 4D database.

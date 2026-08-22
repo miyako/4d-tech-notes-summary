@@ -1,0 +1,1 @@
+Tech Note: The 4D Web Auction Example Database (TN 01-44, 4D v6.7, September 2001) — a walkthrough of the 4D Web Auction demo's non-contextual, tag-based dynamic web interface.

@@ -1,0 +1,30 @@
+{
+  "asset_id": 11868,
+  "title": "Tech Note: A Platform Independent Window Management Module",
+  "technote_number": "95-21",
+  "year": 1996,
+  "published_date": "April 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Jeff Browning",
+  "page_url": "https://kb.4d.com/assetid=11868",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_16-21_(APR)/96-21_Window_Module.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "OPEN WINDOW command",
+    "Platform/Look detection module (TN 96-20)",
+    "ACI_PACK extension",
+    "Window stacking/cascading across processes",
+    "Layout scaling for Mac/Windows"
+  ],
+  "historical_commentary": {
+    "text": "This note tackles a real 1996 pain point: 4D 3.5's OPEN WINDOW positioned windows relative to the app frame on Windows but the screen on Mac, and layouts had to be scaled per platform for differing monitor resolutions. The reusable window-management module built around this is entirely superseded by 4D's modern window and forms handling, and its dependency on a companion platform-detection tech note and the ACI_PACK extension reflects a plugin/procedure-library era long gone.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern 4D form/window management and the Windows/Mac UI conventions have converged substantially since the Windows 3.1/95 era this note addresses",
+      "ACI_PACK and this style of interprocess-variable-based reusable procedure library predate modern 4D methods, components, and object notation",
+      "Layout scaling concerns from mixed low/high-resolution Mac vs Windows displays are no longer relevant given modern display standards and 4D's rendering"
+    ]
+  }
+}

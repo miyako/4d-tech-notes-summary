@@ -1,0 +1,27 @@
+{
+  "asset_id": 31358,
+  "title": "Tech Note: 4D, iCal and Web Services",
+  "technote_number": "04-07",
+  "year": 2004,
+  "published_date": "February 19, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31358",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_05-09_(FEB)/04-07_iCal_Web_Services.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Apple iCal",
+    "AppleScript",
+    "4D Web Services (SOAP)"
+  ],
+  "historical_commentary": {
+    "text": "This note ties together three technologies specific to 2004 Mac OS X: Apple's original iCal calendar app, AppleScript's newly added ability to call Web Services, and 4D's SOAP-based Web Services. iCal (as a distinct app) was discontinued and folded into Apple's Calendar app years ago, and the AppleScript-to-Web-Services integration path described is a niche, dated automation technique; the general idea of triggering 4D business logic from a calendar/scheduling event remains conceptually useful, but essentially none of the specific technology stack described (that version of iCal, that AppleScript SOAP feature, 4D's SOAP Web Services) is still in active use today.",
+    "status": "obsolete",
+    "related_updates": [
+      "Apple's iCal was renamed and evolved into the Calendar app, and current calendar/automation integrations use different technologies (e.g. Shortcuts, EventKit) rather than legacy AppleScript-to-SOAP calls",
+      "4D's SOAP Web Services approach has been superseded by REST/JSON web services in modern 4D development"
+    ]
+  }
+}

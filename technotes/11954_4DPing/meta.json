@@ -1,0 +1,28 @@
+{
+  "asset_id": 11954,
+  "title": "Tech Note: 4D Ping",
+  "technote_number": "00-43",
+  "year": 2000,
+  "published_date": "September 1, 2000",
+  "product": "4D Internet Commands",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Arnaud Lion, 4D S.A. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11954",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_41-45_%28SEP%29/00-43_4D_Ping.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Internet Commands",
+    "TCP/IP networking",
+    "Network diagnostics (ping)",
+    "4D Server deployment troubleshooting"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a working \"ping\" utility built with the 4D Internet Commands plug-in, letting developers diagnose network connectivity issues while deploying 4D Server-based applications \u2014 a practical, still-relevant class of problem, though the specific plug-in (4D Internet Commands) it depends on was long ago folded into or replaced by native 4D language commands for TCP/IP and internet operations. The core diagnostic concept (testing reachability/latency to isolate network problems during deployment) remains fully relevant today, even though a modern equivalent would use current 4D networking commands rather than the classic 4D Internet Commands plug-in API described here.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Internet Commands has since been superseded by native 4D language commands and classes for TCP/IP, HTTP, and related network operations",
+      "Network diagnostic techniques like ping-based reachability testing remain a standard, relevant troubleshooting approach for deployed 4D Server applications today"
+    ]
+  }
+}

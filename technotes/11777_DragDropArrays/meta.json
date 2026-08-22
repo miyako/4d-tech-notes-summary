@@ -1,0 +1,26 @@
+{
+  "asset_id": 11777,
+  "title": "Tech Note: Drag and Drop with Grouped or Logically Linked Arrays",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "October 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11777",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Drag and Drop",
+    "Arrays and hierarchical lists"
+  ],
+  "historical_commentary": {
+    "text": "This note examines using 4D V6's then-new Drag and Drop capability to reorder items in and across arrays, including grouped arrays and arrays whose ordering must stay synchronized with additional hidden arrays; the specific classic-array-based UI drag-and-drop model has been superseded by decades of subsequent 4D form/list improvements, though the general idea of coordinating multiple linked data structures during reordering remains a recognizable UI engineering concern.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's Drag and Drop and list/array handling in forms have evolved substantially since V6, including modern list box and collection-based UI components",
+      "Classic parallel-array UI patterns (multiple arrays kept in sync by position) are less common in modern 4D development, which favors object/collection-based data structures"
+    ]
+  }
+}

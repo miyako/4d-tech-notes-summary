@@ -1,0 +1,27 @@
+{
+  "asset_id": 11771,
+  "title": "Tech Note: Keeping the Memory Clean - Part 1",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "September 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11771",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D memory management",
+    "RAM/block allocation",
+    "Form memory optimization"
+  ],
+  "historical_commentary": {
+    "text": "This is Part 1 of a two-part series (companion to asset 11778, Part 2) explaining how 4D uses memory and offering tips for optimizing memory usage in databases and forms; as with Part 2, the specific memory-management concerns described are tied to the limited-RAM constraints of classic Mac OS/Windows 3.1/95 systems of the era, making the concrete guidance obsolete relative to modern hardware and 4D's evolved memory handling, though the general discipline of memory-conscious application design remains a timeless principle.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern computers have vastly more RAM and modern 4D versions include substantially improved automatic memory management compared to the constrained classic Mac OS/Windows 3.1/95 environments this note addresses",
+      "Specific 1997-era form/database memory-optimization tips are no longer necessary or applicable given decades of evolution in both 4D's internal memory handling and underlying OS memory management"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Designing a "Mouseless" Interface (4D v6.5, February 2000) — a guide to building a fully keyboard-driven ("mouseless") interface in the Custom Menus environment using the HIGHLIGHT RECORDS command.

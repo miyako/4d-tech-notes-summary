@@ -1,0 +1,1 @@
+Tech Note: Tricks and Tips for Using the Form Wizard - Part 2 (4D v6.0, August 1997) — the second part of a two-part guide teaching tricks and tips for the 4D V6 Form Wizard, this part focused on controlling the width of alpha fields in an output form, demonstrated using the MusicPro example database.

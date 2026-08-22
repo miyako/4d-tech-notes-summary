@@ -1,0 +1,27 @@
+{
+  "asset_id": 11775,
+  "title": "Tech Note: Maintaining User Modifiable Choice Lists",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "September 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11775",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Choice lists",
+    "User Modifiable list property",
+    "SaveListsDemo example database"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a generic, copy-paste-able code scheme for preserving end-user customizations to 'User Modifiable' choice lists across structure updates, since choice lists were stored in the structure and would otherwise be overwritten by default lists on every new build; the specific classic choice-list mechanism and structure/data separation described are tied to 4D's pre-Project-Mode binary structure model, though the underlying problem (preserving user customizations across app updates) remains a generally relevant software design concern.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's classic choice list mechanism (structure-stored, 'User Modifiable' flag) has been carried forward but modern 4D development also uses collections/ORDA-driven dynamic choice lists loaded from data rather than structure-embedded lists",
+      "Since Project Mode (v17, 2018), 4D structure elements including forms and lists live as text/JSON files, changing how structure vs. data separation and update deployment are handled compared to this note's binary-structure-era approach"
+    ]
+  }
+}

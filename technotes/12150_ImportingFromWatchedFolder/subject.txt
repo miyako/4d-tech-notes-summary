@@ -1,0 +1,1 @@
+Tech Note: Importing From a Watched Folder (TN 01-09, 4D v6.5, February 2001) — a system for having 4D monitor (watch) a user-selected folder and periodically import or process its contents automatically.

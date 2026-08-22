@@ -1,0 +1,1 @@
+Tech Note: 4D and salesforce.com (TN 05-03, 4D v2004, January 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing salesforce.com crm api.

@@ -1,0 +1,29 @@
+{
+  "asset_id": 11864,
+  "title": "Tech Note: Juke-Box MP3 with 4D",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "December 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11864",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "MP3 playback",
+    "ID3 tags",
+    "Media management",
+    "4D database integration"
+  ],
+  "historical_commentary": {
+    "text": "This note is a fascinating time capsule from the height of the MP3 revolution (1999, the Napster era). Building an MP3 jukebox within a database application was cutting-edge and showed 4D's versatility beyond traditional business applications. The ID3 tag reading/writing capability demonstrated useful metadata handling. Today, media playback would be handled through system APIs or web-based players, and music databases are ubiquitous (iTunes/Apple Music debuted in 2001). The specific techniques are obsolete, but the concept of database-driven media management was prescient.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern 4D can interact with media through system commands or Web Areas",
+      "ID3 tag libraries are now available as standard open-source components",
+      "Streaming services have largely replaced local MP3 jukebox applications"
+    ]
+  }
+}

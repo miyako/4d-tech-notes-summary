@@ -1,0 +1,26 @@
+{
+  "asset_id": 15346,
+  "title": "Tech Note: Using Splitters",
+  "technote_number": "01-27",
+  "year": 2001,
+  "published_date": "June 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=15346",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-27_Using_Splitters.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Splitters (form objects)",
+    "Form design / resizable interface regions"
+  ],
+  "historical_commentary": {
+    "text": "Splitters \u2014 form objects that let end users drag to resize adjoining areas of a form \u2014 were new in 4D v6.5 and, per this note, still under-used by developers at the time. The concept and the Splitter object type itself have persisted essentially unchanged through 4D's evolution, including into Project Mode and current list-box-heavy interfaces, making the note's core guidance still conceptually applicable today, even though the binary Design Mode form editor shown has since been replaced.",
+    "status": "still relevant",
+    "related_updates": [
+      "The Splitter object type remains part of 4D's current form object palette, usable in Project Mode forms",
+      "Modern 4D UI design leans more heavily on resizable list boxes, dockable panels, and (for web/mobile) HTML/CSS layouts, but the underlying manual-resize interaction shown here is unchanged"
+    ]
+  }
+}

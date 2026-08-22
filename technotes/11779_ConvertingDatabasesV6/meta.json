@@ -1,0 +1,26 @@
+{
+  "asset_id": 11779,
+  "title": "Tech Note: Converting Databases to 4D V6",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "October 1, 1997",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11779",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 database conversion",
+    "V3-to-V6 terminology differences"
+  ],
+  "historical_commentary": {
+    "text": "This note guides developers through converting 3.x databases to V6, including the terminology shift the V6 release introduced (e.g. Phases becoming Events, Procedures becoming Methods); as a one-time historical migration guide for a conversion path that closed decades ago, it is now of purely historical interest.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D V6 introduced Events (replacing Phases) and Methods (replacing Procedures) terminology, referenced here as a source of conversion confusion",
+      "The binary .4DB/.4DC structure file format used by V3/V6-era databases has long since been superseded by the modern structure file format, and further by Project Mode (introduced v17, 2018)"
+    ]
+  }
+}

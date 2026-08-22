@@ -1,0 +1,27 @@
+{
+  "asset_id": 25618,
+  "title": "Tech Note: Kiviat Graphs",
+  "technote_number": "03-1",
+  "year": 2003,
+  "published_date": "January 31, 2003",
+  "product": "4D Chart",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": "Olivier Deschanels, 4D S.A.",
+  "page_url": "https://kb.4d.com/assetid=25618",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_01-05_(JAN)/03-01_kiviat_graphs.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Chart",
+    "CT DO COMMAND",
+    "Custom charting via trigonometric math"
+  ],
+  "historical_commentary": {
+    "text": "4D Chart as described here is a legacy component that has been superseded by more modern charting approaches in current 4D (including web-based charting libraries and later graph area object types), so the specific CT DO COMMAND-based drawing API is largely obsolete for new development. The underlying idea \u2014 computing radial/polar coordinates to render a Kiviat-style visualization \u2014 remains conceptually valid and is easily portable to any modern drawing or charting library.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart's classic drawing-primitive API has been superseded by newer charting options in current 4D, including web-based JS charting libraries embedded via web areas",
+      "The general radar/Kiviat chart technique (polar coordinate math) is a standard, tool-agnostic charting pattern still used today in modern charting libraries"
+    ]
+  }
+}

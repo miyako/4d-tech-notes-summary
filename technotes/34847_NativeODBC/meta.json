@@ -1,0 +1,28 @@
+{
+  "asset_id": 34847,
+  "title": "Tech Note: Native ODBC in 4D",
+  "technote_number": "04-46",
+  "year": 2004,
+  "published_date": "November 18, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=34847",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_46-48_(OCT)/04-46_Native_ODBC.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Native ODBC support in 4D 2004",
+    "ODBC data import (no external plug-in required)",
+    "Microsoft Excel data integration"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D 2004's new native ODBC support, which let developers pull data from any ODBC data source (with Microsoft Excel highlighted as the flagship example) directly into 4D without installing a separate ODBC plug-in. The concept of built-in ODBC connectivity for pulling external data remains relevant and is still supported in current 4D versions, though the specific 2004-era implementation, commands, and Excel-integration example described have been superseded by later refinements to 4D's ODBC and general external-data-access features.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D has continued to refine and ship native ODBC connectivity in subsequent versions well beyond the 2004 implementation described here",
+      "Modern 4D applications increasingly favor ORDA-based data sources or REST/API integrations over ODBC for many external-data-import scenarios",
+      "Excel interoperability today is often handled via newer file-format/automation commands rather than solely through ODBC"
+    ]
+  }
+}

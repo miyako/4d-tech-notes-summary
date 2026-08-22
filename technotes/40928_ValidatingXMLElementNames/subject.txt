@@ -1,0 +1,1 @@
+Tech Note: Validating XML Element Names (TN 05-40, 4D v2004, December 2005) — documents the XML specification's naming rules for elements and attributes and provides 4D code to validate custom-generated XML names against them.

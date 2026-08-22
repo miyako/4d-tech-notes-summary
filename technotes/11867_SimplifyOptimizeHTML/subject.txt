@@ -1,0 +1,1 @@
+Tech Note: Simplifying and Optimizing HTML Construction (TN 96-13, 4D v3.x, March 1996) — a technique for storing HTML templates as 4D records with placeholder tokens and using fast string replacement to generate dynamic HTML pages.

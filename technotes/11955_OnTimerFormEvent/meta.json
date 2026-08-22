@@ -1,0 +1,28 @@
+{
+  "asset_id": 11955,
+  "title": "Tech Note: The On Timer Form Event",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "March 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11955",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "On Timer form event",
+    "Simulated menus",
+    "Custom Menus environment",
+    "Simulated resize box"
+  ],
+  "historical_commentary": {
+    "text": "This note surveys the On Timer form event, a classic 4D language feature that still exists in the current 4D language largely unchanged in concept, used here to build several period-specific custom UI tricks (simulated menus, object animation, and a hand-built resize box) that were necessary before 4D added richer native UI features. The On Timer event itself remains a valid, still-used 4D language feature today, so this note is conceptually still relevant, even though the specific UI problems it solves (simulated resize boxes, simulated menus in the Custom Menus environment) are largely obsolete now that 4D forms support native window resizing and standard menu bars more flexibly.",
+    "status": "still relevant",
+    "related_updates": [
+      "The On Timer form event remains part of the current 4D language and is still commonly used for periodic UI updates and polling",
+      "Native window resizing and standard menu-bar support in modern 4D forms have removed the need for many of the specific simulated-UI tricks this note demonstrates"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Frequently Asked Questions (4D Write v6.0.x, October 1997) — an ACI Technical Support FAQ roundup answering common developer/end-user questions across the entire 4D product family, including 4th Dimension, 4D Write, 4D Server, V6 conversion, and web issues; full text unavailable, summary based on the teaser only.

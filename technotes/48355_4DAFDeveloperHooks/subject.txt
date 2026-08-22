@@ -1,0 +1,1 @@
+Tech Note: Developer Hooks for 4D Ajax Framework (TN 07-46, 4D Web 2.0 Pack v1.2, December 2007) — a reference guide to the DAX_DevHook_* extension points that let developers customize and override the 4D Ajax Framework's default web UI behavior.

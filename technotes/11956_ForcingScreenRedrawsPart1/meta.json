@@ -1,0 +1,27 @@
+{
+  "asset_id": 11956,
+  "title": "Tech Note: Forcing Screen Redraws: Updating a Progress Display on a Form, Part I",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "March 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11956",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Form redraw tricks",
+    "Progress display updates",
+    "Custom Menus environment UI"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a classic workaround for forcing 4D to immediately redraw a portion of a form \u2014 needed because 4D's classic forms engine did not always refresh visible objects in real time during long-running processes, making progress-indicator updates otherwise appear frozen. This specific low-level redraw trick is obsolete in the sense that 4D's forms/rendering engine has been substantially modernized since (with better native progress and redraw handling, plus web-based UI options), but the underlying UX goal of showing responsive progress during long operations remains a universally relevant design concern.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's forms rendering engine has been modernized considerably since 2000, reducing the need for manual redraw tricks to update progress displays",
+      "Progress indication in modern 4D apps is more commonly handled via built-in progress bar objects, process-based UI updates, or web-based UI rather than this era's manual redraw workaround"
+    ]
+  }
+}

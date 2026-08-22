@@ -1,0 +1,1 @@
+Tech Note: Hierarchical Lists in 4D v11 SQL (TN 07-39, 4D Developer v11, October 2007) — a guide to major improvements to Hierarchical List form objects in 4D v11 SQL, including support for multiple form representations of a single list and several new list-manipulation commands.

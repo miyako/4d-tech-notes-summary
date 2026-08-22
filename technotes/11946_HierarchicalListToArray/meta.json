@@ -1,0 +1,28 @@
+{
+  "asset_id": 11946,
+  "title": "Tech Note: The Hierarchical LIST TO ARRAY Command",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "January 1, 2000",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11946",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Hierarchical lists",
+    "LIST TO ARRAY / ARRAY TO LIST commands",
+    "List Editor",
+    "Custom list-flattening technique"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a workaround for a specific limitation in 4D v6's hierarchical list commands: LIST TO ARRAY only captured the first level of a hierarchical list and ARRAY TO LIST could only rebuild a flat list, so the note supplies custom code to fully flatten a multi-level hierarchical list into a string array (with a printing example). This exact gap has very likely been addressed by improvements to 4D's hierarchical list commands in the many releases since v6, making the specific workaround largely of historical interest, though the general technique of recursively walking a hierarchical structure into a flat representation remains a broadly useful programming pattern.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's hierarchical list command set has been extended and improved across many releases since v6, likely closing much of the specific LIST TO ARRAY/ARRAY TO LIST limitation described here",
+      "The general recursive-flattening technique for nested/tree data remains a standard programming pattern applicable well beyond this specific 4D command limitation"
+    ]
+  }
+}

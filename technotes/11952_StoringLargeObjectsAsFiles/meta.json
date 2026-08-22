@@ -1,0 +1,27 @@
+{
+  "asset_id": 11952,
+  "title": "Tech Note: Storing Large Objects as Separate Files on the Hard Drive",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "April 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11952",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "BLOB/large object handling",
+    "External file storage strategy",
+    "Database engine design"
+  ],
+  "historical_commentary": {
+    "text": "This note describes a still-conceptually-valid database design pattern: keeping large binary objects outside the core data file and tracking them via a reference table, reducing data-file bloat and the operational costs that come with it. The specific mechanics for external file storage in classic 4D (pre-BLOB-field and pre-modern document/folder management commands) are dated, but the underlying architectural principle \u2014 separating large object storage from the primary data store, tracked by metadata records \u2014 remains a widely used and relevant pattern in database design generally, including in modern 4D applications that store large files outside the current .4DD/.4DIndx data structure.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D has since added more capable BLOB, picture, and document/folder-management commands making external large-object storage easier to implement than in 2000",
+      "The core architectural pattern (external file storage plus a tracking table) remains a standard technique in current 4D and general database application design"
+    ]
+  }
+}

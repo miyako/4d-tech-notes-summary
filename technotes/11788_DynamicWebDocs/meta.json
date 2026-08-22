@@ -1,0 +1,26 @@
+{
+  "asset_id": 11788,
+  "title": "Tech Note: Dynamic Web Document Management",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "December 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11788",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D built-in Web server",
+    "Dynamic HTML generation"
+  ],
+  "historical_commentary": {
+    "text": "This note showcases 4D V6's then-new integrated Web server capability for creating and sending dynamic HTML documents, a genuinely novel feature for 4D at the time; the general concept of a database driving dynamic web content remains foundational, but the specific 1997 implementation predates 4D's built-in web server's decades of subsequent rearchitecture, HTTPS/HTTP2 support, and today's ORDA/REST-based web app patterns.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's built-in Web server has been substantially rearchitected many times since 1997, gaining HTTPS, better performance, and modern configuration options",
+      "Modern dynamic web development with 4D typically uses ORDA/REST APIs with client-side frameworks rather than server-side HTML generation as described in this early note"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 19049,
+  "title": "Tech Note: 4D Backup Commands and Scheduling Techniques",
+  "technote_number": "01-50",
+  "year": 2001,
+  "published_date": "November 30, 2001",
+  "product": "4D Backup",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19049",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2001/windows/tn_2001_50-53_(nov)/01-50_4d_backup_scheduling.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Backup language commands",
+    "4D Client/4D Server backup scheduling",
+    "Single vs multi-user backup"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates using 4D's classic Backup language commands to build a custom backup scheduler for single-user and client-server databases, deliberately excluding mirroring. The core classic-language backup commands and the idea of scripting a custom backup schedule remain valid in current 4D versions, though 4D Server now ships with a more capable built-in Backup Manager/preferences UI, and many production deployments today also layer in infrastructure-level (disk/cloud) backup strategies alongside 4D's native mechanism.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D Server's Backup Manager and Backup.4DPreferences/XML configuration have matured considerably since 2001",
+      "Cloud/infrastructure-level snapshot backups are now commonly used alongside or instead of purely classic-language backup scheduling"
+    ]
+  }
+}

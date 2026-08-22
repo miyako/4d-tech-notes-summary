@@ -1,0 +1,28 @@
+{
+  "asset_id": 11997,
+  "title": "Tech Note: The Ins and Outs of Insider",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "March 1, 2000",
+  "product": "4D Insider",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11997",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Insider (structure documentation tool)",
+    "Naming conventions / code documentation",
+    "Localization workflow support"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces 4D Insider, a companion documentation and structure-analysis product used to support software maintenance practices such as enforcing naming conventions, generating internal documentation, assisting with localization of menus/labels/static text, and enabling code reuse across applications. 4D Insider itself has been discontinued as a separate product, and the underlying binary Design Mode structure it was built to document and manipulate has itself been superseded by Project Mode's plain-text structure files (introduced in 4D v17), which are natively human-readable, diffable, and directly compatible with standard version control and documentation tooling \u2014 removing much of the original need for a dedicated structure-analysis companion product.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Insider has been discontinued as a companion product",
+      "Project Mode (4D v17+) stores forms, methods, and other structure elements as plain text files, making much of Insider's original documentation/analysis role unnecessary since the structure itself is now natively readable and diffable",
+      "Modern localization workflows in 4D-based applications typically use standard resource/translation file formats rather than an Insider-driven extraction process"
+    ]
+  }
+}

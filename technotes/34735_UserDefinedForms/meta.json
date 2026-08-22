@@ -1,0 +1,28 @@
+{
+  "asset_id": 34735,
+  "title": "Tech Note: User Defined Forms",
+  "technote_number": "04-45",
+  "year": 2004,
+  "published_date": "November 11, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=34735",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_41-45_(SEP)/04-45_User_Def_Forms.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "User Defined Forms (4D 2004)",
+    "Runtime form customization",
+    "Compiled/merged double-clickable application support"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces User Defined Forms, a 4D 2004 feature letting end users create or modify customized forms at runtime \u2014 even inside compiled, merged standalone applications \u2014 so vertical-market developers could let different clients tailor the look and feel of shared data views. The general goal (end-user-customizable UI without redeployment) remains a legitimate and still-pursued feature pattern in modern 4D applications, but the specific runtime form-customization mechanism described predates Project Mode, ORDA, and modern List Box/form object models, so a developer solving this problem today would very likely use different, more current tools.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Later 4D versions introduced much richer object/List Box models and dynamic form-building capabilities that supersede the specific 2004 mechanism described here",
+      "Project Mode (4D v17, 2018) changed how forms are stored and could be programmatically manipulated compared to binary Design Mode structures",
+      "Modern 4D applications more often achieve end-user UI customization via dynamically configured List Box columns or JSON-driven UI definitions rather than the 2004-era User Defined Forms mechanism"
+    ]
+  }
+}

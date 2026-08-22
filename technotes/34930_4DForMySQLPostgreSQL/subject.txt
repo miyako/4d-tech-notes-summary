@@ -1,0 +1,1 @@
+Tech Note: Introduction to 4D for MySQL and 4D for PostgreSQL (TN 04-47, 4D v2004, November 2004) — introduces two new 2004-era plug-ins providing direct connectivity from 4D to MySQL and PostgreSQL open-source databases.

@@ -1,0 +1,1 @@
+Tech Note: Mirroring in version 2004 (TN 05-38, 4D v2004, November 2005) — introduces 4D 2004.3's new log-file mirroring commands and demonstrates building a custom database mirroring system using segmented log transfer over 4D SOAP.

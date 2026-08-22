@@ -1,0 +1,27 @@
+{
+  "asset_id": 31738,
+  "title": "Tech Note: Using 4D with United States Postal Service (USPS) Web Services",
+  "technote_number": "04-10",
+  "year": 2004,
+  "published_date": "March 11, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31738",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-10_4D_w_USPS_WebServices.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Internet Commands",
+    "USPS Web Tools API",
+    "External web service consumption from 4D"
+  ],
+  "historical_commentary": {
+    "text": "This note shows 4D consuming an external government web API (USPS Web Tools) using 4D Internet Commands, one of the earliest examples of 4D-as-a-client integrating with third-party web services rather than only publishing its own. The specific USPS API version and 4D Internet Commands-based HTTP handling from 2004 are dated, but the general pattern of a 4D application calling an external REST/XML API for shipping/address services remains a common and conceptually relevant integration scenario today, now typically done with more modern HTTP/JSON commands.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Internet Commands' HTTP/networking capabilities have been substantially extended and partly superseded by newer built-in HTTP client commands and JSON support in later 4D versions",
+      "The USPS Web Tools API itself has evolved considerably since 2004, likely requiring different authentication and endpoint details than described in this note"
+    ]
+  }
+}

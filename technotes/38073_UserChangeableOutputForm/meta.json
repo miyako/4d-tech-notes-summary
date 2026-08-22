@@ -1,0 +1,27 @@
+{
+  "asset_id": 38073,
+  "title": "Tech Note: User Changeable Output Form",
+  "technote_number": "05-25",
+  "year": 2005,
+  "published_date": "July 18, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=38073",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_25-27_(JUL)/05-25_ChangeableOutputForm.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Dynamic output/list form columns",
+    "Layout variables",
+    "Runtime UI customization"
+  ],
+  "historical_commentary": {
+    "text": "This is the first note in the output-form-customization series (later extended by \"User Preferences\"), demonstrating how to let end users pick which fields populate each output form column, along with per-column header text, number/date/time/boolean formatting, and alignment, all driven at runtime by four layout variables per column and one reusable method. This kind of dynamic, end-user-configurable list view remains a legitimate and common feature request today, but modern 4D development would typically implement it using List Box object/collection column configuration rather than classic output form layout variables.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern dynamic/user-configurable tabular views in 4D are generally built with the List Box object's programmatic column and data-source APIs (introduced/expanded well after 2005) rather than classic output form layout variables",
+      "The follow-up 'User Preferences' Tech Note (05-28) extended this exact technique to persist choices to a table \u2014 that persistence approach has itself since been superseded by JSON/object-based settings storage"
+    ]
+  }
+}

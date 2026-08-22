@@ -1,0 +1,1 @@
+Tech Note: E-mail Analyzer (4D Internet Commands v6.5, May 2000) — a technique for analyzing incoming e-mail retrieved through the 4D Internet Commands plug-in to detect and extract specific error patterns automatically.

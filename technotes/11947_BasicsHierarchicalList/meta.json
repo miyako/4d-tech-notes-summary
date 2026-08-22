@@ -1,0 +1,28 @@
+{
+  "asset_id": 11947,
+  "title": "Tech Note: The Basics of Creating a Hierarchical List",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "February 1, 2000",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11947",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Hierarchical lists (v6+)",
+    "List Editor",
+    "Hierarchical list form objects",
+    "Hierarchical pop-up menus"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces hierarchical lists, a 4D v6 enhancement to the classic list object that let string items form parent/child/sibling relationships (like a file-system outline view), displayable as a hierarchical list form object or hierarchical pop-up menu. The hierarchical list feature and its associated commands remain part of the current 4D language essentially unchanged in concept, so this note's fundamentals are still directly applicable, though modern UI patterns increasingly favor list boxes, tree-style list box components, or web-based tree views for equivalent outline-style presentation.",
+    "status": "still relevant",
+    "related_updates": [
+      "Hierarchical lists and their associated commands remain part of the current 4D language, largely unchanged in concept since v6",
+      "List box objects (including tree-structured list box display) and web-based UI have become common modern alternatives to hierarchical list form objects for outline-style presentation"
+    ]
+  }
+}

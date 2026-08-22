@@ -1,0 +1,28 @@
+{
+  "asset_id": 11959,
+  "title": "Tech Note: New 4D v6.5 Picture Library Animation Feature",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "April 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11959",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Picture Library",
+    "Picture animation (v6.5)",
+    "Form pictures",
+    "No-plug-in graphics effects"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a genuinely new 4D v6.5 feature: built-in Picture Library animation support that let developers add animated graphics to forms without any plug-in, a modest but notable enhancement to the classic Picture Library subsystem. The specific Picture Library animation mechanism described here is tied to the classic Design-Mode-era forms engine and 4D v6.5's picture handling, and while animated form graphics remain achievable in modern 4D (through updated picture/animation properties or web-based UI), the exact feature and workflow described is now a legacy technique superseded by newer graphics and UI options.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's forms and picture-handling engine has evolved substantially since v6.5, including modern picture object properties and, for many use cases, web-based UI where animation is handled via standard web technologies",
+      "The specific Picture Library animation workflow from 4D v6.5 is a legacy technique rather than the current recommended approach for animated UI content"
+    ]
+  }
+}

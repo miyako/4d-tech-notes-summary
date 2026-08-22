@@ -1,0 +1,1 @@
+Tech Note: Multiple Programmer Projects Using 4D (4D Server v6.5, November 1999) — covers best practices for multi-developer 4D projects including naming conventions, object locking, and team communication.

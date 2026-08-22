@@ -1,0 +1,28 @@
+{
+  "asset_id": 47934,
+  "title": "Tech Note: Macros in 4D v11 SQL",
+  "technote_number": "07-41",
+  "year": 2007,
+  "published_date": "October 31, 2007",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Robert Molina, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47934",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/MacOS/TN_2007_39-42_(OCT)/07-41_4D_v11_SQL_Macros.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Macros (method editor code automation)",
+    "Macros v2 folder / Macros.xml",
+    "XML DTD conformity for macro definitions",
+    "<macro> element attributes"
+  ],
+  "historical_commentary": {
+    "text": "This note documents incremental updates to 4D's macro system (text/method automation snippets in the method editor) for 4D v11 SQL, including full XML-standard conformity, a new 'Macros v2' folder structure, and new <macro> element attributes, migrating away from the earlier blob-based storage for large macro text. The macro feature itself has been superseded by 4D's modern code editor tooling and templates in current versions, and the specific file/folder conversion mechanics described (Macros v2, Macros.xml, per-OS encoding differences) are tied to a 2007-era editor implementation with limited relevance to current 4D development environments.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's method/code editor and code snippet tooling have been substantially modernized in versions since 2007",
+      "The specific 'Macros v2' folder/XML file mechanics described here are tied to the classic 4D editor implementation of that era"
+    ]
+  }
+}

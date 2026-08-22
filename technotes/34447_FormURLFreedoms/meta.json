@@ -1,0 +1,30 @@
+{
+  "asset_id": 34447,
+  "title": "Tech Note: 4th Dimension 2004 Allows New Freedoms in Form URLs",
+  "technote_number": "04-42",
+  "year": 2004,
+  "published_date": "October 21, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=34447",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_41-45_(SEP)/04-42_Change_Get_Web_Form.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension built-in Web Server",
+    "GET WEB FORM VARIABLES command",
+    "On Web Authentication / On Web Connection database methods",
+    "4DACTION / 4DCGI / 4DMETHOD URL keywords",
+    "Custom (non-4D-prefixed) form URLs"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a genuinely useful 4D 2004 Web Server change: form POST data became retrievable via GET WEB FORM VARIABLES for any URL, not just ones prefixed with the special 4DACTION/4DCGI/4DMETHOD keywords, freeing developers to use clean, arbitrary URL paths for policy, branding, or usability reasons. The underlying classic-language commands and database methods described (GET WEB FORM VARIABLES, On Web Authentication, On Web Connection) remain part of current 4D and continue to function, so the technique is still directly usable, but 4D's web development story has since shifted decisively toward REST APIs built on ORDA and modern client-side frameworks, making raw form-URL handling of this kind a legacy pattern for new projects.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's web development emphasis has moved to REST APIs built on ORDA (2018+) and dedicated client frameworks rather than raw On Web Connection form handling",
+      "The GET WEB FORM VARIABLES command and On Web Authentication/On Web Connection methods remain supported in current 4D versions for classic web publishing",
+      "Modern URL routing in web applications is typically handled by front-end frameworks or REST endpoint definitions rather than native 4D Web Server URL keyword conventions"
+    ]
+  }
+}

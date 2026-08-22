@@ -1,0 +1,1 @@
+Tech Note: 4D Chart on the Web in Non-Contextual Mode (TN 01-21, 4D Chart v6.7, June 2001) — a technique for serving both field-stored graphs and interactively created 4D Chart graphs on the web using Non-Contextual Mode, updating the older TN 98-13.

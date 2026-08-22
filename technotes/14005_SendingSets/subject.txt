@@ -1,0 +1,1 @@
+Tech Note: Sending Sets (TN 01-22, 4D Client v6.7, June 2001) — a technique for sending a Set from one 4D Client to other connected clients in v6.7.x without writing and reloading a temporary document.

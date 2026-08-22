@@ -1,0 +1,1 @@
+Tech Note: Returning Data Through SOAP (TN 04-12, 4D v2003.3, March 2004) — a detailed guide by David Adams on returning multiple values ($0, process variables, and arrays) from 4D methods published as SOAP Web Services using the SOAP DECLARATION command.

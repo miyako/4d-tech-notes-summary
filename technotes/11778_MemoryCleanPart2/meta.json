@@ -1,0 +1,26 @@
+{
+  "asset_id": 11778,
+  "title": "Tech Note: Keeping the Memory Clean - Part 2",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "September 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11778",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D memory management",
+    "RAM/block allocation"
+  ],
+  "historical_commentary": {
+    "text": "This note is Part 2 of a two-part series teaching developers how to write 4D code that keeps RAM 'clean' to preserve application performance and stability, a critical concern in the era of limited RAM on classic Mac OS/Windows systems; the specific memory-management coding tricks described are obsolete since modern 4D and modern hardware/OS memory management have changed the relevant constraints dramatically, though the general engineering discipline of being mindful of memory usage remains a timeless principle.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern computers have vastly more RAM and modern 4D versions include substantially improved automatic memory management compared to the constrained classic Mac OS/Windows 3.1/95 environments this note addresses",
+      "Specific 1997-era memory-cleaning coding tricks are no longer necessary or applicable given decades of evolution in both 4D's internal memory handling and underlying OS memory management"
+    ]
+  }
+}

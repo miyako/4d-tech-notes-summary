@@ -1,0 +1,1 @@
+Tech Note: Three-State Checkboxes (TN 04-30, 4th Dimension v2003.3, July 2004) — an explanation, with a working example, of the Three-State checkbox form object introduced as a new UI feature in 4D 2004.

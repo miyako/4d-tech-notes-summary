@@ -1,0 +1,1 @@
+Tech Note: A Platform Independent Window Management Module (TN 95-21, 4D v3.x, April 1996) — presents a reusable procedure library for opening and positioning windows consistently across Macintosh and Windows, handling look-based layout scaling and cross-process window stacking.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 11782,
+  "title": "Tech Note: Sets in 4D V6",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "October 1, 1997",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11782",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Sets",
+    "Record selections",
+    "Logical set operations"
+  ],
+  "historical_commentary": {
+    "text": "This note covers how record-selection Sets were created and maintained in the new 4D V6 language, and compatibility considerations for routines migrating from V3 databases; Sets remain a supported classic-language concept in current 4D, so the general topic is still conceptually relevant, though the V6-specific compatibility concerns described are now purely historical since that particular V3-to-V6 migration window has long since closed.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's classic Sets (compact in-memory representations of record selections with fast logical operations) remain part of the current 4D language, though modern development also commonly uses entity selections (ORDA) for similar purposes",
+      "The specific V3-to-V6 set-compatibility concerns this note addresses are no longer applicable since that migration path is decades in the past"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part VGraphing a Picture (TN 00-10, 4D Draw v6.5, February 2000) — Part V of a series on 4D Draw interactive interfaces, explaining how the example database's "Graph View" page programmatically renders a graph of BMP picture data inside a 4D Draw area.

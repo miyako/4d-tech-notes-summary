@@ -1,0 +1,1 @@
+Tech Note: New Form Events in 4D 2004 (TN 05-27, 4D v2004, July 2005) — a short note describing new form events introduced in 4D 2004 for 3D button form objects.

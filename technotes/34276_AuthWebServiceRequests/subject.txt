@@ -1,0 +1,1 @@
+Tech Note: Authenticating Web Service Requests (TN 04-40, 4th Dimension v2004, October 2004) — explains the three ways 4th Dimension 2004 supports passing authentication credentials with outbound SOAP web service calls.

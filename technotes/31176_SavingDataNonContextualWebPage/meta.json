@@ -1,0 +1,27 @@
+{
+  "asset_id": 31176,
+  "title": "Tech Note: Saving Data from a Non-Contextual Web Page",
+  "technote_number": "04-01",
+  "year": 2004,
+  "published_date": "January 31, 2004",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31176",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-01_SavingDataFromWebPage.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D native Web server",
+    "4D Non-Contextual web publishing",
+    "Web form input handling / record saving"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to capture form input submitted from a 4D 'Non-Contextual' web page and save it into a 4D database table, a fundamental early-2000s dynamic web publishing pattern built on 4D's native Web server. The specific Non-Contextual web publishing model is tied to 4D's classic, pre-modern web architecture; the general concept of processing submitted web form data into database records remains completely relevant, but is now typically implemented using 4D's more capable, session/REST-oriented web frameworks rather than this era's Non-Contextual mode.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's web publishing model has evolved substantially since 2004, including session-based and REST/ORDA-based approaches for handling form submissions and persisting data",
+      "The specific 'Non-Contextual' web page mode described here reflects 4D's early web server architecture, largely superseded by later web server and web application development capabilities"
+    ]
+  }
+}

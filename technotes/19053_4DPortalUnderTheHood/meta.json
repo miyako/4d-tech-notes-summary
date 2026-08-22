@@ -1,0 +1,27 @@
+{
+  "asset_id": 19053,
+  "title": "Tech Note: Under the Hood of the 4D Portal 1.0.1 Database",
+  "technote_number": "01-54",
+  "year": 2001,
+  "published_date": "December 30, 2001",
+  "product": "4D Portal",
+  "version": "6.7.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19053",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2001/windows/tn_2001_54-57_(dec)/01-54_configuring_4d_portal.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Portal",
+    "Portlet architecture",
+    "Intranet portal framework"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the internal configuration of 4D Portal 1.0.1, a companion intranet-portal product from 4D's dot-com-era product lineup that bundled portlet-style widgets on top of a 4D database. 4D Portal itself was discontinued long ago and has no equivalent in the current 4D product line, so this note is now of historical interest only, illustrating an early attempt at a customizable web dashboard rather than any technique still in active use.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Portal was discontinued as a product; no direct successor exists in 4D's current lineup",
+      "Modern 4D web/mobile dashboards are typically built with REST/ORDA APIs plus a JS framework or Qodly Studio instead of a bundled portal product"
+    ]
+  }
+}

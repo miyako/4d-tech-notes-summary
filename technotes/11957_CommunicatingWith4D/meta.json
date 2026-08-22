@@ -1,0 +1,27 @@
+{
+  "asset_id": 11957,
+  "title": "Tech Note: Communicating With 4D",
+  "technote_number": "00-52",
+  "year": 2000,
+  "published_date": "November 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11957",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-52_Communicating_With_4D.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Inter-process communication in 4D",
+    "Multicasting-style messaging",
+    "Custom object behavior tricks"
+  ],
+  "historical_commentary": {
+    "text": "This note describes classic-4D workarounds for limitations in how 4D objects and processes could communicate, including a multicasting-style broadcast technique, reflecting the pre-modern-language-feature era where developers often had to engineer clever tricks around gaps in 4D's built-in interprocess communication tools. The general need to broadcast state/events between processes is still a real requirement in 4D applications, but the specific era-bound trick described here has long since been superseded by more direct language features 4D added over the following decades (such as improved inter-process variables, worker processes, and messaging commands), so the concrete workaround is obsolete even though the underlying goal remains valid.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D has since added more direct process-communication tools (inter-process/shared variables, CALL PROCESS/EXECUTE ON SERVER, worker processes, and later class-based session objects) that reduce the need for the workaround tricks this note describes",
+      "The general concept of broadcasting information to multiple processes remains relevant, now handled by newer, more robust language mechanisms"
+    ]
+  }
+}

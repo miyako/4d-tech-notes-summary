@@ -1,0 +1,29 @@
+{
+  "asset_id": 34659,
+  "title": "Tech Note: Accessing COM Objects within 4D",
+  "technote_number": "04-44",
+  "year": 2004,
+  "published_date": "November 5, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=34659",
+  "download_url": "https://kb.4d.com/ftp:ftp.4d.com/ACI_TECHNICAL_NOTES/2004/Windows/TN_2004_41-45_(SEP)/04-44_Accessing_COM_Objects.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "LAUNCH EXTERNAL PROCESS command",
+    "Windows COM (Component Object Model) objects",
+    "CreateObject macro, 4D Macro Pack",
+    "COM object browser"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how the new LAUNCH EXTERNAL PROCESS command in 4D 2004 could be used to access Windows COM objects, aided by a CreateObject macro (part of the 4D Macro Pack) with an object browser for exploring a COM object's properties. COM is a Windows-only legacy technology whose relevance has declined industry-wide in favor of .NET, web services, and REST APIs, and this specific integration technique is now a historical curiosity rather than a practical approach for cross-platform 4D applications.",
+    "status": "obsolete",
+    "related_updates": [
+      "COM automation has been largely superseded industry-wide by .NET, web services, and REST/JSON APIs for Windows interop",
+      "Modern 4D applications needing to talk to external Windows or web services typically use HTTP Client commands or REST APIs rather than COM automation",
+      "4D's 4D Macro Pack and macro-based code generation tooling has itself evolved considerably since 2004"
+    ]
+  }
+}

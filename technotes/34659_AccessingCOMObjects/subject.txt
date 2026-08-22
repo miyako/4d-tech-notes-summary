@@ -1,0 +1,1 @@
+Tech Note: Accessing COM Objects within 4D (TN 04-44, 4D v2004, November 2004) — explains how to access Windows COM objects from 4D 2004 using the new LAUNCH EXTERNAL PROCESS command and the CreateObject macro.

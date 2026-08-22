@@ -1,0 +1,1 @@
+Tech Note: Checksum Calculation – CRC32 (TN 01-17, 4D, April 2001) — a simplified, ready-to-use 4D implementation of the CRC32 checksum algorithm for verifying file integrity, building on the concepts from TN 99-11.

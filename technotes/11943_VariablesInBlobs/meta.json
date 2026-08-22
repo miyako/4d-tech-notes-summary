@@ -1,0 +1,27 @@
+{
+  "asset_id": 11943,
+  "title": "Tech Note: Architecture of Variables in Blobs",
+  "technote_number": "00-58",
+  "year": 2000,
+  "published_date": "December 1, 2000",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11943",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-58_4D_Variables_in_BLOBs.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "BLOB storage format",
+    "Variable serialization",
+    "Memory/byte-layout internals"
+  ],
+  "historical_commentary": {
+    "text": "This note describes the internal, byte-level layout 4D used to serialize variables into a BLOB in the classic v6.5 era, useful for developers needing to manually parse or construct BLOB-encoded variable data (for interchange, storage, or interoperability purposes). Such low-level internal serialization formats are inherently implementation-specific and subject to change across 4D versions, so while the note is a useful historical reference for that specific era's BLOB variable layout, it should not be assumed to reflect current internal formats; modern 4D applications favor higher-level serialization approaches (e.g., JSON, objects/collections) over manually parsing BLOB byte layouts.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D has since added higher-level, more portable serialization options (objects, collections, JSON) that are generally preferred over manually parsing raw BLOB byte layouts",
+      "Internal BLOB/variable byte-layout details are implementation-specific and have likely changed across the many 4D versions released since 2000"
+    ]
+  }
+}

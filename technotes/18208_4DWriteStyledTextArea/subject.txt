@@ -1,0 +1,1 @@
+Tech Note: A simple styled text area using 4D Write 6.7 (TN 01-45, 4D Write v6.7, September 2001) — a technique for embedding a 4D Write area on a form so it behaves like a plain Alpha/Text field while accepting styled text.

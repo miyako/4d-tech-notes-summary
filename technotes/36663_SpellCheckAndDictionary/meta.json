@@ -1,0 +1,27 @@
+{
+  "asset_id": 36663,
+  "title": "Tech Note: Spell-check and Dictionary",
+  "technote_number": "05-12",
+  "year": 2005,
+  "published_date": "March 24, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36663",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-12_Spellcheck&Dictionary.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D 2004 built-in spell-check feature",
+    "4D Dictionary management",
+    "Personal dictionary synchronization"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D 2004's newly integrated spell-check feature and how to manage and synchronize personal dictionaries across a database, a text-quality convenience for Design Mode-era 4D applications. Spell-checking as a UI feature is a timeless concept, but the specific 4D 2004 dictionary file/synchronization mechanism described predates two decades of subsequent 4D language, forms, and platform evolution, so the concrete mechanics are now largely of historical interest. Only the teaser paragraph could be recovered for this note, so deeper technical details are unavailable.",
+    "status": "historical_interest_only",
+    "related_updates": [
+      "4D's text editing and spell-check integration has evolved substantially across two decades of subsequent releases",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

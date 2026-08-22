@@ -1,0 +1,1 @@
+Tech Note: Clusters: Using Saved Sets Effectively - Part I (TN 05-21, 4D v2004, June 2005) — the setup half of a two-part series on creating and maintaining saved-set "clusters" to improve database query performance.

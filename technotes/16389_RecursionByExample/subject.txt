@@ -1,0 +1,1 @@
+Tech Note: Recursion by Example (TN 01-33, 4D v6.7, July 2001) — an overview of recursion in 4D's classic language, with guidance on when to use and avoid it.

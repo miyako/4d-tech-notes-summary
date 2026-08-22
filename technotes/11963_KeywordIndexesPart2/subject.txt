@@ -1,0 +1,1 @@
+Tech Note: Keyword Indexes, Part 2 (TN 00-38, 4D v6.5, August 2000) — the second installment of a three-part series on building keyword indexes, this one adding synonym-based querying so alternate word forms and abbreviations are found automatically.

@@ -1,0 +1,26 @@
+{
+  "asset_id": 16396,
+  "title": "Tech Note: Pointers from Scratch",
+  "technote_number": "01-39",
+  "year": 2001,
+  "published_date": "August 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16396",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-39_Pointers_from_Scratch.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Pointers",
+    "Classic language fundamentals"
+  ],
+  "historical_commentary": {
+    "text": "This introductory note explains the concept and mechanics of pointers in 4D's classic language for developers unfamiliar with them. Pointers remain a core, unchanged part of 4D's classic language today, used for indirect variable/field/array access and passing references between methods, so this note's fundamental explanations are still directly applicable to anyone learning or working in classic 4D code, even in a modern Project Mode database.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Pointers remain fully supported and largely unchanged in current 4D versions",
+      "4D's later object/collection types offer reference-like semantics as an alternative to pointers in many modern use cases"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 13094,
+  "title": "Tech Note: Sending Multi-Part emails Using 4D Internet Commands",
+  "technote_number": "01-12",
+  "year": 2001,
+  "published_date": "March 30, 2001",
+  "product": "4D Internet Commands",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=13094",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-12_Multiple-Part_E-mails.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Internet Commands (SMTP)",
+    "SMTP_QuickSend",
+    "Low-level SMTP commands (SMTP_New, SMTP_Host, SMTP_From, etc.)",
+    "MIME multi-part email construction"
+  ],
+  "historical_commentary": {
+    "text": "This note compares two email-sending approaches offered by the 4D Internet Commands plug-in \u2014 the simple, single-statement SMTP_QuickSend versus a lower-level sequence of SMTP_New/SMTP_Host/SMTP_From/etc. commands \u2014 recommending the latter whenever an email needs more than plain-text content, such as custom headers or mixed-content bodies. The 4D Internet Commands plug-in has since been folded into 4D's core language as built-in SMTP/email commands, so while the low-level-vs-quick-send tradeoff concept remains sound, the specific plug-in and command names described here are dated relative to 4D's current, integrated email-sending API.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Internet Commands' SMTP functionality has since been integrated into 4D's core classic language as built-in commands, rather than requiring a separate plug-in",
+      "4D's current SMTP/email commands offer more modern MIME/multi-part and attachment handling than the SMTP_QuickSend vs. low-level-command choice described in this 2001 note"
+    ]
+  }
+}

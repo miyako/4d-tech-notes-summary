@@ -1,0 +1,29 @@
+{
+  "asset_id": 11966,
+  "title": "Tech Note: DataGrid/EDM Overview - Beta 1",
+  "technote_number": null,
+  "year": 2000,
+  "published_date": "June 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11966",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "DataGrid (Enterprise Data Module)",
+    "4D Open",
+    "4D ODBC",
+    "4D for Oracle",
+    "4D Server"
+  ],
+  "historical_commentary": {
+    "text": "This note previews DataGrid, an ambitious ACI/4D project meant to let a 4D front end edit data uniformly across 4D Server, 4D Open, ODBC, and Oracle sources via an Enterprise Data Module abstraction layer. The product itself never became a mainstream part of the 4D lineup and the note explicitly states it is no longer available, making it a historical curiosity about a road not taken. The underlying idea of a unified data-access abstraction across heterogeneous back ends foreshadows concepts 4D later solved differently through ODBC/SQL connectivity and, much later, ORDA's data-model abstraction.",
+    "status": "historical interest only",
+    "related_updates": [
+      "The DataGrid/EDM product line was discontinued and superseded long ago",
+      "4D's own SQL engine (v11 SQL, ~2007) and later ORDA (v17+, 2018) provide modern, unified approaches to multi-source and remote data access that DataGrid attempted to solve in 2000"
+    ]
+  }
+}

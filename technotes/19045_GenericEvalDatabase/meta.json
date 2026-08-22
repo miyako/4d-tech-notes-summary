@@ -1,0 +1,27 @@
+{
+  "asset_id": 19045,
+  "title": "Tech Note: Under the Hood of the GenericEval Database",
+  "technote_number": "01-49",
+  "year": 2001,
+  "published_date": "October 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19045",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_46-49_(OCT)/01-49_GenericEval_Database.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Self-configuring database structure",
+    "Tagged data import",
+    "Dynamic field retyping"
+  ],
+  "historical_commentary": {
+    "text": "This note explains the GenericEval example database's approach to self-configuration: reading tagged input data, converting tags into field names, and retyping fields as needed at runtime. The general challenge of building flexible, generically-configurable data-handling methods is still a relevant design pattern in 4D today, though modern 4D applications would more likely represent such dynamic, tag-driven data using objects/collections and ORDA rather than manipulating classic-language field structures directly.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's object/collection data types (introduced circa 4D v14-16) now offer a more natural way to represent dynamically-tagged, schema-flexible data than classic field manipulation",
+      "ORDA's dynamic attributes provide an alternative to hand-built generic field-retyping logic"
+    ]
+  }
+}

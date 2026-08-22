@@ -1,0 +1,26 @@
+{
+  "asset_id": 32400,
+  "title": "Tech Note: Open Data File",
+  "technote_number": "04-17",
+  "year": 2004,
+  "published_date": "April 29, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=32400",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-17_Open_Data_File.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D data file / structure file architecture",
+    "Programmatic data file selection and relaunch"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates letting end users switch among multiple 4D data files sharing one structure file (.4DB) \u2014 a classic Design Mode-era pattern from before Project Mode existed. The core idea of supporting multiple data sets against a shared application definition is still conceptually relevant, but the mechanics described (structure file relaunch, manual data-file selection dialogs) are specific to the old binary structure-file architecture and predate today's project-based, more flexible data-connection approaches.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's Project Mode (introduced v17, 2018) decouples the app definition from a single binary structure file, changing how multi-data-file scenarios are typically implemented",
+      "Modern 4D applications more commonly use separate hosted/remote data sources or ORDA data models rather than manually relaunching with a different local data file"
+    ]
+  }
+}

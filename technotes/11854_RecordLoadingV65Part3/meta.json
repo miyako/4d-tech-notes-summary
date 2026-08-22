@@ -1,0 +1,31 @@
+{
+  "asset_id": 11854,
+  "title": "Tech Note: Record Loading in 4th Dimension v6.5, Part 3",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "October 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11854",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Record loading mechanics",
+    "BLOB data type",
+    "Memory management",
+    "Network optimization",
+    "4D Server WAN performance"
+  ],
+  "historical_commentary": {
+    "text": "Understanding record loading behavior remains conceptually relevant for 4D developers optimizing client-server performance, though the specific v6.5 mechanics have been significantly updated in subsequent versions. The note's emphasis on BLOB handling, memory limitations, and WAN network traffic optimization reflects concerns that persist today, especially with modern large-data scenarios. However, ORDA's lazy loading, entity selections, and the ability to select specific fields have fundamentally changed how developers approach data retrieval optimization in modern 4D.",
+    "status": "superseded",
+    "related_updates": [
+      "ORDA (introduced in 4D v17) provides entity selections with lazy loading capabilities",
+      "Modern 4D allows field-level data retrieval control through ORDA attribute selection",
+      "4D Server networking has been extensively rewritten since v6.5",
+      "BLOB handling and memory management have been modernized significantly"
+    ]
+  }
+}

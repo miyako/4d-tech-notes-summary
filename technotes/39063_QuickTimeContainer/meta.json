@@ -1,0 +1,28 @@
+{
+  "asset_id": 39063,
+  "title": "Tech Note: QuickTime Container: Plug-in to display and control movies and audio using QT",
+  "technote_number": "05-30",
+  "year": 2005,
+  "published_date": "September 2, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=39063",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_30-33_(SEP)/05-30_QuickTime_Container.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "QuickTime Container plug-in",
+    "QuickTime movie/audio playback",
+    "4D Plug-in API"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces a plug-in that embeds an Apple QuickTime-based movie/audio player and controller directly into a 4D window, a capability entirely dependent on the QuickTime framework Apple has since fully discontinued (including QuickTime for Windows, retired in 2016). The general idea of embedding native media playback in a 4D application remains valid, but the specific plug-in and its underlying QuickTime API are obsolete and could not be rebuilt as described today.",
+    "status": "obsolete",
+    "related_updates": [
+      "Apple discontinued QuickTime, including QuickTime for Windows, around 2016",
+      "4D's plug-in architecture itself was substantially modernized in 4D v11 SQL (Unicode, Universal Binary), making this earlier QuickTime-based plug-in binary incompatible regardless",
+      "Modern media playback in 4D applications is typically achieved via HTML5 audio/video in Web areas rather than native QuickTime-based plug-ins"
+    ]
+  }
+}

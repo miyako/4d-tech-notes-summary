@@ -1,0 +1,27 @@
+{
+  "asset_id": 12153,
+  "title": "Tech Note: Manipulating Selections with Sets",
+  "technote_number": "01-02",
+  "year": 2001,
+  "published_date": "January 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12153",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-02_Manipulate_Using_Sets.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Sets",
+    "Query performance optimization",
+    "Record selection management"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how Sets let developers store, relate, load, and clear record selections without repeatedly paying the cost of a full table query, framed around the observation that query time scales with table size and that users expect fast results. Sets remain a core, unchanged part of 4D's classic language today and this performance rationale is still valid, though modern applications increasingly also have ORDA entity selections available as an alternative, object-oriented way to manage and persist selection state.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Sets remain fully supported in current 4D versions with the same core behavior described here",
+      "ORDA entity selections (2018+) offer an additional, more modern mechanism for managing and persisting record selections in newer 4D applications"
+    ]
+  }
+}

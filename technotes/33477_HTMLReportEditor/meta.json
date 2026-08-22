@@ -1,0 +1,27 @@
+{
+  "asset_id": 33477,
+  "title": "Tech Note: Creating an HTML File with the Report Editor",
+  "technote_number": "04-31",
+  "year": 2004,
+  "published_date": "August 5, 2004",
+  "product": "4th Dimension",
+  "version": "2003.4",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33477",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-31_HTML_in_Report_Editor.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report editor",
+    "HTML export template",
+    "Quick Report Wizard"
+  ],
+  "historical_commentary": {
+    "status": "superseded",
+    "text": "This note documents customizing the HTML export template of 4D's early-2000s Quick Report editor, a reporting tool that has since been substantially reworked and, in later 4D versions, largely superseded by improvements to the Print form/List Box printing engine and other reporting approaches. The specific HTML template mechanics described are tied to that legacy Quick Report editor implementation and are unlikely to transfer directly to current 4D reporting tools, though the general need to generate customizable HTML report output from application data remains a common requirement met today through other means (custom HTML generation, PDF export, or third-party reporting tools).",
+    "related_updates": [
+      "4D's report/printing engine has evolved considerably since 2003/2004, including changes to how reports and forms are generated and exported",
+      "Modern web-based reporting from 4D more commonly uses REST/ORDA data plus custom HTML/JS rendering rather than the classic Quick Report HTML template"
+    ]
+  }
+}

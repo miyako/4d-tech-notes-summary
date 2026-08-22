@@ -1,0 +1,1 @@
+Tech Note: The SSL Keypair Certification Process (TN 01-14, 4D v6.7, March 2001) — an overview of SSL technology and the process of generating and certifying key pairs for securing a 4D (and WebSTAR) web site.

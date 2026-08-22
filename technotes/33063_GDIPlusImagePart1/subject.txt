@@ -1,0 +1,1 @@
+Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part I of II (TN 04-25, 4th Dimension v2003.3, June 2004) — the first half of a two-part guide introducing the GDIPlus_Image plug-in, created by 4D Germany, which uses Microsoft Windows' GDI+ to open, display, manipulate, rotate, and save images across many formats.

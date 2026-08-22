@@ -1,0 +1,29 @@
+{
+  "asset_id": 11859,
+  "title": "Tech Note: Downloading Email with 4D Internet Commands",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "October 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11859",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Internet Commands",
+    "POP3 protocol",
+    "Email client development",
+    "Database-email integration"
+  ],
+  "historical_commentary": {
+    "text": "Building custom email clients within 4D was a compelling use case in 1999, when free email clients were basic and integrating email with database workflows required custom development. The 4D Internet Commands plug-in provided POP3/SMTP support for this purpose. Modern 4D includes built-in IMAP, POP3, and SMTP commands (4D.POP3Transporter, 4D.IMAPTransporter, 4D.SMTPTransporter classes), making the plug-in approach obsolete. The use cases described—custom interfaces, sales automation integration, order processing, scheduled downloads—remain valid but are now served by built-in 4D capabilities or external APIs.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Internet Commands plug-in has been superseded by built-in transporter classes",
+      "Modern 4D provides 4D.POP3Transporter, 4D.IMAPTransporter, and 4D.SMTPTransporter",
+      "IMAP (not available via the old plug-in) is now the standard for email retrieval"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 12148,
+  "title": "Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5",
+  "technote_number": "01-08",
+  "year": 2001,
+  "published_date": "February 28, 2001",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12148",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-08_HTML_Select_Inputs.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "HTML SELECT MULTIPLE form input",
+    "4D Web Server (form field decoding)",
+    "Repeated-name parameter parsing"
+  ],
+  "historical_commentary": {
+    "text": "This note solves a specific HTML-forms decoding problem: an HTML SELECT input with the MULTIPLE keyword submits several selected values under the same field name, so a 4D web-serving method needs to be written smart enough to recognize and collect all of them rather than just the first. This entire class of manual HTML form-field parsing on 4D's classic web server has since been superseded by REST/ORDA-based web services, where structured JSON payloads (which natively support arrays of values) eliminate the need to manually decode repeated-name form fields.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's web architecture has moved from raw HTML form field decoding on the built-in web server to REST APIs (built on ORDA) that exchange structured JSON, which natively represents multi-value fields as arrays",
+      "Modern front-end frameworks handling multi-select inputs typically serialize the selection as a JSON array sent to a REST endpoint rather than relying on repeated same-named form fields parsed server-side"
+    ]
+  }
+}

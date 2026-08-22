@@ -1,0 +1,1 @@
+Tech Note: New 4D v6.5 Picture Library Animation Feature (4D v6.5, April 2000) — a step-by-step guide to using 4D v6.5's new Picture Library animation feature to add animated graphics to forms without a plug-in.

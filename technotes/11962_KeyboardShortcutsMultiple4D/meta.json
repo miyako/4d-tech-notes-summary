@@ -1,0 +1,27 @@
+{
+  "asset_id": 11962,
+  "title": "Tech Note: Keyboard Shortcuts for Multiple Instances of 4D",
+  "technote_number": "00-46",
+  "year": 2000,
+  "published_date": "October 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11962",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2000/windows/tn_2000_46-50_(oct)/00-46_keyboard_shortcuts.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D/4D Server launch shortcuts",
+    "Multiple simultaneous 4D instances",
+    "Open-database dialog bypass"
+  ],
+  "historical_commentary": {
+    "text": "This short note describes creating OS-level shortcuts (Mac/Windows) to launch 4D or 4D Server directly against a chosen structure/data file, bypassing the Open-database dialog and enabling multiple simultaneous 4D instances on one machine \u2014 a practical developer/QA convenience of the classic Design-Mode era. The technique is OS-shortcut plumbing rather than 4D language code, so its mechanics (creating Mac aliases or Windows shortcuts with command-line style targeting) are dated to classic Mac OS/Windows 9x/2000 conventions, though running multiple 4D instances against different databases for testing remains a relevant workflow need today, now typically achieved differently (command-line launch parameters, recent-databases lists, or separate user accounts).",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D includes command-line launch options and a persistent recent-databases list that reduce the need for hand-built OS shortcuts",
+      "Running multiple simultaneous 4D/4D Server instances for testing is still a common workflow, but is now usually handled via documented command-line arguments rather than custom shortcut tricks"
+    ]
+  }
+}

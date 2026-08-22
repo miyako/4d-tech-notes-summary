@@ -1,0 +1,27 @@
+{
+  "asset_id": 13195,
+  "title": "Tech Note: Exploring the Chord Tool Example Database",
+  "technote_number": "01-20",
+  "year": 2001,
+  "published_date": "April 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=13195",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_16-20_(APR)/01-20_Exploring_Chord_Tool.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Bitwise operators",
+    "Long integer bit-flag encoding",
+    "Conditional object visibility (form objects)"
+  ],
+  "historical_commentary": {
+    "text": "This note explores a bit-flag-driven form-object visibility technique: a long integer's bits are used as an offset/definition pair (Key and Notes) so that form objects are conditionally shown or hidden depending on which bits are set, with an accompanying history digression on the origins of Arabic numerals and the words algebra/algorithm. Bitwise operators and long-integer bit manipulation remain fully supported in 4D's classic language today, so the core technique is still technically valid, though for most current UI conditional-visibility needs, developers are more likely to use boolean/object variables or ORDA-driven state rather than manually packed bit flags.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's bitwise operators (Bitwise AND/OR/XOR etc.) remain unchanged in the current classic language",
+      "Modern 4D form design more commonly uses discrete boolean variables, objects, or list box conditional formatting rather than packed-bit-flag visibility schemes for readability"
+    ]
+  }
+}

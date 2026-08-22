@@ -1,0 +1,28 @@
+{
+  "asset_id": 48275,
+  "title": "Tech Note: An Introduction to SQL",
+  "technote_number": "07-45",
+  "year": 2007,
+  "published_date": "December 5, 2007",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Chris Visaya, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=48275",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_42-45_(NOV)/07-45_SQL_Intro.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL native SQL engine",
+    "QUERY BY SQL command",
+    "Begin SQL / End SQL blocks",
+    "EXECUTE IMMEDIATE"
+  ],
+  "historical_commentary": {
+    "text": "This note is a beginner's introduction to 4D's newly introduced native SQL engine in 4D v11, a landmark 2007 addition that let developers embed SQL directly in 4D methods for the first time (previously 4D only offered ODBC access to external SQL databases). The core mechanisms it teaches — QUERY BY SQL, Begin SQL/End SQL blocks, and EXECUTE IMMEDIATE for dynamic SQL — are still part of 4D's language today, making the fundamentals still broadly applicable, though 4D's SQL engine and surrounding language (including ORDA-based data access) have evolved substantially since this introductory-level note was written.", 
+    "status": "still relevant",
+    "related_updates": [
+      "4D's native SQL engine, introduced in 4D v11 (2007), has continued to be developed and extended in subsequent 4D versions",
+      "Modern 4D also offers ORDA as a higher-level, object-based alternative to writing raw SQL for many data-access tasks"
+    ]
+  }
+}

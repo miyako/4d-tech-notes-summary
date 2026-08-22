@@ -1,0 +1,26 @@
+{
+  "asset_id": 31177,
+  "title": "Tech Note: Connecting 4D Databases through SOAP",
+  "technote_number": "04-02",
+  "year": 2004,
+  "published_date": "January 31, 2004",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31177",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-02_Connecting_4D_w_SOAP.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Services (SOAP)",
+    "4D-to-4D database connectivity over SOAP"
+  ],
+  "historical_commentary": {
+    "text": "This is one of the earliest Tech Notes introducing 4th Dimension 2003's brand-new native SOAP support, framing SOAP-based Web Services as a way for one 4D database to interact with another. As a foundational, introductory-level note for a feature that was new at the time, it is now primarily of historical interest: SOAP-based inter-database Web Services have been superseded by REST/JSON-based approaches and, for many multi-database scenarios, by later 4D features like remote datastores/ORDA, though the fundamental idea of one 4D database calling into another over a web protocol remains conceptually current.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's web services capabilities have expanded well beyond SOAP to REST/JSON, now the standard approach for inter-application and inter-database connectivity",
+      "Later 4D features (remote datastores, ORDA client/server data access introduced from v16, 2018) offer more modern ways for 4D databases to connect to each other than SOAP-based Web Services"
+    ]
+  }
+}

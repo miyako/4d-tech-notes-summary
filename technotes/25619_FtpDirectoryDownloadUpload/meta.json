@@ -1,0 +1,27 @@
+{
+  "asset_id": 25619,
+  "title": "Tech Note: FTP directory Download and Upload",
+  "technote_number": "03-2",
+  "year": 2003,
+  "published_date": "January 31, 2003",
+  "product": "4D Internet Commands",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": "Jamras Komoncharoensiri, Technical Support Engineer",
+  "page_url": "https://kb.4d.com/assetid=25619",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_01-05_(JAN)/03-02_ftp_download_upload.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Internet Commands",
+    "FTP",
+    "Recursive directory traversal"
+  ],
+  "historical_commentary": {
+    "text": "The 4D Internet Commands plug-in and its FTP command set have long since been folded into 4D's core language as built-in FTP/SFTP commands with richer directory-handling support, so the specific workaround engineered in this note is no longer necessary for FTP directory transfers in current 4D versions. The general recursive-enumeration technique for mirroring a remote tree, however, remains a conceptually valid pattern for any tree-copy problem.",
+    "status": "superseded",
+    "related_updates": [
+      "4D later incorporated native FTP/network commands directly into the core language, superseding the separate 4D Internet Commands plug-in",
+      "Modern 4D FTP commands provide more complete directory-level operations than were available in 2003"
+    ]
+  }
+}

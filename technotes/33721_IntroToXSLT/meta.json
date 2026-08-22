@@ -1,0 +1,27 @@
+{
+  "asset_id": 33721,
+  "title": "Tech Note: Introduction to XSLT",
+  "technote_number": "04-34",
+  "year": 2004,
+  "published_date": "August 26, 2004",
+  "product": "4th Dimension",
+  "version": "2003.4",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33721",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-34_Intro_to_XSLT.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "XSLT",
+    "XML transformation commands",
+    "4D Export dialogs XML/XSLT integration"
+  ],
+  "historical_commentary": {
+    "status": "superseded",
+    "text": "This note captures 4D's mid-2000s investment in native XML/XSLT tooling at a time when XML was the dominant structured-data exchange format; 4D's XML and XSLT-related commands introduced in this era are still present in the current 4D language and technically functional. However, the broader industry has since largely superseded XML/XSLT with JSON for data interchange and web APIs, and 4D itself added native JSON parsing and manipulation commands (mid-2010s onward) that most modern 4D developers now reach for instead of XSLT transformations for everyday data conversion tasks.",
+    "related_updates": [
+      "4D added native JSON support to its language, which now handles most lightweight data-interchange needs XSLT once served",
+      "Industry-wide, JSON has replaced XML/XSLT as the default format for web APIs and data exchange"
+    ]
+  }
+}

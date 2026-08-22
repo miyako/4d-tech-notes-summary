@@ -1,0 +1,1 @@
+Tech Note: XML based Export/Import for Archiving Data (TN 01-43, 4D v6.7, September 2001) — a generic technique for exporting and importing 4D data in XML format for archiving, defragmentation, and schema migration.

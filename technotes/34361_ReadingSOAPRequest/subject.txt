@@ -1,0 +1,1 @@
+Tech Note: Reading a Full SOAP Request with 4th Dimension 2004 (TN 04-41, 4th Dimension v2004, October 2004) — explains how and why to read raw SOAP requests directly in 4D, bypassing the automatic XML-to-native binding, for debugging, logging, and edge cases.

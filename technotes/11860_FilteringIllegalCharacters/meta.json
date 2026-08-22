@@ -1,0 +1,29 @@
+{
+  "asset_id": 11860,
+  "title": "Tech Note: Filtering Out Illegal Characters",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "November 1, 1999",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11860",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Data entry filters",
+    "Character validation",
+    "Index repair",
+    "Alpha/Text field sanitization"
+  ],
+  "historical_commentary": {
+    "text": "Character validation and data sanitization remain important concerns in modern development, though the specific issues described here (control characters and high ASCII causing index corruption) reflect the pre-Unicode era of 4D. Modern 4D uses Unicode throughout, which eliminates many of the specific character encoding problems from this era. However, the general principle of filtering invalid input and maintaining data integrity is timeless. Modern 4D provides more robust built-in validation tools and Unicode-aware string handling.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D uses Unicode (UTF-8/UTF-16) throughout, eliminating many classic character encoding issues",
+      "4D's indexing engine has been rewritten multiple times since v6 with improved robustness",
+      "Data entry filters and regular expressions in modern 4D provide more sophisticated validation"
+    ]
+  }
+}

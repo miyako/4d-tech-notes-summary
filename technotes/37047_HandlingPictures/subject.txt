@@ -1,0 +1,1 @@
+Tech Note: Handling Pictures (TN 05-16, 4D v2004, April 2005) — an explanation of how 4D reads and converts between native picture formats via QuickTime, and how to manipulate a picture's raw bytes using PICTURE TO BLOB.

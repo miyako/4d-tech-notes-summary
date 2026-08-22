@@ -1,0 +1,1 @@
+Tech Note: Disabling Tab Controls (4D v6.0, September 1997) — explains how to enable and disable individual tabs in 4D V6's new tab control active object, using the Selected list item command and SET LIST ITEM PROPERTIES to toggle a tab's "Enterable" list item property.

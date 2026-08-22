@@ -1,0 +1,28 @@
+{
+  "asset_id": 19056,
+  "title": "Tech Note: Inside the Report Demo Database",
+  "technote_number": "01-57",
+  "year": 2001,
+  "published_date": "December 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19056",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_54-57_(DEC)/01-57_Report_Demo.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Break-level report processing",
+    "PRINT FORM",
+    "Example database (Report Demo by Tad Michael Wheeler)",
+    "Report accumulation techniques"
+  ],
+  "historical_commentary": {
+    "text": "This note walks through a classic break-level reporting technique (accumulation across a hierarchical 3-table structure) built in 4D's binary Design Mode. The fundamental break-level/PRINT FORM approach to generating reports from a sorted selection is still part of 4D's classic language and remains conceptually valid today, though most modern report UIs would instead lean on List Box-based reporting or 4D Write Pro document generation rather than hand-built break-level methods.",
+    "status": "still_relevant",
+    "related_updates": [
+      "List Box and 4D Write Pro reporting have become the more common modern approach to formatted reports",
+      "Project Mode text-based structures replaced binary .4DB/.4DC Design Mode files for new development"
+    ]
+  }
+}

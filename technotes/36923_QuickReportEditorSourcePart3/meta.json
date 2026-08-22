@@ -1,0 +1,27 @@
+{
+  "asset_id": 36923,
+  "title": "Tech Note: 4D Quick Report Editor Source Code - Part III",
+  "technote_number": "05-15",
+  "year": 2005,
+  "published_date": "April 15, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36923",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-15_QR_Editor_Source_III.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Quick Report built-in reporting tool",
+    "Quick Report Editor Wizard",
+    "Classic-language source code walkthrough"
+  ],
+  "historical_commentary": {
+    "text": "This is the third and final installment of a series walking through the source code behind 4D's built-in Quick Report Editor wizard, assuming readers are already familiar with Parts I and II. Quick Report is a long-standing classic-language reporting feature; while it (or a similarly named successor) persists in some form in current 4D, more demanding reporting needs today are typically met with 4D Write Pro or List Box-based reports, making a deep source-code walkthrough of the original wizard's classic implementation primarily of value to developers maintaining legacy Quick-Report-based code.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Write Pro (introduced 2016) provides substantially more powerful document/report generation than the classic Quick Report tool this series dissects",
+      "List Box-based custom reporting (leveraging the List Box object's growing capabilities) has become a common modern alternative to the built-in Quick Report wizard for many reporting needs"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 38192,
+  "title": "Tech Note: Using ListBoxes as Subforms",
+  "technote_number": "05-26",
+  "year": 2005,
+  "published_date": "July 25, 2005",
+  "product": "4D",
+  "version": "2004.7r3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=38192",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_25-27_(JUL)/05-26_ListBoxes_as_Subforms.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D List Box object",
+    "Subforms / included forms",
+    "Output/list forms"
+  ],
+  "historical_commentary": {
+    "text": "This note compares 4D 2004's then-new List Box object (a grouped, scrollable array with rich display capabilities) against the classic subform mechanism, and shows how a List Box can substitute for a subform in some cases. List Boxes remain a core, actively developed 4D form object today (now with object/collection data sources and far richer column types), making this note's comparison still conceptually relevant even though the List Box feature set has grown substantially since 2005.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's List Box object has been substantially enhanced since 2005, including object/entity-selection/collection-backed data sources (rather than only arrays), which this note predates",
+      "Modern 4D UI guidance generally favors List Box over classic subforms/output forms for most tabular data display and editing needs"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 11858,
+  "title": "Tech Note: Adding a Styles Palette to 4D Write",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "October 1, 1999",
+  "product": "4D Write",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11858",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Write",
+    "Styles palette",
+    "Dynamic help tips",
+    "Toolbar/palette UI patterns"
+  ],
+  "historical_commentary": {
+    "text": "4D Write (the classic plug-in) has been superseded by 4D Write Pro, which provides a modern word processing component with built-in style management, CSS-like styling, and a comprehensive toolbar. The manual palette-building approach described here—creating buttons for each style and managing help tips dynamically—is no longer necessary. 4D Write Pro's built-in widget bar and programmatic style commands provide far more sophisticated style management out of the box.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write (classic) has been superseded by 4D Write Pro",
+      "4D Write Pro includes built-in style sheets, widget bars, and comprehensive formatting tools",
+      "Dynamic help tips and custom palettes are no longer needed for style management"
+    ]
+  }
+}

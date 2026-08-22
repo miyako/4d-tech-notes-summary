@@ -1,0 +1,1 @@
+Tech Note: 4D Connects with Wireless Markup Language (4D v6.5, January 2000) — an overview of WAP and WML and a demonstration of how 4D can generate WML content to serve mobile phones and other wireless terminals of the era.

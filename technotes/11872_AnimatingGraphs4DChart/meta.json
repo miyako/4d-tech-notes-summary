@@ -1,0 +1,29 @@
+{
+  "asset_id": 11872,
+  "title": "Tech Note: Animating Graphs with 4D Chart",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "June 1, 1998",
+  "product": "4D Chart",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11872",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart",
+    "3D animated graphs",
+    "About Box design",
+    "Presentation graphics"
+  ],
+  "historical_commentary": {
+    "text": "4D Chart has been discontinued, making this note's specific techniques obsolete. The concept of animated data visualization, however, has only grown in importance—modern web technologies make animated charts trivial compared to the creative effort required in 1998 using 4D Chart alone. The note's observation that built-in graphing was unusual in database products at the time is a reminder of how integrated development environments have evolved; today, data visualization is expected in virtually every platform.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart has been discontinued and removed from the 4D product line",
+      "Modern animated charting is done via JavaScript libraries (D3.js, Chart.js, Lottie) in Web Areas",
+      "Built-in graphing capabilities are now standard in most development platforms"
+    ]
+  }
+}

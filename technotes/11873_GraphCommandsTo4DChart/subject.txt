@@ -1,0 +1,1 @@
+Tech Note: Converting the Graph Commands to 4D Chart (4D Chart v6.0.x, September 1998) — guides developers in migrating from legacy GRAPH commands to 4D Chart for array-based graphing.

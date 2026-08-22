@@ -1,0 +1,29 @@
+{
+  "asset_id": 31928,
+  "title": "Tech Note: Returning Data Through SOAP",
+  "technote_number": "04-12",
+  "year": 2004,
+  "published_date": "March 25, 2004",
+  "product": "4D",
+  "version": "2003.3",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=31928",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-12_ReturningDataThruSOAP.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Services (SOAP)",
+    "SOAP DECLARATION command",
+    "Get Soap info / native 4D Web server",
+    "XML/SOAP data type mapping"
+  ],
+  "historical_commentary": {
+    "text": "This note is a thorough, technically detailed guide to 4th Dimension 2003's early SOAP Web Services return-value model — covering the $0 result parameter, the SOAP DECLARATION command for binding process variables/arrays to named XML output elements, supported data type conversions, and practical deployment notes like port numbers and running client/server in separate 4D instances. It is one of the more substantive Tech Notes of the era and remains a valuable historical reference for understanding how 4D bridged its procedural language to XML/SOAP, but the SOAP DECLARATION-based workflow itself has been superseded by 4D's subsequent expansion into REST/JSON web services, which are now the dominant integration model.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's web services capabilities expanded significantly beyond SOAP to include REST and JSON-based services with more modern language commands",
+      "SOAP DECLARATION and the SOAP-specific request/response model described here are legacy mechanisms rarely used in new 4D development today",
+      "4D's native SQL engine (v11 SQL, ~2007) and later ORDA (v16, 2018) changed how data is typically modeled and exposed, further reducing reliance on this era's SOAP-centric data-return patterns"
+    ]
+  }
+}

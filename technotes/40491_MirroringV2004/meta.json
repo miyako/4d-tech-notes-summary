@@ -1,0 +1,29 @@
+{
+  "asset_id": 40491,
+  "title": "Tech Note: Mirroring in version 2004",
+  "technote_number": "05-38",
+  "year": 2005,
+  "published_date": "November 20, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Kent Wilbur, Manager Information Systems, 4D, Inc.",
+  "page_url": "https://kb.4d.com/assetid=40491",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_37-39_(NOV)/Mirroring_2004.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004.3 mirroring commands (New log file, INTEGRATE LOG FILE)",
+    "Log file / segmented log file transfer",
+    "4D SOAP (custom client-server log transfer)",
+    "XML-based preference storage"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces two new 4D 2004.3 language commands for building a database mirroring system — periodically closing/segmenting the log file and integrating transferred segments into a standby mirror server — and demonstrates transferring log segments using 4D SOAP calls along with XML-based preference storage. The fundamental log-file-based mirroring concept remains part of 4D Server's architecture, but this note's DIY approach (custom SOAP transfer, manual segment management) predates any later built-in, more automated high-availability/mirroring features 4D introduced, and 4D SOAP itself reflects the SOAP-era web services approach that has since given way to REST-based integration, making the specific implementation techniques here largely superseded even though database mirroring as a concept endures.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's database engine and server products have continued to evolve their backup/mirroring/high-availability capabilities well beyond this manual 2004.3-era approach",
+      "4D SOAP-based integration has been superseded by REST/HTTP-based approaches in modern 4D web services",
+      "Preference/configuration storage in 4D has largely shifted toward JSON rather than hand-built XML"
+    ]
+  }
+}

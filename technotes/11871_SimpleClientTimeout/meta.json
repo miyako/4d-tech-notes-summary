@@ -1,0 +1,30 @@
+{
+  "asset_id": 11871,
+  "title": "Tech Note: A simple client timeout technique",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "February 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11871",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "ON EVENT CALL",
+    "Client timeout",
+    "4D Server/Client",
+    "Process management",
+    "User activity detection"
+  ],
+  "historical_commentary": {
+    "text": "Automatic client timeout for inactive sessions remains a relevant concept in 4D Server environments for license management and security. The ON EVENT CALL approach described here was the standard technique in the v6 era. Modern 4D Server provides built-in session timeout mechanisms and more sophisticated process management, reducing the need for custom timeout code, but the underlying pattern of detecting user inactivity and closing idle clients is still applicable.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D Server includes built-in client session management and timeout capabilities",
+      "4D v18+ introduced more granular session and process management features",
+      "ON EVENT CALL is still available but less commonly used for this purpose in modern architectures"
+    ]
+  }
+}

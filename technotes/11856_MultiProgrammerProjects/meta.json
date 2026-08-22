@@ -1,0 +1,32 @@
+{
+  "asset_id": 11856,
+  "title": "Tech Note: Multiple Programmer Projects Using 4D",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "November 1, 1999",
+  "product": "4D Server",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11856",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server multi-developer",
+    "Version control practices",
+    "Naming conventions",
+    "Object locking",
+    "Team development",
+    "Self-documenting code"
+  ],
+  "historical_commentary": {
+    "text": "Multi-developer collaboration was a significant challenge in 4D v6.5's binary structure file era, where object locking in Design Mode was the only concurrency mechanism—no external version control integration existed. This note's topics (naming conventions, communication, avoiding lock conflicts, self-documentation) are timeless team development concerns. Modern 4D's Project Mode (v17+) stores code as text files, enabling standard Git-based version control, branching, merging, and CI/CD pipelines. The transformation from binary-locked Design Mode to text-based Project Mode is one of the most significant architectural changes in 4D's history.",
+    "status": "superseded",
+    "related_updates": [
+      "Project Mode (4D v17+) stores all code as text files, enabling Git-based version control",
+      "Binary .4DB/.4DC structure files are being phased out in favor of Project Mode",
+      "Modern 4D supports standard version control workflows (Git, branching, pull requests)",
+      "4D's object locking in Design Mode is no longer the primary concurrency mechanism for development"
+    ]
+  }
+}

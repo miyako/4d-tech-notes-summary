@@ -1,0 +1,1 @@
+Tech Note: User Preferences (TN 05-28, 4D v2004, August 2005) — the second in a series extending a customizable output form example by persisting the user's column and preference choices to a database table.

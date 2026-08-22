@@ -1,0 +1,27 @@
+{
+  "asset_id": 16388,
+  "title": "Tech Note: PostImage",
+  "technote_number": "01-32",
+  "year": 2001,
+  "published_date": "July 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16388",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-32_PostImage.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Web picture upload",
+    "4D built-in Web Server",
+    "Browser-to-database file transfer"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates uploading pictures from a web browser and storing them directly in a 4D database, described as an approachable technique even for beginners. The general goal \u2014 accepting image uploads from a web client into 4D \u2014 remains a common requirement, but the specific 2001-era web-server upload mechanism has been superseded by modern 4D REST/ORDA endpoints and richer built-in support for handling multipart form uploads and BLOB/picture fields.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's REST/ORDA APIs now provide more modern mechanisms for handling file/image uploads from web and mobile clients",
+      "4D's built-in Web Server has gained more native multipart/form-upload handling since 2001"
+    ]
+  }
+}

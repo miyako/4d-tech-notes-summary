@@ -1,0 +1,1 @@
+Tech Note: Filtering Methods and Forms in the 4D V6 Label Wizard (4D v6.0.x, December 1997) — explains how to filter the drop-down lists of database forms and project methods shown to end users in the V6 Label Wizard, to prevent accidental data corruption or unwanted access; full text unavailable, summary based on the teaser only.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 40001,
+  "title": "Tech Note: 4D Internet Commands - Net Commands",
+  "technote_number": "05-35",
+  "year": 2005,
+  "published_date": "October 25, 2005",
+  "product": "4D Internet Commands",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=40001",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_34-36_(OCT)/05-35_4D_Internet_Commands.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Internet Commands plug-in",
+    "Ping utility",
+    "DNS / reverse DNS lookup",
+    "UNIX finger command"
+  ],
+  "historical_commentary": {
+    "text": "Based on the available teaser, this note expands an earlier ping utility (TN 00-43) with DNS/reverse-DNS lookup and finger-command support, built on the 4D Internet Commands plug-in, aimed at helping developers diagnose network issues while deploying 4D applications. The 4D Internet Commands plug-in's low-level networking utilities have since been superseded by native language commands and modern diagnostic tooling, and the UNIX finger protocol itself has been almost universally disabled/deprecated across the internet for decades on security grounds, making this specific utility historical rather than practically useful today.",
+    "status": "obsolete",
+    "related_updates": [
+      "The finger protocol has been widely deprecated/disabled across networks for security reasons since the late 1990s/2000s",
+      "4D's networking/diagnostic capabilities have since been incorporated more directly into the core language and modern OS-level tools, reducing reliance on the original 4D Internet Commands plug-in utilities"
+    ]
+  }
+}

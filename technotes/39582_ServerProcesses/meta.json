@@ -1,0 +1,26 @@
+{
+  "asset_id": 39582,
+  "title": "Tech Note: Server Processes",
+  "technote_number": "05-32",
+  "year": 2005,
+  "published_date": "October 3, 2005",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=39582",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_30-33_(SEP)/05-32_Server_Process.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Client/Server architecture",
+    "Server-side process management",
+    "Cross-mode compatibility (4D Client, 4D Server, single-user 4D)"
+  ],
+  "historical_commentary": {
+    "text": "Based on the available teaser, this note (third in an ongoing example-database series) demonstrates how to set up, manage, and run processes that are initiated/managed from a 4D Client but actually execute on the 4D Server, with conditional logic allowing the same code to run under single-user 4D or 4D Client as well. This general client/server process delegation pattern remains conceptually valid, but 4D has since introduced dedicated worker-process language commands (for managing background/server-side execution more directly and robustly) that address much of the same need with less manual plumbing than the technique this note likely demonstrates.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D has since added dedicated worker-process commands (e.g., CALL WORKER and related process-management commands introduced in later versions) that provide a more direct, built-in way to run and manage background/server-side processes than manual client/server process orchestration"
+    ]
+  }
+}

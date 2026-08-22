@@ -1,0 +1,1 @@
+Tech Note: Converting to Oracle as a Back End (4D Oracle v6.5, January 2000) — a discussion of the problems and strategies involved in migrating a 4D application's data storage to an Oracle back end while keeping 4D as the user-facing front end.

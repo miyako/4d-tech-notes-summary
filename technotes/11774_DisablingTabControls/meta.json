@@ -1,0 +1,28 @@
+{
+  "asset_id": 11774,
+  "title": "Tech Note: Disabling Tab Controls",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "September 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11774",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Tab control (active object)",
+    "Selected list item command",
+    "SET LIST ITEM PROPERTIES command",
+    "List item 'Enterable' property"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to enable/disable individual tabs in 4D V6's then-new tab control, a still-conceptually-relevant UI pattern (navigable multi-page forms), by manipulating list item properties; the specific commands referenced (Selected list item, SET LIST ITEM PROPERTIES) are classic 4D language commands that remain present in the modern 4D language, though today's UI/form design work would more likely leverage newer form object and page-management capabilities introduced since V6.",
+    "status": "still relevant",
+    "related_updates": [
+      "The classic 4D commands referenced (Selected list item, SET LIST ITEM PROPERTIES) remain part of the current 4D language, so the core technique is largely still applicable",
+      "4D has since introduced richer form/page management features and object properties (including modern list boxes and tab/page controls with more built-in options) that may reduce the need for this manual list-item-property workaround"
+    ]
+  }
+}

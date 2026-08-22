@@ -1,0 +1,29 @@
+{
+  "asset_id": 25620,
+  "title": "Tech Note: Building a Web Services Client using 4D: The Fed Ex\u00ae SOAP serve",
+  "technote_number": "03-3",
+  "year": 2003,
+  "published_date": "January 31, 2003",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Frank Chang, 4D Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=25620",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_01-05_(JAN)/03-03_building_ws_client.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SOAP",
+    "WSDL",
+    "Web Services Wizard",
+    "4D 2003 Web Services (client)"
+  ],
+  "historical_commentary": {
+    "text": "This note captures a genuinely significant moment for 4D \u2014 the introduction of native SOAP web services client support \u2014 but the specific approach (WSDL/SOAP, the Web Services Wizard, and the public xmethods.net FedEx demo endpoint) is now obsolete: xmethods.net's public demo services have long been decommissioned, and REST/JSON with 4D's later HTTP and JSON-parsing commands (and ORDA for data access) have largely superseded SOAP-based integration in current 4D applications.",
+    "status": "obsolete",
+    "related_updates": [
+      "The xmethods.net public SOAP demo services used in this example are long defunct",
+      "4D added native JSON parsing and modern HTTP client commands, making REST/JSON the now-preferred integration style over SOAP/WSDL for new development",
+      "SOAP/WSDL support remains usable in 4D for legacy integrations, but is no longer the primary web-services approach promoted by 4D"
+    ]
+  }
+}

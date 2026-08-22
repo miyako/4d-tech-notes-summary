@@ -1,0 +1,1 @@
+Tech Note: Keeping the Memory Clean - Part 1 (4D v6.0, September 1997) — the first part of a two-part guide explaining how 4D uses memory and offering tips for optimizing memory usage in databases and forms, to help maintain application performance and stability; full text unavailable, summary based on the teaser only.

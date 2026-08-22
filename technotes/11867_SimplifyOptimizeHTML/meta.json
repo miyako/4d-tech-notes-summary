@@ -1,0 +1,30 @@
+{
+  "asset_id": 11867,
+  "title": "Tech Note: Simplifying and Optimizing HTML Construction",
+  "technote_number": "96-13",
+  "year": 1996,
+  "published_date": "March 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=11867",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_11-15_(MAR)/96-13_Simplifying_HTML.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "HTML generation from 4D",
+    "Replace string command",
+    "4D as CGI processor / Web server",
+    "Parameter indirection (${n})",
+    "[HTMLBlocks] table-driven templating"
+  ],
+  "historical_commentary": {
+    "text": "Written in March 1996 when using 4D to generate HTML (as a CGI processor or emerging built-in web server) was novel, this note's core idea — storing HTML templates as data records with placeholder tokens and using fast string replacement instead of concatenating markup in code — is a timeless templating pattern still recognizable in modern templating engines. However, the specific implementation (Replace string, parameter indirection with ${n}, manually cached arrays) is tied to the pre-Method/pre-ORDA 4D procedural language and predates 4D's built-in web server, WebAdmin, and any modern templating or REST-based approach.",
+    "status": "superseded",
+    "related_updates": [
+      "4D gained a genuine built-in Web Server and 4D Internet Commands plugin in the years after this note (~1997-1998), replacing ad hoc CGI-style HTML generation",
+      "Modern 4D web development typically uses ORDA/REST APIs with front-end JS frameworks rendering HTML/JSON client-side, rather than server-side string templating in 4D code",
+      "Procedures were renamed Methods starting with 4D v6 (1997), and parameter/array handling has evolved substantially with object notation and collections"
+    ]
+  }
+}

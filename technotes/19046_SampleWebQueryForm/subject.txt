@@ -1,0 +1,1 @@
+Tech Note: Sample Web Query Form (TN 01-48, 4D v6.7, October 2001) — an example of building simple and advanced HTML web query forms against a 4D database.

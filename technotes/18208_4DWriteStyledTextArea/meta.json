@@ -1,0 +1,26 @@
+{
+  "asset_id": 18208,
+  "title": "Tech Note: A simple styled text area using 4D Write 6.7",
+  "technote_number": "01-45",
+  "year": 2001,
+  "published_date": "September 30, 2001",
+  "product": "4D Write",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=18208",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2001/windows/tn_2001_41-45_(sep)/01-45_stylized_text_areas.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Write (classic plug-in)",
+    "Styled text form areas"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to embed a classic 4D Write area on a form so it visually behaves like a plain Alpha/Text field while still accepting rich styled text. Classic 4D Write (the plug-in-based rich text editor of this era) has since been replaced by 4D Write Pro, an entirely HTML/CSS-based document engine introduced around 4D v14, so the specific plug-in and API this note relies on are obsolete, even though the underlying goal \u2014 an inline styled-text input area \u2014 is still achievable with modern tooling.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic 4D Write was superseded by 4D Write Pro (introduced circa 4D v14, ~2012), a different HTML-based rich text engine",
+      "4D Write Pro areas are the modern way to embed styled/rich text editing directly on a 4D form"
+    ]
+  }
+}

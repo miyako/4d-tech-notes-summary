@@ -1,0 +1,1 @@
+Tech Note: Elements of Successful Arrays (4D v6.5, February 2000) — a primer on 4D arrays as in-memory, single-typed lists, covering their use both as programming constructs and as data sources for form objects like drop-down menus.

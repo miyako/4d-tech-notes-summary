@@ -1,0 +1,26 @@
+{
+  "asset_id": 39384,
+  "title": "Tech Note: HTTP Download with a Single Method",
+  "technote_number": "05-31",
+  "year": 2005,
+  "published_date": "September 23, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=39384",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_30-33_(SEP)/05-31_HTTP_Download.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "HTTP GET/POST download via a single 4D method",
+    "4D Internet Commands (implied, per predecessor TNs 02-5, 05-18)",
+    "HTML page / file / picture download"
+  ],
+  "historical_commentary": {
+    "text": "Based on the available teaser, this note offers a simplified, single-method approach to performing HTTP downloads (HTML pages, POST data, pictures, or whole files) in 4D 2004, explicitly positioned as an easier alternative to earlier, more complex HTTP client tech notes (TN 02-5 and TN 05-18/cURL). This kind of lightweight, copy-paste HTTP helper method was a reasonable solution before 4D had native HTTP client support, but 4D has since added built-in HTTP Client language commands and classes that handle GET/POST/file downloads directly without needing a hand-written method or the 4D Internet Commands plug-in, making the specific technique superseded even though the underlying need (simple HTTP downloads from 4D code) remains common.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since introduced native HTTP Client commands/classes in the core language, removing the need for a custom single-method HTTP download helper or the 4D Internet Commands plug-in for basic HTTP downloads"
+    ]
+  }
+}

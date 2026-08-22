@@ -1,0 +1,26 @@
+{
+  "asset_id": 11769,
+  "title": "Tech Note: Using the 4D Method Flowchart Editor",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "August 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11769",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Flowchart Editor",
+    "4D Methods (formerly Procedures)"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces 4th Dimension's Flowchart Editor, a lesser-used alternative way to write methods in a visual flowchart style, and suggests situations where it may be preferable to standard text-based method writing; the Flowchart Editor is a niche, largely forgotten classic-4D tool, and its relevance today is limited given the dominance of standard text-based method editing (and, more broadly, the shift to Project Mode and modern code editors) in current 4D development.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's Flowchart Editor was a niche classic-language tool for writing methods visually; it saw little adoption relative to standard text-based method writing and is largely forgotten in modern 4D development",
+      "Procedures were renamed Methods starting with 4D V6 (1997), the version this note targets, and modern 4D development now centers on text-based Project Mode code editing (introduced v17, 2018) rather than flowchart-style method authoring"
+    ]
+  }
+}

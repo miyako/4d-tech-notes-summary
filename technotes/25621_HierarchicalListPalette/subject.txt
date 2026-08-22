@@ -1,0 +1,1 @@
+Tech Note: Hierarchical List Palette (TN 03-4, 4D v6.8.3, January 2003) — a deep-dive into procedurally inserting, appending, replacing, and deleting items (including child items) in a 4D hierarchical list.

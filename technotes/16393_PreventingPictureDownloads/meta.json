@@ -1,0 +1,27 @@
+{
+  "asset_id": 16393,
+  "title": "Tech Note: Preventing Web Users from Downloading Pictures",
+  "technote_number": "01-40",
+  "year": 2001,
+  "published_date": "August 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16393",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-40_Preventing_Picture_DL.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D built-in Web Server",
+    "JavaScript/4D integration",
+    "Web area image protection"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates a JavaScript trick combined with 4D's web server to make it harder for a casual user to download an image via the browser's built-in download command, while acknowledging determined users could still save it another way. Browser technology, image-protection expectations, and 4D's own web-serving mechanisms have all changed enormously since 2001, and the specific JavaScript-era anti-download tricks shown no longer meaningfully deter modern browsers, so this note is now of historical interest only regarding actual image protection.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern image protection (if attempted at all) relies on very different techniques (watermarking, CSS overlays, server-side access tokens) than 2001-era JavaScript tricks",
+      "Browsers have long since made client-side download-prevention tricks largely ineffective"
+    ]
+  }
+}

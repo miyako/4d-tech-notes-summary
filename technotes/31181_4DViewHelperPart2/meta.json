@@ -1,0 +1,27 @@
+{
+  "asset_id": 31181,
+  "title": "Tech Note: 4D View Helper (Source Code, Part II)",
+  "technote_number": "04-04",
+  "year": 2004,
+  "published_date": "January 31, 2004",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31181",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-04_4D_View_Helper.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View Helper (component/routine library)",
+    "4D View plug-in area",
+    "Array/record display in 4D View"
+  ],
+  "historical_commentary": {
+    "text": "This is the second-part reference documentation for '4D View Helper,' a routine library built to simplify displaying arrays or records inside a 4D View spreadsheet-style plug-in area. Since 4D View itself was superseded by 4D View Pro (introduced 2018), this helper library and its routines are tied to a discontinued companion product, making the note obsolete as a practical reference, though the underlying idea of helper routines that bridge 4D data structures (arrays/records) to a grid/spreadsheet display area remains conceptually similar to patterns used with 4D View Pro today.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D View was superseded by 4D View Pro (introduced 2018), which uses a different object model and API",
+      "Displaying arrays/records in a spreadsheet-style area today would use 4D View Pro's newer commands rather than this 4D View Helper component"
+    ]
+  }
+}

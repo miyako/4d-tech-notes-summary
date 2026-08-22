@@ -1,0 +1,1 @@
+Tech Note: Introducing the HIGHLIGHT RECORDS command (4D v6.5, September 1999) — demonstrates using the new HIGHLIGHT RECORDS command to build fully keyboard-driven database interfaces.

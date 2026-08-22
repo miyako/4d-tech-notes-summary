@@ -1,0 +1,1 @@
+Tech Note: Converting Databases to 4D V6 (4D v6.0.x, October 1997) — explains how to convert 4th Dimension databases from version 3.x to version 6, covering conversion problems and terminology differences between the two versions; full text unavailable, summary based on the teaser only.

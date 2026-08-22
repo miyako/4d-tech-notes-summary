@@ -1,0 +1,28 @@
+{
+  "asset_id": 19048,
+  "title": "Tech Note: Web-Enabling Legacy 4D Applications",
+  "technote_number": "01-46",
+  "year": 2001,
+  "published_date": "October 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19048",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2001/windows/tn_2001_46-49_(oct)/01-46_legacy_web-enabling.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Tags",
+    "Semi-dynamic web pages",
+    "4D built-in Web Server",
+    "Client-server web publishing"
+  ],
+  "historical_commentary": {
+    "text": "This note surveys approaches for exposing an existing client-server 4D database to the internet, focusing mainly on semi-dynamic HTML pages built with 4D Tags served by 4D's built-in Web Server. 4D Tags and the built-in web server still exist and function in current 4D versions, but 4D's web strategy has since shifted decisively toward REST APIs built on ORDA combined with modern JavaScript front ends (or low-code Qodly Studio apps), making tag-embedded HTML page generation a legacy pattern rather than the recommended approach for new web-enabling projects.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's REST/ORDA APIs (introduced 4D v16-17) are now the standard way to expose 4D data to web/mobile clients",
+      "Qodly Studio offers a low-code alternative for building modern web front ends against 4D data"
+    ]
+  }
+}

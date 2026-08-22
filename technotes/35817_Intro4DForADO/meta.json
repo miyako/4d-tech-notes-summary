@@ -1,0 +1,29 @@
+{
+  "asset_id": 35817,
+  "title": "Tech Note: Introduction to 4D for ADO",
+  "technote_number": "05-04",
+  "year": 2005,
+  "published_date": "January 27, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=35817",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_01-04_(JAN)/05-04_Intro_to_4D_for_ADO.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D for ADO plug-in",
+    "Microsoft ActiveX Data Objects (ADO)",
+    "MS SQL Server / Oracle / Sybase ASE / MS Access connectivity",
+    "LDAP/Active Directory access via ADO.Net"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces the 4D for ADO plug-in, which let 4D 2004 developers query external RDBMSes (MS SQL Server, Oracle, Sybase ASE, MS Access) and directory services via Microsoft's ActiveX Data Objects interface, predating 4D's own SQL engine (v11 SQL, ~2007) and ODBC-first connectivity story. The specific ADO plug-in and Windows-centric ADO technology it relies on are now obsolete, since modern 4D applications connect to external databases via ODBC, dedicated SQL/JDBC plugins, or REST APIs rather than ADO. Only the teaser paragraph could be recovered for this note.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D introduced its own native SQL engine in v11 SQL (~2007), reducing reliance on external RDBMS bridge plug-ins for many use cases",
+      "External database connectivity in modern 4D is typically handled via ODBC or dedicated connectors rather than the Windows-specific ADO interface",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

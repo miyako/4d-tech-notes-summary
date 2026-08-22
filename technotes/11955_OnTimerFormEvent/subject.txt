@@ -1,0 +1,1 @@
+Tech Note: The On Timer Form Event (4D v6.5, March 2000) — a tour of practical uses for the On Timer form event, including simulating menus, moving objects, and building a custom resize box.

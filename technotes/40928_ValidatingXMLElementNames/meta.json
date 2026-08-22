@@ -1,0 +1,27 @@
+{
+  "asset_id": 40928,
+  "title": "Tech Note: Validating XML Element Names",
+  "technote_number": "05-40",
+  "year": 2005,
+  "published_date": "December 13, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=40928",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_40-46_(DEC)/05-40_Validating_XML_Names.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "XML element/attribute naming rules",
+    "Custom XML generation from 4th Dimension",
+    "Name validation methods"
+  ],
+  "historical_commentary": {
+    "text": "This note explains the XML specification's naming rules for elements and attributes (case-sensitivity, legal first characters, reserved 'xml' prefix, etc.) and provides 4D code to validate custom-generated XML names against those rules, reflecting the era's growing use of 4D for producing XML and SOAP-era web service messages. The underlying XML naming rules are an unchanging W3C specification and remain entirely accurate today, so the reference information is still correct, but 4D has since added built-in XML generation/parsing commands (DOM-based XML tools) that handle much of this validation internally, making a hand-written validation method less commonly necessary for typical XML production tasks.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's built-in DOM XML commands (introduced/expanded after this era) handle much of the well-formedness and naming validation automatically when generating XML programmatically",
+      "JSON has become a more common data-interchange format alongside XML in many current 4D web-service integrations"
+    ]
+  }
+}

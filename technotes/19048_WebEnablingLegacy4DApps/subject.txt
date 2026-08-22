@@ -1,0 +1,1 @@
+Tech Note: Web-Enabling Legacy 4D Applications (TN 01-46, 4D v6.7, October 2001) — an overview of approaches for exposing client-server 4D databases to the internet, focused on 4D-Tags-based semi-dynamic pages.

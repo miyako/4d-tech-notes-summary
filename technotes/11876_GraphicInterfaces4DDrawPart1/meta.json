@@ -1,0 +1,34 @@
+{
+  "asset_id": 11876,
+  "title": "Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part 1",
+  "technote_number": "99-31",
+  "year": 1999,
+  "published_date": "July 1, 1999",
+  "product": "4D Draw",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Tim Tonooka",
+  "page_url": "https://kb.4d.com/assetid=11876",
+  "download_url": "https://kb.4d.com/DLTN/TN/1999/Windows/TN_1999_27-31_(JUL)/99-31_Graphic_Interfaces_1.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Draw",
+    "BMP file format",
+    "Vector graphics",
+    "Bitmap-to-vector tracing",
+    "ACI_Pack plug-in",
+    "4D Chart",
+    "PICT format"
+  ],
+  "historical_commentary": {
+    "text": "This extensive Tech Note is a remarkable artifact of late-1990s 4D development, demonstrating how developers built sophisticated interactive graphical interfaces using 4D Draw—a plug-in that has since been completely discontinued. The detailed comparison of 4D Draw vs. 4D Chart, the manual BMP file parsing via BLOB operations, and the bitmap-to-vector tracing algorithm written entirely in 4D code showcase the ingenuity required before modern image libraries and SVG support existed. The references to ACI_Pack, PICT format, QuickDraw, and classic Mac/Windows graphics programs like Adobe Streamline and CorelTrace place this firmly in its era.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Draw has been discontinued and removed from the 4D product line",
+      "4D Chart has also been discontinued",
+      "ACI_Pack plug-in is no longer available",
+      "PICT format and QuickDraw are deprecated Apple technologies",
+      "Modern 4D supports SVG natively and provides Web Areas for interactive graphics"
+    ]
+  }
+}

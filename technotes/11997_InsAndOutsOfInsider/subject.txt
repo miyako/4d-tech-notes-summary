@@ -1,0 +1,1 @@
+Tech Note: The Ins and Outs of Insider (4D Insider v6.5, March 2000) — an overview of how 4D Insider assists with maintaining, documenting, localizing, and reusing code across a professional 4D application's lifecycle.

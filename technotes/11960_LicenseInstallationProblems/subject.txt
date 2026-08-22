@@ -1,0 +1,1 @@
+Tech Note: License Installation Problems and Solutions (4D v6.5, June 2000) — a troubleshooting guide to common 4D and expansion license/serial-number installation problems, including the newer diskless license scheme.

@@ -1,0 +1,1 @@
+Tech Note: Date Entry (TN 01-31, 4D v6.7, July 2001) — a walkthrough of the Date Entry example database's function-key-driven flexible date input.

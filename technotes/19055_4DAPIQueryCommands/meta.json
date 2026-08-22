@@ -1,0 +1,27 @@
+{
+  "asset_id": 19055,
+  "title": "Tech Note: Using the 4D API Query Commands",
+  "technote_number": "01-56",
+  "year": 2001,
+  "published_date": "December 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=19055",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_54-57_(DEC)/01-56_4D_API_Query_Commands.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Plug-in API (C-based)",
+    "QUERY command",
+    "4D Query Editor dialog"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how a compiled C plug-in could programmatically invoke 4D's query mechanism, either via the built-in Query Editor dialog or the classic QUERY-style API commands, in the pre-Unicode, 32-bit plug-in API era. The classic QUERY command family it discusses is still present in 4D's language today, but the plug-in API itself has been substantially revised since (Unicode, 64-bit, Universal Binary), and ORDA's dot-notation entity queries now offer a more modern alternative to constructing query criteria programmatically.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's Plug-in API was significantly overhauled for Unicode/64-bit support starting around 4D v11 SQL",
+      "ORDA (introduced 4D v17, 2018) provides object/entity-based querying as an alternative to classic QUERY chains"
+    ]
+  }
+}

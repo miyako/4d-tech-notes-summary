@@ -1,0 +1,27 @@
+{
+  "asset_id": 31311,
+  "title": "Tech Note: Customizing the Home Page Automatically Created by 4th Dimension 2003",
+  "technote_number": "04-06",
+  "year": 2004,
+  "published_date": "February 12, 2004",
+  "product": "4th Dimension",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31311",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows//TN_2004_05-09_(FEB)/04-06_Customizing_Home.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4th Dimension native Web server",
+    "Default/auto-generated Web server home page",
+    "HTML customization for vertical-market deployments"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to customize the default welcome page that 4D's built-in web server auto-generates when no home page exists, a small but practical piece of the classic Design Mode-era 4D Web server. The specific default-page HTML and its customization mechanism are tied to 4D's older web server implementation, which has been substantially rearchitected in later versions; the underlying idea of tailoring a database's default web presence for vertical-market deployment is still generally applicable, but the mechanics described here are dated.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's built-in web server has been substantially rearchitected in later versions with more configuration options for default content and behavior",
+      "Modern 4D web deployments typically serve custom static or dynamically-generated home pages rather than relying on the auto-generated welcome page this note customizes"
+    ]
+  }
+}

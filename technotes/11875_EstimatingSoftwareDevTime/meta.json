@@ -1,0 +1,28 @@
+{
+  "asset_id": 11875,
+  "title": "Tech Note: Estimating Software Development Time",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "April 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11875",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Software project management",
+    "Development time estimation",
+    "Software engineering practices"
+  ],
+  "historical_commentary": {
+    "text": "Software development time estimation remains one of the most challenging and important skills in the industry, making this note's topic evergreen even though the specific 4D context and tools of 1999 have changed. The fundamental challenges of estimation—understanding requirements, accounting for complexity, and managing stakeholder expectations—are as relevant today as they were in 1999. Modern approaches like agile estimation, story points, and evidence-based scheduling have evolved the practice but not eliminated the core difficulties this note likely addressed.",
+    "status": "still relevant",
+    "related_updates": [
+      "Agile methodologies and iterative estimation have become mainstream since the early 2000s",
+      "Tools like Jira, Linear, and other project management platforms now assist with estimation tracking",
+      "The fundamental challenges of software estimation remain largely unchanged"
+    ]
+  }
+}

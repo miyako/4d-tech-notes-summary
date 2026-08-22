@@ -1,0 +1,27 @@
+{
+  "asset_id": 16390,
+  "title": "Tech Note: Contact Manager II",
+  "technote_number": "01-35",
+  "year": 2001,
+  "published_date": "July 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16390",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-35_Contact_Manager_II.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Calendar UI construction",
+    "Form object placement/display",
+    "Example database (Contact Manager series)"
+  ],
+  "historical_commentary": {
+    "text": "This is the second in a series on the Contact Manager example database, focusing specifically on how the calendar interface's display is managed, following an earlier note (Part I) that covered placing and displaying the calendar's objects. The general technique of building a custom calendar view from form objects is a pattern developers still sometimes need today, even though modern 4D development would more likely reach for a List Box, a plug-in calendar component, or a web-based calendar widget rather than hand-managing individual form objects as shown here.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Modern 4D calendar UIs are more commonly built with List Box objects, dedicated calendar plug-ins, or web/JS calendar components",
+      "The underlying object-placement techniques from classic Design Mode forms still function in current 4D versions"
+    ]
+  }
+}

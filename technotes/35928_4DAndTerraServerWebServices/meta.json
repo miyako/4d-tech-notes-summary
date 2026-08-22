@@ -1,0 +1,28 @@
+{
+  "asset_id": 35928,
+  "title": "Tech Note: Using 4D with TerraServer USA Web Services",
+  "technote_number": "05-05",
+  "year": 2005,
+  "published_date": "February 3, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=35928",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_05-07_(FEB)/05-05_4D_and_TerraServer.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Services (SOAP client)",
+    "Microsoft TerraServer USA web service",
+    "USGS topographic/aerial imagery access"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates consuming Microsoft's TerraServer USA SOAP web service from 4D 2004 to retrieve USGS topographic maps and aerial imagery, reflecting the mid-2000s enthusiasm for integrating 4D with external XML/SOAP web services. The Microsoft TerraServer service referenced was retired long ago, and 4D's own web-service integration approach has since shifted toward the HTTP Client commands and REST/JSON rather than the SOAP-era 4D Web Services used here, making the specific example obsolete even though the general pattern of calling external geographic web services remains relevant. Only the teaser paragraph could be recovered for this note.",
+    "status": "obsolete",
+    "related_updates": [
+      "Microsoft's TerraServer USA service has long been discontinued",
+      "4D's web-service integration has shifted from SOAP-era 4D Web Services to the HTTP Client commands plus native JSON parsing for REST-based APIs",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

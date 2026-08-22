@@ -1,0 +1,27 @@
+{
+  "asset_id": 13095,
+  "title": "Tech Note: On Sets",
+  "technote_number": "01-13",
+  "year": 2001,
+  "published_date": "March 30, 2001",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=13095",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-13_On_Sets.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Sets",
+    "Record selection manipulation",
+    "Memory-efficient selection handling"
+  ],
+  "historical_commentary": {
+    "text": "This short note introduces Sets as a way to manipulate record selections with less memory overhead than working with full selections directly, especially useful when quick handling of large selections is required. Sets remain a fully supported, core part of 4D's classic language today, and the fundamental performance rationale for using them over ad hoc selection manipulation is unchanged, making this brief introduction still directly relevant, even if modern ORDA-based entity selections now offer an additional, newer alternative for similar problems.",
+    "status": "still relevant",
+    "related_updates": [
+      "Sets remain part of 4D's current classic language, unchanged in their basic purpose",
+      "ORDA entity selections (introduced 2018) provide a newer, object-oriented alternative for many selection-manipulation use cases alongside classic Sets"
+    ]
+  }
+}

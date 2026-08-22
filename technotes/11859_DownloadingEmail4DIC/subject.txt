@@ -1,0 +1,1 @@
+Tech Note: Downloading Email with 4D Internet Commands (4D v6.0, October 1999) — explains building a custom POP3 email client within 4D for database-integrated email processing.

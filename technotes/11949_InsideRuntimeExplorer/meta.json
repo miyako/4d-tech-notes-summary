@@ -1,0 +1,28 @@
+{
+  "asset_id": 11949,
+  "title": "Tech Note: Inside the Runtime Explorer",
+  "technote_number": "00-15",
+  "year": 2000,
+  "published_date": "March 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, ACI Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11949",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/MacOS/TN_2000_11-15_(MAR)/00-15_Runtime_Explorer.hqx",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Runtime Explorer",
+    "Memory cache statistics",
+    "Processes/Watch/Break/Catch debugging pages",
+    "Sets and named selections"
+  ],
+  "historical_commentary": {
+    "text": "This note is a detailed technical explanation of the classic Runtime Explorer debugging tool's Watch page and cache-statistics reporting, giving developers a way to inspect variables, processes, sets, named selections, and memory cache efficiency inside the Design Environment. The Runtime Explorer as a distinct named tool from this era has been superseded by 4D's substantially evolved and expanded modern debugger and execution-monitoring tools, but the underlying diagnostic concepts (watching variables/processes, understanding cache hit ratios, inspecting sets and selections) remain conceptually similar to what 4D's current debugging and performance tools expose, even if the exact window and shortcut (CTRL+Shift+F9) described here no longer match the current interface.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's debugging tools have been substantially rebuilt and expanded since this era, including the modern 4D Debugger and execution/profiling tools that supersede the classic Runtime Explorer window described here",
+      "The specific memory-cache statistics model and exact keyboard shortcut described are tied to 4D v6.5-era internals and may not directly match current 4D versions"
+    ]
+  }
+}

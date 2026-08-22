@@ -1,0 +1,26 @@
+{
+  "asset_id": 16387,
+  "title": "Tech Note: Date Entry",
+  "technote_number": "01-31",
+  "year": 2001,
+  "published_date": "July 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16387",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-31_Date_Entry.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Custom date-entry form routines",
+    "Function-key input handling"
+  ],
+  "historical_commentary": {
+    "text": "This note presents the Date Entry example database, which uses a set of custom routines and special function keys to make date-field entry more flexible for end users tabbing into a field. This specific function-key-driven UI trick reflects a 2001-era UI paradigm; modern 4D applications typically use built-in date pickers, calendar pop-ups, or List Box date columns for more discoverable and accessible date entry, making the exact technique shown here obsolete even though flexible date entry remains a valid usability goal.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D form objects now commonly use built-in date/calendar picker controls rather than custom function-key-driven entry routines",
+      "Modern UI/UX conventions favor discoverable calendar widgets over hidden function-key shortcuts"
+    ]
+  }
+}

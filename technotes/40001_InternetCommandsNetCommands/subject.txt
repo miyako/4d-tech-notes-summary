@@ -1,0 +1,1 @@
+Tech Note: 4D Internet Commands - Net Commands (TN 05-35, 4D Internet Commands v2004, October 2005) — expands an earlier network ping utility with DNS/reverse-DNS lookup and finger-command support for diagnosing network issues during deployment.

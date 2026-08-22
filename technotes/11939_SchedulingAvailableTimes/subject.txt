@@ -1,0 +1,1 @@
+Tech Note: Storing and Searching for Available Times in a Schedule (4D v6.0, January 2000) — a data-modeling and search technique for storing appointment schedules in fixed time units and finding available open time slots that meet specific criteria.

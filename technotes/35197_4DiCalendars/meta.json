@@ -1,0 +1,31 @@
+{
+  "asset_id": 35197,
+  "title": "Tech Note: Working with 4D and iCalendars",
+  "technote_number": "04-50",
+  "year": 2004,
+  "published_date": "December 16, 2004",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Frank Chang, 4D Evangelist",
+  "page_url": "https://kb.4d.com/assetid=35197",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_49-50_(NOV)/04-50_4D_and_iCalendars.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "iCalendar format (RFC 2445)",
+    "4D Web Server as a WebDAV server",
+    "GET HTTP HEADER / GET HTTP BODY / SEND HTTP RAW DATA",
+    "On Web Authentication database method",
+    "Base64 decoding, BLOB text conversion",
+    "Interoperability with Apple iCal, Outlook, and Mozilla Calendar"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to hand-build a data-driven WebDAV/iCalendar publishing server directly on top of 4D 2004's brand-new low-level HTTP commands (GET HTTP HEADER/BODY, SEND HTTP RAW DATA) so that desktop calendar clients like iCal, Outlook, and Firefox's Calendar extension could subscribe to and publish into a 4D database. The underlying HTTP-level commands still exist in the classic 4D language, but hand-rolling WebDAV/CalDAV authentication and iCalendar blob construction from scratch is no longer how developers would integrate calendaring, since CalDAV was standardized shortly after this note (RFC 4791, 2007) and modern integrations favor REST/JSON APIs or dedicated calendar sync services. The note is best read today as a historical snapshot of pre-REST, pre-CalDAV web integration technique in 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "CalDAV (RFC 4791, 2007) later standardized calendar WebDAV access, superseding ad hoc iCalendar/WebDAV implementations like this one",
+      "4D's HTTP client/server commands have been substantially expanded and modernized in later versions",
+      "Modern calendar integrations typically use REST/JSON APIs rather than hand-built WebDAV blob serving"
+    ]
+  }
+}

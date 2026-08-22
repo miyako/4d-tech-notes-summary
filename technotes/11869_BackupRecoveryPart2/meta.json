@@ -1,0 +1,28 @@
+{
+  "asset_id": 11869,
+  "title": "Tech Note: Backup and Recovery Strategies for Mission-Critical 4D Server Databases - Part 2",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "March 1, 1997",
+  "product": "4D Backup",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11869",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server",
+    "4D Backup",
+    "Automatic Backup",
+    "Mirroring"
+  ],
+  "historical_commentary": {
+    "text": "This note documents best practices for keeping mission-critical 4D Server installations (described here as handling up to 100 users and 5GB data files, considered large for 1997) running 24/7 using 4D Backup's automatic backup and mirroring features; the general discipline of backup/recovery planning remains conceptually sound, but the specific 4D Backup product and its capacities described here are dramatically outdated relative to today's data volumes and 4D's modern backup mechanisms.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Backup's automatic backup and mirroring features have been substantially enhanced and integrated into later 4D Server versions with modern journaling and log-file-based recovery",
+      "1997-era 'mission-critical' data volumes (100 users, 5GB) are trivial by today's standards, so the scale-related advice is outdated even though the backup/recovery discipline it teaches remains valid in principle"
+    ]
+  }
+}

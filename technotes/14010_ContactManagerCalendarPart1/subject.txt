@@ -1,0 +1,1 @@
+Tech Note: Contact Manager, Behind the code, Part I (TN 01-25, 4D v6.7, June 2001) — a walkthrough of the forms and code behind the Calendar interface in 4D's Contact Manager example database (Part I of a two-part series).

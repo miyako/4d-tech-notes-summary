@@ -1,0 +1,28 @@
+{
+  "asset_id": 47652,
+  "title": "Tech Note: Hierarchical Lists in 4D v11 SQL",
+  "technote_number": "07-39",
+  "year": 2007,
+  "published_date": "October 3, 2007",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Thomas Fitch, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47652",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_39-42_(OCT)/07-39_4D_v11_SQL_HList.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Hierarchical List form objects",
+    "Multiple form object references for one list (object name parameter)",
+    "SET/GET LIST ITEM family of commands",
+    "New v11 commands: SET LIST ITEM FONT/ICON/PARAMETER, Find in list"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a significant enhancement to 4D's Hierarchical List form control in 4D v11 SQL, allowing one underlying list (language object) to be displayed via multiple independent form objects with per-object selection, expand/collapse, and scroll state, plus several new commands (SET LIST ITEM FONT/ICON/PARAMETER, Find in list). Hierarchical Lists remain part of the 4D language and form object set today, so the underlying commands and multi-form-object concept are still broadly relevant, though the specific list of 'new for v11' commands is now simply the long-standing baseline and 4D has continued to add capabilities to hierarchical lists since this note was written.",
+    "status": "still relevant",
+    "related_updates": [
+      "Hierarchical List form objects and their SET/GET LIST ITEM command family remain part of current 4D, though the command set has continued to evolve since 4D v11",
+      "Some legacy command names mentioned here (e.g. old DELETE LIST ITEM / INSERT LIST ITEM) were renamed to DELETE FROM LIST / INSERT IN LIST as part of this v11 update"
+    ]
+  }
+}

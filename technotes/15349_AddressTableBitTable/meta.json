@@ -1,0 +1,27 @@
+{
+  "asset_id": 15349,
+  "title": "Tech Note: At the Core of the Data: The Address Table and Bit Table",
+  "technote_number": "01-30",
+  "year": 2001,
+  "published_date": "June 30, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=15349",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-30_Core_of_the_Data.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D internal data file format",
+    "Address table / Bit table structures",
+    "Cross-platform data storage internals"
+  ],
+  "historical_commentary": {
+    "text": "This note (a follow-up to TN 01-29) goes deeper into 4D's proprietary internal data-file mechanisms \u2014 the Address Table and Bit Table structures used to locate and track records \u2014 explaining cross-platform storage considerations and damaged-data recovery. 4D's internal data file format has been substantially re-engineered multiple times since 2001 (notably with the 4D v11 SQL engine and the later 64-bit engine), so these specific internal structures no longer describe the current file format, making this note purely of historical/archival interest for understanding 4D's early engine design.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's internal data file architecture was substantially redesigned in 4D v11 SQL (~2007) and again with the 64-bit engine (~4D v13)",
+      "Current data recovery/repair tooling in 4D operates on a materially different internal file structure than described here"
+    ]
+  }
+}

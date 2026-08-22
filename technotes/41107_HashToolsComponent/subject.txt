@@ -1,0 +1,1 @@
+Tech Note: The HashTools Component (TN 05-43, 4D v2004, December 2005) — documents the public API of the HashTools component, a reusable 4D component providing nine hashing algorithms and a hash-optimized record search routine.

@@ -1,0 +1,29 @@
+{
+  "asset_id": 12117,
+  "title": "Tech Note: Cruising Newsgroups: Accelerated Text Parsing with BLOBs",
+  "technote_number": "01-06",
+  "year": 2001,
+  "published_date": "February 28, 2001",
+  "product": "4D Internet Commands",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12117",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-06_Cruising_Newsgroups.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Internet Commands (NNTP)",
+    "BLOB-based text parsing",
+    "4D News Jockey example database",
+    "TCP protocol implementation"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces the '4D News Jockey' example database, a Usenet (NNTP) newsreader built by the author using 4D Internet Commands v6.7, showcasing BLOB-based text-parsing techniques designed to work around the 32,000-character limit of classic 4D text fields \u2014 relevant for heavy web serving, document processing, and TCP protocol implementations of the time. Both halves of this note's premise are now obsolete: 4D's text field/variable size limits have been massively expanded in modern versions (removing the original motivation for BLOB-based text workarounds), and Usenet/NNTP newsgroups themselves have become a largely defunct technology in mainstream use, making this note of historical interest primarily as an illustration of period text-processing ingenuity.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's text field and text variable capacity has been dramatically increased in modern versions, removing the original 32,000-character motivation for BLOB-based text-parsing workarounds",
+      "Usenet/NNTP newsgroups have become a largely obsolete communication medium, diminishing the practical relevance of this note's example application",
+      "4D Internet Commands' functionality has since been substantially folded into 4D's core language, and modern protocol needs are typically served by HTTP/REST rather than raw TCP/NNTP handling"
+    ]
+  }
+}

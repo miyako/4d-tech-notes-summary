@@ -1,0 +1,1 @@
+Tech Note: A simple client timeout technique (4D v6.0, February 1998) — presents a method for automatically quitting inactive 4D Client connections using ON EVENT CALL.

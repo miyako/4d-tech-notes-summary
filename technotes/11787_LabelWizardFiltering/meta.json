@@ -1,0 +1,27 @@
+{
+  "asset_id": 11787,
+  "title": "Tech Note: Filtering Methods and Forms in the 4D V6 Label Wizard",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "December 1, 1997",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11787",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Label Wizard",
+    "4D Label Editor",
+    "Database forms/project methods filtering"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a real V6-era usability/safety concern: the Label Wizard's default drop-down lists exposed the entire database's forms and project methods to end users, risking accidental data corruption; the underlying design lesson (never expose raw internal developer artifacts to end users unfiltered) remains valid, but the specific Label Wizard, Label Editor, and V6-era forms/methods model it describes have been superseded by many generations of 4D form design and reporting tools since.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D V6-era Label Wizard and Label Editor have been superseded by modern 4D form design, list forms, and reporting/printing capabilities in later versions",
+      "Project Mode (introduced v17, 2018) and modern method/form organization (packages, components) provide different, more granular ways to control what end users can select than the V6-era filtering workaround described here"
+    ]
+  }
+}

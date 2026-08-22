@@ -1,0 +1,1 @@
+Tech Note: Animating Graphs with 4D Chart (4D Chart v6.0, June 1998) — demonstrates creating 3D animated graphs using 4D Chart for presentations and About Box displays.

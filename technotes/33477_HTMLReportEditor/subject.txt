@@ -1,0 +1,1 @@
+Tech Note: Creating an HTML File with the Report Editor (TN 04-31, 4th Dimension v2003.4, August 2004) — a guide to understanding and customizing the HTML template used when generating an HTML file from the Quick Report editor introduced in 4th Dimension 2003.

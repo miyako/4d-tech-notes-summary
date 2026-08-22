@@ -1,0 +1,1 @@
+Tech Note: PostImage (TN 01-32, 4D v6.7, July 2001) — a technique for uploading pictures from a web browser and storing them in a 4D database.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 33569,
+  "title": "Tech Note: Client Self-Upgradable",
+  "technote_number": "04-32",
+  "year": 2004,
+  "published_date": "August 12, 2004",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=33569",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-32_ClientSelfUpgradable.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Client/Server merged executables",
+    "4D Engine final applications",
+    "Application self-upgrade mechanism"
+  ],
+  "historical_commentary": {
+    "status": "superseded",
+    "text": "This note documents an early-2000s mechanism for producing self-contained, upgradable 4D Client/Server executables via 4D Engine-based merging, aimed at simplifying end-user deployment and updates. 4D's application deployment and update tooling has evolved substantially since 2004 (including later Merged/stand-alone application builders and update mechanisms bundled with subsequent 4D and 4D Server releases), so while the underlying goal — distributing a self-contained, upgradable client app — remains a common requirement, the specific mechanism described here is no longer the current approach.",
+    "related_updates": [
+      "4D's application building and update tooling (merged applications, 4D Volume Desktop-based builds) has been substantially reworked in later 4D versions",
+      "Modern 4D deployments increasingly rely on 4D Server-driven update mechanisms rather than the specific self-upgrade approach shown in this 2004-era note"
+    ]
+  }
+}

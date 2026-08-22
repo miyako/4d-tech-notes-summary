@@ -1,0 +1,1 @@
+Tech Note: Displaying and Hiding Tool Features Inside Plug-in Areas (TN 04-08, 4D v2003, February 2004) — explains how to manually and procedurally show or hide interface elements (menu bar, toolbars, scrollbars) in 4D Chart, 4D Draw, 4D Write, and 4D View plug-in areas.

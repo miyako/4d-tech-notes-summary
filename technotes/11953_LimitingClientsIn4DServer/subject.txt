@@ -1,0 +1,1 @@
+Tech Note: Limiting the Number of Clients in 4D Server 6.5.x via Code (4D Server v6.5, April 2000) — a code-based technique for capping the number of clients that can connect to a specific instance of 4D Server 6.5.x.

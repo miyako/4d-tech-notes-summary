@@ -1,0 +1,32 @@
+{
+  "asset_id": 11857,
+  "title": "Tech Note: Resource Mover",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "October 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11857",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Resource management",
+    "ResEdit replacement",
+    "Pictures/Icons/Sounds resources",
+    "Button families",
+    "CLUT resource",
+    "Dynamic form backgrounds"
+  ],
+  "historical_commentary": {
+    "text": "This note is deeply tied to the classic Mac OS resource fork model, where pictures, icons, sounds, string lists, and color tables were stored as typed resources. ResEdit was Apple's resource editor for classic Mac OS. The entire resource fork paradigm was phased out with Mac OS X, and modern 4D no longer uses resource forks for storing UI elements. Pictures, icons, and other assets are now managed through the 4D Resources folder, picture libraries, or direct file references. The \"clut\" resource for Method editor colors is a fascinating detail of classic 4D customization that no longer applies.",
+    "status": "obsolete",
+    "related_updates": [
+      "Mac OS resource forks have been deprecated since Mac OS X",
+      "4D no longer uses resource-based storage for pictures, icons, or sounds",
+      "Modern 4D uses the Resources folder, picture libraries, and direct file references",
+      "Method editor theming in modern 4D is handled through preferences, not CLUT resources"
+    ]
+  }
+}

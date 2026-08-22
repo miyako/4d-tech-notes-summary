@@ -1,0 +1,30 @@
+{
+  "asset_id": 31486,
+  "title": "Tech Note: Displaying and Hiding Tool Features Inside Plug-in Areas",
+  "technote_number": "04-08",
+  "year": 2004,
+  "published_date": "February 26, 2004",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=31486",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_05-09_(FEB)/04-08_Display_Hide_Tools.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart",
+    "4D Draw",
+    "4D Write",
+    "4D View",
+    "4D productivity plug-in interface elements (menu bar, toolbars, scrollbars)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents how to manually and procedurally show/hide interface chrome (menus, toolbars, scrollbars) within 4D's classic productivity plug-in areas — 4D Chart, 4D Draw, 4D Write, and 4D View — useful for read-only display scenarios. All four of these companion products have since been superseded by later-generation 4D technologies (notably 4D Write Pro in 2016 and 4D View Pro in 2018), so the specific plug-in area commands described are obsolete, though the general UI concept of controlling embedded-tool chrome visibility for read-only contexts remains a recognizable pattern in current 4D Write Pro/View Pro areas.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write was superseded by 4D Write Pro (introduced 2016)",
+      "4D View was superseded by 4D View Pro (introduced 2018)",
+      "4D Chart and 4D Draw as standalone productivity plug-ins are legacy technology largely absent from current 4D releases"
+    ]
+  }
+}

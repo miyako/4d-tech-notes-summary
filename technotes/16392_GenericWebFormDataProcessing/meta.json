@@ -1,0 +1,27 @@
+{
+  "asset_id": 16392,
+  "title": "Tech Note: Creating a Generic Web Form Data Processing System",
+  "technote_number": "01-36",
+  "year": 2001,
+  "published_date": "August 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=16392",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-36_Generic_Web_Form_DPS.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D built-in Web Server",
+    "Two-database architecture",
+    "Email-based data transfer"
+  ],
+  "historical_commentary": {
+    "text": "This note (part one of a two-part series) describes a generic system where one 4D database gathers data through a web form and emails it to a second database for storage and analysis. The architectural idea of separating a public-facing data-collection front end from a back-office storage/analysis system remains a valid pattern, but routing form submissions via email between two databases is a workaround that has been superseded by direct REST/ORDA API calls or database replication/sync mechanisms that didn't yet exist in 4D in 2001.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Direct REST/ORDA API calls between 4D databases or services have superseded email-based data hand-off as the standard mechanism",
+      "4D's later Sync feature and ORDA-based data synchronization provide more robust alternatives for moving data between systems"
+    ]
+  }
+}

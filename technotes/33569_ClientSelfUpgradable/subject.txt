@@ -1,0 +1,1 @@
+Tech Note: Client Self-Upgradable (TN 04-32, 4D vn/a, August 2004) — an explanation of 4D 2004's ability to build stand-alone, self-contained Client and Server final application executables that can run independently of 4D.

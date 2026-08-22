@@ -1,0 +1,27 @@
+{
+  "asset_id": 35423,
+  "title": "Tech Note: Advanced Method Editor Macros",
+  "technote_number": "05-01",
+  "year": 2005,
+  "published_date": "January 6, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=35423",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_01-04_(JAN)/05-01_AdvMethodEditorMacros.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Method Editor macros",
+    "Macro tagging language (method tag)",
+    "Project method invocation from macros"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the method tag, a 2004-era enhancement to 4D's Method Editor macro tagging language that let macros invoke any project method in the database, extending macros beyond simple boilerplate code generation. The classic Method Editor and its macro system belong to the binary Design Mode code editor of this era; modern 4D development uses the newer code editor tooling and, in Project Mode, text-based method files, so this specific macro-tag mechanism is now largely superseded even though on-demand code generation remains a useful concept. Only the teaser paragraph could be recovered for this note.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's code editor and Project Mode (v17, 2018) have since replaced the classic Design Mode Method Editor and its macro tagging system",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

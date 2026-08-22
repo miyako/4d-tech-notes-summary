@@ -1,0 +1,28 @@
+{
+  "asset_id": 11958,
+  "title": "Tech Note: Using Cookies with 4th Dimension Web Server",
+  "technote_number": "00-17",
+  "year": 2000,
+  "published_date": "April 1, 2000",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11958",
+  "download_url": "https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_16-20_(APR)/00-17_4D_and_Cookies.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4th Dimension Web Server",
+    "HTTP cookies",
+    "CGI-style server-side state",
+    "Web session management"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces HTTP cookie handling via 4th Dimension's own built-in web server, letting a 4D-powered web application store and retrieve client-side state \u2014 a core building block for personalization and session tracking during 4D's active push into web/e-commerce features around the dot-com era. The specific mechanics of 4D's classic web server and its cookie API are long since superseded by 4D's modern web server (built on newer HTTP handling and standard REST/session mechanisms), but the underlying concept of using cookies for client-side session state remains a standard, still-relevant web development technique used across any web platform, including current 4D web apps.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's built-in web server has been substantially modernized multiple times since 2000, including current REST/session and HTTPS support far beyond the classic CGI-era cookie API described here",
+      "Cookie-based client state remains a standard web technique conceptually, but is now typically combined with modern session tokens, REST APIs, and HTTPS rather than the classic 4D web server mechanics of this note"
+    ]
+  }
+}

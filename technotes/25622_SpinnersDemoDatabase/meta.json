@@ -1,0 +1,28 @@
+{
+  "asset_id": 25622,
+  "title": "Tech Note: Inside the Spinners Demo Database",
+  "technote_number": "03-5",
+  "year": 2003,
+  "published_date": "January 31, 2003",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": "Gou Yang, 4D Inc. Technical Support",
+  "page_url": "https://kb.4d.com/assetid=25622",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_01-05_(JAN)/03-05_inside_spinners.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "On Timer event",
+    "4D Compiler",
+    "Form/object methods",
+    "Date & Time field types"
+  ],
+  "historical_commentary": {
+    "text": "The On Timer/GET MOUSE technique shown here is a period-accurate workaround for a UI affordance (a numeric/date/time spinner) that modern versions of 4D and most other platforms now provide as a built-in widget or via native OS controls, so the specific plumbing is of mostly historical/educational interest today. The underlying concepts \u2014 pointers to typed variables, event-driven form methods, and timer-based polling \u2014 remain valid 4D language fundamentals still used in current versions.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's form object library and later stepper-style controls reduce the need to hand-build spinners from On Timer events",
+      "The core language constructs referenced (pointers, On Timer, SET TIMER) are still present in modern 4D, though object-oriented and ORDA-based approaches are now favored for new UI code"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 48159,
+  "title": "Tech Note: An Introduction to Ajax",
+  "technote_number": "07-44",
+  "year": 2007,
+  "published_date": "November 21, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.2",
+  "platform": "Mac & Win",
+  "author": "Joe Resuello, Technical Marketing Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=48159",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_42-45_(NOV)/07-44_Ajax_Intro.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Ajax (Asynchronous JavaScript and XML)",
+    "4D Ajax Framework (4DAF)",
+    "4DAF Client / Image Matrix / Calendar objects",
+    "4D Ajax for Dreamweaver extension"
+  ],
+  "historical_commentary": {
+    "text": "This note is a general-audience introduction to Ajax as a web technique (JavaScript, XML, HTML, CSS) aimed at 4D developers unfamiliar with web development, culminating in a pitch for the 4D Ajax Framework as 4D's own Ajax toolkit. The historical/conceptual explanation of Ajax remains broadly accurate, but the framework it promotes (4DAF) has been discontinued, and the drag-and-drop Dreamweaver-based workflow it describes reflects web development practices long since superseded by modern JavaScript frameworks and 4D's own current web/REST tooling.",
+    "status": "superseded",
+    "related_updates": [
+      "The 4D Ajax Framework (4DAF) has been discontinued and is not part of current 4D products",
+      "4D's web development approach has since moved to a built-in Web Server with REST/ORDA APIs, consumed by modern JavaScript frameworks rather than the 4DAF client/component model"
+    ]
+  }
+}

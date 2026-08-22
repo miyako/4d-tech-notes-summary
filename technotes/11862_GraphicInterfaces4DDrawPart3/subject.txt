@@ -1,0 +1,1 @@
+Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part III (TN 99-53, 4D Draw v6.5, December 1999) — details reading pixel data from BMP images displayed in 4D Draw areas, including click detection, cursor management, and color information retrieval.

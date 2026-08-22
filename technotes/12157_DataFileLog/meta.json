@@ -1,0 +1,27 @@
+{
+  "asset_id": 12157,
+  "title": "Tech Note: Data File Log",
+  "technote_number": "01-04",
+  "year": 2001,
+  "published_date": "January 31, 2001",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=12157",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-04_Data_File_Log.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D classic data file format (segmented, up to sixty-four 2GB segments)",
+    "Data segment/fragmentation monitoring",
+    "4D Server / remote client administration"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a hard architectural limitation of the classic 4D data file format of the era: a database could comprise up to sixty-four segments, each capped at 2GB, and administrators needed tools to monitor segment count, size, and fragmentation (percentage of deleted records) to avoid running into trouble, especially with remote clients whose data growth was harder to observe directly. This entire class of problem is now obsolete: 4D's data engine was re-architected in later versions (starting with 4D v11 SQL, 2007) to remove the old segmented 2GB-per-segment ceiling, so the specific monitoring technique and its underlying motivation no longer apply to modern 4D databases.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's data file architecture was fundamentally re-engineered starting with 4D v11 SQL (2007), eliminating the legacy sixty-four-segment, 2GB-per-segment structure this note is designed to monitor",
+      "Modern 4D database administration relies on different, built-in tooling for monitoring data file size and fragmentation rather than custom segment-tracking code"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "asset_id": 37328,
+  "title": "Tech Note: FAQ - List Forms in Version 2004",
+  "technote_number": "05-19",
+  "year": 2005,
+  "published_date": "May 20, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "4D Technical Support",
+  "page_url": "https://kb.4d.com/assetid=37328",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_17-20_(MAY)/05-19_List_Forms_in_2004.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004 list/output form architecture",
+    "Included forms (subforms)",
+    "MODIFY SELECTION / DISPLAY SELECTION commands",
+    "LOAD RECORD command",
+    "Selection modes: Single / Multiple / None",
+    "On Load Record / On Selection Change / On Display Detail form events",
+    "GET HIGHLIGHTED RECORDS / HIGHLIGHT RECORDS commands"
+  ],
+  "historical_commentary": {
+    "text": "This FAQ documents 4D 2004's major harmonization of list-style forms (Output forms, Subforms, and User mode all unified under common behavior), including new selection modes, the LOAD RECORD command, and new events like On Load Record and On Selection Change, replacing older behaviors like the auto-loaded current record and the blinking-focus triangle. The classic list-form/subform mechanism and its events remain part of current 4D (still usable in Project Mode databases), but for new development the List Box object has become the dominant, far more capable tool for tabular UI, making much of this note's specific list-form/subform guidance still functionally accurate yet less commonly reached for today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's List Box object (introduced the same era and vastly expanded since) has become the primary tool developers use for tabular/list UI, reducing reliance on the classic list-form/subform mechanisms detailed in this FAQ",
+      "The commands and events described (MODIFY SELECTION, DISPLAY SELECTION, LOAD RECORD, On Load Record, On Selection Change, GET HIGHLIGHTED RECORDS) remain part of the current 4D classic language and function in both Design Mode and Project Mode databases"
+    ]
+  }
+}

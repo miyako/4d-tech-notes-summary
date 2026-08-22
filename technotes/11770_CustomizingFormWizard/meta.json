@@ -1,0 +1,27 @@
+{
+  "asset_id": 11770,
+  "title": "Tech Note: Customizing the 4D Form Wizard",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "August 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11770",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Form Wizard",
+    "Mac OS resources (custom graphics)",
+    "MusicPro example database"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to override the Form Wizard's default template graphics with custom resources, noting a platform quirk where Mac OS-based resources are supported on both Mac and Windows, but only Macintosh has the editing utilities, so the example must be followed on a Mac; both the Form Wizard and classic Mac OS resource-file-based customization are long obsolete, tied to a form-templating and cross-platform resource model that predates modern 4D form design.",
+    "status": "obsolete",
+    "related_updates": [
+      "The V6-era Form Wizard and its resource-based template customization have been superseded by newer 4D form design tools and capabilities",
+      "Classic Mac OS resource files/editing utilities referenced here are obsolete since Mac OS X abandoned the classic resource fork model"
+    ]
+  }
+}

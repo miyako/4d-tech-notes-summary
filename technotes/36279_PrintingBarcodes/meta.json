@@ -1,0 +1,27 @@
+{
+  "asset_id": 36279,
+  "title": "Tech Note: Printing Barcodes",
+  "technote_number": "05-08",
+  "year": 2005,
+  "published_date": "February 24, 2005",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=36279",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-08_Printing_Barcodes.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D component (barcode printing)",
+    "Barcode symbologies",
+    "Print form/label generation"
+  ],
+  "historical_commentary": {
+    "text": "This note provides a 4D component with source code for printing multiple barcode symbologies via a single command, aimed at product/shipment labeling scenarios in classic 4D 2004 applications. Barcode printing remains a common business requirement today, and the general approach (an encapsulated component exposing a simple printing command) is still conceptually sound, though modern 4D projects would likely use updated barcode-generation libraries, native list box/label printing features, or third-party components rather than this specific 2005-era source. Only the teaser paragraph could be recovered for this note.",
+    "status": "superseded",
+    "related_updates": [
+      "Newer 4D components and third-party barcode libraries have since superseded early 2000s barcode-printing source code",
+      "Full archive/PDF for this note could not be recovered in this environment"
+    ]
+  }
+}

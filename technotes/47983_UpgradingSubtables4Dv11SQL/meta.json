@@ -1,0 +1,28 @@
+{
+  "asset_id": 47983,
+  "title": "Tech Note: Upgrading Subtables to 4D v11 SQL",
+  "technote_number": "07-42",
+  "year": 2007,
+  "published_date": "November 6, 2007",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer; Jean-Yves Fock-Hoon, QA Manager",
+  "page_url": "https://kb.4d.com/assetid=47983",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_42-45_(NOV)/07-42_Upgrading_Subtables.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Subtables (single-level and multi-level)",
+    "Automatic subtable-to-related-table conversion",
+    "SEND RECORD / RECEIVE RECORD commands",
+    "Community SendReceiveRecord component"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a one-time, version-specific migration problem: subtables (a legacy 4D data structure) were removed entirely in 4D v11 SQL, replaced by standard related tables with an automatically generated 'special relation' for backward compatibility, while multi-level subtables were not convertible at all and required manual data preservation before upgrading. This is a purely historical migration concern relevant only to databases still running pre-v11 4D structures with subtables, which are exceedingly rare today since subtables have been absent from 4D for well over a decade; the note is preserved for historical/archival interest but has no practical application in modern 4D development.",
+    "status": "obsolete",
+    "related_updates": [
+      "Subtables have been absent from 4D since version 11 (2007) and have no equivalent in current 4D, where related tables (and now ORDA relations) are the standard mechanism",
+      "Any database still containing subtables would have needed to complete this migration many 4D versions ago"
+    ]
+  }
+}

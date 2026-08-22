@@ -1,0 +1,1 @@
+Tech Note: Maintaining User Modifiable Choice Lists (4D v6.0, September 1997) — presents generic, reusable code for saving and restoring end-user customizations to "User Modifiable" choice lists so they survive being overwritten when a new database structure is deployed, using the accompanying SaveListsDemo example database.
