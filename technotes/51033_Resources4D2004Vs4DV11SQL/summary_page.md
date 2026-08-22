@@ -1,0 +1,21 @@
+# Tech Note: Resources: 4D 2004 vs 4D v11 SQL
+
+## Overview
+........................................................................................................... 3 Introduction ..................................................................................................... 3 Resources in 4D 2004 ....................................................................................... 3 Resource Forks .............................................................................................. 3 Common Resources ....................................................................................... 4 Using resources ............................................................................................. 4 Commands ................................................................................................. 4 Direct Use .................................................................................................. 5 Resources in 4D v11 SQL .................................................................................. 5 Strings.......................................................................................................... 5 Pictures......................................................................................................... 7 Constants.................................................................................................... 11 4D v11 SQL Resource Compatibility............................................................... 11 Example DB – 4D 2004 ................................................................................... 12 Design ........................................................................................................ 12 Use............................................................................................................. 12 Example DB – 4D v11 SQL converted ............................................................... 15 Example DB – 4D v11 SQL upgraded................................................................ 15 Conclusion ..................................................................................................... 16 Related Resources .......................................................................................... 16 2 Abstract ------------------------------------------------------------------------------------------------------------------------------------------------------------------ 4D v11 SQL introduces a new resource architecture. Resources in 4D v11 SQL use a file-based system, which greatly differs from previous versions of 4D, which used a resource fork-based system. The fork-based system is being progressively abandoned, so while it is recommended to upgrade all resources to use the new architecture, compatibility mechanisms have been implemented to allow the oldstyle resources to continue to function in 4D v11 SQL. This Tech Note covers the architecture in 4D 2004 and in 4D v11 SQL. Sample databases are included.
+
+## Key Points
+- Published September 12, 2008 as Technical Note 08-33.
+- Targets 4D v11.2 on Mac &amp; Win.
+- Author: Jesse Pina, Technical Services Team Member, 4D Inc..
+
+## Featured Technology
+- 4D v11 SQL
+
+## Historical Context
+This 2008 Tech Note documents a feature of the then-new 4D v11 SQL engine or the 4D Ajax Framework (4DAF), both of which were central to 4D's product strategy at the time. The 4D v11 SQL engine itself was foundational and its core concepts (schemas, SQL access, list boxes, components) persist conceptually in modern 4D, though the specific syntax and interfaces have evolved substantially through later versions and ORDA (introduced 2018). 4DAF-based web UI techniques (Data Grids, YUI integration, custom AJAX components), by contrast, reflect a web-development approach that has been superseded by 4D's modern web server, web components, and Qodly Studio (2021+).
+
+**Status:** superseded
+
+**Related updates:**
+- 4D v11 SQL's data access model has since been extended by ORDA (Object Relational Data Access, introduced in 4D v17, 2018), which is now the recommended API for data access
+- Project Mode (introduced 4D v17, 2018) added a text-based alternative to the binary Design Mode structure file referenced implicitly in this era

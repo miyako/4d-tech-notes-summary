@@ -1,0 +1,1 @@
+Tech Note: Building Applications Examples – Part 3 CS and SourcesFiles (TN 08-14, 4D v2004.7r3, April 16, 2008) — 4D 2004 features over 80 XML keys that can be used to build customized applications.

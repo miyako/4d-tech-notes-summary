@@ -1,0 +1,1 @@
+Tech Note: Modifying Data Grid Columns (TN 08-11, 4D Web 2.0 Pack v11.1, March 26, 2008) — The Technical Note provides information about the new, easy to use, API functions that modify the column properties of the new Data Grid in the 4D Ajax Framework v11 release 1 (11.

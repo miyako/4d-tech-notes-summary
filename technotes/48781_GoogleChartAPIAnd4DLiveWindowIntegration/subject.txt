@@ -1,0 +1,1 @@
+Tech Note: Google Chart API and 4D Live Window Integration (TN 08-04, 4D v11, January 31, 2008) — The Google Chart API is a simple tool that is used to create various charts.

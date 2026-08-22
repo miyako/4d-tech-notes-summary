@@ -1,0 +1,1 @@
+Tech Note: Web Area in 4D v11 SQL (TN 08-25, 4D SQL v11.2, July 2, 2008) — .

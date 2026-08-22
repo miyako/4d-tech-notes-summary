@@ -1,0 +1,1 @@
+Tech Note: The Structure Window (TN 08-42, 4D v11.3, December 2, 2008) — Managing the structure of your tables, fields and relations becomes ever more effortless with the growing features of the Structure window in 4D v11 SQL.

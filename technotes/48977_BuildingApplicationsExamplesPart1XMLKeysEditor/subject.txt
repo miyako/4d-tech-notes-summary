@@ -1,0 +1,1 @@
+Tech Note: Building Applications Examples – Part 1 XML Keys Editor (TN 08-07, 4D v2004.7, February 20, 2008) — 4D 2004 features over 80 XML keys that can be used to build customized applications.

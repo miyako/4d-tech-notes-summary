@@ -1,0 +1,1 @@
+Tech Note: Data Grid Events (TN 08-24, 4D Web 2.0 Pack v11.2, June 26, 2008) — The Data Grid supports a number of events that can be used for many purposes such as drag and drop functionality and passing custom values to and from 4D.

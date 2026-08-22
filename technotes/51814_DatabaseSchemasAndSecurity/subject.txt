@@ -1,0 +1,1 @@
+Tech Note: Database Schemas and Security (TN 08-43, 4D v11.3, December 10, 2008) — 4D v11 SQL Release 3 introduces many improvements and features to the 4D v11 SQL line of products.

@@ -1,0 +1,1 @@
+Tech Note: Custom Values in the 4D Ajax Framework (TN 08-23, 4D Web 2.0 Pack v11.2, June 19, 2008) — The 4D Ajax Framework is a powerful and flexible tool with many features.

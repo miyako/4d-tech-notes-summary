@@ -1,0 +1,1 @@
+Tech Note: Picture Management in 4D v11 SQL (TN 08-31, 4D v11.2, August 27, 2008) — .

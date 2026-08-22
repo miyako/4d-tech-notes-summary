@@ -1,0 +1,1 @@
+Tech Note: Object Storage in 4D v11 SQL Using Native Commands (TN 08-18, 4D v11, May 14, 2008) — 4D v11 SQL has extended the capabilities of hierarchical list items to allow storage of Object-like structures.

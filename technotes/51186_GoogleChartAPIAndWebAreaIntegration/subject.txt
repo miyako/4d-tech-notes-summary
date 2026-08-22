@@ -1,0 +1,1 @@
+Tech Note: Google Chart API and Web Area Integration (TN 08-35, 4D v11.2, October 1, 2008) — .

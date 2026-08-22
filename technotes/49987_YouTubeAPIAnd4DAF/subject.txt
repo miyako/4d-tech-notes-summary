@@ -1,0 +1,1 @@
+Tech Note: YouTube API and 4DAF (TN 08-21, 4D Web 2.0 Pack v11.1, June 4, 2008) — YouTube is a service that allows users to upload their videos and publish it in the World Wide Web.

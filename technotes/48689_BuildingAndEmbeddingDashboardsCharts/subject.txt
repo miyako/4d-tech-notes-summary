@@ -1,0 +1,1 @@
+Tech Note: Building and Embedding Dashboards/Charts (TN 03-08, 4D Web 2.0 Pack v11, January 23, 2008) — A slew of new features have been introduced in the 4D Ajax Framework v11.
