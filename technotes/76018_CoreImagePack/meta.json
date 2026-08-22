@@ -1,0 +1,27 @@
+{
+  "asset_id": 76018,
+  "title": "Core Image Pack",
+  "technote_number": "10-04",
+  "year": 2010,
+  "published_date": "February 5, 2010",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac",
+  "author": "Thomas Maul, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=76018",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/MacOS/TN_2010_04-07_(FEB)/10-04_CoreImagePack.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Core Image Pack plugin (CI_SetImage, CI_GetImage, CI_GetFilterList, CI_GetFilterAttributes, CI_ApplyFilter)",
+    "Mac OS X Core Image framework",
+    "GPU-accelerated image filtering, CI_Preview external area"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces a Mac-only 4D plugin exposing Apple's Core Image framework (introduced in Mac OS X 10.4) for GPU-accelerated image filtering, color adjustment, blending, and previewing directly from 4D, requiring 4D v11 SQL and Mac OS 10.5+. The plugin depends on specific, dated Mac OS X system frameworks and 4D external-area/plugin APIs from this era; while the classic 4D plugin architecture itself is still supported, this particular third-party plugin's continued availability/compatibility with modern macOS and current 4D versions is doubtful, and 4D now offers native picture manipulation commands and better cross-platform image APIs that reduce the need for OS-specific plugins like this one.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's native picture/image commands and cross-platform 4D language have expanded since 2010, reducing reliance on Mac-only third-party image plugins",
+      "The classic C-based plugin API remains supported, but this specific Mac OS X 10.4/10.5-era Core Image plugin is unlikely to be maintained or compatible with current macOS/4D releases"
+    ]
+  }
+}

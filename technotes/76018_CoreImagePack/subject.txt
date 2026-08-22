@@ -1,0 +1,1 @@
+Tech Note: Core Image Pack (TN 10-04) — introduces a Mac-only 4D plugin that exposes Apple's Core Image framework for GPU-accelerated image filtering, color adjustment, and blending, with a CI_Preview external area and five plugin commands.

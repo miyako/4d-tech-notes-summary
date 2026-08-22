@@ -1,0 +1,1 @@
+Tech Note 09-08: introduces the 4D Office Library component for 4D v11 SQL, which exports selected records to Word/Excel documents (Office Open XML format) and imports/exports contacts and appointments to/from Outlook (Windows) or Address Book (Mac).

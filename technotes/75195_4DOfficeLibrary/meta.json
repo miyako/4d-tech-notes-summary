@@ -1,0 +1,28 @@
+{
+  "asset_id": 75195,
+  "title": "Tech Note: 4D Office Library",
+  "technote_number": "09-08",
+  "year": 2009,
+  "published_date": "February 26, 2009",
+  "product": "4D",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Silvio Belini, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75195",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_05-08-(FEB)/09-08_4D_Office_Library.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Office Library component generating Office Open XML (.docx/.xlsx) via DOM XML commands",
+    "Command-line zip (Mac) / 7-zip (Windows) invoked via LAUNCH EXTERNAL PROCESS to package OOXML containers",
+    "VBScript (cscript) / AppleScript (osascript) bridges for Outlook and Address Book contact/appointment import-export",
+    "Drag-and-drop field-binding GUI on output forms for Word/Excel/Outlook integration"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a component that hand-builds Office Open XML (.docx/.xlsx) documents by manually constructing the required XML parts with 4D DOM commands, then shelling out to zip/7-zip via LAUNCH EXTERNAL PROCESS to package them, and bridges to Outlook/Address Book by generating and executing VBScript/AppleScript files. This entire approach reflects the pre-native-document-generation era of 4D: modern 4D has since gained native, built-in facilities for generating spreadsheets and rich documents (4D Write Pro and 4D View Pro, ~v16-18) without hand-rolled OOXML/zip plumbing, and calling out to VBScript/AppleScript for Outlook/Contacts integration is a fragile OS-automation technique that has been largely superseded by native calendar/contacts APIs, dedicated connectors, or REST-based integrations. The component's manual XML/zip approach and OS-scripting bridges are best regarded as historical technique rather than current best practice.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write Pro / 4D View Pro (4D v16-18+) provide native document/spreadsheet generation, removing the need to hand-build Office Open XML and shell out to zip utilities",
+      "Modern integration with Outlook/Exchange/calendars now favors REST/Graph APIs or dedicated connectors over generated VBScript/AppleScript automation"
+    ]
+  }
+}

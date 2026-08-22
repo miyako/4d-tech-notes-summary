@@ -1,0 +1,1 @@
+Quick Report Wizard - Part II (TN 09-35) — the implementation/programming counterpart to Part I, showing how to build a custom multi-step Quick Report Wizard using 4D v11 SQL's Report Plug-in and QR commands for both List and Cross-Tab reports.

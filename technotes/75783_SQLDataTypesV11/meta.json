@@ -1,0 +1,27 @@
+{
+  "asset_id": 75783,
+  "title": "Tech Note: SQL Data Types in 4D v11 SQL",
+  "technote_number": "09-22",
+  "year": 2009,
+  "published_date": "June 4, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Chris Visaya, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75783",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_22-26_(JUN)/09-22_sqlDataTypes.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Data Definition Language (CREATE TABLE)",
+    "SQL-to-4D type mapping (VARCHAR, TEXT, CLOB, NUMERIC, TIMESTAMP, DURATION, etc.)",
+    "4D field types (Text, Real, Integer, Longint, Boolean, BLOB, Picture, Date/Time, Time)"
+  ],
+  "historical_commentary": {
+    "text": "This note documented how 4D v11 SQL's newly introduced SQL Data Definition Language mapped standard SQL column types onto 4D's native field types, a genuinely useful reference at a time when SQL-based structure creation was new to 4D developers. This type-mapping information is still accurate and still relevant today, since 4D's SQL engine and its underlying field type system have remained fundamentally the same, though ORDA-based entity models built on the classic structure are now often the preferred way to model and access data (SQL DDL/DML being more of an alternate/legacy access path in mature projects).",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA (4D v16 R5+, 2017) is now the primary recommended way to model and query 4D data, with SQL representing an alternate access path that remains fully functional",
+      "The SQL-to-4D type mappings documented here remain accurate in current 4D versions"
+    ]
+  }
+}

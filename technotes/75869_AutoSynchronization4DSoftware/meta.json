@@ -1,0 +1,24 @@
+{
+  "asset_id": 75869,
+  "title": "Automatic Synchronization of 4D Software",
+  "technote_number": "09-32",
+  "year": 2009,
+  "published_date": "August 13, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=75869",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_31-35_(AUG)/09-32_AutoSynchronization.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D remote mode client update/synchronization scripts"
+  ],
+  "historical_commentary": {
+    "text": "Based only on the available teaser text, this note appears to address a real pain point of the 2009-era 4D deployment model: manually updating 4D remote-mode client machines whenever a new interpreted-mode build was released. 4D's deployment and update tooling has changed substantially since (different licensing/deployment models, compiled/merged applications, and more automated client update mechanisms in later 4D Server/remote configurations), so the specific scripts described are likely outdated even if the general goal (automating client update rollout) is still a live concern for on-premise 4D deployments today. This assessment is necessarily limited since the full PDF was unavailable.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Later 4D Server/remote-mode releases introduced more built-in update/versioning mechanisms for deployed clients than the custom scripts described here"
+    ]
+  }
+}

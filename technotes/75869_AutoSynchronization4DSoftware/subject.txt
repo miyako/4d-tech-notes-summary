@@ -1,0 +1,1 @@
+Automatic Synchronization of 4D Software (TN 09-32) — scripts to help developers efficiently deploy updates of 4D remote-mode client software across many machines, instead of manually updating each one. (teaser only; full PDF unavailable)

@@ -1,0 +1,1 @@
+SQL Data Types in 4D v11 SQL (TN 09-22) — a reference mapping standard SQL column types (VARCHAR, TEXT, CLOB, NUMERIC, TIMESTAMP, DURATION, etc.) to their corresponding 4D field types when creating tables/fields with 4D v11 SQL's Data Definition Language.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 75901,
+  "title": "Quick Report Wizard - Part II",
+  "technote_number": "09-35",
+  "year": 2009,
+  "published_date": "September 3, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75901",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_31-35_(AUG)/09-35_QuickReportWizardPart2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Quick Report Plug-in / Report Plug-in Area",
+    "Quick Report (QR) commands (40+ commands, e.g. QR REPORT TO BLOB)",
+    "List Reports and Cross-Tab Reports",
+    "Custom multi-page Wizard interface (DIALOG-based)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the programming side of a custom multi-step Quick Report Wizard built on 4D v11 SQL's integrated Report Plug-in and its 40+ QR commands, covering both List and Cross-Tab report types with formatting, styling, borders, and column widths all controlled programmatically. This is a classic-era reporting technique built around the older Quick Report engine and a hand-rolled DIALOG-driven wizard UI, which is squarely in the area 4D has since modernized: 4D Write Pro and 4D View Pro (introduced roughly v16-v18) provide far richer, more maintainable document and spreadsheet-style reporting, and 4D's own Quick Report/Quick Form concept has evolved considerably since v11. The underlying idea of giving end users self-service ad hoc reporting remains valuable, but the specific QR command set and the custom wizard shown here reflect a reporting architecture 4D has since layered over with more powerful alternatives.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D Write Pro (~v16) and 4D View Pro (~v17-18) now handle richer document/report generation than the classic Quick Report/Report Plug-in Area",
+      "4D's Quick Report/Quick Form feature set has evolved substantially since 4D v11 SQL Release 4"
+    ]
+  }
+}
