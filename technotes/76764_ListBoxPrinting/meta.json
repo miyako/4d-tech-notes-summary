@@ -1,0 +1,27 @@
+{
+  "asset_id": 76764,
+  "title": "Tech Note: Advanced List Box Printing",
+  "technote_number": "13-01",
+  "year": 2013,
+  "published_date": "January 29, 2013",
+  "product": "4D",
+  "version": "13.2",
+  "platform": "Mac & Win",
+  "author": "Charles “Charlie” Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76764",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-01_ListBoxPrinting.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v13 List Box (selection-based and array-based)",
+    "Multi-page printing / page headers",
+    "Subtotals in array-based list boxes",
+    "Contextual printing of multiple objects per page"
+  ],
+  "historical_commentary": {
+    "text": "Classic list box printing techniques described here still function in current 4D versions since printable list boxes and their configuration commands remain part of the language. The main shift since this note is that list boxes can now also be built on collections/entity selections rather than only arrays or record selections, so a modern report might source its data via ORDA while reusing the same printing/pagination techniques shown here.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Collection and entity-selection-based list boxes (4D v16+) as an ORDA-friendly data source alongside the classic array/selection-based list boxes covered here"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Getting Started with Language Objects in 4D (TN 14-08, 4D v14, May 2014) — introduces 4D's brand-new C_OBJECT language data type, a JSON-inspired key/value structure, along with the OB_ command family used to create, inspect, and manipulate objects, and its integration with arrays, JSON, and web/JavaScript commands.

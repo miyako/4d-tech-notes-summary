@@ -1,0 +1,28 @@
+{
+  "asset_id": 76140,
+  "title": "Tech Note: Editing SVG Pictures in 4D v12",
+  "technote_number": "10-23",
+  "year": 2010,
+  "published_date": "July 26, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76140",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_21-24_(JUL)/10-23_Editing_SVG_Pictures.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v12 SVG commands",
+    "SVG groups and element IDs",
+    "dynamic SVG element manipulation (resize, hide/show, move, text)",
+    "SVG image vs SVG document"
+  ],
+  "historical_commentary": {
+    "text": "This note showcases 4D v12's new ability to modify a live SVG document in place (rather than re-rendering a static SVG image), using SVG groups, element IDs, and per-element attribute manipulation for resizing, showing/hiding, moving, and text changes. This SVG-editing API remains functional in current 4D thanks to backward compatibility and is still a valid technique for building dynamic vector UIs, though for many new projects a modern 4D form with CSS styling or a web/Qodly front-end would now be a more idiomatic first choice for similarly dynamic interfaces.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D forms with CSS styling (4D v18+) offer an alternative, more modern route to dynamic, styleable interfaces",
+      "Web/Qodly front-ends now often replace hand-built SVG UIs for rich dynamic visuals"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+4D v12 and Exchange Web Services (TN 11-01, 4D v12.1, January 20, 2011) — shows how to integrate 4D with Microsoft Exchange Server via Exchange Web Services (EWS) using the php-ews PHP library and 4D v12's embedded PHP interpreter, with worked examples for folders, contacts, tasks, and calendar events.

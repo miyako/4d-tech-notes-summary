@@ -1,0 +1,1 @@
+This Tech Note explains how to implement a classic "Window" menu — a dynamic menu that lists all open windows and lets users switch between them, ticking the active one — using a set of provided example 4D methods (WM_OnStartup, WM_HandleClick, WM_SetMenuBar, WM_UntickWindows, etc.).

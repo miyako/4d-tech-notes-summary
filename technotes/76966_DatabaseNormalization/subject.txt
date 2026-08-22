@@ -1,0 +1,1 @@
+Tech Note: Database Normalization (TN 14-03, 4D v14, February 2014) — a foundational primer by Timothy Tse explaining relational database normalization theory (primary keys, one-to-many relationships, and the first through third normal forms), illustrated with a worked example converting an un-normalized student/degree/address table into a properly normalized multi-table design.

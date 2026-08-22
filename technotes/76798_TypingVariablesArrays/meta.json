@@ -1,0 +1,27 @@
+{
+  "asset_id": 76798,
+  "title": "Tech Note: Typing Variables and Arrays for Active Objects",
+  "technote_number": "13-04",
+  "year": 2013,
+  "published_date": "March 29, 2013",
+  "product": "4D",
+  "version": "13.3",
+  "platform": "Mac & Win",
+  "author": "Aaron Smith, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76798",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-04_DeclareVariable.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Active objects (form objects)",
+    "Variable/array typing (C_TEXT, ARRAY commands, etc.)",
+    "List objects (hierarchical list, list box)",
+    "Pop-up/button/radio/checkbox/progress-indicator/tab-control/plug-in/web-area objects"
+  ],
+  "historical_commentary": {
+    "text": "Most of the classic active-object types and their variable/array typing rules described here (buttons, radio buttons, check boxes, pop-ups, progress indicators) remain unchanged and fully applicable in current 4D versions, since 4D forms retain deep backward compatibility. The main evolution is in list boxes, where 4D now also supports object- and collection/entity-selection-based list boxes in addition to the classic array-based ones described here, giving developers a more ORDA-friendly alternative for that specific object type.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Object/collection and entity-selection-based list boxes (4D v16+) as ORDA-friendly alternatives to classic array-based list boxes"
+    ]
+  }
+}

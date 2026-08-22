@@ -1,0 +1,27 @@
+{
+  "asset_id": 76360,
+  "title": "SVG Coordinate System",
+  "technote_number": "11-19",
+  "year": 2011,
+  "published_date": "June 9, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76360",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-19_SVG_Coordinate_System.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG rendering engine",
+    "SVG viewport and viewBox",
+    "SVG transform attribute: translate and scale"
+  ],
+  "historical_commentary": {
+    "text": "As Part 1 of the SVG coordinate system series, this note lays out the foundational SVG viewport/viewBox model and the translate/scale transform values, concepts that remain accurate as general SVG/web knowledge today. However, the specific application context — 4D's own SVG rendering engine used to draw picture-object charts and graphics inside classic Design Mode forms — is a legacy delivery mechanism now that 4D applications more commonly embed standards-based SVG/HTML5 content via web areas rather than 4D's proprietary SVG component.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Web areas embedding standard browser-rendered SVG/HTML5/JS content are now the more common way to display rich vector graphics in 4D applications",
+      "4D View Pro (introduced v17+) for many chart/data-visualization use cases that once relied on 4D SVG"
+    ]
+  }
+}

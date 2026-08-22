@@ -1,0 +1,1 @@
+SVG Coordinate System (TN 11-19, 4D v12, June 9, 2011) — Part 1 of a series introducing the SVG coordinate system as used by 4D's SVG component: the viewport, the viewBox, and the "translate" and "scale" values of the transform attribute.

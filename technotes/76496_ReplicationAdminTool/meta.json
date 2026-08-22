@@ -1,0 +1,27 @@
+{
+  "asset_id": 76496,
+  "title": "Tech Note: Replication Administration Tool",
+  "technote_number": "12-05",
+  "year": 2012,
+  "published_date": "February 28, 2012",
+  "product": "4D",
+  "version": "13.1",
+  "platform": "Mac & Win",
+  "author": "Jesse Pi\u00f1a, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76496",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-05_ReplicationAdminR1.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v12 native database Replication feature",
+    "Replication Administration Tool (RAT) component",
+    "Wizard-based configuration UI",
+    "Stored procedures for remote server connections"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a component built to simplify configuring 4D v12's native database replication feature, wrapping it in a wizard so developers could set up data transfer between databases without hand-coding the replication mechanism. 4D's replication feature and the general concept of a configuration wizard remain valid, but 4D's data synchronization landscape has evolved substantially since 2012, with ORDA-based REST synchronization and 4D's later dedicated Sync feature offering more modern, entity-oriented approaches to moving data between servers and clients, making this specific classic-language RAT component and its wizard largely superseded for new projects, though the underlying replication feature it wraps may still exist for legacy use.", "status": "partially_superseded",
+    "related_updates": [
+      "4D's ORDA-based data synchronization / Sync (introduced in later 4D versions) offers a more modern entity-oriented approach to replicating/synchronizing data between servers and clients",
+      "REST APIs built on ORDA (4D v16 R5/R6, 2017) are now commonly used for moving and syncing data between systems instead of classic database replication tooling"
+    ]
+  }
+}

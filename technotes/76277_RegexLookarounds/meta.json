@@ -1,0 +1,24 @@
+{
+  "asset_id": 76277,
+  "title": "Tech Note: Using RegEx \u201cLookarounds\u201d with 4D Match regex",
+  "technote_number": "11-07",
+  "year": 2011,
+  "published_date": "March 14, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76277",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-07_Lookarounds.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Match regex command (4D's regular expression engine)",
+    "Regex lookahead and lookbehind (positive/negative) constructs",
+    "Nested and combined lookaround patterns with conditionals"
+  ],
+  "historical_commentary": {
+    "text": "Regular expression syntax and lookaround semantics are a language-level standard that has not changed, so this note's core content (how lookaround assertions work and how to write them) is genuinely timeless and remains directly usable with 4D's Match regex command today.",
+    "status": "current",
+    "related_updates": []
+  }
+}

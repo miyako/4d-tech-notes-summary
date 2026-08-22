@@ -1,0 +1,1 @@
+Tech Note: Image Manipulation with SVG (TN 10-29, 4D v12, September 2010) — demonstrates using SVG to resize, reflect, and fade embedded pictures inside a 4D application.

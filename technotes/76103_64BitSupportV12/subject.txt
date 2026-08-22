@@ -1,0 +1,1 @@
+Understanding 64-bit Support in 4D v12 (TN 10-15, Windows) — a pre-release explainer on what 4D Server v12's new Windows 64-bit executable does and does not deliver, focused on removing the ~4GB memory ceiling to support a larger server cache and more concurrent clients rather than raw speed.

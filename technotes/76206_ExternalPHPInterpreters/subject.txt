@@ -1,0 +1,1 @@
+Tech Note: Using External PHP Interpreters in 4D v12 (TN 10-32, 4D v12, November 2010) — explains the requirements and setup for using an external PHP interpreter with 4D v12's PHP scripting support on Windows and Mac.

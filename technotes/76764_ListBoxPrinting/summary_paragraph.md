@@ -1,0 +1,1 @@
+This Tech Note documents advanced printing techniques for 4D v13 List Boxes, covering printing both selection-based and array-based list boxes, producing multi-page printouts with distinct first-page vs. subsequent-page headers, and contextual printing of multiple list boxes or other objects on the same page.

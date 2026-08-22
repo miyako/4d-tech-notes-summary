@@ -1,0 +1,1 @@
+This Tech Note shows how to add Google-style type-ahead suggestions to any enterable text variable in a 4D form, delivered as a component with a simple entry point requiring only a single line of code attached to the variable's 'On After Keystroke' form event, with full component source included for further customization.

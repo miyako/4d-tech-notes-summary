@@ -1,0 +1,28 @@
+{
+  "asset_id": 76783,
+  "title": "Tech Note: Resources Kit",
+  "technote_number": "13-03",
+  "year": 2013,
+  "published_date": "March 6, 2013",
+  "product": "4D",
+  "version": "12.5",
+  "platform": "Mac & Win",
+  "author": "Keisuke Miyako, Sales Engineer, 4D-Japan",
+  "page_url": "https://kb.4d.com/assetid=76783",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-03_ResourcesKit.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Resource files (.rsr/.rsrc)",
+    "Win4dx/Mac4dx plugins",
+    "XLIFF format",
+    "4D Resources Kit utility database (open source, GitHub)"
+  ],
+  "historical_commentary": {
+    "text": "The specific legacy artifacts this tool targets — .rsr/.rsrc resource files and Win4dx/Mac4dx plugins — are themselves long obsolete, tied to classic Mac resource forks and a plugin technology 4D no longer supports, so the Resources Kit's conversion utility has little remaining practical use. Its underlying goal (moving string/constant resources into a portable, localizable format) is still valid, but is now addressed natively via 4D's built-in XLIFF-based translation tools and Design/Project mode resource management rather than this third-party conversion utility.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's native built-in XLIFF-based string/translation management, which removed the need for this third-party resource-conversion utility",
+      "Project Mode (v17+) further changed how structure resources and translations are stored"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Advanced List Box Printing (TN 13-01, 4D v13.2, January 29, 2013) — This Tech Note documents advanced printing techniques for 4D v13 List Boxes, covering printing both selection-based and array-based list boxes, producing multi-page printouts with distinct first-page vs.

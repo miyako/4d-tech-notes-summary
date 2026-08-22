@@ -1,0 +1,26 @@
+{
+  "asset_id": 76128,
+  "title": "Tech Note: 4D Debug Log Enabler",
+  "technote_number": "10-21",
+  "year": 2010,
+  "published_date": "July 8, 2010",
+  "product": "4D",
+  "version": "11.6",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=76128",
+  "download_url": "https://kb.4d.com/******ftp.4d.com/Partners_Only/ACI_TECHNICAL_NOTES/Windows/TN_2010_21-24_(JUL)/10-21_Debug_Log_Enabler.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D debug log file",
+    "programmatic log enabling without user interaction",
+    "diagnosing 'hung' 4D applications"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses enabling the 4D debug log file without requiring user interaction, useful when an application appears hung but is still executing code — a scenario that predates 4D's later improvements to diagnostics (such as enhanced debugger tooling and stack-trace/crash reporting). The underlying debug log file mechanism is still part of 4D today, and the described workaround for enabling it in unresponsive-UI situations remains a plausible technique, though modern 4D offers additional diagnostic avenues (like improved crash logs and the Runtime Explorer) that reduce reliance on this specific 2010-era component.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Later 4D versions added improved crash/diagnostic reporting and debugger tooling that supplement the raw debug log file workflow described here"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 76828,
+  "title": "Tech Note: Data Reconstruction",
+  "technote_number": "13-06",
+  "year": 2013,
+  "published_date": "May 22, 2013",
+  "product": "4D",
+  "version": "13.2",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76828",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-06_DataReconstruction.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SQL (embedded)",
+    "External data file",
+    "UTIL_TransferData method",
+    "Structure copy / blank data file",
+    "Triggers and startup/shutdown method disabling"
+  ],
+  "historical_commentary": {
+    "text": "The core problem (data file fragmentation/corruption requiring reconstruction) and the SQL-based table-copy technique remain valid and usable in current 4D versions, since embedded SQL is still fully supported for classic-language projects. That said, developers working in ORDA/entity-based projects today would more likely perform equivalent bulk data operations through entity selections and dataclass methods, and 4D has also introduced improved built-in data file verification/repair tooling over the years that can reduce the need for a fully manual rebuild.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA entity selections and dataclass functions as an alternative to raw SQL for bulk data manipulation in newer projects",
+      "Improved built-in 4D data file verification/compacting tools introduced in later 4D Server releases"
+    ]
+  }
+}

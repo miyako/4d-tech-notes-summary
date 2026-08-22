@@ -1,0 +1,29 @@
+{
+  "asset_id": 77043,
+  "title": "Tech Note: Getting Started with Language Objects in 4D",
+  "technote_number": "14-08",
+  "year": 2014,
+  "published_date": "May 16, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=77043",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-08_C_OBJECTbasics.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "C_OBJECT language data type (4D v14)",
+    "OB SET / OB Get / OB SET ARRAY / OB GET ARRAY / OB Copy / OB Remove",
+    "OB GET PROPERTY NAMES / OB Is defined / OB Get type",
+    "JSON import/export of objects"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the very first introduction of 4D's native Object language type (C_OBJECT) — a foundational moment that ultimately enabled everything from modern JSON handling to ORDA entities years later. The specific verbose command-based API shown here (OB SET, OB Get, OB SET ARRAY, etc.) has since been almost entirely superseded by direct object literal syntax and dot notation, which is far more concise and is now the idiomatic way to work with 4D objects. The underlying concept — self-documenting, JSON-like key/value structures as a first-class 4D language type — remains exactly the foundation of modern 4D development, including ORDA.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Object literal syntax and dot notation (e.g., $obj.property, $obj:={}) introduced in later 4D versions largely replaced the OB_ command family shown here",
+      "ORDA entities and entity selections (4D v16 R5/R6, 2017) are built directly on this object model, making objects central to modern 4D data access",
+      "4D classes (4D v17/v18+) let objects carry behavior (functions) in addition to data"
+    ]
+  }
+}

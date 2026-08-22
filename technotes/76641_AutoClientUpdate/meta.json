@@ -1,0 +1,28 @@
+{
+  "asset_id": 76641,
+  "title": "Tech Note: Automatic Client Update - Updated for 2012",
+  "technote_number": "12-16",
+  "year": 2012,
+  "published_date": "September 4, 2012",
+  "product": "4D Server",
+  "version": "12.4",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Account Manager, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76641",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-16_AutoClientUpdate.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Client/Server architecture",
+    "Automatic client update feature",
+    "Structure/method/form distribution",
+    "Custom update hooks for external resources"
+  ],
+  "historical_commentary": {
+    "text": "Automatic client updating for merged 4D client/server applications remains a core, actively used feature in current 4D versions, so the underlying concept in this note is still relevant. However, the specific mechanics described reflect the pre-Project-Mode, binary-structure-distribution era (structure/method/form changes as monolithic compiled artifacts); with Project Mode's text-based .4DProject structure (v17+) and modern deployment/build pipelines, how structure changes are packaged and distributed to clients has changed significantly from the 2012-era description here.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Project Mode (4D v17+) changed how structure/method/form changes are packaged for distribution to clients",
+      "Modern 4D Server deployment/versioning tooling for managing client updates across releases"
+    ]
+  }
+}

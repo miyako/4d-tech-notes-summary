@@ -1,0 +1,1 @@
+Web Storage (TN 11-02, 4D v12.1, February 4, 2011) — introduces the then-new HTML5 Web Storage API for offline browser data persistence, showing how to store/retrieve key/value data with sample code that replicates data from 4D via HTTP, plus how to inspect stored data in Chrome, Safari, and Firefox.

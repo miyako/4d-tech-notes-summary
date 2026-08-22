@@ -1,0 +1,1 @@
+Introduction to Synchronization and Replication in 4D v12 (TN 11-18, 4D v12.2, June 3, 2011) — introduces 4D v12's new integrated data-engine replication and synchronization feature, covering setup requirements, replication metadata, the REPLICATE/SYNCHRONIZE commands, conflict resolution, and common implementation challenges, with mirror and satellite demo databases.

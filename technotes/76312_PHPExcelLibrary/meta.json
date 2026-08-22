@@ -1,0 +1,27 @@
+{
+  "asset_id": 76312,
+  "title": "Tech Note: PHPExcel Library with 4D v12",
+  "technote_number": "11-12",
+  "year": 2011,
+  "published_date": "April 15, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76312",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-12_PHPExcel_Library_and_4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D's embedded PHP interpreter (v12)",
+    "PHPExcel open-source library",
+    "4D-to-PHP wrapper methods for reading Excel data into list boxes"
+  ],
+  "historical_commentary": {
+    "text": "4D's embedded PHP interpreter and the PHPExcel-based approach shown here still function, but this integration path is now a niche, legacy technique \u2014 4D has since added native spreadsheet capabilities via 4D View Pro, which can read/write true Excel (.xlsx) files directly without a PHP bridge, and PHPExcel itself was deprecated years ago in favor of its successor library PhpSpreadsheet. For new development, native 4D tooling is the more idiomatic choice.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D View Pro (introduced ~4D v17-18) provides native Excel-compatible spreadsheet read/write without a PHP bridge",
+      "PHPExcel itself was discontinued by its maintainers in favor of PhpSpreadsheet"
+    ]
+  }
+}

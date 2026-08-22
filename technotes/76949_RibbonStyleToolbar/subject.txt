@@ -1,0 +1,1 @@
+Tech Note: Creating a Ribbon-Style Toolbar in 4D (TN 14-02, 4D v13.4, January 2014) — demonstrates how to build a Microsoft-Office-style tabbed "ribbon" toolbar in 4D using the new v13 OBJECT SET SUBFORM command to swap between multiple project forms displayed in a shared subform container, with careful visual details to make the tabs feel connected to the active toolbar.

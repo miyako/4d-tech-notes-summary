@@ -1,0 +1,28 @@
+{
+  "asset_id": 76585,
+  "title": "Tech Note: User Configured List Forms",
+  "technote_number": "12-10",
+  "year": 2012,
+  "published_date": "May 31, 2012",
+  "product": "4D",
+  "version": "13.0",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76585",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-10_UserConfiguredListForms.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v13 selection-based List Box (programmatically built columns)",
+    "OBJECT SET RGB COLORS",
+    "Per-user list form configuration table (SQL DDL via Begin SQL)",
+    "QUERY / DELETE SELECTION (classic 4D language)",
+    "List Form Column Formula Editor (component)"
+  ],
+  "historical_commentary": {
+    "text": "This proof-of-concept builds an end-user-customizable output list form by programmatically constructing List Box columns at runtime and storing each user's configuration as a BLOB in a classic-language table, queried with QUERY/DELETE SELECTION and defined via inline SQL DDL. The core idea of letting end users design their own list views remains a legitimate feature pattern today, but the underlying data access (classic selections, manual QUERY chains) predates ORDA's entity-based, dot-notation approach and the List Box itself predates the object/collection-driven list box model introduced in later 4D versions, both of which now make dynamic column configuration considerably more straightforward.", "status": "partially_superseded",
+    "related_updates": [
+      "ORDA entity selections and dot-notation queries (4D v16 R5/R6, 2017) are now preferred over classic QUERY/selection-based data access",
+      "Object/collection-based list boxes bound to arrays of objects (introduced in later 4D versions) simplify dynamic, user-configurable column layouts compared to manually building selection-based List Box columns"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+4D Credentials Manager: JavaScript Injection Using Data from 4D (TN 11-05, 4D v12, February 24, 2011) — demonstrates injecting JavaScript into arbitrary websites via a 4D Web Area to build a password/credentials manager that manually or automatically fills in login fields using data stored in 4D.

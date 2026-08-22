@@ -1,0 +1,1 @@
+Tech Note: Managing Backup Preferences and Files (TN 12-04, 4D v12.3, February 2012) — creating, preserving, or configuring a custom Backup.XML file for distributed/merged 4D applications independent of the native Backup Preferences dialog, via the BKP_Manager component.

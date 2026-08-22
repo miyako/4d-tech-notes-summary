@@ -1,0 +1,1 @@
+Using RegEx “Lookarounds” with 4D Match regex (TN 11-07, 4D v12, March 14, 2011) — a deep dive into positive/negative lookahead and lookbehind regex constructs usable with 4D's Match regex command, illustrated with practical scenarios like password validation and conditional pattern matching.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 76723,
+  "title": "Tech Note: Cropping in 4D",
+  "technote_number": "12-21",
+  "year": 2012,
+  "published_date": "December 21, 2012",
+  "product": "4D",
+  "version": "13.2",
+  "platform": "Mac & Win",
+  "author": "Sonya Rackwitz, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76723",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-21_CroppingIn4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Picture variables",
+    "CROP PICTURE command",
+    "Undo/Redo stack implementation",
+    "Custom crop-selection UI"
+  ],
+  "historical_commentary": {
+    "text": "4D's picture variable model and cropping command are still present and functional in current versions, so the core technique in this note continues to work largely unchanged, and the general undo/redo design pattern remains good practice. The main consideration today is that image-heavy interactive UI could alternatively be built as a web-based component (using an HTML/JS cropping library within a 4D web area) for a more modern look-and-feel, though the native picture-variable approach shown here remains a valid, simpler option for classic-form based applications.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

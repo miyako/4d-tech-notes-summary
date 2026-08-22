@@ -1,0 +1,1 @@
+Tech Note: User Configured List Forms (TN 12-10, 4D v13.0, May 2012) — a proof-of-concept letting end users build and save their own customized List Box-based output list forms using 4D v13's enhanced List Box.

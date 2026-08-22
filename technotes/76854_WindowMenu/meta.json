@@ -1,0 +1,25 @@
+{
+  "asset_id": 76854,
+  "title": "Tech Note: How to Build a Window Menu",
+  "technote_number": "13-09",
+  "year": 2013,
+  "published_date": "July 22, 2013",
+  "product": "4D",
+  "version": "13.3",
+  "platform": "Mac & Win",
+  "author": "Tim Penner, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76854",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-09_BuildWindowMenu.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Window menu (dynamic menu bar item)",
+    "MENU BAR command family",
+    "Custom menus",
+    "Window management methods (WM_*)"
+  ],
+  "historical_commentary": {
+    "text": "The technique of maintaining a dynamic Window menu via classic 4D language methods and MENU BAR commands still works today in Design Mode/Project Mode desktop applications, since 4D remains backward compatible with this classic UI programming style. Its relevance has waned somewhat as user expectations shifted toward tabbed or single-window applications and as document-based desktop metaphors became less central, but for classic-style multi-window 4D desktop apps the approach remains valid with no vendor-provided modern replacement.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

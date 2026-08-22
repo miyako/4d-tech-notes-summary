@@ -1,0 +1,1 @@
+This Tech Note presents a single-method approach, UTIL_TransferData, for rebuilding a 4D data file by loading the existing data as an external file and using embedded SQL to systematically copy every table's data into a brand-new, blank internal data file, producing a perfectly defragmented and clean result.

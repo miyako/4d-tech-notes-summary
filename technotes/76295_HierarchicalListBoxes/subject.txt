@@ -1,0 +1,1 @@
+Hierarchical List Boxes (TN 11-10, 4D v12, April 1, 2011) — a comprehensive guide to 4D v12's new hierarchical list box form object, covering creation via the Form Editor and programmatically, plus sorting, break-level expand/collapse, and cell-position management.

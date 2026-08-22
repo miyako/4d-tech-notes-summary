@@ -1,0 +1,1 @@
+This Tech Note explains 4D v12's new table-by-table data synchronization feature and demonstrates using it to synchronize a 4D Server over the Internet with an Adobe AIR-based client application, producing a multi-platform (Mac/Windows/Linux, and via AIR mobile ports) standalone app that stays in sync with 4D data.

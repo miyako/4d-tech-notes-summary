@@ -1,0 +1,1 @@
+This first installment of a series introduces building REST-style web services in 4D, framing the growing demand for multi-device, API-driven data access and social-network-style connectivity, and describing how to implement a REST-based data service in 4D exposing Create/Retrieve/Update/Delete (CRUD) operations over HTTP.

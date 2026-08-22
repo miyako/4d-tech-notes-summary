@@ -1,0 +1,26 @@
+{
+  "asset_id": 76266,
+  "title": "Tech Note: 4D Credentials Manager: JavaScript Injection Using Data from 4D",
+  "technote_number": "11-05",
+  "year": 2011,
+  "published_date": "February 24, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=76266",
+  "download_url": "https://kb.4d.com/fftp://ftp.4d.com/ACI_TECHNICAL_NOTES/TN_2011/11-05_4D_Credentials_Manager.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Area with JavaScript injection",
+    "4D data feeding a browser-based credentials/password manager",
+    "Cross-site JavaScript automation of form field fill-in"
+  ],
+  "historical_commentary": {
+    "text": "Injecting credentials via JavaScript into arbitrary third-party websites is a technique modern browsers and password managers have specifically hardened against (autofill protections, Content Security Policy, same-origin restrictions), and building a custom credentials manager this way would be considered a security anti-pattern today. The underlying 4D Web Area JavaScript-injection mechanism itself still exists, but this specific application is obsolete both for security reasons and because dedicated, vetted password managers (browser-native or third-party) now fill this role far better than a custom 4D solution.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern browser-native and third-party password managers (with proper security hardening) have made custom JS-injection credential fillers obsolete and inadvisable"
+    ]
+  }
+}

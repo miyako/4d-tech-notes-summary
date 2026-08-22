@@ -1,0 +1,27 @@
+{
+  "asset_id": 76838,
+  "title": "Tech Note: Start and Stop External PHP Interpreter within 4D",
+  "technote_number": "13-08",
+  "year": 2013,
+  "published_date": "June 17, 2013",
+  "product": "4D",
+  "version": "13.3",
+  "platform": "Mac & Win",
+  "author": "Aaron Smith, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76838",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-08_StartStopExtPHPInterp.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PHP interpreter (internal vs external)",
+    "4D PHP execution engine",
+    "Shell/process commands (LAUNCH EXTERNAL PROCESS)",
+    "Cross-platform (Windows/OS X) process control component"
+  ],
+  "historical_commentary": {
+    "text": "4D's internal PHP execution model has evolved over subsequent versions, and this note's platform-specific external-process launch/kill technique is a workaround for a gap 4D has since narrowed with improved internal PHP support and more general external process commands. The underlying need — bridging 4D to external interpreters/processes — is now more often addressed via 4D's native REST/JSON capabilities or newer process-management commands rather than manually scripted OS-level process control.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Later 4D versions expanded native PHP execution and process management commands, reducing the need for this manual external-interpreter bridge"
+    ]
+  }
+}

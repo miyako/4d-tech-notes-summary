@@ -1,0 +1,28 @@
+{
+  "asset_id": 76224,
+  "title": "Tech Note: Replication via HTTP",
+  "technote_number": "10-34",
+  "year": 2010,
+  "published_date": "December 6, 2010",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Rudi Psenicnik, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76224",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_34-36_(DEC)/10-34_Replication_With_HTTP.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "REPLICATION/SYNCHRONIZATION SQL commands",
+    "HTTP web requests",
+    "JSON notation",
+    "custom remote database bridge"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a hand-rolled HTTP+JSON replication bridge built on 4D v12's REPLICATION/SYNCHRONIZATION SQL commands, requiring developers to write their own remote client or server logic from scratch. Since then 4D has invested heavily in built-in, standards-based REST APIs (powered by ORDA) for exchanging data with any platform, which cover much of what this custom bridge aimed to solve with far less bespoke code. The general architecture (HTTP + JSON as a universal sync bridge) remains sound, but the specific low-level SQL replication commands and DIY protocol shown are now a legacy approach.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "ORDA-based REST APIs (4D v16 R5+, 2017) provide built-in, standards-based data exchange with any HTTP/JSON client",
+      "4D's native REST server exposes entity selections directly, reducing the need for hand-built replication bridges"
+    ]
+  }
+}

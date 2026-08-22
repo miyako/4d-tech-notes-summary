@@ -1,0 +1,27 @@
+{
+  "asset_id": 76377,
+  "title": "Dynamic Variables in 4D v12",
+  "technote_number": "11-23",
+  "year": 2011,
+  "published_date": "July 22, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Christophe Keromen, Cabinet de Consultants CKTI",
+  "page_url": "https://kb.4d.com/assetid=76377",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-23_DynamicVariables.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Dynamic/form variables (introduced 4D v12)",
+    "OBJECT Get pointer and pointer-based variable binding",
+    "XVH component for form/process communication"
+  ],
+  "historical_commentary": {
+    "text": "Dynamic form variables and OBJECT Get pointer remain part of the classic 4D language and still function in current, backward-compatible 4D applications built with binary or Project-mode forms, so the mechanism itself is still relevant. However, the specific problem this note solves — reducing memory footprint and managing multi-instantiated component forms by binding form objects dynamically at runtime via a custom XVH component — is less pressing today given vastly larger typical memory budgets and the availability of class-based, object-oriented patterns that offer cleaner encapsulation than pointer-based dynamic variable binding.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D language classes (introduced v18/v19) provide an object-oriented alternative to bespoke pointer-binding components like XVH for encapsulating form state",
+      "Modern hardware/memory budgets have reduced the urgency of the memory-footprint concerns that originally motivated dynamic variables"
+    ]
+  }
+}

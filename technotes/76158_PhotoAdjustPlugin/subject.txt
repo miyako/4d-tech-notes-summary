@@ -1,0 +1,1 @@
+Tech Note: PhotoAdjust Plug-in (TN 10-25, 4D v12, August 2010) — introduces the PhotoAdjust cross-platform plug-in for adjusting exposure, sharpness, rotation, and cropping of digital camera images inside 4D.

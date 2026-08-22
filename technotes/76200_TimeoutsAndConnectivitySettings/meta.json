@@ -1,0 +1,28 @@
+{
+  "asset_id": 76200,
+  "title": "Tech Note: Mastering 4D Timeouts & Connectivity Settings",
+  "technote_number": "10-31",
+  "year": 2010,
+  "published_date": "November 1, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76200",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_31-35_(NOV)/10-31_Mastering_4D_Timeouts_and_Connectivity.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server/Remote mode timeouts",
+    "Idle Connections Timeout (Database Parameter 54)",
+    "TCP_NODELAY (Database Parameter 33)",
+    "Automatic Client Reconnect",
+    "Register Clients at Startup",
+    "Encrypt Client-Server Connections",
+    "router/firewall configuration"
+  ],
+  "historical_commentary": {
+    "text": "This note's deep dive into 4D Client/Server timeout parameters, router/firewall quirks, and connectivity settings addresses network administration fundamentals that remain broadly relevant today, since TCP/IP timeout and firewall behavior hasn't fundamentally changed. Some of the specific router models discussed (Cisco, Sonicwall, older DD-WRT/Tomato firmware) are dated, and 4D has since added newer connectivity features (e.g., improved encryption defaults, cloud-oriented deployment), but the core troubleshooting methodology is still a solid reference.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

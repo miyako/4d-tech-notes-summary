@@ -1,0 +1,28 @@
+{
+  "asset_id": 76206,
+  "title": "Tech Note: Using External PHP Interpreters in 4D v12",
+  "technote_number": "10-32",
+  "year": 2010,
+  "published_date": "November 12, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Jesse Piña, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76206",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_31-35_(NOV)/10-32_External_PHP_Interpreter.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D's built-in PHP interpreter",
+    "external PHP interpreter configuration",
+    "PHP EXECUTE command",
+    "Windows/Mac PHP setup"
+  ],
+  "historical_commentary": {
+    "text": "This note documents configuring an external PHP interpreter to complement 4D v12's internal PHP engine — a feature 4D has since dismantled entirely: the built-in PHP interpreter was removed in 4D v20 R3, and the PHP command set itself was formally deprecated starting in 4D v21, with 4D now recommending System Workers to run external scripts instead. The specific setup steps for the internal/external interpreter split described here no longer reflect 4D's current PHP story at all.",
+    "status": "deprecated",
+    "related_updates": [
+      "4D v20 R3 removed the built-in PHP interpreter entirely, requiring an external CGI-compatible PHP install",
+      "4D v21 formally deprecated the PHP command set in favor of System Workers for running external scripts"
+    ]
+  }
+}

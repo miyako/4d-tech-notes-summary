@@ -1,0 +1,27 @@
+{
+  "asset_id": 76247,
+  "title": "Tech Note: 4D v12 and Exchange Web Services",
+  "technote_number": "11-01",
+  "year": 2011,
+  "published_date": "January 20, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76247",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/Windows/TN_2011_01-03_(JAN)/11-01_4D_Exchange.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Microsoft Exchange Web Services (EWS)",
+    "php-ews PHP library called from 4D's embedded PHP interpreter",
+    "4D methods for retrieving folders, contacts, tasks, and calendar events from Exchange"
+  ],
+  "historical_commentary": {
+    "text": "This EWS-via-PHP integration pattern is dated: Microsoft has since deprecated EWS in favor of the Microsoft Graph API for Exchange Online/Office 365 integration, and the php-ews library is no longer actively maintained. A modern 4D integration with Exchange/Outlook data would use Microsoft Graph's REST/OAuth2 API directly from 4D's native HTTP/REST commands rather than routing through a PHP library and the legacy EWS protocol.",
+    "status": "deprecated",
+    "related_updates": [
+      "Microsoft Graph API has superseded Exchange Web Services (EWS) as Microsoft's recommended integration point for Exchange Online/Office 365",
+      "4D's native HTTP/REST commands can call Graph's REST API directly without a PHP intermediary"
+    ]
+  }
+}

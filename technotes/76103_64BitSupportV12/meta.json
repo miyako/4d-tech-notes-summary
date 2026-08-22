@@ -1,0 +1,28 @@
+{
+  "asset_id": 76103,
+  "title": "Understanding 64-bit Support in 4D v12",
+  "technote_number": "10-15",
+  "year": 2010,
+  "published_date": "May 14, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76103",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_15-19_(MAY)/10-15_4D-v12-64-bit-Support.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server v12 x64 (Windows-only, beta at v12 launch)",
+    "64-bit memory addressing and larger server cache",
+    "Increased maximum concurrent client connections",
+    "4STK resources and database parameters 53 and 61"
+  ],
+  "historical_commentary": {
+    "text": "This note pre-announced 4D Server v12's first 64-bit executable (Windows-only, still in beta at v12's release) and carefully managed expectations that 64-bit support is chiefly about breaking the ~4GB memory ceiling for larger caches and more concurrent clients, not a general performance \"magic bullet.\" 64-bit 4D Server is now the sole, standard deployment target across Mac and Windows \u2014 32-bit 4D Server has long since been discontinued \u2014 so the note's forward-looking explanation of why 64-bit matters (larger cache, more clients) remains conceptually accurate, but its framing of 64-bit as a new/optional/beta feature and Windows-only limitation is entirely obsolete history.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Server has been 64-bit-only (Mac and Windows) for many years; 32-bit 4D Server was fully discontinued",
+      "Current 4D documentation on server sizing/cache configuration supersedes this note's forward-looking, beta-era guidance"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 76265,
+  "title": "Tech Note: Building PDO_4D on Linux",
+  "technote_number": "11-04",
+  "year": 2011,
+  "published_date": "February 24, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76265",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-04_Building_PDO_4D_on_Linux/11-04_Building_PDO_4D_on_Linux.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PDO_4D PHP Data Objects driver for 4D SQL",
+    "4D SQL Server accessed from PHP on Linux",
+    "Included pre-built Debian 5 virtual machine appliance"
+  ],
+  "historical_commentary": {
+    "text": "PDO_4D and manually compiling PHP database drivers on Linux is a niche, dated integration technique; 4D's modern interoperability story is built around REST APIs (via ORDA) that any language, including PHP, can call using plain HTTP/JSON without needing a compiled native driver. For new PHP-to-4D integrations, REST is far simpler and more portable than building and maintaining a PDO_4D module.",
+    "status": "deprecated",
+    "related_updates": [
+      "4D REST APIs (built on ORDA, from v16 R5/17+) let PHP and any other language access 4D data over HTTP/JSON without a compiled PDO driver"
+    ]
+  }
+}

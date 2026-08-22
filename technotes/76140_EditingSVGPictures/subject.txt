@@ -1,0 +1,1 @@
+Tech Note: Editing SVG Pictures in 4D v12 (TN 10-23, 4D v12, July 2010) — covers 4D v12's new SVG commands that let developers modify a live SVG document's elements directly instead of regenerating a static SVG image.

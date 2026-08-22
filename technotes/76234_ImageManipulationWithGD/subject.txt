@@ -1,0 +1,1 @@
+Image Manipulation with GD (TN 10-36, 4D v12.1, December 21, 2010) — demonstrates using 4D v12's embedded PHP interpreter to call the GD image-manipulation library for loading, inspecting, drawing on, recoloring, converting, and saving images from within a 4D application.

@@ -1,0 +1,1 @@
+Understanding the 4D v12 Cache (TN 11-21, 4D v12.2, June 29, 2011) — explains what the 4D database cache is, how it manages disk I/O, the changes made in v11 SQL and v12, and the tools (GET CACHE STATISTICS, FLUSH BUFFERS) available for observing and troubleshooting cache behavior.

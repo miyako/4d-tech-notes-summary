@@ -1,0 +1,1 @@
+Tech Note: Pinpoint Coding problems using 4D v12 Assertions (TN 10-28, 4D v12, September 2010) — introduces 4D v12's new ASSERT, Asserted, Get assert enabled, and SET ASSERT ENABLED commands for validating code assumptions during development.

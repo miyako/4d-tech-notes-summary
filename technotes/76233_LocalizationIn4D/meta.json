@@ -1,0 +1,29 @@
+{
+  "asset_id": 76233,
+  "title": "Tech Note: Localization in 4D v12",
+  "technote_number": "10-35",
+  "year": 2010,
+  "published_date": "December 17, 2010",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76233",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_34-36_(DEC)/10-35_Localization_in_4D_v12.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "XLIFF resources",
+    "SET DATABASE LOCALIZATION command",
+    "Interprocess variables",
+    "resource-based string localization",
+    "runtime language switching"
+  ],
+  "historical_commentary": {
+    "text": "Localization via XLIFF resource files and the SET DATABASE LOCALIZATION command remains part of 4D's classic language and is still functional today, since 4D has kept strong backward compatibility for resource-based string translation. Contemporary 4D projects increasingly favor Project mode's plain-text file organization for resources, and web-facing front-ends often rely on standard web i18n libraries rather than 4D resource files, but the underlying technique documented here is still valid and used.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Project mode (4D v17+, 2018) reorganizes structure/resource files as plain text for version control",
+      "Web/QODLY front-ends typically localize via standard JavaScript i18n libraries rather than 4D resources"
+    ]
+  }
+}

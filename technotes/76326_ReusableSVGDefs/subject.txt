@@ -1,0 +1,1 @@
+Reusable SVG — The Power of <defs> (TN 11-14, 4D v12.1, April 29, 2011) — demonstrates how 4D's built-in SVG rendering area can use the SVG <defs> element to define reusable graphical templates (shapes, style sheets, patterns) for smaller, easier-to-maintain vector graphics in 4D forms.

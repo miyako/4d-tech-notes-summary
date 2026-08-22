@@ -1,0 +1,1 @@
+Tech Note: Troubleshooting PHP Scripts for 4D (TN 10-24, 4D v12, August 2010) — a practical guide to diagnosing PHP script problems both inside 4D (via PHP GET FULL RESPONSE) and outside 4D using the standalone PHP command-line interpreter.

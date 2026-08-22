@@ -1,0 +1,1 @@
+Troubleshooting ODBC Issues (TN 11-13, 4D v12.1, April 21, 2011) — a diagnostic workflow guide for resolving ODBC connectivity problems between client applications and 4D/4D Server, covering DSN configuration, connection testing, and ODBC trace log analysis.

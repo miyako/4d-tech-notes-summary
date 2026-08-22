@@ -1,0 +1,29 @@
+{
+  "asset_id": 76088,
+  "title": "Asterisk and 4D via PHP in v12",
+  "technote_number": "10-13",
+  "year": 2010,
+  "published_date": "April 23, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76088",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_11-14_(APR)/10-13_Asterisk-PHP-API.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PHP EXECUTE / PHP SET OPTION / PHP GET OPTION / PHP GET FULL RESPONSE (4D v12 PHP integration)",
+    "Asterisk open-source PBX / VoIP telephony server",
+    "Asterisk Management Interface (AMI)",
+    "Asterisk-PHP-API PEAR library (by Doug Bromley)",
+    "FastCGI-based PHP interpreter bridge in 4D v12"
+  ],
+  "historical_commentary": {
+    "text": "This note used 4D v12's brand-new PHP Execute/FastCGI bridge to reach a third-party PEAR library (Asterisk-PHP-API) that wraps the Asterisk Management Interface (AMI) for PBX/VoIP integration \u2014 telephony integration itself remains a real-world need, but routing it through 4D's PHP interpreter and an unreleased/beta PEAR package was always a fragile, indirect path. Since then 4D has added far more capable native networking (TCP/UDP commands, native JSON/HTTP, and the ability to call REST/websocket-based telephony APIs directly, plus improved external process/component options), making a direct AMI socket connection or a modern VoIP REST API a more idiomatic integration path today than shelling out to PHP for this purpose.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's native TCP commands and improved HTTP/JSON support make direct AMI or REST-based VoIP integrations more idiomatic than the PHP Execute bridge used here",
+      "Many modern PBX integrations favor REST/webhook-based telephony platforms (e.g. Twilio-style APIs) over raw Asterisk AMI socket access"
+    ]
+  }
+}

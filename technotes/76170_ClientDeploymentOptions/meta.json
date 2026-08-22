@@ -1,0 +1,28 @@
+{
+  "asset_id": 76170,
+  "title": "Tech Note: Comparing Client Deployment Options in 4D",
+  "technote_number": "10-27",
+  "year": 2010,
+  "published_date": "September 2, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76170",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_24-28_(AUG)/10-27_Client_Deployment.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Remote client",
+    "Merged client",
+    "Automatic Client Update",
+    "Deployment/Upgrade client concepts",
+    "4DLINK"
+  ],
+  "historical_commentary": {
+    "text": "This note's comparison of 4D Remote versus Merged client deployment models describes an architectural choice that is still fundamentally offered by 4D today, so the core tradeoffs discussed (arbitrary server access vs. customization/automatic update) remain broadly still relevant for on-premise Client/Server deployments. However, 4D's deployment landscape has broadened considerably since 2010 with cloud hosting options and web/Qodly-based clients that sidestep this classic Remote-vs-Merged decision entirely for many new projects.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's cloud and web-based deployment options (including Qodly) now offer alternatives that avoid installing any native client at all"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: [3rd Party Tech Note] Sending HTML Emails (TN 14-06, 4D Internet Commands v14, April 2014) — a third-party note by Dave Terry showing how to send professional-looking HTML-formatted emails with embedded images using 4D Internet Commands (4DIC), by rewriting image tag sources into MIME cid: references and attaching the corresponding image documents.

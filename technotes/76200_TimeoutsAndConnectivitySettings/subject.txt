@@ -1,0 +1,1 @@
+Tech Note: Mastering 4D Timeouts & Connectivity Settings (TN 10-31, 4D v12, November 2010) — a comprehensive guide to 4D Client/Server timeout and connectivity parameters and how routers/firewalls affect them.

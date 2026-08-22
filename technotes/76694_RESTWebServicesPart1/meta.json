@@ -1,0 +1,27 @@
+{
+  "asset_id": 76694,
+  "title": "Tech Note: REST Web Services with 4D (Part 1)",
+  "technote_number": "12-20",
+  "year": 2012,
+  "published_date": "November 28, 2012",
+  "product": "4D",
+  "version": "13.2",
+  "platform": "Mac & Win",
+  "author": "Christophe Keromen",
+  "page_url": "https://kb.4d.com/assetid=76694",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-20_REST_WebService_w_4D1.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "REST architecture (CRUD over HTTP)",
+    "4D Web Server (classic)",
+    "HTTP request handling in 4D",
+    "Data service design"
+  ],
+  "historical_commentary": {
+    "text": "This note's central instinct — that REST/CRUD over HTTP was the right direction for 4D web services — was fully validated by 4D's own product direction, but the specific hand-built implementation approach shown here (manually parsing HTTP requests against the classic 4D Web Server) has been superseded by 4D's built-in, ORDA-based REST server introduced years later, which auto-generates a full CRUD/query REST API from the data model with no custom routing code required.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's built-in REST server built on ORDA (introduced 4D v16 R5/R6, 2017), which auto-generates CRUD/query REST endpoints and removes the need to hand-build this kind of service"
+    ]
+  }
+}

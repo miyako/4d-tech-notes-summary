@@ -1,0 +1,1 @@
+Tech Note: Static Web Serving 101 (TN 12-07, 4D v13.0, March 2012) — a foundational primer on serving static HTML content with the 4D built-in Web Server, covering Web Root, URL anatomy, caching, and compression.

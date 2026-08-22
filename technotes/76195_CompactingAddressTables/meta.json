@@ -1,0 +1,29 @@
+{
+  "asset_id": 76195,
+  "title": "Tech Note: Compacting Address Tables",
+  "technote_number": "10-30",
+  "year": 2010,
+  "published_date": "October 5, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76195",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_30-33_(OCT)/10-30_Compacting_Address_Tables.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Address Table internals",
+    "TRUNCATE TABLE SQL command",
+    "AddressTableCompactor component",
+    "Maintenance and Security Center",
+    "record number preservation"
+  ],
+  "historical_commentary": {
+    "text": "This note explains a low-level 4D data-engine concern — reclaiming space from bloated internal address tables after 4D v11 SQL stopped compacting them automatically during a database Compact, to preserve record numbers. The core mechanics (address tables, TRUNCATE TABLE, record numbering) are internals of 4D's classic data engine that persist today for compatibility, but this is a niche/legacy performance-tuning topic that is largely superseded by 4D's modern data engine improvements and by ORDA, where entity-based access patterns reduce direct exposure to address-table-level concerns for most developers.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's modern storage engine and later versions have refined automatic space reclamation, reducing the need for manual address table compaction tooling",
+      "ORDA (4D v16 R5+, 2017) abstracts data access at the entity level, away from low-level address table mechanics"
+    ]
+  }
+}

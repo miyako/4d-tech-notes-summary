@@ -1,0 +1,25 @@
+{
+  "asset_id": 77001,
+  "title": "Tech Note: Automating a font distribution and installation for an application",
+  "technote_number": "14-04",
+  "year": 2014,
+  "published_date": "March 14, 2014",
+  "product": "4D",
+  "version": "13.4",
+  "platform": "Mac & Win",
+  "author": "Vance Villanueva, Technical Services Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77001",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-04_FontDistribution.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Database \"Resources\" folder for cross-platform asset distribution",
+    "Style sheets for multi-platform font display",
+    "VBScript-generated Windows font installer (via LAUNCH EXTERNAL PROCESS)",
+    "COPY DOCUMENT for Mac font directory installation"
+  ],
+  "historical_commentary": {
+    "text": "Distributing custom fonts via a database's Resources folder (automatically synced to 4D clients in Client/Server) and gating font-dependent forms with style sheets is a technique that still works in 4D today, since the Resources-folder sync mechanism and style sheets are both still supported. The specific Windows installation approach — generating a VBScript that invokes the shell's 'Install' verb via LAUNCH EXTERNAL PROCESS — is a dated, fragile automation pattern by today's standards (modern approaches would more likely use PowerShell or the Windows font APIs directly), though it may still function on current Windows versions. The overall problem (ensuring consistent custom-font rendering across client machines) and the Resources-folder-based distribution strategy remain valid.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

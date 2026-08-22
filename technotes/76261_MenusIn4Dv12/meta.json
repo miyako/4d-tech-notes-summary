@@ -1,0 +1,24 @@
+{
+  "asset_id": 76261,
+  "title": "Tech Note: Menus in 4D v12",
+  "technote_number": "11-03",
+  "year": 2011,
+  "published_date": "February 10, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76261",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-03_Menus_in_4D_v12.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Tool Box menu editor",
+    "Programmatic menu bar creation and hierarchical/specialized menu items",
+    "Menu assignment by process and by form; dynamic pop-up menus"
+  ],
+  "historical_commentary": {
+    "text": "4D's classic menu bar editor and programmatic menu commands described here are still fully supported and remain the standard way to build native application menus in 4D today, so this note is still directly usable. The core menu architecture (Tool Box editor, process/form assignment, dynamic pop-ups) has not been replaced by any newer paradigm, making it one of the more durable UI-related notes from this era.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

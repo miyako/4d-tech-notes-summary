@@ -1,0 +1,29 @@
+{
+  "asset_id": 76130,
+  "title": "Tech Note: Hash Examples in 4D",
+  "technote_number": "10-22",
+  "year": 2010,
+  "published_date": "July 16, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76130",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_21-24_(JUL)/10-22_Hash_Examples.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "hash functions",
+    "salt",
+    "password hashing",
+    "MD5 file integrity checksums",
+    "duplicate file detection"
+  ],
+  "historical_commentary": {
+    "text": "The fundamentals covered here — using hash functions with salt for password storage, and hashes for file integrity/fingerprinting/duplicate detection — are timeless cryptographic and data-integrity concepts that remain best practice today. 4D has since added stronger, more modern built-in hashing/digest commands (and encouraged use of bcrypt-style adaptive hashing over plain MD5 for passwords), so while the concepts are current, the specific example commands and MD5-centric examples in this note are dated compared to today's recommended algorithms.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Modern 4D and general security guidance favor adaptive password-hashing algorithms (e.g., bcrypt/argon2-style) over plain MD5/SHA1 shown in older examples",
+      "4D's Generate digest and related newer commands expand on the hashing toolkit available at the time of this note"
+    ]
+  }
+}

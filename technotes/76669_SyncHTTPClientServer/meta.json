@@ -1,0 +1,28 @@
+{
+  "asset_id": 76669,
+  "title": "Tech Note: Synchronizing an HTTP client with 4D Server v12",
+  "technote_number": "12-18",
+  "year": 2012,
+  "published_date": "October 4, 2012",
+  "product": "4D",
+  "version": "12.4",
+  "platform": "Mac & Win",
+  "author": "Christophe Keromen, CKTI Consulting Firm",
+  "page_url": "https://kb.4d.com/assetid=76669",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-18_SyncHTTPClientAndServer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v12 data replication/synchronization",
+    "Table-level change logging",
+    "SQL-triggered replication",
+    "Adobe AIR client (cross-platform)"
+  ],
+  "historical_commentary": {
+    "text": "Adobe AIR has been effectively abandoned as a client platform for years (Adobe stopped its own investment and it never gained broad mobile traction), so the specific AIR-based client in this note is no longer a realistic implementation choice. 4D's own v12 table-level replication mechanism has also been superseded conceptually by later synchronization/offline strategies and by REST/ORDA-based data access, which modern clients (web, native mobile, or Qodly-built apps) use instead of a custom AIR client talking to a proprietary sync protocol.",
+    "status": "obsolete",
+    "related_updates": [
+      "REST APIs built on ORDA (4D v16 R5+) as the modern way to build synchronized/offline-capable clients, replacing both Adobe AIR and the classic table-level replication approach",
+      "Qodly Studio for building modern web/mobile front-ends against a 4D backend"
+    ]
+  }
+}

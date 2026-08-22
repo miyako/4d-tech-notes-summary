@@ -1,0 +1,26 @@
+{
+  "asset_id": 76320,
+  "title": "Tech Note: Troubleshooting ODBC Issues",
+  "technote_number": "11-13",
+  "year": 2011,
+  "published_date": "April 21, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76320",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-13_Troubleshooting_ODBC_Issues.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D as ODBC data source (4D SQL Server / 4D Server)",
+    "ODBC Driver / DSN configuration",
+    "ODBC Trace and ODBC Trace Analyzer diagnostic tooling"
+  ],
+  "historical_commentary": {
+    "text": "4D still ships ODBC driver support today, so the diagnostic workflow and trace-analysis techniques in this note remain technically applicable for teams still using ODBC to connect legacy tools to 4D. However, ODBC is no longer 4D's primary integration story for new development \u2014 REST APIs (built on ORDA) are now the standard, more modern way to expose and consume 4D data from external applications, so ODBC troubleshooting is increasingly a legacy-integration concern rather than a mainstream one.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D REST APIs built on ORDA (introduced ~4D v16 R5/17, 2017) are now the recommended way to expose 4D data to external clients and tools"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 76254,
+  "title": "Tech Note: Web Storage",
+  "technote_number": "11-02",
+  "year": 2011,
+  "published_date": "February 4, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Rudolf Psenicnik, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76254",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-02_Web_Storage.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "HTML5 Web Storage API (localStorage)",
+    "4D replication via HTTP feeding browser-side offline storage",
+    "Cross-browser inspection of stored data (Chrome, Safari, Firefox)"
+  ],
+  "historical_commentary": {
+    "text": "The HTML5 Web Storage API (localStorage/sessionStorage) described here is a web standard that is still fully supported by all modern browsers and remains a valid, current technique for client-side offline data persistence, independent of any 4D-specific product changes. The 4D-side replication-over-HTTP mechanism used to populate it, however, is dated compared to 4D's modern REST/ORDA-based data access, which would be the more idiomatic way to feed browser-side storage today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D REST APIs (via ORDA, from v16 R5/17+) are now a more modern way to fetch 4D data for client-side storage than the HTTP replication approach shown here"
+    ]
+  }
+}

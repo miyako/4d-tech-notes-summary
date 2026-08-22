@@ -1,0 +1,27 @@
+{
+  "asset_id": 76560,
+  "title": "Tech Note: Practical Uses for List Item Parameters",
+  "technote_number": "12-09",
+  "year": 2012,
+  "published_date": "April 29, 2012",
+  "product": "4D",
+  "version": "13.0",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76560",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-09_ListItemParameters.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "GET LIST ITEM PARAMETER ARRAYS (new in 4D v13)",
+    "SET LIST ITEM PARAMETER / GET LIST ITEM PARAMETER",
+    "4D hierarchical lists",
+    "List item metadata (String/Boolean/Long Integer parameters)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a small but useful classic-language list API addition (GET LIST ITEM PARAMETER ARRAYS) that made it easier to enumerate metadata attached to 4D hierarchical list items. 4D hierarchical lists and their parameter mechanism are still part of the current classic language and continue to work today, so the technique remains functionally valid, though many modern 4D applications now favor storing structured item metadata in objects/collections (via ORDA entities or 4D language objects) rather than in classic hierarchical lists with typed parameters, since objects offer richer, more flexible metadata than the three fixed parameter types (String, Boolean, Long Integer).", "status": "still_relevant",
+    "related_updates": [
+      "4D objects and collections (widely used since 4D v16+) offer more flexible metadata storage than typed List Item Parameters for many use cases",
+      "ORDA entity selections (4D v16 R5/R6, 2017) are now typically preferred for data-driven lists sourced from the database"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+This Tech Note documents how to start, stop, and check the status of an external PHP interpreter from within a 4D application, filling a gap since 4D natively manages only its internal PHP interpreter and provides no built-in commands for controlling an external one.

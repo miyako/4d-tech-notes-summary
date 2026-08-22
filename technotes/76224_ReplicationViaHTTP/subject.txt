@@ -1,0 +1,1 @@
+Tech Note: Replication via HTTP (TN 10-34, 4D v12.1, December 2010) — shows how to build a custom HTTP/JSON-based remote database bridge using 4D v12's REPLICATION and SYNCHRONIZATION SQL commands.

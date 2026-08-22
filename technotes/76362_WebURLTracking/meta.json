@@ -1,0 +1,27 @@
+{
+  "asset_id": 76362,
+  "title": "Web URL Tracking",
+  "technote_number": "11-20",
+  "year": 2011,
+  "published_date": "June 17, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76362",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-20_Web_URL_Tracking.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Server-based link redirection and UUID obfuscation",
+    "HTML source converter for tagging campaign links",
+    "Database-driven click-tracking and campaign statistics"
+  ],
+  "historical_commentary": {
+    "text": "The core approach — storing links keyed by UUID in a 4D table, incrementing a counter, and redirecting via a 4D Web Server process — is a generic pattern that still works today and requires no deprecated technology, so it remains functionally valid. That said, this exact home-grown click-tracking approach has been largely superseded in the broader industry by dedicated analytics platforms and URL shorteners with built-in tracking, and a modern 4D implementation would likely expose the redirect/tracking endpoint via 4D's REST/ORDA layer rather than the classic 4D Web Server method-based routing shown here.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D REST server built on ORDA (introduced v16 R5/17+) as a more standard way to expose tracking/redirect endpoints",
+      "Dedicated third-party analytics and URL-shortening services have largely replaced bespoke in-house click trackers industry-wide"
+    ]
+  }
+}

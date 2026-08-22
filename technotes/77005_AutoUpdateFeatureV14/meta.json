@@ -1,0 +1,28 @@
+{
+  "asset_id": 77005,
+  "title": "Tech Note: Auto Update Feature 4D v14",
+  "technote_number": "14-05",
+  "year": 2014,
+  "published_date": "March 21, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Julian Weidenbacher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=77005",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-05_AutoUpdateV14.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SET UPDATE FOLDER / RESTART 4D commands (4D v14)",
+    "Get last update log path",
+    "FTP_ commands (4D Internet Commands) for update distribution",
+    "LAUNCH EXTERNAL PROCESS (7-zip / native OS unzip tools)"
+  ],
+  "historical_commentary": {
+    "text": "The built-in automatic update mechanism this note documents (SET UPDATE FOLDER, RESTART 4D, and the associated updater tool and logging) remains part of 4D today and is still the standard way to auto-update merged/standalone and client/server 4D applications, so the architecture described is still current. The peripheral implementation details are the most dated part: using external tools like 7-zip via LAUNCH EXTERNAL PROCESS to unpack updates, or FTP for distribution, reflect 2014-era practice — a modern build would more likely fetch updates over HTTPS/REST and could rely on more integrated compression handling, but the fundamental update-folder/restart workflow is unchanged.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Modern implementations typically distribute updates via HTTPS/REST endpoints rather than FTP",
+      "4D has continued to refine the update/logging commands in subsequent versions, but the SET UPDATE FOLDER + RESTART 4D workflow described remains the core mechanism"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "asset_id": 76326,
+  "title": "Tech Note: Reusable SVG \u2014 The Power of <defs>",
+  "technote_number": "11-14",
+  "year": 2011,
+  "published_date": "April 29, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76326",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-14_Reusable_SVG.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG area (SVG_New_rect, SVG_New_line, SVG_Use, SVG_New_symbol commands)",
+    "SVG <defs> element (definitions vs. presentation layers)",
+    "SVG patterns, style sheets, and symbol reuse"
+  ],
+  "historical_commentary": {
+    "text": "4D's SVG area and its SVG_* command set (including SVG_New_rect, SVG_Use, and pattern/definition support) are still present in current 4D and the underlying SVG <defs>/reuse technique described here remains valid, so this note is still directly usable as a reference for building efficient SVG graphics in 4D forms. It predates 4D's later investment in richer built-in charting/data-visualization tools and picture-variable based UI approaches, which now offer alternative, lower-code ways to achieve similar visual results for many common cases.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

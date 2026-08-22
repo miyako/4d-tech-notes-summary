@@ -1,0 +1,27 @@
+{
+  "asset_id": 76348,
+  "title": "Introduction to Synchronization and Replication in 4D v12",
+  "technote_number": "11-18",
+  "year": 2011,
+  "published_date": "June 3, 2011",
+  "product": "4D",
+  "version": "12.2",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76348",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-18_Replication_Introduction.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Integrated data-engine REPLICATE and SYNCHRONIZE commands",
+    "Replication metadata (stamps, IDs, CRUD action tracking)",
+    "REMOTE vs. LOCAL data connection contexts"
+  ],
+  "historical_commentary": {
+    "text": "4D v12's built-in REPLICATE/SYNCHRONIZE data-engine mechanism described here was a significant improvement over prior ad hoc approaches (SOAP, 4D Open, import/export) and its core CRUD-metadata-and-conflict-resolution model has remained part of 4D's classic feature set. It is still relevant for classic-language 4D applications needing offline/mirror/satellite database scenarios, though modern mobile and distributed-data architectures increasingly favor REST/ORDA-based data access with client-side caching or dedicated sync services rather than 4D's native replication engine for new greenfield projects.",
+    "status": "still_relevant",
+    "related_updates": [
+      "REST APIs built on ORDA (introduced v16 R5/17+) are now often used for building distributed/offline-capable clients instead of native REPLICATE/SYNCHRONIZE",
+      "4D's native replication/synchronization commands have continued to be maintained and refined in versions since v12"
+    ]
+  }
+}

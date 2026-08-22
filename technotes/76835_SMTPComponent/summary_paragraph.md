@@ -1,0 +1,1 @@
+This Tech Note packages 4D's Internet Commands into a reusable SMTP component that handles sending email (setting host, sender, recipient, subject, and body) plus managing multiple SMTP accounts and recording sent messages via an external database.

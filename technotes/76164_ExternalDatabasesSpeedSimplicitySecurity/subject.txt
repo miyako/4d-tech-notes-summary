@@ -1,0 +1,1 @@
+Tech Note: Using External Databases for Speed, Simplicity and Security (TN 10-26, 4D v12, August 2010) — introduces 4D v12's CREATE DATABASE and USE DATABASE SQL commands for segregating data into external databases.

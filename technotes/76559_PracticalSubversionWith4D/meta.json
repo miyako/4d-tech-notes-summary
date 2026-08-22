@@ -1,0 +1,28 @@
+{
+  "asset_id": 76559,
+  "title": "Tech Note: Practical Subversion with 4D",
+  "technote_number": "12-08",
+  "year": 2012,
+  "published_date": "April 29, 2012",
+  "product": "4D",
+  "version": "13.0",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Account Manager, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76559",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-08_PracticalSVN4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "CodeExport component",
+    "4D v13 Source Toolkit (method export to UTF-8 text)",
+    "Method Editor macros",
+    "Stored procedures (client/server code export)",
+    "Subversion (SVN) revision control workflow"
+  ],
+  "historical_commentary": {
+    "text": "This note tackles a foundational limitation of the classic-language era: because 4D methods were stored in binary Design Mode structures, they could not be meaningfully diffed or version-controlled without an export step, so the CodeExport component macro-drives automatic export of every method to UTF-8 text files for use with Subversion. This entire workaround has been rendered obsolete by 4D's later introduction of Project Mode, which stores forms, methods, and other structure elements natively as plain text files in a folder tree, making them directly compatible with any version control system (Git, SVN, etc.) without any export component at all.", "status": "obsolete",
+    "related_updates": [
+      "Project mode with native text-based .4DProject file structure (4D v17+, 2018) makes method/form export components like CodeExport unnecessary — code is version-control-ready by default",
+      "Git is now the far more common revision control system for 4D Project-mode codebases, though the note's underlying goal (text-based diffs/history) is fully solved natively"
+    ]
+  }
+}

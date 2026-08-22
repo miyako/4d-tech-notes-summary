@@ -1,0 +1,26 @@
+{
+  "asset_id": 76273,
+  "title": "Tech Note: Convert to PDF with 4D v12 and PHP",
+  "technote_number": "11-06",
+  "year": 2011,
+  "published_date": "March 3, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76273",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-06_Convert_to_PDF.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v12 embedded PHP interpreter",
+    "fPDF PHP PDF-generation library",
+    "4D-to-PHP wrapper methods for dynamic PDF document creation"
+  ],
+  "historical_commentary": {
+    "text": "This PHP/fPDF bridge for PDF generation is now a legacy technique; 4D has since added native PDF generation and manipulation commands directly in the 4D language (including PDF creation from 4D Write Pro documents and dedicated PDF commands), removing the need for a PHP interpreter bridge for this specific task. The approach in this note still functions but is no longer the recommended path for cross-platform PDF generation in modern 4D applications.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Native 4D PDF generation commands and 4D Write Pro-to-PDF export (added in later 4D versions) now provide built-in cross-platform PDF creation without a PHP bridge"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Asterisk and 4D via PHP in v12 (TN 10-13) — using 4D v12's new PHP integration and the Asterisk-PHP-API PEAR library to communicate with an Asterisk-based PBX/VoIP server via its Asterisk Management Interface (AMI), covering queues, SIP peers, call origination, and CLI commands.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 76678,
+  "title": "Tech Note: Build a Web Service Iteratively (XML-JSON)",
+  "technote_number": "12-19",
+  "year": 2012,
+  "published_date": "November 2, 2012",
+  "product": "4D",
+  "version": "13.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=76678",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-19_XML_JSON_WebServices.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Tags",
+    "XML templates",
+    "EXPORT DATA command",
+    "Dynamic document/data publishing"
+  ],
+  "historical_commentary": {
+    "text": "Only a short teaser is available for this note, but based on its stated approach — 4D Tags and XML-template-driven EXPORT DATA for generating dynamic XML/JSON documents — this reflects pre-native-JSON tooling. 4D has since added first-class JSON parsing/generation commands and an ORDA-based REST layer, making hand-built 4D Tags/XML-template document generation largely unnecessary for new data-publishing services.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Native 4D JSON commands and the ORDA-based REST server (4D v16 R5+) which directly produce/consume JSON without XML templating or 4D Tags"
+    ]
+  }
+}

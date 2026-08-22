@@ -1,0 +1,1 @@
+Tech Note: Idle User Detective (TN 10-33, 4D v12, November 2010) — a technique for detecting and warning idle Remote-mode users and automatically disconnecting them after a configurable timeout.

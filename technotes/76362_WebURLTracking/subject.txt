@@ -1,0 +1,1 @@
+Web URL Tracking (TN 11-20, 4D v12, June 17, 2011) — a sample database and approach for tracking marketing-campaign link clicks by storing UUID-referenced links in a 4D table, incrementing a counter on each access, and redirecting users via 4D's Web Server, including an HTML source converter and campaign statistics viewer.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 76546,
+  "title": "Tech Note: Music Player Integration",
+  "technote_number": "12-06",
+  "year": 2012,
+  "published_date": "March 28, 2012",
+  "product": "4D",
+  "version": "13.0",
+  "platform": "Mac & Win",
+  "author": "Sonya Rackwitz, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76546",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-06_MediaPlayer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web area",
+    "QuickTime <EMBED> media playback",
+    "JavaScript media control",
+    "4D-to-JavaScript calls from Web areas",
+    "4D component database (music player control bar)"
+  ],
+  "historical_commentary": {
+    "text": "This note embeds an Apple QuickTime player via an HTML <EMBED> tag inside a 4D Web area, controlled through JavaScript called from 4D — a technique that is now obsolete because QuickTime plugin-based playback was discontinued by Apple and removed from modern browsers years ago in favor of the HTML5 <audio>/<video> elements. The general pattern (embedding HTML/JS media controls in a 4D Web area and calling JavaScript from 4D code) remains structurally valid, but any implementation would need to be rebuilt using HTML5 audio APIs instead of QuickTime, and 4D's Web area JavaScript bridging has itself evolved since 2012.", "status": "obsolete",
+    "related_updates": [
+      "HTML5 <audio>/<video> elements are the modern replacement for QuickTime plugin-based media embedding",
+      "4D Web area JavaScript integration (WEB EXECUTE JAVASCRIPT / on-the-fly commands in later 4D versions) provides more robust, plugin-free ways to bridge 4D and browser media control"
+    ]
+  }
+}

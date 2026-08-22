@@ -1,0 +1,1 @@
+Introduction to Build Automation (TN 11-11, 4D v12, April 15, 2011) — introduces build automation concepts for 4D applications using shell scripts combined with the 4DLINK file feature to script compilation, configuration, versioning, and packaging of 4D builds on Mac and Windows.

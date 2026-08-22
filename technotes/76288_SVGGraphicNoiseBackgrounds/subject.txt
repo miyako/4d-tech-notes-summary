@@ -1,0 +1,1 @@
+SVG Graphic Noise Images for Form Backgrounds (TN 11-09, 4D v12.1, March 24, 2011) — demonstrates generating subtle, tasteful 'graphic noise' textures using 4D SVG symbols that automatically adapt to any chosen background color, for use as 4D form backgrounds via a picture variable.

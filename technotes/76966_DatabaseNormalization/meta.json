@@ -1,0 +1,24 @@
+{
+  "asset_id": 76966,
+  "title": "Tech Note: Database Normalization",
+  "technote_number": "14-03",
+  "year": 2014,
+  "published_date": "February 20, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Timothy Tse, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76966",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-03_DatabaseNormalization.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Relational database normalization theory (1NF, 2NF, 3NF)",
+    "Primary keys and one-to-many relationships in 4D",
+    "Transitive dependency analysis"
+  ],
+  "historical_commentary": {
+    "text": "Database normalization is foundational relational-database theory rooted in mathematics and set theory, and it has not changed in the decades since (and before) this note was published. The 4D-specific framing — one-to-many relations as 4D's only native relationship type — reflects the classic-language relational model of the era, which 4D's later ORDA layer built entity-based, dot-notation access on top of, but the underlying normalization principles apply identically whether data is queried via classic relations or accessed as ORDA entities. This is a rare example in this era of content that remains genuinely current rather than superseded.",
+    "status": "current",
+    "related_updates": []
+  }
+}

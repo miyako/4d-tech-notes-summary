@@ -1,0 +1,1 @@
+Tech Note: Compacting Address Tables (TN 10-30, 4D v12, October 2010, updated Feb 2011) — explains why 4D v11 SQL stopped auto-compacting address tables and provides a component (TRUNCATE TABLE-based) to reclaim that space manually.

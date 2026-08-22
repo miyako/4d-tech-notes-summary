@@ -1,0 +1,1 @@
+Tech Note: Auto Update Feature 4D v14 (TN 14-05, 4D v14, March 2014) — describes 4D v14's new fully automated update mechanism for merged server and standalone applications, using SET UPDATE FOLDER and RESTART 4D together with a bundled sample application that downloads, extracts, backs up essential files, and applies an update transparently to the end user.

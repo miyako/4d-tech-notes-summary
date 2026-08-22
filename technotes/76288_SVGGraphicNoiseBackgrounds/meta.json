@@ -1,0 +1,24 @@
+{
+  "asset_id": 76288,
+  "title": "Tech Note: SVG Graphic Noise Images for Form Backgrounds",
+  "technote_number": "11-09",
+  "year": 2011,
+  "published_date": "March 24, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76288",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-09_SVG_GraphicNoise.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG area and SVG_Use / symbol referencing",
+    "Picture variables for background rendering",
+    "'Graphic noise' visual texture technique"
+  ],
+  "historical_commentary": {
+    "text": "The specific graphic-noise/SVG-symbol technique described here still works in current 4D, since the SVG area and SVG_Use/symbol commands remain supported, so this note is still directly usable as a creative UI reference. It reflects a purely decorative, timeless UI craftsmanship trick rather than a data-access or architectural pattern, so it hasn't been affected by any of 4D's major platform transitions (ORDA, Project mode, etc.).",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

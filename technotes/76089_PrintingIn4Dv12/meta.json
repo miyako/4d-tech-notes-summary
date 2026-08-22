@@ -1,0 +1,28 @@
+{
+  "asset_id": 76089,
+  "title": "Printing in 4D v12",
+  "technote_number": "10-14",
+  "year": 2010,
+  "published_date": "April 29, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76089",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_11-14_(APR)/10-14_4Dv12_Print_Objects.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "OPEN PRINTING FORM command",
+    "Print object command",
+    "OPEN PRINTING JOB / CLOSE PRINTING JOB (from 4D v11 SQL)",
+    "Project form On load/On unload form events during printing"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces the foundational object-level printing commands added in 4D v12 (OPEN PRINTING FORM and Print object), which for the first time let developers mix content from multiple forms and print individual objects at arbitrary coordinates within one job \u2014 a substantial upgrade over the older, form-area-only Print form model. These commands and the technique remain fully functional in current 4D versions and are still a valid, classic-language approach to programmatic printing, though for building complex, richly formatted documents 4D now recommends 4D Write Pro (and 4D View Pro for tabular/report printing) as a higher-level, more maintainable alternative to manual object-by-object print-job assembly.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D Write Pro (introduced 4D v16) is now recommended for complex document generation and printing",
+      "4D View Pro (introduced 4D v17-18) is preferred for tabular/spreadsheet-style report printing"
+    ]
+  }
+}

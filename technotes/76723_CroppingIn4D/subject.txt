@@ -1,0 +1,1 @@
+Tech Note: Cropping in 4D (TN 12-21, 4D v13.2, December 21, 2012) — This Tech Note explains how to let end users interactively crop images inside a 4D application, describing two possible implementations for giving users control over the crop selection area and, notably, how to support undo/redo of cropping operations, backed by a sample database demonstrating both approaches.

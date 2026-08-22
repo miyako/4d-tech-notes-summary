@@ -1,0 +1,1 @@
+Printing in 4D v12 (TN 10-14) — introduces 4D v12's new OPEN PRINTING FORM and Print object commands, which give developers object-level control over print jobs, including a sample wizard database for printing company newsletters and sales reports.

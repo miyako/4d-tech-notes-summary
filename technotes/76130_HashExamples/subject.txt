@@ -1,0 +1,1 @@
+Tech Note: Hash Examples in 4D (TN 10-22, 4D v12, July 2010) — explains hash functions and salting, and provides a sample database demonstrating password hashing, file integrity checks, file fingerprinting, and duplicate file detection.

@@ -1,0 +1,1 @@
+This Tech Note is a reference guide covering exactly which 4D variable or array type should be declared for each kind of active form object — fields/variables, list objects, pop-ups, buttons, radio buttons, check boxes, progress indicators, tab controls, plug-in areas, and web areas — helping both new and experienced developers correctly type objects on a form.

@@ -1,0 +1,1 @@
+This Tech Note surveys web pagination — the technique of splitting large result sets across multiple pages — and demonstrates four different implementation strategies for a 4D web application, ranging from client-side JavaScript-only pagination to server-managed pagination using record selections, SQL, and 4D Tags, each with documented pros and cons.

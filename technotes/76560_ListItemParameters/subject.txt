@@ -1,0 +1,1 @@
+Tech Note: Practical Uses for List Item Parameters (TN 12-09, 4D v13.0, April 2012) — demonstrating the new GET LIST ITEM PARAMETER ARRAYS command with a sample database covering editors, country demos, smart searches, and web search use cases.

@@ -1,0 +1,1 @@
+Rich Text in 4D v12 (TN 10-16) — introducing 4D v12's new ability to apply per-character styling (font, size, color, bold/italic, alignment) to text/alpha fields, variables, and list box cells, stored as embedded HTML <SPAN STYLE> markup.

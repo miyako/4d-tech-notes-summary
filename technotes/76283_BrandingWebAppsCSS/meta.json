@@ -1,0 +1,26 @@
+{
+  "asset_id": 76283,
+  "title": "Tech Note: Branding Web Apps: Customizing CSS primer",
+  "technote_number": "11-08",
+  "year": 2011,
+  "published_date": "March 17, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Rudolf Psenicnik, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76283",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-08_BrandingWebApps.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web 2.0 Pack web applications",
+    "CSS customization (inline, HEAD section, external file)",
+    "Non-intrusive branding overrides surviving web app updates"
+  ],
+  "historical_commentary": {
+    "text": "This note is tied to the 4D Web 2.0 Pack, an older 4D web application technology; the general CSS-layering principle (external/override stylesheets, don't touch generated markup) is timeless and still good practice, but the specific product (Web 2.0 Pack) it targets has been superseded by 4D's modern web application and REST/ORDA-based approaches, and CSS customization today is more commonly done directly within custom HTML/CSS assets or Qodly Studio-based UI rather than overriding a fixed 4D-generated web app shell.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Web 2.0 Pack itself is a discontinued product line; modern 4D web front-ends are typically custom HTML/CSS/JS backed by REST/ORDA, or built with Qodly Studio"
+    ]
+  }
+}

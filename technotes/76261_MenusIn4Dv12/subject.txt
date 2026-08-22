@@ -1,0 +1,1 @@
+Menus in 4D v12 (TN 11-03, 4D v12.1, February 10, 2011) — a comprehensive tour of creating and assigning 4D menus and menu bars: via the Tool Box editor, programmatically, hierarchically, and specialized, plus assignment by process/form and dynamic pop-up menu creation.

@@ -1,0 +1,1 @@
+Tech Note: Music Player Integration (TN 12-06, 4D v13.0, March 2012) — embedding a QuickTime-based music player in a 4D Web area and controlling playback with JavaScript called from 4D, packaged as a reusable component.

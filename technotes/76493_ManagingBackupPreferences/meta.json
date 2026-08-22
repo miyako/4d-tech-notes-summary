@@ -1,0 +1,24 @@
+{
+  "asset_id": 76493,
+  "title": "Tech Note: Managing Backup Preferences and Files",
+  "technote_number": "12-04",
+  "year": 2012,
+  "published_date": "February 28, 2012",
+  "product": "4D",
+  "version": "12.3",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76493",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-04_ManageBackPrefs.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Backup.XML preference file management",
+    "BKP_Manager component",
+    "Merged/distributed 4D applications",
+    "Client/server backup preference handling"
+  ],
+  "historical_commentary": {
+    "text": "This note solves a deployment-time problem specific to 4D's classic Backup.XML preferences file and merged application distribution workflow, providing a component (BKP_Manager) to create, preserve, or configure backup preferences independent of the native Backup Preferences dialog. The underlying problem — managing backup configuration when distributing an application separately from its data file — is still a real concern for distributed 4D applications today, and 4D's backup preferences mechanism is largely unchanged in structure, so the technique remains applicable, though larger deployments now increasingly rely on infrastructure-level backup strategies (cloud storage snapshots, managed database backups) alongside or instead of native 4D backup preference file manipulation.", "status": "still_relevant",
+    "related_updates": []
+  }
+}

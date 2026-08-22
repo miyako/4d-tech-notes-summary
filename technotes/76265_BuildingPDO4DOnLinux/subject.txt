@@ -1,0 +1,1 @@
+Building PDO_4D on Linux (TN 11-04, 4D v12.1, February 24, 2011) — a step-by-step guide (with an included pre-built Debian 5 VM) for compiling the PDO_4D PHP module on Linux so PHP applications can access 4D SQL Server via PHP's standard PDO database abstraction layer.

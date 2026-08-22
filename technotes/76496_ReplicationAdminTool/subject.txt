@@ -1,0 +1,1 @@
+Tech Note: Replication Administration Tool (TN 12-05, 4D v13.1, February 2012) — a wizard-driven component (RAT) that simplifies setting up 4D v12's native database replication feature without hand-coding a transfer mechanism.

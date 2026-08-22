@@ -1,0 +1,27 @@
+{
+  "asset_id": 76311,
+  "title": "Tech Note: Introduction to Build Automation",
+  "technote_number": "11-11",
+  "year": 2011,
+  "published_date": "April 15, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76311",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-11_BuildAutomation.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4DLINK file feature (introduced 4D v11 SQL)",
+    "Shell scripting (Windows batch / Mac OS X shell) driving 4D builds",
+    "Automatic Configuration, versioned/debug build targets, packaging"
+  ],
+  "historical_commentary": {
+    "text": "The general build-automation principles here (scripted, repeatable, versioned builds) remain sound and timeless, but the specific mechanism \u2014 driving builds via 4DLINK files and hand-rolled shell scripts \u2014 has been substantially supplemented by 4D's own newer build automation tooling and CI-friendly Project mode. With Project mode's text-based structure (introduced v17+), 4D applications integrate far more naturally with modern CI/CD pipelines (git-based, using standard build servers) than the binary-Design-Mode-era workflows this note assumes.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Project mode with text-based, git-friendly project structure (4D v17+, 2018) greatly simplifies CI/CD automation compared to the binary Design Mode-era workflow assumed here",
+      "4D's later build automation tools/command-line build options provide more direct alternatives to hand-rolled 4DLINK-driven shell scripts"
+    ]
+  }
+}

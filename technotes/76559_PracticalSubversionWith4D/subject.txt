@@ -1,0 +1,1 @@
+Tech Note: Practical Subversion with 4D (TN 12-08, 4D v13.0, April 2012) — the CodeExport component, which macro-drives automatic export of every 4D method to UTF-8 text so binary Design Mode databases can be tracked with Subversion or other revision control.

@@ -1,0 +1,1 @@
+Convert to PDF with 4D v12 and PHP (TN 11-06, 4D v12.1, March 3, 2011) — shows how to use 4D v12's embedded PHP interpreter with the fPDF library to generate cross-platform PDF documents (list/detail reports and a multi-page brochure) directly from 4D data.

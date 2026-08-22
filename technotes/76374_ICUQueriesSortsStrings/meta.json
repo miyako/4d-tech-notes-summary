@@ -1,0 +1,24 @@
+{
+  "asset_id": 76374,
+  "title": "ICU in 4D: Impact on Queries, Sorts and String Comparisons",
+  "technote_number": "11-22",
+  "year": 2011,
+  "published_date": "July 11, 2011",
+  "product": "4D",
+  "version": "11.2",
+  "platform": "Mac & Win",
+  "author": "Djompolo TANDJIGORA, Quality Control Engineer, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=76374",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-22_ICUin4D.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ICU (International Components for Unicode) collation algorithm",
+    "4D v11 Unicode string/text handling (C_STRING vs C_TEXT equivalence)",
+    "Position, Replace string, Uppercase/Lowercase, Char commands under ICU"
+  ],
+  "historical_commentary": {
+    "text": "4D's adoption of ICU-based collation for Unicode sorts, queries, and comparisons described here remains the foundation of how 4D handles text comparison today, making this note's core explanation still directly applicable and largely timeless as a reference for understanding string-comparison edge cases (ignorable characters, unbreakable spaces). The specific command list and Japanese-language-database caveats are dated to the v11.x timeframe but the underlying ICU behavior model has persisted through subsequent 4D versions.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 76295,
+  "title": "Tech Note: Hierarchical List Boxes",
+  "technote_number": "11-10",
+  "year": 2011,
+  "published_date": "April 1, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76295",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-10_Hierarchical_List_Boxes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v12 hierarchical list box (new form object type)",
+    "Form Editor property list and contextual menu for list box configuration",
+    "Programmatic creation and management (sorting, break levels, cell position) of hierarchical list boxes"
+  ],
+  "historical_commentary": {
+    "text": "Classic array/object-based hierarchical list boxes described here still exist and function in current 4D, so the note remains a valid reference for that specific form-object type. That said, 4D has since introduced object/collection and entity-selection-based list boxes tied to ORDA, which offer a more modern, less manually-managed way to bind hierarchical/grouped data to list boxes, making some of the manual break-level/sort management described here less necessary for new ORDA-based projects.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Collection/entity-selection-based list boxes bound via ORDA (from 4D v16 R5+/17+) reduce the need for some manual list box management shown here"
+    ]
+  }
+}

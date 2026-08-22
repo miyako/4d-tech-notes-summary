@@ -1,0 +1,28 @@
+{
+  "asset_id": 76158,
+  "title": "Tech Note: PhotoAdjust Plug-in",
+  "technote_number": "10-25",
+  "year": 2010,
+  "published_date": "August 18, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=76158",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_24-28_(AUG)/10-25_PhotoAdjust.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PhotoAdjust plug-in",
+    "Photo_SetImage/Photo_GetImage/Photo_Adjust commands",
+    "digital camera image adjustment (exposure, sharpening, crop)",
+    "classic compiled plug-in API"
+  ],
+  "historical_commentary": {
+    "text": "PhotoAdjust is a compiled, C-based plug-in for 4D v11 SQL/v12 that required Windows 7 or Mac OS 10.5+ and predates 4D's move to fully 64-bit and Apple Silicon-native plug-ins. Since 4D's plug-in ABI and OS support requirements have moved on substantially since 2010, this specific binary is effectively obsolete for current 4D versions, even though 4D's classic plug-in API concept itself remains supported for new, actively-maintained plug-ins.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's plug-in API has since required updates for 64-bit and Apple Silicon compatibility; this specific 2010-era PhotoAdjust binary was never updated for modern 4D/OS versions",
+      "4D's built-in picture commands (e.g., TRANSFORM PICTURE and later native image-processing additions) cover much of the same ground natively today"
+    ]
+  }
+}

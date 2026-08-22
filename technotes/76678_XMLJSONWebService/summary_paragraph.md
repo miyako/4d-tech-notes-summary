@@ -1,0 +1,1 @@
+This Tech Note (available here only as a short teaser summary) describes an iterative approach to building a data-publishing web service in 4D, and introduces two techniques for generating dynamic documents: model-based generation using 4D Tags, and XML templates driving the EXPORT DATA command.

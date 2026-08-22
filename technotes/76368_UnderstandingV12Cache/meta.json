@@ -1,0 +1,26 @@
+{
+  "asset_id": 76368,
+  "title": "Understanding the 4D v12 Cache",
+  "technote_number": "11-21",
+  "year": 2011,
+  "published_date": "June 29, 2011",
+  "product": "4D",
+  "version": "12.2",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76368",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-21_UnderstandingCache.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D database engine cache management",
+    "GET CACHE STATISTICS command",
+    "FLUSH BUFFERS(*) and cache-tuning parameters"
+  ],
+  "historical_commentary": {
+    "text": "The fundamental role of the 4D cache as the sole gateway between the database engine and disk I/O remains true in current 4D versions, so the conceptual explanation here is still broadly relevant. However, specific tuning guidance (typical cache sizes, the _USER_IND_COLUMNS parameter, and the 20-second flush interval quirk of 4D v11 SQL) is dated to hardware and 4D internals of the early 2010s; modern 4D installations run on far larger RAM budgets and 4D's cache management has continued to evolve, so current cache-sizing guidance from 4D's documentation should be consulted rather than relying solely on this note's specific numbers.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D's cache architecture and recommended sizing guidance have continued to evolve in versions after v12, and current recommendations should be checked in up-to-date 4D documentation"
+    ]
+  }
+}

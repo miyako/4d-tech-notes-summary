@@ -1,0 +1,1 @@
+Dynamic Variables in 4D v12 (TN 11-23, 4D v12, July 22, 2011) — introduces 4D v12's dynamic/form variables feature and presents the custom XVH component that lets a form using dynamic variables communicate incoming and outgoing data with its calling process.

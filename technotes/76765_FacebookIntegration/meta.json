@@ -1,0 +1,27 @@
+{
+  "asset_id": 76765,
+  "title": "Tech Note: Integrating Facebook with 4D",
+  "technote_number": "13-02",
+  "year": 2013,
+  "published_date": "January 29, 2013",
+  "product": "4D",
+  "version": "13.2",
+  "platform": "Mac & Win",
+  "author": "Darrell Draper, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76765",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-02_FBIntegration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Facebook Graph API / Login",
+    "4D Web Area",
+    "OAuth-style login flow",
+    "HTTP/JSON commands"
+  ],
+  "historical_commentary": {
+    "text": "Facebook has repeatedly overhauled its Graph API, login flow, and permission model since 2013 (deprecating classic wall posting, changing OAuth requirements, and tightening app review), so the specific API calls and flows shown in this note no longer work unmodified against today's Facebook Platform. The general integration pattern — using a 4D web area plus HTTP/JSON commands to call a third-party REST API — remains valid, but would need to be rebuilt against Facebook's current Graph API versions and permission model, ideally using 4D's improved native REST/JSON commands.",
+    "status": "deprecated",
+    "related_updates": [
+      "4D's modern native HTTP client and JSON commands, which simplify calling any current third-party REST API including Facebook's updated Graph API"
+    ]
+  }
+}

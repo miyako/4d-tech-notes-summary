@@ -1,0 +1,28 @@
+{
+  "asset_id": 76667,
+  "title": "Tech Note: Type Ahead Suggestions",
+  "technote_number": "12-17",
+  "year": 2012,
+  "published_date": "October 1, 2012",
+  "product": "4D",
+  "version": "13.1",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76667",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-17_TypeAheadSuggestions.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "On After Keystroke form event",
+    "Type-ahead/autocomplete component",
+    "Hierarchical list / pop-up suggestion UI",
+    "Reusable single-line integration API"
+  ],
+  "historical_commentary": {
+    "text": "The On After Keystroke-driven type-ahead technique still works today in classic 4D forms and remains a reasonable approach for native desktop UI, since 4D has not removed this event or replaced it with a built-in autocomplete widget. That said, for web-facing 4D applications this kind of behavior is now more commonly implemented with modern JavaScript/CSS autocomplete libraries in an HTML-based front-end, and for object-driven data lists a developer might source suggestions from an ORDA entity selection query rather than a classic array/selection lookup.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA entity selection queries as a modern data source for suggestion lookups",
+      "Client-side JavaScript autocomplete libraries for web-based 4D front-ends"
+    ]
+  }
+}

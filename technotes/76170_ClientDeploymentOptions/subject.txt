@@ -1,0 +1,1 @@
+Tech Note: Comparing Client Deployment Options in 4D (TN 10-27, 4D v12, September 2010) — compares 4D Remote and Merged client deployment models, weighing advantages and disadvantages of each for real-world rollouts.

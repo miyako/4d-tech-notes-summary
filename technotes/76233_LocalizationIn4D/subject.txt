@@ -1,0 +1,1 @@
+Tech Note: Localization in 4D v12 (TN 10-35, 4D v12.1, December 2010) — explains how to localize a 4D database's interface using XLIFF resource files, the new SET DATABASE LOCALIZATION command, and runtime language switching.

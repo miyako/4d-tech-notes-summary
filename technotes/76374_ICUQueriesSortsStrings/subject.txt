@@ -1,0 +1,1 @@
+ICU in 4D: Impact on Queries, Sorts and String Comparisons (TN 11-22, 4D v11.2, July 11, 2011) — explains the International Components for Unicode (ICU) collation algorithm adopted by 4D since v11.2 Unicode, and its practical impact on string comparisons, sorts, and queries, including "ignorable" characters and command-specific behavior changes.

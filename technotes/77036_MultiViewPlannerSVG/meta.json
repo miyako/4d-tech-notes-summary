@@ -1,0 +1,28 @@
+{
+  "asset_id": 77036,
+  "title": "Tech Note: Build a Multi-View Planner with SVG",
+  "technote_number": "14-07",
+  "year": 2014,
+  "published_date": "May 5, 2014",
+  "product": "4D",
+  "version": "13.5",
+  "platform": "Mac & Win",
+  "author": "Herve LE MARCHAND, 4D Developer",
+  "page_url": "https://kb.4d.com/assetid=77036",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-07_MultiViewPlannerWithSVG.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG Component (SVG_SET_ID, SVG SET/GET ATTRIBUTE, SVG_SET_VISIBILITY)",
+    "MVC pattern applied to 4D forms/methods",
+    "SVG viewport/viewbox zooming and gradients",
+    "Collision/covering management algorithms for schedule items"
+  ],
+  "historical_commentary": {
+    "text": "Building an interactive Gantt-style multi-view planner by directly manipulating a 3000-line SVG document via the 4D SVG Component was an impressively deep, CRUD-like (create/retrieve/update/delete) technique for its era, and the underlying SVG Component and its commands still exist in 4D today. That said, developers building rich scheduling/planning UIs now more commonly reach for a Web Area hosting a modern JavaScript scheduling/charting library (or increasingly, Qodly Studio's web/mobile component model), which offers far richer interactivity and easier styling than hand-rolled SVG attribute manipulation. The MVC architectural discipline the note applies to 4D forms and methods remains sound generic advice regardless of the specific rendering technology chosen.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Web Area-hosted JavaScript charting/scheduling libraries are now the more common approach for rich interactive planners in 4D applications",
+      "Qodly Studio (4D's low-code web/mobile builder) offers a more modern, component-based alternative for building this kind of interactive UI"
+    ]
+  }
+}

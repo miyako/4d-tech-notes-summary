@@ -1,0 +1,1 @@
+This Tech Note demonstrates several ways to integrate a 4D application or web site with Facebook, including embedding a 'Like' button, letting users log in with their Facebook account, retrieving user profile information from Facebook, and posting content to a user's Facebook wall/timeline.

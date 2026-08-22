@@ -1,0 +1,1 @@
+Tech Note: 4D Debug Log Enabler (TN 10-21, 4D v11.6, July 2010) — introduces a technique and component for enabling the 4D debug log file programmatically, without requiring user interaction, useful when an app appears hung.

@@ -1,0 +1,26 @@
+{
+  "asset_id": 76221,
+  "title": "Tech Note: Idle User Detective",
+  "technote_number": "10-33",
+  "year": 2010,
+  "published_date": "November 24, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Charles “Charlie” Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76221",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_31-35_(NOV)/10-33_Idle_User_Detective.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "idle user monitoring",
+    "countdown warning dialog",
+    "programmatic client disconnect",
+    "Remote mode (Client/Server)",
+    "OS-level idle detection (Windows/Mac OS X)"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates a classic-language technique for monitoring user inactivity and programmatically disconnecting idle Remote (Client) connections, using an internal 4D method loop plus OS-specific external calls for true system idle-time detection. The core approach (background process polling, countdown dialog, forced disconnect) still works unchanged in current 4D versions since it relies on stable, backward-compatible commands, so it remains a valid, still-relevant pattern for client/server deployments that need to reclaim idle licenses today.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}

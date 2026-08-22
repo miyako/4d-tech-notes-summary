@@ -1,0 +1,1 @@
+Tech Note: Resources Kit (TN 13-03, 4D v12.5, March 6, 2013) — This Tech Note introduces the Resources Kit, an open-source 4D utility database created by Keisuke Miyako of 4D-Japan (released via sources.

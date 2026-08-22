@@ -1,0 +1,26 @@
+{
+  "asset_id": 76234,
+  "title": "Tech Note: Image Manipulation with GD",
+  "technote_number": "10-36",
+  "year": 2010,
+  "published_date": "December 21, 2010",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76234",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_34-36_(DEC)/10-36_PHP_GD_ImageManipulation.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v12's embedded PHP interpreter",
+    "GD PHP image manipulation library (loading, drawing, text, color, conversion)",
+    "4D wrappers for GD functions with a sample database"
+  ],
+  "historical_commentary": {
+    "text": "This PHP/GD-based image-manipulation bridge still technically works wherever 4D's PHP interpreter and a GD-enabled PHP build are available, but it is a legacy technique; 4D has since added native picture-manipulation commands directly in the 4D language (resizing, format conversion, drawing on pictures) that eliminate the need for a PHP/GD dependency for many common image tasks in modern 4D applications.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Native 4D picture/image commands added in later 4D versions reduce the need for a PHP/GD bridge for common image manipulation tasks"
+    ]
+  }
+}

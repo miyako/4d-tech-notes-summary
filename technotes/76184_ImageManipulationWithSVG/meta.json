@@ -1,0 +1,28 @@
+{
+  "asset_id": 76184,
+  "title": "Tech Note: Image Manipulation with SVG",
+  "technote_number": "10-29",
+  "year": 2010,
+  "published_date": "September 24, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76184",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_28-31_(SEP)/10-29_Image_Manipulation_with_SVG.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SVG (Scalable Vector Graphics)",
+    "embedding pictures in SVG",
+    "SVG-based reflections and fades",
+    "4D picture variables"
+  ],
+  "historical_commentary": {
+    "text": "This note's technique of embedding bitmap pictures inside SVG documents to achieve resizing, reflection, and fade effects reflects 4D's early-2010s SVG support, which remains functional in current 4D versions thanks to backward compatibility. However, modern 4D applications more often achieve these visual effects with native picture handling, CSS-based styling in forms (available since ~v18), or web-based front-ends, making the specific SVG-manipulation techniques here a still-usable but increasingly niche approach rather than the first choice for new development.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D forms support CSS styling (4D v18+) for many visual effects previously done via hand-built SVG",
+      "Web/Qodly-based front-ends now handle rich visual effects via standard CSS/JS rather than 4D SVG documents"
+    ]
+  }
+}

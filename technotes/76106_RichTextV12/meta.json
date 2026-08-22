@@ -1,0 +1,29 @@
+{
+  "asset_id": 76106,
+  "title": "Rich Text in 4D v12",
+  "technote_number": "10-16",
+  "year": 2010,
+  "published_date": "May 21, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=76106",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_15-19_(MAY)/10-16_Rich Text.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Rich Text (per-character styling of text objects, new in 4D v12)",
+    "HTML <SPAN STYLE=...> encoding of styled text",
+    "multi-style form object property",
+    "Entry/Display filters and Quick Report/Labels interaction with Rich Text",
+    "List box Rich Text cell rendering"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D v12's introduction of true per-character Rich Text styling for text/alpha fields, variables, and list box cells, storing style information as embedded HTML <SPAN STYLE=...> tags \u2014 a functional but somewhat idiosyncratic approach (mixing markup directly into field content) that predates 4D's later, cleaner web-area/HTML-based and 4D Write Pro rich-content models. The basic Rich Text object feature described here still exists and works in current 4D versions for simple in-place styled text needs, but for substantial rich-text document editing/generation, 4D Write Pro (with its structured, non-HTML-embedded content model) is now the recommended tool, and pure display-only rich content is often better handled via a Web Area/HTML.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D Write Pro (introduced 4D v16) is recommended for substantial rich-text document editing/generation",
+      "Web Area / HTML rendering is often preferred today for read-only rich, styled display content"
+    ]
+  }
+}

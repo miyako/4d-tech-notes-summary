@@ -1,0 +1,1 @@
+PHPExcel Library with 4D v12 (TN 11-12, 4D v12, April 15, 2011) — shows how to use 4D v12's built-in PHP interpreter together with the open-source PHPExcel library to read Excel spreadsheet data (sheet names, rows, columns, cell values/styles) directly into a 4D application, including a list box import example.

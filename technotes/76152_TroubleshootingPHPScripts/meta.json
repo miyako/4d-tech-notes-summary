@@ -1,0 +1,27 @@
+{
+  "asset_id": 76152,
+  "title": "Tech Note: Troubleshooting PHP Scripts for 4D",
+  "technote_number": "10-24",
+  "year": 2010,
+  "published_date": "August 5, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76152",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_24-28_(AUG)/10-24_PHP_Troubleshooting.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PHP GET FULL RESPONSE command",
+    "PHP command-line interpreter (-f, -l, -i, -m, -s, -v flags)",
+    "PHP script debugging inside and outside 4D"
+  ],
+  "historical_commentary": {
+    "text": "This note's guidance on debugging PHP scripts both inside 4D (via PHP GET FULL RESPONSE) and outside 4D (via the standalone PHP CLI) targeted 4D's now-discontinued built-in PHP interpreter. 4D removed the built-in PHP interpreter in v20 R3 and formally deprecated the entire PHP command set in v21, recommending System Workers for running external scripts instead, so this troubleshooting workflow no longer matches how PHP integration is done in current 4D.",
+    "status": "deprecated",
+    "related_updates": [
+      "4D v20 R3 removed the built-in PHP interpreter, requiring an external CGI PHP install for PHP EXECUTE to keep working",
+      "4D v21 deprecated the PHP command set in favor of System Workers for running external scripts"
+    ]
+  }
+}

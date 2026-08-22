@@ -1,0 +1,28 @@
+{
+  "asset_id": 76835,
+  "title": "Tech Note: SMTP Component",
+  "technote_number": "13-07",
+  "year": 2013,
+  "published_date": "June 17, 2013",
+  "product": "4D",
+  "version": "13.3",
+  "platform": "Mac & Win",
+  "author": "Sonya Rackwitz, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76835",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-07_SMTPComponent_R2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Internet Commands (SMTP)",
+    "Custom SMTP component (SMTP_New/Host/From/To/Send/Clear/Subject/Body)",
+    "External database for account/message storage",
+    "Email account management (SMC_ACCOUNT_LIST, SMC_CREATE_ACCOUNT, etc.)"
+  ],
+  "historical_commentary": {
+    "text": "4D's classic Internet Commands for SMTP remain supported and functional today, so this component-based wrapper pattern still works as-is. However, a modern implementation would more likely be built as a 4D class (introduced ~v19-20) exposing the same SMTP_* style API with object-oriented syntax and JSON-based configuration rather than an external database and classic component, and some developers now prefer third-party or cloud email-sending APIs invoked via native REST/HTTP commands.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D classes (Project Mode, v19+) as a cleaner alternative to classic components for packaging reusable APIs",
+      "Native 4D HTTP/REST client commands as an alternative to raw SMTP for transactional email via third-party providers"
+    ]
+  }
+}

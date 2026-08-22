@@ -1,0 +1,27 @@
+{
+  "asset_id": 76174,
+  "title": "Tech Note: Pinpoint Coding problems using 4D v12 Assertions",
+  "technote_number": "10-28",
+  "year": 2010,
+  "published_date": "September 10, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Charles “Charlie” Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76174",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_28-31_(SEP)/10-28_Programming_4D_Assertions.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ASSERT command",
+    "Asserted function",
+    "SET ASSERT ENABLED",
+    "Get assert enabled",
+    "Error method / Error line system variables",
+    "ON ERR CALL"
+  ],
+  "historical_commentary": {
+    "text": "Assertions are a timeless, language-agnostic debugging discipline, and 4D's ASSERT/Asserted/SET ASSERT ENABLED commands introduced in v12 remain in the current 4D language largely unchanged, so this technique is still directly applicable today. This is one of the rare cases in this era where the guidance is close to evergreen: the recommended practice of validating assumptions in code with assertions has not been superseded by any newer 4D paradigm.",
+    "status": "current",
+    "related_updates": []
+  }
+}

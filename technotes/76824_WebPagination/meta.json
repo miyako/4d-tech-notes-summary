@@ -1,0 +1,28 @@
+{
+  "asset_id": 76824,
+  "title": "Tech Note: 4D and Web Pagination",
+  "technote_number": "13-05",
+  "year": 2013,
+  "published_date": "May 22, 2013",
+  "product": "4D",
+  "version": "13.2",
+  "platform": "Mac & Win",
+  "author": "Charles “Charlie” Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76824",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-05_4DAndWebPagination.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Server (classic)",
+    "4D Tags",
+    "SQL (embedded)",
+    "JavaScript multidimensional arrays",
+    "Record selections / SET"
+  ],
+  "historical_commentary": {
+    "text": "The core pagination UX principles remain timeless and still apply to any web application built with 4D today. However, the concrete implementation techniques — 4D Tags-based HTML generation and the classic 4D Web Server request model — have been superseded for new development by REST/ORDA-based APIs consumed by modern JavaScript front-ends (e.g., React, Vue) that handle pagination client-side against paged entity selections, making server-side 4D Tag templating far less common for new projects.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "REST APIs built on ORDA entity selections (4D v16 R5+) with client-side pagination in modern JS frameworks, replacing 4D Tags-based server rendering for new web apps"
+    ]
+  }
+}
