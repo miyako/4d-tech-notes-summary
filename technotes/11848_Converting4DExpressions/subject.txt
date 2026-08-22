@@ -1,0 +1,1 @@
+Tech Note: Converting 4D Expressions (TN 99-34, 4D v6.0.6, August 1999) — a solution for converting 4D expressions embedded in plug-in areas (4D Write, Calc, Draw, Chart) when migrating databases from 4D v3 to v6.

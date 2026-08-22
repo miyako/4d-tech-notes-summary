@@ -1,0 +1,30 @@
+{
+  "asset_id": 47153,
+  "title": "Tech Note: Google Calendar: Downloading Future Events",
+  "technote_number": "07-30",
+  "year": 2007,
+  "published_date": "August 1, 2007",
+  "product": "4D Internet Commands",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Robert Molina, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47153",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_30-34_(AUG)/07-30_4DIC_Google_Calendar.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Internet Commands (4DIC)",
+    "Google Calendar Data API (GData)",
+    "REST",
+    "Atom/RSS XML feeds",
+    "ClientLogin authentication"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates integrating 4D with Google Calendar's original GData/REST API using raw HTTP requests built and parsed manually via 4D Internet Commands, since no 4D-specific client library existed. It is now obsolete in a very concrete way: Google's ClientLogin authentication (plaintext username/password POST) was deprecated and shut down years ago in favor of OAuth 2.0, and the GData protocol itself was replaced by Google Calendar API v3 (JSON/REST), so none of the endpoints or request formats shown will function today. The underlying pattern — building raw HTTP requests and parsing XML/JSON responses from 4D to talk to a REST web service — remains a valid and still-used integration technique, just with 4D's more modern HTTP and JSON commands instead of manual request-string construction.",
+    "status": "obsolete",
+    "related_updates": [
+      "Google's ClientLogin authentication mechanism was deprecated and discontinued in favor of OAuth 2.0",
+      "The GData-based Google Calendar API described here was replaced by the newer Google Calendar API (JSON/REST, OAuth-based)",
+      "4D has since added more built-in HTTP client and JSON commands, reducing the need for manual raw HTTP request construction shown in this note"
+    ]
+  }
+}

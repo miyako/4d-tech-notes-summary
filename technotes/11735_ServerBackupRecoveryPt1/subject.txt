@@ -1,0 +1,1 @@
+Tech Note: Backup and Recovery Strategies for Mission-Critical 4D Server Databases—Part 1 (January 1997) — the first of a two-part note laying out how to set up and maintain an effective backup and recovery strategy for a 24/7, mission-critical 4D Server installation.

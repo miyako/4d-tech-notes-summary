@@ -1,0 +1,29 @@
+{
+  "asset_id": 11717,
+  "title": "Tech Note: Developing with 4D Server Part 1: Advantages of 4D Server Multi-User Development",
+  "technote_number": "96-38",
+  "year": 1996,
+  "published_date": "September 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11717",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/MacOS/TN_1996_37-41_(SEP)/96-38_Server_Pt_1.hqx",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server / 4D Client multi-developer workflow",
+    "4D Compiler",
+    "Timbuktu Remote (remote control software)",
+    "4D Write"
+  ],
+  "historical_commentary": {
+    "text": "Part 1 of a three-part series arguing for centralizing 4D development on a shared 4D Server database rather than single-user local development, covering advantages like eliminating version-mismatch confusion, sharing large realistic data files, realistic performance testing, multi-platform (Mac/Windows) testing, and concurrent multi-programmer development with object locking. The core argument for centralized, server-based multi-developer workflows over local single-user development remains broadly relevant, though specific tools cited (Timbuktu Remote for remote compiling, era-specific hardware comparisons like Power Mac vs. Pentium) are dated, and centralized version control (e.g., Git) has since become the dominant solution to the 'which copy is current' problem this note addresses via 4D Server.",
+    "status": "still relevant",
+    "related_updates": [
+      "Timbuktu Remote, the remote-control software recommended for compiling on a remote 4D Server machine, was discontinued years ago; modern remote administration uses different tools (e.g., SSH, VNC, cloud-based remote desktop)",
+      "Modern multi-developer 4D teams increasingly rely on Project Mode plus Git-based version control for concurrent development, complementing or replacing the 4D Server-centric 'one shared structure' model described here",
+      "4D Write, mentioned as the vehicle for combining Mac/Windows screenshots in shared documentation, was later replaced by 4D Write Pro (2016)"
+    ]
+  }
+}

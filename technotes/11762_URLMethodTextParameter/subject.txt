@@ -1,0 +1,1 @@
+Tech Note: The Text Parameter Passed to 4D Methods Called via URLs (4D v6.0, May 1997) — an undocumented tip about the implicit text parameter 4D passes to any method invoked via a /4DMETHOD/ URL.

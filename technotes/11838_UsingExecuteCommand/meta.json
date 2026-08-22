@@ -1,0 +1,28 @@
+{
+  "asset_id": 11838,
+  "title": "Tech Note: Using the Execute Command",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "June 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11838",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6",
+    "EXECUTE Command",
+    "Dynamic Code Execution",
+    "Expression Parsing"
+  ],
+  "historical_commentary": {
+    "text": "The EXECUTE command in 4D had significant limitations — single-line expressions only, no control flow keywords. This note's workaround (seven parsing methods) shows the ingenuity required in the v6 era. Modern 4D provides Formula objects and the EXECUTE METHOD command, as well as more flexible dynamic code execution capabilities that make such elaborate workarounds unnecessary.",
+    "status": "superseded",
+    "related_updates": [
+      "Formula objects provide modern dynamic code execution",
+      "EXECUTE METHOD and 4D.Function class offer flexible alternatives to EXECUTE"
+    ]
+  }
+}

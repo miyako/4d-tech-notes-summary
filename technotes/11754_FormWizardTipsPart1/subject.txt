@@ -1,0 +1,1 @@
+Tech Note: Tricks and Tips for Using the Form Wizard - Part 1 (4D v6.0, August 1997) — Part 1 of a two-part guide to tricks and tips for using the new 4D V6 Form Wizard, illustrated with the MusicPro example database.

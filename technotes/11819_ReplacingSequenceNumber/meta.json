@@ -1,0 +1,31 @@
+{
+  "asset_id": 11819,
+  "title": "Tech Note: Replacing the Sequence Number Command",
+  "technote_number": "98-17",
+  "year": 1998,
+  "published_date": "December 17, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11819",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Sequence Number",
+    "Auto-Increment",
+    "Record Numbering",
+    "Transactions",
+    "Semaphores"
+  ],
+  "historical_commentary": {
+    "text": "This note presents alternatives to 4D's built-in Sequence number command, exploring its limitations and providing two alternative approaches including one that handles multiple sequence numbers within transactions. The Sequence number command still exists in modern 4D, and auto-increment fields are now available. The concurrency concerns addressed here (sequence numbers in multi-user/transaction contexts) remain relevant conceptual challenges, though ORDA and modern 4D provide better tools for handling them.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D now supports auto-increment field attributes that handle unique numbering automatically",
+      "ORDA provides entity-level locking that simplifies concurrent record creation",
+      "The Sequence number command remains available but its limitations are better addressed by modern alternatives"
+    ]
+  }
+}

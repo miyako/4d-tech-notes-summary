@@ -1,0 +1,25 @@
+{
+  "asset_id": 25592,
+  "title": "Tech Note: Naming Conventions to Simplify Component Development and Use",
+  "technote_number": "02-51",
+  "year": 2002,
+  "published_date": "November 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25592",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-51_Naming_Conventions.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D component development",
+    "4D Insider public/protected/private methods"
+  ],
+  "historical_commentary": {
+    "text": "4D Insider itself has been superseded by 4D's modern, native component architecture, so the specific public/protected/private mechanics tied to 4D Insider are obsolete, but the broader principle \u2014 using clear naming conventions to signal a component's intended public API surface \u2014 remains sound software engineering advice applicable to today's 4D components and classes.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Insider has been superseded by 4D's modern native component architecture, which handles component packaging and encapsulation differently"
+    ]
+  }
+}

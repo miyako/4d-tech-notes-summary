@@ -1,0 +1,1 @@
+Tech Note: 4D Write, Programming Styles, and Entry Control (TN 02-02, 4D v6.8, January 2002) — Part I of a note demonstrating how to use the 4D Write plug-in in a controlled data-entry environment that makes extensive use of text styles.

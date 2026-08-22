@@ -1,0 +1,1 @@
+Tech Note: Thermobase (TN 03-41, 4D v2003, September 2003) — a short example showing how to build a custom thermometer-style graphical gauge display inside a 4D database.

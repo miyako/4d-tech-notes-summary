@@ -1,0 +1,26 @@
+{
+  "asset_id": 25591,
+  "title": "Tech Note: 4D View Style sheets",
+  "technote_number": "02-50",
+  "year": 2002,
+  "published_date": "October 31, 2002",
+  "product": "4D View",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25591",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-50_4D_View_Style_Sheets.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View",
+    "Style sheets",
+    "Procedural formatting"
+  ],
+  "historical_commentary": {
+    "text": "4D View has been discontinued as a standalone product, making the specific style-sheet commands described here obsolete for current development; the general design pattern of saving and reapplying user formatting preferences remains a useful, still-applicable UX idea realized differently in current 4D form objects or web-based UIs.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D View has been discontinued; current 4D form objects and web-based UI components provide different mechanisms for reusable styling/formatting"
+    ]
+  }
+}

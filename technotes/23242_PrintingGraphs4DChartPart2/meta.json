@@ -1,0 +1,26 @@
+{
+  "asset_id": 23242,
+  "title": "Tech Note: Printing Graphs from 4D Chart, Part II",
+  "technote_number": "02-25",
+  "year": 2002,
+  "published_date": "June 14, 2002",
+  "product": "4D Chart",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23242",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_25-29_(JUN)/02-25_Printing_Graphs.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart",
+    "Graph printing",
+    "Print sizing control"
+  ],
+  "historical_commentary": {
+    "text": "4D Chart as described here is a legacy component largely superseded by newer charting approaches in current 4D (including web-based charting embedded in web areas), making the specific print-size control techniques in this note obsolete for new development.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart's classic API has been superseded by newer charting options in current 4D, including web-based JS charting libraries embedded via web areas"
+    ]
+  }
+}

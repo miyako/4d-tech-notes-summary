@@ -1,0 +1,1 @@
+Tech Note: Communicating via a serial port with 4D (TN 98-14, 4D v6.0, March 1998) — a method for managing serial port transmission and reception of textual data of any size.

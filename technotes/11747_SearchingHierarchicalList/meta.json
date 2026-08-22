@@ -1,0 +1,28 @@
+{
+  "asset_id": 11747,
+  "title": "Searching a Hierarchical List",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "June 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11747",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Hierarchical lists",
+    "Tree data structures in 4D",
+    "Parent/child item relationships",
+    "List search algorithms"
+  ],
+  "historical_commentary": {
+    "text": "Hierarchical lists have been a core UI component in 4D since the classic era, used for tree views, category browsers, and navigation structures. The note's description of their unique parent/child data storage model remains conceptually accurate in modern 4D. While the specific API and command set for hierarchical lists has been updated over the years, the fundamental data structure and the need to search it programmatically remain relevant. Modern 4D also offers list boxes with hierarchical display modes as an alternative.",
+    "status": "superseded",
+    "related_updates": [
+      "Hierarchical list commands have been updated but the core concept persists in modern 4D",
+      "List boxes with hierarchical mode offer an alternative to standalone hierarchical lists for tree-view display"
+    ]
+  }
+}

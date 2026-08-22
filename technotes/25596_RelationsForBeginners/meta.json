@@ -1,0 +1,25 @@
+{
+  "asset_id": 25596,
+  "title": "Tech Note: Relations for Beginners in 4D",
+  "technote_number": "02-55",
+  "year": 2002,
+  "published_date": "November 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25596",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-55_RelationsForBeginners.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D automatic/manual relations",
+    "One-to-many, many-to-many relationships"
+  ],
+  "historical_commentary": {
+    "text": "The fundamental relational concepts explained here (one-to-many, many-to-many, etc.) remain entirely valid and foundational in current 4D, though ORDA (introduced in 4D v17+) has since added a higher-level, object-based way to navigate relations that largely supersedes the older automatic/manual relation query techniques for new development, while the underlying data-modeling concepts carry over directly.",
+    "status": "superseded",
+    "related_updates": [
+      "ORDA (introduced in 4D v17+) provides a newer, object-based way to navigate relations between tables, superseding the older automatic/manual relation query techniques for most new development"
+    ]
+  }
+}

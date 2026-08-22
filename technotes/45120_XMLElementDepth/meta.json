@@ -1,0 +1,27 @@
+{
+  "asset_id": 45120,
+  "title": "Tech Note: Getting an XML Element's Depth",
+  "technote_number": "07-01",
+  "year": 2007,
+  "published_date": "January 9, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=45120",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_01-04_(JAN)/07-01_XML_Element_Depth.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension DOM XML commands",
+    "DOM Get parent XML element",
+    "Custom error handling (ON ERR CALL)"
+  ],
+  "historical_commentary": {
+    "text": "The first Tech Note of 2007 in this XML series, this note adds a DOM_GetNodeLevel routine that counts how many parent-hops separate a node from the document root, filling a gap in 4D's native DOM commands which offered no built-in 'depth' function. As with its companion XML notes, the specific DOM XML API is legacy relative to modern 4D (which has since added native JSON support), but the simple technique of counting ancestor traversals to determine tree depth is a generic, still-valid algorithm applicable to any tree structure.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added native JSON support and other modern data-interchange handling, reducing reliance on the classic DOM XML command set for new development",
+      "The DOM XML commands referenced remain available in 4D for backward compatibility"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 29816,
+  "title": "Tech Note: Using a Map in a Form",
+  "technote_number": "03-42",
+  "year": 2003,
+  "published_date": "September 30, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29816",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_40-43_(SEP)/03-42_Using_a_Map_in_a_Form.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Non-rectangular hit detection",
+    "Form picture objects"
+  ],
+  "historical_commentary": {
+    "text": "The specific 4D form-object hit-detection technique this note describes has been made largely unnecessary by modern web-based UI (where HTML image maps or SVG regions handle this natively), and even within 4D, web areas embedding modern JS/HTML now make this kind of interactive map far simpler to build than in the classic client-only 4D era.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D web areas can embed HTML/SVG/JS-based interactive maps, making native hit-detection tricks like this one largely unnecessary today"
+    ]
+  }
+}

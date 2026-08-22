@@ -1,0 +1,29 @@
+{
+  "asset_id": 11708,
+  "title": "Tech Note: Operating Systems Supported by 4D and 4D Server",
+  "technote_number": "96-29",
+  "year": 1996,
+  "published_date": "June 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11708",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_27-30_(JUN)/96-29_Operating_Systems.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Mac OS (System 7.5.x)",
+    "Windows 3.1x / Windows for Workgroups 3.11 (with Win32s)",
+    "Windows 95",
+    "Windows NT 3.5x"
+  ],
+  "historical_commentary": {
+    "text": "This note is a snapshot comparison of the five operating systems 4D supported in mid-1996 (Mac OS, Windows 3.1x, Windows for Workgroups, Windows 95, Windows NT 3.5x), including RAM/disk requirements, stability comparisons, hardware/software compatibility notes, and hands-on recommendations (favoring Windows NT Workstation for development and 4D Server hosting). Every operating system discussed — Windows 3.1x, WFW, Windows 95, Windows NT 3.5x, and even the referenced classic Mac OS versions — is long discontinued and unsupported, and the entire comparison (GPF crash rates, Win32s 16-to-32-bit compatibility layer, dial-up hardware pricing) is now purely a historical snapshot of PC/Mac computing circa 1996.",
+    "status": "historical interest only",
+    "related_updates": [
+      "All operating systems discussed (Windows 3.1x, Windows for Workgroups 3.11, Windows 95, Windows NT 3.5x, and classic Mac OS 7.5.x) have been fully discontinued and are unsupported by any current 4D version",
+      "Win32s, the 16-to-32-bit compatibility layer required to run 4D on Windows 3.1x, is entirely obsolete along with 16-bit Windows itself",
+      "Modern 4D runs on current 64-bit Windows and macOS releases with fundamentally different hardware/OS compatibility, stability, and memory-protection characteristics than any platform compared in this note"
+    ]
+  }
+}

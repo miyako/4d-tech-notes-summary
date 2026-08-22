@@ -1,0 +1,1 @@
+Tech Note: About 4D Write 6.0.1 (4D Write v6.0.1, June 1997) — a changelog-style note describing the changes and new implementations made in 4D Write 6.0 and 6.0.1.

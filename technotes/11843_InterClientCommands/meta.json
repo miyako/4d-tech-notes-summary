@@ -1,0 +1,29 @@
+{
+  "asset_id": 11843,
+  "title": "Tech Note: Inter-client Commands in 4D 6.5",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "July 1, 1999",
+  "product": "4D Client",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11843",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "4D Client",
+    "4D Server",
+    "Inter-client Communication",
+    "Messaging"
+  ],
+  "historical_commentary": {
+    "text": "Inter-client commands in 4D v6.5 were an early form of real-time communication between connected clients. Modern 4D provides workers, signals/semaphores, and shared objects for inter-process communication, plus the CALL WORKER command for cross-process messaging — far more robust than the v6.5 inter-client commands.",
+    "status": "superseded",
+    "related_updates": [
+      "Workers and CALL WORKER replaced inter-client messaging patterns",
+      "Shared objects and signals provide modern inter-process synchronization"
+    ]
+  }
+}

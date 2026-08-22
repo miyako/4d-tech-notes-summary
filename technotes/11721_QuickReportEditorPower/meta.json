@@ -1,0 +1,27 @@
+{
+  "asset_id": 11721,
+  "title": "Tech Note: Using the Power of the 4th Dimension Quick Report Editor",
+  "technote_number": "96-43",
+  "year": 1996,
+  "published_date": "October 31, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11721",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_42-44_(OCT)/96-43_Quick_Report.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Quick Report Editor",
+    "4D Search Editor",
+    "4D Airlines example database"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates advanced formatting techniques within 4D's built-in Quick Report Editor (a WYSIWYG ad-hoc reporting tool distinct from the more code-driven Custom Reports), showing time calculations, blank note columns, alpha/numeric formatting tricks, sort/break levels, and boolean cross-tab logic via a worked Aircraft Maintenance Schedule example. The Quick Report Editor concept survives in spirit in modern 4D's reporting tools, but the specific 3.x-era editor UI and its exact formatting options have been superseded by newer report-generation tooling in later 4D versions.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's ad-hoc/quick reporting tools have been revised across many versions since 3.x, with modern equivalents offering different UI and capabilities than the 3.x-era Quick Report Editor described here",
+      "4D Write Pro and other modern presentation/reporting layers now offer additional ways to generate formatted output beyond the classic Quick Report Editor"
+    ]
+  }
+}

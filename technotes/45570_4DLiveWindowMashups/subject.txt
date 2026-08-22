@@ -1,0 +1,1 @@
+Tech Note: Creating Mashups with 4D Live Window (TN 07-07, 4D Web 2.0 Pack v1.0, February 2007) — a how-to guide for embedding a browser control in a 4D form and driving it with database data to build web "mashups" like Google Maps, FedEx tracking, and UPC lookups.

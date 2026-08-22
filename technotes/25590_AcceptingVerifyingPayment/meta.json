@@ -1,0 +1,26 @@
+{
+  "asset_id": 25590,
+  "title": "Tech Note: Accepting / Verifying Payment Information",
+  "technote_number": "02-49",
+  "year": 2002,
+  "published_date": "October 31, 2002",
+  "product": "4D Business Kit",
+  "version": "1.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25590",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-49_Accept-Verify_Payment.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Business Kit",
+    "Online payment acceptance/verification"
+  ],
+  "historical_commentary": {
+    "text": "4D Business Kit has been discontinued, and payment processing has since been transformed by mature PCI-DSS compliance standards and hosted payment gateway APIs (e.g., Stripe, PayPal) that did not exist in their modern form in 2002, making the specific payment-handling techniques in this note obsolete and, in fact, likely non-compliant with modern payment security requirements.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Business Kit has been discontinued",
+      "Modern e-commerce payment processing now relies on PCI-DSS-compliant hosted gateways (e.g., Stripe, PayPal) rather than the direct payment-handling approach implied by this 2002 note"
+    ]
+  }
+}

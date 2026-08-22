@@ -1,0 +1,25 @@
+{
+  "asset_id": 29731,
+  "title": "Tech Note: Record to BLOB",
+  "technote_number": "03-26",
+  "year": 2003,
+  "published_date": "June 26, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29731",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-26_Record_to_BLOB.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "BLOB serialization",
+    "Record storage techniques"
+  ],
+  "historical_commentary": {
+    "text": "The specific need this note addresses has been largely superseded by 4D's later native Object/Collection data types and JSON serialization commands, which now provide a far more natural, structured way to serialize record-like data than manual BLOB packing, making this note's technique obsolete for new development though still historically instructive.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's native Object/Collection data type and JSON serialization commands now provide a much simpler way to serialize structured record data than manual BLOB packing"
+    ]
+  }
+}

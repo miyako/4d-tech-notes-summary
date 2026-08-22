@@ -1,0 +1,28 @@
+{
+  "asset_id": 43892,
+  "title": "Tech Note: ImageMagick Plug-in",
+  "technote_number": "06-32",
+  "year": 2006,
+  "published_date": "August 14, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D",
+  "page_url": "https://kb.4d.com/assetid=43892",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_31-34_(AUG)/06-32_ImageMagick.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ImageMagick (statically linked, v6.2.7)",
+    "4D Plug-in architecture",
+    "Magick++",
+    "4D BLOB / external document picture storage"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a 4D plug-in that statically bundled ImageMagick 6.2.7 to give 4D 2004 built-in image manipulation (resize, crop, rotate, format conversion) without requiring a separate ImageMagick install on client machines. The plug-in mechanism itself, and standalone binary plug-ins built against a specific old ImageMagick release, are long superseded by modern 4D's built-in picture-handling commands and newer image libraries; the underlying idea of embedding an image-processing library as a deployable component remains conceptually sound. Cross-platform picture handling in 4D has since matured considerably beyond what a 2006-era Mac/Windows plug-in could offer.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D has since expanded its native picture/image-handling commands, reducing reliance on third-party plug-ins like this one",
+      "The specific plug-in binary and bundled ImageMagick 6.2.7 version described here are no longer maintained or distributed"
+    ]
+  }
+}

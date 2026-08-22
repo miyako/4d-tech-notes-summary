@@ -1,0 +1,1 @@
+Tech Note: Configuring Your System for 4D and 4D Server/Client on the Macintosh Platform (TN 96-52, 4D v3.x, December 1996) — a system-configuration guide for running 4D, 4D Server, and 4D Client stably on newer PCI-based Power Macintosh hardware using Apple's Open Transport networking stack.

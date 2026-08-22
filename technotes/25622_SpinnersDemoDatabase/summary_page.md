@@ -1,4 +1,4 @@
-# Tech Note 03-5: Inside the Spinners Demo Database
+# Tech Note 03-05: Inside the Spinners Demo Database
 
 **Author:** Gou Yang, 4D Inc. Technical Support
 **Published:** January 31, 2003 | **Product/Version:** 4D v6.8 | **Platform:** Mac & Win

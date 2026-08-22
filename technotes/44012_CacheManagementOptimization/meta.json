@@ -1,0 +1,28 @@
+{
+  "asset_id": 44012,
+  "title": "Tech Note: Optimization and new cache management for 4D 2004",
+  "technote_number": "06-34",
+  "year": 2006,
+  "published_date": "August 25, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "4D S.A.",
+  "page_url": "https://kb.4d.com/assetid=44012",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_31-34_(AUG)/06-34_Cache_Management.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D cache/memory management (address tables, index pages, records)",
+    "FLUSH BUFFER command and cache flushing",
+    "4D Runtime Explorer (cache/activity monitoring)",
+    "SET DATABASE PARAMETER (cache write optimization selector)"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D 2004's rewritten cache/memory management system, including reduced fragmentation at large cache sizes, faster cache-flush write throughput, and faster record loading via OS-level system cache reuse, alongside guidance on sizing the cache using Runtime Explorer hit-ratio statistics. The conceptual guidance on cache sizing (keep index/address tables cached, size for record hit ratio, avoid cache thrashing) remains generally sound database performance thinking, but the specific 2003-vs-2004 comparisons, hardware figures (Mb/s, RAM sizes), and mentioned 32-bit-era cache-size ceilings (up to 1 Gb) are firmly dated to mid-2000s hardware and 4D internals.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's cache/memory management has continued to evolve substantially since 2004, including support for far larger memory configurations on modern 64-bit systems",
+      "The Runtime Explorer and FLUSH BUFFER-based cache monitoring/tuning concepts described are largely still present in spirit in current 4D, though with updated implementations"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Progress Indicator (TN 02-28, 4D v6.8, June 2002) — a guide to building a custom progress indicator using a simple design model, plus a discussion of its performance trade-offs.

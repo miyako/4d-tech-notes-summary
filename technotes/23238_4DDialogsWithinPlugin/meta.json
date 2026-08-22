@@ -1,0 +1,27 @@
+{
+  "asset_id": 23238,
+  "title": "Tech Note: Working with 4D Dialogs within a Plug-in",
+  "technote_number": "02-21",
+  "year": 2002,
+  "published_date": "May 15, 2002",
+  "product": "4D Open",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23238",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_20-24_(MAY)/02-21_Dialogs_in_a_Plug-in.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Dialog",
+    "4D Open plug-in",
+    "Custom security dialogs"
+  ],
+  "historical_commentary": {
+    "text": "The classic 4D plug-in API and 4D Dialog mechanism described here have been superseded by 4D's modern component architecture, meaning the specific plug-in integration approach is dated; the general concept of a password-gated security dialog remains a common, still-relevant application feature, though modern implementations would rely on 4D's more capable and secure current authentication options rather than a bespoke plug-in dialog.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's classic plug-in API has been superseded by its modern component architecture, changing how such native dialogs would be built today",
+      "Modern 4D applications would typically use current, more secure authentication mechanisms rather than a bespoke username/password dialog"
+    ]
+  }
+}

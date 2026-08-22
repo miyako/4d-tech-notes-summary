@@ -1,0 +1,1 @@
+Tech Note: Constructing HTML for Simple Reparsing (TN 96-19, 4th Dimension v3.x, April 1996) — describes embedding custom HTML comment tags around field/record data so a client can later download and reparse the HTML source back into database records; note: source text extraction is corrupted, summary based on title and legible fragments only.

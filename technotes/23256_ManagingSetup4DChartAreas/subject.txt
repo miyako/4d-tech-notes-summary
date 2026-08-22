@@ -1,0 +1,1 @@
+Tech Note: Managing the Setup of 4D Chart Areas (TN 03-10, 4D Chart v6.8, March 2002) — an explanation of the various places a developer can perform custom setup logic on a 4D Chart area, including plug-in windows with no form/object method.

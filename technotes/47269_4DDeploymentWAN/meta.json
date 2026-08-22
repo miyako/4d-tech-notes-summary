@@ -1,0 +1,31 @@
+{
+  "asset_id": 47269,
+  "title": "Tech Note: 4D Deployment Options for Wide Area Networks",
+  "technote_number": "07-32",
+  "year": 2007,
+  "published_date": "August 15, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jason T. Slack, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47269",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_30-34_(AUG)/07-32_4D_WAN_Options.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Client/Server",
+    "4D Web Server (Web 1.0/2.0)",
+    "4D Ajax Framework",
+    "SOAP / REST web services",
+    "Microsoft Terminal Services / Citrix",
+    "VNC / Apple Remote Desktop"
+  ],
+  "historical_commentary": {
+    "text": "This note surveys architectural options for reaching a 4D Client/Server database over a WAN circa 2007 — web-based access (Web 1.0 pages, the emerging 4D Ajax Framework, SOAP/REST web services), server-centric remoting (Terminal Services, Citrix), and remote-desktop tools (VNC, Apple Remote Desktop) — because native 4D Client/Server was only supported and performant on a LAN. The specific mention of the 4D Ajax Framework and 4D Web 2.0 Pack is now obsolete, and 4D's own remote connectivity story has since evolved (e.g., improved client/server networking and cloud-friendly deployment), but the underlying architectural trade-offs it describes (thin web client vs. remoted desktop vs. optimized fat client over WAN) remain a genuinely useful and still-relevant framework for reasoning about deploying a client/server database application across a WAN today.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Ajax Framework and 4D Web 2.0 Pack, mentioned as a Web 2.0 option, were later discontinued",
+      "4D's client/server networking and remote access options have been improved and expanded in later 4D versions",
+      "The general architectural options discussed (web-based, server-centric/remoted desktop) remain standard approaches to WAN deployment of client/server applications today"
+    ]
+  }
+}

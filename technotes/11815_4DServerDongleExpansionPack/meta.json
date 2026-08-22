@@ -1,0 +1,30 @@
+{
+  "asset_id": 11815,
+  "title": "Tech Note: 4D Server, Dongle and Expansion Pack",
+  "technote_number": "98-32",
+  "year": 1998,
+  "published_date": "October 1, 1998",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11815",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server",
+    "Dongle",
+    "Expansion Pack",
+    "Licensing",
+    "Installation"
+  ],
+  "historical_commentary": {
+    "text": "Hardware dongles for software licensing were common in the late 1990s but have been entirely replaced by software-based licensing systems. The Expansion Pack concept and dongle-based licensing reflect an era of physical copy protection. 4D has long since moved to software-based license management.",
+    "status": "obsolete",
+    "related_updates": [
+      "Hardware dongles are no longer used for 4D licensing",
+      "4D now uses software-based license management and online activation",
+      "The Expansion Pack concept has been replaced by modern licensing tiers"
+    ]
+  }
+}

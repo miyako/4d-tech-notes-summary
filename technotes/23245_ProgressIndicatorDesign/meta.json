@@ -1,0 +1,25 @@
+{
+  "asset_id": 23245,
+  "title": "Tech Note: Progress Indicator",
+  "technote_number": "02-28",
+  "year": 2002,
+  "published_date": "June 14, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23245",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_25-29_(jun)/02-28_progress_indicator.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Custom progress indicator",
+    "Operation status feedback"
+  ],
+  "historical_commentary": {
+    "text": "The general design principle \u2014 balancing user feedback against the performance cost of updating a progress display \u2014 remains a timeless UI/performance engineering trade-off, though later 4D versions have added native progress-related form objects that reduce the need for the fully custom implementation this note likely demonstrated.",
+    "status": "still relevant",
+    "related_updates": [
+      "Later 4D versions have added more native progress-indicator options, reducing (though not eliminating) the need for fully custom implementations like the one in this note"
+    ]
+  }
+}

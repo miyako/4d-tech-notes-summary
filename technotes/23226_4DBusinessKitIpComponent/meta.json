@@ -1,0 +1,25 @@
+{
+  "asset_id": 23226,
+  "title": "Tech Note: The 4D Business Kit IP Component",
+  "technote_number": "02-07",
+  "year": 2002,
+  "published_date": "February 28, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23226",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_05-09_(FEB)/02-07_4D_Business_Kit_IP.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Business Kit",
+    "IP Component (extensibility)"
+  ],
+  "historical_commentary": {
+    "text": "4D Business Kit has been discontinued for many years, making the specific IP Component extensibility mechanism obsolete; any modern e-commerce solution built with 4D today would use current web/ORDA/REST tooling rather than this legacy closed-source-with-plugin-extension architecture.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Business Kit has been discontinued; modern e-commerce solutions built with 4D would use current web/ORDA/REST capabilities rather than this legacy component architecture"
+    ]
+  }
+}

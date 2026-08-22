@@ -1,0 +1,1 @@
+Tech Note: Developing with 4D Server Part 1: Advantages of 4D Server Multi-User Development (TN 96-38, 4D Server v3.x, September 1996) — the first of a three-part series making the case for centralized, 4D Server-based multi-developer workflows over traditional single-user local development.

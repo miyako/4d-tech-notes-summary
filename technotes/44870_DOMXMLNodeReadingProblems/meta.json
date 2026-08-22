@@ -1,0 +1,29 @@
+{
+  "asset_id": 44870,
+  "title": "Tech Note: Avoiding Problems Reading DOM XML Nodes",
+  "technote_number": "06-44",
+  "year": 2006,
+  "published_date": "December 5, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=44870",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_44-45_(DEC)/06-44_Testing_XML_Nodes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension DOM XML commands",
+    "OK system variable",
+    "DOM GET XML ELEMENT NAME/VALUE optional parameters",
+    "Custom ON ERR CALL error handling",
+    "DOM Count XML attributes / #document node special-casing"
+  ],
+  "historical_commentary": {
+    "text": "This note is a foundational strategy guide for defensively navigating 4D's classic DOM XML tree, documenting four escalating techniques (testing the OK system variable, using optional name/value parameters on navigation commands, installing a custom ON ERR CALL handler, and writing a general node-validation routine) plus a special-case warning about DOM Count XML attributes crashing on the synthetic #document node. The specific DOM XML API is legacy relative to 4D's later native JSON support, but the defensive-programming principles it teaches — always validate before dereferencing, prefer safe optional-parameter APIs, and guard against undocumented edge cases in framework APIs — are timeless software engineering practices applicable well beyond XML.",
+    "status": "superseded",
+    "related_updates": [
+      "4D added native JSON support and other modern data-interchange handling in later versions, making the classic DOM XML command set less central to new development",
+      "This note underlies the error-handling pattern (DOM_StartCustomErrorHandling/DOM_StopCustomErrorHandling/DOM_ReferenceIsValid) reused across several sibling 2006-2007 XML tech notes"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Creating a Table and Field Alias System for Multiple Users (TN 02-18, 4D v6.8, April 2002) — an exploration of building a table and field alias system to give multiple users or roles their own view of a shared database structure.

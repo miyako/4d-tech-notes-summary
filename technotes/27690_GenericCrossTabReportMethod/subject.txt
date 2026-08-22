@@ -1,0 +1,1 @@
+Tech Note: Using a generic method to create cross tab reports (TN 03-17, 4D v2003, April 2003) — an exploration of the new 'QR'-prefixed Quick Report command theme in 4D 2003, used within a generic method to build a variety of cross-tab reports procedurally.

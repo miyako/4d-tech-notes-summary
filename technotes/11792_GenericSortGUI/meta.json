@@ -1,0 +1,28 @@
+{
+  "asset_id": 11792,
+  "title": "A Generic Sort GUI",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "February 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11792",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D GUI design",
+    "Output form sorting",
+    "Arrow key navigation",
+    "Generic reusable code patterns"
+  ],
+  "historical_commentary": {
+    "text": "This note addressed a common UX need — letting users sort list columns interactively — using 4D v6's output forms and arrow key events. While the specific implementation is tied to the v6 form object model, the concept of providing an intuitive column-sort GUI is universal. Modern 4D offers list boxes with built-in sortable column headers, making this kind of manual implementation unnecessary.",
+    "status": "obsolete",
+    "related_updates": [
+      "List boxes in later 4D versions provide built-in sortable column headers, eliminating the need for custom sort GUI code",
+      "4D's form event and object model have been substantially modernized since v6"
+    ]
+  }
+}

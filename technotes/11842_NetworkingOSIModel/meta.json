@@ -1,0 +1,27 @@
+{
+  "asset_id": 11842,
+  "title": "Tech Note: Networking 1: Open System Interconnect (OSI) Reference Model",
+  "technote_number": "99-28",
+  "year": 1999,
+  "published_date": "July 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11842",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Networking",
+    "OSI Reference Model",
+    "4D Server"
+  ],
+  "historical_commentary": {
+    "text": "The OSI Reference Model remains a foundational concept taught in every networking course, so the educational content of this note is timeless. However, it was written specifically because 4D developers in 1999 often needed hands-on networking knowledge to deploy 4D Server — a role now typically handled by IT infrastructure teams rather than application developers.",
+    "status": "still relevant",
+    "related_updates": [
+      "OSI model remains the standard framework for understanding network protocols",
+      "4D developers today rarely need to manage network infrastructure directly"
+    ]
+  }
+}

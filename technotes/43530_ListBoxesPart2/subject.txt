@@ -1,0 +1,1 @@
+Tech Note: List Boxes (Part II) (TN 06-26, 4D v2004, June 2006) — the language-focused second half of a two-part note showing how to create, configure, and reorder list box columns programmatically in 4D 2004.

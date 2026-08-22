@@ -1,0 +1,1 @@
+Tech Note: 4D Server: Networking and Troubleshooting (TN 96-28, 4D Server v3.x, June 1996) — an overview of the three networking protocols (ADSP, TCP/IP, IPX/SPX) supported by 4D Client/Server, ACI's Network Component translation layer, and general troubleshooting steps for connection problems.

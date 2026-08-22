@@ -1,0 +1,28 @@
+{
+  "asset_id": 43778,
+  "title": "Tech Note: Building a REST Client",
+  "technote_number": "06-30",
+  "year": 2006,
+  "published_date": "July 28, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Yvan Ayaay, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43778",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_27-30_(JUL)/06-30_REST_Client.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "REST (Representational State Transfer)",
+    "HTTP GET requests from 4D",
+    "XML parsing in 4D",
+    "Yahoo Web Search API"
+  ],
+  "historical_commentary": {
+    "text": "This note explains REST as a then-emerging alternative to SOAP web services and walks through hand-building a REST client in 4D 2004 language, since 4D's Web Services Wizard at the time could only discover and call SOAP services. The core architectural explanation of REST (resource-oriented, stateless, HTTP verbs over URLs) remains entirely accurate and foundational to modern web APIs, but the concrete 4D-side implementation — manual HTTP/XML handling without any REST-specific commands or JSON support — has been superseded by 4D's later native REST/JSON tooling and its own built-in REST server framework (introduced circa 4D v16+).",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added its own native REST server/API framework and JSON parsing commands, eliminating the need to hand-roll REST clients as shown here",
+      "The example calls Yahoo's now-discontinued classic Web Search REST API, which is no longer operational"
+    ]
+  }
+}

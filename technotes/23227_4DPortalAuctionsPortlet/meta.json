@@ -1,0 +1,26 @@
+{
+  "asset_id": 23227,
+  "title": "Tech Note: 4D Portal: The Auctions portlet",
+  "technote_number": "02-08",
+  "year": 2002,
+  "published_date": "February 28, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23227",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_05-09_(feb)/02-08_4d_portal_auctions.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Portal",
+    "Auctions portlet",
+    "Session management"
+  ],
+  "historical_commentary": {
+    "text": "4D Portal as a product is long discontinued, making the specific Auctions portlet implementation obsolete for current development; modern auction-style web features would be built with contemporary web frameworks and session management approaches rather than this legacy platform.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Portal has been discontinued; modern web applications would implement equivalent auction/portlet-style features using current web frameworks"
+    ]
+  }
+}

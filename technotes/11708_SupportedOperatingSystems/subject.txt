@@ -1,0 +1,1 @@
+Tech Note: Operating Systems Supported by 4D and 4D Server (TN 96-29, 4D v3.x, June 1996) — a 1996-era comparison of the five operating systems 4D supported (Mac OS, Windows 3.1x, Windows for Workgroups, Windows 95, Windows NT 3.5x), with hardware requirements, stability/compatibility tradeoffs, and platform recommendations.

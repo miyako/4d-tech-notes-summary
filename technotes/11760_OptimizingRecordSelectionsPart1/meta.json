@@ -1,0 +1,28 @@
+{
+  "asset_id": 11760,
+  "title": "Tech Note: Optimizing Record Selections - Part 1 \u2014 Under the Hood of the 4D Data File",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "May 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11760",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D data file internals",
+    "Disk space / memory organization",
+    "Record selection optimization",
+    "4D v3 and v6 compatibility"
+  ],
+  "historical_commentary": {
+    "text": "This note explains the internal organization of the classic 4D binary data file on disk and in memory as background for optimizing record selections in large, multi-user deployments; the specific binary .4DB/.4DC data file architecture it describes has been long superseded by 4D's modern structure file format, though the general goal of understanding storage internals to optimize performance at scale remains a relevant engineering principle.",
+    "status": "superseded",
+    "related_updates": [
+      "The classic binary 4D data file architecture described here (as it existed across 4D v3 and v6) has been superseded by 4D's modern structure file format",
+      "Modern 4D includes substantially different storage, indexing, and caching mechanisms than the v3/v6-era data file internals discussed in this note"
+    ]
+  }
+}

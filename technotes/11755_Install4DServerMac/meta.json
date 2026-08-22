@@ -1,0 +1,27 @@
+{
+  "asset_id": 11755,
+  "title": "Tech Note: Installing and Troubleshooting 4D Server - Macintosh",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "December 1, 1997",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Mac",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11755",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server 6.0 (Macintosh)",
+    "4D Client installation",
+    "Client/Server troubleshooting"
+  ],
+  "historical_commentary": {
+    "text": "This note is an installation and troubleshooting guide specific to 4D Server/Client v6 on classic Mac OS; its concrete installation steps and troubleshooting checks are entirely tied to a discontinued OS platform (System 7/8-era classic Mac OS) and a decades-old 4D Server release, making it obsolete as a practical how-to, though the general genre of \"installation troubleshooting\" documentation persists in modern 4D Server guides.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS (System 7/8, the platform this note targets) was discontinued by Apple in favor of Mac OS X in the early 2000s",
+      "4D Server's installation, licensing, and troubleshooting mechanisms have been completely redesigned many times over since 4D Server v6"
+    ]
+  }
+}

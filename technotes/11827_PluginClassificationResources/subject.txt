@@ -1,0 +1,1 @@
+Tech Note: Classification and Resources of External Routines (Plug-ins) (TN 99-01, 4D v6.0, February 1999) — examines the classification, resource structure, and conversion handling of 4D plug-ins.

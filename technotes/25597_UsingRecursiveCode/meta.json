@@ -1,0 +1,25 @@
+{
+  "asset_id": 25597,
+  "title": "Tech Note: Using Recursive Code",
+  "technote_number": "02-56",
+  "year": 2002,
+  "published_date": "December 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25597",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-56_Using_Recursive_Code.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Recursive methods",
+    "Code maintainability"
+  ],
+  "historical_commentary": {
+    "text": "The software-engineering guidance in this note \u2014 that unintentional indirect recursion is hard to trace and should be avoided \u2014 is a timeless principle that remains just as valid in modern 4D (including its later object-oriented class-based code) as it was in 2002.",
+    "status": "still relevant",
+    "related_updates": [
+      "The core guidance on recursion and code maintainability remains applicable to modern 4D, including its later class/object-oriented programming features"
+    ]
+  }
+}

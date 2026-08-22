@@ -1,0 +1,1 @@
+Tech Note: Getting an XML Element's Depth (TN 07-01, 4D v2004, January 2007) — a code note providing a DOM_GetNodeLevel routine that counts a node's depth/level within an XML tree using 4D's DOM commands, filling a gap in the native command set.

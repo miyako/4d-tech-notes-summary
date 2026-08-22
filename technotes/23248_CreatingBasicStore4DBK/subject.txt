@@ -1,0 +1,1 @@
+Tech Note: Creating a Basic Store Using 4D Business Kit (TN 02-19, 4D Business Kit v1.x, April 2002) — a step-by-step guide to setting up a basic online store using 4D Business Kit, focused on the HTML pages and 4DBK-specific HTML tags needed.

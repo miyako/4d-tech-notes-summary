@@ -1,0 +1,1 @@
+Tech Note: List Boxes (TN 06-25, 4D v2004, June 2006) — Part I of a two-part introduction to the new List Box form object, covering how to create and configure one in 4D's Design-mode Form editor.

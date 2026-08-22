@@ -1,0 +1,1 @@
+Tech Note: Tab Control Tips and Tricks (4D v6.0, April 1998) — covers implementation details, programming tips, and common pitfalls for the Tab Control form object new in v6.

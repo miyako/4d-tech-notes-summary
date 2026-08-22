@@ -1,0 +1,1 @@
+Tech Note: Integrating Active4D and the 4D Ajax Framework (TN 07-19, 4D Web 2.0 Pack v1.1, May 2007) — walks through a custom installation and On Web Connection request-routing scheme to run the third-party Active4D scripting layer and 4D's own 4D Ajax Framework side by side in one database.

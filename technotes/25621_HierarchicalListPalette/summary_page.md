@@ -1,4 +1,4 @@
-# Tech Note 03-4: Hierarchical List Palette
+# Tech Note 03-04: Hierarchical List Palette
 
 **Author:** Cha Yang, 4D Inc. Technical Support
 **Published:** January 31, 2003 | **Product/Version:** 4D v6.8.3 | **Platform:** Mac & Win

@@ -1,0 +1,32 @@
+{
+  "asset_id": 11848,
+  "title": "Tech Note: Converting 4D Expressions",
+  "technote_number": "99-34",
+  "year": 1999,
+  "published_date": "August 1, 1999",
+  "product": "4D",
+  "version": "6.0.6",
+  "platform": "Mac & Win",
+  "author": "ACI Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11848",
+  "download_url": "https://kb.4d.com/DLTN/TN/1999/Windows/TN_1999_32-36_(AUG)/99-34_Convert_Expressions.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v3 to v6 Migration",
+    "4D Write",
+    "4D Calc",
+    "4D Draw",
+    "4D Chart",
+    "4DT5 Resource",
+    "Plug-in Expressions"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a very specific migration issue from 4D v3 to v6 — converting embedded 4D expressions in plug-in areas (4D Write, Calc, Draw, Chart). The 4DT5 resource mechanism and the entire v3-to-v6 conversion path are long obsolete; 4D Write itself was replaced by 4D Write Pro, and the resource-based architecture gave way to components and modern plug-in APIs. This note is purely of historical interest as a record of the migration challenges developers faced in the late 1990s.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D v3 and v6 are long discontinued",
+      "4D Write replaced by 4D Write Pro",
+      "Resource-based architecture (4DT5 etc.) replaced by components and modern plug-in architecture"
+    ]
+  }
+}

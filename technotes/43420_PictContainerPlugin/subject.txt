@@ -1,0 +1,1 @@
+Tech Note: PictContainer Plug-in (TN 06-24, 4D v2004, June 2006) — introduces a plug-in using native QuickTime/GDI+ APIs to give 4D enhanced picture display with zoom, scroll bars, and drag-and-drop support, shipped with full C source code.

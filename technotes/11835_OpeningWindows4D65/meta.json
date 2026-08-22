@@ -1,0 +1,28 @@
+{
+  "asset_id": 11835,
+  "title": "Tech Note: Opening Windows in 4D v6.5",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "May 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11835",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "Window Management",
+    "Open window",
+    "User Interface"
+  ],
+  "historical_commentary": {
+    "text": "Window management was a fundamental topic for 4D v6.5 developers. Modern 4D still uses Open window and Open form window commands, though the window types, options, and behavior have evolved. The basic concepts and strategies covered here remain relevant for understanding 4D's window management model.",
+    "status": "still relevant",
+    "related_updates": [
+      "Open form window and additional window commands have expanded options",
+      "Window management concepts remain similar but with more modern window types and behaviors"
+    ]
+  }
+}

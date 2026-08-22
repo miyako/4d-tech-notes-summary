@@ -1,0 +1,1 @@
+Tech Note: Hexadecimal Notation and Bitwise Operators in V6 (TN 96-48, 4D v6.0.x, November 1996) — a preview of new 4D V6 language features for hexadecimal number display, bitwise operations, and the new BLOB data type, with worked examples decoding raw byte data.

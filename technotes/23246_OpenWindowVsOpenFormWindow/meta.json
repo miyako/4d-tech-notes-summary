@@ -1,0 +1,25 @@
+{
+  "asset_id": 23246,
+  "title": "Tech Note: Open Window Vs. Open Form Window",
+  "technote_number": "02-29",
+  "year": 2002,
+  "published_date": "June 14, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23246",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_25-29_(jun)/02-29_open_window.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "OPEN WINDOW",
+    "OPEN FORM WINDOW"
+  ],
+  "historical_commentary": {
+    "text": "Both OPEN WINDOW and OPEN FORM WINDOW remain part of current 4D's language, so this note's core comparative guidance remains directly applicable to developers working with classic 4D window management today, even as many modern 4D UIs increasingly rely on web areas instead of native windows.",
+    "status": "still relevant",
+    "related_updates": [
+      "Both commands remain part of current 4D, though many modern 4D UIs now use web areas in addition to or instead of native windows"
+    ]
+  }
+}

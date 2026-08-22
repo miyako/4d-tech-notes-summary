@@ -1,0 +1,27 @@
+{
+  "asset_id": 25589,
+  "title": "Tech Note: 4D Business Kit Goes Flash (Part II)",
+  "technote_number": "02-48",
+  "year": 2002,
+  "published_date": "October 31, 2002",
+  "product": "4D Business Kit",
+  "version": "1.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25589",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-48_4DBK_Goes_Flash_Pt%20II.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Business Kit",
+    "Macromedia Flash",
+    "Client-side session/caching design"
+  ],
+  "historical_commentary": {
+    "text": "Both Macromedia Flash and 4D Business Kit are long discontinued \u2014 Flash was officially retired by Adobe at the end of 2020, and browsers no longer support it \u2014 making this note's entire technical premise obsolete; it stands today purely as a historical snapshot of early-2000s rich-client web development practices.",
+    "status": "obsolete",
+    "related_updates": [
+      "Adobe officially discontinued Flash at the end of 2020, and no modern browser supports it",
+      "4D Business Kit has also been discontinued for many years"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: 4D Web Serving Revisited (4D Client v6.0, April 1998) — a supplementary guide to 4D's built-in web server, explaining key concepts and differences between 4D Client and web browser access.

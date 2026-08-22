@@ -1,0 +1,1 @@
+Tech Note: Pictures and 4D (4D v6.0, March 1997) — a historical overview of how 4th Dimension's picture handling has evolved, particularly since the introduction of 4D for Windows, and a summary of its current capabilities as of v6.

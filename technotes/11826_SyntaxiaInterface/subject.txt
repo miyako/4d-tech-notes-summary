@@ -1,0 +1,1 @@
+Tech Note: The Syntaxia Interface (4D v6.0, February 1999) — explains the tab-control-based interface design of the Syntaxia language reference database from TN 99-03.

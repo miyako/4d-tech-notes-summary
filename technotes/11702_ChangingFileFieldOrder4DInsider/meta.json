@@ -1,0 +1,28 @@
+{
+  "asset_id": 11702,
+  "title": "Tech Note: Changing File and Field Orders Using 4D Insider",
+  "technote_number": "96-22",
+  "year": 1996,
+  "published_date": "May 1, 1996",
+  "product": "4D Insider",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Forrest Swilling",
+  "page_url": "https://kb.4d.com/assetid=11702",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_22-26_(MAY)/96-22_File-Field_Order.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Insider (structure documentation/editing tool)",
+    "4D binary structure file (.4DB) field/file tokenization",
+    "4D Import/Export"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a very specific limitation of the classic binary .4DB structure file, in which layouts and procedures reference fields by tokenized position rather than by name, so reordering fields or files could silently break existing code. The Control-drag-based re-tokenization workaround via 4D Insider was necessary because structure editing tools of that era operated on a rigid binary format; this entire class of problem has been largely eliminated by 4D's move to the modern Project Mode / structure file format, where objects are referenced more robustly and structure changes are far less destructive.",
+    "status": "obsolete",
+    "related_updates": [
+      "Binary .4DB/.4DC database format long superseded by the modern structure file format, reducing the field/file reordering fragility this note addresses",
+      "4D Insider itself, as a standalone structure-editing companion tool, is not part of the modern 4D toolset; equivalent structure management is handled within 4D's own Design/Project Mode tooling",
+      "Project Mode (introduced in v17, 2018) replaced Design Mode as an alternative structure representation, changing how structure objects and their references are stored and manipulated"
+    ]
+  }
+}

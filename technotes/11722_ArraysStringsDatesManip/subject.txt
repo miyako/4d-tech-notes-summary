@@ -1,0 +1,1 @@
+Tech Note: Manipulating Arrays, Strings, and Dates in 4th Dimension (TN 96-44, 4D v3.x, October 1996) — a cookbook of reusable, pointer-based array, date, and string manipulation routines for 4D developers to drop into their own applications.

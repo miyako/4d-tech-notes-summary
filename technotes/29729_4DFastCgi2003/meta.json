@@ -1,0 +1,25 @@
+{
+  "asset_id": 29729,
+  "title": "Tech Note: 4D FastCGI 2003",
+  "technote_number": "03-27",
+  "year": 2003,
+  "published_date": "June 26, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29729",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-27_4D_FastCGI_2003.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "FastCGI",
+    "4D web server integration"
+  ],
+  "historical_commentary": {
+    "text": "FastCGI and standalone CGI-style integration have been largely superseded in the current 4D ecosystem by 4D's own mature built-in web server (used both for the classic web publishing features and, more recently, for Qodly/REST-based application delivery), so this note's specific approach is now of mostly historical interest, though the general performance principle (avoiding per-request process spawning) remains a valid systems-design lesson.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's own built-in web server has long superseded the need for external CGI/FastCGI-based web integration in typical 4D deployments"
+    ]
+  }
+}

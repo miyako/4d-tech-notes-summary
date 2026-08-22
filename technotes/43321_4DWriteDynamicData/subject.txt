@@ -1,0 +1,1 @@
+Tech Note: 4D Write: Dynamic Data (TN 06-23, 4D Write v2004, June 2006) — explains how to insert and use dynamic 4D field and expression references, plus tables, inside 4D Write documents so they merge and update with live database data.

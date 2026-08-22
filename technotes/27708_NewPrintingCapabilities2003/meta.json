@@ -1,0 +1,25 @@
+{
+  "asset_id": 27708,
+  "title": "Tech Note: New Printing Capabilities with 4D 2003",
+  "technote_number": "03-24",
+  "year": 2003,
+  "published_date": "May 19, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27708",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-24_NewPrintCapabilities.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D 2003 printing commands",
+    "Print Form / Print Selection / Print Record"
+  ],
+  "historical_commentary": {
+    "text": "4D's printing command set introduced here has been maintained and further extended in subsequent 4D versions, so the core capability (procedural control over printing) remains relevant, though specific commands and options have evolved; developers today would consult current documentation rather than this 2003-era note for exact syntax.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's printing command set has continued to evolve since 2003, with more options added in later versions"
+    ]
+  }
+}

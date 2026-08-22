@@ -1,0 +1,1 @@
+Tech Note: Living Without Record Locking (TN 06-38, 4D v2004, October 2006) — explains why 4D's automatic record locking doesn't protect Web-, SOAP-, or array-based record editing, and presents a simple optimistic-concurrency pattern (a per-record update/version counter validated in a trigger) as the standard solution.

@@ -1,0 +1,1 @@
+Tech Note: 4D WebDAV (TN 06-29, 4D v2004, July 2006) — introduces the 4D DAV plug-in and a fully functional example WebDAV client for connecting to WebDAV servers and Apple's iDisk.

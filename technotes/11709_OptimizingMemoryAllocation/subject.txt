@@ -1,0 +1,1 @@
+Tech Note: Tips and Techniques for Optimizing the Memory Allocated to 4th Dimension (TN 96-30, 4D Server v3.x, June 1996) — a guide to configuring 4D's memory partition, cache/kernel memory split, PowerMac-specific performance tuning, and a MacsBug technique for measuring 4D Server's actual kernel memory usage.

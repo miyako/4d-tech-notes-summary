@@ -1,0 +1,1 @@
+Tech Note: The GRAPH Command in 4D V6 (TN 98-22, 4D Chart v6.0.x, July 1998) — an explanation of changes to the GRAPH commands in 4D V6 and migration guidance from V3.

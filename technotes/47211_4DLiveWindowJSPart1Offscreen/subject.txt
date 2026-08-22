@@ -1,0 +1,1 @@
+Tech Note: 4D Live Window JavaScript Part 1 – Offscreen Areas (TN 07-31, 4D Web 2.0 Pack v1.1, August 2007) — a Windows-only technique for hiding a 4D Live Window plug-in area off-screen inside a Palette window so its JavaScript functions can be called from 4D code like a reusable library, via Web_JavaScriptReturn and a custom interprocess event model.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11766,
+  "title": "Tech Note: Importing Data from Text Documents",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "July 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11766",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Import Manager (User mode)",
+    "IMPORT TEXT command",
+    "RECEIVE PACKET command",
+    "Fixed-length and delimited text import"
+  ],
+  "historical_commentary": {
+    "text": "This note covers foundational, still-conceptually-relevant text import mechanics (fixed-length vs. delimited files, choosing an import method based on data shape) that remain applicable in spirit to modern 4D, even though the specific tools named (the classic Import Manager UI and low-level RECEIVE PACKET-based import) have been superseded by newer, more flexible import commands and connectors in current 4D versions.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added more modern, flexible import/export commands and connectors (e.g. CSV-aware and file-system-integrated commands) beyond the classic IMPORT TEXT/RECEIVE PACKET approach described here",
+      "The classic User mode Import Manager UI described here predates 4D's modern Project Mode-era tooling and has evolved substantially since 4D v6"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 23254,
+  "title": "Tech Note: Repeater",
+  "technote_number": "03-13",
+  "year": 2002,
+  "published_date": "March 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23254",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_10-14_(mar)/03-13_repeater.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Signal sampling theory",
+    "Repeater/data resampling technique"
+  ],
+  "historical_commentary": {
+    "text": "The underlying information-theoretic principles this note draws on (Shannon's sampling theorem) are timeless mathematics, but the specific 4D \"Repeater\" implementation described is impossible to fully assess from the surviving teaser text alone, and any concrete code would need to be evaluated against current 4D commands and practices.",
+    "status": "historical interest only",
+    "related_updates": [
+      "The underlying information-theoretic principles remain valid, though the specific 4D implementation details could not be recovered from the available teaser text"
+    ]
+  }
+}

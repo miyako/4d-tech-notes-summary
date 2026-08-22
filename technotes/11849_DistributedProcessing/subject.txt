@@ -1,0 +1,1 @@
+Tech Note: Distributed Processing in 4D (4D v6.5, August 1999) — an explanation of how to implement distributed processing in 4D using a prime number calculation example.

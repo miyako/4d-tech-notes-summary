@@ -1,0 +1,31 @@
+{
+  "asset_id": 45411,
+  "title": "Tech Note: 4D Server Health - Automatic Reporting",
+  "technote_number": "07-05",
+  "year": 2007,
+  "published_date": "February 7, 2007",
+  "product": "4D Server",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=45411",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_05-09_(FEB)/07-05_4D_Server_Health.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server",
+    "4D Internet Commands (email/SMTP)",
+    "On Server Startup / On Server Shutdown / On Startup / On Exit database methods",
+    "PLATFORM PROPERTIES, Application version, and other system-introspection commands",
+    "4Daction web publishing (/4daction/serverhealth)",
+    "4D Insider (for copying methods between databases)"
+  ],
+  "historical_commentary": {
+    "text": "This note describes a self-built 4D Server monitoring/reporting system that gathers OS, memory, disk, process, table, and crash-history data and emails or web-publishes it as an HTML report — a classic DIY ops-monitoring approach from an era before dedicated application performance monitoring was common in the 4D ecosystem. The specific implementation (4D Internet Commands plug-in for email, 4Daction web publishing, 4D Insider-based method copying) reflects tooling and APIs that have evolved significantly, but the underlying concept of proactive automated health/status reporting for a database server remains a relevant best practice, now more often achieved via 4D's built-in SMTP/HTTP client commands or external monitoring integrations.", 
+    "status": "superseded",
+    "related_updates": [
+      "4D Internet Commands plug-in functionality has largely been folded into or superseded by native 4D language commands (e.g. SMTP/POP3, HTTP client commands) in later 4D versions",
+      "4D Insider as a separate tool for cross-database method management predates later built-in component and code management features",
+      "4Daction-based web publishing predates 4D's modern Web Server/ REST and Qodly-based approaches"
+    ]
+  }
+}

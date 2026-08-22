@@ -1,0 +1,27 @@
+{
+  "asset_id": 26846,
+  "title": "Tech Note: Interaction between 4D 2003 and Microsoft Excel\u00ae (Web Services)",
+  "technote_number": "03-09",
+  "year": 2003,
+  "published_date": "February 28, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=26846",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_06-10_(FEB)/03-09_4D_2003_and_Excel.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SOAP",
+    "WSDL",
+    "4D 2003 Web Services (server-side)",
+    "Microsoft Excel interop"
+  ],
+  "historical_commentary": {
+    "text": "The SOAP/WSDL-based server publication technique described here has been broadly superseded by REST/JSON APIs as the standard way to expose application data to Office and other clients, and modern Excel-to-4D integration would more likely use REST endpoints, Power Query, or direct database connectivity than a SOAP-published service.",
+    "status": "obsolete",
+    "related_updates": [
+      "REST/JSON has broadly replaced SOAP as the preferred way to expose data from a server (including 4D) to Excel and other Office clients"
+    ]
+  }
+}

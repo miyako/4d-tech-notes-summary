@@ -1,0 +1,1 @@
+Tech Note: 4D Server Licensing: Tips and Troubleshooting (January 1997) — an explainer on how 4D Client machines connect to and consume licenses on 4D Server, plus tips for troubleshooting failed connections.

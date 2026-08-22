@@ -1,0 +1,1 @@
+Tech Note: Storing User Created Queries in the Datafile (TN 98-29, 4D v6.0, August 1998) — a system for storing user-created queries in the data file for reuse and sharing in client/server mode.

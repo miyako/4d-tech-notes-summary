@@ -1,0 +1,27 @@
+{
+  "asset_id": 30788,
+  "title": "Tech Note: Web Services \u2013 An Introduction",
+  "technote_number": "03-53",
+  "year": 2003,
+  "published_date": "December 19, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30788",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_52-55_(DEC)/03-53_Web_Services_Intro.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SOAP",
+    "WSDL",
+    "Web Services (4D 2003)"
+  ],
+  "historical_commentary": {
+    "text": "The SOAP/WSDL paradigm this note introduces has been broadly superseded industry-wide by simpler REST/JSON-based web APIs, and 4D itself later added native JSON and REST-friendly HTTP commands, so the specific technology emphasis is now dated even though the general concept of machine-to-machine integration remains as important as ever.",
+    "status": "superseded",
+    "related_updates": [
+      "REST/JSON APIs have become the dominant web integration style, largely displacing SOAP/WSDL industry-wide",
+      "4D added native JSON parsing/generation and modern HTTP client/server commands well after this note, reducing reliance on SOAP-style Web Services"
+    ]
+  }
+}

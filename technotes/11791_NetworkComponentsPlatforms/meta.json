@@ -1,0 +1,28 @@
+{
+  "asset_id": 11791,
+  "title": "Network Components on Various Platforms",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "January 1, 1998",
+  "product": "Network Components",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11791",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D network components",
+    "Cross-platform networking",
+    "AppleTalk and TCP/IP",
+    "4D Client/Server connectivity"
+  ],
+  "historical_commentary": {
+    "text": "This reference table reflects the complex networking landscape of 1998, when 4D had to support both AppleTalk (Mac-native) and TCP/IP across Mac OS and Windows platforms. The network component architecture described here has been entirely replaced — modern 4D uses TCP/IP exclusively, and AppleTalk support was dropped long ago as Apple itself deprecated the protocol. The note is a useful historical reference for understanding the cross-platform networking challenges of this era.",
+    "status": "obsolete",
+    "related_updates": [
+      "AppleTalk support has been completely removed from both macOS and 4D; TCP/IP is the sole networking protocol",
+      "4D's client/server networking layer has been rewritten multiple times; modern 4D Server uses a proprietary TCP-based protocol"
+    ]
+  }
+}

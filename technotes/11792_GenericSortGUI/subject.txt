@@ -1,0 +1,1 @@
+Tech Note: A Generic Sort GUI (4D v6.0, February 1998) — provides a reusable GUI pattern for sorting output form columns using arrow keys.

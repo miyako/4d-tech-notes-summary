@@ -1,0 +1,25 @@
+{
+  "asset_id": 23224,
+  "title": "Tech Note: Assigning a Menu Bar",
+  "technote_number": "02-06",
+  "year": 2002,
+  "published_date": "February 28, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23224",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_05-09_(FEB)/02-06_Menu_Example.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D menu bar assignment",
+    "Single-process menu management"
+  ],
+  "historical_commentary": {
+    "text": "4D's native menu bar assignment commands remain part of current 4D, so this note's core guidance remains broadly applicable, though modern multi-process/multi-window 4D applications may need additional considerations beyond this note's single-process scope, and many modern UIs supplement native menus with web-based navigation.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's native menu bar commands remain part of the current product, though many modern 4D applications supplement or replace native menus with web-based navigation UI"
+    ]
+  }
+}

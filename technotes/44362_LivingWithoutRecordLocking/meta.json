@@ -1,0 +1,28 @@
+{
+  "asset_id": 44362,
+  "title": "Tech Note: Living Without Record Locking",
+  "technote_number": "06-38",
+  "year": 2006,
+  "published_date": "October 6, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=44362",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_38-39_(OCT)/06-38_Record_Locking.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D / 4D Client-Server automatic record locking",
+    "Database triggers (On Saving New/Existing Record Event)",
+    "Optimistic concurrency via a custom update/version counter field",
+    "Web-, SOAP-, and array-based record modification systems"
+  ],
+  "historical_commentary": {
+    "text": "This note explains why 4D's automatic, process-based record locking doesn't apply to Web, SOAP, or array/variable-based record editing scenarios, and proposes a now-classic optimistic-concurrency solution: a per-record update/version counter checked and incremented in a trigger. That pattern (optimistic locking via a version column) is a timeless, still-standard technique used across virtually all modern database systems and ORMs today, making the core lesson still highly relevant, even though the specific 4D commands (triggers via Database event, PUSH RECORD) and stateless-web framing reflect 4D's pre-ORDA, pre-REST era.",
+    "status": "still relevant",
+    "related_updates": [
+      "The optimistic concurrency pattern (version/update counter checked in a trigger) described here remains standard practice in current 4D development and in most modern database systems generally",
+      "4D's trigger mechanism (Database event constants like On Saving New Record) is largely unchanged in concept in current 4D versions"
+    ]
+  }
+}

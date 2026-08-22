@@ -1,0 +1,1 @@
+Tech Note: Creating a Splashscreen on Mac OS (TN 98-21, 4D v6.0, June 1998) — a method for implementing custom splash screens in 4D databases on Mac OS using resources.

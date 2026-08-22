@@ -1,0 +1,27 @@
+{
+  "asset_id": 11748,
+  "title": "Tech Note: Porting Macintosh 4D Applications to Windows",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "March 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11748",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D structure/data conversion (Mac to Windows)",
+    "4D for Windows",
+    "4D Server for Windows"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser paragraph survives for this note, but its subject — converting a Mac-created 4D structure/data pair so it runs under 4D for Windows — reflects the real cross-platform portability challenges 4D developers faced in the mid-1990s. This kind of manual structure/data conversion process is obsolete today, since modern 4D databases use an OS-neutral structure file format that opens natively on Mac or Windows without conversion steps.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern 4D structure files are cross-platform by design and do not require a conversion procedure to move between Mac and Windows",
+      "4D 6.0-era binary .4DB/.4DC data/structure formats have long since been superseded by the modern structure file format"
+    ]
+  }
+}

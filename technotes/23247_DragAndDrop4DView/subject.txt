@@ -1,0 +1,1 @@
+Tech Note: Drag and Drop in 4D View (TN 02-36, 4D View v6.8, August 2002) — an explanation of implementing drag-and-drop cell operations in 4D View using its dedicated drag-and-drop command set.

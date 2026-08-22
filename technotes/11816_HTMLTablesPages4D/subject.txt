@@ -1,0 +1,1 @@
+Tech Note: Creating HTML Tables and Pages from 4th Dimension (TN 98-14, 4D v6.0, October 1998) — demonstrates generating HTML pages and data tables using native 4D commands and the built-in web server.

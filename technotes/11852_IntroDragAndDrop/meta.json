@@ -1,0 +1,30 @@
+{
+  "asset_id": 11852,
+  "title": "Tech Note: An Introduction to Drag and Drop",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "October 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11852",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6",
+    "Drag and Drop",
+    "Form Events",
+    "Pointers",
+    "Hierarchical Lists",
+    "Arrays"
+  ],
+  "historical_commentary": {
+    "text": "Drag and drop in 4D v6 required manual handling of form events and pointers. Modern 4D (v17+) still supports drag and drop via form events, but the underlying framework, object model, and event handling have been significantly modernized. The core concepts of reusable generic code and pointer-based abstraction remain sound programming principles.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's form event model has been modernized but drag and drop still relies on form events",
+      "Project Mode and ORDA have changed how developers structure reusable code"
+    ]
+  }
+}

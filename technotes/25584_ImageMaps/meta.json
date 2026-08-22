@@ -1,0 +1,25 @@
+{
+  "asset_id": 25584,
+  "title": "Tech Note: Image Maps",
+  "technote_number": "02-44",
+  "year": 2002,
+  "published_date": "September 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25584",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_41-45_(sep)/02-44_image_maps.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "HTML image maps",
+    "Client-side vs. server-side image maps"
+  ],
+  "historical_commentary": {
+    "text": "Image maps (especially server-side ones) are a largely obsolete web design pattern today, replaced by CSS/JavaScript-based interactive UI and, where region-based image interactivity is still needed, by SVG or canvas-based click regions; the note remains useful mainly as a historical snapshot of early-2000s web UI techniques applied to 4D-driven web sites.",
+    "status": "historical interest only",
+    "related_updates": [
+      "CSS/JavaScript-based interactive UI and SVG/canvas click regions have largely replaced HTML image maps in modern web design"
+    ]
+  }
+}

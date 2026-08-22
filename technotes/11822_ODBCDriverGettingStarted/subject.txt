@@ -1,0 +1,1 @@
+Tech Note: Getting Started with ODBC Driver for 4D Server (TN 98-19, 4D Server v6.0, December 1998) — explains ODBC driver setup and configuration on Windows and Macintosh for connecting external applications to 4D Server.

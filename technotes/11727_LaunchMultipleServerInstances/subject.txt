@@ -1,0 +1,1 @@
+Tech Note: Launching Multiple Instances of 4D Server Automatically on Macintosh and Windows (TN 96-56, 4D Server v6.0, December 1996) — a how-to for configuring multiple 4D Server instances (each bound to its own database) to launch automatically at system startup on Mac and Windows.

@@ -1,0 +1,29 @@
+{
+  "asset_id": 11724,
+  "title": "Tech Note: Hexadecimal Notation and Bitwise Operators in V6",
+  "technote_number": "96-48",
+  "year": 1996,
+  "published_date": "November 1, 1996",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": "Gordon Muirhead",
+  "page_url": "https://kb.4d.com/assetid=11724",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_45-50_(NOV)/96-48_Hex_Notation.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Hexadecimal display format (& x / & $)",
+    "Bitwise operators (&, |, ^|, ??, >>, <<)",
+    "BLOB data type",
+    "4D V6 language (pre-release)"
+  ],
+  "historical_commentary": {
+    "text": "This note previews new 4D V6 (pre-release, 'Developer Release 1') language features: hexadecimal display formatting, bitwise operators (And, Or, Xor, Bit Test, Shift Left/Right), and the new BLOB data type, demonstrated via example methods for decoding raw bytes. The bitwise operators and BLOB data type introduced here became stable, long-lived parts of the 4D language and remain conceptually current, though BLOB manipulation in modern 4D is often superseded by more structured object/JSON handling for many use cases; the note's V6 pre-release caveats and pointer-symbol change are dated historical detail.",
+    "status": "still relevant",
+    "related_updates": [
+      "The bitwise operators (&, |, ^|, ??, >>, <<) and hexadecimal display formats introduced in V6 remain part of the 4D language today essentially unchanged",
+      "The BLOB data type introduced in V6 is still supported, though modern 4D development often favors object (JSON-like) or ORDA-based data handling for many tasks BLOBs were historically used for",
+      "This note predates V6's official release (it explicitly discusses a pre-release 'Developer Release 1'), and the pointer symbol change ('->') it references was part of V6's broader language modernization"
+    ]
+  }
+}

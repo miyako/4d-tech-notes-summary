@@ -1,0 +1,26 @@
+{
+  "asset_id": 44242,
+  "title": "Tech Note: Mirroring with 4D 2004.4, Part II",
+  "technote_number": "06-37",
+  "year": 2006,
+  "published_date": "September 25, 2006",
+  "product": "4D",
+  "version": "2004.4",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=44242",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_35-37_(SEP)/06-37_Mirroring_Pt2.zip",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D 2004.3/2004.4 mirroring commands",
+    "4D component-based mirroring solution"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser text for this Part II follow-up is available, but it describes a revised, more robust and error-handled implementation of a database mirroring system built on commands 4D introduced in version 2004.3, explicitly incompatible with the original Part I code. Database mirroring/replication remains a conceptually relevant topic, but the specific 2004.3/2004.4-era mirroring commands and component this note relies on are long superseded by 4D's later built-in replication and Backup/Log-based mechanisms.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D has since introduced more integrated backup, log, and replication capabilities in later versions, superseding ad hoc 2004-era mirroring commands and custom components",
+      "The full archive for this note could not be recovered in this environment, limiting confidence in further specifics"
+    ]
+  }
+}

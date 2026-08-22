@@ -1,0 +1,1 @@
+Tech Note: 4D Advanced Debugging Techniques – Part 2 (TN 06-33, 4D v2004, August 2006) — presents a custom text-file logging technique, and an accompanying open-source "4D Logger 2004-1" component, as an alternative debugging strategy for pattern recognition, timing/synchronization bugs, and debugging compiled databases where 4D's native debugger isn't available.

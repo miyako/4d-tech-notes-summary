@@ -1,1 +1,1 @@
-Tech Note: Building a Web Services Client using 4D: The Fed Ex® SOAP serve (TN 03-3, 4D v, January 2003) — a guide to building a SOAP web services client in 4D 2003 that calls the public FedEx package-tracking web service via its WSDL description.
+Tech Note: Building a Web Services Client using 4D: The Fed Ex® SOAP serve (TN 03-03, 4D v, January 2003) — a guide to building a SOAP web services client in 4D 2003 that calls the public FedEx package-tracking web service via its WSDL description.

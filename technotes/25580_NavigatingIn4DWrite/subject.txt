@@ -1,0 +1,1 @@
+Tech Note: Navigating in 4D Write (TN 02-41, 4D Write v6.8, September 2002) — a technique for adding navigation capabilities — jump-to-top, jump-to-end, and hyperlink-style anchors — to 4D Write documents.

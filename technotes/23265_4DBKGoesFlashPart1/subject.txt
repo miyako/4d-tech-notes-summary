@@ -1,0 +1,1 @@
+Tech Note: 4DBK goes Flash (Part I) (TN 02-40, 4D v6.8, August 2002) — an introduction to combining Macromedia Flash animations with the 4D Business Kit e-commerce platform, and working around integration restrictions.

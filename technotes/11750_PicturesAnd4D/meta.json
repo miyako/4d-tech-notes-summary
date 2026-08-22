@@ -1,0 +1,27 @@
+{
+  "asset_id": 11750,
+  "title": "Tech Note: Pictures and 4D",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "March 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11750",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D picture fields/variables",
+    "Picture format handling",
+    "4D for Windows picture compatibility"
+  ],
+  "historical_commentary": {
+    "text": "This note traces the history and then-current state of how 4th Dimension handles picture data, particularly the added complexity introduced once 4D for Windows required cross-platform picture format compatibility alongside classic Mac picture formats (e.g. PICT); the specific formats and internal handling mechanisms described are tied to 4D v6-era classic Mac/Windows graphics conventions and have been superseded by modern image format support and rendering in current 4D.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's picture field/variable handling has been substantially modernized since this v6-era note, with support for a much broader range of contemporary image formats",
+      "Classic Mac-native picture formats (like PICT) discussed as historical context here were phased out by Apple well before modern macOS, and 4D's own picture handling has moved on accordingly"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Distributing Quick Reports and Files on 4D Server (4D v6.0, June 1997) — a practical workaround for distributing saved Quick Reports and other files to 4D Client machines without a file server, using the Mac4DX/Win4DX folders.

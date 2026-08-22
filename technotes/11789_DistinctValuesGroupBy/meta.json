@@ -1,0 +1,28 @@
+{
+  "asset_id": 11789,
+  "title": "Distinct Values, Replacing SQL Group By, and Counting Instances",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "May 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11789",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "DISTINCT VALUES command",
+    "SQL GROUP BY equivalent in 4D",
+    "Set/selection-based data aggregation",
+    "Array-based data processing"
+  ],
+  "historical_commentary": {
+    "text": "This note is a fascinating artifact of the pre-SQL era of 4D, where developers had to replicate SQL concepts like GROUP BY using 4D's procedural set-based language and arrays. 4D had no built-in SQL engine until v11 SQL (~2007), and ORDA (object-relational data access) arrived even later in v17 (2018). The DISTINCT VALUES command itself still exists in modern 4D, but developers today would typically use SQL queries, ORDA collection methods, or entity selections for this kind of data aggregation.",
+    "status": "superseded",
+    "related_updates": [
+      "4D v11 SQL introduced a built-in SQL engine with native GROUP BY support",
+      "ORDA (v17+) provides collection methods like .distinct() and entity selection-based aggregation that make procedural workarounds unnecessary"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 30140,
+  "title": "Tech Note: 4D and iCal",
+  "technote_number": "03-45",
+  "year": 2003,
+  "published_date": "October 31, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30140",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-45_4D_and_iCal.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "iCalendar (iCal) format",
+    "Calendaring/scheduling standards"
+  ],
+  "historical_commentary": {
+    "text": "The iCalendar (.ics) format this note discusses is still a widely used, actively relevant standard today for calendar interoperability (used by Google Calendar, Outlook, Apple Calendar, and others), so the core integration goal remains valid, even though the specific 4D-side implementation details from 2003 have likely been superseded by newer 4D XML/text parsing commands or third-party components.",
+    "status": "still relevant",
+    "related_updates": [
+      "The iCalendar (.ics) standard remains in wide, active use today across calendar applications",
+      "4D has since gained more general text/XML parsing capabilities that could simplify iCalendar data handling compared to 2003-era techniques"
+    ]
+  }
+}

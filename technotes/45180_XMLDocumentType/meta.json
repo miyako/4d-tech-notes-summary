@@ -1,0 +1,28 @@
+{
+  "asset_id": 45180,
+  "title": "Tech Note: Identifying an XML Document's Type",
+  "technote_number": "07-02",
+  "year": 2007,
+  "published_date": "January 17, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=45180",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_01-04_(JAN)/07-02_XML_Types.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension DOM XML commands",
+    "DOM Get XML information (PUBLIC ID / SYSTEM ID)",
+    "XHTML DTD identification (1.0 Strict/Transitional/Frameset, 1.1)",
+    "Custom error handling (ON ERR CALL)"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to distinguish XML document types (using XHTML's four DTD variants as a worked example) by inspecting the root element name, namespace attribute, and DOCTYPE public/system IDs via 4D's DOM commands. It is a period piece both technically (4D's classic DOM XML API) and topically (XHTML 1.0/1.1 DTD-based versioning was largely abandoned industry-wide in favor of HTML5's much simpler doctype), but the general strategy of layered document-type sniffing via root element, namespace, and DTD identifiers remains a conceptually valid technique for XML-based format detection.",
+    "status": "obsolete",
+    "related_updates": [
+      "XHTML 1.0/1.1 and DTD-based document typing have been superseded industry-wide by HTML5, which does not use this DOCTYPE/public-ID scheme",
+      "4D's classic DOM XML commands remain available for backward compatibility but are less central to modern 4D development, which includes native JSON support"
+    ]
+  }
+}

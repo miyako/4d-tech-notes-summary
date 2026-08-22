@@ -1,0 +1,1 @@
+Tech Note: The 4D Business Kit v2.x IP Component (TN 03-32, 4D Business Kit v2.x, July 2003) — documentation of the 19-method IP Component that extends the 4D Business Kit v2.x e-commerce application, installable via 4D Insider.

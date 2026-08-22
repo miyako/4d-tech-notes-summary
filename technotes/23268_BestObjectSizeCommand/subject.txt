@@ -1,0 +1,1 @@
+Tech Note: Making the most of BEST OBJECT SIZE (TN 03-11, 4D v2003, March 2003) — an exploration of the BEST OBJECT SIZE command (new in 4D 2003), used to calculate how much screen or print space an object will need.

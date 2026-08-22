@@ -1,0 +1,1 @@
+Tech Note: Installing & Configuring Mac & PC Remote Access to a Windows NT-based 4D Server (TN 96-50, 4D Server v3.x, November 1996) — a walkthrough for setting up dial-up remote access (via Windows NT Remote Access Service and modems) so Mac and Windows 4D Client machines can connect to a 4D Server running on Windows NT.

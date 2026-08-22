@@ -1,0 +1,1 @@
+Tech Note: Network Components on Various Platforms (Network Components, January 1998) — provides a reference table of 4D's network components and their installation/behavior across platforms.

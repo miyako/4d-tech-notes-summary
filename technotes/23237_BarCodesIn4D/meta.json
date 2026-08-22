@@ -1,0 +1,25 @@
+{
+  "asset_id": 23237,
+  "title": "Tech Note: Bar Codes",
+  "technote_number": "02-20",
+  "year": 2002,
+  "published_date": "May 15, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23237",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_20-24_(MAY)/02-20_Bar_Codes.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Bar code generation/scanning",
+    "Automatic identification"
+  ],
+  "historical_commentary": {
+    "text": "Bar codes remain in extremely widespread, still-relevant use today (alongside newer identifiers like QR codes and RFID), so the general topic remains directly applicable, though the specific 4D-side bar code generation/rendering techniques from 2002 have likely been superseded by more modern barcode libraries or fonts available for current 4D applications.",
+    "status": "still relevant",
+    "related_updates": [
+      "Bar codes remain in widespread use today alongside newer identifiers like QR codes and RFID; modern bar code generation in 4D would likely use more current libraries/fonts than were available in 2002"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "asset_id": 11821,
+  "title": "Tech Note: Building a User-Definable Report/Function Interface",
+  "technote_number": "98-18",
+  "year": 1998,
+  "published_date": "December 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11821",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Report Management",
+    "Drop-down Lists",
+    "Password Groups",
+    "Access Control",
+    "Dynamic Method Dispatch"
+  ],
+  "historical_commentary": {
+    "text": "This note describes building a data-driven, user-configurable report and function interface where report names and associated methods are stored in the application data file and presented via drop-down lists with password-group-based access control. The pattern of storing metadata in data tables for dynamic UI generation remains a valid approach, though modern 4D would typically use ORDA, collection-based UI, and more sophisticated access control mechanisms.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern 4D access control uses more granular permission systems beyond simple password groups",
+      "ORDA and collection-based approaches provide more flexible dynamic UI patterns than classic drop-down list population"
+    ]
+  }
+}

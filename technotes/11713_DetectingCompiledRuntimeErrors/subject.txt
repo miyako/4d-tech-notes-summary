@@ -1,0 +1,1 @@
+Tech Note: Detecting Compiled Mode Runtime Errors (TN 96-34, 4th Dimension Compiler v3.x, July 1996) — explains why certain runtime errors (like EXECUTE parameter type mismatches) only surface after compiling, and describes a debug-mode workaround using typed process variables to catch them beforehand.

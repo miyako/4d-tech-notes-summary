@@ -1,0 +1,25 @@
+{
+  "asset_id": 27785,
+  "title": "Tech Note: Inherited Forms",
+  "technote_number": "02-30",
+  "year": 2002,
+  "published_date": "July 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27785",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_30-35_(JUL)/02-30_Inherited_Forms.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Inherited forms",
+    "Form object reuse"
+  ],
+  "historical_commentary": {
+    "text": "Inherited forms remain a supported concept in current 4D, so the core technique documented here is still broadly relevant, even though modern 4D development (especially in Project Mode) offers additional form-reuse and componentization options beyond what was available in 4D 6.8.",
+    "status": "still relevant",
+    "related_updates": [
+      "Inherited forms remain a supported 4D feature today, though modern 4D projects have additional componentization options (e.g., form/page components) not available in 2003"
+    ]
+  }
+}

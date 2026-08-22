@@ -1,0 +1,1 @@
+Tech Note: An Atlas with the 4D Ajax Framework (TN 07-29, 4D Web 2.0 Pack v1.1, July 2007) — demonstrates 4DAF 1.1's new Data Matrix (Image Browser) and Data Driven Tabs features by building an interactive country atlas that mixes 4D data with the Google Maps API shown in a Developer Defined Window.

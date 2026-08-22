@@ -1,0 +1,1 @@
+Tech Note: ACI’s 1998 FAQ Pt 1: Fixing Problems (TN 98-17, 4D v6.0.x, May 1998) — answers to the most common technical support questions received by ACI, focused on fixing problems.

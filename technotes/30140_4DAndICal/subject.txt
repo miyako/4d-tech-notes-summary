@@ -1,0 +1,1 @@
+Tech Note: 4D and iCal (TN 03-45, 4D v2003, October 2003) — an exploration of integrating 4D with the iCalendar (iCal) standard to support calendaring and scheduling data exchange.

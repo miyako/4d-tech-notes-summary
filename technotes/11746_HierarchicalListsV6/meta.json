@@ -1,0 +1,26 @@
+{
+  "asset_id": 11746,
+  "title": "Tech Note: Hierarchical Lists",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "July 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11746",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Hierarchical lists (4D V6)",
+    "Linked lists (4D 3.x)"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser paragraph survives for this note, which compares the older 3.x-era 'linked list' technique to the new native hierarchical list feature introduced in 4D V6 — a genuinely new UI/data-structure capability at the time. Hierarchical lists remain a supported 4D concept today, though the specific V6-era creation steps described are dated relative to modern list/array and Design mode tooling.",
+    "status": "superseded",
+    "related_updates": [
+      "4D still supports hierarchical lists, but the creation/editing tooling and surrounding language commands have evolved substantially since V6 (1997)",
+      "The older 3.x 'linked list' workaround technique described for comparison is obsolete now that hierarchical lists are a native, built-in feature"
+    ]
+  }
+}

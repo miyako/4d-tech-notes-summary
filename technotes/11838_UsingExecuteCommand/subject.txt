@@ -1,0 +1,1 @@
+Tech Note: Using the Execute Command (4D v6.0, June 1999) — a set of seven methods that parse and execute 4D code containing control-flow keywords, overcoming limitations of the EXECUTE command.

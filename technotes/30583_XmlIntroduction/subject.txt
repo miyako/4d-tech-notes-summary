@@ -1,0 +1,1 @@
+Tech Note: XML – An Introduction to Extensible Markup Language (TN 03-48, 4D v, November 2003) — a foundational introduction to Extensible Markup Language (XML), its origins in SGML, and its growing role in data exchange and application development.

@@ -1,0 +1,1 @@
+Tech Note: Hard Disk Browser Example Database (4D v6.0, April 1997) — a walkthrough of new V6 file/directory-manipulation commands and hierarchical list features, demonstrated via the HDBrowse example database.

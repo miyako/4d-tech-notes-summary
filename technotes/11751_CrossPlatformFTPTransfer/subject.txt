@@ -1,0 +1,1 @@
+Tech Note: Cross Platform File Transfer Via FTP and Web Browser (4D, January 1997) — guidance on using FTP and a web browser over TCP/IP to migrate large 4D Server structure and data files between Macintosh and Windows during a corporate platform switch.

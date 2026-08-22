@@ -1,0 +1,28 @@
+{
+  "asset_id": 11781,
+  "title": "Automatic Telephone Dialing from 4D",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "January 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11781",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SET CHANNEL command",
+    "SEND PACKET command",
+    "Hayes-compatible modem AT commands",
+    "Serial port communication"
+  ],
+  "historical_commentary": {
+    "text": "This note is a charming artifact of 1990s computing — auto-dialing a telephone via a Hayes-compatible modem using serial port commands from a database application. The SET CHANNEL and SEND PACKET commands used here for serial communication have been deprecated in modern 4D. The entire concept of modem-based telephone dialing from a desktop database is obsolete in the age of VoIP, smartphones, and cloud telephony APIs. Nevertheless, it illustrates how 4D's serial communication commands enabled creative hardware integration.",
+    "status": "historical interest only",
+    "related_updates": [
+      "SET CHANNEL for serial communication has been deprecated in modern 4D",
+      "Telephone integration now uses VoIP protocols or cloud telephony APIs rather than hardware modems and AT commands"
+    ]
+  }
+}

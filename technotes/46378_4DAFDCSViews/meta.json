@@ -1,0 +1,29 @@
+{
+  "asset_id": 46378,
+  "title": "Tech Note: 4D Ajax Framework: Working with DCS Views",
+  "technote_number": "07-18",
+  "year": 2007,
+  "published_date": "May 9, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=46378",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_17-21_(MAY)/07-18_4DAF_DCS_Views.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF) Developer Created Selections (DCS) Views",
+    "DAX_DevHook_DCS_* developer hooks",
+    "DAX_Dev_DCS_AddCustomView / DAX_Dev_DCS_SetSelection",
+    "4D Web 2.0 Pack"
+  ],
+  "historical_commentary": {
+    "text": "This note documents Developer Created Selections (DCS) Views, a 4D Ajax Framework feature letting developers programmatically define grid-style Views backed by arbitrary array-populated data (not necessarily 4D table records) via four developer hooks for view creation, selection/population, record save, and record delete. This array-driven, hook-based pattern for surfacing arbitrary or composite data sources through a UI grid is a reasonable architectural idea in the abstract, but its concrete implementation is entirely dependent on the discontinued 4D Ajax Framework and 4D Web 2.0 Pack, making the note's specific APIs non-functional in any current 4D product.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Web 2.0 Pack and the 4D Ajax Framework, including DCS Views and the DAX_DevHook_DCS_* developer hooks, have been discontinued",
+      "Modern 4D applications surface arbitrary/composite data sources in UI list/grid objects using current list-box and collection/entity-selection based approaches rather than DCS Views",
+      "The daxipedia.4d.com wiki referenced for further documentation is no longer a current 4D resource"
+    ]
+  }
+}

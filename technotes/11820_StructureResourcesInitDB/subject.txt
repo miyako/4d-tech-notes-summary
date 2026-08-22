@@ -1,0 +1,1 @@
+Tech Note: Using Structure Resources for Initializing a Database (4D v6.0, February 1999) — demonstrates using resources in the structure file to create default records and embed serial numbers for copy protection.

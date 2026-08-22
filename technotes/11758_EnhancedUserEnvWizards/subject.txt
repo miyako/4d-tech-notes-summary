@@ -1,0 +1,1 @@
+Tech Note: Enhanced User Environment Wizards (4D v6.0, April 1997) — a walkthrough of the improved V6 User Environment Wizards (Quick Report, Label, Query, Order by..., and Charting), demonstrated using the MyMusic tutorial database.

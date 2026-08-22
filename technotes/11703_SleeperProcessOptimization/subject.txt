@@ -1,0 +1,1 @@
+Tech Note: Optimizing Process Management Using a Sleeper Process (TN 96-23, 4D v3.x, May 1996) — a technique for reusing a paused "sleeper" process to handle routine tasks and reduce process-launch overhead.

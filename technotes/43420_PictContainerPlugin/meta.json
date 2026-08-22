@@ -1,0 +1,28 @@
+{
+  "asset_id": 43420,
+  "title": "Tech Note: PictContainer Plug-in",
+  "technote_number": "06-24",
+  "year": 2006,
+  "published_date": "June 16, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=43420",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_22-26_(JUN)/06-24_PictContainer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PictContainer plug-in",
+    "QuickTime API (Mac OS)",
+    "GDI+ API (Windows)",
+    "Drag & Drop picture handling"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a native-OS-API plug-in (QuickTime on Mac, GDI+ on Windows) that gave 4D 2004 an enhanced picture display area supporting zoom, scroll bars, and drag-and-drop between pictures, fields, and list boxes, distributed with full C source code. QuickTime has been discontinued by Apple for years and GDI+ is a legacy Windows API, so this plug-in's specific native dependencies are obsolete, though the general idea of a rich picture-display container control with zoom/scroll/drag-drop remains conceptually similar to picture-handling controls in modern 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "Apple discontinued QuickTime years ago, and GDI+ is a legacy Windows graphics API superseded by newer Windows imaging frameworks",
+      "4D has since expanded its native picture object/commands, reducing the need for OS-native plug-ins like this one for enhanced picture display"
+    ]
+  }
+}

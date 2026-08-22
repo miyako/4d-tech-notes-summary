@@ -1,0 +1,29 @@
+{
+  "asset_id": 11705,
+  "title": "Tech Note: Modifying 4th Dimension's Color Palette",
+  "technote_number": "96-26",
+  "year": 1996,
+  "published_date": "May 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Julie Pearson",
+  "page_url": "https://kb.4d.com/assetid=11705",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_22-26_(MAY)/96-26_Mod_Color_Palette.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "ResEdit",
+    "pltt (color palette) resource",
+    "4D Transporter",
+    "Classic Mac OS resource fork / Windows .RSR file"
+  ],
+  "historical_commentary": {
+    "text": "This note describes editing the low-level 'pltt' color palette resource embedded in the 4D application (via ResEdit on Mac, or transporting the equivalent .RSR resource file from Windows to Mac and back with 4D Transporter) to change 4D's on-screen colors or eliminate palette-flash on launch. This entire workflow depends on the classic Mac OS resource fork model and 8-bit indexed color palettes, both of which have been completely superseded by modern true-color displays and application packaging; there is no equivalent 'pltt resource editing' concept in any current operating system or 4D version, making this technique purely a historical curiosity.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS resource forks (and tools like ResEdit) were phased out with the transition to Mac OS X and modern macOS, eliminating this entire class of resource-editing technique",
+      "8-bit indexed color palettes (256-color 'pltt' resources) are obsolete on modern hardware, which universally uses 24-bit/32-bit true color, removing the palette-flash problem this note addresses",
+      "4D Transporter, used here to shuttle the Windows .RSR resource file to a Mac for editing, is not part of the modern 4D toolset"
+    ]
+  }
+}

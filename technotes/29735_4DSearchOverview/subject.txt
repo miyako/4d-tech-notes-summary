@@ -1,0 +1,1 @@
+Tech Note: 4D Search (TN 03-37, 4D v2003, August 2003) — an explanation of how the community-contributed 4D Search example database implements search functionality across a 4D database.

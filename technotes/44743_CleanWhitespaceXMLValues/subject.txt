@@ -1,0 +1,1 @@
+Tech Note: Cleaning Whitespace from XML Values (TN 06-42, 4D v2004, November 2006) — explains why 4D's DOM/SAX XML commands return leading/trailing whitespace in element values and provides a sample XML_CleanWhitespace function to trim it efficiently.

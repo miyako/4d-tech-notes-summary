@@ -1,0 +1,1 @@
+Tech Note: Code Optimization Based on Array Use (TN 02-42, 4D v6.8, September 2002) — a debate on algorithm choices when using arrays in both compiled and interpreted 4D code, focused on performance optimization.

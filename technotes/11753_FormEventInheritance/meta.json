@@ -1,0 +1,27 @@
+{
+  "asset_id": 11753,
+  "title": "Tech Note: Form Event Inheritance",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "August 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11753",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Form Events",
+    "Form event inheritance",
+    "Database performance optimization"
+  ],
+  "historical_commentary": {
+    "text": "This note explores how 4D v6's new Form Events model handles event inheritance (across forms/objects) and how understanding that model can be used to optimize database performance; the specific V6-era Events architecture described has since been extended with many more event types and refined semantics in later 4D versions, though the general principle of using event-driven logic thoughtfully to avoid unnecessary work remains conceptually relevant today.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's Form Events model (introduced in v6, replacing the earlier Phases terminology) has been substantially expanded with additional event types and refined semantics across many subsequent 4D versions",
+      "Performance optimization techniques tied to event handling have evolved alongside 4D's broader move toward multi-process, multi-threaded, and ORDA-based architectures"
+    ]
+  }
+}

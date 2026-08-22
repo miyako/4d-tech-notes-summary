@@ -1,0 +1,1 @@
+Tech Note: Student Reports (TN 03-25, 4D v2003, May 2003) — a report-generation example (using a student records scenario) demonstrating the Quick Report editor's capabilities.

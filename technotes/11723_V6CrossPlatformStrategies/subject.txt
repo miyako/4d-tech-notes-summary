@@ -1,0 +1,1 @@
+Tech Note: 4D V6 Cross Platform Strategies (TN 96-50, 4D v6.0.x, November 1996) — per its title, guidance on cross-platform (Mac/Windows) development strategies for 4D V6; full text unavailable (extraction returned an unrelated Tech Note instead), summary based on title/metadata only.

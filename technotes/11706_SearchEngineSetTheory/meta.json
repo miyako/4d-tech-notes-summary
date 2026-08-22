@@ -1,0 +1,28 @@
+{
+  "asset_id": 11706,
+  "title": "Tech Note: A Little Set Theory Never Hurt Anybody: Understanding 4D's Search Engine",
+  "technote_number": "96-27",
+  "year": 1996,
+  "published_date": "May 1, 1996",
+  "product": "4th Dimension",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11706",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_25-26-27_(MAY)/96-27_Set_Theory.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Search Editor (QUERY interface)",
+    "And / Or / Except query conjunctions",
+    "4D Airlines sample database"
+  ],
+  "historical_commentary": {
+    "text": "This note applies basic mathematical Set Theory (union, intersection, complement) to explain how 4D's Search Editor evaluates multi-line queries joined with And/Or/Except, including the 'Funnel Concept' for visualizing how line order changes the resulting record set. The specific Search Editor interface and 4D Airlines demo database shown are long superseded by modern 4D's QUERY command and formula-based query syntax, but the underlying set-theoretic logic of how And/Or/Except conjunctions combine — and why line order and grouping matter — remains conceptually accurate and directly applicable to constructing correct queries in current 4D.",
+    "status": "still relevant",
+    "related_updates": [
+      "The visual Search Editor shown in this note has been substantially redesigned in modern 4D versions, though the And/Or/Except conjunction logic it demonstrates still underlies today's QUERY command and query editor",
+      "The 4D Airlines sample database used throughout as a teaching example is a legacy demo database no longer shipped with current 4D versions",
+      "Modern 4D also supports formula-based (QUERY BY FORMULA) and array-based programmatic queries, which apply the same set-theoretic principles described here but through different, more flexible syntax"
+    ]
+  }
+}

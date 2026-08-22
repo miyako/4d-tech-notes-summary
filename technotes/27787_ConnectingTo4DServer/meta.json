@@ -1,0 +1,25 @@
+{
+  "asset_id": 27787,
+  "title": "Tech Note: Connecting to a 4D Server",
+  "technote_number": "02-32",
+  "year": 2002,
+  "published_date": "July 31, 2002",
+  "product": "4D",
+  "version": "6.8.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27787",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_30-35_(JUL)/02-32_Connecting_to_Server.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Open plug-in",
+    "4D Client/4D Server connectivity"
+  ],
+  "historical_commentary": {
+    "text": "The 4D Open plug-in and the specific connection mechanism it describes are obsolete; modern 4D applications connect to remote 4D Servers using built-in remote mode / client-server architecture and, for programmatic cross-database access, ORDA remote datastores, none of which require a separate connectivity plug-in as in 2003.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's native client-server architecture and ORDA remote datastores have superseded the 4D Open plug-in for connecting to remote 4D Servers"
+    ]
+  }
+}

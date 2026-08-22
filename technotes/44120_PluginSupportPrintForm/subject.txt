@@ -1,0 +1,1 @@
+Tech Note: Plug-in support with Print Form (TN 06-35, 4D v2004.5, September 2006) — demonstrates 4D 2004.5's new ability to print plug-in content (specifically 4D Write styled text and pictures) within Print Form-based reports, extending an earlier invoice example with automatic content splitting across pages.

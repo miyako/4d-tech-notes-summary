@@ -1,0 +1,1 @@
+Tech Note: 4D Write, Programming Styles, and Entry Control (part II) (TN 02-47, 4D v6.8, October 2002) — Part II of a note demonstrating how to control a 4D Write area to build a hierarchical list, using BLOB-based list storage for portability.

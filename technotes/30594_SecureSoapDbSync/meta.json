@@ -1,0 +1,28 @@
+{
+  "asset_id": 30594,
+  "title": "Tech Note: Securely Synchronizing databases with dissimilar structures via SOAP",
+  "technote_number": "03-50",
+  "year": 2003,
+  "published_date": "November 30, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30594",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-50_Synchronizing_SOAP.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SOAP",
+    "4D 2003 Web Services",
+    "Data synchronization",
+    "Encryption/security"
+  ],
+  "historical_commentary": {
+    "text": "SOAP as the specific synchronization transport described here has since been broadly superseded by REST/JSON-based sync approaches and, for many 4D-to-4D scenarios, by ORDA-based remote datastore access, so the concrete mechanism is dated. The underlying goals \u2014 structure-agnostic, secure data synchronization between databases \u2014 remain core, still-relevant concerns for distributed 4D applications today.",
+    "status": "superseded",
+    "related_updates": [
+      "ORDA and 4D's remote datastore capabilities (post-2018) now offer a more modern way to synchronize/access data across 4D databases than the SOAP-based approach used here",
+      "REST/JSON has broadly replaced SOAP as the preferred data-exchange transport in modern integrations"
+    ]
+  }
+}

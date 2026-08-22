@@ -1,0 +1,25 @@
+{
+  "asset_id": 25581,
+  "title": "Tech Note: Code Optimization Based on Array Use",
+  "technote_number": "02-42",
+  "year": 2002,
+  "published_date": "September 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25581",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_41-45_(sep)/02-42_code_optimization.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D arrays",
+    "Interpreted vs. compiled performance"
+  ],
+  "historical_commentary": {
+    "text": "4D still supports both interpreted and compiled execution today, so the general question of how array algorithm choices affect performance remains relevant, though the specific micro-optimizations from 2002 have likely been superseded by newer, more efficient array/collection commands and a much faster modern 4D compiler and interpreter.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's interpreter and compiler have both been substantially optimized since 2002, and newer collection-based commands offer alternatives to some classic array-optimization techniques"
+    ]
+  }
+}

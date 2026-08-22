@@ -1,0 +1,28 @@
+{
+  "asset_id": 11850,
+  "title": "Tech Note: Automatically Updating Deployed Database Applications",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "September 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11850",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6",
+    "Database Deployment",
+    "Structure Upgrades",
+    "Data Migration"
+  ],
+  "historical_commentary": {
+    "text": "Automated upgrade mechanisms for deployed databases were a common challenge in the 4D v6 era when structure and data files were tightly coupled binary artifacts. Modern 4D with Project Mode stores structure as text files manageable via version control, and built-in data migration tools and components have evolved considerably. The principle of building upgrade logic into your application remains a best practice.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Project Mode (v17+) enables version-controlled structure changes",
+      "Built-in data migration and structure comparison tools have improved significantly"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 11723,
+  "title": "Tech Note: 4D V6 Cross Platform Strategies",
+  "technote_number": "96-50",
+  "year": 1996,
+  "published_date": "November 1, 1996",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": "David Hartje",
+  "page_url": "https://kb.4d.com/assetid=11723",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_45-50_(NOV)/96-50_Windows_Remote.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Cross-platform (Mac/Windows) 4D development strategies (title/metadata only — unverified)"
+  ],
+  "historical_commentary": {
+    "text": "The extracted text for this asset did not contain the actual Tech Note content — it resolved instead to Tech Note 96-50, 'Installing and Configuring Mac and PC Remote Access to a Windows NT-based 4D Server,' an unrelated note by a different author on a different topic — so this summary is based only on the title, technote number, and known metadata rather than verified content about V6 cross-platform strategies. Based on the title alone, cross-platform (Mac/Windows) development guidance was a real and recurring concern in the 4D V6 era given differences in fonts, screen resolution, and file systems between the two platforms, a topic still conceptually relevant, though any 1996 V6-specific guidance would be superseded by decades of subsequent cross-platform tooling improvements.",
+    "status": "obsolete",
+    "related_updates": [
+      "The archived extraction for this specific asset is not usable — it duplicates the content of a different Tech Note (96-50, Remote Access), so no specific V6 cross-platform recommendations can be verified from source",
+      "4D's modern cross-platform development model (a single shared structure file running natively on Mac and Windows via the same IDE) has evolved enormously since V6-era Mac/Windows font and display differences were a major concern"
+    ]
+  }
+}

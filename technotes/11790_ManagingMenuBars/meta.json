@@ -1,0 +1,28 @@
+{
+  "asset_id": 11790,
+  "title": "Managing Menu Bars",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "January 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11790",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Dynamic menu bar management",
+    "Procedural menu item creation",
+    "Form-associated menu bars",
+    "4D Menu Bar Editor"
+  ],
+  "historical_commentary": {
+    "text": "Dynamic menu management was a common requirement in 4D v6 applications, where the Design Mode Menu Bar Editor was the primary way to define menus, but runtime modification required procedural code. The specific issue described — that procedurally added menu items lack memory structures and associated methods — reflects limitations of the v6 menu system. Modern 4D provides a more flexible menu API and the ability to associate project methods with dynamically created menu items.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's menu management commands have been significantly expanded; dynamic menus can now be fully created and managed at runtime with associated methods",
+      "The menu bar architecture was modernized in later 4D versions with improved programmatic control"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 25595,
+  "title": "Tech Note: Using LDAP with 4D",
+  "technote_number": "02-54",
+  "year": 2002,
+  "published_date": "November 30, 2002",
+  "product": "4D Open",
+  "version": "6.8",
+  "platform": "Mac",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25595",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-54_Using_LDAP_with_4D.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "LDAP",
+    "Custom plug-in authentication"
+  ],
+  "historical_commentary": {
+    "text": "LDAP remains a widely used, still-relevant directory-service protocol, but 4D has since gained more native networking/protocol capabilities that could reduce the need for a fully custom plug-in of the kind built here; modern applications also increasingly favor SSO/OAuth-based identity providers over direct LDAP integration, making this note's specific plug-in approach somewhat dated even as the underlying authentication need remains real.",
+    "status": "superseded",
+    "related_updates": [
+      "LDAP remains in wide enterprise use, but many modern applications now favor SSO/OAuth-based identity providers, and 4D has gained more native protocol/networking capabilities since 2002"
+    ]
+  }
+}

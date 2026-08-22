@@ -1,0 +1,1 @@
+Tech Note: 4D Server Health - Automatic Reporting (TN 07-05, 4D Server v2004, February 2007) — a guide and sample database for building an automatic daily server "health" report (OS, memory, disk, processes, table sizes, crash history) delivered by email or web page.

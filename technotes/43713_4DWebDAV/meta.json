@@ -1,0 +1,28 @@
+{
+  "asset_id": 43713,
+  "title": "Tech Note: 4D WebDAV",
+  "technote_number": "06-29",
+  "year": 2006,
+  "published_date": "July 21, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jeremy Sullivan, 4D Evangelist, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43713",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_27-30_(JUL)/06-29_4D_WebDAV.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D DAV plug-in",
+    "WebDAV protocol",
+    "libcurl (cURL library)",
+    "Apple iDisk / .Mac"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the 4D DAV plug-in, a cURL-based component adding WebDAV client commands to 4D 2004 for file transfer, locking, and collaboration with WebDAV servers, including Apple's now-defunct iDisk/.Mac service. WebDAV as a protocol is still used in some enterprise and cloud-storage contexts, but Apple's iDisk was shut down years ago, and this specific plug-in and its 2006-era demo client are tied to a 4D plug-in architecture and library version long superseded by modern 4D networking and cloud-integration options.",
+    "status": "obsolete",
+    "related_updates": [
+      "Apple's iDisk/.Mac service referenced in this note was discontinued long ago",
+      "4D has since expanded native HTTP/network commands, reducing reliance on specialized plug-ins like 4D DAV for this kind of file-transfer integration"
+    ]
+  }
+}

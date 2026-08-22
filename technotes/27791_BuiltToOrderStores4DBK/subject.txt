@@ -1,0 +1,1 @@
+Tech Note: "Built to Order" Stores with 4D Business Kit (TN 02-35, 4D Business Kit v1.x, July 2002) — an explanation of building "built to order" product stores using the 4D Business Kit e-commerce development platform.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 44608,
+  "title": "Tech Note: Enhanced DOM Functions",
+  "technote_number": "06-40",
+  "year": 2006,
+  "published_date": "November 3, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=44608",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_40-43_(NOV)/06-40_Enhanced_DOM.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "DOM XML commands (DOM GET XML ELEMENT VALUE/NAME, DOM Count XML attributes, DOM Get parent/first child XML element)",
+    "Custom error handling around invalid DOM node references",
+    "XML_CleanWhitespace (from TN 06-42)"
+  ],
+  "historical_commentary": {
+    "text": "This note packages a set of wrapper functions (DOM_GetElementValue, DOM_FindElementByName, DOM_AttributesToArrays, etc.) that harden 4D 2004's native DOM XML commands against invalid node references, crashes on certain attribute calls, and missing whitespace trimming — practical, defensive-programming patches for real gaps of the era. The specific bugs being worked around (e.g., a documented crash calling DOM Count XML attributes on the #document node) are almost certainly long fixed, and the whole DOM API surface is dated, but the underlying pattern of wrapping a fragile native API with safer, well-documented helper functions remains good practice today.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D has since fixed many of the DOM XML command edge cases and crashes referenced in this era (e.g., issues with DOM Count XML attributes on #document nodes)",
+      "DOM/SAX XML commands remain in modern 4D but see far less use than JSON parsing for typical data interchange"
+    ]
+  }
+}

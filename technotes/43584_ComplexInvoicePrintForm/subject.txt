@@ -1,0 +1,1 @@
+Tech Note: Complex Invoice Printing Using Print Form (TN 06-27, 4D v2004, July 2006) — demonstrates using 4D's enhanced Print Form command with a reusable PrintSmartForm method group to print a multi-page invoice with distinct headers/footers and automatic text-item page breaks.

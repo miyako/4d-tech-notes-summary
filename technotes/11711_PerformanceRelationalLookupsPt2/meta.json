@@ -1,0 +1,28 @@
+{
+  "asset_id": 11711,
+  "title": "Tech Note: Breaking the Rules to Improve Performance, Part 2\u2014Using 4D's Built-In Relational Lookups",
+  "technote_number": "96-32",
+  "year": 1996,
+  "published_date": "July 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11711",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_31-32_(JUL)/96-32_Performance_2.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D built-in relational lookups (Automatic Relate one, wildcard support)",
+    "4D relations",
+    "4D Customizer Plus (Structure Font setting)"
+  ],
+  "historical_commentary": {
+    "text": "This note argues for deliberately using 4D's built-in many-to-one relational lookup mechanism (and denormalized 'Wildcard_Choice' concatenation fields) instead of hand-written custom lookups, for speed reasons that mattered enormously over WAN or dial-up connections in the mid-1990s. The specific performance motivation (dial-up modem latency, WAN bandwidth constraints) is entirely obsolete given modern broadband and cloud connectivity, and the described built-in relational lookup UI and Customizer Plus-based Structure Font workaround reflect 4D's pre-V6, pre-ORDA procedural language era; the general principle of favoring built-in framework features over custom code for performance remains conceptually sound.",
+    "status": "obsolete",
+    "related_updates": [
+      "Dial-up and WAN latency concerns central to this note's motivation are irrelevant on modern broadband/fiber and cloud-hosted deployments",
+      "4D's relational and data-access model has been substantially modernized with ORDA (Object Relational Data Access Model, introduced 2018), which supersedes this era's classic relation/lookup mechanisms for most new development",
+      "4D Customizer Plus, used here to set a monospaced Structure Font, is not part of the modern 4D toolset; font/UI settings are handled directly within current 4D preferences"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 26845,
+  "title": "Tech Note: Implementing the 2003 Quick Report Editor",
+  "technote_number": "03-10",
+  "year": 2003,
+  "published_date": "February 28, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=26845",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_06-10_(FEB)/03-10_Implementing_QRE.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report Editor (2003)",
+    "Database structure modification for reporting"
+  ],
+  "historical_commentary": {
+    "text": "The specific structural adaptations this note recommends for 4D 2003 are tied to that particular version's Quick Report engine transition and are of largely historical interest today, since 4D's reporting toolset has continued to evolve well beyond the 2003 baseline in subsequent releases.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's Quick Report engine and reporting toolset have continued to evolve substantially in versions since 2003"
+    ]
+  }
+}

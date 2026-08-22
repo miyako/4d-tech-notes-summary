@@ -1,0 +1,25 @@
+{
+  "asset_id": 23255,
+  "title": "Tech Note: Creating and Administering 4D Portal",
+  "technote_number": "03-11",
+  "year": 2002,
+  "published_date": "March 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23255",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_10-14_(MAR)/03-11_Portal_Administration.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Portal",
+    "Portal Administration site"
+  ],
+  "historical_commentary": {
+    "text": "4D Portal as a distinct product is long discontinued, making the specific administration workflow described here obsolete; modern portal/dashboard applications would be built using current web frameworks or 4D's own modern web/REST capabilities rather than this legacy platform.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Portal has been discontinued; modern portal-style applications would be built with current web frameworks or 4D's own modern web/REST capabilities"
+    ]
+  }
+}

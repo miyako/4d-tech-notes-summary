@@ -1,0 +1,31 @@
+{
+  "asset_id": 11818,
+  "title": "Tech Note: Modifying Resources with 4th Dimension",
+  "technote_number": "98-16",
+  "year": 1998,
+  "published_date": "November 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11818",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Resource Management",
+    "STR# Resources",
+    "ResEdit",
+    "Localization",
+    "4D Localizer"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates programmatic resource modification in 4D v6, replacing the need for external tools like ResEdit or Resorcerer. It includes sample databases for changing flush buffer characters and localizing databases. The resource fork-based approach is entirely obsolete on modern systems — macOS dropped resource fork support for applications long ago, and modern 4D uses XLIFF files and built-in localization mechanisms instead of STR# resource modification.",
+    "status": "obsolete",
+    "related_updates": [
+      "Resource forks are no longer used in modern macOS or 4D applications",
+      "4D now uses XLIFF files for localization instead of STR# resource manipulation",
+      "ResEdit and Resorcerer are discontinued classic Mac OS tools"
+    ]
+  }
+}

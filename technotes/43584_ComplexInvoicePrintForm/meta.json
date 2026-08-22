@@ -1,0 +1,28 @@
+{
+  "asset_id": 43584,
+  "title": "Tech Note: Complex Invoice Printing Using Print Form",
+  "technote_number": "06-27",
+  "year": 2006,
+  "published_date": "July 7, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D",
+  "page_url": "https://kb.4d.com/assetid=43584",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_27-30_(JUL)/06-27_Complex_Invoice.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Print Form command",
+    "PrintSmartForm generic printing group/methods",
+    "LineStarts plug-in (text break calculation)",
+    "4D Insider (component copying)"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates advanced use of 4D 2004's enhanced Print Form command to produce a complex, multi-page invoice with distinct first-page/continuation headers and footers and automatic text wrapping of long item descriptions across page breaks, using a recompiled 1992-era LineStarts plug-in and a reusable PrintSmartForm method group. The specific plug-in and 4D Insider-based component-copying workflow are outdated, but the underlying Print Form layout technique (header/detail/break/footer zones) it teaches is conceptually still how 4D's classic form-based printing works today, making this a still-relevant pattern for anyone using 4D's traditional (non-4D Write Pro) printing approach.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Insider as a standalone tool has been integrated into or superseded by later 4D component/library management approaches",
+      "4D has since introduced 4D Write Pro (2016) as a more modern alternative for complex document generation, though classic Print Form remains supported"
+    ]
+  }
+}

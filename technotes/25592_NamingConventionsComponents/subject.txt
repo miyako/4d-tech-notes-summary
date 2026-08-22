@@ -1,0 +1,1 @@
+Tech Note: Naming Conventions to Simplify Component Development and Use (TN 02-51, 4D v6.8, November 2002) — a naming-convention strategy for method names that simplifies writing, maintaining, and using 4D components, aligned with 4D Insider's public/protected/private categorization.

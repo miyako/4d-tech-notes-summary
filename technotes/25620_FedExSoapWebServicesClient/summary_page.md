@@ -1,4 +1,4 @@
-# Tech Note 03-3: Building a Web Services Client using 4D: The Fed Ex® SOAP serve
+# Tech Note 03-03: Building a Web Services Client using 4D: The Fed Ex® SOAP serve
 
 **Author:** Frank Chang, 4D Inc. Technical Support
 **Published:** January 31, 2003 | **Product/Version:** 4D v | **Platform:** Mac & Win

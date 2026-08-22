@@ -1,0 +1,1 @@
+Tech Note: Simulating the DISPLAY RECORD command (TN 98-16, 4D v6.0, May 1998) — a technique to display records one by one with navigation buttons without locking them, useful for client/server and CD-ROM contexts.

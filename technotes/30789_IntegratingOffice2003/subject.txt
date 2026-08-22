@@ -1,0 +1,1 @@
+Tech Note: Integrating 4D and Office 2003 (TN 03-54, 4D v2003, December 2003) — an overview of how 4D 2003's new XML and Web Services support can be used to integrate with the newly released Microsoft Office 2003 suite.

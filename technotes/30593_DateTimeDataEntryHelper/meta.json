@@ -1,0 +1,25 @@
+{
+  "asset_id": 30593,
+  "title": "Tech Note: Helping Date and Time Data Entry",
+  "technote_number": "03-49",
+  "year": 2003,
+  "published_date": "November 30, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30593",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-49_Date_and_Time_Entry.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Date/Time form objects",
+    "Custom UI widgets"
+  ],
+  "historical_commentary": {
+    "text": "The specific PDA-style hand-built date/time entry widget described here has been made largely unnecessary by the native date/time picker controls now standard in modern GUI toolkits, browsers, and current 4D form objects, so this note is chiefly of historical interest as a snapshot of pre-native-widget UI engineering in the 4D community.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern operating systems, browsers, and current 4D form objects provide native date/time pickers, removing the need for this kind of hand-built entry widget"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: 4D View Helper (TN 03-36, 4D View v, August 2003) — an introductory note explaining how to use 4D View to display arrays or records within a 4D View area.

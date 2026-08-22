@@ -1,0 +1,29 @@
+{
+  "asset_id": 11847,
+  "title": "Tech Note: Networking 11: LAN Protocols",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "September 1, 1999",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11847",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Networking",
+    "LAN Protocols",
+    "Media Access",
+    "Network Topologies",
+    "4D Server"
+  ],
+  "historical_commentary": {
+    "text": "This networking primer was written when AppleTalk and IPX/SPX were still common LAN protocols alongside TCP/IP. Today TCP/IP is universal, and concepts like media access methods and bus/ring topologies are mostly academic. The note is part of an educational series for 4D developers who needed to understand networking fundamentals for deploying 4D Server — knowledge now assumed as baseline IT literacy.",
+    "status": "obsolete",
+    "related_updates": [
+      "TCP/IP has become the universal standard, replacing AppleTalk, IPX/SPX, and other legacy protocols",
+      "Modern 4D Server operates exclusively over TCP/IP"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Connecting WebSTAR and 4D Business Kit using Rewrite (TN 02-43, 4D Business Kit v1.x, September 2002) — an explanation of connecting the WebSTAR V web server to 4D Business Kit storefronts using its Rewrite capability.

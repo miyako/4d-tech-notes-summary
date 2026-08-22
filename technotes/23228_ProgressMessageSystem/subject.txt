@@ -1,0 +1,1 @@
+Tech Note: Progress Message System (TN 02-09, 4D v6.8, February 2002) — a versatile, text-based progress display system that shows multiple independently updatable status lines, useful for monitoring and troubleshooting complex operations.

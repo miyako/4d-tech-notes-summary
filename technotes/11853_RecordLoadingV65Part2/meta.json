@@ -1,0 +1,28 @@
+{
+  "asset_id": 11853,
+  "title": "Tech Note: Record Loading in 4th Dimension v6.5, Part 2",
+  "technote_number": "99-33",
+  "year": 1999,
+  "published_date": "September 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11853",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "BLOBs",
+    "Record Loading",
+    "Wide Area Networks"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses record loading mechanics in 4D v6.5, an era when BLOB fields were new and memory/network optimization was critical. The concepts of understanding record loading behavior for performance tuning remain relevant in principle, though modern 4D handles memory management and network traffic very differently with ORDA and optimized entity loading.",
+    "status": "historical interest only",
+    "related_updates": [
+      "ORDA entity loading in 4D v17+ replaced procedural record loading patterns",
+      "Modern 4D handles BLOB/object fields with lazy loading automatically"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Working with 4D Dialogs within a Plug-in (TN 02-21, 4D Open v6.8, May 2002) — a practical example of using a 4D Dialog within a 4D plug-in to build a username/password security prompt for accessing a database.

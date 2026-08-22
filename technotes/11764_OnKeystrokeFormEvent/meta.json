@@ -1,0 +1,29 @@
+{
+  "asset_id": 11764,
+  "title": "Tech Note: Powerful Uses of the On Keystroke Form Event",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "June 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11764",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Form Events",
+    "On Keystroke event",
+    "On Event Call (V3 predecessor technique)",
+    "Enterable form objects"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the newly introduced On Keystroke form event in 4D v6 (part of the broader V6 Form Events system), contrasted against the much more cumbersome On Event Call-based V3 technique it replaced; the specific V6 Events terminology and API described here were themselves superseded when 4D later expanded and renamed aspects of the event model, though reacting to individual keystrokes in enterable fields remains a standard, still-relevant capability in current 4D.",
+    "status": "superseded",
+    "related_updates": [
+      "4D V6's Events system (replacing V3's Phases) was itself expanded with many more event types and refined semantics in subsequent 4D versions",
+      "The On Keystroke form event concept remains present in modern 4D, though the surrounding form/object event architecture has evolved significantly since 1997",
+      "Modern 4D form objects and ORDA-based data binding provide additional higher-level alternatives to hand-coded On Keystroke logic for input validation/formatting"
+    ]
+  }
+}

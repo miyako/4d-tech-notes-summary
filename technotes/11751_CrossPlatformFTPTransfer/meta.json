@@ -1,0 +1,28 @@
+{
+  "asset_id": 11751,
+  "title": "Tech Note: Cross Platform File Transfer Via FTP and Web Browser",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "January 1, 1997",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11751",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "TCP/IP networking",
+    "FTP file transfer",
+    "Web browser-based file transfer",
+    "4D Server structure/data file migration"
+  ],
+  "historical_commentary": {
+    "text": "This note describes using TCP/IP-based FTP and a web browser to migrate large 4D Server structure and data files between Macintosh and Windows during a corporate platform consolidation; while cross-platform file transfer over TCP/IP remains conceptually standard practice, the specific FTP/browser-based transfer mechanics described are a dated, narrow solution superseded by today's far faster networking, cloud storage, and dedicated migration tooling.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern network speeds, cloud storage, and dedicated backup/migration tools have made 1997-era FTP-and-browser-based large file transfer techniques largely obsolete for this use case",
+      "4D's own architecture, licensing, and platform-migration tooling have changed substantially since this note's mid-1990s context of full Mac-to-Windows organizational platform switches"
+    ]
+  }
+}

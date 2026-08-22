@@ -1,0 +1,1 @@
+Tech Note: 4D View Style sheets (TN 02-50, 4D View v6.8, October 2002) — a look at creating 4D View style sheets both interactively in the user environment and procedurally, via a sample generic style-preference routine.

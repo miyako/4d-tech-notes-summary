@@ -1,0 +1,26 @@
+{
+  "asset_id": 27706,
+  "title": "Tech Note: Creating a quick Report Wizard (part II)",
+  "technote_number": "03-22",
+  "year": 2003,
+  "published_date": "May 19, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27706",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-22_Create_QR_Wizard II.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report Editor",
+    "Cross-tab reports",
+    "Custom report wizards"
+  ],
+  "historical_commentary": {
+    "text": "The specific QR-command-based cross-tab wizard technique described here reflects 4D 2003's then-new report engine, which has since been further developed in later 4D versions and largely supplemented by 4D Write Pro and other modern reporting tools, making this note's exact approach dated though cross-tab reporting itself remains a common business-application requirement.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's Quick Report engine and broader reporting toolset (including 4D Write Pro) have evolved considerably since 2003"
+    ]
+  }
+}

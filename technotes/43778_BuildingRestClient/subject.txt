@@ -1,0 +1,1 @@
+Tech Note: Building a REST Client (TN 06-30, 4D v2004, July 2006) — explains REST architecture and demonstrates hand-building a REST client in 4D that queries Yahoo Web Search over HTTP/XML.

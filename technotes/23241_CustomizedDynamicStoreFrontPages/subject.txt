@@ -1,0 +1,1 @@
+Tech Note: Creating Customized Dynamic Store Front Pages (TN 02-24, 4D Business Kit v1.x, May 2002) — an explanation of creating customized, dynamic storefront pages using 4D Business Kit's integrated e-commerce platform.

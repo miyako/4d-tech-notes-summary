@@ -1,0 +1,25 @@
+{
+  "asset_id": 23268,
+  "title": "Tech Note: Making the most of BEST OBJECT SIZE",
+  "technote_number": "03-11",
+  "year": 2003,
+  "published_date": "March 31, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23268",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-11_Best_Object_Size.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "BEST OBJECT SIZE command",
+    "Form/print layout sizing"
+  ],
+  "historical_commentary": {
+    "text": "The BEST OBJECT SIZE command introduced here has remained part of 4D's language in subsequent versions, so this note's core technical content is still broadly relevant for developers doing precise form/print layout calculations, even though the print form architecture referenced has continued to evolve since 2003.",
+    "status": "still relevant",
+    "related_updates": [
+      "The BEST OBJECT SIZE command has remained part of 4D's language in subsequent versions"
+    ]
+  }
+}

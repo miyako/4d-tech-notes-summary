@@ -1,0 +1,28 @@
+{
+  "asset_id": 47015,
+  "title": "Tech Note: 4DAF Optimizer \u2013 Part 1",
+  "technote_number": "07-28",
+  "year": 2007,
+  "published_date": "July 18, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47015",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_26-29_(JUL)/07-28_4DAF_Optimizer.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "4D Web 2.0 Pack",
+    "4DAF Optimizer tool",
+    "JavaScript bundling (framework.js)"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces the 4DAF Optimizer, a companion utility that lets developers strip unused 4D Ajax Framework JavaScript files from the 'js' folder and rebuild a slimmer 'framework.js' bundle, improving page load times for custom 4DAF-based pages by selecting only the objects/features actually used (Calendar, Data Grid, Data Tree, DDW, Data/Image Matrix, plus sidebar/taskbar/hierarchical list features). It is entirely specific to the discontinued 4DAF/4D Web 2.0 Pack's asset-loading architecture, so the tool and workflow have no modern equivalent. The general concept — bundling/tree-shaking only the JS actually needed by a page to reduce load time — is exactly the problem solved today by modern JS bundlers (webpack, esbuild, Vite, Rollup), making this note an interesting historical precursor to now-standard tooling.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and 4D Web 2.0 Pack were discontinued and are no longer part of any current 4D product",
+      "The manual JS-selection/bundling problem this tool solved is now addressed by modern JavaScript bundlers with automatic tree-shaking (e.g. webpack, Rollup, esbuild, Vite)"
+    ]
+  }
+}

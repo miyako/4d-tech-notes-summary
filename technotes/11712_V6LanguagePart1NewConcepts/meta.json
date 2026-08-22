@@ -1,0 +1,30 @@
+{
+  "asset_id": 11712,
+  "title": "Tech Note: The 4D Language, Part 1: New Concepts in Version 6",
+  "technote_number": "96-45",
+  "year": 1996,
+  "published_date": "September 1, 1996",
+  "product": "4th Dimension",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11712",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_42-45_(SEP)/96-45_V6_Language_Part1.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v6.0 language enhancements (longer names, constants, object properties, events)",
+    "4D as Web Server (early built-in web server feature)",
+    "BLOB data type",
+    "Password / stored procedure commands"
+  ],
+  "historical_commentary": {
+    "text": "This note is a comprehensive preview of the 4D v6.0 language for developers upgrading from earlier versions, covering revised terminology (File to Table, Procedure to Method), longer object names (31 characters), built-in constants, hexadecimal/bitwise operators, BLOBs, object properties and events, expanded query limits/destinations, password-related commands, stored procedures, and 4D's then-new built-in Web Server capability. Nearly every specific feature described has since been superseded multiple times over: object names now support far more than 31 characters, the early built-in Web Server bears little resemblance to 4D's modern web server and web services stack, and stored procedures/passwords have been reworked repeatedly across two decades of subsequent 4D versions, making this note valuable mainly as a historical snapshot of the v6.0 transition rather than a current technical reference.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's object/table/field naming length limits have been increased far beyond the 31-character limit described here in subsequent versions",
+      "The early built-in Web Server feature introduced in 4D v6.0 has been completely re-architected multiple times since, culminating in the modern 4D Web Server, 4D REST/QODLY, and ORDA-based web technologies with no direct resemblance to this initial implementation",
+      "4D's terminology shift from 'File'/'Procedure' to 'Table'/'Method' documented here as new in v6.0 has long since become the sole, standard terminology used in all modern 4D documentation",
+      "BLOB handling, object properties/events, password commands, and stored procedures have all been substantially extended and modernized in the many 4D versions released since v6.0"
+    ]
+  }
+}

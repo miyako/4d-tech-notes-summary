@@ -1,0 +1,25 @@
+{
+  "asset_id": 27705,
+  "title": "Tech Note: Tracing and Troubleshooting TCP/IP",
+  "technote_number": "03-21",
+  "year": 2003,
+  "published_date": "May 19, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27705",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-21_TraceTrbleshootTCPIP.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "TCP/IP debugging",
+    "4D Debugger limitations"
+  ],
+  "historical_commentary": {
+    "text": "The general principle \u2014 that application-level debuggers cannot diagnose network-layer problems, and that external tools are needed \u2014 remains entirely valid today, though the specific tools available circa 2003 have since been superseded by far more capable and accessible modern network diagnostic tools (e.g., Wireshark, modern OS-level network monitors) than were commonly used at the time.",
+    "status": "still relevant",
+    "related_updates": [
+      "Modern network diagnostic tools (e.g., Wireshark and current OS-level tools) have superseded whatever specific tracing tools this note likely recommended in 2003"
+    ]
+  }
+}

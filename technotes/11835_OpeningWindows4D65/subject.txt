@@ -1,0 +1,1 @@
+Tech Note: Opening Windows in 4D v6.5 (4D v6.5, May 1999) — a guide to opening and managing windows in 4D v6.5, covering commands, concepts, strategies, and common pitfalls.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 23247,
+  "title": "Tech Note: Drag and Drop in 4D View",
+  "technote_number": "02-36",
+  "year": 2002,
+  "published_date": "August 31, 2002",
+  "product": "4D View",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23247",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_36-40_(aug)/02-36_drag_&_drop_in_4dview.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View",
+    "Drag and drop commands"
+  ],
+  "historical_commentary": {
+    "text": "4D View has been discontinued, making the specific drag-and-drop commands described here obsolete for current development; drag-and-drop functionality in modern 4D applications is now typically implemented via list box form objects or, for web-based UIs, standard HTML5 drag-and-drop APIs.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D View has been discontinued; list box form objects or HTML5 drag-and-drop APIs (in web areas) are the modern equivalents"
+    ]
+  }
+}

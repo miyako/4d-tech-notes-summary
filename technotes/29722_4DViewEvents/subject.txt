@@ -1,0 +1,1 @@
+Tech Note: 4D View Events (TN 03-34, 4D View v, July 2003) — a demonstration of how 4D View's cell/area events work, using the PV ON EVENT and PV ON COMMAND commands to respond to user interaction.

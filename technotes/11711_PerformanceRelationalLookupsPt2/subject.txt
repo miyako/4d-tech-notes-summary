@@ -1,0 +1,1 @@
+Tech Note: Breaking the Rules to Improve Performance, Part 2—Using 4D's Built-In Relational Lookups (TN 96-32, 4D v3.x, July 1996) — a companion note arguing developers should favor 4D's fast built-in relational lookup mechanism over slower custom-written lookups, using a Wildcard_Choice concatenation technique to overcome its limitations.

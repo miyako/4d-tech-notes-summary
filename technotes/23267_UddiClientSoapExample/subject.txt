@@ -1,0 +1,1 @@
+Tech Note: UDDI Client as a SOAP Example (API inquiry) (TN 03-12, 4D v2003, March 2003) — the first of a two-part note implementing a UDDI client using 4D 2003's built-in Web Services feature, to query a Universal Description, Discovery, and Integration registry.

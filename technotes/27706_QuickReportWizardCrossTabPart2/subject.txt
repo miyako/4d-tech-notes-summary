@@ -1,0 +1,1 @@
+Tech Note: Creating a quick Report Wizard (part II) (TN 03-22, 4D v2003, May 2003) — Part II of a note on building a custom Quick Report wizard, focused specifically on constructing cross-tab reports from scratch.

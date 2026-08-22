@@ -1,0 +1,27 @@
+{
+  "asset_id": 11762,
+  "title": "Tech Note: The Text Parameter Passed to 4D Methods Called via URLs",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "May 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11762",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Web Services (early built-in web server)",
+    "/4DMETHOD/ URL binding",
+    "C_TEXT($1) parameter declaration"
+  ],
+  "historical_commentary": {
+    "text": "This note documents an undocumented, easily-missed detail (an implicit $1 text parameter passed to any 4D method invoked via a /4DMETHOD/ URL, requiring explicit C_TEXT($1) declaration for compiled databases) tied to 4D's very first-generation built-in web serving feature; the specific mechanism has been long since superseded by 4D's modern, far more capable web server and REST/ORDA-based web request handling, though the general lesson about compiled-mode parameter declaration remains conceptually relevant.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's built-in web server and web-callable method mechanisms have been substantially expanded and modernized since this early V6-era /4DMETHOD/ URL binding approach, including full REST/ORDA-based web services",
+      "Modern 4D web development typically favors REST-based APIs over the raw /4DMETHOD/ URL-to-method binding style described here"
+    ]
+  }
+}

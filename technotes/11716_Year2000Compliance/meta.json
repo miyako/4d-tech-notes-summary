@@ -1,0 +1,29 @@
+{
+  "asset_id": 11716,
+  "title": "Tech Note: 4th Dimension, the Year 2000 and Everything",
+  "technote_number": "96-37",
+  "year": 1996,
+  "published_date": "July 1, 1996",
+  "product": "4th Dimension",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "ACI US Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11716",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_35-37_(JUL)/96-37_Year_2000.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Date data type",
+    "Sys date format command",
+    "SET DATE FORMAT command",
+    "Pivot-year (century detection) algorithm"
+  ],
+  "historical_commentary": {
+    "text": "This note reassures developers that 4D's internal Date data type stores a full four-digit year and is Year 2000-safe at the engine level, while addressing the practical UI problem of users entering only two-digit years, and presents a 'pivot year' algorithm (and the Sys date format command for detecting the OS's locale-specific date format/century-cutoff conventions) for correctly inferring the intended century from ambiguous two-digit input. The Year 2000 rollover this note anticipates has of course long since passed uneventfully for 4D-based systems, making the note's central concern historical, though the pivot-year technique for interpreting ambiguous two-digit year entry remains a conceptually valid pattern for handling legacy or intentionally-abbreviated date input in any date-parsing system today.",
+    "status": "historical interest only",
+    "related_updates": [
+      "The Year 2000 rollover this note prepares developers for occurred uneventfully in 2000 and is now purely a historical software-engineering milestone",
+      "Modern 4D and virtually all software today default to four-digit year entry/display, making the two-digit-year ambiguity this note addresses largely a non-issue in contemporary interfaces",
+      "The Sys date format command and SET DATE FORMAT command referenced still exist in modern 4D for locale-aware date formatting, though the specific Y2K-era motivation for using them here is no longer applicable"
+    ]
+  }
+}

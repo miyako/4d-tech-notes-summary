@@ -1,0 +1,25 @@
+{
+  "asset_id": 29727,
+  "title": "Tech Note: Using LDAP with 4D part II",
+  "technote_number": "03-29",
+  "year": 2003,
+  "published_date": "June 26, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29727",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-29_Using_LDAP_in_4D_Pt_2.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "LDAP",
+    "Directory services authentication"
+  ],
+  "historical_commentary": {
+    "text": "LDAP remains a still-relevant, widely used directory-service protocol today (e.g., via Active Directory), so the core integration goal of this note is still valid, though modern 4D applications would typically use later, more capable LDAP-related commands and libraries, or delegate authentication to modern identity providers (SSO/OAuth) rather than raw LDAP binds.",
+    "status": "still relevant",
+    "related_updates": [
+      "LDAP directory services remain in wide enterprise use today, though many modern applications now favor SSO/OAuth-based identity providers over direct LDAP binds"
+    ]
+  }
+}

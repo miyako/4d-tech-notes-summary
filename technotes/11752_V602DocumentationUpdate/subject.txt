@@ -1,0 +1,1 @@
+Tech Note: 4D 6.0.2 Documentation Update (4D Server v6.0.2, June 1997) — an announcement of a major documentation revision shipped with the 4D and 4D Server 6.0.2 release.

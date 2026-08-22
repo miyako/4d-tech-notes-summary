@@ -1,0 +1,25 @@
+{
+  "asset_id": 23239,
+  "title": "Tech Note: Printing Graphs from 4D Chart, Part 1",
+  "technote_number": "02-22",
+  "year": 2002,
+  "published_date": "May 15, 2002",
+  "product": "4D Chart",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23239",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_20-24_(MAY)/02-22_Printing_Graphs.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart",
+    "Graph printing techniques"
+  ],
+  "historical_commentary": {
+    "text": "4D Chart as described here is a legacy component largely superseded by newer charting approaches in current 4D (including web-based charting embedded in web areas), making the specific printing techniques in this note obsolete for new development, though the general goal of giving users a convenient way to print visualizations remains a standard requirement.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart's classic API has been superseded by newer charting options in current 4D, including web-based JS charting libraries embedded via web areas"
+    ]
+  }
+}

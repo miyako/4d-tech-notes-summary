@@ -1,0 +1,28 @@
+{
+  "asset_id": 11768,
+  "title": "Tech Note: New Operators and Method Editor",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "July 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11768",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 Method Editor",
+    "New V6 operators",
+    "Interprocess variable symbol (<>)",
+    "Tokenization"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a narrow tokenization edge case in the V6 Method editor (a symbol/operator ambiguity around the interprocess variable prefix) that only matters to anyone still hand-editing legacy V3/V6-era binary-structure method code; the underlying V6 Method editor and its tokenizer were themselves superseded long ago by later-generation code editors. The specific workaround is of historical interest only for modern development.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D V6's Method editor was replaced by vastly improved code editors in later 4D versions (with syntax coloring, live syntax checking, and eventually a modern IDE)",
+      "Project Mode (introduced in v17, 2018) uses plain-text .4dm method files edited outside the old binary-structure tokenizer entirely, making this class of tokenization ambiguity obsolete"
+    ]
+  }
+}

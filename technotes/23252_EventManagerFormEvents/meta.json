@@ -1,0 +1,25 @@
+{
+  "asset_id": 23252,
+  "title": "Tech Note: Event Manager",
+  "technote_number": "02-15",
+  "year": 2002,
+  "published_date": "April 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23252",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_15-19_(APR)/02-15_Event_Manager.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D form events",
+    "Generic event dispatch method"
+  ],
+  "historical_commentary": {
+    "text": "The core concept of centralizing and controlling form event dispatch order remains a relevant software architecture pattern, and 4D's event model fundamentals from this era are largely unchanged in current 4D forms, making this note's central idea still broadly applicable to modern 4D form development.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's core form event model remains conceptually similar today, so the centralized Event Manager pattern described here is still broadly applicable"
+    ]
+  }
+}

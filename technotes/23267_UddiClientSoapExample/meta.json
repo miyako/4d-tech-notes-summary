@@ -1,0 +1,28 @@
+{
+  "asset_id": 23267,
+  "title": "Tech Note: UDDI Client as a SOAP Example (API inquiry)",
+  "technote_number": "03-12",
+  "year": 2003,
+  "published_date": "March 31, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23267",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-12_UDDI_Client_and_SOAP.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "UDDI",
+    "SOAP",
+    "4D 2003 Web Services client",
+    "XML parsing"
+  ],
+  "historical_commentary": {
+    "text": "UDDI as a technology has been effectively abandoned industry-wide \u2014 the public UDDI Business Registry was shut down years ago, and modern service discovery uses very different mechanisms (API gateways, service meshes, OpenAPI directories) \u2014 making this note's core subject matter obsolete, though the underlying idea of discoverable service registries persists in different modern forms.",
+    "status": "obsolete",
+    "related_updates": [
+      "UDDI has been effectively abandoned industry-wide; the public UDDI Business Registry was shut down years ago",
+      "Modern service discovery uses different mechanisms such as API gateways, service meshes, and OpenAPI-based directories"
+    ]
+  }
+}

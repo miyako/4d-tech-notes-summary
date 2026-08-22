@@ -1,0 +1,26 @@
+{
+  "asset_id": 27687,
+  "title": "Tech Note: Web Services and 4D Internet Commands, the Amazon.com client",
+  "technote_number": "03-14",
+  "year": 2003,
+  "published_date": "March 31, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27687",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-14_Web_Services_and_4DIC.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SOAP",
+    "4D Internet Commands",
+    "Amazon.com Web Services (early API)"
+  ],
+  "historical_commentary": {
+    "text": "Amazon's original SOAP-based web service used in this example has long been retired in favor of its modern REST/JSON Product Advertising API (with different authentication and request formats), making this note's specific integration code obsolete; it remains an interesting historical snapshot of how early e-commerce API integration looked in the SOAP era.",
+    "status": "obsolete",
+    "related_updates": [
+      "Amazon's original SOAP-based web service has been retired and replaced by the modern REST/JSON-based Amazon Product Advertising API, which uses entirely different authentication and request formats"
+    ]
+  }
+}

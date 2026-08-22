@@ -1,0 +1,25 @@
+{
+  "asset_id": 27789,
+  "title": "Tech Note: From Area List Pro to 4D View",
+  "technote_number": "02-34",
+  "year": 2002,
+  "published_date": "July 31, 2002",
+  "product": "4D View",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27789",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_30-35_(jul)/02-34_arealistpro_to_4dview.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View",
+    "Area List Pro (ALP) migration"
+  ],
+  "historical_commentary": {
+    "text": "Both Area List Pro and 4D View are long-discontinued products with no direct modern equivalents, so this note's specific migration mappings are obsolete; the broader lesson \u2014 planning and executing a plug-in-to-plug-in migration by mapping common usage patterns \u2014 remains a useful, generally applicable approach whenever developers must migrate off a deprecated dependency.",
+    "status": "obsolete",
+    "related_updates": [
+      "Both Area List Pro and 4D View are discontinued products; modern 4D applications would use list box form objects or web-based grids instead"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 25587,
+  "title": "Tech Note: Referential Integrity",
+  "technote_number": "02-46",
+  "year": 2002,
+  "published_date": "October 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25587",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-46_Referential_Integrity.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D relational constraints",
+    "Cascading delete behavior"
+  ],
+  "historical_commentary": {
+    "text": "The fundamental referential integrity concepts described here remain fully valid in current 4D, though ORDA's relation attributes (introduced in 4D v17+) provide an additional, more modern way to define and navigate these relationships alongside the classic structure-level automatic relations this note discusses.",
+    "status": "still relevant",
+    "related_updates": [
+      "ORDA (introduced in 4D v17+) provides an additional, object-based way to define and navigate relations, alongside the classic structure-level automatic relations described in this note"
+    ]
+  }
+}

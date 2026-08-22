@@ -1,0 +1,27 @@
+{
+  "asset_id": 11735,
+  "title": "Tech Note: Backup and Recovery Strategies for Mission-Critical 4D Server Databases\u2014Part 1",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "January 1, 1997",
+  "product": null,
+  "version": null,
+  "platform": null,
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11735",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server",
+    "4D Backup",
+    "Database Administration / backup and recovery strategy"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser paragraph survives, describing the growing scale (up to 100 users, multi-gigabyte data files) of mid-1990s 4D Server 'mission-critical' deployments and the two-part note's goal of laying out backup/recovery strategy for 24/7 uptime. The general principle of planning backup/recovery for mission-critical databases remains timeless, but the specific 4D Server scale figures cited (100 users, 5GB files) are trivially small by modern standards, and the backup tooling of that era (4D Backup) has evolved considerably.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Server's capacity and typical deployment scale have grown enormously since 1997; 100 users and 5GB data files were considered large then but are modest today",
+      "4D's backup and log-file (journal) mechanisms have been enhanced substantially since this era, though the core discipline of maintaining a tested backup/recovery plan remains the same"
+    ]
+  }
+}

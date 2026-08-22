@@ -1,0 +1,1 @@
+Tech Note: From Area List Pro to 4D View (TN 02-34, 4D View v6.8, July 2002) — a developer's account of replacing Area List Pro (ALP) with 4D View in existing 4D 6.8 applications, mapping common ALP usage patterns to 4D View equivalents.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11803,
+  "title": "Tech Note: Using 4D's password system in the data file",
+  "technote_number": "98-20",
+  "year": 1998,
+  "published_date": "July 1, 1998",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11803",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Password System",
+    "Structure File",
+    "Data File",
+    "User/Group Management"
+  ],
+  "historical_commentary": {
+    "text": "The problem of passwords being stored in the structure file (lost when updating client structures) was a significant deployment pain point in the v6 era. 4D eventually moved user/group management and addressed structure update workflows in later versions, though the architecture of separating structure and data has remained a core 4D concept.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's password and user management system has been significantly redesigned in later versions",
+      "The structure/data file separation architecture has evolved through .4DB/.4DC to Project Mode (.4DProject)"
+    ]
+  }
+}

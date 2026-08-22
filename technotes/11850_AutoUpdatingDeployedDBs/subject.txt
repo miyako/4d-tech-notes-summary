@@ -1,0 +1,1 @@
+Tech Note: Automatically Updating Deployed Database Applications (4D v6.0, September 1999) — a scheme for building automatic structure and data upgrade logic into deployed 4D database applications to ensure smooth version transitions.

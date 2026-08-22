@@ -1,0 +1,26 @@
+{
+  "asset_id": 30138,
+  "title": "Tech Note: Dynamic Translation of Fields' Labels",
+  "technote_number": "03-47",
+  "year": 2003,
+  "published_date": "October 31, 2003",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30138",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-47_Dynamic_Transmission.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Structure introspection",
+    "Field labels / localization"
+  ],
+  "historical_commentary": {
+    "text": "The general need for dynamic field-label localization remains relevant, but current 4D applications have far richer built-in language/resource management and, in Project Mode, more flexible structure definitions, making this specific 2003-era 15-line workaround largely superseded by more robust modern localization tooling.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added more comprehensive built-in resource/language management features for localization than existed in 2003",
+      "Project Mode's text-based structure (introduced in 4D v17) offers more flexible ways to manage structural metadata than the binary structure file this note targeted"
+    ]
+  }
+}

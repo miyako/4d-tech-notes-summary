@@ -1,0 +1,28 @@
+{
+  "asset_id": 11837,
+  "title": "Tech Note: Subforms",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "May 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11837",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6",
+    "Subforms",
+    "Included Layouts",
+    "Form Design"
+  ],
+  "historical_commentary": {
+    "text": "Subforms (formerly 'included layouts') were a core form composition mechanism in 4D v6. Subforms remain a fundamental feature in modern 4D, now with enhanced capabilities including list subforms, page subforms, and ORDA-driven subform data binding. The concept and usage have evolved but the foundation covered here is still relevant.",
+    "status": "still relevant",
+    "related_updates": [
+      "Subforms have been significantly enhanced with list/page modes, component subforms, and ORDA binding",
+      "Subform/parent communication via CALL SUBFORM CONTAINER and form events has been modernized"
+    ]
+  }
+}

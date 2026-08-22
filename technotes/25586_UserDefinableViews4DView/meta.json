@@ -1,0 +1,25 @@
+{
+  "asset_id": 25586,
+  "title": "Tech Note: User Definable Views Using 4D View",
+  "technote_number": "02-45",
+  "year": 2002,
+  "published_date": "September 30, 2002",
+  "product": "4D View",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25586",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_41-45_(sep)/02-45_user_definable_views.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View",
+    "Generic form-replacement engine"
+  ],
+  "historical_commentary": {
+    "text": "4D View itself has been discontinued, making the specific implementation obsolete, but the underlying architectural idea \u2014 a generic, user-editable \"saved view\" system replacing hard-coded output forms \u2014 is a genuinely durable design pattern still used today, typically realized via list box form objects with user-configurable columns or web-based grid components with saved view/filter functionality.",
+    "status": "superseded",
+    "related_updates": [
+      "4D View has been discontinued; modern 4D list box form objects and web-based grids with user-configurable columns/filters now serve the same 'user-definable view' role"
+    ]
+  }
+}

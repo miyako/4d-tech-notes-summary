@@ -1,0 +1,1 @@
+Tech Note: File Names and Pathnames (TN 96-41, 4D v3.x, September 1996) — an explainer on the differing file-naming and pathname conventions of Windows vs. Macintosh, with two reusable, platform-independent 4D routines for extracting a document's name and pathname from a long file path.

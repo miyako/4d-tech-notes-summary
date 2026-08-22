@@ -1,0 +1,1 @@
+Tech Note: Seven Powerful Uses of 4D Choice Lists (TN 96-35, 4D v3.x, August 1996) — a tour of seven creative techniques built on 4D's Choice List feature: conditional lists, hierarchical drill-down lists, rate-chart lookup tables, required values, range validation, demo data storage, and a DBA list-maintenance interface.

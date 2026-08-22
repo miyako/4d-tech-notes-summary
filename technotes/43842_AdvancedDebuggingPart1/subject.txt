@@ -1,0 +1,1 @@
+Tech Note: 4D Advanced Debugging Techniques – Part 1 (TN 06-31, 4D v2004, August 2006) — a two-part note's first installment covering general debugging methodology and 4D 2004's advanced built-in debugging features.

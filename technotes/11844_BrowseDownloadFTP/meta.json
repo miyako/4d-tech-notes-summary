@@ -1,0 +1,28 @@
+{
+  "asset_id": 11844,
+  "title": "Tech Note: Using 4D version 6.5 Browse and Download Files via FTP",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "July 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11844",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "FTP Protocol",
+    "4D Internet Commands",
+    "File Transfer"
+  ],
+  "historical_commentary": {
+    "text": "FTP was a primary file transfer mechanism in 1999, and 4D Internet Commands provided FTP client capabilities. FTP usage has declined dramatically in favor of HTTPS-based APIs and cloud storage. 4D Internet Commands' FTP functions are obsolete; modern 4D uses HTTP/HTTPS via built-in commands or cURL integration for file transfers.",
+    "status": "obsolete",
+    "related_updates": [
+      "FTP has been largely replaced by HTTPS, SFTP, and cloud storage APIs",
+      "4D Internet Commands plugin has been superseded by built-in HTTP commands and 4D.HTTPRequest"
+    ]
+  }
+}

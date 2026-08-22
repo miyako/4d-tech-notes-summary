@@ -1,0 +1,1 @@
+Tech Note: 4D Open: Adding records (TN 02-58, 4D Open v6.8, December 2002) — a simple guide to adding records remotely on a 4D Server using the 4D Open plug-in.

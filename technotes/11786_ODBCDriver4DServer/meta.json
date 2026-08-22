@@ -1,0 +1,28 @@
+{
+  "asset_id": 11786,
+  "title": "Using the ODBC Driver for 4D Server",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "March 1, 1999",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11786",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "ODBC Driver for 4D Server",
+    "Microsoft Excel ODBC connectivity",
+    "External data access to 4D",
+    "Windows ODBC architecture"
+  ],
+  "historical_commentary": {
+    "text": "The ODBC driver for 4D Server was an important interoperability tool, allowing external applications like Microsoft Excel to query 4D databases using the standard ODBC protocol. This was significant in 1999 when ODBC was the dominant data access standard on Windows. 4D later developed its own SQL engine (v11 SQL) and ODBC driver updates, and modern 4D provides REST API access via ORDA, which has largely replaced ODBC as the preferred external data access method.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D ODBC Driver has gone through multiple iterations; a modernized version was provided with 4D v11 SQL and later",
+      "REST API via ORDA is now the preferred method for external applications to access 4D data"
+    ]
+  }
+}

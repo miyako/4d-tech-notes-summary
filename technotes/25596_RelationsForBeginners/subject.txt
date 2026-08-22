@@ -1,0 +1,1 @@
+Tech Note: Relations for Beginners in 4D (TN 02-55, 4D v6.8, November 2002) — a beginner-friendly explanation of 4D's automatic and manual relations, covering one-to-many, many-to-one, and many-to-many relationship concepts.

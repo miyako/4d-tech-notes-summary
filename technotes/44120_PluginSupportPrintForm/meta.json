@@ -1,0 +1,28 @@
+{
+  "asset_id": 44120,
+  "title": "Tech Note: Plug-in support with Print Form",
+  "technote_number": "06-35",
+  "year": 2006,
+  "published_date": "September 8, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, General Manager, 4D",
+  "page_url": "https://kb.4d.com/assetid=44120",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_35-37_(SEP)/06-35_Print_Form_w_Plug-ins.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Print Form (4D form printing engine)",
+    "4D Write (plug-in for styled text/pictures)",
+    "4D Insider (component/method copying tool)",
+    "Print form Detail/Break areas and dynamic resizing"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a 4D 2004.5 feature enabling plug-ins like 4D Write to be printed within Print Form output, extending a prior invoice-printing example to support styled text and embedded pictures with automatic pagination/splitting across pages. The core problem — printing variable-length rich content that must split cleanly across page boundaries — is still a real challenge in reporting today, but the specific tools involved (Print Form, 4D Write as a standalone plug-in, 4D Insider for copying methods between databases) predate 4D Write Pro (2016) and are largely superseded by more modern reporting/printing approaches in current 4D.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Write (the classic plug-in referenced here) was superseded by 4D Write Pro, introduced in 4D v15 (2016), with a modern rich text engine and different API",
+      "4D Insider, used here for copying reusable method groups between databases, is a legacy tool tied to the pre-Project-Mode Design Mode structure file workflow"
+    ]
+  }
+}

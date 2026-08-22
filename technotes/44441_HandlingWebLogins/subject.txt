@@ -1,0 +1,1 @@
+Tech Note: Handling Web Logins (TN 06-39, 4D v2004, October 2006) — explains the limitations of 4D's built-in On Web Authentication HTTP password system (a blank screen when the login dialog is cancelled) and provides a custom On Web Connection/4DACTION-based authentication scheme that can display a proper error/help page instead.

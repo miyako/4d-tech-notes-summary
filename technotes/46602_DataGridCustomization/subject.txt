@@ -1,0 +1,1 @@
+Tech Note: Customization of the Data Grid (TN 07-21, 4D Web 2.0 Pack v1.1, May 2007) — a video-accompanied walkthrough of customizing the 4D Ajax Framework Data Grid via its JavaScript DataWindow API, including column visibility/width and tab-driven layouts.

@@ -1,0 +1,26 @@
+{
+  "asset_id": 23266,
+  "title": "Tech Note: 4D Blogger and SOAP",
+  "technote_number": "03-13",
+  "year": 2003,
+  "published_date": "March 31, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23266",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-13_4D_Blogger_and_SOAP.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "SOAP",
+    "4D Blogger",
+    "Blog client/server protocol"
+  ],
+  "historical_commentary": {
+    "text": "4D Blogger and its SOAP-based (Blogger/MetaWeblog-API-style) architecture are long obsolete; modern blogging platforms and content APIs almost universally use REST/JSON rather than SOAP, making this note of historical interest as an early-2000s snapshot of blogging technology built on 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "SOAP-based blogging APIs (like the MetaWeblog/Blogger APIs of this era) have been superseded by modern REST/JSON-based content APIs"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 30787,
+  "title": "Tech Note: Transferring Pictures and Plug-in Documents Using the 4D ODBC Plug-in",
+  "technote_number": "03-52",
+  "year": 2003,
+  "published_date": "December 19, 2003",
+  "product": "4D ODBC",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30787",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_52-55_(DEC)/03-52_Xfering_Docs_via_ODBC.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D ODBC Plug-in",
+    "BLOB data type",
+    "ODBC integration"
+  ],
+  "historical_commentary": {
+    "text": "ODBC remains a supported integration mechanism in current 4D, so the general goal of safely moving binary content through an ODBC connection is still relevant, but 4D's own SQL engine (added in v11 SQL) and modern blob/picture-handling commands have since reduced how often developers need this specific plug-in-era ODBC workaround. The core lesson about preserving binary data fidelity when passing through a generic intermediate format remains a durable engineering principle.",
+    "status": "superseded",
+    "related_updates": [
+      "4D introduced its own native SQL engine (v11 SQL, ~2007), reducing reliance on ODBC as the primary way to talk to SQL databases",
+      "ODBC connectivity itself remains supported in current 4D for external database integration"
+    ]
+  }
+}

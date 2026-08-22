@@ -1,0 +1,1 @@
+Tech Note: Distinct Values, Replacing SQL Group By, and Counting Instances (4D v6.5, May 1999) — explains how to list unique values, replicate SQL GROUP BY, and count instances using 4D's procedural language.

@@ -1,4 +1,4 @@
-# Tech Note 03-1: Kiviat Graphs
+# Tech Note 03-01: Kiviat Graphs
 
 **Author:** Olivier Deschanels, 4D S.A.
 **Published:** January 31, 2003 | **Product/Version:** 4D Chart v6.8 | **Platform:** Mac & Win

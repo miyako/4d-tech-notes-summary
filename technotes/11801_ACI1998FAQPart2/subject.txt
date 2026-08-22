@@ -1,0 +1,1 @@
+Tech Note: ACI’s 1998 FAQ Part 2: Common Questions (TN 98-18, 4D Server v6.0, June 1998) — answers to common technical questions received by ACI, following Part 1 on fixing problems.

@@ -1,0 +1,1 @@
+Tech Note: Bar Codes (TN 02-20, 4D v6.8, May 2002) — an introduction to working with bar codes in 4D, an automatic identification technique widely used in stock management, production, shipping, and libraries.

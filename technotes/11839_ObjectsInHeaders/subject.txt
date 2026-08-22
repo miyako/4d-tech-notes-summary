@@ -1,0 +1,1 @@
+Tech Note: Objects in Headers are Closer Than They Appear (4D v6.5, August 1999) — an introduction to placing and using objects in the header area of list forms in 4D v6.5.

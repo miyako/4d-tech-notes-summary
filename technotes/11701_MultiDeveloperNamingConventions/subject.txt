@@ -1,0 +1,1 @@
+Tech Note: Developing with 4D Server Part 3: Naming Conventions for Multi-Developer 4D Projects (TN 96-41, "File Names and Pathnames", 4th Dimension v3.x, August 1996) — platform-independent routines for extracting a file name from a full pathname on Mac vs. Windows, plus the MAP FILE TYPES command for cross-platform document type association.

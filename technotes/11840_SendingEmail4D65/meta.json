@@ -1,0 +1,29 @@
+{
+  "asset_id": 11840,
+  "title": "Tech Note: Sending Email from 4th Dimension Version 6.5",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "June 1, 1999",
+  "product": "4D Internet Commands",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11840",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "4D Internet Commands",
+    "SMTP",
+    "POP3",
+    "Email Automation"
+  ],
+  "historical_commentary": {
+    "text": "Email automation via 4D Internet Commands was cutting-edge in 1999. The Internet Commands plug-in (originally PDM's Internet Toolkit) has been superseded by 4D's built-in SMTP/POP3/IMAP transporter classes introduced in v17+, which provide a modern, object-oriented email API without requiring any plug-in.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's built-in SMTP/IMAP/POP3 Transporter classes (v17+) replaced Internet Commands for email",
+      "4D Internet Commands plug-in has been deprecated"
+    ]
+  }
+}

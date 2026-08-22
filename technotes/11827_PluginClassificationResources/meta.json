@@ -1,0 +1,30 @@
+{
+  "asset_id": 11827,
+  "title": "Tech Note: Classification and Resources of External Routines (Plug-ins)",
+  "technote_number": "99-01",
+  "year": 1999,
+  "published_date": "February 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11827",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Plug-ins",
+    "External Routines",
+    "Database Conversion",
+    "Resource Management"
+  ],
+  "historical_commentary": {
+    "text": "This note documents the classification system and resource structure of 4D plug-ins (formerly called 'external routines' prior to v3.5), and explains how to handle them during database conversion to v6. The plug-in architecture has undergone major changes since this era — the 4D Plug-in SDK has evolved significantly, and many classic plug-ins have been replaced by built-in commands or the component architecture introduced in later versions.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D component architecture largely replaced the need for compiled plug-ins for many use cases",
+      "The 4D Plug-in SDK has been significantly modernized since the v6 era",
+      "Many plug-ins from this era (4D Calc, 4D Chart, 4D Draw) have been discontinued"
+    ]
+  }
+}

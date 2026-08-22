@@ -1,0 +1,25 @@
+{
+  "asset_id": 27786,
+  "title": "Tech Note: The 4D remote FastCGI Component",
+  "technote_number": "02-31",
+  "year": 2002,
+  "published_date": "July 31, 2002",
+  "product": "4D",
+  "version": "6.8.3",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27786",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_30-35_(JUL)/02-31_Remote_Fast_CGI.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "FastCGI",
+    "Remote/component-based web server integration"
+  ],
+  "historical_commentary": {
+    "text": "FastCGI-based integration of the kind described here has been largely superseded by 4D's own mature, built-in web server, which now handles dynamic web content generation directly without requiring a separate FastCGI component, making this note's architecture obsolete for current 4D web deployments.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's own built-in web server has long superseded the need for a separate remote FastCGI component for serving dynamic 4D-driven web content"
+    ]
+  }
+}

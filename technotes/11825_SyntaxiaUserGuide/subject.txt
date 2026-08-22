@@ -1,0 +1,1 @@
+Tech Note: Syntaxia - A Database of 4D Language Components (TN 99-03, 4D v6.0, January 1999) — documents a comprehensive reference database cataloging all 4D v6 commands, constants, and plug-in commands with syntax and shortcuts.

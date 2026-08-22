@@ -1,0 +1,25 @@
+{
+  "asset_id": 11731,
+  "title": "Tech Note: About 4D Write 6.0.1",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "June 1, 1997",
+  "product": "4D Write",
+  "version": "6.0.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11731",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Write"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser survives for this release-notes-style note describing changes and new implementations in 4D Write 6.0/6.0.1, the word-processing plug-in/companion product bundled with classic 4D. 4D Write itself has been fully obsolete since 4D Write Pro replaced it as the modern rich-text engine, making this version-specific changelog of historical interest only.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write was replaced by 4D Write Pro (introduced 2016), a modern word-processing area with far more capable formatting and layout features",
+      "Legacy 4D Write areas/documents are largely a legacy compatibility feature in current 4D versions"
+    ]
+  }
+}

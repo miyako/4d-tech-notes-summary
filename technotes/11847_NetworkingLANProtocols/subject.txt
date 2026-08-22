@@ -1,0 +1,1 @@
+Tech Note: Networking 11: LAN Protocols (4D, September 1999) — an educational overview of LAN protocols including media access methods, transmission methods, topologies, and devices for 4D developers.

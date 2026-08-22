@@ -1,0 +1,26 @@
+{
+  "asset_id": 25588,
+  "title": "Tech Note: 4D Write, Programming Styles, and Entry Control (part II)",
+  "technote_number": "02-47",
+  "year": 2002,
+  "published_date": "October 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25588",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-47_4D_Write_Styles_Etc.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Write",
+    "BLOB to list / LIST TO BLOB",
+    "Hierarchical lists in documents"
+  ],
+  "historical_commentary": {
+    "text": "The classic 4D Write plug-in referenced here has been succeeded by 4D Write Pro (introduced in later 4D versions) with a substantially different, more modern document model, making this note's specific styling and BLOB-based list techniques largely obsolete for current 4D document development.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write has been succeeded by 4D Write Pro, which uses a different, more modern document/formatting model than the classic 4D Write plug-in described here"
+    ]
+  }
+}

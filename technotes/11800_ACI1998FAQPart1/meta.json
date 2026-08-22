@@ -1,0 +1,28 @@
+{
+  "asset_id": 11800,
+  "title": "Tech Note: ACI’s 1998 FAQ Pt 1: Fixing Problems",
+  "technote_number": "98-17",
+  "year": 1998,
+  "published_date": "May 1, 1998",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11800",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4th Dimension",
+    "ACI Technical Support",
+    "Troubleshooting",
+    "FAQ"
+  ],
+  "historical_commentary": {
+    "text": "This FAQ document captures a snapshot of the most common problems 4D users faced in 1998, reflecting the v6 era's typical issues around installation, configuration, and platform-specific quirks on classic Mac OS and Windows 95/98/NT. While the specific problems are outdated, FAQ-style troubleshooting documents remain a valuable support format.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Most problems documented here relate to classic Mac OS and Windows 95/98/NT environments that are no longer supported",
+      "4D's installation and configuration processes have been modernized significantly"
+    ]
+  }
+}

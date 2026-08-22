@@ -1,0 +1,30 @@
+{
+  "asset_id": 11832,
+  "title": "Tech Note: Programmatically Moving Objects in 4D",
+  "technote_number": "99-07",
+  "year": 1999,
+  "published_date": "April 1, 1999",
+  "product": "4D",
+  "version": "6.5.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11832",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "MOVE OBJECT",
+    "SET TIMER",
+    "On Timer Event",
+    "Form Object Manipulation"
+  ],
+  "historical_commentary": {
+    "text": "This note showcases the MOVE OBJECT and SET TIMER commands introduced in 4D v6.5, enabling programmatic movement of form objects in response to mouse events. While written as a playful April Fools' demo, it demonstrated genuinely new UI capabilities. MOVE OBJECT and timer events remain available in modern 4D, though the form event model has been significantly expanded and object property manipulation is now far more comprehensive.",
+    "status": "historical interest only",
+    "related_updates": [
+      "MOVE OBJECT remains available in modern 4D with the same basic functionality",
+      "Modern 4D provides OBJECT SET COORDINATES and many more object manipulation commands",
+      "The On Timer form event continues to be supported in current 4D versions"
+    ]
+  }
+}

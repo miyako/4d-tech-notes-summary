@@ -1,0 +1,29 @@
+{
+  "asset_id": 11718,
+  "title": "Tech Note: Developing with 4D Server Part 2: Setting Up a Multi-Developer Password System",
+  "technote_number": "96-39",
+  "year": 1996,
+  "published_date": "September 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11718",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_37-41_(SEP)/96-39_Server_Pt_2.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D password system (Users & Groups, Design mode ownership/access)",
+    "4D Server / 4D Client multi-developer workflow",
+    "4D Insider",
+    "4D Compiler"
+  ],
+  "historical_commentary": {
+    "text": "This is Part 2 of a three-part series on multi-developer 4D Server development, covering how to divide a project into functional modules and set up a binary Design Mode password system of Users and Groups so each module team owns its own Files, Forms, and Global Procedures. The overall discipline of dividing large projects into ownership-scoped modules with role-based access remains a sound software engineering practice, but the specific mechanics (Design Mode ownership of binary structure objects, single-Designer 4D Insider access, Global Procedures terminology) are dated relative to modern 4D, which introduced Project Mode (text-based, file-per-method source control friendly) in 2018 as an alternative that makes much of this binary-structure password juggling unnecessary.",
+    "status": "superseded",
+    "related_updates": [
+      "Design Mode is now called this because Project Mode was introduced in v17 (2018) as an alternative, text-based structure format that works naturally with modern source control (Git) branching/merging instead of binary-structure ownership locks",
+      "Modern multi-developer 4D teams commonly use Project Mode plus Git for concurrent development, reducing reliance on the Users/Groups Design-mode ownership scheme described here for source-level collaboration",
+      "\"Global Procedures\" terminology was later renamed to \"Methods\" starting with 4D V6 (the same 1997 release this note's series precedes), and 4D Insider's single-Designer-access limitation described here is a legacy constraint of binary structure files"
+    ]
+  }
+}

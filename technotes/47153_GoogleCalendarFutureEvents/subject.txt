@@ -1,0 +1,1 @@
+Tech Note: Google Calendar: Downloading Future Events (TN 07-30, 4D Internet Commands v2004, August 2007) — shows how to authenticate with and query Google Calendar's REST/GData API from 4D using 4D Internet Commands to build raw HTTP requests and parse the returned Atom XML feeds.

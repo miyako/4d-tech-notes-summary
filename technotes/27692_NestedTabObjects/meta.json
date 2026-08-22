@@ -1,0 +1,25 @@
+{
+  "asset_id": 27692,
+  "title": "Tech Note: Tab Objects within Tab Objects",
+  "technote_number": "03-18",
+  "year": 2003,
+  "published_date": "April 16, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27692",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-18_Tab_Objects.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Tab control form objects",
+    "Multi-page form navigation"
+  ],
+  "historical_commentary": {
+    "text": "Tab Control form objects remain a supported, still-used 4D form object today, so the core technique of nesting tab controls for hierarchical navigation remains directly applicable in current 4D applications, making this a still relevant, if dated in specific presentation, piece of UI guidance.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's Tab Control form object remains supported in current versions, so the nesting technique described here is still broadly applicable"
+    ]
+  }
+}

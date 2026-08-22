@@ -1,0 +1,1 @@
+Tech Note: Exploring 4D Portal’s Postcard Portlet (TN 03-14, 4D v6.8, March 2002) — a look inside the Postcard portlet of 4D Portal, which lets users create and send a picture-based digital postcard by email or shareable server link.

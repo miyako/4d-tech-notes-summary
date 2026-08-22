@@ -1,0 +1,1 @@
+Tech Note: Printing Graphs from 4D Chart, Part 1 (TN 02-22, 4D Chart v6.8, May 2002) — Part I of a two-part note comparing techniques for printing 4D Chart graphs and the trade-offs of each, along with convenient user-facing printing interfaces.

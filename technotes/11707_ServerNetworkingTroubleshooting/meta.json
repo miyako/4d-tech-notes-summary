@@ -1,0 +1,31 @@
+{
+  "asset_id": 11707,
+  "title": "Tech Note: 4D Server: Networking and Troubleshooting",
+  "technote_number": "96-28",
+  "year": 1996,
+  "published_date": "June 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Jim Staples, Jr.",
+  "page_url": "https://kb.4d.com/assetid=11707",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_27-30_(JUN)/96-28_Server_Troubleshoot.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "AppleTalk networking (ADSP)",
+    "TCP/IP",
+    "IPX/SPX",
+    "ACI Network Components",
+    "4D Remote"
+  ],
+  "historical_commentary": {
+    "text": "This note is a networking primer and troubleshooting guide for 4D Client/Server connectivity in 1996, covering three protocols of that era (ADSP/AppleTalk, TCP/IP, IPX/SPX) via 4D's proprietary 'ACI Network Component' translation layer, plus the '-10002' timeout error and 4D Remote dial-up access. AppleTalk and IPX/SPX as mainstream desktop networking protocols have been discontinued for decades, and TCP/IP — the only protocol of the three still in use — is now universally built into every OS and networking stack rather than requiring a separate driver/component install, making the specific configuration steps and troubleshooting advice obsolete even though the general 'check recent changes, verify configuration, reinstall software' troubleshooting methodology remains a timeless practice.",
+    "status": "obsolete",
+    "related_updates": [
+      "AppleTalk (ADSP) networking protocol was discontinued by Apple in the 2000s and is not present in any modern operating system",
+      "IPX/SPX (Novell NetWare's protocol) has likewise been discontinued and is not used in any modern networking environment",
+      "TCP/IP is universally built into every current operating system's network stack, eliminating the need for a separate 'ACI Network Component' driver/DLL installation described in this note",
+      "4D Remote, ACI's proprietary dial-up networking protocol for connecting to 4D Server without ARA, is not part of the modern 4D product line; remote access to a 4D Server today is handled via standard TCP/IP over VPN/Internet connections"
+    ]
+  }
+}

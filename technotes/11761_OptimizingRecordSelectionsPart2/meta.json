@@ -1,0 +1,28 @@
+{
+  "asset_id": 11761,
+  "title": "Tech Note: Optimizing Record Selections - Part 2 \u2014 Under the Hood of the 4D Data File",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "May 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11761",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D data file internals",
+    "Current record / current selection concepts",
+    "Named selections",
+    "Record selection optimization"
+  ],
+  "historical_commentary": {
+    "text": "This note explains the core 4D concepts of current record, current selection, and named selections and how they affect performance with large data files and many concurrent users; these set-based selection concepts remain fully current in modern 4D (including ORDA-based entity selections), even though the specific v3/v6-era binary data file internals discussed as context have been long superseded by the modern structure file format.",
+    "status": "still relevant",
+    "related_updates": [
+      "The binary .4DB/.4DC data file format discussed as background here has been long superseded by 4D's modern structure file format",
+      "Modern 4D adds ORDA entity selections alongside the classic current selection/named selection model described in this note, but the underlying set-based optimization principles carry forward"
+    ]
+  }
+}

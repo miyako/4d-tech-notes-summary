@@ -1,0 +1,30 @@
+{
+  "asset_id": 11722,
+  "title": "Tech Note: Manipulating Arrays, Strings, and Dates in 4th Dimension",
+  "technote_number": "96-44",
+  "year": 1996,
+  "published_date": "October 31, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11722",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_42-44_(OCT)/96-44_ArraysStringsDates.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D array manipulation routines",
+    "4D date manipulation routines",
+    "4D string manipulation routines",
+    "Parameter indirection (pointer-based array/variable passing)",
+    "4D Insider"
+  ],
+  "historical_commentary": {
+    "text": "This note is a library/cookbook of reusable 4D language routines (array insert/delete/sort-navigation, date arithmetic, string padding/casing/formatting) built around the 'parameter indirection' (pointer) technique for writing generic, reusable procedures across multiple arrays or variables. The general utility-library approach and many individual algorithms remain conceptually valid, but 4D's language has since added many built-in equivalents (and object/collection-based alternatives) that reduce the need to hand-roll several of these routines, and the classic 4D Insider tool referenced for moving code between structures no longer exists in that form.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D Insider, the standalone structure-documentation/code-transfer tool referenced for moving routines between databases, was long ago superseded by built-in project/methods management in the modern 4D IDE",
+      "Many of the manual string/date utility routines shown (e.g., custom padding, date arithmetic helpers) now have more direct built-in 4D language commands or object/collection methods available in modern 4D",
+      "'Parameter indirection' via pointers is still supported in 4D, though modern 4D code often favors object properties, collections, or named parameters for similar generic-routine goals"
+    ]
+  }
+}

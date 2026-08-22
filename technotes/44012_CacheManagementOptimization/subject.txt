@@ -1,0 +1,1 @@
+Tech Note: Optimization and new cache management for 4D 2004 (TN 06-34, 4D v2004, August 2006) — explains how 4D's virtual memory cache stores address tables, index pages, and records, details the 2004 version's cache/memory optimizations (reduced fragmentation, faster flushing, faster record loading), and provides guidance on sizing the cache using Runtime Explorer statistics.

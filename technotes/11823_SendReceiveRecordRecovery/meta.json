@@ -1,0 +1,31 @@
+{
+  "asset_id": 11823,
+  "title": "Tech Note: Using Send/Receive Record to Recover, Replace or Update",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "January 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11823",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "SEND RECORD",
+    "RECEIVE RECORD",
+    "Data Migration",
+    "Database Recovery",
+    "Data Conversion"
+  ],
+  "historical_commentary": {
+    "text": "This note covers using SEND RECORD and RECEIVE RECORD commands to move data between 4D databases, addressing scenarios like data recovery from corrupted databases, upgrading between versions, and migrating data to new structures. These commands provided a straightforward mechanism for inter-database data transfer in the v6 era. Modern 4D offers SQL, ORDA, JSON import/export, and other mechanisms that provide more flexible data migration options.",
+    "status": "obsolete",
+    "related_updates": [
+      "Modern 4D provides SQL, ORDA, JSON, and XML-based data import/export mechanisms",
+      "4D's data file maintenance and recovery tools have improved significantly since v6",
+      "SEND RECORD and RECEIVE RECORD commands are still available but rarely used in modern workflows"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 11808,
+  "title": "Tech Note: Proportionally Resizing Groups of Objects on a Form",
+  "technote_number": "98-25",
+  "year": 1999,
+  "published_date": "March 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11808",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "On Resize Event",
+    "MOVE OBJECT",
+    "Form Design",
+    "4th Dimension V6"
+  ],
+  "historical_commentary": {
+    "text": "Form object resizing remains a relevant UI concern in 4D, though the specific V6 approach using On Resize and MOVE OBJECT has been supplemented by more sophisticated form layout options in modern 4D, including automatic sizing properties, constraints, and responsive form design features.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D forms support automatic sizing and anchoring properties for objects",
+      "Form layout has been enhanced with constraints and responsive design features in later versions",
+      "MOVE OBJECT and RESIZE OBJECT commands are still available but supplemented by declarative sizing options"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 30790,
+  "title": "Tech Note: 4D View Helper (Source Code, Part I)",
+  "technote_number": "03-55",
+  "year": 2003,
+  "published_date": "December 19, 2003",
+  "product": "4D View",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30790",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_52-55_(DEC)/03-55_4D_View_Helper.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View",
+    "PV routines",
+    "Array/record display components"
+  ],
+  "historical_commentary": {
+    "text": "4D View as a distinct companion product has been discontinued and its spreadsheet-area functionality superseded by newer form objects and, for many use cases, by web-based grid components in current 4D applications, so this component-specific reference note is now of mostly historical interest. The general pattern of wrapping array/record-to-UI binding logic into a reusable helper routine remains a sound software engineering practice.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D View as a standalone product/plug-in has been discontinued in current 4D",
+      "Modern 4D applications typically use list box form objects or web-based grids instead of 4D View areas for tabular display"
+    ]
+  }
+}

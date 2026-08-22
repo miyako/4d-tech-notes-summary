@@ -1,0 +1,29 @@
+{
+  "asset_id": 11806,
+  "title": "Tech Note: Realtime Graphs in 4D Chart",
+  "technote_number": "98-23",
+  "year": 1998,
+  "published_date": "July 1, 1998",
+  "product": "4D Chart",
+  "version": "6.0.x",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11806",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart",
+    "Real-time Data Visualization",
+    "Data Acquisition",
+    "Moving Graphs"
+  ],
+  "historical_commentary": {
+    "text": "Real-time data visualization within a desktop database application was an innovative technique for the late 1990s. While 4D Chart has been discontinued, the concept of live-updating graphs remains relevant. Modern implementations would use web-based charting libraries with WebSocket or polling-based data feeds.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart has been discontinued",
+      "Real-time charting is now typically handled by JavaScript charting libraries in web-based interfaces",
+      "4D's web server and REST API provide modern alternatives for serving live data to chart components"
+    ]
+  }
+}

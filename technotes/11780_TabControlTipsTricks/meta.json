@@ -1,0 +1,28 @@
+{
+  "asset_id": 11780,
+  "title": "Tab Control Tips and Tricks",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "April 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11780",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Tab Control form object",
+    "4D v6 form design",
+    "Tab Control programming",
+    "Compiled database preparation"
+  ],
+  "historical_commentary": {
+    "text": "Tab Controls were a new form object in 4D v6, reflecting the shift toward modern GUI conventions of the late 1990s. This note covered practical implementation details including definition methods, compiler preparation, picture integration, and common pitfalls. Tab controls remain a standard form object in modern 4D, though the implementation details, event model, and programming patterns have evolved considerably. The compiler-related considerations described here reflect the v6 compilation model which has since been modernized.",
+    "status": "superseded",
+    "related_updates": [
+      "Tab controls remain available in modern 4D forms but with a modernized API and event model",
+      "The 4D Compiler's requirements for variable typing have evolved significantly since v6"
+    ]
+  }
+}

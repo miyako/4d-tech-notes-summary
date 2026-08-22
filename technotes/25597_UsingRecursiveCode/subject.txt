@@ -1,0 +1,1 @@
+Tech Note: Using Recursive Code (TN 02-56, 4D v6.8, December 2002) — a discussion of recursive coding in 4D, including the harder-to-detect indirect recursion pattern and why it should generally be avoided.

@@ -1,0 +1,1 @@
+Tech Note: Open Window Vs. Open Form Window (TN 02-29, 4D v6.8, June 2002) — a comparison of the OPEN WINDOW and OPEN FORM WINDOW commands, explaining their similarities, differences, and which developers should prefer in different situations.

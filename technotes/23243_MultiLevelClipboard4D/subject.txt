@@ -1,0 +1,1 @@
+Tech Note: Multi-level Clipboard in 4D (TN 02-26, 4D v6.8, June 2002) — a custom "4D Clipboard" system that simulates a private, multi-item clipboard within 4D, letting users copy and later retrieve multiple individual items.

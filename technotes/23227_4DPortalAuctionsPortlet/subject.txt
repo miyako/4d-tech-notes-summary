@@ -1,0 +1,1 @@
+Tech Note: 4D Portal: The Auctions portlet (TN 02-08, 4D v6.8, February 2002) — an explanation of how the Auctions portlet works within 4D Portal, building on prior knowledge of the portal's session management system.

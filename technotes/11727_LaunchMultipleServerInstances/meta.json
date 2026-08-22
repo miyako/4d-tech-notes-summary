@@ -1,0 +1,31 @@
+{
+  "asset_id": 11727,
+  "title": "Tech Note: Launching Multiple Instances of 4D Server Automatically on Macintosh and Windows",
+  "technote_number": "96-56",
+  "year": 1996,
+  "published_date": "December 1, 1996",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": "Fred Johnson",
+  "page_url": "https://kb.4d.com/assetid=11727",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_51-56_(DEC)/96-56_Multiple.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server",
+    "ResEdit",
+    "TCP/IP and IPX/SPX multi-instance addressing",
+    "Windows Startup folder / .bat launch scripts",
+    "AppleTalk (ADSP) multi-server broadcast"
+  ],
+  "historical_commentary": {
+    "text": "This note documents how to auto-launch multiple 4D Server instances on classic Mac OS (via ResEdit Creator-code tricks and Startup Items aliases) and Windows 95/NT (via per-instance .bat files and Startup folder shortcuts), plus how to distinguish instances on TCP/IP or IPX/SPX using port numbers since those protocols lacked ADSP's multi-server broadcast capability. Virtually every specific mechanism described is obsolete: ResEdit and classic Mac OS Creator codes vanished with Mac OS X, IPX/SPX networking disappeared entirely, and modern OS service managers (launchd, Windows Services) replace hand-built Startup Items/.bat approaches. The underlying goal — running multiple named/addressable server instances on one host — remains a standard IT concept, now solved with OS-native service management and standard TCP port binding.",
+    "status": "obsolete",
+    "related_updates": [
+      "ResEdit and classic Mac OS resource/Creator-code editing were discontinued along with classic Mac OS itself (superseded by Mac OS X in 2001)",
+      "IPX/SPX networking was phased out industry-wide in favor of TCP/IP by the early 2000s",
+      "AppleTalk networking protocol was discontinued by Apple in the 2000s",
+      "Modern operating systems use dedicated service managers (e.g. launchd, Windows Services) rather than Startup Items aliases or .bat files in a Startup folder for auto-launching background server processes"
+    ]
+  }
+}

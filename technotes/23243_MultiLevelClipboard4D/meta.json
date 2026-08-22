@@ -1,0 +1,25 @@
+{
+  "asset_id": 23243,
+  "title": "Tech Note: Multi-level Clipboard in 4D",
+  "technote_number": "02-26",
+  "year": 2002,
+  "published_date": "June 14, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23243",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_25-29_(JUN)/02-26_Multi-Level_Clipboard.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Custom multi-item clipboard",
+    "Interprocess communication"
+  ],
+  "historical_commentary": {
+    "text": "Modern operating systems now commonly offer native multi-item clipboard history features (e.g., Windows Clipboard History, various macOS clipboard manager utilities), somewhat reducing the novelty of this technique, but the underlying pattern of building an application-specific multi-item data store using interprocess communication remains a useful, still-applicable software design approach.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern operating systems (e.g., Windows Clipboard History) now natively offer multi-item clipboard functionality that reduces the need for this specific workaround"
+    ]
+  }
+}

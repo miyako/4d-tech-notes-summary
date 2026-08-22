@@ -1,0 +1,1 @@
+Tech Note: Import and Export Data From Related Tables (TN 98-28, 4D v6.0, August 1998) — two solutions for importing and exporting data from related tables, using Quick Reports and 4D programming commands.

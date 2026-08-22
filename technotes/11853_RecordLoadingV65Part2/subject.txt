@@ -1,0 +1,1 @@
+Tech Note: Record Loading in 4th Dimension v6.5, Part 2 (TN 99-33, 4D v6.5, September 1999) — a guide to understanding record loading behavior in 4D v6.5, focusing on large records (BLOBs) and network performance optimization.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 23244,
+  "title": "Tech Note: Taming The Splitter For Printout",
+  "technote_number": "02-27",
+  "year": 2002,
+  "published_date": "June 14, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23244",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_25-29_(JUN)/02-27_Taming_the_Splitter.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Form splitters",
+    "Print layout consistency"
+  ],
+  "historical_commentary": {
+    "text": "The specific splitter/printing quirk addressed here is tied to classic 4D form printing behavior; developers working with current 4D forms and print commands would need to verify whether this specific issue still applies, though the general goal \u2014 WYSIWYG consistency between screen and print output \u2014 remains a timeless usability concern.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's form printing behavior has continued to evolve since this note, and the specific splitter-printing quirk described may or may not still apply to current versions"
+    ]
+  }
+}

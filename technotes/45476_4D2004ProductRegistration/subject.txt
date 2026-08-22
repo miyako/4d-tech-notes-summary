@@ -1,0 +1,1 @@
+Tech Note: 4D 2004 Product Registration (TN 07-06, 4D v2004, February 2007) — a support guide walking through online, offline, and emergency activation methods for 4D 2004 base products and expansions, plus common registration troubleshooting.

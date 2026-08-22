@@ -1,0 +1,28 @@
+{
+  "asset_id": 11759,
+  "title": "Tech Note: Compiling Cross-Platform with Plug-ins",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "April 1, 1997",
+  "product": "4D Transporter",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11759",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Compiler",
+    "Cross-platform plug-in compilation",
+    "4D Transporter",
+    "Classic 4D plugin API"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses the constraints of compiling 4D databases cross-platform (Mac/Windows) when third-party plug-ins built for the older, pre-modern 4D plugin API are involved; this exact class of Mac/Windows binary plug-in cross-compilation concern is tied to the classic 4D Compiler and legacy plugin architecture of the era and has limited direct applicability to modern 4D's build and plugin/component ecosystem.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's plugin architecture has evolved substantially since this era (through subsequent 4D Plugin SDK generations and eventually 4D components), changing how cross-platform plugin compatibility is handled",
+      "4D Transporter, the product this note is filed under, is a discontinued companion tool from 4D's classic-era product lineup"
+    ]
+  }
+}

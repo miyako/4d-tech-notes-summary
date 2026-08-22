@@ -1,0 +1,30 @@
+{
+  "asset_id": 11802,
+  "title": "Tech Note: Displaying Graphs from 4D Chart on the Web",
+  "technote_number": "98-19",
+  "year": 1998,
+  "published_date": "April 1, 1998",
+  "product": "4D Chart",
+  "version": "6.0",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11802",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Chart",
+    "4D Web Server",
+    "GRAPH Command",
+    "Web Publishing",
+    "HTML"
+  ],
+  "historical_commentary": {
+    "text": "This note reflects the exciting early days of web publishing with 4D, when developers were figuring out how to serve dynamic graphical content to browsers. 4D Chart's integration into v6 was a significant enhancement. The specific techniques for serving chart images to browsers have been superseded by modern web charting libraries and 4D's evolved web server capabilities.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Chart has been discontinued as a separate module",
+      "Modern web charting uses JavaScript libraries (Chart.js, D3.js, etc.) served by 4D's web server or REST API",
+      "4D's web server has been completely rewritten multiple times since v6"
+    ]
+  }
+}

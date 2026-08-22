@@ -1,0 +1,1 @@
+Tech Note: Using Form Sizing Options (4D Open v6.0, August 1997) — an explainer on new V6 features for opening and sizing windows on screen, expanding on earlier window-type techniques.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 25598,
+  "title": "Tech Note: Understanding Processes in 4th Dimension",
+  "technote_number": "02-57",
+  "year": 2002,
+  "published_date": "December 31, 2002",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25598",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-57_Understand_Processes.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D processes",
+    "Cooperative multitasking model"
+  ],
+  "historical_commentary": {
+    "text": "This note's core conceptual explanation of 4D's classic cooperative process model remains accurate and useful for understanding legacy 4D code, but current 4D has since introduced true preemptive multithreading (worker processes with genuine OS-level concurrency) in later versions, meaning developers today must also understand a newer, more capable threading model beyond what this note describes.",
+    "status": "superseded",
+    "related_updates": [
+      "4D introduced true preemptive multithreading and worker processes in later versions, extending beyond the purely cooperative process model described in this 2002 note"
+    ]
+  }
+}

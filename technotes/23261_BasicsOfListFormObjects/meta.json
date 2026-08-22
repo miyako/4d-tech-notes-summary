@@ -1,0 +1,27 @@
+{
+  "asset_id": 23261,
+  "title": "Tech Note: Basics of List Form Objects",
+  "technote_number": "02-38",
+  "year": 2002,
+  "published_date": "August 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23261",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_36-40_(aug)/02-38_basic_list_objects.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Scrollable areas",
+    "Drop-down lists",
+    "Combo boxes",
+    "Hierarchical lists"
+  ],
+  "historical_commentary": {
+    "text": "These four list object types remain part of current 4D's form object toolkit, so the fundamentals covered in this note remain directly relevant and applicable to current 4D development, alongside newer list box form objects introduced in later versions that offer additional capabilities.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D later introduced the more capable list box form object, which extends beyond the basic list types covered in this 2002 note"
+    ]
+  }
+}

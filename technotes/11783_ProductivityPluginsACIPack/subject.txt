@@ -1,0 +1,1 @@
+Tech Note: Getting Started with Productivity Plug-ins and ACI PACK (4D Write v6.0, September 1998) — an introductory guide to using 4D Write, 4D Calc, 4D Draw, and ACI Pack together in a single application.

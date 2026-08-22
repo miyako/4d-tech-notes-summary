@@ -1,0 +1,1 @@
+Tech Note: Moving Objects (TN 02-01, 4D v6.8, January 2002) — a demonstration of the MOVE OBJECT command used together with the On Timer, On Load, and On Resize form events to reposition form objects dynamically.

@@ -1,0 +1,1 @@
+Tech Note: 4D Deployment Options for Wide Area Networks (TN 07-32, 4D v2004, August 2007) — surveys web-based, server-centric (Terminal Services/Citrix), and remote-desktop (VNC/ARD) architectures for reaching a 4D Client/Server database over a WAN, since native 4D Client/Server was only supported for LAN use.

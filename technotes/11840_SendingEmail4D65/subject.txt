@@ -1,0 +1,1 @@
+Tech Note: Sending Email from 4th Dimension Version 6.5 (4D Internet Commands v6.5, June 1999) — a demonstration of sending email and attachments to a selection of contacts using 4D v6.5 and the Internet Commands plug-in.

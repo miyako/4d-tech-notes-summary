@@ -1,0 +1,30 @@
+{
+  "asset_id": 11829,
+  "title": "Tech Note: A Simple and Ready-to-Use Installer, Part 1",
+  "technote_number": "99-04",
+  "year": 1999,
+  "published_date": "March 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11829",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Application Installer",
+    "Deployment",
+    "Cross-Platform",
+    "SimpleText",
+    "WordPad"
+  ],
+  "historical_commentary": {
+    "text": "This note provides a simple, ready-to-use installer solution for 4D applications, addressing common deployment issues like incomplete file copies and read-only attributes on Windows. Building custom installers was a common necessity in the late 1990s before standardized installer frameworks became widespread. Modern 4D's Build Application feature and standard OS-level installer tools have entirely replaced this approach.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's Build Application dialog now handles application packaging and deployment",
+      "Standard installer technologies (macOS .pkg/.dmg, Windows .msi/MSIX) have replaced custom 4D-based installers"
+    ]
+  }
+}

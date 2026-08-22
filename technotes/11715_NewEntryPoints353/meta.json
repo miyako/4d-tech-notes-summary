@@ -1,0 +1,29 @@
+{
+  "asset_id": 11715,
+  "title": "Tech Note: New Entry Points in 4th Dimension 3.5.3",
+  "technote_number": "96-36",
+  "year": 1996,
+  "published_date": "August 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "ACI and ACI US Engineering",
+  "page_url": "https://kb.4d.com/assetid=11715",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_33-36_(AUG)/96-36_New_Entry_Points.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D external package / plugin API (Ext4D.h entry points)",
+    "kEX_SUBSELECTION_TO_ARRAY",
+    "kEX_SET_HOOK",
+    "kEX_4DPX_ATTRIBUTES"
+  ],
+  "historical_commentary": {
+    "text": "This is a low-level plugin/external-package developer reference documenting three new C-level entry points added in 4th Dimension 3.5.3: bulk-copying a selection's field values into arrays, installing custom Sequential Operation/Printing progress hooks from within a plugin, and introspecting other installed external packages. These entry points are part of 4D's original 68K/PowerPC/Windows external package API (Ext4D.h), which predates the modern 4D Plugin SDK by many major architecture generations; the specific struct layouts, parameter block conventions, and platform-detection patterns shown are obsolete, though the general need (bulk data extraction to arrays, custom progress UI, and inter-plugin communication) persists conceptually in the modern plugin architecture.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's plugin/external package architecture has been substantially rearchitected since 1996 (multiple generations predating the modern 4D Plugin SDK), so these specific low-level entry points and ParameterBlock conventions no longer apply to current 4D plugin development",
+      "68K-based Macintosh support (explicitly addressed by this note's platform-detection code) was phased out entirely as Apple and 4D moved to PowerPC-only and later Intel/Apple Silicon architectures",
+      "Modern 4D provides higher-level language commands (e.g. SELECTION TO ARRAY and related array/selection commands) for the kind of bulk field-to-array extraction that kEX_SUBSELECTION_TO_ARRAY provided at the plugin level"
+    ]
+  }
+}

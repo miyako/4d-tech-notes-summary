@@ -1,0 +1,1 @@
+Tech Note: 4D Server, Dongle and Expansion Pack (TN 98-32, 4D Server v6.0, October 1998) — instructions for installing, upgrading, and troubleshooting 4D Server licensing involving the dongle and Expansion Pack diskette.

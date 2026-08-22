@@ -1,0 +1,26 @@
+{
+  "asset_id": 26844,
+  "title": "Tech Note: Parsing XML Documents",
+  "technote_number": "03-06",
+  "year": 2003,
+  "published_date": "February 28, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": "Dave Dell'Aquila",
+  "page_url": "https://kb.4d.com/assetid=26844",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_06-10_(FEB)/03-06_Parsing_XML_Documents.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "XML parsing (4D 2003)",
+    "Web Services (context)"
+  ],
+  "historical_commentary": {
+    "text": "4D's native XML parsing commands introduced in this era remain part of the product today and continue to be a supported way to work with XML data, so the core capability discussed here is still relevant, even though modern 4D applications more often reach for JSON parsing/generation commands for typical web integration work.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's XML parsing commands introduced around this era remain supported in current versions",
+      "JSON has become the more commonly used data format for modern web integration, though XML parsing remains available and relevant for document/legacy-integration use cases"
+    ]
+  }
+}

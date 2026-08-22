@@ -1,0 +1,1 @@
+Tech Note: Programmatically Moving Objects in 4D (TN 99-07, 4D v6.5.x, April 1999) — demonstrates using MOVE OBJECT and SET TIMER commands to animate form objects in response to mouse movement.

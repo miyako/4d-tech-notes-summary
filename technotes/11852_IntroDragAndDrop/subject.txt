@@ -1,0 +1,1 @@
+Tech Note: An Introduction to Drag and Drop (4D v6.0, October 1999) — an introduction to implementing drag and drop interfaces in 4D databases using form events, pointers, and reusable code patterns.

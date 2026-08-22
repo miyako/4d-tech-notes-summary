@@ -1,0 +1,27 @@
+{
+  "asset_id": 44743,
+  "title": "Tech Note: Cleaning Whitespace from XML Values",
+  "technote_number": "06-42",
+  "year": 2006,
+  "published_date": "November 20, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=44743",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_40-43_(NOV)/06-42_Clean_XML_Whitespace.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "DOM XML commands (DOM GET XML ELEMENT VALUE)",
+    "SAX XML commands (SAX GET XML ELEMENT VALUE)",
+    "4D text/string manipulation (Substring, Find in array)"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses a real gap in 4D 2004's built-in XML commands, which returned element values including leading/trailing whitespace exactly as the XML spec requires but developers often didn't want. The array-driven trimming technique it teaches is a solid general programming pattern that remains conceptually valid, but the specific DOM/SAX commands referenced are legacy 4D language APIs from a pre-ORDA, pre-Project-Mode era. Modern 4D code would more likely use built-in string trim functions or newer XML/JSON handling rather than hand-rolled whitespace scanning.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added native string trimming capabilities and expanded XML/JSON parsing commands in later versions",
+      "The DOM/SAX XML command set discussed here still exists in modern 4D but is increasingly superseded by JSON-based data exchange in contemporary 4D development"
+    ]
+  }
+}

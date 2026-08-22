@@ -1,0 +1,25 @@
+{
+  "asset_id": 27689,
+  "title": "Tech Note: Creating a quick Report Wizard",
+  "technote_number": "03-16",
+  "year": 2003,
+  "published_date": "April 16, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27689",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-16_Creating_a_QR_Wizard.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report Editor (plug-in)",
+    "Custom report wizards"
+  ],
+  "historical_commentary": {
+    "text": "4D's reporting architecture has continued to evolve well beyond the 2003 Report plug-in design discussed here, and building custom report wizards remains a relevant technique, though the specific plug-in architecture curiosity noted is now a historical detail rather than a practical concern for current 4D developers.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's reporting architecture (including the Quick Report engine and 4D Write Pro) has continued to evolve substantially since the 2003 Report plug-in design discussed here"
+    ]
+  }
+}

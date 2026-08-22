@@ -1,0 +1,1 @@
+Tech Note: 4D V6 Language Part 2: New Commands by Category (TN 96-46, 4D v6.0, November 1996) — the second of a two-part catalog of new and enhanced 4D V6 language commands, organized by functional category from environment info to window and password/user management.

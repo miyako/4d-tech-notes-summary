@@ -1,0 +1,27 @@
+{
+  "asset_id": 11765,
+  "title": "Tech Note: Improving the Perception of Database Performance",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "June 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11765",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Idle processor time utilization",
+    "Perceived performance optimization",
+    "4D background/idle processing techniques"
+  ],
+  "historical_commentary": {
+    "text": "The core idea in this note \u2014 using otherwise-idle CPU cycles to make an application feel faster to the user, i.e. perceived-performance optimization \u2014 is a timeless UX/engineering principle still very much relevant today, even though the specific 1997-era mechanisms available in 4D (single-threaded execution, limited background processing primitives) have been superseded by 4D's modern multi-process, multi-threaded, and worker-based architecture.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D has since introduced true preemptive processes, workers, and a much richer set of asynchronous/background execution primitives, superseding the more limited idle-time techniques available in 4D v6",
+      "The general UX principle of perceived-performance optimization (doing useful work during idle time so the app feels responsive) remains a standard practice in modern application design"
+    ]
+  }
+}

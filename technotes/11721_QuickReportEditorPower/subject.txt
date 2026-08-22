@@ -1,0 +1,1 @@
+Tech Note: Using the Power of the 4th Dimension Quick Report Editor (TN 96-43, 4D v3.x, October 1996) — a walkthrough of advanced formatting tricks in 4D's built-in Quick Report Editor, demonstrated via an Aircraft Maintenance Schedule example report.

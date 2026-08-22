@@ -1,0 +1,28 @@
+{
+  "asset_id": 11801,
+  "title": "Tech Note: ACI’s 1998 FAQ Part 2: Common Questions",
+  "technote_number": "98-18",
+  "year": 1998,
+  "published_date": "June 1, 1998",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11801",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4th Dimension",
+    "ACI Technical Support",
+    "FAQ",
+    "Common Questions"
+  ],
+  "historical_commentary": {
+    "text": "This second FAQ installment captures the broader technical questions of 1998-era 4D development, likely covering topics like deployment, licensing, network configuration, and feature usage. While specific answers are outdated, the document provides historical insight into the 4D developer community's concerns during the v6 era.",
+    "status": "historical interest only",
+    "related_updates": [
+      "The specific questions and answers relate to 4D v6 era software and classic Mac OS/Windows environments",
+      "Modern 4D documentation and forums have replaced these FAQ-style tech notes"
+    ]
+  }
+}

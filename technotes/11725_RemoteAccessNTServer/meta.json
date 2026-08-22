@@ -1,0 +1,30 @@
+{
+  "asset_id": 11725,
+  "title": "Tech Note: Installing & Configuring Mac & PC Remote Access to a Windows NT-based 4D Server",
+  "technote_number": "96-50",
+  "year": 1996,
+  "published_date": "November 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Win",
+  "author": "David Hartje",
+  "page_url": "https://kb.4d.com/assetid=11725",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_45-50_(NOV)/96-50_Windows_Remote.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Windows NT Remote Access Service (RAS)",
+    "4D Server / 4D Client",
+    "TCP/IP and IPX/SPX dial-up networking",
+    "PPP (FreePPP for Macintosh)",
+    "Windows 95 Dial-Up Networking"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a specific 1996 dial-up remote-access solution (Windows NT RAS plus modems, with Windows 95 Dial-Up Networking or Mac FreePPP as clients) for reaching a Windows NT-based 4D Server remotely. Dial-up RAS/PPP-over-modem networking for LAN access is entirely obsolete, replaced first by VPNs and later by cloud/internet-native connectivity; the note is now of historical interest only, though the underlying goal of secure remote database access remains relevant, solved very differently today.",
+    "status": "obsolete",
+    "related_updates": [
+      "Dial-up modem-based Remote Access Service (RAS) has been obsolete for decades, replaced first by broadband VPN connections and now largely by cloud/internet-native application access",
+      "Windows NT 3.51 and the freeware utilities referenced (FreePPP, Windows 95 Dial-Up Adapter) are all long discontinued",
+      "4D Server remote/cloud access today is typically achieved via direct TCP/IP over the internet, VPN, or ORDA-based REST access rather than dial-up RAS"
+    ]
+  }
+}

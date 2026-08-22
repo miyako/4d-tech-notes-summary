@@ -1,0 +1,27 @@
+{
+  "asset_id": 30141,
+  "title": "Tech Note: Migrating from 4D for Oracle to 4D for OCI\rusing OCI Mapper",
+  "technote_number": "03-44",
+  "year": 2003,
+  "published_date": "October 31, 2003",
+  "product": "4D Oracle",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30141",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-44_MigratingTo4DForOCI.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D for Oracle",
+    "4D for OCI",
+    "OCI Mapper 2003"
+  ],
+  "historical_commentary": {
+    "text": "Both the legacy 4D for Oracle plug-in and this specific OCI Mapper migration framework are long obsolete artifacts of 4D's early direct-database-plug-in era; modern 4D applications needing Oracle connectivity would instead typically use ODBC, or more likely today, 4D's native SQL engine together with standard database connectivity, making this note of historical interest only.",
+    "status": "obsolete",
+    "related_updates": [
+      "The dedicated 4D for Oracle and 4D for OCI plug-ins described here are long discontinued legacy products",
+      "Modern 4D-to-Oracle integration would typically use ODBC or other current connectivity options rather than these legacy plug-ins"
+    ]
+  }
+}

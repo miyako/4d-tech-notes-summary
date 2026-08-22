@@ -1,0 +1,1 @@
+Tech Note: New Entry Points in 4th Dimension 3.5.3 (TN 96-36, 4D v3.x, August 1996) — a plugin/external-package developer reference documenting three new C-level entry points (kEX_SUBSELECTION_TO_ARRAY, kEX_SET_HOOK, kEX_4DPX_ATTRIBUTES) added to 4D's external package API.

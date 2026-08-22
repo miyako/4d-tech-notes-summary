@@ -1,0 +1,25 @@
+{
+  "asset_id": 29728,
+  "title": "Tech Note: Security via data encryption",
+  "technote_number": "03-28",
+  "year": 2003,
+  "published_date": "June 26, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29728",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-28_Security_Data_Encrypt.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Data encryption",
+    "Application-to-application security"
+  ],
+  "historical_commentary": {
+    "text": "Data encryption remains a fundamental, still highly relevant concern for any networked application, but the specific cryptographic commands/algorithms available to 4D developers in 2003 have since been superseded by more modern, standards-based encryption support (e.g., TLS/SSL for transport security and stronger built-in encryption commands) in current 4D versions.",
+    "status": "superseded",
+    "related_updates": [
+      "Current 4D versions provide more modern built-in encryption and TLS/SSL transport security options than were available in 2003"
+    ]
+  }
+}

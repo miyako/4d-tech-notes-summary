@@ -1,0 +1,29 @@
+{
+  "asset_id": 11836,
+  "title": "Tech Note: String Handling Functions",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "May 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11836",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6",
+    "String Functions",
+    "Text Processing",
+    "Keyword Indexing"
+  ],
+  "historical_commentary": {
+    "text": "String handling utilities were essential in 4D v6 where built-in string functions were limited. Modern 4D has significantly expanded its string handling with built-in commands, regular expression support, and collection methods. Many of the specific utility methods described in this note would now be one-liners using modern 4D commands.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D includes extensive built-in string manipulation commands",
+      "Regular expression support via MATCH REGEX and related commands",
+      "Collection and object methods provide additional text processing capabilities"
+    ]
+  }
+}

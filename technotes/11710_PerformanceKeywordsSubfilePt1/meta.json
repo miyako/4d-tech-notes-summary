@@ -1,0 +1,29 @@
+{
+  "asset_id": 11710,
+  "title": "Tech Note: Breaking the Rules to Improve Performance, Part 1\u2014Expanding the Concept of a Keywords Subfile",
+  "technote_number": "96-31",
+  "year": 1996,
+  "published_date": "July 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11710",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_31-32_(JUL)/96-31_Performance_1.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D subfiles",
+    "4D single-field indexed Keywords subfile pattern",
+    "4D Included Output Layout / enterable variables",
+    "4D array/string manipulation commands"
+  ],
+  "historical_commentary": {
+    "text": "This note proposes deliberately using subfiles and duplicated ('denormalized') Keyword data to build a fast, forgiving free-text search across many fields with a single index, aimed squarely at reducing painful multi-second-to-multi-minute search round-trips over WAN or dial-up modem links. The core UX idea — a single free-text search box that matches across many underlying fields without the user knowing the schema — remains a genuinely relevant and modern pattern (echoed today in full-text/search-index features), but the specific mechanism (a 4D subfile of parsed keyword tokens, manually built and searched) and its network-latency motivation are tied to 1990s infrastructure and 4D's pre-SQL, pre-ORDA procedural language; 4D subfiles as a data modeling construct have also long fallen out of favor relative to standard related tables.",
+    "status": "superseded",
+    "related_updates": [
+      "Dial-up/WAN latency motivating this technique is largely irrelevant on modern networks",
+      "4D subfiles (a hierarchical, parent-record-only-accessible construct) have been effectively superseded by standard related tables/entity relationships in modern 4D data modeling practice",
+      "4D introduced a genuine SQL engine in 4D v11 SQL (~2007), and later ORDA (2018), giving developers standard indexed multi-field search/query capabilities rather than requiring a hand-built keyword subfile workaround"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Inside the QD Experiment Database (4D v6.0, August 1997) — a follow-up note explaining how the QD Experiment demo database (from the 4D V6 Summer Contest 97) implements fonts and graphics.

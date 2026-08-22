@@ -1,0 +1,27 @@
+{
+  "asset_id": 11703,
+  "title": "Tech Note: Optimizing Process Management Using a Sleeper Process",
+  "technote_number": "96-23",
+  "year": 1996,
+  "published_date": "May 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Forrest Swilling",
+  "page_url": "https://kb.4d.com/assetid=11703",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_22-26_(MAY)/96-23_Sleeper_Process.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D processes (New process / PAUSE PROCESS / RESUME PROCESS)",
+    "4D Server process overhead management",
+    "Modelessness / multi-processing UI design"
+  ],
+  "historical_commentary": {
+    "text": "This note documents a classic 4D pattern — launching a paused 'sleeper' process and resuming it on demand — to avoid the memory and setup overhead of repeatedly launching new processes, which was especially costly under 4D Server's client/server model. The specific commands (New process, PAUSE PROCESS, RESUME PROCESS) still exist in modern 4D, so the core technique remains technically valid, but the motivating pain point (expensive process creation and memory ceilings on 1990s hardware) is largely obsolete on modern systems and the pattern is far less commonly needed today.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D and hardware have dramatically reduced the overhead of creating a new process, making manual process-recycling optimizations like this far less necessary than in 1996",
+      "4D's process and worker model has evolved significantly since this era (e.g. the introduction of Worker processes and CALL WORKER for background task management), offering more structured alternatives to a hand-rolled sleeper process"
+    ]
+  }
+}

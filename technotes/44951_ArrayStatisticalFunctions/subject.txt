@@ -1,0 +1,1 @@
+Tech Note: Statistical Functions for Arrays (TN 06-45, 4D v2004, December 2006) — a library of ArrayStats_* routines (mean, median, mode, range, variance, standard deviation, sum squares, weighted mean, frequency counts) that work on numeric arrays, extending beyond 4D's native field-only statistical functions.

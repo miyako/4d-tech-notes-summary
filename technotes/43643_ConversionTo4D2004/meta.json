@@ -1,0 +1,28 @@
+{
+  "asset_id": 43643,
+  "title": "Tech Note: Conversion to 4D 2004",
+  "technote_number": "06-28",
+  "year": 2006,
+  "published_date": "July 14, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "4D, Inc./4D S.A.",
+  "page_url": "https://kb.4d.com/assetid=43643",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_27-30_(JUL)/06-28_Conversion_to_2004.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D database conversion/migration",
+    "4D 2004 resource fork/data fork architecture",
+    "4D Insider, 4D Customizer, 4D Backup, 4D ODBC integration",
+    "4D List Box (new in 2004)"
+  ],
+  "historical_commentary": {
+    "text": "This is a large compiled migration guide walking developers through converting databases from very old 4D versions (as far back as version 2/3) up through 2003 into 4D 2004, covering plug-in compatibility, the new structure/data file separation, folder layout changes, newly integrated tools (4D Insider, 4D Customizer, 4D Backup, 4D ODBC), and the brand-new List Box object. As a version-specific migration path document it is entirely obsolete for any modern upgrade path, since 4D has undergone many subsequent major version transitions (including the 2007 SQL engine and 2018 Project Mode) each with their own conversion guidance, but it remains a useful historical record of 4D's early-2000s architecture shift and integration of previously separate companion tools.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D has released many major versions since 2004, each superseding this conversion guidance with new migration documentation",
+      "4D v11 (2007) later added a native SQL engine, and Project Mode (v17, 2018) introduced a text-based structure alternative not covered by this note"
+    ]
+  }
+}

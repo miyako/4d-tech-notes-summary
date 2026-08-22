@@ -1,0 +1,25 @@
+{
+  "asset_id": 29725,
+  "title": "Tech Note: Quick Reports: Output Types",
+  "technote_number": "03-31",
+  "year": 2003,
+  "published_date": "July 29, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29725",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-31_QuickReptOutputTypes.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report Editor",
+    "Report output formats"
+  ],
+  "historical_commentary": {
+    "text": "The 2003-era Quick Report Editor and its output format options have evolved considerably in later 4D versions, and modern reporting in 4D (and integration with tools like 4D Write Pro or external reporting/export libraries) offers richer output options than were available at the time, making the note's specific format survey dated though the general goal of listing and managing report files remains a straightforward, still-relevant utility pattern.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's reporting capabilities (including 4D Write Pro and later Quick Report improvements) have expanded well beyond the output options available in 2003"
+    ]
+  }
+}

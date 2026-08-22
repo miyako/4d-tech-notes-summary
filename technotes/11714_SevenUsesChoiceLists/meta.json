@@ -1,0 +1,29 @@
+{
+  "asset_id": 11714,
+  "title": "Tech Note: Seven Powerful Uses of 4D Choice Lists",
+  "technote_number": "96-35",
+  "year": 1996,
+  "published_date": "August 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Walt Nelson",
+  "page_url": "https://kb.4d.com/assetid=11714",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_33-36_(AUG)/96-35_Choice_Lists.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Choice Lists",
+    "SET CHOICE LIST",
+    "LIST TO ARRAY / ARRAY TO LIST",
+    "4D Search Editor (Required/Range choice list attributes)"
+  ],
+  "historical_commentary": {
+    "text": "This note showcases 4D's built-in Choice List feature used for far more than simple data-entry dropdowns: conditional/hierarchical lists, fixed-width lookup tables acting as mini flat files, required-value and range validation, demo-data storage, and a DBA list-maintenance interface. Choice Lists as a structure-level object and the specific commands shown (SET CHOICE LIST, LIST TO ARRAY, ARRAY TO LIST) remain part of 4D's language today, so this note's techniques are still largely usable, though some of the creative workarounds (e.g. using padded-text choice lists as a substitute for lookup tables or demo data storage) reflect constraints of a pre-SQL, pre-ORDA 4D that modern developers would more naturally solve with real tables or JSON-based structures.",
+    "status": "still relevant",
+    "related_updates": [
+      "The core Choice List feature and the commands demonstrated (SET CHOICE LIST, LIST TO ARRAY, ARRAY TO LIST) remain part of the modern 4D language largely unchanged in concept",
+      "Using choice lists as an ad hoc fixed-width 'flat file' for rate tables or demo data is a workaround more naturally replaced today by real related tables, JSON structures, or ORDA-based data models, given 4D's SQL engine (2007) and ORDA (2018)",
+      "Design Mode (binary structure), where these choice lists are defined at the structure level, is now one of two structure representations alongside Project Mode (introduced in v17, 2018)"
+    ]
+  }
+}

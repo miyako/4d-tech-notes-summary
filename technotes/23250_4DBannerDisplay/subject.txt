@@ -1,0 +1,1 @@
+Tech Note: 4D Banner (TN 02-17, 4D v6.8, April 2002) — a demonstration of constructing a customizable client banner display in a 4D database using the example database "Banner".

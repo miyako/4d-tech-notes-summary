@@ -1,0 +1,1 @@
+Tech Note: Networking 1: Open System Interconnect (OSI) Reference Model (TN 99-28, 4D v6.0, July 1999) — an introduction to the OSI Reference Model and common networking terminology for 4D developers.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11776,
+  "title": "Editing Variables Between 4D Clients",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "January 1, 1998",
+  "product": "4D Client",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11776",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Client inter-process communication",
+    "Shared variable access across clients",
+    "4D Server v6 variable sharing",
+    "Semaphore-free data sharing"
+  ],
+  "historical_commentary": {
+    "text": "This note describes a v6 feature allowing 4D Clients to view and modify variables on other clients without using traditional synchronization mechanisms like fields, semaphores, or disk files. This was a novel capability for the era and reflects the tight client/server architecture of 4D v6. Modern 4D approaches inter-client communication differently, using shared objects and collections (introduced in v16+), server-side stored procedures, or ORDA-based entity locking rather than direct variable sharing across client processes.",
+    "status": "obsolete",
+    "related_updates": [
+      "Shared objects and shared collections (v16+) provide thread-safe inter-process data sharing",
+      "Modern 4D uses ORDA entity locking and server-side methods rather than direct cross-client variable access"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Creating a Bind in 4D Open for 4D (TN 02-33, 4D Open v6.8.3, July 2002) — an explanation of how to create a "bind" in the 4D Open plug-in, connecting fields or variables between a 4D Client/database and a 4D Server.

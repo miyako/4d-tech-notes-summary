@@ -1,0 +1,1 @@
+Tech Note: Print Form Reports Made Easier (TN 99-08, 4D v6.5, April 1999) — demonstrates reusable generic methods to simplify complex PRINT FORM report programming.

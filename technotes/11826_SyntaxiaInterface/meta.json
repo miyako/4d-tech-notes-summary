@@ -1,0 +1,29 @@
+{
+  "asset_id": 11826,
+  "title": "Tech Note: The Syntaxia Interface",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "February 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11826",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Tab Control Objects",
+    "Syntaxia Database",
+    "Form Design",
+    "User Interface"
+  ],
+  "historical_commentary": {
+    "text": "This note is a companion to Technical Note 99-03 (Syntaxia), explaining the interface design of the Syntaxia language reference database. It demonstrates tab control objects for dynamically changing selection criteria, sort order, and display forms. While the Syntaxia database itself is a historical artifact, the UI patterns of using tab controls for dynamic filtering and sorting remain relevant interface design concepts in modern 4D development.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Tab control objects remain available in modern 4D with enhanced capabilities",
+      "Modern 4D provides List Box with built-in sorting and filtering that reduces the need for manual tab-based approaches"
+    ]
+  }
+}

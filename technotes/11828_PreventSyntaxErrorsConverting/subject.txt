@@ -1,0 +1,1 @@
+Tech Note: Preventing Syntax Errors in 4D Expressions When Converting (TN 99-02, 4D v6.0.6, March 1999) — explains how to prevent syntax errors in plug-in expressions during v3-to-v6 database conversion using resources.

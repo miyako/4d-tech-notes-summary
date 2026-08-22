@@ -1,0 +1,28 @@
+{
+  "asset_id": 29724,
+  "title": "Tech Note: The 4D Business Kit v2.x IP Component",
+  "technote_number": "03-32",
+  "year": 2003,
+  "published_date": "July 29, 2003",
+  "product": "4D Business Kit",
+  "version": "2.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29724",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-32_4DBK2_IP_Component.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Business Kit",
+    "4D Internet Commands",
+    "4D Pack",
+    "4D Insider (components)"
+  ],
+  "historical_commentary": {
+    "text": "4D Business Kit, 4D Insider, 4D Pack, and the Yapee plug-in are all long-discontinued products specific to this era of 4D's e-commerce and component tooling, making this note's specific technical content obsolete; 4D's component architecture and e-commerce integration approaches have been completely reworked in the decades since, and any modern 4D e-commerce solution would be built from scratch using current web/ORDA/REST tooling rather than this legacy stack.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Business Kit, 4D Insider, 4D Pack, and the Yapee plug-in are all discontinued legacy products with no current equivalents",
+      "4D's modern component architecture (introduced in later versions) completely superseded the 4D Insider-based component model referenced here"
+    ]
+  }
+}

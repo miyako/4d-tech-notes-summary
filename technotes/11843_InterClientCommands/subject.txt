@@ -1,0 +1,1 @@
+Tech Note: Inter-client Commands in 4D 6.5 (4D Client v6.5, July 1999) — an examination of four new inter-client communication commands in 4D v6.5, with examples and a reusable messaging system.

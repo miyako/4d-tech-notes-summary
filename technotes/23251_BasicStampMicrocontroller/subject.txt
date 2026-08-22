@@ -1,0 +1,1 @@
+Tech Note: BasicStamp (TN 02-16, 4D v6.8, April 2002) — a demonstration of using 4D to interface with a BASIC Stamp microcontroller to acquire temperature sensor data.

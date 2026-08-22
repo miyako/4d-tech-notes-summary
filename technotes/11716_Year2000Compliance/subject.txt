@@ -1,0 +1,1 @@
+Tech Note: 4th Dimension, the Year 2000 and Everything (TN 96-37, 4th Dimension v3.x, July 1996) — confirms 4D's Date data type is Year 2000-safe internally, and presents a pivot-year algorithm plus the Sys date format command for correctly interpreting two-digit year entry across centuries.

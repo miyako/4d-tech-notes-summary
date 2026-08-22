@@ -1,0 +1,1 @@
+Tech Note: Free Form Object Storage (TN 03-51, 4D v2003, November 2003) — an exploration of storing unstructured, free-form application data (e.g., preferences) without relying on a rigid, hard-coded table/field schema.

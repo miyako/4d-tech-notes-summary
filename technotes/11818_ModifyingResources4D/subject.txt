@@ -1,0 +1,1 @@
+Tech Note: Modifying Resources with 4th Dimension (TN 98-16, 4D v6.0, November 1998) — shows how to programmatically modify STR# resources in 4D structure files for localization and customization.

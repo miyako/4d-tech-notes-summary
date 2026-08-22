@@ -1,0 +1,26 @@
+{
+  "asset_id": 11736,
+  "title": "Tech Note: Using Form Sizing Options",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "August 1, 1997",
+  "product": "4D Open",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11736",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "V6 window/form sizing options",
+    "Window type techniques"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser survives for this note, which covers new V6-era options for opening and sizing windows on screen. Window sizing/resizing concepts remain a normal part of form design, but the specific V6 window-type mechanics described are dated relative to the modern Form editor's resizing and anchoring properties.",
+    "status": "superseded",
+    "related_updates": [
+      "Form/window sizing and resizing controls have been substantially reworked in later 4D versions with more granular anchoring and responsive layout options",
+      "Design Mode-era form and window management has evolved considerably since V6 (1997), including in Project Mode introduced in v17 (2018)"
+    ]
+  }
+}

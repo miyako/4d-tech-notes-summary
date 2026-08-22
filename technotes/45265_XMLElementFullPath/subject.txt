@@ -1,0 +1,1 @@
+Tech Note: Getting an XML Element's Full Path (TN 07-03, 4D v2004, January 2007) — a code note providing a DOM_GetFullPath routine that walks up an XML tree via parent nodes to build the full slash-delimited path to any element.

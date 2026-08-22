@@ -1,0 +1,1 @@
+Tech Note: Getting Started with 4th Dimension (TN 98-30, 4D Write v6.0, November 1998) — an overview of 4th Dimension products, installation, network components, documentation, and resources for new users.

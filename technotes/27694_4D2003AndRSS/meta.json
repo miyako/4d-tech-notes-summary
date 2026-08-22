@@ -1,0 +1,26 @@
+{
+  "asset_id": 27694,
+  "title": "Tech Note: 4D 2003 and RSS",
+  "technote_number": "03-20",
+  "year": 2003,
+  "published_date": "April 16, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27694",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-20_4D_2003_and_RSS.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "RSS",
+    "XML parsing (4D 2003)"
+  ],
+  "historical_commentary": {
+    "text": "RSS remains a still-used (though less dominant than in its 2000s heyday) syndication format, and 4D's XML parsing capability introduced here has continued to be supported and expanded in later versions, so the core technique remains conceptually applicable, though modern feed consumption more often layers on top of 4D's later, more convenient XML/JSON commands rather than the exact 2003-era code.",
+    "status": "still relevant",
+    "related_updates": [
+      "RSS usage has declined significantly since its 2000s peak but remains in use for syndication in some contexts",
+      "4D's XML parsing commands have been refined and expanded in versions since 2003"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Optimizing Record Selections - Part 1 — Under the Hood of the 4D Data File (4D v6.0, May 1997) — the first half of a two-part guide explaining 4D data file disk/memory organization as a foundation for record selection optimization.

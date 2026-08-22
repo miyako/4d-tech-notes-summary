@@ -1,0 +1,28 @@
+{
+  "asset_id": 11834,
+  "title": "Tech Note: Creating and Using Contextual Help Files",
+  "technote_number": "99-09",
+  "year": 1999,
+  "published_date": "May 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11834",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "HTML",
+    "Online Help System",
+    "Built-in Web Server"
+  ],
+  "historical_commentary": {
+    "text": "This note describes building an HTML-based online help system within a 4D v6.5 database, leveraging 4D's emerging web capabilities to display documentation. The approach of embedding HTML help was creative for 1999 but has been entirely superseded by modern 4D's built-in help systems, web areas, and standard documentation frameworks. The underlying concept of using HTML for in-app help remains universally valid.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's Web Area object replaced ad-hoc HTML display approaches",
+      "Modern 4D applications use external documentation sites or integrated help rather than hand-rolled HTML help systems"
+    ]
+  }
+}

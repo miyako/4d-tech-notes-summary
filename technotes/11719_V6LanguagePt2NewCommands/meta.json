@@ -1,0 +1,30 @@
+{
+  "asset_id": 11719,
+  "title": "Tech Note: 4D V6 Language Part 2: New Commands by Category",
+  "technote_number": "96-46",
+  "year": 1996,
+  "published_date": "November 1, 1996",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11719",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_45-50_(NOV)/96-46_Language_Pt2.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D V6 new language commands (Environment, Resource, Window, Password/Users&Groups, ASCII conversion)",
+    "RESOLVE POINTER command",
+    "Resource file manipulation commands",
+    "Window ID-based window management commands"
+  ],
+  "historical_commentary": {
+    "text": "This is Part 2 of a two-part catalog of new 4D V6 language commands, organized by category (4D/System environment, Document, UI, Clipboard, Math/Date/Time, Drag and Drop, Hierarchical List, Resource, Set, ASCII conversion, Window, and Users & Groups/password commands), described as the most significant language upgrade since 4D Server's release. Most of the specific commands cataloged (ASCII cross-platform conversion, classic resource-file manipulation, Window ID-based window commands, and the era's Users & Groups password model) are dated relative to modern 4D, which has since introduced far more extensive language and security capabilities (including ORDA, modern permission sets, and Unicode text handling that reduces the need for explicit ASCII conversion commands).",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D uses Unicode text natively, eliminating most need for the ISO/Mac/Windows ASCII conversion commands cataloged here",
+      "4D's classic resource-file (Mac/Windows OS resource) commands are largely a legacy mechanism; modern 4D relies far less on OS-level resource files for icons, pictures, and strings",
+      "The password/Users & Groups model has been significantly extended since V6 with more granular permission and role-based access control systems in later 4D versions",
+      "Events (replacing Phases) and Methods (replacing Procedures) terminology, introduced in this V6 release, remain part of 4D today, though the language itself has grown substantially since 1996"
+    ]
+  }
+}

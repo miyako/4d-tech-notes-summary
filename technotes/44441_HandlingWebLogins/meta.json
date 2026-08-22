@@ -1,0 +1,27 @@
+{
+  "asset_id": 44441,
+  "title": "Tech Note: Handling Web Logins",
+  "technote_number": "06-39",
+  "year": 2006,
+  "published_date": "October 17, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=44441",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_38-39_(OCT)/06-39_Handling_Web_Logins.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Server (On Web Authentication, On Web Connection, 4DACTION)",
+    "HTTP Basic Authentication (401 Unauthorized, WWW-Authenticate header)",
+    "Custom database method-based authentication"
+  ],
+  "historical_commentary": {
+    "text": "This note explains a real usability flaw in 4D 2004's built-in On Web Authentication HTTP Basic Auth support — cancelling the browser's password dialog produced a blank, unhelpful screen — and provides a custom authentication pattern using On Web Connection and 4DACTION to show a friendly error/help page instead. The HTTP Basic Auth mechanics (401 status, WWW-Authenticate header, base64-encoded unencrypted credentials) are still accurate today, but the specific 4D Web Server architecture (On Web Authentication/On Web Connection hooks, 4DACTION calls) reflects 4D's pre-REST, pre-Qodly web stack, long since supplemented by modern session/token-based authentication approaches in current 4D web development.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's web server has since gained more modern session and authentication mechanisms beyond On Web Authentication/On Web Connection hooks",
+      "HTTP Basic Authentication itself remains standard and unchanged, but is now typically paired with HTTPS/SSL rather than used alone, as the note itself already cautions"
+    ]
+  }
+}

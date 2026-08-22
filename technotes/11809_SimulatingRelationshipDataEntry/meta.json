@@ -1,0 +1,28 @@
+{
+  "asset_id": 11809,
+  "title": "Tech Note: Simulating a 4D Relationship During Data Entry",
+  "technote_number": "98-26",
+  "year": 1999,
+  "published_date": "June 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11809",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Related One",
+    "Relationships",
+    "Data Entry",
+    "4th Dimension"
+  ],
+  "historical_commentary": {
+    "text": "Relationship simulation during data entry was a common concern in early 4D development. The Related One relationship behavior described here has evolved significantly through 4D's history, and ORDA's entity-based data model (v17+) provides a fundamentally different approach to managing related data during entry.",
+    "status": "obsolete",
+    "related_updates": [
+      "ORDA (v17+) provides entity-based relationships that handle related data entry differently",
+      "The classic Related One/Related Many relationship model has been supplemented by ORDA's dataclass relations"
+    ]
+  }
+}

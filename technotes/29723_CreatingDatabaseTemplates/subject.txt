@@ -1,0 +1,1 @@
+Tech Note: Creating Database Templates (TN 03-33, 4D v2003, July 2003) — an explanation of 4D 2003's new database template mechanism, which lets developers start new projects from existing structures via an enhanced Open Database dialog.

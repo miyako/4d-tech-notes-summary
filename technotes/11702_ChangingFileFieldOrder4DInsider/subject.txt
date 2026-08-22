@@ -1,0 +1,1 @@
+Tech Note: Changing File and Field Orders Using 4D Insider (TN 96-22, 4D Insider v3.x, May 1996) — a development-phase procedure for safely reordering fields and files in a 4D structure without breaking tokenized references in layouts and procedures.

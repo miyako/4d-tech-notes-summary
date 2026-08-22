@@ -1,0 +1,1 @@
+Tech Note: Importing Data from Text Documents (4D v6.0, July 1997) — a guide to the methods and considerations for importing external text-file data into a 4th Dimension database.

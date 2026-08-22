@@ -1,0 +1,1 @@
+Tech Note: 4D Blogger and SOAP (TN 03-13, 4D v2003, March 2003) — Part I of a two-part note giving an overview of blogging and explaining the SOAP-based implementation behind the 4D Blogger application.

@@ -1,4 +1,4 @@
-# Tech Note 03-2: FTP directory Download and Upload
+# Tech Note 03-02: FTP directory Download and Upload
 
 **Author:** Jamras Komoncharoensiri, Technical Support Engineer
 **Published:** January 31, 2003 | **Product/Version:** 4D Internet Commands v6.8 | **Platform:** Mac & Win

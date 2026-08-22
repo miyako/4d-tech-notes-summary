@@ -1,0 +1,1 @@
+Tech Note: Subforms (4D v6.0, May 1999) — a practical introduction to subforms (formerly included layouts) in 4D v6, explained through a real-world example.

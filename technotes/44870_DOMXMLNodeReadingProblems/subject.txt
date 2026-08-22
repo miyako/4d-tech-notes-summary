@@ -1,0 +1,1 @@
+Tech Note: Avoiding Problems Reading DOM XML Nodes (TN 06-44, 4D v2004, December 2006) — a strategy guide documenting four techniques for safely navigating 4D's DOM XML tree without crashing on invalid node references, plus a warning about a #document-node crash bug.

@@ -1,0 +1,25 @@
+{
+  "asset_id": 29723,
+  "title": "Tech Note: Creating Database Templates",
+  "technote_number": "03-33",
+  "year": 2003,
+  "published_date": "July 29, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29723",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-33_Creating_DB_Templates.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D 2003 Open Database dialog",
+    "Database structure templates"
+  ],
+  "historical_commentary": {
+    "text": "The specific Open Database template dialog mechanism described here is tied to classic Design Mode; current 4D (with Project Mode, introduced in v17) offers different, more flexible ways to scaffold new projects (including project templates and version-control-friendly text-based structures), making this note's specific UI obsolete though the underlying goal of reusable starting-point structures remains a relevant workflow need.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's later Project Mode (introduced in v17, 2018) offers a different, text-based, version-control-friendly way to scaffold and reuse project structures than the binary Design Mode template dialog described here"
+    ]
+  }
+}

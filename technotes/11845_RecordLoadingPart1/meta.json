@@ -1,0 +1,29 @@
+{
+  "asset_id": 11845,
+  "title": "Tech Note: Record Loading in 4th Dimension - Part 1",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "August 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11845",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "Record Loading",
+    "BLOBs",
+    "Network Optimization",
+    "Memory Management"
+  ],
+  "historical_commentary": {
+    "text": "This note covers record loading internals in 4D v6.5, knowledge that was critical when BLOB fields were newly introduced and network bandwidth was limited. Modern 4D with ORDA handles entity loading with automatic lazy loading and optimized network transfer, making the specific v6.5 mechanics obsolete while the general principle of understanding data loading for performance remains valid.",
+    "status": "historical interest only",
+    "related_updates": [
+      "ORDA entity loading replaced procedural record loading patterns",
+      "Automatic lazy loading of BLOB and object fields in modern 4D"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "asset_id": 23222,
+  "title": "Tech Note: Using Lasso 4D to Connect 4D and WebSTAR",
+  "technote_number": "02-03",
+  "year": 2002,
+  "published_date": "January 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23222",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_01-04_(jan)/02-03_4d_lasso_and_webstar .exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Lasso 4D (Blueworld)",
+    "WebSTAR web server integration"
+  ],
+  "historical_commentary": {
+    "text": "Both Lasso (as a WebSTAR plug-in) and WebSTAR itself are long discontinued products, and 4D's own built-in web server has for many years superseded the need for such third-party web server integration, making this note's specific integration path obsolete and of historical interest only.",
+    "status": "obsolete",
+    "related_updates": [
+      "Both WebSTAR and the Lasso 4D plug-in are long discontinued; 4D's own built-in web server has superseded the need for this kind of integration"
+    ]
+  }
+}

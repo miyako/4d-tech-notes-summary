@@ -1,0 +1,1 @@
+Tech Note: 4D Live Window 1.1 - Invoices Demo Database (TN 07-20, 4D Web 2.0 Pack v1.1, May 2007) — demonstrates the 4D Live Window plug-in's new 1.1 features (navigation callbacks, click interception) through an Invoices demo that renders and interacts with HTML invoice data inside a 4D form.

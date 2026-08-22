@@ -1,0 +1,1 @@
+Tech Note: All About Help (TN 03-35, 4D v6.8, July 2003) — a discussion of how to use 4th Dimension's built-in help features, spanning 4D versions 6.8 and 2003.

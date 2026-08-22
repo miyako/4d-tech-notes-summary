@@ -1,0 +1,27 @@
+{
+  "asset_id": 11752,
+  "title": "Tech Note: 4D 6.0.2 Documentation Update",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "June 1, 1997",
+  "product": "4D Server",
+  "version": "6.0.2",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11752",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D 6.0.2 documentation set",
+    "4D Server 6.0.2",
+    "Partner CD distribution"
+  ],
+  "historical_commentary": {
+    "text": "This note simply announces the availability of a revised documentation set shipped with 4D and 4D Server 6.0.2 (also distributed via the Partner CD); it is purely an administrative/distribution notice with no lasting technical content of its own, and both the specific documentation revision and the physical Partner CD distribution channel it describes are long obsolete.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D documentation is now distributed and updated continuously online rather than via physical CDs tied to specific point releases",
+      "4D's Partner CD physical distribution channel described here has been long discontinued in favor of digital distribution"
+    ]
+  }
+}

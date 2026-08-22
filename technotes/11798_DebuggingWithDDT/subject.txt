@@ -1,0 +1,1 @@
+Tech Note: Debugging with DDT (TN 98-15, 4D v6.0, March 1998) — a quick debugging trick and a custom debugging aid written in 4th Dimension.

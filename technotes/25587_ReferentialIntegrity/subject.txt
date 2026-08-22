@@ -1,0 +1,1 @@
+Tech Note: Referential Integrity (TN 02-46, 4D v6.8, October 2002) — an explanation of how 4D automatically enforces referential integrity constraints defined in the structure file when records are created or deleted.

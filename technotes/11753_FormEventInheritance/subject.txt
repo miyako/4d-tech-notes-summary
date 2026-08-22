@@ -1,0 +1,1 @@
+Tech Note: Form Event Inheritance (4D v6.0, August 1997) — an exploration of form event inheritance in 4D V6 and how understanding it can help optimize database performance.

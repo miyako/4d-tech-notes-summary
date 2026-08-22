@@ -1,0 +1,29 @@
+{
+  "asset_id": 46602,
+  "title": "Tech Note: Customization of the Data Grid",
+  "technote_number": "07-21",
+  "year": 2007,
+  "published_date": "May 31, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Mac & Win",
+  "author": "Tim Penner, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=46602",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_17-21_(MAY)/07-21_Custom_Data_Grid.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF) Data Grid",
+    "DataWindow JavaScript object",
+    "Dynamic Queries / Template Queries (tab-driven layout)",
+    "4D Web 2.0 Pack Contacts demo database"
+  ],
+  "historical_commentary": {
+    "text": "This note is a hands-on, video-accompanied walkthrough of customizing the 4D Ajax Framework's Data Grid object via its JavaScript DataWindow API — hiding/showing toolbars and columns, setting column widths, and configuring tab-driven layouts using Dynamic or Template Queries. It is a concrete example of the 2007-era 'rich internet application' techniques (custom HTML pages driving a data grid via a proprietary JS client library) that were common before modern JS frameworks; the entire underlying 4D Ajax Framework and Data Grid API it documents have since been discontinued along with 4D Web 2.0 Pack.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Web 2.0 Pack and the 4D Ajax Framework (including its Data Grid/DataWindow objects) have been discontinued",
+      "Current 4D web development relies on 4D's built-in Web Server and Qodly Studio component tooling rather than 4DAF-specific JavaScript APIs",
+      "The referenced daxipedia.4d.com wiki and 4dweb20pack demo downloads are no longer current 4D resources"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Replacing the Sequence Number Command (TN 98-17, 4D v6.0, December 1998) — presents alternatives to the Sequence number command addressing its limitations, including transaction-safe approaches.

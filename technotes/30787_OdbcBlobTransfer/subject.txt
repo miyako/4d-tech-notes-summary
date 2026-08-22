@@ -1,0 +1,1 @@
+Tech Note: Transferring Pictures and Plug-in Documents Using the 4D ODBC Plug-in (TN 03-52, 4D ODBC v2003, December 2003) — a demonstration of correctly transferring pictures and plug-in documents as BLOBs through the 4D ODBC plug-in without corrupting the underlying data type.

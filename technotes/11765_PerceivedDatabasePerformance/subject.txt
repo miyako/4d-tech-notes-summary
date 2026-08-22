@@ -1,0 +1,1 @@
+Tech Note: Improving the Perception of Database Performance (4D v6.0, June 1997) — a note on techniques for using idle processor time to improve users' perceived performance of a database.

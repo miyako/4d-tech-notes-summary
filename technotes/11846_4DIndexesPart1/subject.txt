@@ -1,0 +1,1 @@
+Tech Note: 4D Indexes - Part 1 (4D v6.0, August 1999) — an explanation of B-tree indexes as used by 4D, covering their structure, purpose, and advantages.

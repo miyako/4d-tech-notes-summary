@@ -1,0 +1,1 @@
+Tech Note: Editing Variables Between 4D Clients (4D Client v6.0, January 1998) — demonstrates viewing and modifying variables across multiple 4D Clients without fields, semaphores, or disk files.

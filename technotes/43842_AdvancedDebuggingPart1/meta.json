@@ -1,0 +1,27 @@
+{
+  "asset_id": 43842,
+  "title": "Tech Note: 4D Advanced Debugging Techniques \u2013 Part 1",
+  "technote_number": "06-31",
+  "year": 2006,
+  "published_date": "August 7, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43842",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_31-34_(AUG)/06-31_Advanced_Debugging_1.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D built-in Debugger",
+    "4D 2004 debugging features",
+    "Methodical debugging process"
+  ],
+  "historical_commentary": {
+    "text": "Part 1 of this two-part note lays out general debugging methodology and surveys the advanced debugging features available in 4D 2004's classic environment, ahead of Part 2's text-file logging technique. The methodical debugging steps (reproduce, isolate, determine cause, fix, test) are timeless software-engineering advice, but the specific 4D 2004 debugger UI and feature set it references have been substantially revised across many subsequent 4D releases, and none of the discussion accounts for the SQL engine, Project Mode, or ORDA that arrived years later.", 
+    "status": "superseded",
+    "related_updates": [
+      "4D's built-in debugger and runtime explorer have been significantly enhanced in versions released after 2004",
+      "4D v11 (2007) later added a native SQL engine, and Project Mode (v17, 2018) introduced a text-based alternative to the binary structure file discussed implicitly here"
+    ]
+  }
+}

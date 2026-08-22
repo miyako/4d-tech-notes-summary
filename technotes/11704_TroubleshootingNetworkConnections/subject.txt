@@ -1,0 +1,1 @@
+Tech Note: Troubleshooting Network Connections (TN 96-51, 4D Server v3.x, October 1996) — detailed, symptom-specific troubleshooting tips for ADSP, IPX, and TCP/IP connection failures between 4D Client and 4D Server, including the -10002 error and a Windows 95 TCP memory leak.

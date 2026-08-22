@@ -1,0 +1,1 @@
+Tech Note: ImageMagick Plug-in (TN 06-32, 4D v2004, August 2006) — introduces a statically-linked ImageMagick-based plug-in giving 4D cross-platform image manipulation commands (resize, crop, rotate, enhance) without requiring a separate ImageMagick install.

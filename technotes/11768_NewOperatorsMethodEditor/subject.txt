@@ -1,0 +1,1 @@
+Tech Note: New Operators and Method Editor (4D v6.0, July 1997) — a short technical note on a Method editor tokenization quirk introduced by 4D v6's new operators.

@@ -1,0 +1,26 @@
+{
+  "asset_id": 29722,
+  "title": "Tech Note: 4D View Events",
+  "technote_number": "03-34",
+  "year": 2003,
+  "published_date": "July 29, 2003",
+  "product": "4D View",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29722",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-34_4D_View_Events.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View",
+    "PV ON EVENT",
+    "PV ON COMMAND"
+  ],
+  "historical_commentary": {
+    "text": "4D View and its PV-prefixed event commands are tied to a discontinued companion product, making this note's specific API obsolete for current 4D development; the general concept of an event-driven, interactive grid area remains fully relevant and is now realized through list box form object events or web-based grid/table components in modern 4D applications.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D View has been discontinued; list box form objects and their own event model are the modern equivalent in current 4D"
+    ]
+  }
+}

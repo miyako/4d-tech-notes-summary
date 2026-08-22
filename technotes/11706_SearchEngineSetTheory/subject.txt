@@ -1,0 +1,1 @@
+Tech Note: A Little Set Theory Never Hurt Anybody: Understanding 4D's Search Engine (TN 96-27, 4th Dimension v3.x, May 1996) — applies mathematical Set Theory concepts (union, intersection, complement) to explain how And/Or/Except conjunctions combine multi-line queries in 4D's Search Editor, using the 4D Airlines sample database.

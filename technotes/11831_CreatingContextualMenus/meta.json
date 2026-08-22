@@ -1,0 +1,29 @@
+{
+  "asset_id": 11831,
+  "title": "Tech Note: Creating Contextual Menus",
+  "technote_number": "99-06",
+  "year": 1999,
+  "published_date": "April 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11831",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "Contextual Menus",
+    "Pop-up Menus",
+    "Cross-Platform UI",
+    "Mac OS 8.x"
+  ],
+  "historical_commentary": {
+    "text": "This note covers creating right-click contextual menus on both Mac and Windows platforms in 4D, reflecting the era when Mac OS 8.x first popularized contextual menus on the Mac. The concepts of contextual menus remain fundamental to modern UI design, but 4D has since provided built-in contextual menu support through form events and the Dynamic Pop up menu command, making the manual techniques described here largely unnecessary.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D now provides native contextual menu support via the On Alternative Click form event",
+      "Dynamic Pop up menu and related commands simplify contextual menu creation in modern 4D"
+    ]
+  }
+}

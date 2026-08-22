@@ -1,0 +1,30 @@
+{
+  "asset_id": 11817,
+  "title": "Tech Note: The Macintosh Gestalt Command",
+  "technote_number": "98-15",
+  "year": 1998,
+  "published_date": "October 1, 1998",
+  "product": "4D",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11817",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D",
+    "Gestalt Manager",
+    "Mac OS",
+    "System Feature Detection",
+    "Hardware Detection"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D's support for the Mac OS Gestalt Manager, which allowed programmers to query what hardware features and system services were available on the user's machine. The Gestalt Manager was a classic Mac OS API that was deprecated by Apple and eventually removed in modern macOS. Modern system feature detection uses entirely different APIs, and 4D provides its own platform detection mechanisms.",
+    "status": "obsolete",
+    "related_updates": [
+      "Apple deprecated and removed the Gestalt Manager in modern macOS",
+      "4D provides GET SYSTEM INFO and other commands for platform/feature detection in modern versions",
+      "System feature detection on macOS now uses different Apple frameworks"
+    ]
+  }
+}

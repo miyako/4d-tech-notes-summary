@@ -1,0 +1,29 @@
+{
+  "asset_id": 47211,
+  "title": "Tech Note: 4D Live Window JavaScript Part 1 \u2013 Offscreen Areas",
+  "technote_number": "07-31",
+  "year": 2007,
+  "published_date": "August 8, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=47211",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_30-34_(AUG)/07-31_4DLW_Offscreen_Area.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Live Window (4DLW) plug-in",
+    "4D Web 2.0 Pack",
+    "Web_JavaScriptReturn command",
+    "Palette windows / CALL PROCESS",
+    "Custom event model (interprocess variables)"
+  ],
+  "historical_commentary": {
+    "text": "This note describes a workaround for a technical limitation of the 4D Live Window plug-in: since 4DLW could not create a true offscreen browser area, the author instead hides a Palette window containing a 4DLW area off the visible screen, letting JavaScript functions loaded in it be called like a code library via Web_JavaScriptReturn and a custom interprocess event model. It is a clever but very plug-in- and Windows-specific hack (JavaScript execution in 4DLW never worked reliably on Mac OS) built entirely on the discontinued 4D Web 2.0 Pack; the concrete commands and window-hiding technique have no modern equivalent since 4D Live Window no longer exists. The general idea of treating a JavaScript engine as a reusable calculation library from 4D code is still conceptually interesting but would today be solved very differently.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Live Window and 4D Web 2.0 Pack were discontinued and are no longer part of any current 4D product",
+      "Any need to call JavaScript logic from 4D code today would use 4D's built-in JSON/JavaScript-adjacent commands or an external Node.js/HTTP service rather than a hidden browser plug-in window"
+    ]
+  }
+}

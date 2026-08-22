@@ -1,0 +1,30 @@
+{
+  "asset_id": 47078,
+  "title": "Tech Note: An Atlas with the 4D Ajax Framework",
+  "technote_number": "07-29",
+  "year": 2007,
+  "published_date": "July 25, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon",
+  "page_url": "https://kb.4d.com/assetid=47078",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_26-29_(JUL)/07-29_4DAF_Atlas.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "4D Web 2.0 Pack",
+    "Data Matrix / Image Browser",
+    "Data Driven Tabs",
+    "Google Maps API",
+    "Developer Defined Windows (DDW)"
+  ],
+  "historical_commentary": {
+    "text": "This note showcases two 4DAF 1.1 features — the Data Matrix/Image Browser for grid-of-pictures display and Data Driven Tabs generated dynamically from field values — by building a country atlas mash-up that mixes 4D country data with the Google Maps API shown in a Developer Defined Window. It is entirely dependent on the discontinued 4DAF/4D Web 2.0 Pack Control Panel, Query Manager, and dataMatrix JavaScript object, none of which exist in current 4D. The mash-up concept (combine local structured data with a third-party mapping API) and the dynamic-tabs-by-category UI pattern remain completely standard ideas in web app design today, just implemented very differently.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and 4D Web 2.0 Pack were discontinued and are no longer part of any current 4D product",
+      "Modern equivalents of this mash-up pattern would use 4D's REST/ORDA APIs feeding a JS mapping library (e.g. Google Maps JS API, Leaflet) directly rather than a DDW-embedded map"
+    ]
+  }
+}

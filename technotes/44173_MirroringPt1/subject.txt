@@ -1,0 +1,1 @@
+Tech Note: Mirroring with 4D 2004.4, Part I (TN 06-36, 4D v2004.4, September 2006) — introduces a revised, more robust and error-handled mirroring solution built on the mirroring commands introduced in 4D 2004.3, incompatible with the original earlier mirroring Tech Note's code.

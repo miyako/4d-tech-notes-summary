@@ -1,0 +1,1 @@
+Tech Note: String Handling Functions (4D v6.0, May 1999) — a library of cross-platform string handling functions written in native 4D code for common text processing tasks.

@@ -1,0 +1,29 @@
+{
+  "asset_id": 11804,
+  "title": "Tech Note: Creating a Splashscreen on Mac OS",
+  "technote_number": "98-21",
+  "year": 1998,
+  "published_date": "June 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11804",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Splash Screen",
+    "Mac OS Resources",
+    "4th Dimension",
+    "Macintosh"
+  ],
+  "historical_commentary": {
+    "text": "This Mac-only technique relied on Macintosh resource fork manipulation, a concept that has been entirely deprecated in modern macOS. The desire for custom splash screens persists, but modern approaches use completely different mechanisms. Resource forks were a unique feature of classic Mac OS file systems.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS resource forks are no longer used in modern macOS",
+      "Custom splash screens in modern 4D are handled through different mechanisms",
+      "The technique was Mac OS-only and has no modern equivalent using resources"
+    ]
+  }
+}

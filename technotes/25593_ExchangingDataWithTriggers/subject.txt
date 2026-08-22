@@ -1,0 +1,1 @@
+Tech Note: Exchanging Data with Triggers (TN 02-52, 4D v6.8.3, November 2002) — a technique for safely sharing data between a trigger and the code that provoked it, using a utility record, working consistently in both interpreted and compiled mode.

@@ -1,0 +1,31 @@
+{
+  "asset_id": 11816,
+  "title": "Tech Note: Creating HTML Tables and Pages from 4th Dimension",
+  "technote_number": "98-14",
+  "year": 1998,
+  "published_date": "October 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11816",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "HTML Generation",
+    "Web Server",
+    "Web Publishing",
+    "Dynamic Web Content",
+    "Static Site Generation"
+  ],
+  "historical_commentary": {
+    "text": "This note describes using native 4D commands to generate HTML pages and tables, combining record data with static text to create directories, catalogs, and listings with hypertext links. It covers both 4D's built-in web-serving capabilities and custom code for building sites with a mix of static and dynamically generated content. This reflects the late-1990s internet boom when 4D was positioning itself as a web application platform. Modern 4D's web server, REST API, and ORDA provide vastly more sophisticated web publishing capabilities.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's built-in web server has been completely modernized with REST API and ORDA support",
+      "Modern web development uses client-side frameworks and APIs rather than server-side HTML generation",
+      "4D's web serving evolved through multiple generations since this 1998 approach"
+    ]
+  }
+}

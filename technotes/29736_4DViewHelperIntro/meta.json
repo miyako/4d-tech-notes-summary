@@ -1,0 +1,26 @@
+{
+  "asset_id": 29736,
+  "title": "Tech Note: 4D View Helper",
+  "technote_number": "03-36",
+  "year": 2003,
+  "published_date": "August 29, 2003",
+  "product": "4D View",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29736",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_36-39_(AUG)/03-36_4D_View_Helper.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D View",
+    "Array/record display"
+  ],
+  "historical_commentary": {
+    "text": "As with its companion Part I note, this introductory piece is tied to 4D View, a companion product that has since been discontinued and whose functionality has been superseded by newer form objects and web-based grids in current 4D applications, making the specific technique obsolete for new development.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D View has been discontinued as a standalone product/plug-in in current 4D",
+      "List box form objects and web-based grid components now serve the role 4D View areas served in 2003"
+    ]
+  }
+}

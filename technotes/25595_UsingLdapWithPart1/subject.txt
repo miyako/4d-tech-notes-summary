@@ -1,0 +1,1 @@
+Tech Note: Using LDAP with 4D (TN 02-54, 4D Open v6.8, November 2002) — Part I of a note on writing a custom LDAP plug-in for 4D to authenticate users against a corporate LDAP directory server.

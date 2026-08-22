@@ -1,0 +1,27 @@
+{
+  "asset_id": 30789,
+  "title": "Tech Note: Integrating 4D and Office 2003",
+  "technote_number": "03-54",
+  "year": 2003,
+  "published_date": "December 19, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30789",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_52-55_(DEC)/03-54_4D_and_Office_2003.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "XML",
+    "Web Services / SOAP",
+    "Microsoft Office 2003 interoperability"
+  ],
+  "historical_commentary": {
+    "text": "Office 2003's XML file formats and this era's raw-XML/SOAP integration techniques have since been superseded first by the Office Open XML (.docx/.xlsx) formats introduced in Office 2007, and more broadly by REST/JSON-based integration approaches, so the specific mechanisms hinted at here are obsolete. The broader theme \u2014 that 4D can interoperate with desktop productivity suites via structured data exchange \u2014 remains conceptually relevant, just via very different modern tooling.",
+    "status": "obsolete",
+    "related_updates": [
+      "Microsoft Office moved to the Office Open XML formats (.docx/.xlsx/.pptx) starting with Office 2007, superseding the Office 2003 XML formats referenced here",
+      "SOAP-based Web Services integration has broadly given way to REST/JSON APIs in modern application integration, including in current 4D"
+    ]
+  }
+}

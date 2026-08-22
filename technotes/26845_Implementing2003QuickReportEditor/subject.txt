@@ -1,0 +1,1 @@
+Tech Note: Implementing the 2003 Quick Report Editor (TN 03-10, 4D v2003, February 2003) — a guide to the simplest way to modify existing 4D databases (or design new ones) to take full advantage of the more powerful and flexible 2003 Quick Report editor.

@@ -1,0 +1,1 @@
+Tech Note: Breaking the Rules to Improve Performance, Part 1—Expanding the Concept of a Keywords Subfile (TN 96-31, 4D v3.x, July 1996) — a technique for building a fast, forgiving free-text search across many fields at once using a single indexed Keywords subfile, aimed at improving performance over WAN and dial-up connections.

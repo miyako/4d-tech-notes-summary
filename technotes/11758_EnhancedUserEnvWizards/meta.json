@@ -1,0 +1,30 @@
+{
+  "asset_id": 11758,
+  "title": "Tech Note: Enhanced User Environment Wizards",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "April 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11758",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report Wizard",
+    "Label Wizard",
+    "Query Wizard",
+    "Order by... Wizard",
+    "Charting Wizard",
+    "MyMusic tutorial database"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates the enhanced V6 User Environment wizards (Quick Report, Label, Query, Order by..., and Charting Wizards) using the MyMusic tutorial database; while the underlying goal of wizard-assisted end-user querying/reporting remains relevant, these specific classic User Mode wizards and the MyMusic tutorial database itself belong to a design-mode-only era that has been substantially reworked in look, feel, and capability across later 4D versions.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's User Mode wizards (Quick Report, Label, Query, Order by..., Charting) have been substantially redesigned and re-capabilitized across many subsequent 4D versions since v6",
+      "The MyMusic tutorial database referenced here is a period-specific 4D v6 sample application, not necessarily carried forward as-is in modern 4D installations"
+    ]
+  }
+}

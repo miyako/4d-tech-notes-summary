@@ -1,0 +1,28 @@
+{
+  "asset_id": 11713,
+  "title": "Tech Note: Detecting Compiled Mode Runtime Errors",
+  "technote_number": "96-34",
+  "year": 1996,
+  "published_date": "July 1, 1996",
+  "product": "4th Dimension Compiler",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "ACI US Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11713",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_31-34_(JUL)/96-34_Compiled_Runtime_Errors.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Compiler",
+    "EXECUTE command",
+    "Typed process variables (debug-mode error simulation)"
+  ],
+  "historical_commentary": {
+    "text": "This note explains that certain 4D runtime errors (such as a type mismatch in an EXECUTE command's parameters) only manifest after compilation, since the interpreter is more permissive about types than compiled code, and describes a workaround technique using typed process variables in the debugger to simulate and catch these errors before compiling. Modern 4D's compiler produces detailed, specific type-mismatch diagnostics directly at compile time, and the language itself has moved toward much stricter, more consistent typing across interpreted and compiled modes, making this manual pre-compilation error-simulation workaround largely unnecessary today, though the underlying caution about interpreted/compiled behavioral differences remains a valid general principle.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D compiler diagnostics report specific type-mismatch and other compiled-mode errors directly with clear messages, reducing the need for developers to manually simulate them beforehand",
+      "4D's type system has become significantly stricter and more consistent between interpreted and compiled execution in current versions, narrowing the class of errors that only appear after compiling",
+      "The EXECUTE command itself, central to the example in this note, is a legacy dynamic-code-execution command; modern 4D projects favor more structured approaches where such dynamic parameter-type mismatches are less common"
+    ]
+  }
+}

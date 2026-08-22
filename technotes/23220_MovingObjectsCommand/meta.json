@@ -1,0 +1,25 @@
+{
+  "asset_id": 23220,
+  "title": "Tech Note: Moving Objects",
+  "technote_number": "02-01",
+  "year": 2002,
+  "published_date": "January 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23220",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_01-04_(JAN)/02-01_Moving_Objects.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "MOVE OBJECT command",
+    "On Timer / On Load / On Resize events"
+  ],
+  "historical_commentary": {
+    "text": "The MOVE OBJECT command and the On Timer/On Load/On Resize events remain part of current 4D, so this note's core technique remains applicable, though later 4D versions introduced more automatic object anchoring and resizing properties that reduce how often developers need to hand-code dynamic repositioning logic like that shown here.",
+    "status": "superseded",
+    "related_updates": [
+      "Later 4D versions introduced more automatic object anchoring/resizing properties, reducing the need to hand-code dynamic repositioning via MOVE OBJECT as often as in 2002"
+    ]
+  }
+}

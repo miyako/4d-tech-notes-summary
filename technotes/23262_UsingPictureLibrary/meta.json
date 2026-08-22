@@ -1,0 +1,25 @@
+{
+  "asset_id": 23262,
+  "title": "Tech Note: Using the Picture Library in 4D",
+  "technote_number": "02-39",
+  "year": 2002,
+  "published_date": "August 31, 2002",
+  "product": "4D",
+  "version": "6.8.2",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23262",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_36-40_(aug)/02-39_picture_library.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Picture Library",
+    "Design-time asset management"
+  ],
+  "historical_commentary": {
+    "text": "The Picture Library concept remains part of current 4D's Design Mode tooling, so the fundamentals described here are still broadly relevant, though modern 4D applications (particularly those using Project Mode or web-based UIs) increasingly manage image assets as plain files rather than exclusively through the binary Picture Library.",
+    "status": "still relevant",
+    "related_updates": [
+      "The Picture Library remains part of current 4D, though Project Mode and web-based UI development have introduced file-based alternatives for managing image assets"
+    ]
+  }
+}

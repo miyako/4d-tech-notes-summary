@@ -1,0 +1,1 @@
+Tech Note: Creating and Using Contextual Help Files (TN 99-09, 4D v6.5, May 1999) — describes how to create an HTML-based online help system within a 4D database.

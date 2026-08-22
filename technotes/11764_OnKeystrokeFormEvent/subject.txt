@@ -1,0 +1,1 @@
+Tech Note: Powerful Uses of the On Keystroke Form Event (4D v6.0, June 1997) — a guide to using the newly introduced On Keystroke form event to react to user keystrokes in enterable objects.

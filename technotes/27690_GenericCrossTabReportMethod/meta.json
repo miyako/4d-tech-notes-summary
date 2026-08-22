@@ -1,0 +1,26 @@
+{
+  "asset_id": 27690,
+  "title": "Tech Note: Using a generic method to create cross tab reports",
+  "technote_number": "03-17",
+  "year": 2003,
+  "published_date": "April 16, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27690",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-17_GenericMethodCrossTab.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report ('QR') commands",
+    "Cross-tab reports",
+    "4D 2003 report engine"
+  ],
+  "historical_commentary": {
+    "text": "The 'QR' command theme introduced in 4D 2003 has continued to be developed in subsequent 4D versions and remains part of the current product, so the core technique of procedurally generating cross-tab reports is still broadly relevant, even though specific command details and best practices have likely evolved since 2003.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's QR-prefixed Quick Report commands have continued to be part of the product's reporting toolkit in subsequent versions"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 46551,
+  "title": "Tech Note: 4D Live Window 1.1 - Invoices Demo Database",
+  "technote_number": "07-20",
+  "year": 2007,
+  "published_date": "May 23, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Mac & Win",
+  "author": "Robert Molina, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=46551",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_17-21_(MAY)/07-20_4DLW_Invoices.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Live Window (4DLW) plug-in",
+    "PROCESS HTML TAGS command",
+    "Web_SetPreferences / Web_kNavigate / Web_kNavigateFilter",
+    "4D Web 2.0 Pack"
+  ],
+  "historical_commentary": {
+    "text": "This note showcases 4D Live Window (4DLW) 1.1, a plug-in area for embedding and interacting with HTML/PDF/Office documents inside a 4D form, using an Invoices demo to show new 1.1 features like navigation callbacks and click interception, positioned as an alternative to subforms/buttons for building rich, HTML-styled displays inside a classic 4D client interface. The plug-in-based, per-click callback approach to embedding a browser control in a native form is a period-appropriate solution now superseded by native web-view/webform integration and by the shift toward building UIs directly on the web via 4D's Web Server and Qodly components rather than embedding HTML fragments inside desktop client windows.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Live Window (4DLW) as a standalone Web 2.0 Pack plug-in has been discontinued along with 4D Web 2.0 Pack",
+      "4D now offers built-in HTML/web-view form area objects for embedding web content directly in 4D forms without a separate plug-in",
+      "Modern 4D UI approaches favor building rich interfaces with 4D's native Web Server and Qodly components over embedding HTML mash-ups inside desktop client forms"
+    ]
+  }
+}

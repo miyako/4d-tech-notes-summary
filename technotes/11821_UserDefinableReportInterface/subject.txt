@@ -1,0 +1,1 @@
+Tech Note: Building a User-Definable Report/Function Interface (TN 98-18, 4D v6.0, December 1998) — describes a data-driven report management system using stored method names and password-group access control.

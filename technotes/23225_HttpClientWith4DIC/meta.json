@@ -1,0 +1,26 @@
+{
+  "asset_id": 23225,
+  "title": "Tech Note: HTTP Client with 4D and 4D Internet Commands",
+  "technote_number": "02-05",
+  "year": 2002,
+  "published_date": "February 28, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23225",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_05-09_(FEB)/02-05_HTTP_Client_with_4D.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Internet Commands",
+    "HTTP protocol",
+    "Base64 encoding"
+  ],
+  "historical_commentary": {
+    "text": "4D has since incorporated native, higher-level HTTP client commands directly into the core language, superseding the need to hand-build an HTTP client at the protocol level as shown here, though the underlying HTTP fundamentals this note teaches (request/response structure, Basic Auth encoding) remain accurate and educationally valuable today.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added native, higher-level HTTP client commands to the core language, reducing the need to hand-build HTTP requests at the protocol level as shown in this note"
+    ]
+  }
+}

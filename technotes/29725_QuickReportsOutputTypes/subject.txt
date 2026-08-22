@@ -1,0 +1,1 @@
+Tech Note: Quick Reports: Output Types (TN 03-31, 4D v2003, July 2003) — a cross-platform interface for listing Quick Report files in a folder, paired with an exploration of the available output formats in the Quick Report Editor.

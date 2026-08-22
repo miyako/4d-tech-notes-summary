@@ -1,0 +1,1 @@
+Tech Note: Migrating from 4D for Oracle to 4D for OCIusing OCI Mapper (TN 03-44, 4D Oracle v2003, October 2003) — a migration guide for moving a database from the legacy 4D for Oracle plug-in commands to the newer 4D for OCI commands using the OCI Mapper 2003 framework.

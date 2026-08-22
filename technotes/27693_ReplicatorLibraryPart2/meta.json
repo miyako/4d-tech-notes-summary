@@ -1,0 +1,25 @@
+{
+  "asset_id": 27693,
+  "title": "Tech Note: Replicator Library (Part II)",
+  "technote_number": "03-19",
+  "year": 2003,
+  "published_date": "April 16, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac OS X",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27693",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-19_Replicator_Library_2.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Replicator code library",
+    "Data replication"
+  ],
+  "historical_commentary": {
+    "text": "The specific Replicator library is a bespoke, era-specific 4D code library that has almost certainly been superseded by later, more capable synchronization approaches (including 4D's own sync/replication features and ORDA-based remote datastore access), but the fundamental data-replication trade-offs this note discusses (consistency vs. availability, conflict resolution) remain foundational distributed-systems concepts still directly relevant today.",
+    "status": "superseded",
+    "related_updates": [
+      "4D has since added more built-in synchronization/replication capabilities than existed via this third-party-style Replicator library in 2003"
+    ]
+  }
+}

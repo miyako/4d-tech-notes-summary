@@ -1,0 +1,25 @@
+{
+  "asset_id": 25594,
+  "title": "Tech Note: Avoiding Semaphore Gotchas",
+  "technote_number": "02-53",
+  "year": 2002,
+  "published_date": "November 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25594",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-53_Semaphore_Gotchas.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Semaphores",
+    "Object locking / concurrency control"
+  ],
+  "historical_commentary": {
+    "text": "Semaphores remain a supported, still relevant concurrency primitive in current 4D, so the wrapper-method safety patterns this note describes are still broadly applicable, even as 4D has since added additional concurrency tools (such as true preemptive worker processes) that offer alternative ways to manage shared state.",
+    "status": "still relevant",
+    "related_updates": [
+      "Semaphores remain a supported concurrency primitive in current 4D, alongside newer tools like worker processes introduced in later versions"
+    ]
+  }
+}

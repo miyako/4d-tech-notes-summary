@@ -1,0 +1,1 @@
+Tech Note: Creating a Program Item with a Custom Icon to Launch Your Executable File on Windows (TN 96-33, 4D Compiler v3.x, August 1996) — a walkthrough of Windows 95/NT/3.1 shell steps for giving a 4D Compiler Pro merged/compiled executable a custom, "Mac-like" launch icon.

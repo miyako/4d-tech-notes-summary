@@ -1,0 +1,28 @@
+{
+  "asset_id": 11793,
+  "title": "4D Web Serving Revisited",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "April 1, 1998",
+  "product": "4D Client",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11793",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D built-in Web Server",
+    "HTML generation from 4D",
+    "Web browser vs. 4D Client comparison",
+    "Web Services framework"
+  ],
+  "historical_commentary": {
+    "text": "4D's built-in web server was a cutting-edge feature in the v6 era (late 1990s), positioning 4D as both a database and web application server during the internet boom. This note's focus on bridging 4D Client behavior and web browser limitations reflects the fundamental paradigm shift of the era. While 4D's web serving capabilities have evolved enormously — through contextual mode, REST server, ORDA-based REST API, and ultimately the Qodly framework — the core concept of serving dynamic web content directly from a 4D database remains central to the platform.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's web server has been completely overhauled multiple times; the v6-era contextual web serving model was replaced by non-contextual mode and later by REST/ORDA-based approaches",
+      "Modern 4D web development uses the REST server with ORDA data model access rather than the HTML-template approach described in this era"
+    ]
+  }
+}

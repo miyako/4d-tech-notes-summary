@@ -1,0 +1,1 @@
+Tech Note: Building Applications with 4D 2004: Automatic Client Upgrade (TN 07-22, 4D v2004, June 2007) — explains 4D 2004's automatic client upgrade feature, letting a merged 4D Server force full client-software upgrades via Build Application XML keys and platform install scripts.

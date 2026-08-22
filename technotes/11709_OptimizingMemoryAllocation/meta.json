@@ -1,0 +1,30 @@
+{
+  "asset_id": 11709,
+  "title": "Tech Note: Tips and Techniques for Optimizing the Memory Allocated to 4th Dimension",
+  "technote_number": "96-30",
+  "year": 1996,
+  "published_date": "June 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Julie Pearson",
+  "page_url": "https://kb.4d.com/assetid=11709",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_27-30_(JUN)/96-30_Optimizing_Memory.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Customizer Plus",
+    "4D memory partition / cache memory / kernel memory settings",
+    "MacsBug (Macintosh debugger)",
+    "PowerPC Macintosh performance tuning (Modern Memory Manager, Level II cache)"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D's mid-1990s manual memory-partition model, where developers had to explicitly configure a fixed application memory allocation (via the Mac Finder Get Info dialog or 4D Customizer Plus) and tune the split between cache memory and kernel memory, plus era-specific PowerMac tuning tips (Level II cache cards, Modern Memory Manager, Speed Doubler) and a MacsBug-based technique for measuring actual kernel memory usage. This entire manual, fixed-partition memory model is obsolete: modern operating systems use dynamic virtual memory management, and current 4D versions manage memory allocation automatically without requiring developers to hand-tune Finder memory partitions or kernel/cache block splits.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS's fixed application memory partition model (set via Finder Get Info) was eliminated with the transition to Mac OS X's modern virtual memory system, and Windows moved away from manual application memory sizing as well",
+      "4D Customizer Plus, the tool used throughout this note to configure memory settings, is not part of the modern 4D toolset; 4D now manages memory allocation dynamically",
+      "MacsBug, the low-level Macintosh debugger used here to inspect heap memory, was retired along with classic Mac OS and 68K/PowerPC-era debugging tools",
+      "The PowerPC-specific hardware tuning advice (Level II cache cards, Modern Memory Manager, Speed Doubler) is irrelevant to any current hardware architecture"
+    ]
+  }
+}

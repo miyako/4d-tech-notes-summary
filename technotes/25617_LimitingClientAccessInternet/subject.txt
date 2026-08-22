@@ -1,0 +1,1 @@
+Tech Note: Limiting Access When Using 4D Client Across the Internet (TN 02-61, 4D v6.8, December 2002) — a real-world account of restricting 4D Client access to a 4D Server over the Internet to prevent uncontrolled or unauthorized connections.

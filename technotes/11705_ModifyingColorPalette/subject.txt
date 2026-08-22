@@ -1,0 +1,1 @@
+Tech Note: Modifying 4th Dimension's Color Palette (TN 96-26, 4D v3.x, May 1996) — a guide to editing the 4D application's "pltt" color-palette resource with ResEdit (and 4D Transporter on Windows) to change displayed colors or eliminate color-flash on launch.

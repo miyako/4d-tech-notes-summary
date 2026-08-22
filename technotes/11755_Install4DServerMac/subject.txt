@@ -1,0 +1,1 @@
+Tech Note: Installing and Troubleshooting 4D Server - Macintosh (4D Server v6.0, December 1997) — a Macintosh-specific installation and troubleshooting guide for 4D Server and 4D Client version 6.

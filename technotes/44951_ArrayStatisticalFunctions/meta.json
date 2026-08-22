@@ -1,0 +1,28 @@
+{
+  "asset_id": 44951,
+  "title": "Tech Note: Statistical Functions for Arrays",
+  "technote_number": "06-45",
+  "year": 2006,
+  "published_date": "December 13, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=44951",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_44-45_(DEC)/06-45_Array_Statisitics.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension array commands (SORT ARRAY, COPY ARRAY, Find in array, etc.)",
+    "ArrayStats_* custom statistical routine library",
+    "Pointer-based generic array parameters",
+    "Custom error-code management system"
+  ],
+  "historical_commentary": {
+    "text": "This note provides a full library of statistical routines (mean, median, min, max, mode, range, variance, standard deviation, sum squares, weighted mean, frequency counts) that work directly on numeric arrays, extending beyond 4D's native field-only, PRINT SELECTION-scoped statistical functions of the era. The code style — untyped/typed pointer-based generics, manual parameter validation, and a hand-rolled error-code system — is characteristic of pre-object, pre-collection 4D programming; the statistical algorithms themselves (e.g. sum-of-squares based variance/standard deviation, weighted means, mode/frequency counting) are timeless math and remain directly useful, though a modern 4D implementation would likely use collections and object notation instead of array pointers.",
+    "status": "superseded",
+    "related_updates": [
+      "Later 4D versions added collection objects and object notation (ORDA-era collections have .average(), .min(), .max(), .sum() methods, and 4D's `Statistics` command family covers similar ground) reducing the need for hand-rolled array-pointer-based statistical routines",
+      "4D still lacks some of the array-scoped statistics this note implements (e.g. weighted mean, mode) as single built-in commands, though collection methods now cover much of the same ground more concisely"
+    ]
+  }
+}

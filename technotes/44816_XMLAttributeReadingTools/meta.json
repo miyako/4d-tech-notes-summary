@@ -1,0 +1,27 @@
+{
+  "asset_id": 44816,
+  "title": "Tech Note: Enhanced Tools for Reading XML Attributes",
+  "technote_number": "06-43",
+  "year": 2006,
+  "published_date": "November 29, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "David Adams",
+  "page_url": "https://kb.4d.com/assetid=44816",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_40-43_(NOV)/06-43_Reading_XML_Attr.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4th Dimension DOM XML commands (DOM Count XML attributes, DOM GET XML ATTRIBUTE BY INDEX/BY NAME)",
+    "Custom ON ERR CALL error handling",
+    "DOM_AttributesToArrays and related DOM_* attribute utility routines"
+  ],
+  "historical_commentary": {
+    "text": "This note builds a set of enhanced utility routines on top of 4D's three native DOM attribute commands, adding automatic error handling, protection against the #document-node crash bug, name/value matching helpers, and array-conversion tools. It's a direct companion/extension to Tech Notes 06-44 and 07-04 from the same period, reusing the same defensive error-trapping pattern; the specific DOM XML API is now legacy, but the reusable utility-library approach (wrapping a fragile native API with a richer, safer, more convenient set of helper functions) remains a durable software design pattern.",
+    "status": "superseded",
+    "related_updates": [
+      "4D added native JSON support and other modern data-interchange handling in later versions, reducing reliance on the classic DOM XML attribute commands for new development",
+      "This note's error-handling and #document special-casing approach builds directly on Tech Note 06-44, Avoiding Problems Reading DOM XML Nodes"
+    ]
+  }
+}

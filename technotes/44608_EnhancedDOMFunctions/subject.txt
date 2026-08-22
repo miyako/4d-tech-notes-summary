@@ -1,0 +1,1 @@
+Tech Note: Enhanced DOM Functions (TN 06-40, 4D v2004, November 2006) — introduces a suite of wrapper routines (DOM_GetElementValue, DOM_FindElementByName, DOM_AttributesToArrays, etc.) that add automatic error handling, whitespace cleaning, and safer node/attribute matching on top of 4D's native DOM XML commands.

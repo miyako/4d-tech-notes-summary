@@ -1,0 +1,1 @@
+Tech Note: Debugging XML with Export (TN 06-41, 4D v2004, November 2006) — shows how to use DOM EXPORT TO VAR/FILE to serialize and inspect an in-memory DOM XML tree at each step for debugging, including a reusable DOM_DumpTreeToClipboard utility.

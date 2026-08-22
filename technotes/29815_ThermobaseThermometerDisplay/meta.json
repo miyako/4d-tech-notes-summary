@@ -1,0 +1,25 @@
+{
+  "asset_id": 29815,
+  "title": "Tech Note: Thermobase",
+  "technote_number": "03-41",
+  "year": 2003,
+  "published_date": "September 30, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29815",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_40-43_(SEP)/03-41_Thermobase.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Custom graphical gauges",
+    "Form drawing objects"
+  ],
+  "historical_commentary": {
+    "text": "Custom hand-drawn gauges like this thermometer example have been largely superseded by native gauge form objects in later 4D versions and by rich JS/CSS-based visualizations in modern web areas, making this note primarily of historical/educational interest as an example of classic-era 4D form drawing technique.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Later 4D versions and web-based components provide native gauge/progress-indicator widgets, reducing the need for hand-drawn thermometer-style gauges"
+    ]
+  }
+}

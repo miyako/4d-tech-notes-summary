@@ -1,0 +1,31 @@
+{
+  "asset_id": 11820,
+  "title": "Tech Note: Using Structure Resources for Initializing a Database",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "February 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11820",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Resources",
+    "Structure File",
+    "Database Initialization",
+    "Copy Protection",
+    "Default Records"
+  ],
+  "historical_commentary": {
+    "text": "This note explores using resources stored in the 4D structure file to initialize default records in new data files and embed serial number or other identifying information as a simple copy protection mechanism. The Mac-era resource fork approach is entirely obsolete — modern 4D uses different mechanisms for database initialization and does not rely on resource forks. However, the concept of seeding default data into new databases remains relevant.",
+    "status": "obsolete",
+    "related_updates": [
+      "Resource fork-based storage is no longer used in modern 4D",
+      "Modern 4D uses the On Startup database method and other mechanisms for database initialization",
+      "License and copy protection are now handled through 4D's built-in license management system"
+    ]
+  }
+}

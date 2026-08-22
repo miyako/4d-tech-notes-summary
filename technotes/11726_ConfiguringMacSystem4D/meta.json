@@ -1,0 +1,31 @@
+{
+  "asset_id": 11726,
+  "title": "Tech Note: Configuring Your System for 4D and 4D Server/Client on the Macintosh Platform",
+  "technote_number": "96-52",
+  "year": 1996,
+  "published_date": "December 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac",
+  "author": "Jay H. Burgherr",
+  "page_url": "https://kb.4d.com/assetid=11726",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_51-56_(DEC)/96-52_SysConfig.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Open Transport (Apple networking stack)",
+    "MacTCP",
+    "4D / 4D Server / 4D Client version compatibility",
+    "Classic Mac OS System 7.5.3 installation",
+    "AppleTalk networking"
+  ],
+  "historical_commentary": {
+    "text": "This note is a system-configuration guide addressing 'Type 11' crashes caused by early incompatibilities between 4D/4D Server/4D Client and Apple's then-new Open Transport networking stack on PCI-based Power Macs, recommending specific minimum versions (4D 3.5.3+, Server/Client 1.5.3+, Mac OS 7.5.3 rev 2+, Open Transport 1.1.1+) and OS reinstallation procedures. Every technology and platform referenced (classic Mac OS, Open Transport, MacTCP, PCI Power Macs of 1996) is long discontinued, making this note of historical interest only, though its underlying caution about verifying compatibility before adopting new OS/networking releases remains generally sound advice.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS (System 7/8/9) and Open Transport were fully superseded by Mac OS X starting in 2001, which uses an entirely different, POSIX-based networking stack",
+      "MacTCP was already being replaced by Open Transport at the time of this note, and both are long defunct",
+      "AppleTalk networking protocol was discontinued by Apple in the 2000s",
+      "Modern 4D and macOS use standard TCP/IP networking with no equivalent to the Type 11 error class this note addresses"
+    ]
+  }
+}

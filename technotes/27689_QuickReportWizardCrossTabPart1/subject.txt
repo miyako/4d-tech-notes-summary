@@ -1,0 +1,1 @@
+Tech Note: Creating a quick Report Wizard (TN 03-16, 4D v2003, April 2003) — a guide to building a quick report from scratch using a custom Quick Report wizard, and an explanation of why the new 2003 Report editor is implemented as a plug-in.

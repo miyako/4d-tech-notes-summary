@@ -1,0 +1,27 @@
+{
+  "asset_id": 11700,
+  "title": "Tech Note: Creating a Program Item with a Custom Icon to Launch Your Executable File on Windows",
+  "technote_number": "96-33",
+  "year": 1996,
+  "published_date": "August 1, 1996",
+  "product": "4D Compiler",
+  "version": "3.x",
+  "platform": "Win",
+  "author": "Julie Pearson",
+  "page_url": "https://kb.4d.com/assetid=11700",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_33-36_(AUG)/96-33_Customized_Icons.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Compiler Pro",
+    "4D Engine (merged compiled structure)",
+    "Windows 95 Start Menu / Windows NT & 3.1x Program Manager"
+  ],
+  "historical_commentary": {
+    "text": "This note walks through OS-level Windows 95/NT/3.1 shell mechanics (Program Manager groups, Start Menu shortcuts, .ico files) for giving a compiled/merged 4D Engine application a custom icon, since the merge process produced separate EXE/4DC/RSR files with a generic icon rather than a single polished executable. The underlying need — a distinct icon for a distributed executable — is still relevant today, but the specific instructions are entirely tied to Windows 3.1/95/NT-era shell UI (Program Manager, Taskbar Properties dialogs) that no longer exists in any current Windows version, and the 4D Compiler Pro / merge-with-4D-Engine deployment model itself has been superseded.",
+    "status": "obsolete",
+    "related_updates": [
+      "Windows 3.1/NT Program Manager and the described Windows 95 Taskbar Properties dialogs no longer exist in any supported version of Windows",
+      "4D's compiled/merged application build process has evolved substantially; modern 4D build tools (Build Application) generate a single application executable with icon customization handled directly in the build settings, rather than requiring manual OS-level shortcut/icon assignment after merging with 4D Engine"
+    ]
+  }
+}

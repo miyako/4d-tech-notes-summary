@@ -1,0 +1,1 @@
+Tech Note: Conversion to 4D 2004 (TN 06-28, 4D v2004, July 2006) — a comprehensive migration guide covering how to convert databases from older 4D versions (back to version 2/3) into 4D 2004, including architecture, compatibility, and new-feature changes.

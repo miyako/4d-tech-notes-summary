@@ -1,0 +1,1 @@
+Tech Note: Compiling Cross-Platform with Plug-ins (4D Transporter v6.0, April 1997) — guidance for avoiding cross-platform compilation problems when a 4D database uses plug-ins built for a different platform than the one compiling it.

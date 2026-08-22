@@ -1,0 +1,1 @@
+Tech Note: User Definable Views Using 4D View (TN 02-45, 4D View v6.8, September 2002) — a generic, editor-driven "Views" system built on 4D View that lets end users define and save their own custom record display layouts instead of hard-coded output forms.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 25583,
+  "title": "Tech Note: Connecting WebSTAR and 4D Business Kit using Rewrite",
+  "technote_number": "02-43",
+  "year": 2002,
+  "published_date": "September 30, 2002",
+  "product": "4D Business Kit",
+  "version": "1.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25583",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_41-45_(sep)/02-43_connecting_wsv_&_4d.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D WebSTAR V",
+    "4D Business Kit",
+    "URL Rewrite"
+  ],
+  "historical_commentary": {
+    "text": "Both WebSTAR and 4D Business Kit have been discontinued for many years, making the specific Rewrite configuration described here obsolete; the general technique of using URL rewriting to connect a web server to an underlying application remains a standard, still-relevant web architecture pattern (now typically done with Apache/nginx rewrite rules or 4D's own built-in web server routing).",
+    "status": "obsolete",
+    "related_updates": [
+      "WebSTAR and 4D Business Kit have both been discontinued for many years",
+      "4D's own built-in web server now provides routing/URL-handling capabilities directly, without needing a separate WebSTAR server"
+    ]
+  }
+}

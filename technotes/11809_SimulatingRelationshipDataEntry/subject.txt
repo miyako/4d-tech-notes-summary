@@ -1,0 +1,1 @@
+Tech Note: Simulating a 4D Relationship During Data Entry (TN 98-26, 4D v6.5, June 1999) — a technique to simulate Related One relationship behavior during data entry while preserving standard relationship properties.

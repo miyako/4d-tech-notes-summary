@@ -1,0 +1,28 @@
+{
+  "asset_id": 11839,
+  "title": "Tech Note: Objects in Headers are Closer Than They Appear",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "August 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11839",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "List Forms",
+    "Header Objects",
+    "Form Design"
+  ],
+  "historical_commentary": {
+    "text": "The ability to place objects in the header area of list forms was a new feature in 4D v6.5, expanding form layout flexibility. Modern 4D list forms continue to support header/footer areas with objects, though the form editor and available object types have expanded enormously. The basic concept remains valid.",
+    "status": "still relevant",
+    "related_updates": [
+      "Header/footer areas in list forms remain a standard feature in modern 4D",
+      "The form editor and object types available for headers have been significantly expanded"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11785,
+  "title": "Converting a Database from Version 3 Macintosh to Version 6 Windows",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "May 1, 1998",
+  "product": "4D Transporter",
+  "version": "6.0.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11785",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Transporter",
+    "Database version migration (v3 to v6)",
+    "Cross-platform database conversion (Mac to Windows)",
+    "4th Dimension v3 legacy format"
+  ],
+  "historical_commentary": {
+    "text": "This note addressed a very specific migration path — taking a Version 3 Macintosh 4D database and converting it to Version 6 on Windows. 4D Transporter was a dedicated utility for cross-version and cross-platform database migration, reflecting the significant structural changes between 4D v3 (classic Macintosh-only) and v6 (cross-platform). These version numbers and the Transporter tool itself are ancient history; modern 4D's migration path starts from much later versions, and the concept of a separate Transporter utility no longer exists.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D Transporter was discontinued; modern 4D handles database upgrades internally during opening",
+      "4D v3's database format is multiple generations behind current formats; direct migration from v3 has not been supported for many versions"
+    ]
+  }
+}

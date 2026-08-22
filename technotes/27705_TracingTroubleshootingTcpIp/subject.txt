@@ -1,0 +1,1 @@
+Tech Note: Tracing and Troubleshooting TCP/IP (TN 03-21, 4D v2003, May 2003) — guidance on tracing and troubleshooting TCP/IP communication problems in 4D applications, beyond what the built-in 4D Debugger can help with.

@@ -1,0 +1,1 @@
+Tech Note: Getting Started with Splitters (4D v6.5, July 1999) — a guide to using the Splitter form object in 4D v6.5 for creating resizable and divided form layouts.

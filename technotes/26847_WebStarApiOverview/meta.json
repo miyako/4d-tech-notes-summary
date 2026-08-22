@@ -1,0 +1,25 @@
+{
+  "asset_id": 26847,
+  "title": "Tech Note: 4D WebSTAR API",
+  "technote_number": "03-08",
+  "year": 2003,
+  "published_date": "February 28, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=26847",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_06-10_(FEB)/03-08_4D_WebSTAR_API.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D WebSTAR API",
+    "WebSTAR V web server suite"
+  ],
+  "historical_commentary": {
+    "text": "WebSTAR as a product line is long discontinued, and 4D's own built-in web server has for many years made a separate WebSTAR integration unnecessary for 4D web deployments, making this note's specific API integration obsolete for current development.",
+    "status": "obsolete",
+    "related_updates": [
+      "WebSTAR has been discontinued for many years; 4D's own built-in web server has long superseded the need for this integration"
+    ]
+  }
+}

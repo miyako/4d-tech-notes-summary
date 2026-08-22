@@ -1,0 +1,28 @@
+{
+  "asset_id": 43321,
+  "title": "Tech Note: 4D Write: Dynamic Data",
+  "technote_number": "06-23",
+  "year": 2006,
+  "published_date": "June 9, 2006",
+  "product": "4D Write",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Daniel Do, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43321",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_22-26_(JUN)/06-23_4D_Write_Dynamic_Data.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Write plug-in area",
+    "Dynamic field/expression references",
+    "COMPUTE REFERENCES NOW",
+    "4D Write tables/merge documents"
+  ],
+  "historical_commentary": {
+    "text": "This note explains how to embed live 4D database fields and expressions as dynamic references inside a 4D Write word-processing document, so form letters and reports automatically merge and update with current-record data, plus how to build tables in a 4D Write area. 4D Write itself (the plug-in-based word processor described here) was superseded by 4D Write Pro starting in 2016, so the specific 4D Write UI and menu commands shown are obsolete for new development, though the underlying concept of data-merge/mail-merge style dynamic references into rich text documents is still a relevant capability, now implemented differently in 4D Write Pro.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Write (the classic plug-in-based word processor) was superseded by 4D Write Pro, introduced in 2016",
+      "4D Write Pro provides its own mechanisms for merging database data into rich text documents, differing from the classic 4D Write reference/expression model described here"
+    ]
+  }
+}

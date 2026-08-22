@@ -1,0 +1,1 @@
+Tech Note: Proportionally Resizing Groups of Objects on a Form (TN 98-25, 4D v6.5, March 1999) — a technique for proportionally resizing groups of form objects automatically when a form is resized using On Resize and MOVE OBJECT.

@@ -1,0 +1,1 @@
+Tech Note: Hierarchical Lists (4D v6.0, July 1997) — an explainer contrasting "linked" list techniques from 4D 3.x with the native hierarchical list feature introduced in version 6, plus steps for creating hierarchical lists in V6.

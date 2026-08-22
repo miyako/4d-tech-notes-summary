@@ -1,0 +1,1 @@
+Tech Note: Repeater (TN 03-13, 4D v6.8, March 2002) — an application of Claude Shannon's information/sampling theory to a "Repeater" technique for handling periodic data signals in 4D.

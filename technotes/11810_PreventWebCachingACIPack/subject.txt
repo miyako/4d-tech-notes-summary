@@ -1,0 +1,1 @@
+Tech Note: Preventing Web Page Caching with ACI Pack (TN 98-27, 4D v6.0, August 1998) — a technique using ACI Pack's web filters to prevent browser caching of 4D-served web pages by injecting EXPIRES meta-tags.

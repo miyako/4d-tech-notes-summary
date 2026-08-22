@@ -1,0 +1,1 @@
+Tech Note: Enhanced Tools for Reading XML Attributes (TN 06-43, 4D v2004, November 2006) — a library of DOM_* utility routines that wrap 4D's three native DOM XML attribute commands with automatic error handling, name/value matching helpers, and array-conversion tools.

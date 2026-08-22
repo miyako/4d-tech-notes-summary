@@ -1,0 +1,1 @@
+Tech Note: Record Loading in 4th Dimension - Part 1 (4D v6.5, August 1999) — an examination of record loading mechanics in 4D v6.5, focusing on performance implications of large records and BLOBs.

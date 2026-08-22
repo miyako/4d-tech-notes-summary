@@ -1,1 +1,1 @@
-Tech Note: FTP directory Download and Upload (TN 03-2, 4D Internet Commands v6.8, January 2003) — a technique for recursively downloading and uploading an entire FTP directory tree using the 4D Internet Commands plug-in, which natively only transfers single files.
+Tech Note: FTP directory Download and Upload (TN 03-02, 4D Internet Commands v6.8, January 2003) — a technique for recursively downloading and uploading an entire FTP directory tree using the 4D Internet Commands plug-in, which natively only transfers single files.

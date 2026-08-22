@@ -1,0 +1,1 @@
+Tech Note: Image Maps (TN 02-44, 4D v6.8, September 2002) — an explanation of client-side vs. server-side HTML image maps and how to implement them for web sites, including 4D-driven ones.

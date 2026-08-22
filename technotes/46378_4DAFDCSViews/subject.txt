@@ -1,0 +1,1 @@
+Tech Note: 4D Ajax Framework: Working with DCS Views (TN 07-18, 4D Web 2.0 Pack v1.1, May 2007) — explains how to create Developer Created Selections (DCS) Views, programmatically defined, array-backed grid Views in the 4D Ajax Framework Client, via four developer hooks.

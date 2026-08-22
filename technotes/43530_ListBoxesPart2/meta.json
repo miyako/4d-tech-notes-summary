@@ -1,0 +1,28 @@
+{
+  "asset_id": 43530,
+  "title": "Tech Note: List Boxes (Part II)",
+  "technote_number": "06-26",
+  "year": 2006,
+  "published_date": "June 29, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, Quality Assurance Manager, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43530",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_22-26_(JUN)/06-26_Listboxes_Part_II.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D List Box object (language/API)",
+    "INSERT/DELETE LISTBOX COLUMN commands",
+    "GET LISTBOX ARRAYS command",
+    "List box column reordering"
+  ],
+  "historical_commentary": {
+    "text": "Part II of this two-part note covers programmatic (language-based) manipulation of the List Box object introduced in 4D 2004, including inserting/deleting columns, setting colors/fonts/grid display, and simulating column reordering since no direct 'move column' command existed. The core List Box commands discussed remain part of 4D's language today and the note's techniques (e.g. the column-reorder workaround) are still conceptually useful, though the List Box object and its API have been considerably extended in later 4D versions with more direct capabilities.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's List Box object and its command set have been substantially extended in versions since 2004, potentially simplifying some of the workarounds shown here",
+      "4D v11 (2007) later added a native SQL engine; List Box remained a Design Mode-only construct until Project Mode arrived in 2018"
+    ]
+  }
+}

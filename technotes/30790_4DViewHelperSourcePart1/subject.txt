@@ -1,0 +1,1 @@
+Tech Note: 4D View Helper (Source Code, Part I) (TN 03-55, 4D View v2003, December 2003) — a follow-up code walkthrough documenting the routines of the 4D View Helper component used to display arrays or records in a 4D View spreadsheet-style area.

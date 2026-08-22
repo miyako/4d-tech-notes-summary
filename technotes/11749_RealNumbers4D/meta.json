@@ -1,0 +1,27 @@
+{
+  "asset_id": 11749,
+  "title": "Tech Note: Real Numbers in 4th Dimension",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "January 1, 1997",
+  "product": "4D Customizer Plus",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11749",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Real (floating-point) data type",
+    "4D Customizer Plus",
+    "Number display formatting"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser paragraph for this note survives, but its subject (how Reals are stored, NaN behavior, display formatting via 4D Customizer, and pitfalls of comparing real numbers) reflects a fundamental floating-point concept that is still conceptually relevant today. The specific tool used to customize display (4D Customizer Plus) and the exact real-number storage/format details of 4D 6.0 are of historical interest only.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D Customizer Plus, the standalone tool for editing structure resources like number/date formats, was long ago folded into 4D's integrated Design environment",
+      "Modern 4D still uses IEEE-754-style floating point for Real fields, so the underlying NaN/comparison caveats discussed remain conceptually applicable"
+    ]
+  }
+}

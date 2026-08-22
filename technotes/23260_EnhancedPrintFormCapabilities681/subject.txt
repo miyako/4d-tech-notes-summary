@@ -1,0 +1,1 @@
+Tech Note: Enhanced Print form Capabilities in 6.8.1 (TN 02-37, 4D v6.8.1, August 2002) — an exploration of Print Form's improved capabilities in 4D 6.8.1, arguing it is 4D's most powerful yet most underutilized printing option.

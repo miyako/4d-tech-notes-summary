@@ -1,0 +1,25 @@
+{
+  "asset_id": 25616,
+  "title": "Tech Note: 4D Open: Updating records",
+  "technote_number": "02-60",
+  "year": 2002,
+  "published_date": "December 31, 2002",
+  "product": "",
+  "version": "",
+  "platform": "",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25616",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-60_4D_Open-UpdateRecords.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Open plug-in",
+    "Remote record update"
+  ],
+  "historical_commentary": {
+    "text": "4D Open as a distinct plug-in is obsolete; modern 4D applications would use ORDA remote datastores or REST APIs to update records on a remote 4D Server, both of which handle differing/unknown structures more gracefully than the identical-structure assumption made in this note.",
+    "status": "obsolete",
+    "related_updates": [
+      "ORDA remote datastores and REST APIs have superseded the 4D Open plug-in for remote record CRUD operations"
+    ]
+  }
+}

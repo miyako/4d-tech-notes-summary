@@ -1,0 +1,30 @@
+{
+  "asset_id": 11807,
+  "title": "Tech Note: Transparent Audit Trails",
+  "technote_number": "98-24",
+  "year": 1998,
+  "published_date": "July 1, 1998",
+  "product": "4D",
+  "version": "6.0.x",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11807",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Audit Trail",
+    "Triggers",
+    "BLOBs",
+    "4th Dimension V6",
+    "Record Archiving"
+  ],
+  "historical_commentary": {
+    "text": "Audit trails remain a fundamental requirement in database applications, and this note's transparent trigger-based approach was remarkably forward-thinking. While the specific V6 trigger and BLOB mechanisms are outdated, the architectural pattern of non-intrusive change tracking via triggers is still conceptually sound and reflects modern audit trail design principles.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D's trigger system has evolved but remains available",
+      "Modern audit implementations might use ORDA and object/collection-based storage rather than BLOBs",
+      "Journal/log-based auditing and 4D's built-in journal have expanded to cover some audit scenarios"
+    ]
+  }
+}

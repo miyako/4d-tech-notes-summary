@@ -1,0 +1,1 @@
+Tech Note: The Macintosh Gestalt Command (TN 98-15, 4D, October 1998) — documents 4D's support for the Mac OS Gestalt Manager for detecting installed hardware features and system services.

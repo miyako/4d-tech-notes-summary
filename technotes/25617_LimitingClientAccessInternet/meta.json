@@ -1,0 +1,25 @@
+{
+  "asset_id": 25617,
+  "title": "Tech Note: Limiting Access When Using 4D Client Across the Internet",
+  "technote_number": "02-61",
+  "year": 2002,
+  "published_date": "December 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25617",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-61_Limiting_Access.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Client / 4D Server",
+    "TCP/IP access control"
+  ],
+  "historical_commentary": {
+    "text": "The core concern \u2014 controlling and auditing remote access to a database server \u2014 remains a fundamental, still highly relevant security practice, but current 4D Server deployments have far more robust built-in access control, encryption (TLS), and network security options than were available in 2002, making the specific mitigation techniques in this note largely superseded by modern equivalents.",
+    "status": "superseded",
+    "related_updates": [
+      "Current 4D Server versions provide more robust built-in network security, TLS encryption, and access control options than were available in 2002"
+    ]
+  }
+}

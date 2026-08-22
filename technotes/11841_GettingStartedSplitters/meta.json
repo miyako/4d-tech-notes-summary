@@ -1,0 +1,29 @@
+{
+  "asset_id": 11841,
+  "title": "Tech Note: Getting Started with Splitters",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "July 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11841",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "Splitter Objects",
+    "Form Design",
+    "UI Layout",
+    "Resizable Forms"
+  ],
+  "historical_commentary": {
+    "text": "Splitter objects were a significant UI feature introduced in 4D v6.5, allowing resizable form layouts. Modern 4D forms still support splitters as standard form objects, though the property system and form editor have evolved considerably. The basic concept and usage of splitters remains current.",
+    "status": "still relevant",
+    "related_updates": [
+      "Splitter objects remain available in modern 4D forms",
+      "The form editor and object property system have been modernized but splitter functionality is essentially the same"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Using the Picture Library in 4D (TN 02-39, 4D v6.8.2, August 2002) — an explanation of how to use 4D's Picture Library, a design-time repository for storing graphics used across forms, toolbars, and menus.

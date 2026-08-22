@@ -1,0 +1,1 @@
+Tech Note: Using the ODBC Driver for 4D Server (4D Server v6.0, March 1999) — a practical guide to connecting external applications like Microsoft Excel to 4D Server via ODBC.

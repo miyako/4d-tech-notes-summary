@@ -1,0 +1,25 @@
+{
+  "asset_id": 27709,
+  "title": "Tech Note: Student Reports",
+  "technote_number": "03-25",
+  "year": 2003,
+  "published_date": "May 19, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=27709",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-25_Student_Reports.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Quick Report Editor",
+    "Report generation"
+  ],
+  "historical_commentary": {
+    "text": "The 2003-era Quick Report editor referenced here has evolved substantially in later 4D versions, and modern reporting needs are often addressed with 4D Write Pro or other current reporting tools, making this note's specific implementation dated even though basic report-generation concepts remain relevant.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's Quick Report engine and broader reporting toolset (including 4D Write Pro) have evolved considerably since 2003"
+    ]
+  }
+}

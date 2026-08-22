@@ -1,0 +1,1 @@
+Tech Note: Creating and Administering 4D Portal (TN 03-11, 4D v6.8, March 2002) — an introduction to creating and administering a 4D Portal instance via its web-based Portal Administration site.

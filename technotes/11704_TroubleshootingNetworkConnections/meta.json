@@ -1,0 +1,29 @@
+{
+  "asset_id": 11704,
+  "title": "Tech Note: Troubleshooting Network Connections",
+  "technote_number": "96-51",
+  "year": 1996,
+  "published_date": "October 1, 1996",
+  "product": "4D Server",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "Tony Cerrato and Thomas D'Urso",
+  "page_url": "https://kb.4d.com/assetid=11704",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_49-51_(OCT)/96-51_Network_Connections.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "AppleTalk / ADSP (MacLAN Connect, Open Transport)",
+    "IPX/SPX (Novell NetWare)",
+    "TCP/IP (subnet, router, Ping diagnostics)",
+    "4D Server client/server connection layer"
+  ],
+  "historical_commentary": {
+    "text": "This note is a companion troubleshooting guide to TN 96-28, offering more detailed, symptom-specific diagnostic tips for ADSP, IPX, and TCP/IP connection failures between 4D Client and 4D Server circa 1996, including PCI Macintosh Open Transport requirements, zone/Frame Type mismatches, subnet/router misconfiguration, the -10002 timeout error, and a Windows 95 TCP memory leak. As with its companion note, the AppleTalk and IPX protocols discussed are entirely discontinued, and the TCP/IP diagnostic details (manual subnet/router configuration on 1996-era OSes, Windows 95-specific bugs) reflect networking practices and defects that no longer apply to any current system, even though basic principles like using Ping to test connectivity remain valid today.",
+    "status": "obsolete",
+    "related_updates": [
+      "AppleTalk/ADSP and IPX/SPX, the two legacy protocols covered alongside TCP/IP here, have both been fully discontinued for decades",
+      "The Windows 95 TCP/IP memory leak and Open Transport PCI Macintosh requirements described are specific historical software defects/requirements with no relevance to any modern OS",
+      "Modern network diagnostics rely on the same fundamental tools referenced here (Ping, checking subnet/router configuration) but within vastly different, largely auto-configured (DHCP-based) networking environments"
+    ]
+  }
+}

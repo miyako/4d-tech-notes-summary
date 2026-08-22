@@ -1,0 +1,1 @@
+Tech Note: Using BLOBs to Store Document and Application Files (4D v6.7, September 1999) — a guide to using 4D's BLOB data type to import, store, and extract document and application files within a database.

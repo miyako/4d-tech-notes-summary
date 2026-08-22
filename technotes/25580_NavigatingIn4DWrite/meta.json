@@ -1,0 +1,25 @@
+{
+  "asset_id": 25580,
+  "title": "Tech Note: Navigating in 4D Write",
+  "technote_number": "02-41",
+  "year": 2002,
+  "published_date": "September 30, 2002",
+  "product": "4D Write",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25580",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_41-45_(sep)/02-41_navigating_in_4dwrite.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Write",
+    "Hyperlinks/anchors in documents"
+  ],
+  "historical_commentary": {
+    "text": "The classic 4D Write plug-in has been succeeded by 4D Write Pro, which has its own, generally richer navigation and hyperlink/anchor capabilities, making this note's specific classic-4D-Write commands obsolete for current document development, though the general concept of in-document navigation anchors remains a standard feature expectation.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write has been succeeded by 4D Write Pro, which provides its own navigation/anchor and hyperlink capabilities using a different, more modern document model"
+    ]
+  }
+}

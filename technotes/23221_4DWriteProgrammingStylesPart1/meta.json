@@ -1,0 +1,26 @@
+{
+  "asset_id": 23221,
+  "title": "Tech Note: 4D Write, Programming Styles, and Entry Control",
+  "technote_number": "02-02",
+  "year": 2002,
+  "published_date": "January 31, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23221",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_01-04_(jan)/02-02_styles_and_4d_write.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Write",
+    "Programmatic entry control",
+    "Text styles"
+  ],
+  "historical_commentary": {
+    "text": "The classic 4D Write plug-in referenced here has been succeeded by 4D Write Pro, which offers a substantially different, more modern document and styling model, making this note's specific techniques obsolete for current 4D document development, though the general goal of controlled, style-driven data entry remains a valid application design pattern.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write has been succeeded by 4D Write Pro, which uses a different, more modern document/formatting model than the classic 4D Write plug-in described here"
+    ]
+  }
+}

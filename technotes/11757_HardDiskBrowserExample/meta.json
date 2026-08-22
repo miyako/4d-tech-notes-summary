@@ -1,0 +1,28 @@
+{
+  "asset_id": 11757,
+  "title": "Tech Note: Hard Disk Browser Example Database",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "April 1, 1997",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11757",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D V6 file/directory commands",
+    "Hierarchical lists",
+    "Recursive methods",
+    "HDBrowse example database"
+  ],
+  "historical_commentary": {
+    "text": "This note showcases new 4D v6 commands for examining and manipulating hard disk files/directories via the HDBrowse example database, alongside hierarchical list creation and a recursive method example; while recursion and hierarchical list UI concepts remain evergreen programming techniques, the specific v6-era file-system commands and hierarchical list APIs demonstrated have been superseded by 4D's modern file-system and list-handling command sets.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's file-system access commands and hierarchical list APIs have been substantially expanded and modernized since this v6-era example (e.g. modern folder/file object commands, newer list management commands)",
+      "Recursive method design itself remains a standard, still-relevant programming technique independent of the specific era-bound commands used to demonstrate it here"
+    ]
+  }
+}

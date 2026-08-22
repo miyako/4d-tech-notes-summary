@@ -1,0 +1,27 @@
+{
+  "asset_id": 43939,
+  "title": "Tech Note: 4D Advanced Debugging Techniques \u2013 Part 2",
+  "technote_number": "06-33",
+  "year": 2006,
+  "published_date": "August 18, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43939",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_31-34_(AUG)/06-33_Advanced_Debugging_2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Logger 2004-1 (open-source text-file logging component)",
+    "Custom debug logging (function/procedure/method-level logging with stack-level indentation)",
+    "Debugging compiled 4D databases"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a custom text-file logging technique and an accompanying open-source '4D Logger 2004-1' component as an alternative debugging strategy for cases where 4D's native debugger/Runtime Explorer/error messages aren't available or sufficient \u2014 notably for compiled databases, timing/synchronization bugs, and pattern-recognition-style investigation across process IDs. The core insight, that structured logging with stack-level indentation and process IDs reveals patterns invisible to a live debugger (especially for concurrency bugs), is a durable, still-relevant debugging technique used across all of software development today, even though the specific 4D component and compiled-vs-interpreted framing are dated to 4D's pre-ORDA, pre-Project-Mode era.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D has since added more modern debugging and logging facilities (e.g., improved Runtime Explorer, structured logging commands) beyond what was available in 4D 2004",
+      "The general practice of structured, stack-level, process-tagged logging for diagnosing timing/concurrency bugs remains standard practice in modern software development generally"
+    ]
+  }
+}

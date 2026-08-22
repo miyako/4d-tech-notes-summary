@@ -1,0 +1,1 @@
+Tech Note: Identifying an XML Document's Type (TN 07-02, 4D v2004, January 2007) — a code note showing how to use 4D's DOM XML commands to detect a document's type, worked through the example of distinguishing the four XHTML DTD variants.

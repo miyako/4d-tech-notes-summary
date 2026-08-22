@@ -1,0 +1,27 @@
+{
+  "asset_id": 43470,
+  "title": "Tech Note: List Boxes",
+  "technote_number": "06-25",
+  "year": 2006,
+  "published_date": "June 23, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Jean-Yves Fock-Hoon, Quality Assurance Manager, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=43470",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_22-26_(JUN)/06-25_List_Boxes.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D List Box object (Design mode)",
+    "4D Form editor",
+    "List box column/header/row properties"
+  ],
+  "historical_commentary": {
+    "text": "This note, Part I of a two-part series, introduces the List Box object newly added in 4D 2004, explaining how to create and configure one via the Design-mode Form editor, covering column counts, static (non-movable) columns, header visibility, and multiple-row selection. As the very first developer-facing documentation of a form control that has remained central to 4D UI development for two decades since, its explanation of core List Box concepts (array-driven columns, static columns, row style arrays) is still directly relevant, even though the List Box's visual design tools and available properties have been extended considerably in the years since 2004.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's List Box object has gained many additional properties, styles, and behaviors in versions released after 2004",
+      "List Box configuration remains available in both classic Design Mode forms and later Project Mode forms (introduced 2018)"
+    ]
+  }
+}

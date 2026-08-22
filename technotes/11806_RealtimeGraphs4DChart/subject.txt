@@ -1,0 +1,1 @@
+Tech Note: Realtime Graphs in 4D Chart (TN 98-23, 4D Chart v6.0.x, July 1998) — a technique for creating live-updating, real-time moving graphs using 4D Chart in 4D V6.

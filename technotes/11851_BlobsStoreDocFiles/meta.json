@@ -1,0 +1,28 @@
+{
+  "asset_id": 11851,
+  "title": "Tech Note: Using BLOBs to Store Document and Application Files",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "September 1, 1999",
+  "product": "4D",
+  "version": "6.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11851",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6",
+    "BLOBs",
+    "Document Storage",
+    "File Import/Export"
+  ],
+  "historical_commentary": {
+    "text": "Storing files as BLOBs was a cutting-edge technique in 4D v6. Modern 4D provides object fields, built-in picture/document handling, and 4D.File/4D.Blob classes that make binary file storage and retrieval far more straightforward. The concept of embedding documents within a database remains valid, though the approach has evolved significantly.",
+    "status": "superseded",
+    "related_updates": [
+      "4D.Blob and 4D.File classes provide modern file handling",
+      "Object fields and entity storage have largely replaced raw BLOB manipulation for document storage"
+    ]
+  }
+}

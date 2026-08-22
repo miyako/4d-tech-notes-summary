@@ -1,0 +1,1 @@
+Tech Note: Using Send/Receive Record to Recover, Replace or Update (4D v6.0, January 1999) — describes using SEND RECORD and RECEIVE RECORD to move data between databases for recovery, migration, or upgrades.

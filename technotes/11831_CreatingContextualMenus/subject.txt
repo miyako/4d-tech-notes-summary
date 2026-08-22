@@ -1,0 +1,1 @@
+Tech Note: Creating Contextual Menus (TN 99-06, 4D v6.5, April 1999) — explains how to create right-click contextual menus on both Mac and Windows platforms with font styles, icons, and shortcuts.

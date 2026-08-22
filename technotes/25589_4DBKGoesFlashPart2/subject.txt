@@ -1,0 +1,1 @@
+Tech Note: 4D Business Kit Goes Flash (Part II) (TN 02-48, 4D Business Kit v1.x, October 2002) — Part II of a series on integrating Macromedia Flash movies with the 4D Business Kit storefront, covering request limits, caching, and session persistence.

@@ -1,0 +1,28 @@
+{
+  "asset_id": 46638,
+  "title": "Tech Note: Building Applications with 4D 2004: Automatic Client Upgrade",
+  "technote_number": "07-22",
+  "year": 2007,
+  "published_date": "June 6, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=46638",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_22-25_(JUN)/07-22_Auto_Client_Upgrade.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Build Application XML Keys (BuildCSUpgradeable, CurrentVers, RangeVersMin/Max)",
+    "Merged 4D Client/Server applications",
+    "Upgrade client install scripts (upgclnt.bat / Upgclnt.sh)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents 4D 2004's automatic client upgrade feature, which lets a merged 4D Server automatically push a full client-software upgrade (not just method/form updates, which 4D already handled) via Build Application XML keys and platform-specific install scripts. The client/server versioning and forced-upgrade concept remains conceptually relevant to any client/server software distribution model, but the concrete mechanism — merged, double-clickable 4D Client applications with .4DC compiled structures, XML BuildApplication keys, and batch/shell upgrade scripts — is tied to the pre-Project-Mode, pre-web-client 4D deployment model of that era.",
+    "status": "historical interest only",
+    "related_updates": [
+      "4D has continued to evolve its Build Application / deployment tooling substantially since 2004-2007",
+      "Many modern 4D deployments favor 4D's web server-based clients or updated client/server distribution tooling over merged double-clickable client upgrades",
+      "4D v11 (later in 2007) introduced 4D's first native SQL engine, unrelated to this note's client-upgrade topic but marking this as a pre-v11 document"
+    ]
+  }
+}

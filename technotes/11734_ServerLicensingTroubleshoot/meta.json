@@ -1,0 +1,26 @@
+{
+  "asset_id": 11734,
+  "title": "Tech Note: 4D Server Licensing: Tips and Troubleshooting",
+  "technote_number": null,
+  "year": 1997,
+  "published_date": "January 1, 1997",
+  "product": null,
+  "version": null,
+  "platform": null,
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11734",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server licensing / client connections",
+    "Connection troubleshooting"
+  ],
+  "historical_commentary": {
+    "text": "Only the teaser survives for this note, which covers how 4D Client connections consume 4D Server licenses and how to troubleshoot failed connections. The general concept of concurrent-user licensing and connection troubleshooting persists today, but the specific licensing mechanics of 1997-era 4D Server (dongle/serial-based user-count licenses) are dated relative to 4D's modern licensing model.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's licensing model and license-management tooling have changed substantially since the 1990s (e.g. modern license center/online activation vs. era-appropriate physical/serial-based licensing)",
+      "Client-to-server connection protocols have also evolved considerably since 1997 (TCP/IP now standard, legacy AppleTalk/IPX transports long discontinued)"
+    ]
+  }
+}

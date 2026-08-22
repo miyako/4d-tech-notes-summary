@@ -1,0 +1,1 @@
+Tech Note: The Object Name Property (TN 98-31, 4D v6.0, November 1998) — an explanation of the Object Name property introduced in 4D V6 for referencing form objects independently of their variable names.

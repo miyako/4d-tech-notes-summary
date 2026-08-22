@@ -1,0 +1,1 @@
+Tech Note: Inherited Forms (TN 02-30, 4D v6.8, July 2002) — an explanation of 4th Dimension's inherited forms feature, letting a form 'inherit' shared objects from another form.

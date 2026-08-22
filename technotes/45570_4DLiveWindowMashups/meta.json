@@ -1,0 +1,31 @@
+{
+  "asset_id": 45570,
+  "title": "Tech Note: Creating Mashups with 4D Live Window",
+  "technote_number": "07-07",
+  "year": 2007,
+  "published_date": "February 22, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.0",
+  "platform": "Mac & Win",
+  "author": "Joseph Resuello, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=45570",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_05-09_(FEB)/07-07_4DLW_Mashups.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Live Window plug-in",
+    "4D Web 2.0 Pack",
+    "Web_SetURL / Web_GetURL / Web_Back / Web_Forward / Web_GetContent / Web_SetPreferences",
+    "Google Maps",
+    "FedEx tracking",
+    "UPCDatabase.com"
+  ],
+  "historical_commentary": {
+    "text": "This note captures the Web 2.0-era enthusiasm for 'mashups' by embedding a native browser control (4D Live Window) into a 4D form and driving its URL from record data, essentially an early form of API/webview integration years before responsive web components or ORDA existed. The specific plug-in, the 4D Web 2.0 Pack, and the third-party URL formats referenced (old Google Maps and FedEx URL schemes) are long obsolete, but the underlying pattern of embedding a browser control in a desktop form to surface live external data remains conceptually relevant and is still done today with modern web area/webview components in 4D.",
+    "status": "obsolete",
+    "related_updates": [
+      "The 4D Web 2.0 Pack and its 4D Live Window plug-in were discontinued and superseded by 4D's built-in Web Area / Web Server form objects",
+      "Google Maps, FedEx, and UPCDatabase.com have all since replaced the URL-based query formats referenced in the note with modern REST/JavaScript APIs",
+      "Embedding external web content in 4D forms is now typically done with 4D's native Web Area object rather than a third-party plug-in"
+    ]
+  }
+}

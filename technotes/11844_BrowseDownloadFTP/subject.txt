@@ -1,0 +1,1 @@
+Tech Note: Using 4D version 6.5 Browse and Download Files via FTP (4D v6.5, July 1999) — a guide to browsing and downloading files via FTP using 4D v6.5 and its Internet Commands plug-in.

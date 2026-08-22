@@ -1,0 +1,29 @@
+{
+  "asset_id": 11828,
+  "title": "Tech Note: Preventing Syntax Errors in 4D Expressions When Converting",
+  "technote_number": "99-02",
+  "year": 1999,
+  "published_date": "March 1, 1999",
+  "product": "4D",
+  "version": "6.0.6",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11828",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0.6",
+    "Database Conversion",
+    "4D Write",
+    "Plug-in Expressions",
+    "Resources"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses syntax errors that occur when converting databases from 4D v3 to v6, specifically when 4D expressions are embedded in plug-in areas like 4D Write. The solution involves using resources to help 4D interpret expressions correctly during conversion. This is entirely obsolete as the v3-to-v6 conversion path is no longer relevant, and modern 4D uses completely different mechanisms for embedded expressions.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D v3 to v6 database conversion is no longer a supported migration path",
+      "Modern 4D Write Pro has replaced 4D Write with a completely different expression and document model"
+    ]
+  }
+}

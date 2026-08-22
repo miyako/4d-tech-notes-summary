@@ -1,0 +1,26 @@
+{
+  "asset_id": 23228,
+  "title": "Tech Note: Progress Message System",
+  "technote_number": "02-09",
+  "year": 2002,
+  "published_date": "February 28, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23228",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_05-09_(feb)/02-09_progress_message.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Text-based progress display",
+    "Two-dimensional arrays",
+    "Interprocess communication"
+  ],
+  "historical_commentary": {
+    "text": "The core techniques this note relies on \u2014 two-dimensional arrays and interprocess communication for status reporting \u2014 remain valid concepts in current 4D, though modern 4D applications now also have access to object/collection-based data structures and, in later versions, true multithreaded worker processes that could implement similar progress-reporting systems somewhat differently.",
+    "status": "still relevant",
+    "related_updates": [
+      "Modern 4D offers object/collection-based data structures and true multithreaded worker processes (introduced in later versions) as additional options beyond the two-dimensional array and cooperative-process technique used here"
+    ]
+  }
+}

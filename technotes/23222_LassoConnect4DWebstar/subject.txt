@@ -1,0 +1,1 @@
+Tech Note: Using Lasso 4D to Connect 4D and WebSTAR (TN 02-03, 4D v6.8, January 2002) — an introduction to Lasso 4D, a third-party WebSTAR plug-in from Blueworld that lets WebSTAR serve as the web server for a 4D database, particularly useful for developers migrating from FileMaker.

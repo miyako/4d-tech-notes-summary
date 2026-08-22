@@ -1,0 +1,31 @@
+{
+  "asset_id": 11822,
+  "title": "Tech Note: Getting Started with ODBC Driver for 4D Server",
+  "technote_number": "98-19",
+  "year": 1998,
+  "published_date": "December 1, 1998",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11822",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server v6.0",
+    "ODBC Driver",
+    "ODBC Plug-in",
+    "Intersolve",
+    "Database Connectivity",
+    "Windows ODBC Administrator"
+  ],
+  "historical_commentary": {
+    "text": "This note covers setting up the ODBC Driver for 4D Server on both Windows and Macintosh platforms, using the Windows 32-bit ODBC administrator and Intersolve's ODBC Data Source Administrator on Mac. ODBC connectivity allowed external applications to query 4D Server data. The 4D ODBC Driver has evolved significantly; modern 4D provides ODBC Pro and native SQL support (introduced in v11 SQL) that supersede this early configuration approach.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D introduced a built-in SQL engine in v11 SQL (~2007)",
+      "Modern 4D ODBC Driver has been updated and reconfigured for current operating systems",
+      "Intersolve's ODBC tools are no longer used; standard OS-level ODBC management has replaced them"
+    ]
+  }
+}

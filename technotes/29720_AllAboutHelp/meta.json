@@ -1,0 +1,25 @@
+{
+  "asset_id": 29720,
+  "title": "Tech Note: All About Help",
+  "technote_number": "03-35",
+  "year": 2003,
+  "published_date": "July 29, 2003",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29720",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-35_All_About_Help.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D built-in help system",
+    "Application help authoring"
+  ],
+  "historical_commentary": {
+    "text": "In-application help authoring techniques from this era have been largely superseded by modern approaches such as web-based help/documentation, tooltips backed by web areas, or externally hosted documentation, making the specific 4D 6.8/2003 help commands described here of mostly historical interest for current 4D development.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern 4D applications more commonly use web-based help systems or externally hosted documentation rather than the native in-app help features emphasized in this note"
+    ]
+  }
+}

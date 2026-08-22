@@ -1,0 +1,1 @@
+Tech Note: The 4D Portal Contact Manager (TN 02-04, 4D v6.8, January 2002) — a detailed walkthrough of the Contact Manager portlet in 4D Portal, a compact, event-driven module for storing and accessing contact information over the Web.

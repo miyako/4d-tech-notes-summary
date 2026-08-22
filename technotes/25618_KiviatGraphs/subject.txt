@@ -1,1 +1,1 @@
-Tech Note: Kiviat Graphs (TN 03-1, 4D Chart v6.8, January 2003) — a technique for drawing radar-style Kiviat (spider) graphs in 4D Chart by programmatically calculating and drawing polygon vertices, since 4D Chart has no native Kiviat graph type.
+Tech Note: Kiviat Graphs (TN 03-01, 4D Chart v6.8, January 2003) — a technique for drawing radar-style Kiviat (spider) graphs in 4D Chart by programmatically calculating and drawing polygon vertices, since 4D Chart has no native Kiviat graph type.

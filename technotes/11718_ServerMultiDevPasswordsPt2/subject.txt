@@ -1,0 +1,1 @@
+Tech Note: Developing with 4D Server Part 2: Setting Up a Multi-Developer Password System (TN 96-39, 4D Server v3.x, September 1996) — a guide to dividing a large 4D project into functional modules and configuring Design Mode Users/Groups ownership so each module team can only modify their own files, forms, and procedures.

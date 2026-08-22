@@ -1,0 +1,29 @@
+{
+  "asset_id": 11783,
+  "title": "Getting Started with Productivity Plug-ins and ACI PACK",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "September 1, 1998",
+  "product": "4D Write",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11783",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Write plug-in",
+    "4D Calc plug-in",
+    "4D Draw plug-in",
+    "ACI Pack plug-in",
+    "Plug-in integration in 4D"
+  ],
+  "historical_commentary": {
+    "text": "The productivity plug-ins (4D Write, 4D Calc, 4D Draw) and ACI Pack were central to the 4D v6 ecosystem, extending 4D with word processing, spreadsheet, drawing, and utility capabilities. 4D Write survived the longest and was eventually replaced by 4D Write Pro (introduced around v15). 4D Calc and 4D Draw were discontinued, with their functionality partially absorbed into 4D View Pro and native 4D features. ACI Pack was discontinued entirely, its utility functions absorbed into built-in commands.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Write was replaced by 4D Write Pro; 4D Calc was replaced by 4D View Pro; 4D Draw was discontinued with no direct replacement",
+      "ACI Pack was discontinued; its functions were absorbed into native 4D commands over successive versions"
+    ]
+  }
+}

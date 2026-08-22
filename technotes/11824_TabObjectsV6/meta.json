@@ -1,0 +1,29 @@
+{
+  "asset_id": 11824,
+  "title": "Tech Note: 4D v6 Tab Objects",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "January 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11824",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Tab Control Objects",
+    "Multi-Page Forms",
+    "Form Design",
+    "User Interface"
+  ],
+  "historical_commentary": {
+    "text": "This note covers the tab control objects introduced in 4D v6, replacing the previous v3 technique of using graphic images with invisible buttons to simulate tabs. Tab controls offered significant improvements in memory usage, execution speed, and visual quality. Tab objects remain a core UI element in modern 4D, though the implementation details and available options have evolved considerably.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Tab control objects remain available and actively supported in modern 4D",
+      "Modern 4D provides additional container and navigation objects beyond classic tab controls"
+    ]
+  }
+}

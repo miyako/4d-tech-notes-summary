@@ -1,0 +1,1 @@
+Tech Note: Testing if an XML Node Has Relatives (TN 07-04, 4D v2004, January 2007) — a code note adding DOM_NodeHasChildren/Ancestors/Siblings helper routines built on 4D's native DOM XML commands with safe error handling.

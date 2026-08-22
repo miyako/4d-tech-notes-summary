@@ -1,0 +1,29 @@
+{
+  "asset_id": 46512,
+  "title": "Tech Note: Integrating Active4D and the 4D Ajax Framework",
+  "technote_number": "07-19",
+  "year": 2007,
+  "published_date": "May 18, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "1.1",
+  "platform": "Mac & Win",
+  "author": "Jason T. Slack, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=46512",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_17-21_(MAY)/07-19_A4D-4DAF_Integration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Active4D (third-party ASP-style scripting language)",
+    "4D Ajax Framework (4DAF)",
+    "On Web Connection method routing",
+    "4D Insider (component installation)"
+  ],
+  "historical_commentary": {
+    "text": "This note documents integrating Active4D, a third-party ASP-style scripting/web-server layer for 4D (developed by Aparajita's World, not by 4D Inc.), with 4D's own 4D Ajax Framework, by custom-routing requests in the On Web Connection method based on a '@DAX@' marker and merging both systems' web roots into a shared 'web_decoy' folder. Both halves of this integration — the third-party Active4D product and 4D's in-house 4DAF/4D Web 2.0 Pack — are long defunct, making this note a snapshot of an ecosystem-level integration technique from an early, fragmented era of 4D web development rather than a currently applicable how-to.",
+    "status": "obsolete",
+    "related_updates": [
+      "Active4D, the third-party product this note depends on, is no longer an actively maintained or available product",
+      "4D Web 2.0 Pack and the 4D Ajax Framework (4DAF) have been discontinued by 4D",
+      "Modern 4D web applications are built with 4D's built-in Web Server and Qodly component tooling rather than third-party ASP-style layers or 4DAF"
+    ]
+  }
+}

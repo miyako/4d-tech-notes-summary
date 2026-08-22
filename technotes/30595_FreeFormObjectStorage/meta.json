@@ -1,0 +1,25 @@
+{
+  "asset_id": 30595,
+  "title": "Tech Note: Free Form Object Storage",
+  "technote_number": "03-51",
+  "year": 2003,
+  "published_date": "November 30, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=30595",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-51_FreeFormObjectStorage.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Unstructured/generic data storage",
+    "Text/BLOB serialization"
+  ],
+  "historical_commentary": {
+    "text": "The specific serialization technique this note likely used (probably text- or BLOB-based encoding, given 4D had no object/JSON field type in 2003) has been made largely unnecessary by 4D's later native Object/Collection data type and built-in JSON support, which now provide a natural, structured way to store free-form data. The core design motivation \u2014 avoiding rigid one-field-per-setting schemas for flexible data \u2014 remains highly relevant and is now solved more elegantly with modern 4D object fields.",
+    "status": "superseded",
+    "related_updates": [
+      "4D later added a native Object/Collection data type and JSON support, providing a built-in way to store free-form/unstructured data that did not exist in 2003"
+    ]
+  }
+}

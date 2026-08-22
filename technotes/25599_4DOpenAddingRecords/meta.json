@@ -1,0 +1,25 @@
+{
+  "asset_id": 25599,
+  "title": "Tech Note: 4D Open: Adding records",
+  "technote_number": "02-58",
+  "year": 2002,
+  "published_date": "December 31, 2002",
+  "product": "4D Open",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=25599",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-58_4D_Open-Add_Records.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Open plug-in",
+    "Remote record creation"
+  ],
+  "historical_commentary": {
+    "text": "4D Open as a distinct plug-in is obsolete; modern 4D applications would use ORDA remote datastores or REST APIs to add records to a remote 4D Server rather than this legacy plug-in mechanism.",
+    "status": "obsolete",
+    "related_updates": [
+      "ORDA remote datastores and REST APIs have superseded the 4D Open plug-in for remote record CRUD operations"
+    ]
+  }
+}

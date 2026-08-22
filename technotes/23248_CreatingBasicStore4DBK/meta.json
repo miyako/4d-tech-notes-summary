@@ -1,0 +1,25 @@
+{
+  "asset_id": 23248,
+  "title": "Tech Note: Creating a Basic Store Using 4D Business Kit",
+  "technote_number": "02-19",
+  "year": 2002,
+  "published_date": "April 30, 2002",
+  "product": "4D Business Kit",
+  "version": "1.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23248",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_15-19_(apr)/02-19_basic_store.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Business Kit",
+    "HTML storefront tags"
+  ],
+  "historical_commentary": {
+    "text": "4D Business Kit has been discontinued for many years, making this note's specific HTML-tag-based storefront setup obsolete; anyone building a modern e-commerce storefront today would use current web frameworks or dedicated e-commerce platforms rather than 4DBK.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Business Kit has been discontinued; modern e-commerce storefronts are built with current web frameworks or dedicated e-commerce platforms"
+    ]
+  }
+}

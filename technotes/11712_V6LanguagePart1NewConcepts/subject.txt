@@ -1,0 +1,1 @@
+Tech Note: The 4D Language, Part 1: New Concepts in Version 6 (TN 96-45, 4th Dimension v6.0, September 1996) — a comprehensive preview of 4D v6.0's language changes: new terminology, 31-character object names, constants, hex/bitwise operators, BLOBs, object properties/events, expanded query options, password commands, stored procedures, and 4D's first built-in Web Server.

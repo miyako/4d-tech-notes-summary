@@ -1,0 +1,29 @@
+{
+  "asset_id": 11833,
+  "title": "Tech Note: Print Form Reports Made Easier",
+  "technote_number": "99-08",
+  "year": 1999,
+  "published_date": "April 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11833",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "PRINT FORM",
+    "Quick Report",
+    "PRINT SELECTION",
+    "Report Design"
+  ],
+  "historical_commentary": {
+    "text": "This note addresses the complexity of PRINT FORM-based reporting by providing reusable generic methods to simplify the process. While Quick Report and PRINT SELECTION remain in modern 4D, the PRINT FORM command is still available and the concept of isolating report logic into reusable methods remains a sound programming practice. The specific v6.5 code patterns would need updating for modern 4D syntax.",
+    "status": "historical interest only",
+    "related_updates": [
+      "PRINT FORM remains available in modern 4D but reporting capabilities have expanded significantly",
+      "4D View Pro and List Box-based reporting offer modern alternatives to classic PRINT FORM workflows"
+    ]
+  }
+}

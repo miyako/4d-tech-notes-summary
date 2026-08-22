@@ -1,0 +1,1 @@
+Tech Note: Basics of List Form Objects (TN 02-38, 4D v6.8, August 2002) — an introduction to the basics of programmatically using 4D's four list-based form object types: scrollable areas, drop-down lists, combo boxes, and hierarchical lists.

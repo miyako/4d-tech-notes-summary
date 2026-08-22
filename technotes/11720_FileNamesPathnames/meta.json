@@ -1,0 +1,28 @@
+{
+  "asset_id": 11720,
+  "title": "Tech Note: File Names and Pathnames",
+  "technote_number": "96-41",
+  "year": 1996,
+  "published_date": "September 1, 1996",
+  "product": "4D",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": "ACI US Technical Support",
+  "page_url": "https://kb.4d.com/assetid=11720",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_37-41_(SEP)/96-41_PathNames.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "MAP FILE TYPES command",
+    "Cross-platform file naming/pathname handling",
+    "4D Insider"
+  ],
+  "historical_commentary": {
+    "text": "This note provides two generic, platform-independent utility routines (Path to name, Path only path) for extracting a document's short name and its containing pathname from a long file name, accounting for the differing file-naming rules and path separators of classic Mac OS (colon-separated, 31-char names) versus DOS/Windows (backslash-separated, then-8.3 or up to 255 chars). The specific file-naming limits and path-separator handling described are obsolete relative to modern macOS/Windows file systems, though the general principle of writing platform-abstraction utility code for cross-platform 4D applications remains conceptually relevant.",
+    "status": "obsolete",
+    "related_updates": [
+      "Classic Mac OS's 31-character file name limit and colon-based pathname format were retired along with classic Mac OS itself (Mac OS X onward uses much longer names and POSIX/HFS+ paths)",
+      "DOS's 8.3 file name limit is long obsolete; modern Windows (and 4D) support long file names uniformly",
+      "4D's current cross-platform document/path-handling commands and the Document/Path length limits have been substantially updated since this 1996 note"
+    ]
+  }
+}

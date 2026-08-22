@@ -1,0 +1,25 @@
+{
+  "asset_id": 23251,
+  "title": "Tech Note: BasicStamp",
+  "technote_number": "02-16",
+  "year": 2002,
+  "published_date": "April 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23251",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_15-19_(APR)/02-16_Basic_Stamp.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "BASIC Stamp microcontroller",
+    "Serial hardware interfacing"
+  ],
+  "historical_commentary": {
+    "text": "The specific serial-communication technique and BASIC Stamp hardware used here are now a niche, largely obsolete combination (BASIC Stamp has been superseded by Arduino, Raspberry Pi, and other modern microcontroller platforms), but the general concept \u2014 using 4D as a data-acquisition front end for external hardware over a serial or network connection \u2014 remains a valid and still-occasionally-used integration pattern today.",
+    "status": "historical interest only",
+    "related_updates": [
+      "BASIC Stamp microcontrollers have been largely superseded by modern platforms like Arduino and Raspberry Pi for hobbyist/embedded hardware projects"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "asset_id": 11798,
+  "title": "Tech Note: Debugging with DDT",
+  "technote_number": "98-15",
+  "year": 1998,
+  "published_date": "March 1, 1998",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac &amp; Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11798",
+  "download_url": "",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "DDT (Debugging Tool)",
+    "4th Dimension",
+    "Debugging Techniques"
+  ],
+  "historical_commentary": {
+    "text": "The debugging tools described here predate 4D's modern integrated debugger, which has evolved significantly with features like remote debugging and the v19+ debugger improvements. The 'quick-and-dirty' debugging tricks reflect an era when 4D's built-in debugging facilities were more limited.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D's built-in debugger has been substantially enhanced over successive versions",
+      "Modern 4D includes integrated debugging with breakpoints, variable inspection, and remote debugging capabilities"
+    ]
+  }
+}

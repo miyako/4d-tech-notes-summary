@@ -1,0 +1,1 @@
+Tech Note: 4DAF Optimizer – Part 1 (TN 07-28, 4D Web 2.0 Pack v1.1, July 2007) — introduces a companion tool that strips unused JavaScript files from a 4DAF application's 'js' folder and rebuilds a leaner framework.js bundle to speed up page load times.

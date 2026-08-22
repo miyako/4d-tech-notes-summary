@@ -1,0 +1,25 @@
+{
+  "asset_id": 29726,
+  "title": "Tech Note: A different way to display data",
+  "technote_number": "03-30",
+  "year": 2003,
+  "published_date": "June 26, 2003",
+  "product": "4D",
+  "version": "2003",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=29726",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-30_DifftWayToDisplayData.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Custom graphical data visualization",
+    "4D Chart / drawing objects"
+  ],
+  "historical_commentary": {
+    "text": "The specific classic-4D drawing techniques this note likely demonstrated have been superseded by modern charting/visualization libraries (including JS-based charting embedded in web areas), but the core data-visualization design principle it champions \u2014 that visual presentation affects comprehension \u2014 remains entirely valid and is a mainstay of contemporary UX/data-viz practice.",
+    "status": "superseded",
+    "related_updates": [
+      "Modern 4D web areas can embed contemporary JS charting/visualization libraries, offering far richer options than the classic drawing techniques available in 2003"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: 4D Blogger and SOAP Part II (TN 03-23, 4D v2003, May 2003) — Part II of a two-part note on 4D Blogger, focusing on implementing the WebLog Client interface and new features added in 4D Blogger v2.

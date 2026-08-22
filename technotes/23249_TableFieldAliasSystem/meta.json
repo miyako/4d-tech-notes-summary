@@ -1,0 +1,25 @@
+{
+  "asset_id": 23249,
+  "title": "Tech Note: Creating a Table and Field Alias System for Multiple Users",
+  "technote_number": "02-18",
+  "year": 2002,
+  "published_date": "April 30, 2002",
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=23249",
+  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_15-19_(apr)/02-18_membership.exe",
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D table/field aliasing",
+    "Multi-user schema abstraction"
+  ],
+  "historical_commentary": {
+    "text": "The specific table/field aliasing commands referenced here remain part of 4D's classic language, so this technique likely remains applicable in current 4D, though modern localization and multi-tenant schema abstraction needs are often now addressed through ORDA's more flexible data model layer rather than field-level aliasing alone.",
+    "status": "still relevant",
+    "related_updates": [
+      "ORDA's data model layer (introduced in 4D v17+) offers additional, more flexible ways to present different views of underlying data to different consumers, alongside the classic field-aliasing approach described here"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11849,
+  "title": "Tech Note: Distributed Processing in 4D",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "August 1, 1999",
+  "product": "4D",
+  "version": "6.5",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11849",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.5",
+    "4D Server",
+    "Distributed Processing",
+    "Multi-process Architecture"
+  ],
+  "historical_commentary": {
+    "text": "Distributed processing in 4D v6.5 leveraged the client-server architecture of 4D Server to split computational work. This was a forward-thinking concept for its era. Modern 4D provides preemptive processes, workers, and the CALL WORKER command for parallel execution, though true distributed computing across multiple machines is typically handled differently today.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Preemptive processes introduced in 4D v15+ replaced cooperative multitasking",
+      "Workers and CALL WORKER provide modern inter-process communication"
+    ]
+  }
+}

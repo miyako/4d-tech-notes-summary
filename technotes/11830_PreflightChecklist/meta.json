@@ -1,0 +1,28 @@
+{
+  "asset_id": 11830,
+  "title": "Tech Note: Preflight Checklist",
+  "technote_number": "99-05",
+  "year": 1999,
+  "published_date": "April 1, 1999",
+  "product": "4D",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11830",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D v6.0",
+    "Quality Assurance",
+    "Application Deployment",
+    "Software Testing"
+  ],
+  "historical_commentary": {
+    "text": "This note provides a comprehensive checklist for quality-assuring a 4D-based application before delivery to end users. While the specific items would reference 4D v6 features, the concept of a preflight/QA checklist before deployment is timeless software engineering practice. Modern 4D development would use different tools (automated testing, CI/CD) but the systematic review approach remains valuable.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Modern 4D supports unit testing and automated build processes that complement manual checklists",
+      "4D's Build Application dialog and deployment tools have significantly evolved since v6"
+    ]
+  }
+}
