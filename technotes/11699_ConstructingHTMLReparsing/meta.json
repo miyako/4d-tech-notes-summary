@@ -1,0 +1,28 @@
+{
+  "asset_id": 11699,
+  "title": "Tech Note: Constructing HTML for Simple Reparsing",
+  "technote_number": "96-19",
+  "year": 1996,
+  "published_date": "April 1, 1996",
+  "product": "4th Dimension",
+  "version": "3.x",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11699",
+  "download_url": "https://kb.4d.com/DLTN/TN/1996/Windows/TN_1996_17-19_(APR)/96-19_HTML_Reparsing.exe",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "HTML custom comment tags",
+    "4D as Web Server (early 1996 implementation)",
+    "Client-side HTML source reparsing into database records"
+  ],
+  "historical_commentary": {
+    "text": "The extracted text for this asset is corrupted \u2014 it appears to use a shifted/substituted character encoding (likely a font-substitution artifact from the original PDF's text extraction), rendering nearly all of the body content unreadable gibberish. Only scattered legible fragments survive (references to 'HTML', 'field and record delimiters', 'custom comment tags', and a client downloading and reparsing HTML source into records), so this summary is based on the title, technote metadata, and those fragments rather than a full reading of the note's actual content. Based on what is legible, the note appears to describe embedding custom HTML comment tags around field/record data so a client application could later download that HTML and reparse it back into structured records \u2014 an early, pre-XML technique for exchanging structured data over the web that was made obsolete by standardized data-interchange formats.",
+    "status": "obsolete",
+    "related_updates": [
+      "The source PDF-to-text extraction for this asset is corrupted/garbled, so this summary relies on the title and only a handful of legible fragments rather than the complete original text",
+      "Embedding custom comment tags in HTML to encode structured data for later client-side reparsing was superseded by standardized data-interchange formats (XML, then JSON) that became the norm for structured data exchange over the web",
+      "4D's own web/data-exchange capabilities have long since moved to built-in XML, JSON, and REST/ORDA-based mechanisms, making this ad hoc HTML-comment-tag technique unnecessary in any modern 4D web project"
+    ]
+  }
+}
