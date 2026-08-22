@@ -1,0 +1,30 @@
+{
+  "asset_id": 41346,
+  "title": "Tech Note: Active Directory - Single Sign-on Using 4D 2004",
+  "technote_number": "06-02",
+  "year": 2006,
+  "published_date": "January 11, 2006",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Win",
+  "author": "Thomas Maul, General Manager, 4D Germany.",
+  "page_url": "https://kb.4d.com/assetid=41346",
+  "download_url": "https://kb.4d.com/DLTN/TN/2006/Windows/TN_2006_01-04_(JAN)/06-02_Active_Directory.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004",
+    "Windows Active Directory",
+    "LAUNCH EXTERNAL PROCESS / VBScript integration",
+    "CHANGE CURRENT USER",
+    "4D password/group system"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates a clever no-plug-in workaround for Active Directory single sign-on by shelling out to a dynamically generated VBScript via LAUNCH EXTERNAL PROCESS, a very much of-its-era technique for a Windows-only 4D 2004 application. The general problem it solves (mapping AD/LDAP users and groups into 4D's internal password system) remains conceptually relevant, but the implementation is thoroughly obsolete: it predates 4D's SQL engine (introduced in v11, 2007), predates Project Mode and ORDA by over a decade, and relies on legacy commands and a VBScript-shelling approach that modern 4D developers would replace with built-in LDAP/network commands or a proper external component/plug-in.",
+    "status": "obsolete",
+    "related_updates": [
+      "Later 4D versions added more direct commands for external process/network interaction, reducing reliance on hand-rolled VBScript shelling",
+      "4D v11 (2007) introduced 4D's native SQL engine, unrelated to this note's topic but marking the broader platform evolution since this note's publication",
+      "Modern 4D authentication integrations more commonly use LDAP libraries, REST/OAuth, or dedicated plug-ins rather than shelling out to VBScript"
+    ]
+  }
+}
