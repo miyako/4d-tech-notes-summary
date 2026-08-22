@@ -1,0 +1,27 @@
+{
+  "asset_id": 76939,
+  "title": "Tech Note: Advanced Cropping in 4D",
+  "technote_number": "14-01",
+  "year": 2014,
+  "published_date": "January 9, 2014",
+  "product": "4D",
+  "version": "14.0",
+  "platform": "Mac & Win",
+  "author": "Charles \u201cCharlie\u201d Vass, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76939",
+  "download_url": "https://kb.4d.com/DLTN/TN/2014/14-01_AdvancedCroppingIn4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "TRANSFORM PICTURE command",
+    "Draggable-handle cropping rectangle built from static picture objects",
+    "OBJECT MOVE / mouse event handling for drag-based UI",
+    "Picture Library / file-on-disk image saving"
+  ],
+  "historical_commentary": {
+    "text": "This note's core mechanism, the TRANSFORM PICTURE command for cropping/scaling/flipping images, still exists in current 4D versions, and hand-building a draggable crop-handle overlay from carefully positioned static picture objects and mouse-event tracking remains a valid (if labor-intensive) classic-language UI technique. It is a craftsmanship-heavy solution to a problem that, in a modern application, might instead be delegated to a Web Area hosting a JavaScript image-cropping library, which would offer smoother dragging and less manual per-pixel object management. The underlying picture manipulation command and general approach are still functional and directly usable today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "A Web Area hosting a modern JavaScript cropping library is a common present-day alternative offering smoother interaction with less manual object-positioning code"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # 4D Tech Notes Index
 
-Total Tech Notes: 263
+Total Tech Notes: 347
 
 | Asset ID | Title | Year | Version | Author | Status | Link |
 |---|---|---|---|---|---|---|
@@ -255,15 +255,99 @@ Total Tech Notes: 263
 | 77112 | Validation of Client Build Version | 2014 | 14.0 | Tai BUI, Technical Services Engineer, 4D Inc. | still_relevant | [page](./77112_ValidationClientBuildVersion/summary_page.md) |
 | 77069 | Tech Note: Preserving display state with Save Geometry | 2014 | 14.0 | Vance Villanueva, Technical Services Engineer, 4D Inc. | still_relevant | [page](./77069_SaveGeometry/summary_page.md) |
 | 77068 | Tech Note: Using Expressions in 4D Styled Text | 2014 | 14.0 | Timothy Tse, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./77068_ExpressionsInStyledText/summary_page.md) |
+| 77066 | Tech Note: Web Area Inspector | 2014 | 14.0 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./77066_WebAreaInspector/summary_page.md) |
+| 77043 | Tech Note: Getting Started with Language Objects in 4D | 2014 | 14.0 |  | partially_superseded | [page](./77043_LanguageObjects/summary_page.md) |
+| 77036 | Tech Note: Build a Multi-View Planner with SVG | 2014 | 13.5 | Herve LE MARCHAND, 4D Developer | partially_superseded | [page](./77036_MultiViewPlannerSVG/summary_page.md) |
+| 77016 | Tech Note: [3rd Party Tech Note] Sending HTML Emails | 2014 | 14.0 | Dave Terry, Pacific Data Management, Inc. | still_relevant | [page](./77016_SendingHtmlEmails/summary_page.md) |
+| 77005 | Tech Note: Auto Update Feature 4D v14 | 2014 | 14.0 | Julian Weidenbacher, Technical Services Team Member, 4D Inc. | still_relevant | [page](./77005_AutoUpdateFeatureV14/summary_page.md) |
+| 77001 | Tech Note: Automating a font distribution and installation for an application | 2014 | 13.4 | Vance Villanueva, Technical Services Engineer, 4D Inc. | still_relevant | [page](./77001_FontDistribution/summary_page.md) |
+| 76966 | Tech Note: Database Normalization | 2014 | 14.0 | Timothy Tse, Technical Services Team Member, 4D Inc. | current | [page](./76966_DatabaseNormalization/summary_page.md) |
+| 76949 | Tech Note: Creating a Ribbon-Style Toolbar in 4D | 2014 | 13.4 | Timothy Aaron Penner, Technical Services Engineer, 4D Inc. | still_relevant | [page](./76949_RibbonStyleToolbar/summary_page.md) |
+| 76939 | Tech Note: Advanced Cropping in 4D | 2014 | 14.0 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76939_AdvancedCropping/summary_page.md) |
+| 76932 | Tech Note: Preparing External Databases for Components | 2013 | 13.4 | Milan Adamov, International Technical Support Team Member, 4D SAS. | partially_superseded | [page](./76932_ExternalDatabasesForComponents/summary_page.md) |
+| 76895 | Tech Note: Converting relations to subtable fields | 2013 | 13.3 | Milan Adamov, International Technical Support Team Member, 4D SAS. | obsolete | [page](./76895_RelationsToSubtableFields/summary_page.md) |
+| 76883 | Tech Note: 4D and Google Charts API - Part 2 | 2013 | 13.3 | Jean-Jacques BLEU, 4D Developer | partially_superseded | [page](./76883_GoogleChartsApiPart2/summary_page.md) |
+| 76880 | Tech Note: 4D and Google Charts API | 2013 | 13.3 | Jean-Jacques BLEU, 4D Developer | partially_superseded | [page](./76880_GoogleChartsApi/summary_page.md) |
+| 76854 | Tech Note: How to Build a Window Menu | 2013 | 13.3 | Tim Penner, Technical Services Engineer, 4D Inc. | still_relevant | [page](./76854_WindowMenu/summary_page.md) |
+| 76838 | Tech Note: Start and Stop External PHP Interpreter within 4D | 2013 | 13.3 | Aaron Smith, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76838_ExternalPHPInterpreter/summary_page.md) |
+| 76835 | Tech Note: SMTP Component | 2013 | 13.3 | Sonya Rackwitz, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76835_SMTPComponent/summary_page.md) |
+| 76828 | Tech Note: Data Reconstruction | 2013 | 13.2 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76828_DataReconstruction/summary_page.md) |
+| 76824 | Tech Note: 4D and Web Pagination | 2013 | 13.2 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76824_WebPagination/summary_page.md) |
+| 76798 | Tech Note: Typing Variables and Arrays for Active Objects | 2013 | 13.3 | Aaron Smith, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76798_TypingVariablesArrays/summary_page.md) |
+| 76783 | Tech Note: Resources Kit | 2013 | 12.5 | Keisuke Miyako, Sales Engineer, 4D-Japan | obsolete | [page](./76783_ResourcesKit/summary_page.md) |
+| 76765 | Tech Note: Integrating Facebook with 4D | 2013 | 13.2 | Darrell Draper, Technical Services Team Member, 4D Inc. | deprecated | [page](./76765_FacebookIntegration/summary_page.md) |
+| 76764 | Tech Note: Advanced List Box Printing | 2013 | 13.2 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76764_ListBoxPrinting/summary_page.md) |
+| 76723 | Tech Note: Cropping in 4D | 2012 | 13.2 | Sonya Rackwitz, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76723_CroppingIn4D/summary_page.md) |
+| 76694 | Tech Note: REST Web Services with 4D (Part 1) | 2012 | 13.2 | Christophe Keromen | partially_superseded | [page](./76694_RESTWebServicesPart1/summary_page.md) |
+| 76678 | Tech Note: Build a Web Service Iteratively (XML-JSON) | 2012 | 13.1 |  | partially_superseded | [page](./76678_XMLJSONWebService/summary_page.md) |
+| 76669 | Tech Note: Synchronizing an HTTP client with 4D Server v12 | 2012 | 12.4 | Christophe Keromen, CKTI Consulting Firm | obsolete | [page](./76669_SyncHTTPClientServer/summary_page.md) |
+| 76667 | Tech Note: Type Ahead Suggestions | 2012 | 13.1 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76667_TypeAheadSuggestions/summary_page.md) |
+| 76641 | Tech Note: Automatic Client Update - Updated for 2012 | 2012 | 12.4 | Josh Fletcher, Technical Account Manager, 4D Inc. | partially_superseded | [page](./76641_AutoClientUpdate/summary_page.md) |
 | 76631 | Tech Note: Multiple Web Servers on a Single OS | 2012 | 12.4 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76631_MultipleWebServersSingleOS/summary_page.md) |
 | 76630 | Tech Note: Programmable and Portable Component Subforms | 2012 | 12.4 | Bertrand Soubeyrand, Consultants | still_relevant | [page](./76630_ComponentSubforms/summary_page.md) |
 | 76611 | Tech Note: Dynamic Web Serving | 2012 | 13.1 | Darrell Draper, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76611_DynamicWebServing/summary_page.md) |
 | 76606 | Tech Note: Image Browser | 2012 | 13.1 |  | still_relevant | [page](./76606_ImageBrowser/summary_page.md) |
+| 76585 | Tech Note: User Configured List Forms | 2012 | 13.0 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76585_UserConfiguredListForms/summary_page.md) |
+| 76560 | Tech Note: Practical Uses for List Item Parameters | 2012 | 13.0 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76560_ListItemParameters/summary_page.md) |
+| 76559 | Tech Note: Practical Subversion with 4D | 2012 | 13.0 | Josh Fletcher, Technical Account Manager, 4D Inc. | obsolete | [page](./76559_PracticalSubversionWith4D/summary_page.md) |
+| 76547 | Tech Note: Static Web Serving 101 | 2012 | 13.0 | Darrell Draper, Technical Services Team Member, 4D Inc. | current | [page](./76547_StaticWebServing101/summary_page.md) |
+| 76546 | Tech Note: Music Player Integration | 2012 | 13.0 | Sonya Rackwitz, Technical Services Team Member, 4D Inc. | obsolete | [page](./76546_MusicPlayerIntegration/summary_page.md) |
+| 76496 | Tech Note: Replication Administration Tool | 2012 | 13.1 | Jesse Piña, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76496_ReplicationAdminTool/summary_page.md) |
+| 76493 | Tech Note: Managing Backup Preferences and Files | 2012 | 12.3 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76493_ManagingBackupPreferences/summary_page.md) |
+| 76478 | Tech Note: 4D v13 REST Tester | 2012 | 13.0 | Josh Fletcher, Technical Account Manager, 4D Inc. | partially_superseded | [page](./76478_RestTester/summary_page.md) |
+| 76469 | Tech Note: Flickr API Integration with 4D v13 | 2012 | 13.0 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76469_FlickrApiIntegration/summary_page.md) |
+| 76460 | Tech Note: Converting Subtables to Standard Tables | 2012 | 12 | Darrell Draper, Technical Services Team Member, 4D Inc. | obsolete | [page](./76460_ConvertingSubtables/summary_page.md) |
+| 76458 | Tech Note: Partial Data File Verification | 2011 | 12 | Jesse Pina, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76458_PartialDataFileVerification/summary_page.md) |
 | 76452 | Integrating OpenSearch with 4D v12 | 2011 | 12 | Sonya Rackwitz, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76452_OpenSearchIntegration/summary_page.md) |
 | 76438 | Interactive Charting with 4D SVG | 2011 | 12.3 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | obsolete | [page](./76438_InteractiveChartingSVG/summary_page.md) |
 | 76432 | Coding differently in 4D V12 | 2011 | 12 | Christophe Keromen, Cabinet de Consultants CKTI | still_relevant | [page](./76432_CodingDifferentlyV12/summary_page.md) |
 | 76393 | List Boxes in 4D v12: Hierarchy and Printing | 2011 | 12 | Bertrand Soubeyrand, Soubeyrand Consultant. | still_relevant | [page](./76393_ListBoxHierarchyPrinting/summary_page.md) |
 | 76386 | 4D SQL Query Browser | 2011 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76386_SQLQueryBrowser/summary_page.md) |
+| 76385 | SVG Coordinate System – Part 2 | 2011 | 12 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76385_SVGCoordinateSystemPart2/summary_page.md) |
+| 76377 | Dynamic Variables in 4D v12 | 2011 | 12 | Christophe Keromen, Cabinet de Consultants CKTI | still_relevant | [page](./76377_DynamicVariablesV12/summary_page.md) |
+| 76374 | ICU in 4D: Impact on Queries, Sorts and String Comparisons | 2011 | 11.2 | Djompolo TANDJIGORA, Quality Control Engineer, 4D SAS. | still_relevant | [page](./76374_ICUQueriesSortsStrings/summary_page.md) |
+| 76368 | Understanding the 4D v12 Cache | 2011 | 12.2 | Josh Fletcher, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76368_UnderstandingV12Cache/summary_page.md) |
+| 76362 | Web URL Tracking | 2011 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76362_WebURLTracking/summary_page.md) |
+| 76360 | SVG Coordinate System | 2011 | 12 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76360_SVGCoordinateSystem/summary_page.md) |
+| 76348 | Introduction to Synchronization and Replication in 4D v12 | 2011 | 12.2 | Josh Fletcher, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76348_SyncReplicationV12/summary_page.md) |
+| 76343 | Grid Layout with SVG | 2011 | 12.2 | Jesse Piña, Technical Services Team Member, 4D Inc. | obsolete | [page](./76343_GridLayoutSVG/summary_page.md) |
+| 76338 | The 4D v12 Rich Text Area Component | 2011 | 12.1 | Tom Fitch, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76338_RichTextAreaComponent/summary_page.md) |
+| 76331 | SQL Dumps in 4D v12 | 2011 | 12.1 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76331_SQLDumpsV12/summary_page.md) |
+| 76326 | Tech Note: Reusable SVG — The Power of <defs> | 2011 | 12.1 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76326_ReusableSVGDefs/summary_page.md) |
+| 76320 | Tech Note: Troubleshooting ODBC Issues | 2011 | 12.1 | Jesse Pina, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76320_TroubleshootingODBCIssues/summary_page.md) |
+| 76312 | Tech Note: PHPExcel Library with 4D v12 | 2011 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76312_PHPExcelLibrary/summary_page.md) |
+| 76311 | Tech Note: Introduction to Build Automation | 2011 | 12 | Josh Fletcher, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76311_BuildAutomation/summary_page.md) |
+| 76295 | Tech Note: Hierarchical List Boxes | 2011 | 12 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76295_HierarchicalListBoxes/summary_page.md) |
+| 76288 | Tech Note: SVG Graphic Noise Images for Form Backgrounds | 2011 | 12.1 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76288_SVGGraphicNoiseBackgrounds/summary_page.md) |
+| 76283 | Tech Note: Branding Web Apps: Customizing CSS primer | 2011 | 12.1 | Rudolf Psenicnik, Technical Services Team Member, 4D Inc. | obsolete | [page](./76283_BrandingWebAppsCSS/summary_page.md) |
+| 76277 | Tech Note: Using RegEx “Lookarounds” with 4D Match regex | 2011 | 12 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | current | [page](./76277_RegexLookarounds/summary_page.md) |
+| 76273 | Tech Note: Convert to PDF with 4D v12 and PHP | 2011 | 12.1 | Jesse Pina, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76273_ConvertToPDFWithPHP/summary_page.md) |
+| 76266 | Tech Note: 4D Credentials Manager: JavaScript Injection Using Data from 4D | 2011 | 12 |  | obsolete | [page](./76266_JSInjectionCredentialsManager/summary_page.md) |
+| 76265 | Tech Note: Building PDO_4D on Linux | 2011 | 12.1 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | deprecated | [page](./76265_BuildingPDO4DOnLinux/summary_page.md) |
+| 76261 | Tech Note: Menus in 4D v12 | 2011 | 12.1 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76261_MenusIn4Dv12/summary_page.md) |
+| 76254 | Tech Note: Web Storage | 2011 | 12.1 | Rudolf Psenicnik, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76254_WebStorage/summary_page.md) |
+| 76247 | Tech Note: 4D v12 and Exchange Web Services | 2011 | 12.1 | Jesse Pina, Technical Services Team Member, 4D Inc. | deprecated | [page](./76247_ExchangeWebServices/summary_page.md) |
+| 76234 | Tech Note: Image Manipulation with GD | 2010 | 12.1 | Tom Fitch, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76234_ImageManipulationWithGD/summary_page.md) |
+| 76233 | Tech Note: Localization in 4D v12 | 2010 | 12.1 | Jesse Pina, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76233_LocalizationIn4D/summary_page.md) |
+| 76224 | Tech Note: Replication via HTTP | 2010 | 12.1 | Rudi Psenicnik, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76224_ReplicationViaHTTP/summary_page.md) |
+| 76221 | Tech Note: Idle User Detective | 2010 | 12 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76221_IdleUserDetective/summary_page.md) |
+| 76206 | Tech Note: Using External PHP Interpreters in 4D v12 | 2010 | 12 | Jesse Piña, Technical Services Team Member, 4D Inc. | deprecated | [page](./76206_ExternalPHPInterpreters/summary_page.md) |
+| 76200 | Tech Note: Mastering 4D Timeouts & Connectivity Settings | 2010 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76200_TimeoutsAndConnectivitySettings/summary_page.md) |
+| 76195 | Tech Note: Compacting Address Tables | 2010 | 12 | Josh Fletcher, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76195_CompactingAddressTables/summary_page.md) |
+| 76184 | Tech Note: Image Manipulation with SVG | 2010 | 12 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76184_ImageManipulationWithSVG/summary_page.md) |
+| 76174 | Tech Note: Pinpoint Coding problems using 4D v12 Assertions | 2010 | 12 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | current | [page](./76174_CodingAssertions/summary_page.md) |
+| 76170 | Tech Note: Comparing Client Deployment Options in 4D | 2010 | 12 | Josh Fletcher, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76170_ClientDeploymentOptions/summary_page.md) |
+| 76164 | Tech Note: Using External Databases for Speed, Simplicity and Security | 2010 | 12 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76164_ExternalDatabasesSpeedSimplicitySecurity/summary_page.md) |
+| 76158 | Tech Note: PhotoAdjust Plug-in | 2010 | 12 | Thomas Maul, 4D Germany. | obsolete | [page](./76158_PhotoAdjustPlugin/summary_page.md) |
+| 76152 | Tech Note: Troubleshooting PHP Scripts for 4D | 2010 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | deprecated | [page](./76152_TroubleshootingPHPScripts/summary_page.md) |
+| 76140 | Tech Note: Editing SVG Pictures in 4D v12 | 2010 | 12 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76140_EditingSVGPictures/summary_page.md) |
+| 76130 | Tech Note: Hash Examples in 4D | 2010 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76130_HashExamples/summary_page.md) |
+| 76128 | Tech Note: 4D Debug Log Enabler | 2010 | 11.6 |  | still_relevant | [page](./76128_DebugLogEnabler/summary_page.md) |
 | 76124 | LDAP and 4D v12 | 2010 | 12 | Jesse Pina, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76124_LdapAnd4Dv12/summary_page.md) |
 | 76121 | Running 4D Server as a Mac OS X "Faux" Service | 2010 | 11.6 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | obsolete | [page](./76121_FauxServiceMacOSX/summary_page.md) |
 | 76118 | Dynamic Object Printing | 2010 | 12 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76118_DynamicObjectPrinting/summary_page.md) |
+| 76111 | How to Create and Use Callbacks in 4D | 2010 | 11.6 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76111_CallbacksIn4D/summary_page.md) |
+| 76106 | Rich Text in 4D v12 | 2010 | 12 |  | still_relevant | [page](./76106_RichTextV12/summary_page.md) |
+| 76103 | Understanding 64-bit Support in 4D v12 | 2010 | 12 | Josh Fletcher, Technical Services Team Member, 4D Inc. | obsolete | [page](./76103_64BitSupportV12/summary_page.md) |
+| 76089 | Printing in 4D v12 | 2010 | 12 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76089_PrintingIn4Dv12/summary_page.md) |
+| 76088 | Asterisk and 4D via PHP in v12 | 2010 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76088_AsteriskPhpApi/summary_page.md) |

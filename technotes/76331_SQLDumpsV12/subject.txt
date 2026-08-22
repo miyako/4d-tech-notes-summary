@@ -1,0 +1,1 @@
+SQL Dumps in 4D v12 (TN 11-15, 4D v12.1, May 12, 2011) — explains how to export a full or partial 4D database as a standard SQL dump using SQL EXPORT DATABASE and SQL EXPORT SELECTION, and how to re-import that data using SQL EXECUTE SCRIPT, with sample database, dump, and structure definition included.

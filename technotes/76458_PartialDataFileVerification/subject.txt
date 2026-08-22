@@ -1,0 +1,1 @@
+Tech Note: Partial Data File Verification (TN 11-30, 4D v12, December 2011) — using the VERIFY CURRENT DATA FILE command, introduced in 4D v11 SQL, to programmatically verify (and partially repair) a database's data and index files, including a callback method for custom result handling.

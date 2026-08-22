@@ -1,0 +1,1 @@
+The 4D v12 Rich Text Area Component (TN 11-16, 4D v12.1, May 20, 2011) — introduces 4D v12's native rich text support for Text/Alpha fields, variables, and list box cells, and documents the companion Rich Text Area sub-form component for end-user rich text editing, from installation through usage.

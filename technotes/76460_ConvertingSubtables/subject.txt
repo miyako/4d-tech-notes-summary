@@ -1,0 +1,1 @@
+Tech Note: Converting Subtables to Standard Tables (TN 12-01, 4D v12, January 2012) — a migration guide for moving legacy 4D 2004-era subtables to standard related tables ahead of the eventual removal of deprecated subtable commands.

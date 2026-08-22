@@ -1,0 +1,27 @@
+{
+  "asset_id": 76469,
+  "title": "Tech Note: Flickr API Integration with 4D v13",
+  "technote_number": "12-02",
+  "year": 2012,
+  "published_date": "January 31, 2012",
+  "product": "4D",
+  "version": "13.0",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76469",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-02_FlickrIntegration.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v13 new HTTP Client commands",
+    "Flickr REST API",
+    "OAuth-style token authentication and request signing",
+    "Photo upload via HTTP POST"
+  ],
+  "historical_commentary": {
+    "text": "This note demonstrates third-party REST API integration (Flickr) using 4D v13's then-new HTTP Client commands, covering authentication token handling, request signing, and photo upload via HTTP calls. The HTTP Client commands themselves remain part of the current 4D classic language and are still a valid way to call external REST APIs, so the core technique still functions, though modern 4D development increasingly favors combining these HTTP Client calls with native JSON parsing (built into 4D since v15/16) for cleaner request/response handling than was available in 2012, and the specific Flickr authentication flow shown may be outdated relative to Flickr's current API since services frequently revise their auth requirements over a decade.", "status": "still_relevant",
+    "related_updates": [
+      "4D's native JSON parsing commands (available since 4D v15/16) simplify handling REST API responses compared to the manual text parsing common in 2012",
+      "Third-party API authentication flows (like Flickr's) should always be checked against the current provider documentation, as OAuth/token requirements evolve independently of 4D"
+    ]
+  }
+}

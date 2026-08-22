@@ -1,0 +1,28 @@
+{
+  "asset_id": 76883,
+  "title": "Tech Note: 4D and Google Charts API - Part 2",
+  "technote_number": "13-11",
+  "year": 2013,
+  "published_date": "September 23, 2013",
+  "product": "4D",
+  "version": "13.3",
+  "platform": "Mac & Win",
+  "author": "Jean-Jacques BLEU, 4D Developer",
+  "page_url": "https://kb.4d.com/assetid=76883",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-11_4DandGoogleChartAPI2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Google Charts API / Visualization library (corechart, gauge, table packages)",
+    "4D Web Area object for in-app chart rendering (no Web Server required)",
+    "PROCESS 4D TAGS with #4DHTML / #4DTEXT / #4DIF template tags",
+    "Cached HTML templates for repeated chart rendering"
+  ],
+  "historical_commentary": {
+    "text": "This note's headline achievement — rendering Google Charts inside a 4D Web Area entirely offline from 4D's own Web Server, driven by real 4D database data — remains a broadly valid architecture today; Web Areas and third-party JS charting libraries are still commonly combined this way. The specific mechanism for injecting 4D data into the HTML template, 4D's classic PROCESS 4D TAGS command with #4DHTML/#4DTEXT/#4DIF tags, is a legacy templating technique that has been effectively superseded by more modern approaches: building JSON payloads with 4D's native JSON commands and injecting them via WA Evaluate JavaScript or a lightweight REST/ORDA-backed endpoint, which is more maintainable and less coupled to 4D's older tag-substitution engine.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's native JSON commands (JSON Stringify/Parse) combined with WA Evaluate JavaScript are now a more common way to feed data into a Web Area's embedded JavaScript than PROCESS 4D TAGS templating",
+      "4D's REST server (built on ORDA, v16 R5+, 2017) can serve chart-ready JSON data without a hand-rolled Web Server/PROCESS 4D TAGS pipeline"
+    ]
+  }
+}

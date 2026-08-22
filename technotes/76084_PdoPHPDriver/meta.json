@@ -1,0 +1,28 @@
+{
+  "asset_id": 76084,
+  "title": "PDO_4D Driver",
+  "technote_number": "10-12",
+  "year": 2010,
+  "published_date": "April 16, 2010",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76084",
+  "download_url": "https://kb.4d.com/DLTN/TN/2010/Windows/TN_2010_11-14_(APR)/10-12_PDO_4D.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "PDO_4D open-source PHP Data Objects driver",
+    "4D v11/v12 SQL Engine/SQL Server",
+    "PHP PDO abstraction layer",
+    "Apache / IIS web server integration"
+  ],
+  "historical_commentary": {
+    "text": "This note documents PDO_4D, an open-source PDO driver 4D sponsored so that PHP running on Apache or IIS could access a 4D database's SQL Server directly, decoupling PHP front-end development from 4D back-end coding. This was a notable integration path when 4D's SQL engine was still new, but the surrounding architecture has since been superseded: modern 4D applications typically expose data through native REST/ORDA APIs rather than requiring a third-party web server and a separate PDO driver bridge, and the PDO_4D open-source project itself has seen little to no maintenance in the years since. It remains a historical curiosity rather than a recommended integration technique today.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's built-in REST server and ORDA (4D v16 R5+, 2017) now provide native, maintained data access for external web tiers, reducing the need for the PDO_4D bridge",
+      "SOAP/PHP-bridge era integration patterns generally replaced by REST + ORDA (~2016+)"
+    ]
+  }
+}

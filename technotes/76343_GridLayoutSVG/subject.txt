@@ -1,0 +1,1 @@
+Grid Layout with SVG (TN 11-17, 4D v12.2, May 27, 2011) — introduces a custom Grid Layout component built on the 4D SVG engine (GL_ command set) for displaying data in a tiled grid arrangement instead of the typical row-based list, with support for text, images, templates, and interactive events.

@@ -1,0 +1,27 @@
+{
+  "asset_id": 76343,
+  "title": "Grid Layout with SVG",
+  "technote_number": "11-17",
+  "year": 2011,
+  "published_date": "May 27, 2011",
+  "product": "4D",
+  "version": "12.2",
+  "platform": "Mac & Win",
+  "author": "Jesse Pi\u00f1a, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76343",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-17_Grid_Layout_with_SVG.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D SVG-based Grid Layout component (GL_ command set)",
+    "Array-driven grid templates for text and image display",
+    "Picture-object-based grid rendering with context menus"
+  ],
+  "historical_commentary": {
+    "text": "The grid-layout-as-alternative-to-rows concept remains a valid UI pattern, but this note's implementation is entirely built on the now-legacy 4D SVG component and its GL_ custom component API, rendering output into a picture object rather than any modern layout mechanism. Building a grid layout in 4D today would be done far more simply using a list box in grid/tile mode, CSS-based layout in a web area, or 4D View Pro, making the specific component and technique here obsolete despite the underlying UX idea staying sound.",
+    "status": "obsolete",
+    "related_updates": [
+      "List boxes with grid/collection display modes, and CSS Grid/Flexbox inside a web area, are now the standard ways to build grid-style layouts in 4D applications",
+      "4D View Pro (introduced v17+) for spreadsheet/grid-style data presentation"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 76895,
+  "title": "Tech Note: Converting relations to subtable fields",
+  "technote_number": "13-12",
+  "year": 2013,
+  "published_date": "November 5, 2013",
+  "product": "4D",
+  "version": "13.3",
+  "platform": "Mac & Win",
+  "author": "Milan Adamov, International Technical Support Team Member, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=76895",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-12_RelationToSubtableField.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Legacy 4D subtables (pre-4D v11 SQL structures)",
+    "RELATE ONE-based relations to subtable fields",
+    "Automated method-code migration via METHOD SET CODE and Replace string",
+    "QUERY / QUERY SELECTION / Get subrecord key as subtable relation replacements"
+  ],
+  "historical_commentary": {
+    "text": "This note is doubly legacy even for its own era: it exists purely to help developers migrate database structures created in 4D version 2004 or earlier, which used subtables (a hierarchical field type) with relations that 4D v11 SQL's new structure model could not represent and silently dropped during conversion. Subtables themselves were a deprecated 4D concept phased out entirely years ago, and the classic RELATE ONE/QUERY-based relation techniques this note automates converting code to have since been superseded by ORDA's entity-based, dot-notation relational access. This entire migration scenario is now obsolete: any database still needing this conversion would have had to complete it, or be re-platformed, long before ORDA and Project Mode arrived.",
+    "status": "obsolete",
+    "related_updates": [
+      "Subtables were fully removed from 4D's data model years ago; no 4D version after this era's line supports them",
+      "ORDA's entity/entity selection relational attributes (4D v16 R5/R6, 2017) superseded the classic RELATE ONE/QUERY-based relation patterns this note manipulates"
+    ]
+  }
+}

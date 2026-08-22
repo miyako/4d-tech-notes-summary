@@ -1,0 +1,1 @@
+Tech Note: Flickr API Integration with 4D v13 (TN 12-02, 4D v13.0, January 2012) — integrating the Flickr photo-sharing API into 4D using the brand-new HTTP Client feature, covering authentication, request signing, and photo uploads.

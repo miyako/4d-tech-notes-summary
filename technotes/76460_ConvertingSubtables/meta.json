@@ -1,0 +1,27 @@
+{
+  "asset_id": 76460,
+  "title": "Tech Note: Converting Subtables to Standard Tables",
+  "technote_number": "12-01",
+  "year": 2012,
+  "published_date": "January 6, 2012",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Darrell Draper, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76460",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-01_ConvertingSubtables.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Subtables (legacy 4D 2004-era relation, deprecated)",
+    "Standard table relations (post-v11 SQL migration)",
+    "Structure/form/query migration process",
+    "Deprecated subtable commands"
+  ],
+  "historical_commentary": {
+    "text": "This note guides developers migrating away from 4D's pre-2004-era subtable feature, which was already deprecated at the time of writing (subtables were converted automatically to standard tables with a compatibility relation starting in 4D v11 SQL, but the developer was urged to fully migrate to genuine standard table relations before deprecated commands were eventually removed). This migration guidance is now historical: any database still using subtable-era structures from 4D 2004 or earlier would have needed to complete this migration well over a decade ago, and the specific classic-language relation/query techniques it recommends moving to have themselves been substantially supplemented by ORDA's entity-based data access model introduced in 2017.", "status": "obsolete",
+    "related_updates": [
+      "Subtables and their compatibility relation/commands were fully phased out of 4D long ago; any surviving pre-2004-era databases would need this migration completed to run on modern 4D at all",
+      "ORDA entity selections and relational attributes (4D v16 R5/R6, 2017) are now the recommended way to model and query related data, superseding even the standard-table relations this note migrates toward"
+    ]
+  }
+}

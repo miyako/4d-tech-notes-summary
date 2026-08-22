@@ -1,0 +1,25 @@
+{
+  "asset_id": 76458,
+  "title": "Tech Note: Partial Data File Verification",
+  "technote_number": "11-30",
+  "year": 2011,
+  "published_date": "December 21, 2011",
+  "product": "4D",
+  "version": "12",
+  "platform": "Mac & Win",
+  "author": "Jesse Pina, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76458",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-30_PartialDataVerification.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "VERIFY CURRENT DATA FILE (introduced 4D v11 SQL)",
+    "VERIFY DATA FILE",
+    "Callback method for verification progress/results",
+    "Maintenance and Security Center (MSC)",
+    "Partial verification and partial repair/rebuild"
+  ],
+  "historical_commentary": {
+    "text": "This note documents VERIFY CURRENT DATA FILE / VERIFY DATA FILE, commands introduced in 4D v11 SQL for programmatic data/index file verification including partial (targeted object/table/field) checks and a callback mechanism for custom handling of results. These are foundational database-maintenance commands that remain part of current 4D versions and continue to function essentially as documented, making the technique still directly applicable today; database integrity verification is a timeless operational need unaffected by later architectural shifts like ORDA or Project mode, though modern 4D deployments may also lean on newer built-in maintenance/monitoring tooling introduced in subsequent versions alongside these commands.", "status": "still_relevant",
+    "related_updates": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 76880,
+  "title": "Tech Note: 4D and Google Charts API",
+  "technote_number": "13-10",
+  "year": 2013,
+  "published_date": "September 9, 2013",
+  "product": "4D",
+  "version": "13.3",
+  "platform": "Mac & Win",
+  "author": "Jean-Jacques BLEU, 4D Developer",
+  "page_url": "https://kb.4d.com/assetid=76880",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-10_4DandGoogleChartAPI.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Google Charts API / Visualization DataTable",
+    "4D Web Server + hand-built AJAX/JSON endpoints",
+    "Manual JSON string construction in 4D methods",
+    "Firebug browser console for JavaScript debugging"
+  ],
+  "historical_commentary": {
+    "text": "Integrating third-party JavaScript charting libraries with 4D-sourced data via AJAX/JSON remains a completely valid general pattern, and Google Charts itself is still available today. However, the specific 4D-side implementation shown here — manually concatenating JSON text piece by piece in a method, and using 4D Web Server's basic On Web Connection-style request handling to build the response by hand — has been substantially superseded by 4D's later native JSON commands (JSON Stringify/Parse) and, more broadly, by 4D's built-in REST server (built on ORDA), which now provides structured JSON data endpoints without hand-rolled AJAX plumbing. The Firebug-based debugging workflow shown is also obsolete, since Firebug was discontinued years ago in favor of built-in browser developer tools.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D's native JSON commands (JSON Stringify/JSON Parse, introduced 4D v15) replace manual string-concatenation JSON building",
+      "4D's built-in REST server (built on ORDA, 4D v16 R5+, 2017) provides structured JSON endpoints for exactly this kind of client-side charting scenario without hand-rolled On Web Connection code",
+      "Firebug was discontinued (2017) in favor of built-in Chrome/Firefox/Chromium developer tools"
+    ]
+  }
+}

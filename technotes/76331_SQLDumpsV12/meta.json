@@ -1,0 +1,26 @@
+{
+  "asset_id": 76331,
+  "title": "SQL Dumps in 4D v12",
+  "technote_number": "11-15",
+  "year": 2011,
+  "published_date": "May 12, 2011",
+  "product": "4D",
+  "version": "12.1",
+  "platform": "Mac & Win",
+  "author": "Timothy Aaron Penner, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76331",
+  "download_url": "https://kb.4d.com/DLTN/TN/2011/11-15_SQL_Dumps_in_4D_v12.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "SQL EXPORT DATABASE and SQL EXPORT SELECTION commands",
+    "SQL EXECUTE SCRIPT command for re-importing SQL dumps",
+    "4D v12 embedded SQL engine"
+  ],
+  "historical_commentary": {
+    "text": "The SQL EXPORT DATABASE/SELECTION and SQL EXECUTE SCRIPT commands documented here are still present and functional in current 4D, so this note's core technique remains a valid way to export and re-import SQL-format data dumps. It is a niche but still-useful capability, primarily relevant when interoperating with other SQL-based systems or performing bulk data migrations; day-to-day CRUD and reporting workflows in modern 4D projects would more commonly rely on ORDA rather than manual SQL dumps.",
+    "status": "still_relevant",
+    "related_updates": [
+      "ORDA entity selections and data-management APIs (introduced v16 R5/17+) are the modern default for day-to-day data access, while SQL dumps remain a viable niche tool for interoperability/migration"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "asset_id": 76478,
+  "title": "Tech Note: 4D v13 REST Tester",
+  "technote_number": "12-03",
+  "year": 2012,
+  "published_date": "January 31, 2012",
+  "product": "4D",
+  "version": "13.0",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Account Manager, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=76478",
+  "download_url": "https://kb.4d.com/DLTN/TN/2012/12-03_REST_Tester.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v13 new HTTP Client commands",
+    "REST API testing tool (Google, Flickr, Wakanda examples)",
+    "DIALOG(...;*) modal dialog technique",
+    "4D Web area for response rendering",
+    "Wakanda Entity Catalog / REST support"
+  ],
+  "historical_commentary": {
+    "text": "This note introduces a REST testing tool built on 4D v13's then-new HTTP Client commands, discussing REST concepts (client-server, stateless, cacheable, uniform interface) alongside Google, Flickr, and Wakanda REST examples. The general-purpose REST tester concept and 4D's HTTP Client commands remain valid and are still part of the current 4D language, but the Wakanda examples referenced are now historically moot since Wakanda (4D's separate JavaScript-based platform) was fully discontinued years ago, and 4D's own web services story has since moved decisively to REST APIs built on ORDA rather than the ad-hoc HTTP Client calls demonstrated here.", "status": "partially_superseded",
+    "related_updates": [
+      "Wakanda (4D's JavaScript-based platform, referenced throughout this note) was discontinued years after this note's publication",
+      "REST APIs built on ORDA (4D v16 R5/R6, 2017) are now 4D's native, integrated REST solution rather than relying solely on the HTTP Client commands for ad-hoc REST calls",
+      "Dedicated third-party or built-in REST testing tools (e.g. Postman, or 4D's own REST endpoint browser) are now more commonly used than a custom-built tester"
+    ]
+  }
+}

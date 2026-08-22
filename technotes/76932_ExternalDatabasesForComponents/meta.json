@@ -1,0 +1,28 @@
+{
+  "asset_id": 76932,
+  "title": "Tech Note: Preparing External Databases for Components",
+  "technote_number": "13-13",
+  "year": 2013,
+  "published_date": "December 18, 2013",
+  "product": "4D",
+  "version": "13.4",
+  "platform": "Mac & Win",
+  "author": "Milan Adamov, International Technical Support Team Member, 4D SAS.",
+  "page_url": "https://kb.4d.com/assetid=76932",
+  "download_url": "https://kb.4d.com/DLTN/TN/2013/13-13_PrepEXDBforComp.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D External Database (.4DB/.4DD data file, introduced v11)",
+    "SQL CREATE DATABASE / USE DATABASE DATAFILE commands",
+    "SQL EXPORT DATABASE for structure/data dump and reimport",
+    "USE REMOTE DATABASE for Client/Server-hosted component data"
+  ],
+  "historical_commentary": {
+    "text": "This note's core good-practice message — that components should avoid polluting a host database with their own tables and should instead keep private data self-contained — remains sound design guidance. However, the concrete mechanism it teaches (structure-editor-built external .4DB/.4DD databases, SQL CREATE/USE DATABASE DATAFILE, and manually generated SQL dumps for component initialization) is deeply tied to the classic binary Design Mode structure file format that Project Mode (introduced 4D v17, 2018) moved away from, and to the classic SQL-engine-centric data access model that ORDA later modernized. A component built today would more likely manage its private data through a Project Mode data model and ORDA datastore rather than a hand-built external SQL database file.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Project Mode components (4D v17+, 2018) use text-based, folder-structured component definitions rather than binary .4DB/.4DD external databases",
+      "ORDA (4D v16 R5/R6, 2017) provides a more modern datastore-based model for a component's own or externally-hosted data, reducing reliance on hand-rolled SQL CREATE/USE DATABASE scripting"
+    ]
+  }
+}
