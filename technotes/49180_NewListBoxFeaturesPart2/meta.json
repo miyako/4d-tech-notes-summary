@@ -1,0 +1,28 @@
+{
+  "asset_id": 49180,
+  "title": "Tech Note: New List Box Features in 4D v11 SQL \u2013 Part 2",
+  "technote_number": "08-09",
+  "year": 2008,
+  "published_date": "March 13, 2008",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Tom Fitch, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=49180",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_08-11_(MAR)/08-09_4D_v11_SQL ListBox_Part_2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL List Box",
+    "List Box programmatic control commands",
+    "Dynamic data sources",
+    "Form Editor vs. code-based configuration"
+  ],
+  "historical_commentary": {
+    "text": "List Boxes remain a core, actively maintained 4D form object, so the underlying concept here is still directly relevant, though the specific v11 SQL-era command set and data-source model described has been substantially extended and partly superseded by later list box enhancements and ORDA-based data binding.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's List Box object has continued to receive major feature updates in versions well beyond v11 SQL, including collection- and entity-selection-based data sources introduced alongside ORDA (2018+)",
+      "Modern list box data binding commonly uses ORDA collections/entity selections rather than the specific v11 SQL-era commands shown in this note"
+    ]
+  }
+}

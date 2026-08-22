@@ -1,0 +1,28 @@
+{
+  "asset_id": 49654,
+  "title": "Tech Note: Custom Password System with 4D Ajax Framework",
+  "technote_number": "08-16",
+  "year": 2008,
+  "published_date": "April 30, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=49654",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_12-16_(APR)/08-16_4DAF-Password.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "Authentication / custom password systems",
+    "4D Password System (native)",
+    "Framework configuration hooks"
+  ],
+  "historical_commentary": {
+    "text": "Authentication customization is a perennial need, but this specific implementation is tied to swapping out 4DAF's login plumbing, which no longer exists. Modern 4D applications handle custom authentication via ORDA/REST session tokens, and web-facing apps typically use standard web auth patterns (JWT, OAuth) rather than 4DAF-specific hooks.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework (4DAF) has been discontinued; modern custom-authentication approaches in 4D use REST/ORDA session management or JWT-based schemes",
+      "4D's built-in Password System has itself evolved substantially through later 4D versions"
+    ]
+  }
+}

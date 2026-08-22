@@ -1,0 +1,27 @@
+{
+  "asset_id": 48781,
+  "title": "Tech Note: Google Chart API and 4D Live Window Integration",
+  "technote_number": "08-04",
+  "year": 2008,
+  "published_date": "January 31, 2008",
+  "product": "4D",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Christopher Visaya, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=48781",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008-01-04_(JAN)/08-04_Google_Charts.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Google Chart API (image-based charting)",
+    "4D Live Window",
+    "URL parameterization for chart generation"
+  ],
+  "historical_commentary": {
+    "text": "Google officially shut down the Google Chart API's image-chart endpoint years ago (announced deprecation in 2012, later fully retired), so the specific technique in this note no longer functions; the general pattern of embedding externally-rendered visuals in a 4D Live Window remains conceptually valid with other charting services.",
+    "status": "obsolete",
+    "related_updates": [
+      "Google deprecated and eventually shut down the classic (image-based) Google Chart API used in this note; the specific URLs/technique no longer work",
+      "Modern charting in 4D applications typically uses JS charting libraries embedded in a Web Area, or 4D's own View Pro charting (introduced 2018) rather than an external image-generation API"
+    ]
+  }
+}

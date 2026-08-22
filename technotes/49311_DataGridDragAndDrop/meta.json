@@ -1,0 +1,27 @@
+{
+  "asset_id": 49311,
+  "title": "Tech Note: Data Grid Drag-and-Drop",
+  "technote_number": "08-12",
+  "year": 2008,
+  "published_date": "April 2, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=49311",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_12-16_(APR)/08-12_Data_Grid_Drag-And-Drop.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF) Data Grid v11.1",
+    "Drag-and-drop UI interaction",
+    "JavaScript grid API"
+  ],
+  "historical_commentary": {
+    "text": "A hands-on tutorial for a specific interactive UI feature (drag-and-drop) of the now-discontinued 4DAF Data Grid; drag-and-drop as a UX pattern remains relevant, but the exact API and object model described no longer exist in any supported 4D product.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework (4DAF), including this Data Grid generation, has been fully discontinued",
+      "Modern drag-and-drop web interactions in 4D applications are implemented via standard JavaScript/HTML5 drag-and-drop APIs or through Qodly Studio's web components (2021+), not the 4DAF Data Grid object"
+    ]
+  }
+}

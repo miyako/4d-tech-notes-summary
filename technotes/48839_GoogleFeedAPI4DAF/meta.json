@@ -1,0 +1,28 @@
+{
+  "asset_id": 48839,
+  "title": "Tech Note: Integrating the Google Feed API with 4DAF",
+  "technote_number": "08-05",
+  "year": 2008,
+  "published_date": "February 6, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=48839",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_05-08_(FEB)/08-05_Google_API.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF) Data Grid 2.0",
+    "Google AJAX Feed API",
+    "RSS/Atom feed parsing",
+    "Client-side AJAX integration"
+  ],
+  "historical_commentary": {
+    "text": "Both halves of this integration are now defunct: Google shut down its AJAX APIs (including the Feed API) years ago, and the 4D Ajax Framework it's wired into has also been discontinued, making this note a snapshot of a specific, now-unreachable mashup pattern from the late-2000s AJAX/'Web 2.0' era rather than a usable how-to.",
+    "status": "obsolete",
+    "related_updates": [
+      "Google deprecated and shut down its AJAX Feed API years ago; the integration described is no longer functional as written",
+      "4D Ajax Framework (4DAF) has also been fully discontinued"
+    ]
+  }
+}

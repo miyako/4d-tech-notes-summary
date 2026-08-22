@@ -1,0 +1,1 @@
+Tech Note: 4D v11 SQL Pasteboards (TN 08-06, 4D Developer v11, February 13, 2008) — This note documents the new Pasteboard theme introduced in 4D v11 SQL, which extends and replaces the previous Clipboard theme with additional capabilities — most notably the ability to read drag-and-drop data originating from outside 4D itself.

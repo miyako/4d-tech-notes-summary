@@ -1,0 +1,1 @@
+Tech Note: Object Storage in 4D v11 SQL Using Native Commands (TN 08-18, 4D v11, May 14, 2008) — 4D v11 SQL extended hierarchical list items to support Object-like structures, where a single list item can hold values of mixed types (numeric, string, boolean) — effectively a dictionary attached to each list item.

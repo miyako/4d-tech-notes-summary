@@ -1,0 +1,26 @@
+{
+  "asset_id": 49276,
+  "title": "Tech Note: Modifying Data Grid Columns",
+  "technote_number": "08-11",
+  "year": 2008,
+  "published_date": "March 26, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=49276",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_08-11_(MAR)/08-11_Data_Grid_Column.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF) Data Grid v11.1",
+    "Column property API",
+    "Web grid customization"
+  ],
+  "historical_commentary": {
+    "text": "Another entry in the 4DAF Data Grid documentation series from 2008, covering column-level customization API calls; like the related drag-and-drop and CSS notes from the same era, its specific object model has been fully retired along with the rest of the 4D Ajax Framework.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework (4DAF) has been discontinued; column-level grid customization in modern 4D web apps is handled by Qodly Studio components or custom JS/HTML5 tables rather than the 4DAF Data Grid API"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Modifying Data Grid Columns (TN 08-11, 4D Web 2.0 Pack v11.1, March 26, 2008) — Focused on the same 4D Ajax Framework v11.

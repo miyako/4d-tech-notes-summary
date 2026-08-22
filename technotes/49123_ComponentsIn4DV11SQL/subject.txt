@@ -1,0 +1,1 @@
+Tech Note: Components in 4D v11 SQL (TN 08-08, 4D Developer v11, March 5, 2008) — 4D v11 SQL introduced a new Component Architecture that changed how 4D Components are developed and installed, breaking compatibility with the previous component format.

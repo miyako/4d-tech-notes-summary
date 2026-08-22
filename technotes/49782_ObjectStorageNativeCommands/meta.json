@@ -1,0 +1,28 @@
+{
+  "asset_id": 49782,
+  "title": "Tech Note: Object Storage in 4D v11 SQL Using Native Commands",
+  "technote_number": "08-18",
+  "year": 2008,
+  "published_date": "May 14, 2008",
+  "product": "4D",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=49782",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_17-20_(MAY)/08-18_Object_Storage.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL",
+    "Hierarchical lists",
+    "SET LIST ITEM PARAMETER / GET LIST ITEM PARAMETER commands",
+    "Object-like data storage"
+  ],
+  "historical_commentary": {
+    "text": "This note captures 4D's early, native attempt at object-like storage on top of the classic hierarchical list structure \u2014 years before 4D introduced true JSON/object support (the Object type and OB commands) in later versions. The specific SET/GET LIST ITEM PARAMETER approach is now superseded by native object (OB Get/OB Set) and JSON support built directly into the language.",
+    "status": "superseded",
+    "related_updates": [
+      "4D later added native Object (OB_...) and JSON commands, providing far more ergonomic key/value and nested-object storage than the hierarchical-list workaround shown here",
+      "ORDA (2018+) and native JSON support now handle most of what this technique was working around"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Google Chart API and 4D Live Window Integration (TN 08-04, 4D v11, January 31, 2008) — The Google Chart API let developers generate chart images simply by encoding data and styling parameters into a specially formatted URL, with Google rendering and returning a PNG chart server-side.

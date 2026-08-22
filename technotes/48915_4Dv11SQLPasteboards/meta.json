@@ -1,0 +1,26 @@
+{
+  "asset_id": 48915,
+  "title": "Tech Note: 4D v11 SQL Pasteboards",
+  "technote_number": "08-06",
+  "year": 2008,
+  "published_date": "February 13, 2008",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=48915",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_05-08_(FEB)/08-06_4D_v11_SQL_Pasteboards.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Pasteboard theme",
+    "Clipboard vs. Pasteboard commands",
+    "Drag-and-drop data exchange (external sources)"
+  ],
+  "historical_commentary": {
+    "text": "Clipboard/pasteboard and drag-and-drop interoperability with the host OS remains a relevant capability in 4D today, so the underlying concept holds up, though the specific v11 SQL-era Pasteboard command set has been extended and refined across many subsequent 4D releases.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's clipboard and drag-and-drop command set has continued to be extended in versions after v11 SQL, with broader data-type and cross-platform support added over time"
+    ]
+  }
+}

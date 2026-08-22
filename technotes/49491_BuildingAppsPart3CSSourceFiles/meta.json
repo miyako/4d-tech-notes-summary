@@ -1,0 +1,28 @@
+{
+  "asset_id": 49491,
+  "title": "Tech Note: Building Applications Examples \u2013 Part 3 CS and SourcesFiles",
+  "technote_number": "08-14",
+  "year": 2008,
+  "published_date": "April 16, 2008",
+  "product": "4D",
+  "version": "2004.7r3",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=49491",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_12-16_(APR)/08-14_Build_App_Pt3.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004 Build Application XML keys",
+    "Component Source (CS) key",
+    "SourcesFiles key",
+    "XML project file editor"
+  ],
+  "historical_commentary": {
+    "text": "This is a niche, build-configuration-specific note from the mid-2000s XML-keys series; the specific file-bundling mechanism it documents (CS/SourcesFiles XML keys) reflects 4D 2004's project-file format, since substantially reworked in later 4D versions and especially by the shift to Project Mode.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's build/compile configuration model has evolved considerably since 4D 2004; component and source-file bundling is now managed differently in modern 4D versions",
+      "Project Mode (introduced 2018) changed how source files and components are organized and referenced during a build"
+    ]
+  }
+}

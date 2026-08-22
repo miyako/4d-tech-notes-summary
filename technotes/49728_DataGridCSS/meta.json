@@ -1,0 +1,28 @@
+{
+  "asset_id": 49728,
+  "title": "Tech Note: Data Grid CSS",
+  "technote_number": "08-17",
+  "year": 2008,
+  "published_date": "May 7, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11.1",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=49728",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_17-20_(MAY)/08-17_Data_Grid_CSS.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF) Data Grid",
+    "CSS styling / class hooks",
+    "HTML/CSS customization",
+    "JavaScript API calls"
+  ],
+  "historical_commentary": {
+    "text": "This is a pure web-UI styling technique tied entirely to the discontinued 4D Ajax Framework's Data Grid component; the specific API/class names no longer exist in any current 4D product. CSS styling itself remains a universal web skill, but the underlying grid object and its JS hooks are gone.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework (4DAF) has been fully discontinued; modern 4D web UIs are built with the 4D web server, REST/ORDA, and Qodly Studio (2021+) low-code web components",
+      "Grid/table styling today is typically handled via modern JS frameworks or Qodly's built-in table component, not manual CSS hooks into a legacy Data Grid object"
+    ]
+  }
+}

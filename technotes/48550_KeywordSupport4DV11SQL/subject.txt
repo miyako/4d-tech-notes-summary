@@ -1,0 +1,1 @@
+Tech Note: Keyword Support in 4D v11 SQL (TN 08-01, 4D Developer v11, January 9, 2008) — 4D v11 SQL introduced native keyword-search support through three new features: keyword indexes, a new "contains keyword" comparison operator, and support for regular expressions (regex), extending beyond the older, more limited "contains" search available in previous 4D versions.

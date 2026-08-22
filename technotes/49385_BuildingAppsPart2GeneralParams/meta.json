@@ -1,0 +1,28 @@
+{
+  "asset_id": 49385,
+  "title": "Tech Note: Building Applications Examples \u2013 Part 2 General Parameters and Licenses",
+  "technote_number": "08-13",
+  "year": 2008,
+  "published_date": "April 7, 2008",
+  "product": "4D",
+  "version": "2004.7r3",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=49385",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_12-16_(APR)/08-13_Build_App_Pt2.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004 Build Application XML keys",
+    "General Parameters key",
+    "Licenses key",
+    "XML project file editor"
+  ],
+  "historical_commentary": {
+    "text": "Another installment in the well-regarded mid-2000s XML-keys tutorial series; the specific General Parameters/Licenses XML key format documented here reflects 4D 2004's build-configuration model, since substantially reworked in later 4D versions and especially by the Project Mode (2018) shift to a git-friendly, fully text-based project structure.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's build/compile configuration format has changed considerably since the 4D 2004 era described here",
+      "Project Mode (2018+) changed how build settings, including general parameters and license configuration, are stored and edited"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "asset_id": 48689,
+  "title": "Tech Note: Building and Embedding Dashboards/Charts",
+  "technote_number": "08-03",
+  "year": 2008,
+  "published_date": "January 23, 2008",
+  "product": "4D Web 2.0 Pack",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=48689",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008-01-04_(JAN)/08-03_Build_Embed_Dashboard.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF) Dashboards",
+    "Widget-based UI composition",
+    "Real-time metrics display",
+    "Chart widgets"
+  ],
+  "historical_commentary": {
+    "text": "Dashboards and live metrics widgets remain a common and relevant UI pattern, but the specific 4DAF Dashboard/widget object model documented here no longer exists, since the entire 4D Ajax Framework has been discontinued in favor of modern web component approaches.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework (4DAF), including its Dashboard widget system, has been fully discontinued",
+      "Modern 4D dashboards are typically built with Qodly Studio (2021+) components, 4D View Pro (2018+) charting, or embedded third-party JS dashboard libraries"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Upgrades with User Created Tables (TN 08-02, 4D Developer v11, January 17, 2008) — This note tackles a practical deployment problem: preparing a 4D application to allow end users to create their own custom tables, and then safely upgrading that application to a new developer-built version without breaking or losing the user-created tables.

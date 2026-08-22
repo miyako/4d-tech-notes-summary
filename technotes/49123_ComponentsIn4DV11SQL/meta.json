@@ -1,0 +1,27 @@
+{
+  "asset_id": 49123,
+  "title": "Tech Note: Components in 4D v11 SQL",
+  "technote_number": "08-08",
+  "year": 2008,
+  "published_date": "March 5, 2008",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Luis Pineiros, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=49123",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_08-11_(MAR)/08-08_4D_v11_SQL_Components.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL Component Architecture",
+    "4D Components (plugins/reusable modules)",
+    "Legacy vs. modern component comparison"
+  ],
+  "historical_commentary": {
+    "text": "This documents a genuine architectural turning point for 4D's component system, and the core concept of 4D Components as a distribution mechanism for reusable code is still very much alive today; however, the specific v11 SQL-era component format and creation process described has since been superseded by further evolutions of the component/plugin architecture in subsequent 4D versions.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's component architecture has continued to evolve significantly since v11 SQL, including compiled component changes and, later, the ability to build components in Project Mode (2018+)",
+      "Modern 4D component distribution also increasingly involves ORDA-aware components and the 4D package/dependency model"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+Tech Note: Integrating the Google Feed API with 4DAF (TN 08-05, 4D Web 2.0 Pack v11, February 6, 2008) — Demonstrating 4D Ajax Framework's interoperability with third-party services, this note integrates the Google AJAX Feed API — a now-defunct Google service for fetching and parsing RSS/Atom feeds client-side — into a 4DAF web application using the newer Data Grid 2.

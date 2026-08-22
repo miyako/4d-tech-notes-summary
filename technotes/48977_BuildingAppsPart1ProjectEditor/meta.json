@@ -1,0 +1,27 @@
+{
+  "asset_id": 48977,
+  "title": "Tech Note: Building Applications Examples \u2013 Part 1 XML Keys Editor",
+  "technote_number": "08-07",
+  "year": 2008,
+  "published_date": "February 20, 2008",
+  "product": "4D",
+  "version": "2004.7",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=48977",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_05-08_(FEB)/08-07_4D_Project_Editor.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004 Build Application XML keys",
+    "Custom GUI project-file editor",
+    "Cross-platform (Mac OS X & Windows) build configuration"
+  ],
+  "historical_commentary": {
+    "text": "The foundational note of a well-regarded five-part XML-keys tutorial series; its practical GUI editor tool is tied to the specific XML project-file format used in the 4D 2004/early v11 era, since substantially reworked by later 4D versions and especially by the Project Mode (2018) shift to a fully text-based project structure.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's build/compile configuration format has changed considerably since the 4D 2004 era described here",
+      "Project Mode (2018+) introduced a git-friendly, fully text-based project structure that changed how build settings and XML-key-equivalent configuration are stored"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "asset_id": 48632,
+  "title": "Tech Note: Upgrades with User Created Tables",
+  "technote_number": "08-02",
+  "year": 2008,
+  "published_date": "January 17, 2008",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Thomas Fitch, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=48632",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008-01-04_(JAN)/08-02_Upgrade_User_Created_Tables.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D structure/database upgrade process",
+    "User-extensible table schemas",
+    "Structure merging across versions"
+  ],
+  "historical_commentary": {
+    "text": "Handling structural upgrades when end users have extended a database's schema is a durable, still-relevant challenge for 4D developers; the specific binary-structure-file upgrade mechanics described here reflect the pre-Project-Mode era, and today's equivalent scenarios are also shaped by ORDA's more flexible, code-first data model.",
+    "status": "still relevant",
+    "related_updates": [
+      "Project Mode (introduced 4D v17, 2018) changed how structure changes are tracked and merged, offering git-friendly diffs that make some aspects of this upgrade problem easier than in the binary Design Mode era described here"
+    ]
+  }
+}

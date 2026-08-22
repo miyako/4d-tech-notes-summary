@@ -1,0 +1,27 @@
+{
+  "asset_id": 48550,
+  "title": "Tech Note: Keyword Support in 4D v11 SQL",
+  "technote_number": "08-01",
+  "year": 2008,
+  "published_date": "January 9, 2008",
+  "product": "4D Developer",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Support Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=48550",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008-01-04_(JAN)/08-01_Keyword_Support.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D v11 SQL keyword indexes",
+    "\"Contains keyword\" comparison operator",
+    "Regular expressions (regex) support",
+    "Full-text/keyword search"
+  ],
+  "historical_commentary": {
+    "text": "Keyword indexing, regex support, and efficient text search are foundational, still-relevant capabilities that 4D has continued to build on; the specific v11 SQL-era feature set described here has been substantially extended in later versions with more advanced full-text search and regex capabilities.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D's text search and regex capabilities have been extended considerably in versions since v11 SQL, including further additions to the regex command set"
+    ]
+  }
+}

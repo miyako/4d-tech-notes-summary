@@ -1,0 +1,28 @@
+{
+  "asset_id": 49572,
+  "title": "Tech Note: Building Applications Examples \u2013 Part 4 Versioning",
+  "technote_number": "08-15",
+  "year": 2008,
+  "published_date": "April 23, 2008",
+  "product": "4D",
+  "version": "2004.7r3",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=49572",
+  "download_url": "https://kb.4d.com/DLTN/TN/2008/Windows/TN_2008_12-16_(APR)/08-15_Build_App_Pt4.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D 2004 Build Application XML keys",
+    "Versioning metadata",
+    "XML project file",
+    "Custom GUI editor tool"
+  ],
+  "historical_commentary": {
+    "text": "Part of a well-documented five-part series on 4D's XML-based build configuration system from the mid-2000s; while the specific 80+ key XML format described here (4D 2004 era) has been superseded, the general idea of declarative, versioned build configuration persists in modern 4D's build/compile settings.",
+    "status": "superseded",
+    "related_updates": [
+      "4D's application build and versioning configuration has been substantially modernized in later 4D versions, moving away from this specific XML-key project-file format",
+      "Project Mode (2018+) introduced a fully text-based, git-friendly project structure that further changed how build settings are stored and versioned"
+    ]
+  }
+}
