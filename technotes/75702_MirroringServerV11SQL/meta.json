@@ -1,0 +1,28 @@
+{
+  "asset_id": 75702,
+  "title": "Tech Note: Mirroring with 4D Server v11 SQL",
+  "technote_number": "09-16",
+  "year": 2009,
+  "published_date": "April 23, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Atanas Atanassov, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75702",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_13-17_(APR)/09-16_Mirroring.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Server database mirroring (log-file-based replication)",
+    "SOAP web services (used for mirror configuration/entry points)",
+    "4D component architecture (shared component methods)",
+    "4D log file segmentation and integration"
+  ],
+  "historical_commentary": {
+    "text": "This note introduced 4D v11 SQL's log-file-based database mirroring component, letting a mirror server stay continuously synchronized with a principal server for high availability without blocking the operational database for backups \u2014 a genuinely important capability for always-on deployments like hospitals or emergency services. The high-availability mirroring concept itself remains valid and 4D has continued to develop native mirroring/replication capabilities in subsequent versions, but the specific SOAP-based component and entry-point mechanism shown here reflects 4D's pre-REST web services era and would today more likely be built on 4D's newer, more integrated replication/mirroring features or a REST-based control layer rather than hand-rolled SOAP web services.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "4D has continued to develop and refine native database mirroring/replication capabilities in later versions, reducing the need for a custom SOAP-based mirroring component",
+      "REST + ORDA (4D v16 R5+, 2017) has largely superseded SOAP as 4D's recommended way to expose and control services like this from external tools"
+    ]
+  }
+}

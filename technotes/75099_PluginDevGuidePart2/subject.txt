@@ -1,0 +1,1 @@
+Tech Note 09-03: the hands-on second part of a plug-in development guide, providing sample Xcode/Visual Studio projects and C code for writing cross-platform, Unicode-aware, Universal Binary 4D plug-ins that correctly handle text and picture parameters across the 2004 and v11 SQL plug-in APIs, plus Mac OS X Apple Help Book registration.

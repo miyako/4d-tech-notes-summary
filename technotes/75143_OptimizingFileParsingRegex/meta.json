@@ -1,0 +1,27 @@
+{
+  "asset_id": 75143,
+  "title": "Tech Note: Optimizing File Parsing with Match regex",
+  "technote_number": "09-05",
+  "year": 2009,
+  "published_date": "February 4, 2009",
+  "product": "4D",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75143",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_05-08-(FEB)/09-05_MatchRegexParse.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Match regex command with start/pos_found/length_found parameters for line-by-line parsing",
+    "2GB Text variables and native Unicode (UTF-16) support in 4D v11 SQL",
+    "Comparison against RECEIVE PACKET/Position and BLOB Boyer-Moore search techniques",
+    "Performance benchmarking of parsing algorithms on real Perforce command output"
+  ],
+  "historical_commentary": {
+    "text": "This note benchmarks three file-parsing techniques available at the dawn of 4D v11 SQL and shows that Match regex over large Text variables was dramatically faster (58x) than BLOB-based Boyer-Moore search and modestly faster than RECEIVE PACKET plus Position, while also elegantly sidestepping Unicode/multi-byte parsing complexity. Match regex and 2GB Unicode Text variables remain fully supported, core parts of the 4D language today, and the fundamental technique and performance reasoning in this note are still accurate and directly usable. The main enhancement since is that 4D has expanded its regular-expression tooling considerably (additional regex-related commands and, in project-mode code, richer text/object APIs), giving developers more options beyond the single Match regex command this note focuses on, but nothing here has been deprecated.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D has since added further regex-related commands and capabilities beyond the single Match regex focus of this note, though none of it deprecates the technique shown here"
+    ]
+  }
+}

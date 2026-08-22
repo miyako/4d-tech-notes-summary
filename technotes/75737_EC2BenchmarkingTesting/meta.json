@@ -1,0 +1,30 @@
+{
+  "asset_id": 75737,
+  "title": "Tech Note: Using Amazon Elastic Compute Cloud for 4D Benchmarking and Testing",
+  "technote_number": "09-18",
+  "year": 2009,
+  "published_date": "May 7, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=75737",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_18-21_(MAY)/09-18_Cloud_Bench.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Amazon Elastic Compute Cloud (EC2)",
+    "Elasticfox (AWS EC2 management extension)",
+    "Amazon Machine Images (AMI) for client/server test instances",
+    "POST KEY (automated keyboard-driven user emulation)",
+    "4D Server multi-user stress/load testing"
+  ],
+  "historical_commentary": {
+    "text": "This note pioneered using Amazon EC2 to rent multiple virtual machines for cost-effective multi-user 4D Server load testing, driven by POST KEY-based keyboard emulation, at a time when cloud computing itself was a novel concept for most developers. The core idea of using elastic cloud compute for on-demand load/stress testing is not just still relevant but has become entirely mainstream practice; however, the specific tooling shown (the EC2 \"Classic\"-era workflow, Elasticfox browser extension, and manual AMI bundling steps) is long obsolete, superseded by AWS's modern EC2 console/CLI/API, VPC-based networking, and by purpose-built load-testing and CI/CD tools that didn't exist in 2009.",
+    "status": "partially_superseded",
+    "related_updates": [
+      "Elasticfox was discontinued years ago; AWS now offers a full web console, CLI, and SDKs/APIs for EC2 management",
+      "EC2-Classic (the flat, non-VPC networking model implied here) was retired by AWS, with all EC2 instances now provisioned within Amazon VPC",
+      "Purpose-built load-testing tools and CI/CD-integrated performance testing pipelines have since become standard, reducing reliance on manual POST KEY-based keyboard emulation scripts for stress testing"
+    ]
+  }
+}

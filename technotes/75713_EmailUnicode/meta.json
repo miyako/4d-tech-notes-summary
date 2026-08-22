@@ -1,0 +1,27 @@
+{
+  "asset_id": 75713,
+  "title": "Tech Note: Sending and Receiving E-Mails in Unicode",
+  "technote_number": "09-17",
+  "year": 2009,
+  "published_date": "April 30, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Keisuke Miyako, 4D Japan.",
+  "page_url": "https://kb.4d.com/assetid=75713",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_13-17_(APR)/09-17_email_unicode.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Internet Commands (4D v11 SQL, Unicode-capable)",
+    "MIME email encoding (Quoted-Printable, base64, 7bit, 8bit)",
+    "Character set conversion (UTF-8, ISO-8859-x, Shift-JIS, ISO-2022-JP, EUC-KR, Big-5, GB2312, koi8-r)",
+    "4D Email Tools component (send/receive/edit/view messages)"
+  ],
+  "historical_commentary": {
+    "text": "This note explained how 4D v11 SQL's newly Unicode-capable 4D Internet Commands could send and receive email across many character sets, replacing older tricks like temporarily switching the system language. The email protocol fundamentals (MIME, Quoted-Printable/base64 encoding, character set handling) described here are timeless internet standards and remain entirely accurate; the specific 4D Internet Commands and Email Tools component have evolved since (with additional built-in internationalization and simplified APIs in later 4D versions), but the conceptual grounding this note provides is still directly useful to any developer implementing internationalized email in 4D today.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Later 4D versions have continued refining 4D Internet Commands' encoding/charset handling, but the MIME/Unicode fundamentals explained in this note remain accurate and applicable"
+    ]
+  }
+}

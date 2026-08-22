@@ -1,0 +1,1 @@
+Tech Note 09-04: presents a 4D component that wraps the open-source ExifTool console application to read and write EXIF (and read ID3) metadata tags in image, audio, and video files, complete with a sample database and date/time shifting support.

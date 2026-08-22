@@ -1,0 +1,1 @@
+Tech Note: QuickTime and YouTube movies in Web Area (TN 09-46) — demonstrates controlling embedded QuickTime and YouTube (Flash/SWFObject) videos from within a 4D Web Area using each platform's public JavaScript API together with 4D's Web Area JavaScript injection functions.

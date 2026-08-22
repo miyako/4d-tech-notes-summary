@@ -1,0 +1,1 @@
+Mirroring with 4D Server v11 SQL (TN 09-16) — setting up log-file-based database mirroring between a principal and mirror 4D Server for high availability, including component installation, preferences (mirrors, scheduling, error handling, backup tabs), and the underlying SOAP-based entry points.

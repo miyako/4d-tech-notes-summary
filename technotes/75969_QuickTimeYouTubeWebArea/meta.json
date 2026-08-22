@@ -1,0 +1,28 @@
+{
+  "asset_id": 75969,
+  "title": "QuickTime and YouTube movies in Web Area",
+  "technote_number": "09-46",
+  "year": 2009,
+  "published_date": "December 11, 2009",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Joe Resuello, Technical Marketing Engineer, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75969",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_46-48_(DEC)/09-46_WebAreaVideos.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Web Area JavaScript injection functions",
+    "QuickTime JavaScript API",
+    "YouTube SWFObject / Flash-embedded JavaScript API"
+  ],
+  "historical_commentary": {
+    "text": "This note shows how to control embedded QuickTime and Flash-based YouTube videos from a 4D Web Area using each platform's public JavaScript API and 4D's Web Area JavaScript injection functions. Both the QuickTime plugin and Flash/SWFObject-based YouTube embeds it relies on have since been discontinued (QuickTime plugin support removed from browsers years ago; YouTube itself moved entirely away from Flash to HTML5 video around 2015, and Adobe Flash was fully retired in 2020-2021), making the specific embedding techniques in this note non-functional today. The general pattern of injecting JavaScript into a 4D Web Area to control an embedded web page remains valid and is still used, but must now target modern HTML5 video APIs (e.g., the YouTube IFrame Player API) instead.",
+    "status": "obsolete",
+    "related_updates": [
+      "QuickTime browser plugin support was discontinued industry-wide years ago; modern video embedding uses native HTML5 <video> or platform IFrame APIs",
+      "YouTube's Flash/SWFObject embed API was replaced by the HTML5-based YouTube IFrame Player API (~2015), and Adobe Flash itself was retired in 2020-2021",
+      "4D's Web Area JavaScript injection technique itself remains valid and usable, now paired with modern HTML5 video APIs"
+    ]
+  }
+}

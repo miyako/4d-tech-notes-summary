@@ -1,0 +1,1 @@
+Sending and Receiving E-Mails in Unicode (TN 09-17) — explaining email protocol encoding fundamentals (MIME, Quoted-Printable, base64) and how 4D v11 SQL's Unicode-capable 4D Internet Commands send/receive email across many character sets, with a bundled 4D Email Tools component and example code.

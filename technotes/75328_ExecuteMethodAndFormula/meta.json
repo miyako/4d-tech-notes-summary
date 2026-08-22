@@ -1,0 +1,28 @@
+{
+  "asset_id": 75328,
+  "title": "Tech Note: EXECUTE METHOD and EXECUTE FORMULA",
+  "technote_number": "09-15",
+  "year": 2009,
+  "published_date": "April 16, 2009",
+  "product": "4D",
+  "version": "11.4",
+  "platform": "Mac & Win",
+  "author": "Silvio Belini, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75328",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_13-17_(APR)/09-15_Execute.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "EXECUTE FORMULA command (renamed from EXECUTE in 4D 2004)",
+    "EXECUTE METHOD command (new in 4D v11 SQL)",
+    "Dynamic method/formula execution and parameter passing",
+    "Host/component (matrix) database method calls"
+  ],
+  "historical_commentary": {
+    "text": "This note clarified the rename of 4D 2004's EXECUTE command to EXECUTE FORMULA and explained the new, more capable EXECUTE METHOD command introduced in 4D v11 SQL for dynamic method invocation with parameters and return values. Both commands remain fully functional and documented in current 4D versions, and dynamic/formula-based execution is still a legitimate, commonly used technique, though 4D has since added complementary modern alternatives (such as calling class functions dynamically, and Formula objects/formula from string in later versions) that can be more convenient for some dynamic-execution scenarios in project-mode, class-based code.",
+    "status": "still_relevant",
+    "related_updates": [
+      "4D has since added Formula objects and related dynamic-execution features (formula from string, Formula/Execute on formula objects) that offer object-oriented alternatives to EXECUTE FORMULA/EXECUTE METHOD in newer, class-based code",
+      "EXECUTE FORMULA and EXECUTE METHOD remain fully supported, unchanged commands in current 4D versions"
+    ]
+  }
+}

@@ -1,0 +1,1 @@
+EXECUTE METHOD and EXECUTE FORMULA (TN 09-15) — clarifying the 4D v11 SQL rename of the classic EXECUTE command to EXECUTE FORMULA, and introducing the new EXECUTE METHOD command for dynamic method calls with parameters, return values, and host/component database interoperability.

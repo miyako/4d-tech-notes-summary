@@ -1,0 +1,29 @@
+{
+  "asset_id": 75099,
+  "title": "Tech Note: 4D Plug-in Development Guide - Part 2",
+  "technote_number": "09-03",
+  "year": 2009,
+  "published_date": "January 21, 2009",
+  "product": "4D",
+  "version": "11.3",
+  "platform": "Mac & Win",
+  "author": "Keisuke Miyako, 4D Japan",
+  "page_url": "https://kb.4d.com/assetid=75099",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_01-04_(JAN)/09-03_4D_Plug-in_Dev_Guide-Part_2.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Classic C-based 4D Plug-in API (2004 and v11 SQL entry points) built with Xcode/Visual Studio",
+    "Unicode-aware text parameter wrappers (PA_strings.c) bridging 2004 legacy encodings and v11 SQL Unicode",
+    "Picture parameter handling transitioning from QuickDraw 'PICT'/PicHandle to CGImageRef/CGPDFDocumentRef and GDI+",
+    "Mac OS X Carbon-based Apple Help Book registration (AHRegisterHelpBook) and UTI (Uniform Type Identifier) tooling"
+  ],
+  "historical_commentary": {
+    "text": "This hands-on second part of a plug-in development guide walks through building cross-platform, Unicode-aware, Universal Binary 4D plug-ins with Xcode and Visual Studio, covering text/picture parameter conversion and Mac OS X Carbon-specific Apple Help Book registration. The core C-based 4D Plugin API for writing native commands remains functionally valid and still supported by 4D today (still_relevant), so the general plug-in architecture and wrapper-function approach for supporting multiple API versions in one codebase are still instructive. However, large portions of this note are now firmly obsolete: it targets the already-Carbon/QuickDraw-era Mac transition (PICT/PicHandle to CGImageRef), Xcode's long-discontinued Carbon-application project workflow, PowerPC/Universal Binary architecture support, and Apple Help Book registration via the Carbon `AHRegisterHelpBook` API, all of which depend on defunct Mac OS X APIs, architectures, and Xcode versions no longer usable on current macOS or with current 4D plug-in projects (which today build as Cocoa/64-bit-only bundles).",
+    "status": "obsolete",
+    "related_updates": [
+      "4D plug-ins are now built exclusively as modern Cocoa-based, 64-bit bundles; the Carbon/QuickDraw/PowerPC/Universal-Binary build guidance in this note no longer applies",
+      "Apple Help Book registration via Carbon's AHRegisterHelpBook and the described Xcode Carbon-app project workflow are defunct on current macOS/Xcode",
+      "The core 4D Plugin C API and cross-version wrapper-function technique for text/picture parameters remain conceptually valid, even though this note's specific version-bridging code (2004 vs. v11 SQL) is no longer relevant"
+    ]
+  }
+}

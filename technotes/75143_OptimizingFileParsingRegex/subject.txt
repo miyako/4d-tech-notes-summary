@@ -1,0 +1,1 @@
+Tech Note 09-05: compares three 4D file-parsing techniques — RECEIVE PACKET/Position, BLOB search, and the new Match regex over large Text variables — showing Match regex to be dramatically faster and simpler under 4D v11 SQL's new Unicode and 2GB Text variable support.

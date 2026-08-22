@@ -1,0 +1,27 @@
+{
+  "asset_id": 75138,
+  "title": "Tech Note: Exif and ID3 Metadata",
+  "technote_number": "09-04",
+  "year": 2009,
+  "published_date": "January 28, 2009",
+  "product": "4D",
+  "version": "11",
+  "platform": "Mac & Win",
+  "author": "Thomas Maul, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=75138",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_01-04_(JAN)/09-04_EXIF_Example.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "Exif_Component wrapping the open-source ExifTool console application (Phil Harvey, GPL/Artistic license)",
+    "Exif_ReadAllTags / Exif_WriteTags component commands returning parallel text arrays of tag names/values",
+    "LAUNCH EXTERNAL PROCESS-based bridge to a bundled command-line binary",
+    "Date/time tag shifting semantics (AllDates/DateTimeOriginal/CreateDate/ModifyDate)"
+  ],
+  "historical_commentary": {
+    "text": "This note wraps the well-known, still-actively-maintained open-source ExifTool utility as a 4D component that shells out to a bundled command-line binary via LAUNCH EXTERNAL PROCESS to read and write EXIF/ID3 metadata tags. The core technique of wrapping an external command-line tool for capability 4D doesn't natively provide remains a valid and still commonly used integration pattern today. The main caveats are era-specific: the note's Mac OS X packaging/permissions guidance predates modern macOS security requirements (code signing, notarization, Gatekeeper) that now govern running bundled executables, and developers today would need to verify the bundled ExifTool binary and invocation method against current OS security policies. The underlying idea and component API design remain reasonable and still applicable.",
+    "status": "still_relevant",
+    "related_updates": [
+      "Modern macOS code-signing, notarization, and Gatekeeper requirements affect how a bundled external binary like ExifTool must be packaged and launched today, beyond the simple Unix-executable-permission guidance in this note"
+    ]
+  }
+}

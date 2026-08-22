@@ -1,0 +1,1 @@
+Using Amazon Elastic Compute Cloud for 4D Benchmarking and Testing (TN 09-18) — renting multiple Amazon EC2 virtual machines to cost-effectively simulate many concurrent 4D Server clients using POST KEY-driven keyboard automation, including step-by-step setup of client and server EC2 instances via Elasticfox.

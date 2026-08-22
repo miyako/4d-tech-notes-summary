@@ -1,6 +1,8 @@
 # 4D Tech Notes Index
 
-Total Tech Notes: 347
+Total Tech Notes: 407
+
+Scanned asset ID range: 80085 down to 70086 (10,000 IDs). Below ~75000 the KB asset-ID space becomes sparse/non-sequential (many IDs unused or migrated); assetids 74085-70086 (batches 7-10) yielded zero Tech Notes.
 
 | Asset ID | Title | Year | Version | Author | Status | Link |
 |---|---|---|---|---|---|---|
@@ -351,3 +353,63 @@ Total Tech Notes: 347
 | 76103 | Understanding 64-bit Support in 4D v12 | 2010 | 12 | Josh Fletcher, Technical Services Team Member, 4D Inc. | obsolete | [page](./76103_64BitSupportV12/summary_page.md) |
 | 76089 | Printing in 4D v12 | 2010 | 12 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76089_PrintingIn4Dv12/summary_page.md) |
 | 76088 | Asterisk and 4D via PHP in v12 | 2010 | 12 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76088_AsteriskPhpApi/summary_page.md) |
+| 76084 | PDO_4D Driver | 2010 | 12 | Jesse Pina, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76084_PdoPHPDriver/summary_page.md) |
+| 76079 | Password Wizard: 4D v11 SQL Component for the Creation and Management of Passwords | 2010 | 11.6 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76079_PasswordWizard/summary_page.md) |
+| 76072 | Naming Indexes and Relations in 4D v11 SQL | 2010 | 11.6 | Atanas Atanassov Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76072_NamingIndexesRelations/summary_page.md) |
+| 76063 | SSDs and 4D v11 SQL | 2010 | 11.6 | Josh Fletcher, Technical Services Team Member, 4D Inc. | obsolete | [page](./76063_SSDsAnd4D/summary_page.md) |
+| 76053 | Generating Weighted Lists in 4D | 2010 | 11.6 | Tom Fitch, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76053_WeightedLists/summary_page.md) |
+| 76046 | 2048 bit SSL Keys and the NEW Cipher List in 4D v11 SQL Release 6 | 2010 | 11.6 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | obsolete | [page](./76046_SSLKeysCipherList/summary_page.md) |
+| 76035 | The New Multithreading Model in 4D v11 SQL | 2010 | 11.5 | Atanas Atanassov, Technical Services Team Member, 4D Inc. | still_relevant | [page](./76035_MultithreadingModel/summary_page.md) |
+| 76020 | Array Utilities: 4D v11 SQL Component for the Management and Manipulation of 4D Arrays | 2010 | 11.5 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./76020_ArrayUtilities/summary_page.md) |
+| 76018 | Core Image Pack | 2010 | 11.5 | Thomas Maul, 4D Germany. | obsolete | [page](./76018_CoreImagePack/summary_page.md) |
+| 75998 | Dynamically Creating Tag Clouds with SVG | 2010 | 11.5 | Tom Fitch, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75998_TagCloudsSVG/summary_page.md) |
+| 75992 | Running 4D Server as a Service on Windows | 2010 | 11.5 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75992_ServerAsWindowsService/summary_page.md) |
+| 75984 | Variables On Demand: A 4D v11 SQL Component for the Creation and Management of Variables On Demand | 2010 | 11.5 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc.; Peter Lerch, Softworks AG | partially_superseded | [page](./75984_VariablesOnDemand/summary_page.md) |
+| 75972 | Shortcuts in 4D v11 SQL | 2009 | 11.5 | Luis Piñeiros, Technical Services Team Member, 4D Inc. | obsolete | [page](./75972_ShortcutsIn4D/summary_page.md) |
+| 75969 | QuickTime and YouTube movies in Web Area | 2009 | 11.5 | Joe Resuello, Technical Marketing Engineer, 4D Inc. | obsolete | [page](./75969_QuickTimeYouTubeWebArea/summary_page.md) |
+| 75963 | The 4D v11 SQL Scheduler | 2009 | 11.5 | Josh Fletcher, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75963_SchedulerIn4D/summary_page.md) |
+| 75957 | Chat Integration in 4D v11 SQL | 2009 | 11.5 | Atanas Atanassov, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75957_ChatIntegration/summary_page.md) |
+| 75945 | The 4D v11 SQL Data File Cache | 2009 | 11.4 | Josh Fletcher, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75945_DataFileCache/summary_page.md) |
+| 75944 | ZIP Codes in 4D v11 SQL | 2009 | 11.4 | Luis Piñeiros, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75944_ZipCodes/summary_page.md) |
+| 75942 | Using the Amazon Product Advertising API with 4D | 2009 | 11.4 |  | obsolete | [page](./75942_AmazonProductAdvertisingAPI/summary_page.md) |
+| 75932 | Web Account Registration | 2009 | 11.4 | Tom Fitch, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75932_WebAccountRegistration/summary_page.md) |
+| 75926 | 4D Debug Log Analyzer | 2009 | 11.4 | Josh Fletcher, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75926_DebugLogAnalyzer/summary_page.md) |
+| 75920 | Apache, Mod_Proxy, & 4D | 2009 | 11.4 | Timothy Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75920_ApacheModProxyAnd4D/summary_page.md) |
+| 75911 | Calling 4D Methods From SQL Statements | 2009 | 11.4 | Atanas Atanassov, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75911_Calling4DMethodsFromSQL/summary_page.md) |
+| 75908 | Embedding Maps in 4D using Open Layers | 2009 | 11.4 | Thomas Maul, 4D Germany. | partially_superseded | [page](./75908_EmbeddingMapsOpenLayers/summary_page.md) |
+| 75901 | Quick Report Wizard - Part II | 2009 | 11.4 | Luis Pineiros, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75901_QuickReportWizardPart2/summary_page.md) |
+| 75882 | Multi-Keyword Search | 2009 | 11.4 | Joe Resuello, Tech Marketing Engineer, 4D Inc. | partially_superseded | [page](./75882_MultiKeywordSearch/summary_page.md) |
+| 75876 | Triggers in 4D v11 SQL | 2009 | 11.4 | Atanas Atanassov, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75876_TriggersIn4Dv11Sql/summary_page.md) |
+| 75869 | Automatic Synchronization of 4D Software | 2009 | 11.4 |  | partially_superseded | [page](./75869_AutoSynchronization4DSoftware/summary_page.md) |
+| 75864 | Dynamic Detail Forms | 2009 | 11.4 | Tom Fitch, Technical Services Team Member, 4D Inc. | obsolete | [page](./75864_DynamicDetailForms/summary_page.md) |
+| 75857 | Geocoding Using Public Data | 2009 | 11.4 | Thomas Maul, 4D Germany | obsolete | [page](./75857_GeocodingUsingPublicData/summary_page.md) |
+| 75854 | Tech Note: Embedding Maps in 4D using Google Maps | 2009 | 11.4 | Thomas Maul, 4D Germany | partially_superseded | [page](./75854_EmbeddingGoogleMaps/summary_page.md) |
+| 75840 | Tech Note: Quick Report Wizard - Part I | 2009 | 11.4 | Luis Pineiros, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75840_QuickReportWizardPart1/summary_page.md) |
+| 75833 | Tech Note: IIS and ISAPI REWRITE | 2009 | 11.4 | Timothy Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75833_IisAndIsapiRewrite/summary_page.md) |
+| 75829 | Tech Note: How to Save and Restore 4D Hierarchical Lists | 2009 | 11.4 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75829_SaveRestoreHierarchicalLists/summary_page.md) |
+| 75813 | Tech Note: Performance Test: 4D Web Server and Static Documents | 2009 | 11.4 |  | obsolete | [page](./75813_WebServerStaticDocsPerf/summary_page.md) |
+| 75808 | Tech Note: An Approach to Preferences | 2009 | 11.4 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75808_ApproachToPreferences/summary_page.md) |
+| 75797 | Tech Note: Web Security 4D v11 SQL Component | 2009 | 11 | Atanas Atanassov, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75797_WebSecuritySQLComponent/summary_page.md) |
+| 75783 | Tech Note: SQL Data Types in 4D v11 SQL | 2009 | 11.4 | Chris Visaya, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75783_SQLDataTypesV11/summary_page.md) |
+| 75777 | Tech Note: User Mode Component | 2009 | 11.4 | Thomas Maul, 4D Germany. | still_relevant | [page](./75777_UserModeComponent/summary_page.md) |
+| 75763 | Tech Note: Forms Revisited | 2009 | 11.4 | Luis Pineiros, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75763_FormsRevisited/summary_page.md) |
+| 75757 | Tech Note: Automatic Drop of External Files into 4D | 2009 | 11.4 | Joe Resuello, Tech Marketing Engineer, 4D Inc. | partially_superseded | [page](./75757_AutoDropExternalFiles/summary_page.md) |
+| 75737 | Tech Note: Using Amazon Elastic Compute Cloud for 4D Benchmarking and Testing | 2009 | 11.4 | Thomas Maul, 4D Germany | partially_superseded | [page](./75737_EC2BenchmarkingTesting/summary_page.md) |
+| 75713 | Tech Note: Sending and Receiving E-Mails in Unicode | 2009 | 11.4 | Keisuke Miyako, 4D Japan. | still_relevant | [page](./75713_EmailUnicode/summary_page.md) |
+| 75702 | Tech Note: Mirroring with 4D Server v11 SQL | 2009 | 11.4 | Atanas Atanassov, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75702_MirroringServerV11SQL/summary_page.md) |
+| 75328 | Tech Note: EXECUTE METHOD and EXECUTE FORMULA | 2009 | 11.4 | Silvio Belini, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75328_ExecuteMethodAndFormula/summary_page.md) |
+| 75247 | Tech Note: 4D Splash Screen | 2009 | 11.3 | Thomas Fitch, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75247_4DSplashScreen/summary_page.md) |
+| 75241 | Tech Note: Pointers Revisited | 2009 | 11.3 | Timothy Penner, Technical Services Team Member, 4D Inc. | current | [page](./75241_PointersRevisited/summary_page.md) |
+| 75229 | Tech Note: HTML Email Component | 2009 | 11.3 | Thomas Maul, 4D Germany | partially_superseded | [page](./75229_HtmlEmailComponent/summary_page.md) |
+| 75217 | Tech Note: 4D Pop: Developer Components | 2009 | 11.3 | Jesse Pina, Technical Services Team Member, 4D Inc. | obsolete | [page](./75217_4DPopDeveloperComponents/summary_page.md) |
+| 75207 | Tech Note: 4D Gantt Chart Component | 2009 | 11.3 | Atanas Atanassov, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75207_GanttChartComponent/summary_page.md) |
+| 75200 | Tech Note: Advanced Keyword Search | 2009 | 11.3 | Luis Pineiros, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75200_AdvancedKeywordSearch/summary_page.md) |
+| 75195 | Tech Note: 4D Office Library | 2009 | 11 | Silvio Belini, Technical Services Team Member, 4D Inc. | obsolete | [page](./75195_4DOfficeLibrary/summary_page.md) |
+| 75182 | Tech Note: 4D v11 SQL Assimilator | 2009 | 11.3 | Charles “Charlie” Vass, Technical Services Team Member, 4D Inc. | deprecated | [page](./75182_SqlAssimilator/summary_page.md) |
+| 75177 | Tech Note: File Transfers using Execute on Server | 2009 | 11.2 | Timothy Aaron Penner, Technical Services Team Member, 4D Inc. | partially_superseded | [page](./75177_FileTransfersExecuteOnServer/summary_page.md) |
+| 75143 | Tech Note: Optimizing File Parsing with Match regex | 2009 | 11 | Josh Fletcher, Technical Services Team Member, 4D Inc. | still_relevant | [page](./75143_OptimizingFileParsingRegex/summary_page.md) |
+| 75138 | Tech Note: Exif and ID3 Metadata | 2009 | 11 | Thomas Maul, 4D Germany | still_relevant | [page](./75138_ExifId3Metadata/summary_page.md) |
+| 75099 | Tech Note: 4D Plug-in Development Guide - Part 2 | 2009 | 11.3 | Keisuke Miyako, 4D Japan | obsolete | [page](./75099_PluginDevGuidePart2/summary_page.md) |
+| 75078 | Tech Note: 4D Plug-in Development Guide - Part 1 | 2009 | 11.3 | Keisuke Miyako, 4D Japan | still_relevant | [page](./75078_PluginDevGuidePart1/summary_page.md) |
+| 75071 | Tech Note: Collapsible Lists with Web Area | 2009 | 11.3 | Joe Resuello, Technical Marketing Engineer, 4D Inc. | obsolete | [page](./75071_CollapsibleListsWebArea/summary_page.md) |
+| 75055 | Tech Note: Mashups with 4D v11 SQL Web Area | 2008 | 11.3 | Luis Pineiros, Technical Services Team Member, 4D Inc. | obsolete | [page](./75055_MashupsWithWebArea/summary_page.md) |

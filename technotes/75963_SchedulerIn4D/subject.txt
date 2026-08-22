@@ -1,0 +1,1 @@
+Tech Note: The 4D v11 SQL Scheduler (TN 09-45) — explains how 4D's internal cooperative-process Scheduler loop works, the tunable min_ticks/max_ticks/ticks_between parameters set via SET DATABASE PARAMETER, related Preferences settings, and processor spoofing/multi-processing considerations.

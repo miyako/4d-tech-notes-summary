@@ -1,0 +1,25 @@
+{
+  "asset_id": 75963,
+  "title": "The 4D v11 SQL Scheduler",
+  "technote_number": "09-45",
+  "year": 2009,
+  "published_date": "December 3, 2009",
+  "product": "4D",
+  "version": "11.5",
+  "platform": "Mac & Win",
+  "author": "Josh Fletcher, Technical Services Team Member, 4D Inc.",
+  "page_url": "https://kb.4d.com/assetid=75963",
+  "download_url": "https://kb.4d.com/DLTN/TN/2009/Windows/TN_2009_41-45_(NOV)/09-45_4Dv11SQL_Scheduler.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D cooperative process Scheduler",
+    "SET DATABASE PARAMETER (min_ticks, max_ticks, ticks_between)",
+    "Preferences-based scheduler tuning (Average/Max to 4D, Max to Other Apps)",
+    "Processor spoofing / multi-processing preferences"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D's internal cooperative-process Scheduler loop and the tunable min_ticks/max_ticks/ticks_between parameters (set via SET DATABASE PARAMETER) plus related Preferences settings, giving developers a mental model for how 4D allocates CPU time to cooperative processes. The 4D language remains cooperative per process today, and this Scheduler model, along with SET DATABASE PARAMETER, is still substantially accurate and the note's core guidance (rarely tweak the defaults; understand busy/idle yielding behavior) is still relevant for developers debugging performance or CPU usage issues in cooperative 4D processes.",
+    "status": "still_relevant",
+    "related_updates": []
+  }
+}
