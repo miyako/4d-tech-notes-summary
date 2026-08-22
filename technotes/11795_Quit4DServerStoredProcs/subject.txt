@@ -1,0 +1,1 @@
+Tech Note: How to quit 4D Server while running stored procedures (4D Server v6.0, February 1998) — describes proper server shutdown procedures when stored procedures are executing.

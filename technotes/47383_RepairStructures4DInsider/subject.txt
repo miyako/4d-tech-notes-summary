@@ -1,0 +1,1 @@
+Tech Note: Repairing Corrupted Structures with 4D Insider (TN 07-34, 4D Insider v2004, August 2007) — a rules-based guide to using 4D Insider to rebuild a corrupted database's data dictionary by moving objects, in a strict order, into a fresh destination structure.

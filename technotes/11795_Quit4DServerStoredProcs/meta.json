@@ -1,0 +1,27 @@
+{
+  "asset_id": 11795,
+  "title": "How to quit 4D Server while running stored procedures",
+  "technote_number": null,
+  "year": 1998,
+  "published_date": "February 1, 1998",
+  "product": "4D Server",
+  "version": "6.0",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11795",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "4D Server stored procedures",
+    "Server shutdown management",
+    "Client/server process coordination"
+  ],
+  "historical_commentary": {
+    "text": "Stored procedures were a headline feature of 4D Server v6, allowing server-side method execution in dedicated processes — a paradigm that remains central to 4D Server today, though the API and process management have evolved substantially. The need to gracefully shut down a server while stored procedures are running is still a real concern, but modern 4D Server versions provide more robust lifecycle management, including ON SERVER SHUTDOWN and preemptive process support introduced in v15+.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Server's stored procedure and process management APIs have been significantly modernized across v11 through v20+",
+      "Preemptive processes (v15+) changed the concurrency model; ON SERVER SHUTDOWN database method provides structured shutdown hooks"
+    ]
+  }
+}

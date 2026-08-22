@@ -1,0 +1,1 @@
+Tech Note: Building a Simple Browser with 4D Live Window (TN 07-16, 4D Web 2.0 Pack v1.0, April 2007) — a development diary on building a simple embedded web browser UI and handling its navigation events with the 4D Live Window plug-in.

@@ -1,0 +1,1 @@
+Tech Note: Optimizing Fuzzy Searches (TN 07-15, 4D 2004, April 2007) — documents a length-based pre-filtering optimization for edit distance and LCS fuzzy queries in the FuzzyTools component.

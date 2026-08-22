@@ -1,0 +1,1 @@
+Tech Note: The Flush Variable (TN 001, 4D v1.0, April 1987 (republished April 2007)) — a nostalgia reprint of 4D's very first Technical Note, describing the classic Mac File Manager Flush variable used to speed up bulk record imports.

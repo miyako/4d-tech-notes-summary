@@ -1,0 +1,29 @@
+{
+  "asset_id": 47383,
+  "title": "Tech Note: Repairing Corrupted Structures with 4D Insider",
+  "technote_number": "07-34",
+  "year": 2007,
+  "published_date": "August 29, 2007",
+  "product": "4D Insider",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Achim Peschke, Manager of Support Department, 4D Germany",
+  "page_url": "https://kb.4d.com/assetid=47383",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_30-34_(AUG)/07-34_Repair_with_4D_Insider.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Insider",
+    "4D Design Mode / Explorer",
+    "Data dictionary rebuild",
+    "USERS TO BLOB / BLOB TO USERS commands"
+  ],
+  "historical_commentary": {
+    "text": "This note explains 4D Insider's approach to 'repairing' a corrupted 4D structure file by moving all uncorrupted objects, in a strict order (lists, tables, then everything else), from a damaged source database into a fresh destination database, thereby rebuilding the data dictionary rather than literally repairing it. It is deeply tied to 4D 2004-era Design Mode concepts (binary structure files, Trash, groups/folders, the Explorer) and the standalone 4D Insider utility, which have evolved significantly or been superseded since; structure corruption recovery workflows in modern 4D versions rely on different, more automated tooling. The step ordering discipline it describes (numbering integrity, references) is a good illustration of how fragile binary structure files were in that era, a concern much reduced by modern data formats.",
+    "status": "superseded",
+    "related_updates": [
+      "4D Insider as a standalone repair tool from this era has been superseded by newer recovery/verification tooling in later 4D versions",
+      "4D's binary structure file format and repair workflows have evolved considerably since 4D 2004",
+      "Project Mode (introduced in 4D v17, 2018) uses text-based project files, changing how structure corruption and recovery are approached compared to the binary .4DB era described here"
+    ]
+  }
+}

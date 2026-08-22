@@ -1,0 +1,1 @@
+Tech Note: Custom Users and Groups Import/Export (TN 07-12, 4D 2004, March 2007) — shows how to build a custom Users and Groups import/export module, via USERS TO BLOB/BLOB TO USERS and XML/DOM, that also captures per-plug-in access settings.

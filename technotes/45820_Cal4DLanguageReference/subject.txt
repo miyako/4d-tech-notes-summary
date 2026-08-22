@@ -1,0 +1,1 @@
+Tech Note: Cal4D Component - Language Reference (TN 07-10, 4D 2004, March 2007) — Part Two of a two-part note providing the public-method language reference for the Cal4D calendar component (teaser only; full archive unavailable).

@@ -1,0 +1,28 @@
+{
+  "asset_id": 11794,
+  "title": "Passport for the Euro with 4D",
+  "technote_number": null,
+  "year": 1999,
+  "published_date": "June 1, 1999",
+  "product": "4D",
+  "version": "6.0.6",
+  "platform": "Mac & Win",
+  "author": null,
+  "page_url": "https://kb.4d.com/assetid=11794",
+  "download_url": null,
+  "content_source": "teaser_only",
+  "featured_technology": [
+    "Euro currency conversion",
+    "4DK# and euro resources",
+    "BLOB manipulation",
+    "Currency formatting"
+  ],
+  "historical_commentary": {
+    "text": "Published in 1999 as the Euro was being introduced across the European Union, this note addressed a pressing real-world concern for 4D developers serving European businesses. The Euro conversion rules and fixed exchange rates were a one-time transition completed by 2002. The specific resource-manipulation techniques (4DK# and euro resources via BLOBs) are entirely obsolete, but the note is a fascinating snapshot of how 4D developers adapted to a major economic event.",
+    "status": "historical interest only",
+    "related_updates": [
+      "Euro adoption was fully completed by 2002; currency conversion logic is no longer needed",
+      "4D's resource-based architecture (4DK# resources) has been replaced by modern settings and JSON-based configuration"
+    ]
+  }
+}

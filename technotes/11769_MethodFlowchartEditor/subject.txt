@@ -1,0 +1,1 @@
+Tech Note: Using the 4D Method Flowchart Editor (4D v6.0, August 1997) — introduces 4th Dimension's Flowchart Editor, a visual alternative to writing methods as text, and suggests situations where a flowchart-style method may be the best tool for the job; full text unavailable, summary based on the teaser only.

@@ -1,0 +1,1 @@
+Tech Note: Getting Started with the 4D Ajax Framework (TN 07-33, 4D Web 2.0 Pack, August 2007) — an orientation guide for developers new to the 4D Ajax Framework (4DAF), covering its architecture, documentation set, installation, and the Control Panel/Admin Client tools for configuring Views, DDWs, callbacks, and preset queries.

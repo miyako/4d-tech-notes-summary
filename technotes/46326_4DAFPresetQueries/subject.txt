@@ -1,0 +1,1 @@
+Tech Note: 4D Ajax Framework: Preset Queries (TN 07-17, 4D Web 2.0 Pack v1.1, May 2007) — a walkthrough revamping an Invoicing demo database with Preset Queries in the 4D Ajax Framework client.

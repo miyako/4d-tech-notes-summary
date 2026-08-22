@@ -1,0 +1,1 @@
+Tech Note: Custom List Manager (TN 07-23, 4D v2004, June 2007) — presents a technique for storing user-editable pick lists and multi-value keyword tags in the data file rather than the structure, using one table, one dispatching Project Method, and inter-process arrays.

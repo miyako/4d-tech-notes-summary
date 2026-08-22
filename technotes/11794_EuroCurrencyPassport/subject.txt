@@ -1,0 +1,1 @@
+Tech Note: Passport for the Euro with 4D (4D v6.0.6, June 1999) — explains Euro currency conversion and resource manipulation for European monetary unit support in 4D.

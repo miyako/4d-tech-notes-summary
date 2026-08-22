@@ -1,0 +1,29 @@
+{
+  "asset_id": 46705,
+  "title": "Tech Note: Custom List Manager",
+  "technote_number": "07-23",
+  "year": 2007,
+  "published_date": "June 13, 2007",
+  "product": "4D",
+  "version": "2004",
+  "platform": "Mac & Win",
+  "author": "Larry Sharpe",
+  "page_url": "https://kb.4d.com/assetid=46705",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_22-25_(JUN)/07-23_Custom_Lists.zip",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D hierarchical lists",
+    "Data-file-stored list table ([xLists])",
+    "Project Method pattern (Case of dispatch)",
+    "Inter-process arrays"
+  ],
+  "historical_commentary": {
+    "text": "This note presents a technique for storing user-editable pick lists (and multi-value keyword tags) in a database table rather than in the structure file, so list edits survive structure updates, implemented via a single dispatching Project Method and inter-process arrays loaded at startup, an approach the author explicitly frames as a 2004-era redesign of a similar 2000-era Technical Note. The core problem it solves — persisting user-editable lists independent of structure/schema changes — is timeless and still relevant to any database application, but the specific implementation idioms (raw hierarchical lists, inter-process arrays, structure-file separation from data file) are classic 4D Design Mode patterns that a modern 4D developer would likely implement differently using current list-box/collection-based UI objects and ORDA-style data access.",
+    "status": "still relevant",
+    "related_updates": [
+      "4D has since introduced richer list-box and collection-based UI objects that can implement similar user-editable list functionality with less custom code",
+      "ORDA (introduced in 4D v17, 2018) offers a more modern data-access approach than the raw table/inter-process-array pattern shown here",
+      "The general problem (persisting editable lists independent of structure changes) remains a common and valid concern in current 4D development"
+    ]
+  }
+}

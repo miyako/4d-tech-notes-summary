@@ -1,0 +1,1 @@
+Tech Note: Creating Mashups in the 4D Ajax Framework Client (TN 07-08, 4D Web 2.0 Pack v1.x, February 2007) — walks through building a Google Maps mashup using a Developer Defined Window in the 4D Ajax Framework Client.

@@ -1,0 +1,1 @@
+Tech Note: 4DAF Video Player (TN 07-24, 4D Web 2.0 Pack v1.1, June 2007) — shows how to embed 4D Ajax Framework objects (ImageMatrix, DataFiller, IFrame) into a custom HTML page to build a database-backed video-browsing interface.

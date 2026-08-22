@@ -1,0 +1,1 @@
+Tech Note: Protecting Against Bad Parameter Counts (TN 07-14, 4D 2004, April 2007) — explains how 4D behaves when methods receive too few parameters and provides a defensive parameter-count validation pattern.

@@ -1,0 +1,30 @@
+{
+  "asset_id": 47321,
+  "title": "Tech Note: Getting Started with the 4D Ajax Framework",
+  "technote_number": "07-33",
+  "year": 2007,
+  "published_date": "August 22, 2007",
+  "product": "4D Web 2.0 Pack",
+  "version": "",
+  "platform": "Mac & Win",
+  "author": "Larry Sharpe, 4D Developer, InfoService",
+  "page_url": "https://kb.4d.com/assetid=47321",
+  "download_url": "https://kb.4d.com/DLTN/TN/2007/Windows/TN_2007_30-34_(AUG)/07-33_Getting_Started_w_4DAF.pdf",
+  "content_source": "full_pdf",
+  "featured_technology": [
+    "4D Ajax Framework (4DAF)",
+    "4D Web 2.0 Pack",
+    "4DAF Control Panel / Admin Client",
+    "Developer Defined Windows (DDW)",
+    "Daxipedia"
+  ],
+  "historical_commentary": {
+    "text": "This is a beginner-oriented orientation guide to the 4D Ajax Framework (4DAF), explaining its architecture (4DAF Libraries vs. 4DAF Client), the available documentation set, and how to configure Views/Sheets, Developer Defined Windows, callbacks, and preset queries through the Control Panel or Admin Client. It is entirely product-specific to the now-discontinued 4DAF/4D Web 2.0 Pack and its Daxipedia documentation wiki, none of which exist any longer, making its concrete instructions obsolete. The higher-level narrative about the Web 1.0-to-Web 2.0 shift (static pages vs. partial/AJAX-style updates) remains a reasonable historical description of that transition, even though the specific tooling described has been fully superseded.",
+    "status": "obsolete",
+    "related_updates": [
+      "4D Ajax Framework and 4D Web 2.0 Pack were discontinued and are not part of any current 4D product",
+      "The Daxipedia documentation wiki referenced throughout is no longer an active or relevant resource",
+      "Modern 4D web development relies on the built-in Web Server, REST/ORDA APIs, and standard JS frameworks instead of 4DAF's own client/component model"
+    ]
+  }
+}
