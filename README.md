@@ -24,6 +24,7 @@ scripts/
   scan_asset.py                scan asset page(s) for metadata + download link (no download)
   extract_asset.py            download + extract full text for scanned assets
   add_asset.py                 scaffold a new note's 4-file folder end-to-end
+  recover_mac_alternate.py    retry teaser_only legacy notes via their Mac .hqx mirror
   rebuild_index.py            regenerate technotes/index.md from all meta.json files
   audit.py                    read-only completeness/quality report
 ```
@@ -33,8 +34,8 @@ scripts/
 | | Count | % |
 |---|---|---|
 | **Total Tech Notes on kb.4d.com** | 1,039 | 100% |
-| Fully processed from the real document (`full_pdf`) | 559 confirmed + 55 presumed* | 59.1% |
-| Teaser-only (document unrecoverable, see below) | 425 | 40.9% |
+| Fully processed from the real document (`full_pdf`) | 774 confirmed + 55 presumed* | 79.8% |
+| Teaser-only (document unrecoverable, see below) | 210 | 20.2% |
 
 \* 55 notes (all within asset IDs 70086-80085, the first batch processed) use
 an older `meta.json` schema written before the `content_source` field
@@ -46,30 +47,34 @@ This is a **schema gap, not a data-completeness failure**; see
 Run `python3 scripts/audit.py` at any time to regenerate this table plus a
 year-by-year and status-value breakdown.
 
-### Why 425 notes are teaser-only
+### Why 210 notes are teaser-only
 
 | Cause | Count | Years affected |
 |---|---|---|
 | No download link ever existed on the asset page | 150 | 1997-2000 |
-| Link exists, but the archive could not be extracted (mostly pre-2006 Windows `.exe` self-extractors, internally StuffIt5) | 257 | 1998-2007 |
+| Link exists, but neither the Windows `.exe` nor a Mac `.hqx` alternate could be extracted | 42 | 1998-2007 |
 | Download failed / dead FTP link | 2 | 2001, 2007 |
 | Reachable `.zip` links that repeatedly failed/truncated on download | ~16 | 2009-2022 (scattered) |
 
 Full asset-by-asset list with titles and URLs: **[docs/unprocessable_urls.md](docs/unprocessable_urls.md)**.
+
+**Methodology win: Mac `.hqx` mirror recovery.** Most pre-2006 legacy notes list both a Windows `.exe` self-extracting archive and a Mac BinHex `.hqx` alternate. When the `.exe` failed to extract, we discovered kb.4d.com also mirrors the Mac alternate over HTTPS at a predictable path (swap `Windows` → `MacOS` in the `/DLTN/TN/<year>/...` URL). `unar` decodes BinHex + extracts StuffIt in one step, same tool as the `.exe` case. Applying this to all 257 previously-teaser-only "archive could not be extracted" notes recovered full text for **215 of them (84%)**, dropping the corpus-wide teaser-only rate from 41% to 20%. See `docs/unprocessable_urls.md` for the full technique writeup and the 42 genuinely-unrecoverable remainder.
 
 ### Bias / anomaly notes (important — read before drawing conclusions from year-over-year stats)
 
 **1. Genuine archive-era bias (1996-2007), not a processing error.** The
 teaser-only rate is extremely high and format-driven in specific years:
 
-- **1997-2002 are ~93-100% teaser-only.** Many pages from this era simply
-  never had (or lost) their download link during CMS migrations, and where a
-  link exists it is almost always a `.exe`/`.hqx` self-extracting archive
-  that predates the ZIP-everywhere convention. These are internally
-  StuffIt5 archives; `unar` recognizes the format but a majority still fail
-  to yield a readable PDF (age-related corruption or unusual encoding
-  variants). This is a **real, permanent gap in the archive**, not
-  something a smarter script would fix.
+- **1997-2002 still have the highest teaser-only rates** (though much
+  improved after the Mac-mirror recovery, see below). Many pages from this
+  era simply never had (or lost) their download link during CMS migrations.
+  Where a link exists, it is almost always a `.exe`/`.hqx` self-extracting
+  archive that predates the ZIP-everywhere convention; these are internally
+  StuffIt5 archives, and `unar` now recovers the large majority of them (via
+  the Mac `.hqx` alternate when the Windows `.exe` fails). A residual ~16%
+  of the originally-259-strong "archive could not be extracted" bucket (42
+  notes) is a **real, permanent gap in the archive** — no download variant
+  exists or extracts cleanly for these.
 - **2006 onward drops sharply to ~0-17% teaser-only** once 4D standardized
   on `.zip`-hosted PDFs.
 
@@ -154,6 +159,22 @@ python3 scripts/audit.py   # shows any new asset IDs not yet on disk
 ```
 
 Then run `add_asset.py` for each new ID reported as "missing."
+
+### Retry teaser-only legacy notes via their Mac alternate
+
+Many pre-2006 notes have both a Windows `.exe` and a Mac `.hqx` download on
+their page; if the `.exe` failed to extract, try the Mac mirror:
+
+```bash
+python3 scripts/recover_mac_alternate.py --all
+# or a single asset:
+python3 scripts/recover_mac_alternate.py --asset-id 32313
+```
+
+This writes recovered full text to `/tmp/mac_recovery/<id>.txt` for you (or
+an LLM) to summarize into the note's 4 files, same as `add_asset.py`'s
+`source_text.txt` workflow. See "Methodology win" above for why this works
+and how much it recovered.
 
 ### Start completely from scratch
 

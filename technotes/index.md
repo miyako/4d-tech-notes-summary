@@ -560,269 +560,269 @@ Full corpus (1996-2026), scanned via the kb.4d.com search API (see scripts/fetch
 | 40001 | Tech Note: 4D Internet Commands - Net Commands | 2005 | 2004 |  | obsolete | [page](./40001_InternetCommandsNetCommands/summary_page.md) |
 | 39879 | Tech Note: The new EDIT FORMULA dialog in 4D 2004 | 2005 | 2004 |  | superseded | [page](./39879_EditFormulaDialog/summary_page.md) |
 | 39583 | Tech Note: List Forms in 2004 | 2005 |  | Daniel Do – 4D Technical Support | partially_superseded | [page](./39583_ListForms2004/summary_page.md) |
-| 39582 | Tech Note: Server Processes | 2005 |  |  | partially_superseded | [page](./39582_ServerProcesses/summary_page.md) |
-| 39384 | Tech Note: HTTP Download with a Single Method | 2005 | 2004 |  | superseded | [page](./39384_HTTPDownloadSingleMethod/summary_page.md) |
+| 39582 | Tech Note: Server Processes | 2005 |  | Larry Sharpe | partially_superseded | [page](./39582_ServerProcesses/summary_page.md) |
+| 39384 | Tech Note: HTTP Download with a Single Method | 2005 | 2004 | Thomas Maul | superseded | [page](./39384_HTTPDownloadSingleMethod/summary_page.md) |
 | 39063 | Tech Note: QuickTime Container: Plug-in to display and control movies and audio using QT | 2005 | 2004 |  | obsolete | [page](./39063_QuickTimeContainer/summary_page.md) |
-| 38908 | Tech Note: User Preferences | 2005 |  |  | superseded | [page](./38908_UserPreferences/summary_page.md) |
-| 38355 | Tech Note: New Form Events in 4D 2004 | 2005 | 2004 |  | historical_interest_only | [page](./38355_NewFormEvents2004/summary_page.md) |
-| 38192 | Tech Note: Using ListBoxes as Subforms | 2005 | 2004.7r3 |  | still_relevant | [page](./38192_ListBoxesAsSubforms/summary_page.md) |
-| 38073 | Tech Note: User Changeable Output Form | 2005 |  |  | superseded | [page](./38073_UserChangeableOutputForm/summary_page.md) |
-| 37936 | Tech Note: Email_QuickSend | 2005 |  |  | obsolete | [page](./37936_EmailQuickSend/summary_page.md) |
-| 37622 | Tech Note: Making Labels More Dynamic | 2005 |  |  | still_relevant | [page](./37622_DynamicLabels/summary_page.md) |
-| 37526 | Tech Note: Clusters: Using Saved Sets Effectively - Part II | 2005 |  |  | superseded | [page](./37526_ClustersSavedSetsPart2/summary_page.md) |
-| 37462 | Tech Note: Clusters: Using Saved Sets Effectively - Part I | 2005 |  |  | superseded | [page](./37462_ClustersSavedSetsPart1/summary_page.md) |
+| 38908 | Tech Note: User Preferences | 2005 |  | Larry Sharpe | superseded | [page](./38908_UserPreferences/summary_page.md) |
+| 38355 | Tech Note: New Form Events in 4D 2004 | 2005 | 2004 | Jean-Yves Fock-Hoon | historical_interest_only | [page](./38355_NewFormEvents2004/summary_page.md) |
+| 38192 | Tech Note: Using ListBoxes as Subforms | 2005 | 2004.7r3 | Kent Wilbur | still_relevant | [page](./38192_ListBoxesAsSubforms/summary_page.md) |
+| 38073 | Tech Note: User Changeable Output Form | 2005 |  | Larry Sharpe | superseded | [page](./38073_UserChangeableOutputForm/summary_page.md) |
+| 37936 | Tech Note: Email_QuickSend | 2005 |  | Melinda Gallo | obsolete | [page](./37936_EmailQuickSend/summary_page.md) |
+| 37622 | Tech Note: Making Labels More Dynamic | 2005 |  | Jean-Yves Fock-Hoon | still_relevant | [page](./37622_DynamicLabels/summary_page.md) |
+| 37526 | Tech Note: Clusters: Using Saved Sets Effectively - Part II | 2005 |  | Kent Wilbur | superseded | [page](./37526_ClustersSavedSetsPart2/summary_page.md) |
+| 37462 | Tech Note: Clusters: Using Saved Sets Effectively - Part I | 2005 |  | Kent Wilbur | superseded | [page](./37462_ClustersSavedSetsPart1/summary_page.md) |
 | 37394 | Tech Note: CPU, Scheduler and Processes | 2005 |  | Jean-Yves Fock-Hoon, QA Manager | still_relevant | [page](./37394_CPUSchedulerProcesses/summary_page.md) |
 | 37328 | Tech Note: FAQ - List Forms in Version 2004 | 2005 | 2004 | 4D Technical Support | still_relevant | [page](./37328_ListFormsFAQ2004/summary_page.md) |
-| 37215 | Tech Note: cURL - HTTP Client, Get and Post, FTP and Much More, Using 4D 2004 | 2005 | 2004 |  | superseded | [page](./37215_CurlHTTPClient/summary_page.md) |
+| 37215 | Tech Note: cURL - HTTP Client, Get and Post, FTP and Much More, Using 4D 2004 | 2005 | 2004 | Thomas Maul | superseded | [page](./37215_CurlHTTPClient/summary_page.md) |
 | 37172 | Tech Note: Upgrading Older Databases | 2005 |  | Daniel Do, Technical Support Engineer, 4D, Inc. | historical_interest_only | [page](./37172_UpgradingOlderDatabases/summary_page.md) |
-| 37047 | Tech Note: Handling Pictures | 2005 |  |  | obsolete | [page](./37047_HandlingPictures/summary_page.md) |
-| 36923 | Tech Note: 4D Quick Report Editor Source Code - Part III | 2005 |  |  | superseded | [page](./36923_QuickReportEditorSourcePart3/summary_page.md) |
-| 36838 | Tech Note: 4D Quick Report Editor Source Code - Part II | 2005 | 2004 |  | historical_interest_only | [page](./36838_QuickReportEditorSourcePart2/summary_page.md) |
-| 36757 | Tech Note: 4D Quick Report Editor Source Code - Part 1 | 2005 | 2004 |  | historical_interest_only | [page](./36757_QuickReportEditorSourcePart1/summary_page.md) |
-| 36663 | Tech Note: Spell-check and Dictionary | 2005 | 2004 |  | historical_interest_only | [page](./36663_SpellCheckAndDictionary/summary_page.md) |
-| 36562 | Tech Note: 4D Pack 2004.1's New Utility Commands | 2005 | 2004.1 |  | obsolete | [page](./36562_4DPackUtilityCommands/summary_page.md) |
-| 36473 | Tech Note: Data Formatting | 2005 | 2004 |  | historical_interest_only | [page](./36473_DataFormatting/summary_page.md) |
-| 36397 | Tech Note: Recovering a Damaged Data File | 2005 | 2004 |  | superseded | [page](./36397_RecoveringDamagedDataFile/summary_page.md) |
-| 36279 | Tech Note: Printing Barcodes | 2005 | 2004 |  | superseded | [page](./36279_PrintingBarcodes/summary_page.md) |
-| 36185 | Tech Note: WebSTAR: Front End for 4D Business Kit | 2005 |  |  | obsolete | [page](./36185_WebSTARFrontEnd4DBusinessKit/summary_page.md) |
-| 36094 | Tech Note: Addendum - GDIPlus Plug-in Version 1.1 | 2005 | 2004 |  | obsolete | [page](./36094_GDIPlusPluginAddendum/summary_page.md) |
-| 35928 | Tech Note: Using 4D with TerraServer USA Web Services | 2005 | 2004 |  | obsolete | [page](./35928_4DAndTerraServerWebServices/summary_page.md) |
-| 35817 | Tech Note: Introduction to 4D for ADO | 2005 | 2004 |  | obsolete | [page](./35817_Intro4DForADO/summary_page.md) |
-| 35693 | Tech Note: 4D and salesforce.com | 2005 | 2004 |  | obsolete | [page](./35693_4DAndSalesforceCom/summary_page.md) |
-| 35535 | Tech Note: Object Libraries | 2005 | 2004 |  | superseded | [page](./35535_ObjectLibraries/summary_page.md) |
-| 35423 | Tech Note: Advanced Method Editor Macros | 2005 | 2004 |  | superseded | [page](./35423_AdvancedMethodEditorMacros/summary_page.md) |
-| 35263 | Tech Note: Using 4D to Manage eBay | 2004 | 2004 |  | obsolete | [page](./35263_Using4DToManageEBay/summary_page.md) |
+| 37047 | Tech Note: Handling Pictures | 2005 |  | Gerard Czwiklinski | obsolete | [page](./37047_HandlingPictures/summary_page.md) |
+| 36923 | Tech Note: 4D Quick Report Editor Source Code - Part III | 2005 | 2004 | Kent Wilbur | historical_interest_only | [page](./36923_QuickReportEditorSourcePart3/summary_page.md) |
+| 36838 | Tech Note: 4D Quick Report Editor Source Code - Part II | 2005 | 2004 | Kent Wilbur | historical_interest_only | [page](./36838_QuickReportEditorSourcePart2/summary_page.md) |
+| 36757 | Tech Note: 4D Quick Report Editor Source Code - Part 1 | 2005 | 2004 | Kent Wilbur | historical_interest_only | [page](./36757_QuickReportEditorSourcePart1/summary_page.md) |
+| 36663 | Tech Note: Spell-check and Dictionary | 2005 | 2004 | Thang Nguyen | partially_superseded | [page](./36663_SpellCheckAndDictionary/summary_page.md) |
+| 36562 | Tech Note: New 4D Pack 2004.1's Utility Commands | 2005 | 2004.1 | Jamras Komoncharoensiri | superseded | [page](./36562_4DPackUtilityCommands/summary_page.md) |
+| 36473 | Tech Note: Data formatting | 2005 | 2004 | Jean-Yves Fock-Hoon | historical_interest_only | [page](./36473_DataFormatting/summary_page.md) |
+| 36397 | Tech Note: Recovering a Damaged Data File | 2005 | 2004 | Thang Nguyen | still_relevant | [page](./36397_RecoveringDamagedDataFile/summary_page.md) |
+| 36279 | Tech Note: Printing Barcodes | 2005 | 2004.1 | Thomas Maul | partially_superseded | [page](./36279_PrintingBarcodes/summary_page.md) |
+| 36185 | Tech Note: WebSTAR: Front End for 4D Business Kit | 2005 | 2.2.2 | Steve Hartman | obsolete | [page](./36185_WebSTARFrontEnd4DBusinessKit/summary_page.md) |
+| 36094 | Tech Note: Addendum GDIPlus PlugIn Version 1.1 | 2005 | 2004 | Thomas Maul | obsolete | [page](./36094_GDIPlusPluginAddendum/summary_page.md) |
+| 35928 | Tech Note: Using 4D with TerraServer USA Web Services | 2005 | 2004 | Thang Nguyen | obsolete | [page](./35928_4DAndTerraServerWebServices/summary_page.md) |
+| 35817 | Tech Note: Introduction to 4D for ADO | 2005 | 2004 | Sean Le | superseded | [page](./35817_Intro4DForADO/summary_page.md) |
+| 35693 | Tech Note: 4D and salesforce.com | 2005 | 2004 | Jonathan Le | superseded | [page](./35693_4DAndSalesforceCom/summary_page.md) |
+| 35535 | Tech Note: Object Libraries | 2005 | 2004 | Jonathan Le | superseded | [page](./35535_ObjectLibraries/summary_page.md) |
+| 35423 | Tech Note: Advanced Method Editor Macros | 2005 | 2004 | Jonathan Le | superseded | [page](./35423_AdvancedMethodEditorMacros/summary_page.md) |
+| 35263 | Tech Note: Using 4D to Manage eBay | 2004 | 2004 | Frank Chang | obsolete | [page](./35263_Using4DToManageEBay/summary_page.md) |
 | 35197 | Tech Note: Working with 4D and iCalendars | 2004 | 2004 | Frank Chang, 4D Evangelist | obsolete | [page](./35197_4DiCalendars/summary_page.md) |
-| 35116 | Tech Note: Process HTML Tags and more! | 2004 | 2004 |  | superseded | [page](./35116_ProcessHTMLTags/summary_page.md) |
+| 35116 | Tech Note: Process HTML Tags and more! | 2004 | 2004 | Julien Feasson | partially_superseded | [page](./35116_ProcessHTMLTags/summary_page.md) |
 | 35021 | Tech Note: 4D 2004 Advanced ODBC | 2004 | 2004 |  | superseded | [page](./35021_AdvancedODBC2004/summary_page.md) |
-| 34930 | Tech Note: Introduction to 4D for MySQL and 4D for PostgreSQL | 2004 | 2004 |  | obsolete | [page](./34930_4DForMySQLPostgreSQL/summary_page.md) |
-| 34847 | Tech Note: Native ODBC in 4D | 2004 | 2004 |  | still_relevant | [page](./34847_NativeODBC/summary_page.md) |
-| 34735 | Tech Note: User Defined Forms | 2004 | 2004 |  | still_relevant | [page](./34735_UserDefinedForms/summary_page.md) |
+| 34930 | Tech Note: Introduction to 4D for MySQL and 4D for PostgreSQL | 2004 | 2004 | Jamras Komoncharoensiri | superseded | [page](./34930_4DForMySQLPostgreSQL/summary_page.md) |
+| 34847 | Tech Note: Native ODBC in 4D | 2004 | 2004 | Sati Hillyer | still_relevant | [page](./34847_NativeODBC/summary_page.md) |
+| 34735 | Tech Note: User Defined Forms | 2004 | 2004 | Sati Hillyer | partially_superseded | [page](./34735_UserDefinedForms/summary_page.md) |
 | 34659 | Tech Note: Accessing COM Objects within 4D | 2004 | 2004 |  | obsolete | [page](./34659_AccessingCOMObjects/summary_page.md) |
-| 34536 | Tech Note: 2004 ODBC Primer | 2004 | 2004 |  | historical_interest_only | [page](./34536_ODBCPrimer2004/summary_page.md) |
+| 34536 | Tech Note: 2004 ODBC Primer | 2004 | 2004 | Jamras Komoncharoensiri | still_relevant | [page](./34536_ODBCPrimer2004/summary_page.md) |
 | 34447 | Tech Note: 4th Dimension 2004 Allows New Freedoms in Form URLs | 2004 | 2004 | David Adams | superseded | [page](./34447_FormURLFreedoms/summary_page.md) |
-| 34361 | Tech Note: Reading a Full SOAP Request with 4th Dimension 2004 | 2004 | 2004 |  | obsolete | [page](./34361_ReadingSOAPRequest/summary_page.md) |
-| 34276 | Tech Note: Authenticating Web Service Requests | 2004 | 2004 |  | obsolete | [page](./34276_AuthWebServiceRequests/summary_page.md) |
-| 34170 | Tech Note: Exchanging Data Between Processes | 2004 | 2004 |  | still_relevant | [page](./34170_ExchangingProcessData/summary_page.md) |
-| 34081 | Tech Note: Using 4D 2004 Assimilator | 2004 | 2004 |  | obsolete | [page](./34081_4DAssimilator/summary_page.md) |
-| 33989 | Tech Note: Using Command Select Document (2004) | 2004 | 2004 |  | still_relevant | [page](./33989_SelectDocumentCommand/summary_page.md) |
-| 33905 | Tech Note: Included Lists with 4D View | 2004 | 2004 |  | obsolete | [page](./33905_4DViewIncludedLists/summary_page.md) |
-| 33822 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part II of II | 2004 | 2004 |  | obsolete | [page](./33822_GDIPlusImagePart2/summary_page.md) |
-| 33721 | Tech Note: Introduction to XSLT | 2004 | 2003.4 |  | superseded | [page](./33721_IntroToXSLT/summary_page.md) |
-| 33643 | Tech Note: Taking Advantage of Execute on Server | 2004 | 2003.4 |  | still relevant | [page](./33643_ExecuteOnServer/summary_page.md) |
-| 33569 | Tech Note: Client Self-Upgradable | 2004 |  |  | superseded | [page](./33569_ClientSelfUpgradable/summary_page.md) |
-| 33477 | Tech Note: Creating an HTML File with the Report Editor | 2004 | 2003.4 |  | superseded | [page](./33477_HTMLReportEditor/summary_page.md) |
-| 33418 | Tech Note: Three-State Checkboxes | 2004 | 2003.3 |  | still relevant | [page](./33418_ThreeStateCheckboxes/summary_page.md) |
-| 33353 | Tech Note: Optimizing Writing to the Cache with 4th Dimension | 2004 | 2003.3 |  | historical interest only | [page](./33353_OptimizingCacheWriting/summary_page.md) |
-| 33214 | Tech Note: Working with Hierarchical List in 2004 | 2004 | 2003.3 |  | still relevant | [page](./33214_HierarchicalList2004/summary_page.md) |
-| 33153 | Tech Note: 4D Chart | 2004 | 2003.3 |  | superseded | [page](./33153_4DChart/summary_page.md) |
-| 33063 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part I of II | 2004 | 2003.3 |  | obsolete | [page](./33063_GDIPlusImagePart1/summary_page.md) |
-| 33006 | Tech Note: 4D Macros in Version 2004 | 2004 | 2003.3 |  | still relevant | [page](./33006_4DMacros2004/summary_page.md) |
-| 32903 | Tech Note: JDBC Connectivity for 4D Server | 2004 | 2003.3 |  | still relevant | [page](./32903_JDBCConnectivity4DServer/summary_page.md) |
-| 32788 | Tech Note: The XML_Utilities Component | 2004 | 2003.3 |  | superseded | [page](./32788_XMLUtilitiesComponent/summary_page.md) |
-| 32705 | Tech Note: Reading a Full SOAP Response | 2004 | 2003.3 |  | superseded | [page](./32705_FullSOAPResponse/summary_page.md) |
-| 32601 | Tech Note: Reading a Full SOAP Request | 2004 | 2003.3 |  | superseded | [page](./32601_FullSOAPRequest/summary_page.md) |
-| 32516 | Tech Note: Determining the Name of a Requested Web Service | 2004 | 2003.3 |  | historical interest only | [page](./32516_DetermineWebServiceName/summary_page.md) |
-| 32400 | Tech Note: Open Data File | 2004 | 2003.3 |  | superseded | [page](./32400_OpenDataFile/summary_page.md) |
-| 32313 | Tech Note: Spreadsheet to 4D 101 | 2004 | 2003.3 |  | superseded | [page](./32313_SpreadsheetTo4D101/summary_page.md) |
-| 32222 | Tech Note: Returning Pictures Through SOAP | 2004 | 2003.3 |  | historical interest only | [page](./32222_ReturningPicturesThroughSOAP/summary_page.md) |
-| 32122 | Tech Note: Operations on Arrays and Selections | 2004 | 2003.3 |  | superseded | [page](./32122_OperationsOnArraysSelections/summary_page.md) |
+| 34361 | Tech Note: Reading a Full SOAP Request with 4th Dimension 2004 | 2004 | 2004 | David Adams | historical_interest_only | [page](./34361_ReadingSOAPRequest/summary_page.md) |
+| 34276 | Tech Note: Authenticating Web Service Requests | 2004 | 2004 | David Adams | partially_superseded | [page](./34276_AuthWebServiceRequests/summary_page.md) |
+| 34170 | Tech Note: Exchanging Data Between Processes | 2004 | 2004 | Jean-Yves Fock-Hoon | still_relevant | [page](./34170_ExchangingProcessData/summary_page.md) |
+| 34081 | Tech Note: Using 4D 2004 Assimilator | 2004 | 2004 | Sean Le | obsolete | [page](./34081_4DAssimilator/summary_page.md) |
+| 33989 | Tech Note: Using Command Select Document (2004) | 2004 | 2004 | Jamras Komoncharoensiri | partially_superseded | [page](./33989_SelectDocumentCommand/summary_page.md) |
+| 33905 | Tech Note: Included Lists with 4D View | 2004 | 2004 | Bertrand Soubeyrand | obsolete | [page](./33905_4DViewIncludedLists/summary_page.md) |
+| 33822 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part II of II | 2004 | 2004 | Thang Nguyen (Technical Support, 4D Inc.); plug-in and content provided by Thomas Maul, 4D Germany | obsolete | [page](./33822_GDIPlusImagePart2/summary_page.md) |
+| 33721 | Tech Note: Introduction to XSLT | 2004 | 2003.4 | Julien Feasson (Software Engineer, 4D Inc.) | superseded | [page](./33721_IntroToXSLT/summary_page.md) |
+| 33643 | Tech Note: Taking Advantage of Execute on Server | 2004 | 2003.4 | Bertrand Soubeyrand (4D Developer) | still_relevant | [page](./33643_ExecuteOnServer/summary_page.md) |
+| 33569 | Tech Note: Client Self-Upgradable | 2004 | 2004 | Jonathan Le (Technical Support, 4D, Inc.) | historical_interest_only | [page](./33569_ClientSelfUpgradable/summary_page.md) |
+| 33477 | Tech Note: Creating an HTML File with the Report Editor | 2004 | 2003.4 | Jean-Yves Fock-Hoon (QA Manager, 4D, Inc.) | historical_interest_only | [page](./33477_HTMLReportEditor/summary_page.md) |
+| 33418 | Tech Note: Three-State Checkboxes | 2004 | 2003.3 | Sati Hillyer (4D Evangelist, 4D Inc.) | still_relevant | [page](./33418_ThreeStateCheckboxes/summary_page.md) |
+| 33353 | Tech Note: Optimizing Writing to the Cache with 4th Dimension | 2004 | 2003.3 |  | historical_interest_only | [page](./33353_OptimizingCacheWriting/summary_page.md) |
+| 33214 | Tech Note: Working with Hierarchical List in 2004 | 2004 | 2003.3 | Jamras Komoncharoensiri | partially_superseded | [page](./33214_HierarchicalList2004/summary_page.md) |
+| 33153 | Tech Note: 4D Chart | 2004 | 2003.3 | Jean-Yves Fock-Hoon | partially_superseded | [page](./33153_4DChart/summary_page.md) |
+| 33063 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part I of II | 2004 | 2003.3 | Thang Nguyen (4D Technical Support); plug-in by Thomas Maul, General Manager, 4D Germany | obsolete | [page](./33063_GDIPlusImagePart1/summary_page.md) |
+| 33006 | Tech Note: 4D Macros in Version 2004 | 2004 | 2003.3 | Jonathan Le, Technical Support, 4D, Inc. | superseded | [page](./33006_4DMacros2004/summary_page.md) |
+| 32903 | Tech Note: JDBC Connectivity for 4D Server | 2004 | 2003.3 | Yvan Ayaay, Technical Support, 4D, Inc. | partially_superseded | [page](./32903_JDBCConnectivity4DServer/summary_page.md) |
+| 32788 | Tech Note: The XML_Utilities Component | 2004 | 2003.3 | David Adams | superseded | [page](./32788_XMLUtilitiesComponent/summary_page.md) |
+| 32705 | Tech Note: Reading a Full SOAP Response | 2004 | 2003.3 | David Adams | superseded | [page](./32705_FullSOAPResponse/summary_page.md) |
+| 32601 | Tech Note: Reading a Full SOAP Request | 2004 | 2003.3 | David Adams | superseded | [page](./32601_FullSOAPRequest/summary_page.md) |
+| 32516 | Tech Note: Determining the Name of a Requested Web Service | 2004 | 2003.3 | David Adams | superseded | [page](./32516_DetermineWebServiceName/summary_page.md) |
+| 32400 | Tech Note: Open Data File | 2004 | 2003.3 | Frank Chang, 4D Technical Support | partially_superseded | [page](./32400_OpenDataFile/summary_page.md) |
+| 32313 | Tech Note: Spreadsheet to 4D 101 | 2004 | 2003.3 | Sati Hillyer, 4D Technical Support Engineer | partially_superseded | [page](./32313_SpreadsheetTo4D101/summary_page.md) |
+| 32222 | Tech Note: Returning Pictures Through SOAP | 2004 | 2003.3 | David Adams | obsolete | [page](./32222_ReturningPicturesThroughSOAP/summary_page.md) |
+| 32122 | Tech Note: Operations on Arrays and Selections | 2004 | 2003.3 | Roland Lannuzel, 4D S.A. | partially_superseded | [page](./32122_OperationsOnArraysSelections/summary_page.md) |
 | 31928 | Tech Note: Returning Data Through SOAP | 2004 | 2003.3 | David Adams | superseded | [page](./31928_ReturningDataThroughSOAP/summary_page.md) |
-| 31738 | Tech Note: Using 4D with United States Postal Service (USPS) Web Services | 2004 | 2003.3 |  | superseded | [page](./31738_4DWithUSPSWebServices/summary_page.md) |
-| 31597 | Tech Note: Connected Multimedia Apps with 4D and Flash | 2004 | 2003.3 |  | obsolete | [page](./31597_ConnectedMultimedia4DFlash/summary_page.md) |
+| 31738 | Tech Note: Using 4D with United States Postal Service (USPS) Web Services | 2004 | 2003.3 | Thang Nguyen, 4D Technical Support | superseded | [page](./31738_4DWithUSPSWebServices/summary_page.md) |
+| 31597 | Tech Note: Connected Multimedia Apps with 4D and Flash | 2004 | 2003.3 | Omid Tavallai, 4D, Inc. | obsolete | [page](./31597_ConnectedMultimedia4DFlash/summary_page.md) |
 | 31486 | Tech Note: Displaying and Hiding Tool Features Inside Plug-in Areas | 2004 | 2003 |  | obsolete | [page](./31486_DisplayHideToolsInPlugins/summary_page.md) |
-| 31358 | Tech Note: 4D, iCal and Web Services | 2004 | 2003.3 |  | obsolete | [page](./31358_4DiCalWebServices/summary_page.md) |
-| 31311 | Tech Note: Customizing the Home Page Automatically Created by 4th Dimension 2003 | 2004 | 2003 |  | superseded | [page](./31311_CustomizingHomePage2003/summary_page.md) |
-| 31181 | Tech Note: 4D View Helper (Source Code, Part II) | 2004 | 2003 |  | obsolete | [page](./31181_4DViewHelperPart2/summary_page.md) |
-| 31179 | Tech Note: Complex Form Resizing | 2004 | 2003 |  | superseded | [page](./31179_ComplexFormResizing/summary_page.md) |
-| 31177 | Tech Note: Connecting 4D Databases through SOAP | 2004 | 2003 |  | historical interest only | [page](./31177_Connecting4DDatabasesSOAP/summary_page.md) |
-| 31176 | Tech Note: Saving Data from a Non-Contextual Web Page | 2004 | 2003 |  | superseded | [page](./31176_SavingDataNonContextualWebPage/summary_page.md) |
-| 30790 | Tech Note: 4D View Helper (Source Code, Part I) | 2003 | 2003 |  | obsolete | [page](./30790_4DViewHelperSourcePart1/summary_page.md) |
-| 30789 | Tech Note: Integrating 4D and Office 2003 | 2003 | 2003 |  | obsolete | [page](./30789_IntegratingOffice2003/summary_page.md) |
-| 30788 | Tech Note: Web Services – An Introduction | 2003 | 2003 |  | superseded | [page](./30788_WebServicesIntroduction/summary_page.md) |
-| 30787 | Tech Note: Transferring Pictures and Plug-in Documents Using the 4D ODBC Plug-in | 2003 | 2003 |  | superseded | [page](./30787_OdbcBlobTransfer/summary_page.md) |
-| 30595 | Tech Note: Free Form Object Storage | 2003 | 2003 |  | superseded | [page](./30595_FreeFormObjectStorage/summary_page.md) |
-| 30594 | Tech Note: Securely Synchronizing databases with dissimilar structures via SOAP | 2003 | 2003 |  | superseded | [page](./30594_SecureSoapDbSync/summary_page.md) |
-| 30593 | Tech Note: Helping Date and Time Data Entry | 2003 | 2003 |  | historical interest only | [page](./30593_DateTimeDataEntryHelper/summary_page.md) |
-| 30583 | Tech Note: XML – An Introduction to Extensible Markup Language | 2003 |  |  | still relevant | [page](./30583_XmlIntroduction/summary_page.md) |
-| 30141 | Tech Note: Migrating from 4D for Oracle to 4D for OCIusing OCI Mapper | 2003 | 2003 |  | obsolete | [page](./30141_OracleToOciMigration/summary_page.md) |
-| 30140 | Tech Note: 4D and iCal | 2003 | 2003 |  | still relevant | [page](./30140_4DAndICal/summary_page.md) |
-| 30138 | Tech Note: Dynamic Translation of Fields' Labels | 2003 |  |  | superseded | [page](./30138_DynamicFieldLabelTranslation/summary_page.md) |
-| 29817 | Tech Note: Complex Input Types with Web Services | 2003 | 2003 |  | superseded | [page](./29817_ComplexSoapInputTypes/summary_page.md) |
-| 29816 | Tech Note: Using a Map in a Form | 2003 | 2003 |  | superseded | [page](./29816_MapClickDetectionForm/summary_page.md) |
-| 29815 | Tech Note: Thermobase | 2003 | 2003 |  | historical interest only | [page](./29815_ThermobaseThermometerDisplay/summary_page.md) |
-| 29814 | Tech Note: 4D View Splitters | 2003 | 2003 |  | obsolete | [page](./29814_4DViewSplitters/summary_page.md) |
-| 29736 | Tech Note: 4D View Helper | 2003 |  |  | obsolete | [page](./29736_4DViewHelperIntro/summary_page.md) |
-| 29735 | Tech Note: 4D Search | 2003 | 2003 |  | superseded | [page](./29735_4DSearchOverview/summary_page.md) |
-| 29734 | Tech Note: 4D WebSTAR API 2003.1 | 2003 |  |  | obsolete | [page](./29734_WebStarApi2003/summary_page.md) |
-| 29731 | Tech Note: Record to BLOB | 2003 | 2003 |  | superseded | [page](./29731_RecordToBlob/summary_page.md) |
-| 29729 | Tech Note: 4D FastCGI 2003 | 2003 | 2003 |  | obsolete | [page](./29729_4DFastCgi2003/summary_page.md) |
-| 29728 | Tech Note: Security via data encryption | 2003 | 2003 |  | superseded | [page](./29728_SecurityDataEncryption/summary_page.md) |
-| 29727 | Tech Note: Using LDAP with 4D part II | 2003 | 2003 |  | still relevant | [page](./29727_UsingLdapWithPart2/summary_page.md) |
-| 29726 | Tech Note: A different way to display data | 2003 | 2003 |  | superseded | [page](./29726_AlternativeDataDisplay/summary_page.md) |
-| 29725 | Tech Note: Quick Reports: Output Types | 2003 | 2003 |  | superseded | [page](./29725_QuickReportsOutputTypes/summary_page.md) |
-| 29724 | Tech Note: The 4D Business Kit v2.x IP Component | 2003 | 2.x |  | obsolete | [page](./29724_4DBusinessKitIpComponentV2/summary_page.md) |
-| 29723 | Tech Note: Creating Database Templates | 2003 | 2003 |  | superseded | [page](./29723_CreatingDatabaseTemplates/summary_page.md) |
-| 29722 | Tech Note: 4D View Events | 2003 |  |  | obsolete | [page](./29722_4DViewEvents/summary_page.md) |
-| 29720 | Tech Note: All About Help | 2003 | 6.8 |  | historical interest only | [page](./29720_AllAboutHelp/summary_page.md) |
+| 31358 | Tech Note: 4D, iCal and Web Services | 2004 | 2003.3 | Sati Hillyer, Technical Support Engineer, 4D, Inc. | obsolete | [page](./31358_4DiCalWebServices/summary_page.md) |
+| 31311 | Tech Note: Customizing the Home Page Automatically Created by 4th Dimension 2003 | 2004 | 2003 | David Adams | obsolete | [page](./31311_CustomizingHomePage2003/summary_page.md) |
+| 31181 | Tech Note: 4D View Helper (Source Code, Part II) | 2004 | 2003 | Melinda Gallo (routines written by Dave Batton) | obsolete | [page](./31181_4DViewHelperPart2/summary_page.md) |
+| 31179 | Tech Note: Complex Form Resizing | 2004 | 2003 | Roland Lannuzel, 4D S.A. | partially_superseded | [page](./31179_ComplexFormResizing/summary_page.md) |
+| 31177 | Tech Note: Connecting 4D Databases through SOAP | 2004 | 2003 | Jean-Yves Fock-Hoon, QA Manager, 4D, Inc. | superseded | [page](./31177_Connecting4DDatabasesSOAP/summary_page.md) |
+| 31176 | Tech Note: Saving Data from a Non-Contextual Web Page | 2004 | 2003 | Steve Hartman, MCP, Information Systems, 4D, Inc. | superseded | [page](./31176_SavingDataNonContextualWebPage/summary_page.md) |
+| 30790 | Tech Note: 4D View Helper (Source Code, Part I) | 2003 | 2003 | Melinda Gallo (routines written by Dave Batton) | obsolete | [page](./30790_4DViewHelperSourcePart1/summary_page.md) |
+| 30789 | Tech Note: Integrating 4D and Office 2003 | 2003 | 2003 | Julien Feasson, 4D, Inc. | obsolete | [page](./30789_IntegratingOffice2003/summary_page.md) |
+| 30788 | Tech Note: Web Services – An Introduction | 2003 | 2003 | Frank Chang, Technical Support, 4D, Inc. | superseded | [page](./30788_WebServicesIntroduction/summary_page.md) |
+| 30787 | Tech Note: Transferring Pictures and Plug-in Documents Using the 4D ODBC Plug-in | 2003 | 2003 | Jamras Komoncharoensiri, Technical Support Engineer, 4D, Inc. | partially_superseded | [page](./30787_OdbcBlobTransfer/summary_page.md) |
+| 30595 | Tech Note: Free Form Object Storage | 2003 | 2003 | Dave Dell'Aquila, Senior 4D Evangelist | superseded | [page](./30595_FreeFormObjectStorage/summary_page.md) |
+| 30594 | Tech Note: Securely Synchronizing databases with dissimilar structures via SOAP | 2003 | 2003 | Kent Wilbur | superseded | [page](./30594_SecureSoapDbSync/summary_page.md) |
+| 30593 | Tech Note: Helping Date and Time Data Entry | 2003 | 2003 | Melinda Gallo; Thierry Ozil | historical_interest_only | [page](./30593_DateTimeDataEntryHelper/summary_page.md) |
+| 30583 | Tech Note: XML – An Introduction to Extensible Markup Language | 2003 |  | Frank Chang | still_relevant | [page](./30583_XmlIntroduction/summary_page.md) |
+| 30141 | Tech Note: Migrating from 4D for Oracle to 4D for OCIusing OCI Mapper | 2003 | 2003 | Jamras Komoncharoensiri | obsolete | [page](./30141_OracleToOciMigration/summary_page.md) |
+| 30140 | Tech Note: 4D and iCal | 2003 | 2003 | Dave Dell'Aquila | still_relevant | [page](./30140_4DAndICal/summary_page.md) |
+| 30138 | Tech Note: Dynamic Translation of Fields' Labels | 2003 |  | Bertrand Soubeyrand | partially_superseded | [page](./30138_DynamicFieldLabelTranslation/summary_page.md) |
+| 29817 | Tech Note: Complex Input Types with Web Services | 2003 | 2003 | Dave Dell'Aquila | superseded | [page](./29817_ComplexSoapInputTypes/summary_page.md) |
+| 29816 | Tech Note: Using a Map in a Form | 2003 | 2003 | Gérald Czwiklinski | partially_superseded | [page](./29816_MapClickDetectionForm/summary_page.md) |
+| 29815 | Tech Note: Thermobase | 2003 | 2003 | Jean-Yves Fock-Hoon | still_relevant | [page](./29815_ThermobaseThermometerDisplay/summary_page.md) |
+| 29814 | Tech Note: 4D View Splitters | 2003 | 2003 | Gou Yang | obsolete | [page](./29814_4DViewSplitters/summary_page.md) |
+| 29736 | Tech Note: 4D View Helper | 2003 |  | Melinda Gallo | obsolete | [page](./29736_4DViewHelperIntro/summary_page.md) |
+| 29735 | Tech Note: 4D Search | 2003 | 2003 | Jean-Yves Fock-Hoon | obsolete | [page](./29735_4DSearchOverview/summary_page.md) |
+| 29734 | Tech Note: 4D WebSTAR API 2003.1 | 2003 |  | Steve Hartman | obsolete | [page](./29734_WebStarApi2003/summary_page.md) |
+| 29731 | Tech Note: Record to BLOB | 2003 | 2003 | Olivier Deschanels | superseded | [page](./29731_RecordToBlob/summary_page.md) |
+| 29729 | Tech Note: 4D FastCGI 2003 | 2003 | 2003 | David Adams | obsolete | [page](./29729_4DFastCgi2003/summary_page.md) |
+| 29728 | Tech Note: Security via data encryption | 2003 | 2003 | Frank Chang | superseded | [page](./29728_SecurityDataEncryption/summary_page.md) |
+| 29727 | Tech Note: Using LDAP with 4D part II | 2003 | 2003 | Pierre Bonnais | partially_superseded | [page](./29727_UsingLdapWithPart2/summary_page.md) |
+| 29726 | Tech Note: A different way to display data | 2003 | 2003 | Jean-Yves Fock-Hoon | superseded | [page](./29726_AlternativeDataDisplay/summary_page.md) |
+| 29725 | Tech Note: Quick Reports: Output Types | 2003 | 2003 | Hugo Fournier | superseded | [page](./29725_QuickReportsOutputTypes/summary_page.md) |
+| 29724 | Tech Note: The 4D Business Kit v2.x IP Component | 2003 | 2.x | Frank Chang | obsolete | [page](./29724_4DBusinessKitIpComponentV2/summary_page.md) |
+| 29723 | Tech Note: Creating Database Templates | 2003 | 2003 | Dave Dell'Aquila | obsolete | [page](./29723_CreatingDatabaseTemplates/summary_page.md) |
+| 29722 | Tech Note: 4D View Events | 2003 |  | Gou Yang | obsolete | [page](./29722_4DViewEvents/summary_page.md) |
+| 29720 | Tech Note: All About Help | 2003 | 6.8 | Jamras Komoncharoensiri | historical_interest_only | [page](./29720_AllAboutHelp/summary_page.md) |
 | 27791 | Tech Note: "Built to Order" Stores with 4D Business Kit | 2002 | 1.x |  | obsolete | [page](./27791_BuiltToOrderStores4DBK/summary_page.md) |
 | 27789 | Tech Note: From Area List Pro to 4D View | 2002 | 6.8 |  | obsolete | [page](./27789_AreaListProTo4DView/summary_page.md) |
 | 27788 | Tech Note: Creating a Bind in 4D Open for 4D | 2002 | 6.8.3 |  | obsolete | [page](./27788_CreatingBindIn4DOpen/summary_page.md) |
-| 27787 | Tech Note: Connecting to a 4D Server | 2002 | 6.8.3 |  | obsolete | [page](./27787_ConnectingTo4DServer/summary_page.md) |
-| 27786 | Tech Note: The 4D remote FastCGI Component | 2002 | 6.8.3 |  | obsolete | [page](./27786_4DRemoteFastCgiComponent/summary_page.md) |
-| 27785 | Tech Note: Inherited Forms | 2002 | 6.8 |  | still relevant | [page](./27785_InheritedForms/summary_page.md) |
-| 27709 | Tech Note: Student Reports | 2003 | 2003 |  | superseded | [page](./27709_StudentReports/summary_page.md) |
-| 27708 | Tech Note: New Printing Capabilities with 4D 2003 | 2003 | 2003 |  | superseded | [page](./27708_NewPrintingCapabilities2003/summary_page.md) |
-| 27707 | Tech Note: 4D Blogger and SOAP Part II | 2003 | 2003 |  | obsolete | [page](./27707_4DBloggerSoapPart2/summary_page.md) |
-| 27706 | Tech Note: Creating a quick Report Wizard (part II) | 2003 | 2003 |  | superseded | [page](./27706_QuickReportWizardCrossTabPart2/summary_page.md) |
-| 27705 | Tech Note: Tracing and Troubleshooting TCP/IP | 2003 | 2003 |  | still relevant | [page](./27705_TracingTroubleshootingTcpIp/summary_page.md) |
-| 27694 | Tech Note: 4D 2003 and RSS | 2003 | 2003 |  | still relevant | [page](./27694_4D2003AndRSS/summary_page.md) |
-| 27693 | Tech Note: Replicator Library (Part II) | 2003 | 2003 |  | superseded | [page](./27693_ReplicatorLibraryPart2/summary_page.md) |
-| 27692 | Tech Note: Tab Objects within Tab Objects | 2003 | 2003 |  | still relevant | [page](./27692_NestedTabObjects/summary_page.md) |
-| 27690 | Tech Note: Using a generic method to create cross tab reports | 2003 | 2003 |  | still relevant | [page](./27690_GenericCrossTabReportMethod/summary_page.md) |
-| 27689 | Tech Note: Creating a quick Report Wizard | 2003 | 2003 |  | superseded | [page](./27689_QuickReportWizardCrossTabPart1/summary_page.md) |
-| 27688 | Tech Note: 4D for Keynote | 2003 | 2003 |  | obsolete | [page](./27688_4DForKeynote/summary_page.md) |
-| 27687 | Tech Note: Web Services and 4D Internet Commands, the Amazon.com client | 2003 | 2003 |  | obsolete | [page](./27687_WebServicesAmazonClient/summary_page.md) |
-| 26848 | Tech Note: Replicator Library | 2003 | 2003 |  | superseded | [page](./26848_ReplicatorLibraryPart1/summary_page.md) |
-| 26847 | Tech Note: 4D WebSTAR API | 2003 | 2003 |  | obsolete | [page](./26847_WebStarApiOverview/summary_page.md) |
-| 26846 | Tech Note: Interaction between 4D 2003 and Microsoft Excel® (Web Services) | 2003 | 2003 |  | obsolete | [page](./26846_4DExcelWebServices/summary_page.md) |
-| 26845 | Tech Note: Implementing the 2003 Quick Report Editor | 2003 | 2003 |  | historical interest only | [page](./26845_Implementing2003QuickReportEditor/summary_page.md) |
-| 26844 | Tech Note: Parsing XML Documents | 2003 | 2003 | Dave Dell'Aquila | still relevant | [page](./26844_ParsingXmlDocuments/summary_page.md) |
+| 27787 | Tech Note: Connecting to a 4D Server | 2002 | 6.8.3 | Christian Cypert | obsolete | [page](./27787_ConnectingTo4DServer/summary_page.md) |
+| 27786 | Tech Note: The 4D remote FastCGI Component | 2002 | 6.8.3 | Julien Feasson, Software Engineer, 4D, Inc. Information Systems | obsolete | [page](./27786_4DRemoteFastCgiComponent/summary_page.md) |
+| 27785 | Tech Note: Inherited Forms | 2002 | 6.8 | Steve Hartman, MCP, 4D, Inc. Information Systems | partially_superseded | [page](./27785_InheritedForms/summary_page.md) |
+| 27709 | Tech Note: Student Reports | 2003 | 2003 | Cha Yang, 4D Inc. Technical Support | partially_superseded | [page](./27709_StudentReports/summary_page.md) |
+| 27708 | Tech Note: New Printing Capabilities with 4D 2003 | 2003 | 2003 | Gou Yang, 4D Inc. Technical Support | partially_superseded | [page](./27708_NewPrintingCapabilities2003/summary_page.md) |
+| 27707 | Tech Note: 4D Blogger and SOAP Part II | 2003 | 2003 | Jamras Komoncharoensiri, Technical Support Engineer | historical_interest_only | [page](./27707_4DBloggerSoapPart2/summary_page.md) |
+| 27706 | Tech Note: Creating a quick Report Wizard (part II) | 2003 | 2003 | Jean-Yves Fock-Hoon, 4D Inc. Q.A. Manager | partially_superseded | [page](./27706_QuickReportWizardCrossTabPart2/summary_page.md) |
+| 27705 | Tech Note: Tracing and Troubleshooting TCP/IP | 2003 | 2003 | David Adams | obsolete | [page](./27705_TracingTroubleshootingTcpIp/summary_page.md) |
+| 27694 | Tech Note: 4D 2003 and RSS | 2003 | 2003 | Gou Yang, 4D Inc. Technical Support | partially_superseded | [page](./27694_4D2003AndRSS/summary_page.md) |
+| 27693 | Tech Note: Replicator Library (Part II) | 2003 | 2003 | Simon J Wright, Chief Systems Architect, Knowledge Sharing Systems, Inc. | superseded | [page](./27693_ReplicatorLibraryPart2/summary_page.md) |
+| 27692 | Tech Note: Tab Objects within Tab Objects | 2003 | 2003 | Steve Hartman, MCP, Information Systems, 4D, Inc. | still_relevant | [page](./27692_NestedTabObjects/summary_page.md) |
+| 27690 | Tech Note: Using a generic method to create cross tab reports | 2003 | 2003 | Gary Brocks, Software Evangelist, 4D, Inc. | partially_superseded | [page](./27690_GenericCrossTabReportMethod/summary_page.md) |
+| 27689 | Tech Note: Creating a quick Report Wizard | 2003 | 2003 | Jean-Yves Fock-Hoon, 4D Inc. Technical Support | partially_superseded | [page](./27689_QuickReportWizardCrossTabPart1/summary_page.md) |
+| 27688 | Tech Note: 4D for Keynote | 2003 | 2003 | Cha Yang | obsolete | [page](./27688_4DForKeynote/summary_page.md) |
+| 27687 | Tech Note: Web Services and 4D Internet Commands, the Amazon.com client | 2003 | 2003 | Frank Chang | obsolete | [page](./27687_WebServicesAmazonClient/summary_page.md) |
+| 26848 | Tech Note: Replicator Library | 2003 | 2003 | Simon J Wright | superseded | [page](./26848_ReplicatorLibraryPart1/summary_page.md) |
+| 26847 | Tech Note: 4D WebSTAR API | 2003 | 2003 | Dave Batton | obsolete | [page](./26847_WebStarApiOverview/summary_page.md) |
+| 26846 | Tech Note: Interaction between 4D 2003 and Microsoft Excel® (Web Services) | 2003 | 2003 | Matthieu Chevrier | obsolete | [page](./26846_4DExcelWebServices/summary_page.md) |
+| 26845 | Tech Note: Implementing the 2003 Quick Report Editor | 2003 | 2003 | Kent D. Wilbur | obsolete | [page](./26845_Implementing2003QuickReportEditor/summary_page.md) |
+| 26844 | Tech Note: Parsing XML Documents | 2003 | 2003 | Dave Dell'Aquila | partially_superseded | [page](./26844_ParsingXmlDocuments/summary_page.md) |
 | 25622 | Tech Note: Inside the Spinners Demo Database | 2003 | 6.8 | Gou Yang, 4D Inc. Technical Support | historical interest only | [page](./25622_SpinnersDemoDatabase/summary_page.md) |
 | 25621 | Tech Note: Hierarchical List Palette | 2003 | 6.8.3 | Cha Yang, 4D Inc. Technical Support | still relevant | [page](./25621_HierarchicalListPalette/summary_page.md) |
 | 25620 | Tech Note: Building a Web Services Client using 4D: The Fed Ex® SOAP serve | 2003 |  | Frank Chang, 4D Inc. Technical Support | obsolete | [page](./25620_FedExSoapWebServicesClient/summary_page.md) |
 | 25619 | Tech Note: FTP directory Download and Upload | 2003 | 6.8 | Jamras Komoncharoensiri, Technical Support Engineer | superseded | [page](./25619_FtpDirectoryDownloadUpload/summary_page.md) |
 | 25618 | Tech Note: Kiviat Graphs | 2003 | 6.8 | Olivier Deschanels, 4D S.A. | obsolete | [page](./25618_KiviatGraphs/summary_page.md) |
-| 25617 | Tech Note: Limiting Access When Using 4D Client Across the Internet | 2002 | 6.8 |  | superseded | [page](./25617_LimitingClientAccessInternet/summary_page.md) |
-| 25616 | Tech Note: 4D Open: Updating records | 2002 |  |  | obsolete | [page](./25616_4DOpenUpdatingRecords/summary_page.md) |
-| 25615 | Tech Note: 4D Open: Deleting records | 2002 | 6.8 |  | obsolete | [page](./25615_4DOpenDeletingRecords/summary_page.md) |
-| 25599 | Tech Note: 4D Open: Adding records | 2002 | 6.8 |  | obsolete | [page](./25599_4DOpenAddingRecords/summary_page.md) |
-| 25598 | Tech Note: Understanding Processes in 4th Dimension | 2002 |  |  | superseded | [page](./25598_UnderstandingProcesses/summary_page.md) |
-| 25597 | Tech Note: Using Recursive Code | 2002 | 6.8 |  | still relevant | [page](./25597_UsingRecursiveCode/summary_page.md) |
-| 25596 | Tech Note: Relations for Beginners in 4D | 2002 | 6.8 |  | superseded | [page](./25596_RelationsForBeginners/summary_page.md) |
-| 25595 | Tech Note: Using LDAP with 4D | 2002 | 6.8 |  | superseded | [page](./25595_UsingLdapWithPart1/summary_page.md) |
-| 25594 | Tech Note: Avoiding Semaphore Gotchas | 2002 | 6.8 |  | still relevant | [page](./25594_AvoidingSemaphoreGotchas/summary_page.md) |
-| 25593 | Tech Note: Exchanging Data with Triggers | 2002 | 6.8.3 |  | still relevant | [page](./25593_ExchangingDataWithTriggers/summary_page.md) |
-| 25592 | Tech Note: Naming Conventions to Simplify Component Development and Use | 2002 | 6.8 |  | superseded | [page](./25592_NamingConventionsComponents/summary_page.md) |
-| 25591 | Tech Note: 4D View Style sheets | 2002 | 6.8 |  | obsolete | [page](./25591_4DViewStyleSheets/summary_page.md) |
-| 25590 | Tech Note: Accepting / Verifying Payment Information | 2002 | 1.x |  | obsolete | [page](./25590_AcceptingVerifyingPayment/summary_page.md) |
-| 25589 | Tech Note: 4D Business Kit Goes Flash (Part II) | 2002 | 1.x |  | obsolete | [page](./25589_4DBKGoesFlashPart2/summary_page.md) |
-| 25588 | Tech Note: 4D Write, Programming Styles, and Entry Control (part II) | 2002 | 6.8 |  | obsolete | [page](./25588_4DWriteProgrammingStylesPart2/summary_page.md) |
-| 25587 | Tech Note: Referential Integrity | 2002 | 6.8 |  | still relevant | [page](./25587_ReferentialIntegrity/summary_page.md) |
+| 25617 | Tech Note: Limiting Access When Using 4D Client Across the Internet | 2002 | 6.8 | Larry Sharpe | superseded | [page](./25617_LimitingClientAccessInternet/summary_page.md) |
+| 25616 | Tech Note: 4D Open: Updating records | 2002 | 6.8 | Christian Cypert | obsolete | [page](./25616_4DOpenUpdatingRecords/summary_page.md) |
+| 25615 | Tech Note: 4D Open: Deleting records | 2002 | 6.8 | Christian Cypert | obsolete | [page](./25615_4DOpenDeletingRecords/summary_page.md) |
+| 25599 | Tech Note: 4D Open: Adding records | 2002 | 6.8 | Christian Cypert | obsolete | [page](./25599_4DOpenAddingRecords/summary_page.md) |
+| 25598 | Tech Note: Understanding Processes in 4th Dimension | 2002 | 6.8 | Jean-Yves Fock-Hoon | superseded | [page](./25598_UnderstandingProcesses/summary_page.md) |
+| 25597 | Tech Note: Using Recursive Code | 2002 | 6.8 | Roland Lannuzel | still_relevant | [page](./25597_UsingRecursiveCode/summary_page.md) |
+| 25596 | Tech Note: Relations for Beginners in 4D | 2002 | 6.8 | Gou Yang | superseded | [page](./25596_RelationsForBeginners/summary_page.md) |
+| 25595 | Tech Note: Using LDAP with 4D | 2002 | 6.8 | Christian Cypert | superseded | [page](./25595_UsingLdapWithPart1/summary_page.md) |
+| 25594 | Tech Note: Avoiding Semaphore Gotchas | 2002 | 6.8 | David Adams | still_relevant | [page](./25594_AvoidingSemaphoreGotchas/summary_page.md) |
+| 25593 | Tech Note: Exchanging Data with Triggers | 2002 | 6.8.3 | David Adams | still_relevant | [page](./25593_ExchangingDataWithTriggers/summary_page.md) |
+| 25592 | Tech Note: Naming Conventions to Simplify Component Development and Use | 2002 | 6.8 | David Adams | superseded | [page](./25592_NamingConventionsComponents/summary_page.md) |
+| 25591 | Tech Note: 4D View Style sheets | 2002 | 6.8 | Cha Yang | obsolete | [page](./25591_4DViewStyleSheets/summary_page.md) |
+| 25590 | Tech Note: Accepting / Verifying Payment Information | 2002 | 1.x | Frank Chang | obsolete | [page](./25590_AcceptingVerifyingPayment/summary_page.md) |
+| 25589 | Tech Note: 4D Business Kit Goes Flash (Part II) | 2002 | 1.x | Jamras Komoncharoensiri | obsolete | [page](./25589_4DBKGoesFlashPart2/summary_page.md) |
+| 25588 | Tech Note: 4D Write, Programming Styles, and Entry Control (part II) | 2002 | 6.8 | Roland Lannuzel | obsolete | [page](./25588_4DWriteProgrammingStylesPart2/summary_page.md) |
+| 25587 | Tech Note: Referential Integrity | 2002 | 6.8 | Roland Lannuzel | still_relevant | [page](./25587_ReferentialIntegrity/summary_page.md) |
 | 25586 | Tech Note: User Definable Views Using 4D View | 2002 | 6.8 |  | superseded | [page](./25586_UserDefinableViews4DView/summary_page.md) |
 | 25584 | Tech Note: Image Maps | 2002 | 6.8 |  | historical interest only | [page](./25584_ImageMaps/summary_page.md) |
 | 25583 | Tech Note: Connecting WebSTAR and 4D Business Kit using Rewrite | 2002 | 1.x |  | obsolete | [page](./25583_WebstarBusinessKitRewrite/summary_page.md) |
 | 25581 | Tech Note: Code Optimization Based on Array Use | 2002 | 6.8 |  | superseded | [page](./25581_CodeOptimizationArrayUse/summary_page.md) |
 | 25580 | Tech Note: Navigating in 4D Write | 2002 | 6.8 |  | obsolete | [page](./25580_NavigatingIn4DWrite/summary_page.md) |
-| 23268 | Tech Note: Making the most of BEST OBJECT SIZE | 2003 | 2003 |  | still relevant | [page](./23268_BestObjectSizeCommand/summary_page.md) |
-| 23267 | Tech Note: UDDI Client as a SOAP Example (API inquiry) | 2003 | 2003 |  | obsolete | [page](./23267_UddiClientSoapExample/summary_page.md) |
-| 23266 | Tech Note: 4D Blogger and SOAP | 2003 | 2003 |  | obsolete | [page](./23266_4DBloggerAndSoapPart1/summary_page.md) |
+| 23268 | Tech Note: Making the most of BEST OBJECT SIZE | 2003 | 2003 | Kent D. Wilbur | still_relevant | [page](./23268_BestObjectSizeCommand/summary_page.md) |
+| 23267 | Tech Note: UDDI Client as a SOAP Example (API inquiry) | 2003 | 2003 | Julien Feasson | obsolete | [page](./23267_UddiClientSoapExample/summary_page.md) |
+| 23266 | Tech Note: 4D Blogger and SOAP | 2003 | 2003 | Jamras Komoncharoensiri | obsolete | [page](./23266_4DBloggerAndSoapPart1/summary_page.md) |
 | 23265 | Tech Note: 4DBK goes Flash (Part I) | 2002 | 6.8 |  | obsolete | [page](./23265_4DBKGoesFlashPart1/summary_page.md) |
 | 23262 | Tech Note: Using the Picture Library in 4D | 2002 | 6.8.2 |  | still relevant | [page](./23262_UsingPictureLibrary/summary_page.md) |
 | 23261 | Tech Note: Basics of List Form Objects | 2002 | 6.8 |  | still relevant | [page](./23261_BasicsOfListFormObjects/summary_page.md) |
 | 23260 | Tech Note: Enhanced Print form Capabilities in 6.8.1 | 2002 | 6.8.1 |  | still relevant | [page](./23260_EnhancedPrintFormCapabilities681/summary_page.md) |
-| 23256 | Tech Note: Managing the Setup of 4D Chart Areas | 2002 | 6.8 |  | obsolete | [page](./23256_ManagingSetup4DChartAreas/summary_page.md) |
-| 23255 | Tech Note: Creating and Administering 4D Portal | 2002 | 6.8 |  | obsolete | [page](./23255_CreatingAdministering4DPortal/summary_page.md) |
+| 23256 | Tech Note: Managing the Setup of 4D Chart Areas | 2002 | 6.8 | Tim Tonooka | obsolete | [page](./23256_ManagingSetup4DChartAreas/summary_page.md) |
+| 23255 | Tech Note: Creating and Administering 4D Portal | 2002 | 6.8 | Christian Cypert | obsolete | [page](./23255_CreatingAdministering4DPortal/summary_page.md) |
 | 23254 | Tech Note: Repeater | 2002 | 6.8 |  | historical interest only | [page](./23254_RepeaterInformationTheory/summary_page.md) |
 | 23253 | Tech Note: Exploring 4D Portal’s Postcard Portlet | 2002 | 6.8 |  | obsolete | [page](./23253_4DPortalPostcardPortlet/summary_page.md) |
-| 23252 | Tech Note: Event Manager | 2002 | 6.8 |  | still relevant | [page](./23252_EventManagerFormEvents/summary_page.md) |
-| 23251 | Tech Note: BasicStamp | 2002 | 6.8 |  | historical interest only | [page](./23251_BasicStampMicrocontroller/summary_page.md) |
-| 23250 | Tech Note: 4D Banner | 2002 | 6.8 |  | historical interest only | [page](./23250_4DBannerDisplay/summary_page.md) |
+| 23252 | Tech Note: Event Manager | 2002 | 6.8 | Stephanie Robineau | partially_superseded | [page](./23252_EventManagerFormEvents/summary_page.md) |
+| 23251 | Tech Note: BasicStamp | 2002 | 6.8 | Pascal Pradier | historical_interest_only | [page](./23251_BasicStampMicrocontroller/summary_page.md) |
+| 23250 | Tech Note: 4D Banner | 2002 | 6.8 | Jamras Komoncharoensiri | superseded | [page](./23250_4DBannerDisplay/summary_page.md) |
 | 23249 | Tech Note: Creating a Table and Field Alias System for Multiple Users | 2002 | 6.8 |  | still relevant | [page](./23249_TableFieldAliasSystem/summary_page.md) |
 | 23248 | Tech Note: Creating a Basic Store Using 4D Business Kit | 2002 | 1.x |  | obsolete | [page](./23248_CreatingBasicStore4DBK/summary_page.md) |
 | 23247 | Tech Note: Drag and Drop in 4D View | 2002 | 6.8 |  | obsolete | [page](./23247_DragAndDrop4DView/summary_page.md) |
 | 23246 | Tech Note: Open Window Vs. Open Form Window | 2002 | 6.8 |  | still relevant | [page](./23246_OpenWindowVsOpenFormWindow/summary_page.md) |
 | 23245 | Tech Note: Progress Indicator | 2002 | 6.8 |  | still relevant | [page](./23245_ProgressIndicatorDesign/summary_page.md) |
-| 23244 | Tech Note: Taming The Splitter For Printout | 2002 | 6.8 |  | historical interest only | [page](./23244_TamingSplitterForPrintout/summary_page.md) |
-| 23243 | Tech Note: Multi-level Clipboard in 4D | 2002 | 6.8 |  | superseded | [page](./23243_MultiLevelClipboard4D/summary_page.md) |
-| 23242 | Tech Note: Printing Graphs from 4D Chart, Part II | 2002 | 6.8 |  | obsolete | [page](./23242_PrintingGraphs4DChartPart2/summary_page.md) |
+| 23244 | Tech Note: Taming The Splitter For Printout | 2002 | 6.8 | Steve Hartman | superseded | [page](./23244_TamingSplitterForPrintout/summary_page.md) |
+| 23243 | Tech Note: Multi-level Clipboard in 4D | 2002 | 6.8 | Cha Yang | still_relevant | [page](./23243_MultiLevelClipboard4D/summary_page.md) |
+| 23242 | Tech Note: Printing Graphs from 4D Chart, Part II | 2002 | 6.8 | Tim Tonooka | obsolete | [page](./23242_PrintingGraphs4DChartPart2/summary_page.md) |
 | 23241 | Tech Note: Creating Customized Dynamic Store Front Pages | 2002 | 1.x |  | obsolete | [page](./23241_CustomizedDynamicStoreFrontPages/summary_page.md) |
-| 23240 | Tech Note: Basic Principles of Menu Bar Design in 4D | 2002 | 6.8 |  | still relevant | [page](./23240_MenuBarDesignPrinciples/summary_page.md) |
-| 23239 | Tech Note: Printing Graphs from 4D Chart, Part 1 | 2002 | 6.8 |  | obsolete | [page](./23239_PrintingGraphs4DChartPart1/summary_page.md) |
-| 23238 | Tech Note: Working with 4D Dialogs within a Plug-in | 2002 | 6.8 |  | superseded | [page](./23238_4DDialogsWithinPlugin/summary_page.md) |
-| 23237 | Tech Note: Bar Codes | 2002 | 6.8 |  | still relevant | [page](./23237_BarCodesIn4D/summary_page.md) |
+| 23240 | Tech Note: Basic Principles of Menu Bar Design in 4D | 2002 | 6.8 | Gary Brocks | partially_superseded | [page](./23240_MenuBarDesignPrinciples/summary_page.md) |
+| 23239 | Tech Note: Printing Graphs from 4D Chart, Part I | 2002 | 6.8 | Tim Tonooka | obsolete | [page](./23239_PrintingGraphs4DChartPart1/summary_page.md) |
+| 23238 | Tech Note: Working with 4D Dialogs within a Plug-in | 2002 | 6.8 | Christian Cypert, 4D & WebSTAR Plug-in Evangelist | superseded | [page](./23238_4DDialogsWithinPlugin/summary_page.md) |
+| 23237 | Tech Note: Bar Codes | 2002 | 6.8 | Eric Juhel, 4D Developer | superseded | [page](./23237_BarCodesIn4D/summary_page.md) |
 | 23228 | Tech Note: Progress Message System | 2002 | 6.8 |  | still relevant | [page](./23228_ProgressMessageSystem/summary_page.md) |
 | 23227 | Tech Note: 4D Portal: The Auctions portlet | 2002 | 6.8 |  | obsolete | [page](./23227_4DPortalAuctionsPortlet/summary_page.md) |
-| 23226 | Tech Note: The 4D Business Kit IP Component | 2002 | 6.8 |  | obsolete | [page](./23226_4DBusinessKitIpComponent/summary_page.md) |
-| 23225 | Tech Note: HTTP Client with 4D and 4D Internet Commands | 2002 | 6.8 |  | superseded | [page](./23225_HttpClientWith4DIC/summary_page.md) |
-| 23224 | Tech Note: Assigning a Menu Bar | 2002 | 6.8 |  | still relevant | [page](./23224_AssigningMenuBar/summary_page.md) |
+| 23226 | Tech Note: The 4D Business Kit IP Component | 2002 | 6.8 | Sebastian Frey, 4D Evangelist, 4D, Inc. | obsolete | [page](./23226_4DBusinessKitIpComponent/summary_page.md) |
+| 23225 | Tech Note: HTTP Client with 4D and 4D Internet Commands | 2002 | 6.8 | Julien Feasson, Software Engineer, 4D, Inc. | superseded | [page](./23225_HttpClientWith4DIC/summary_page.md) |
+| 23224 | Tech Note: Assigning a Menu Bar | 2002 | 6.8 | Jamras Komoncharoensiri, 4D, Inc. Technical Support | still_relevant | [page](./23224_AssigningMenuBar/summary_page.md) |
 | 23223 | Tech Note: The 4D Portal Contact Manager | 2002 | 6.8 |  | obsolete | [page](./23223_4DPortalContactManager/summary_page.md) |
 | 23222 | Tech Note: Using Lasso 4D to Connect 4D and WebSTAR | 2002 | 6.8 |  | obsolete | [page](./23222_LassoConnect4DWebstar/summary_page.md) |
 | 23221 | Tech Note: 4D Write, Programming Styles, and Entry Control | 2002 | 6.8 |  | obsolete | [page](./23221_4DWriteProgrammingStylesPart1/summary_page.md) |
-| 23220 | Tech Note: Moving Objects | 2002 | 6.8 |  | superseded | [page](./23220_MovingObjectsCommand/summary_page.md) |
-| 19056 | Tech Note: Inside the Report Demo Database | 2001 | 6.7 |  | still_relevant | [page](./19056_InsideReportDemoDatabase/summary_page.md) |
-| 19055 | Tech Note: Using the 4D API Query Commands | 2001 | 6.7 |  | partially_superseded | [page](./19055_4DAPIQueryCommands/summary_page.md) |
-| 19054 | Tech Note: Index Control Panel | 2001 | 6.7 |  | still_relevant | [page](./19054_IndexControlPanel/summary_page.md) |
+| 23220 | Tech Note: Moving Objects | 2002 | 6.8 | Roland Lannuzel, 4D Developer, 4D S.A. | still_relevant | [page](./23220_MovingObjectsCommand/summary_page.md) |
+| 19056 | Tech Note: Inside the Report Demo Database | 2001 | 6.7 | Jonathan Baltazar, Inside Sales Representative, 4D, Inc. (example database created by Tad Michael Wheeler, DataCraft) | still_relevant | [page](./19056_InsideReportDemoDatabase/summary_page.md) |
+| 19055 | Tech Note: Using the 4D API Query Commands | 2001 | 6.7 | Christian Cypert, 4D & WebSTAR Plug-in Evangelist | superseded | [page](./19055_4DAPIQueryCommands/summary_page.md) |
+| 19054 | Tech Note: Index Control Panel | 2001 | 6.7 | Steve Hartman, MCP, 4D, Inc. Information Systems (co-authored with Kent Wilbur) | partially_superseded | [page](./19054_IndexControlPanel/summary_page.md) |
 | 19053 | Tech Note: Under the Hood of the 4D Portal 1.0.1 Database | 2001 | 6.7.1 |  | obsolete | [page](./19053_4DPortalUnderTheHood/summary_page.md) |
-| 19052 | Tech Note: Handling a Large Number of Records | 2001 | 6.7 |  | partially_superseded | [page](./19052_LargeNumberOfRecords/summary_page.md) |
-| 19051 | Tech Note: Printing Arrays | 2001 | 6.7 |  | still_relevant | [page](./19051_PrintingArrays/summary_page.md) |
-| 19050 | Tech Note: Exploring 4D Portal's Reminder Portlet | 2001 | 6.7.1 |  | obsolete | [page](./19050_4DPortalReminderPortlet/summary_page.md) |
+| 19052 | Tech Note: Handling a Large Number of Records | 2001 | 6.7 | Thomas Maul, 4D Germany | partially_superseded | [page](./19052_LargeNumberOfRecords/summary_page.md) |
+| 19051 | Tech Note: Printing Arrays | 2001 | 6.7 | Steve Hussey, Editor and Publisher, Dimensions Journal | partially_superseded | [page](./19051_PrintingArrays/summary_page.md) |
+| 19050 | Tech Note: Exploring 4D Portal's Reminder Portlet | 2001 | 6.7.1 | Cha Yang, 4D, Inc. Technical Support Engineer | obsolete | [page](./19050_4DPortalReminderPortlet/summary_page.md) |
 | 19049 | Tech Note: 4D Backup Commands and Scheduling Techniques | 2001 | 6.7 |  | still_relevant | [page](./19049_4DBackupSchedulingTechniques/summary_page.md) |
 | 19048 | Tech Note: Web-Enabling Legacy 4D Applications | 2001 | 6.7 |  | partially_superseded | [page](./19048_WebEnablingLegacy4DApps/summary_page.md) |
-| 19047 | Tech Note: The ButtonMaker Example Database | 2001 | 6.7 |  | obsolete | [page](./19047_ButtonMakerExampleDatabase/summary_page.md) |
-| 19046 | Tech Note: Sample Web Query Form | 2001 | 6.7 |  | partially_superseded | [page](./19046_SampleWebQueryForm/summary_page.md) |
-| 19045 | Tech Note: Under the Hood of the GenericEval Database | 2001 | 6.7 |  | still_relevant | [page](./19045_GenericEvalDatabase/summary_page.md) |
+| 19047 | Tech Note: The ButtonMaker Example Database | 2001 | 6.7 | Jonathan Baltazar, 4D, Inc. | obsolete | [page](./19047_ButtonMakerExampleDatabase/summary_page.md) |
+| 19046 | Tech Note: Sample Web Query Form | 2001 | 6.7 | Eric Saltzen, 4D, Inc. | partially_superseded | [page](./19046_SampleWebQueryForm/summary_page.md) |
+| 19045 | Tech Note: Under the Hood of the GenericEval Database | 2001 | 6.7 | Raymond Manley, 4D, Inc. | still_relevant | [page](./19045_GenericEvalDatabase/summary_page.md) |
 | 18208 | Tech Note: A simple styled text area using 4D Write 6.7 | 2001 | 6.7 |  | obsolete | [page](./18208_4DWriteStyledTextArea/summary_page.md) |
-| 18207 | Tech Note: The 4D Web Auction Example Database | 2001 | 6.7 |  | obsolete | [page](./18207_4DWebAuctionExampleDatabase/summary_page.md) |
-| 18206 | Tech Note: XML based Export/Import for Archiving Data | 2001 | 6.7 |  | still_relevant | [page](./18206_XMLExportImportArchiving/summary_page.md) |
-| 18205 | Tech Note: How to generate a pathname document in 4D | 2001 | 6.5 |  | still_relevant | [page](./18205_GeneratePathnameDocument/summary_page.md) |
-| 18204 | Tech Note: Understanding the 4D Password System | 2001 | 6.7 |  | partially_superseded | [page](./18204_4DPasswordSystem/summary_page.md) |
-| 16396 | Tech Note: Pointers from Scratch | 2001 | 6.7 |  | still_relevant | [page](./16396_PointersFromScratch/summary_page.md) |
-| 16395 | Tech Note: Exploring the Loan Tool Database | 2001 | 6.7 |  | still_relevant | [page](./16395_LoanToolDatabase/summary_page.md) |
-| 16394 | Tech Note: Linking Multiple Addresses to Multiple Tables | 2001 | 6.7 |  | partially_superseded | [page](./16394_MultipleAddressesMultipleTables/summary_page.md) |
-| 16393 | Tech Note: Preventing Web Users from Downloading Pictures | 2001 | 6.7 |  | obsolete | [page](./16393_PreventingPictureDownloads/summary_page.md) |
-| 16392 | Tech Note: Creating a Generic Web Form Data Processing System | 2001 | 6.7 |  | partially_superseded | [page](./16392_GenericWebFormDataProcessing/summary_page.md) |
-| 16391 | Tech Note: NT Localization | 2001 | 6.7 |  | obsolete | [page](./16391_NTLocalization/summary_page.md) |
-| 16390 | Tech Note: Contact Manager II | 2001 | 6.7 |  | still_relevant | [page](./16390_ContactManagerII/summary_page.md) |
-| 16389 | Tech Note: Recursion by Example | 2001 | 6.7 |  | still_relevant | [page](./16389_RecursionByExample/summary_page.md) |
-| 16388 | Tech Note: PostImage | 2001 | 6.7 |  | partially_superseded | [page](./16388_PostImage/summary_page.md) |
-| 16387 | Tech Note: Date Entry | 2001 | 6.7 |  | obsolete | [page](./16387_DateEntry/summary_page.md) |
-| 15349 | Tech Note: At the Core of the Data: The Address Table and Bit Table | 2001 | 6.7 |  | obsolete | [page](./15349_AddressTableBitTable/summary_page.md) |
-| 15348 | Tech Note: The 128th Byte | 2001 | 6.7 |  | obsolete | [page](./15348_128thByte/summary_page.md) |
-| 15347 | Tech Note: Creating a 6.0-style Pop-up in 6.7 using Layered Objects | 2001 | 6.5 |  | obsolete | [page](./15347_CreatingLegacyPopupWithLayeredObjects/summary_page.md) |
-| 15346 | Tech Note: Using Splitters | 2001 | 6.7 |  | still relevant | [page](./15346_UsingSplitters/summary_page.md) |
-| 15345 | Tech Note: Authenticating Access to a Secure Area within a Web Site | 2001 | 6.7 |  | obsolete | [page](./15345_AuthenticatingSecureWebArea/summary_page.md) |
-| 14010 | Tech Note: Contact Manager, Behind the code, Part I | 2001 | 6.7 |  | historical interest only | [page](./14010_ContactManagerCalendarPart1/summary_page.md) |
+| 18207 | Tech Note: The 4D Web Auction Example Database | 2001 | 6.7 | Cha Yang, 4D, Inc. Technical Support Engineer | obsolete | [page](./18207_4DWebAuctionExampleDatabase/summary_page.md) |
+| 18206 | Tech Note: XML based Export/Import for Archiving Data | 2001 | 6.7 | Thomas Maul, 4D Germany | still_relevant | [page](./18206_XMLExportImportArchiving/summary_page.md) |
+| 18205 | Tech Note: How to generate a pathname document in 4D | 2001 | 6.5 | Pascal Pradier, 4D, S.A. | obsolete | [page](./18205_GeneratePathnameDocument/summary_page.md) |
+| 18204 | Tech Note: Understanding the 4D Password System | 2001 | 6.7 | Jean-Yves Fock-Hoon, Quality Assurance Manager, 4D, Inc. | still_relevant | [page](./18204_4DPasswordSystem/summary_page.md) |
+| 16396 | Tech Note: Pointers from Scratch | 2001 | 6.7 | Jamras Komoncharoensiri, 4D, Inc. Technical Support | still_relevant | [page](./16396_PointersFromScratch/summary_page.md) |
+| 16395 | Tech Note: Exploring the Loan Tool Database | 2001 | 6.7 | Jonathan Baltazar, 4D, Inc. Technical Support Engineer | partially_superseded | [page](./16395_LoanToolDatabase/summary_page.md) |
+| 16394 | Tech Note: Linking Multiple Addresses to Multiple Tables | 2001 | 6.7 | Steve Hussey, CEO, Alto Stratus LLC | still_relevant | [page](./16394_MultipleAddressesMultipleTables/summary_page.md) |
+| 16393 | Tech Note: Preventing Web Users from Downloading Pictures | 2001 | 6.7 | Chiheb Nasr, 4D S.A. | obsolete | [page](./16393_PreventingPictureDownloads/summary_page.md) |
+| 16392 | Tech Note: Creating a Generic Web Form Data Processing System | 2001 | 6.7 | Kent D. Wilbur, Manager of Information Systems, 4D, Inc. | superseded | [page](./16392_GenericWebFormDataProcessing/summary_page.md) |
+| 16391 | Tech Note: NT Localization | 2001 | 6.7 | Jean-Yves Fock-Hoon | obsolete | [page](./16391_NTLocalization/summary_page.md) |
+| 16390 | Tech Note: Contact Manager II | 2001 | 6.7 | Hugo Fournier | historical_interest_only | [page](./16390_ContactManagerII/summary_page.md) |
+| 16389 | Tech Note: Recursion by Example | 2001 | 6.7 | Cha Yang | still_relevant | [page](./16389_RecursionByExample/summary_page.md) |
+| 16388 | Tech Note: PostImage | 2001 | 6.7 | Chiheb Nasr | partially_superseded | [page](./16388_PostImage/summary_page.md) |
+| 16387 | Tech Note: Date Entry | 2001 | 6.7 | Elaine Smith | obsolete | [page](./16387_DateEntry/summary_page.md) |
+| 15349 | Tech Note: At the Core of the Data: The Address Table and Bit Table | 2001 | 6.7 | Olivier Deschanels | obsolete | [page](./15349_AddressTableBitTable/summary_page.md) |
+| 15348 | Tech Note: The 128th Byte | 2001 | 6.7 | Olivier Deschanels | obsolete | [page](./15348_128thByte/summary_page.md) |
+| 15347 | Tech Note: Creating a 6.0-style Pop-up in 6.7 using Layered Objects | 2001 | 6.5 | Eric Saltzen | obsolete | [page](./15347_CreatingLegacyPopupWithLayeredObjects/summary_page.md) |
+| 15346 | Tech Note: Using Splitters | 2001 | 6.7 | Gilles Mellot | still_relevant | [page](./15346_UsingSplitters/summary_page.md) |
+| 15345 | Tech Note: Authenticating Access to a Secure Area within a Web Site | 2001 | 6.7 | Jonathan Baltazar | partially_superseded | [page](./15345_AuthenticatingSecureWebArea/summary_page.md) |
+| 14010 | Tech Note: Contact Manager, Behind the code, Part I | 2001 | 6.7 | Hugo Fournier | historical_interest_only | [page](./14010_ContactManagerCalendarPart1/summary_page.md) |
 | 14008 | Tech Note: 4D Table Backups | 2001 | 6.7 |  | superseded | [page](./14008_4DTableBackups/summary_page.md) |
-| 14005 | Tech Note: Sending Sets | 2001 | 6.7 |  | partially_superseded | [page](./14005_SendingSets/summary_page.md) |
-| 14004 | Tech Note: 4D Chart on the Web in Non-Contextual Mode | 2001 | 6.7 |  | obsolete | [page](./14004_4DChartOnWebNonContextual/summary_page.md) |
-| 13195 | Tech Note: Exploring the Chord Tool Example Database | 2001 | 6.7 |  | still relevant | [page](./13195_ChordToolExampleDatabase/summary_page.md) |
-| 13194 | Tech Note: Talking 'Trash' – Understanding the Trash and the Recycle Bin | 2001 |  |  | partially_superseded | [page](./13194_TalkingTrashRecycleBin/summary_page.md) |
-| 13193 | Tech Note: Picture Storage | 2001 | 6.7 |  | superseded | [page](./13193_PictureStorageV67/summary_page.md) |
-| 13192 | Tech Note: Checksum Calculation – CRC32 | 2001 |  |  | partially_superseded | [page](./13192_ChecksumCalculationCRC32/summary_page.md) |
-| 13097 | Tech Note: The OPEN WEB URL Command | 2001 | 6.7 |  | still relevant | [page](./13097_OpenWebUrlCommand/summary_page.md) |
-| 13096 | Tech Note: The SSL Keypair Certification Process | 2001 | 6.7 |  | obsolete | [page](./13096_SslKeypairCertificationProcess/summary_page.md) |
-| 13095 | Tech Note: On Sets | 2001 |  |  | still relevant | [page](./13095_OnSets/summary_page.md) |
-| 13094 | Tech Note: Sending Multi-Part emails Using 4D Internet Commands | 2001 | 6.5 |  | partially_superseded | [page](./13094_SendingMultiPartEmails4DIC/summary_page.md) |
-| 13092 | Tech Note: Implementing a Browser using Hierarchical Lists | 2001 | 6.5 |  | partially_superseded | [page](./13092_BrowserUsingHierarchicalLists/summary_page.md) |
-| 12158 | Tech Note: Skinmaker: Creating an Interface | 2001 | 6.7 |  | historical interest only | [page](./12158_SkinmakerCreatingInterface/summary_page.md) |
-| 12157 | Tech Note: Data File Log | 2001 | 6.7 |  | obsolete | [page](./12157_DataFileLog/summary_page.md) |
-| 12155 | Tech Note: Disabling Tab Controls | 2001 | 6.7 |  | still relevant | [page](./12155_DisablingTabControls/summary_page.md) |
-| 12153 | Tech Note: Manipulating Selections with Sets | 2001 | 6.7 |  | partially_superseded | [page](./12153_ManipulatingSelectionsWithSets/summary_page.md) |
-| 12152 | Tech Note: Using 4D HTML Tags in Version 6.7 | 2001 | 6.7 |  | obsolete | [page](./12152_Using4DHtmlTagsV67/summary_page.md) |
-| 12151 | Tech Note: The Blob Analyzer | 2001 | 6.5 |  | superseded | [page](./12151_TheBlobAnalyzer/summary_page.md) |
-| 12150 | Tech Note: Importing From a Watched Folder | 2001 | 6.5 |  | still relevant | [page](./12150_ImportingFromWatchedFolder/summary_page.md) |
-| 12148 | Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5 | 2001 | 6.5 |  | superseded | [page](./12148_MultipleItemHtmlSelectInputs/summary_page.md) |
-| 12147 | Tech Note: 4D Web Serving Using Perl CGIs | 2001 | 6.7 |  | obsolete | [page](./12147_4DWebServingUsingPerlCGIs/summary_page.md) |
-| 12117 | Tech Note: Cruising Newsgroups: Accelerated Text Parsing with BLOBs | 2001 | 6.7 |  | obsolete | [page](./12117_CruisingNewsgroupsBlobTextParsing/summary_page.md) |
+| 14005 | Tech Note: Sending Sets | 2001 | 6.7 | Jean-Yves Fock-Hoon | partially_superseded | [page](./14005_SendingSets/summary_page.md) |
+| 14004 | Tech Note: 4D Chart on the Web in Non-Contextual Mode | 2001 | 6.7 | Kent D. Wilbur | obsolete | [page](./14004_4DChartOnWebNonContextual/summary_page.md) |
+| 13195 | Tech Note: Exploring the Chord Tool Example Database | 2001 | 6.7 | Eric Saltzen | still_relevant | [page](./13195_ChordToolExampleDatabase/summary_page.md) |
+| 13194 | Tech Note: Talking 'Trash' – Understanding the Trash and the Recycle Bin | 2001 |  | Steve Hussey | obsolete | [page](./13194_TalkingTrashRecycleBin/summary_page.md) |
+| 13193 | Tech Note: Picture Storage | 2001 | 6.7 | Jamras Komoncharoensiri | superseded | [page](./13193_PictureStorageV67/summary_page.md) |
+| 13192 | Tech Note: Checksum Calculation – CRC32 | 2001 |  | Thomas Maul | partially_superseded | [page](./13192_ChecksumCalculationCRC32/summary_page.md) |
+| 13097 | Tech Note: The OPEN WEB URL Command | 2001 | 6.7 | Steve Hussey | still_relevant | [page](./13097_OpenWebUrlCommand/summary_page.md) |
+| 13096 | Tech Note: The SSL Keypair Certification Process | 2001 | 6.7 | Steve Hartman and Elaine Smith | partially_superseded | [page](./13096_SslKeypairCertificationProcess/summary_page.md) |
+| 13095 | Tech Note: On Sets | 2001 |  | Jean-Yves Fock-Hoon | still_relevant | [page](./13095_OnSets/summary_page.md) |
+| 13094 | Tech Note: Sending Multi-Part emails Using 4D Internet Commands | 2001 | 6.5 | Hugo Fournier | superseded | [page](./13094_SendingMultiPartEmails4DIC/summary_page.md) |
+| 13092 | Tech Note: Implementing a Browser using Hierarchical Lists | 2001 | 6.5 | Jean-Luc Pellerin | partially_superseded | [page](./13092_BrowserUsingHierarchicalLists/summary_page.md) |
+| 12158 | Tech Note: Skinmaker: Creating an Interface | 2001 | 6.7 | Gilles Mellot | obsolete | [page](./12158_SkinmakerCreatingInterface/summary_page.md) |
+| 12157 | Tech Note: Data File Log | 2001 | 6.7 | Steve Hussey | obsolete | [page](./12157_DataFileLog/summary_page.md) |
+| 12155 | Tech Note: Disabling Tab Controls | 2001 | 6.7 | Yves Casquel | still_relevant | [page](./12155_DisablingTabControls/summary_page.md) |
+| 12153 | Tech Note: Mainipulating Selections with Sets | 2001 | 6.7 | Jamras Komoncharoensiri | partially_superseded | [page](./12153_ManipulatingSelectionsWithSets/summary_page.md) |
+| 12152 | Tech Note: Using 4D HTML Tags in Version 6.7 | 2001 | 6.7 | Hugo Fournier | obsolete | [page](./12152_Using4DHtmlTagsV67/summary_page.md) |
+| 12151 | Tech Note: The Blob Analyzer | 2001 | 6.5 | Gilles Mellot | superseded | [page](./12151_TheBlobAnalyzer/summary_page.md) |
+| 12150 | Tech Note: Importing From a Watched Folder | 2001 | 6.5 | Steve Hussey | partially_superseded | [page](./12150_ImportingFromWatchedFolder/summary_page.md) |
+| 12148 | Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5 | 2001 | 6.5 | Eric Saltzen | obsolete | [page](./12148_MultipleItemHtmlSelectInputs/summary_page.md) |
+| 12147 | Tech Note: 4D Web Serving Using Perl CGIs | 2001 | 6.7 | Jon Baltazar | obsolete | [page](./12147_4DWebServingUsingPerlCGIs/summary_page.md) |
+| 12117 | Tech Note: Cruising Newsgroups: Accelerated Text Parsing with BLOBs | 2001 | 6.7 | Tim Tonooka | historical_interest_only | [page](./12117_CruisingNewsgroupsBlobTextParsing/summary_page.md) |
 | 11998 | Tech Note: 4D Mixed-Mode Web Serving Techniques: Crossing the bridge between Contextual and Non-contextual Modes | 2000 | 6.5 | Eric Saltzen, 4D, Inc. Technical Support | obsolete | [page](./11998_MixedModeWebServingTechniques/summary_page.md) |
 | 11997 | Tech Note: The Ins and Outs of Insider | 2000 | 6.5 |  | obsolete | [page](./11997_InsAndOutsOfInsider/summary_page.md) |
-| 11996 | Tech Note: The Enterprise Data Module: The Videos2000 Example Database | 2000 | 6.5 |  | historical interest only | [page](./11996_EnterpriseDataModuleVideos2000/summary_page.md) |
-| 11995 | Tech Note: Installation of 4D Server as a Service on Windows 2000 Server | 2000 | 6.5 |  | obsolete | [page](./11995_ServerAsWin2KService/summary_page.md) |
-| 11994 | Tech Note: Simple Applications for Choice Lists | 2000 | 6.5 |  | superseded | [page](./11994_ChoiceListsSimpleApps/summary_page.md) |
-| 11993 | Tech Note: Web Assistant for Dummies | 2000 | 6.7 |  | obsolete | [page](./11993_WebAssistantForDummies/summary_page.md) |
-| 11992 | Tech Note: Installing Components | 2000 | 6.7 |  | superseded | [page](./11992_InstallingComponents/summary_page.md) |
-| 11991 | Tech Note: Using MOVE OBJECT During Printing | 2000 | 6.7 |  | still relevant | [page](./11991_MoveObjectDuringPrinting/summary_page.md) |
-| 11990 | Tech Note: Inherited Forms in 4D v6.7 | 2000 | 6.7 |  | superseded | [page](./11990_InheritedFormsV67/summary_page.md) |
+| 11996 | Tech Note: The Enterprise Data Module: The Videos2000 Example Database | 2000 | DataGrid Beta 1 | Sebastian Frey | obsolete | [page](./11996_EnterpriseDataModuleVideos2000/summary_page.md) |
+| 11995 | Tech Note: Installation of 4D Server as a Service on Windows 2000 Server | 2000 | not specified | Steve Hartman | still_relevant | [page](./11995_ServerAsWin2KService/summary_page.md) |
+| 11994 | Tech Note: Simple Applications for Choice Lists | 2000 | not specified | Steve Hussey | partially_superseded | [page](./11994_ChoiceListsSimpleApps/summary_page.md) |
+| 11993 | Tech Note: Web Assistant for Dummies | 2000 | 6.7 | Jonathan Baltazar | obsolete | [page](./11993_WebAssistantForDummies/summary_page.md) |
+| 11992 | Tech Note: Installing Components | 2000 | 6.7 | Steve Hartman | superseded | [page](./11992_InstallingComponents/summary_page.md) |
+| 11991 | Tech Note: Using MOVE OBJECT During Printing | 2000 | 6.7 | Jean-Yves Fock-Hoon | still_relevant | [page](./11991_MoveObjectDuringPrinting/summary_page.md) |
+| 11990 | Tech Note: Inherited Forms in 4D v6.7 | 2000 | 6.7 | Steve Hussey | still_relevant | [page](./11990_InheritedFormsV67/summary_page.md) |
 | 11989 | Tech Note: Understanding the 4D Data File | 2000 | 6.5 |  | superseded | [page](./11989_Understanding4DDataFile/summary_page.md) |
-| 11988 | Tech Note: Connecting to a 4D Server Using an Applet | 2000 | 6.7 |  | obsolete | [page](./11988_ConnectingServerViaApplet/summary_page.md) |
-| 11987 | Tech Note: Introduction to 4D Open | 2000 |  |  | obsolete | [page](./11987_IntroTo4DOpenDataAccess/summary_page.md) |
-| 11986 | Tech Note: Getting Started With 4D Open for Java | 2000 | 6.7 |  | obsolete | [page](./11986_GettingStarted4DOpenJava/summary_page.md) |
+| 11988 | Tech Note: Connecting to a 4D Server Using an Applet | 2000 | 6.7 | Jonathan Baltazar | obsolete | [page](./11988_ConnectingServerViaApplet/summary_page.md) |
+| 11987 | Tech Note: Introduction to 4D Open | 2000 |  | Aziz Elghomari | obsolete | [page](./11987_IntroTo4DOpenDataAccess/summary_page.md) |
+| 11986 | Tech Note: Getting Started With 4D Open for Java | 2000 |  | Jamras Komoncharoensiri | obsolete | [page](./11986_GettingStarted4DOpenJava/summary_page.md) |
 | 11985 | Tech Note: Keyword Indexes (Part 3) | 2000 | 6.5 | Steve Hussey, CEO, Alto Stratus LLC | superseded | [page](./11985_KeywordIndexesPart3/summary_page.md) |
 | 11984 | Tech Note: Introduction to 4D Open | 2000 | 6.5 | Aziz Elghomari, 4D S.A. Technical Support | obsolete | [page](./11984_IntroTo4DOpenStructureAccess/summary_page.md) |
 | 11983 | Tech Note: 4D for Oracle in DataGrid's Enterprise Data Module - Beta 1 | 2000 | 6.5 | Sebastian Frey, Sextant Technologies, Inc. | obsolete | [page](./11983_4DForOracleDataGridEDM/summary_page.md) |
 | 11982 | Tech Note: 4D ODBC in DataGrid's Enterprise Data Module - Beta 1 | 2000 | 6.5 | Sebastian Frey, Sextant Technologies, Inc. | obsolete | [page](./11982_4DODBCDataGridEDM/summary_page.md) |
-| 11981 | Tech Note: Creating Referer Logs with 4D Web Server | 2000 | 6.7 |  | superseded | [page](./11981_RefererLogsWebServer/summary_page.md) |
+| 11981 | Tech Note: Creating Referer Logs with 4D Web Server | 2000 | 6.7 | Eric Saltzen | partially_superseded | [page](./11981_RefererLogsWebServer/summary_page.md) |
 | 11980 | Tech Note: Keyword Indexes, Part 1 | 2000 | 6.5 | Steve Hussey, CEO, Alto Stratus LLC | superseded | [page](./11980_KeywordIndexesPart1/summary_page.md) |
 | 11979 | Tech Note: Macintosh Keyboard Shortcuts in 4th Dimension/4D Server v6.5 | 2000 | 6.5 | Steve Hartman, 4D, Inc. Technical Support | historical interest only | [page](./11979_MacKeyboardShortcutsV65/summary_page.md) |
 | 11978 | Tech Note: Forcing Screen Redraws: Updating a Progress Display on a Form, Part II | 2000 | 6.5 |  | superseded | [page](./11978_ScreenRedrawsProgressPart2/summary_page.md) |
@@ -845,8 +845,8 @@ Full corpus (1996-2026), scanned via the kb.4d.com search API (see scripts/fetch
 | 11961 | Tech Note: Using Operators on Pictures | 2000 | 6.5 |  | superseded | [page](./11961_OperatorsOnPictures/summary_page.md) |
 | 11960 | Tech Note: License Installation Problems and Solutions | 2000 | 6.5 |  | obsolete | [page](./11960_LicenseInstallationProblems/summary_page.md) |
 | 11959 | Tech Note: New 4D v6.5 Picture Library Animation Feature | 2000 | 6.5 |  | superseded | [page](./11959_PictureLibraryAnimation/summary_page.md) |
-| 11958 | Tech Note: Using Cookies with 4th Dimension Web Server | 2000 | 6.5 |  | superseded | [page](./11958_CookiesWith4DWebServer/summary_page.md) |
-| 11957 | Tech Note: Communicating With 4D | 2000 | 6.5 |  | obsolete | [page](./11957_CommunicatingWith4D/summary_page.md) |
+| 11958 | Tech Note: Using Cookies with 4th Dimension Web Server | 2000 |  | Eric Saltzen | partially_superseded | [page](./11958_CookiesWith4DWebServer/summary_page.md) |
+| 11957 | Tech Note: Communicating With 4D | 2000 | 6.7 | Jamras Komoncharoensiri | partially_superseded | [page](./11957_CommunicatingWith4D/summary_page.md) |
 | 11956 | Tech Note: Forcing Screen Redraws: Updating a Progress Display on a Form, Part I | 2000 | 6.5 |  | obsolete | [page](./11956_ForcingScreenRedrawsPart1/summary_page.md) |
 | 11955 | Tech Note: The On Timer Form Event | 2000 | 6.5 |  | still relevant | [page](./11955_OnTimerFormEvent/summary_page.md) |
 | 11954 | Tech Note: 4D Ping | 2000 | 6.5 | Arnaud Lion, 4D S.A. Technical Support | superseded | [page](./11954_4DPing/summary_page.md) |
@@ -860,12 +860,12 @@ Full corpus (1996-2026), scanned via the kb.4d.com search API (see scripts/fetch
 | 11946 | Tech Note: The Hierarchical LIST TO ARRAY Command | 2000 | 6.0 |  | historical interest only | [page](./11946_HierarchicalListToArray/summary_page.md) |
 | 11945 | Tech Note: E-mail Analyzer | 2000 | 6.5 |  | superseded | [page](./11945_EmailAnalyzer/summary_page.md) |
 | 11944 | Tech Note: 4D Connects with Wireless Markup Language | 2000 | 6.5 |  | obsolete | [page](./11944_4DConnectsWithWML/summary_page.md) |
-| 11943 | Tech Note: Architecture of Variables in Blobs | 2000 |  |  | obsolete | [page](./11943_VariablesInBlobs/summary_page.md) |
+| 11943 | Tech Note: Architecture of Variables in Blobs | 2000 | 6.7 | Thierry Ozil | historical_interest_only | [page](./11943_VariablesInBlobs/summary_page.md) |
 | 11942 | Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part VGraphing a Picture | 2000 | 6.5 | Tim Tonooka, ACI Technical Support | obsolete | [page](./11942_GraphicInterfaces4DDrawPart5/summary_page.md) |
 | 11941 | Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part IV:A Color Palette D | 2000 | 6.5 | Tim Tonooka, ACI Technical Support | obsolete | [page](./11941_GraphicInterfaces4DDrawPart4/summary_page.md) |
 | 11940 | Tech Note: Converting to Oracle as a Back End | 2000 | 6.5 |  | superseded | [page](./11940_ConvertingToOracleBackEnd/summary_page.md) |
 | 11939 | Tech Note: Storing and Searching for Available Times in a Schedule | 2000 | 6.0 |  | still relevant | [page](./11939_SchedulingAvailableTimes/summary_page.md) |
-| 11878 | Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part II | 1999 | 6.5 |  | obsolete | [page](./11878_GraphicInterfaces4DDrawPart2/summary_page.md) |
+| 11878 | Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part II | 1999 | 6.5 | Tim Tonooka | obsolete | [page](./11878_GraphicInterfaces4DDrawPart2/summary_page.md) |
 | 11877 | Tech Note: Introducing the HIGHLIGHT RECORDS command | 1999 | 6.5 |  | still relevant | [page](./11877_HighlightRecordsCommand/summary_page.md) |
 | 11876 | Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part 1 | 1999 | 6.5 | Tim Tonooka | obsolete | [page](./11876_GraphicInterfaces4DDrawPart1/summary_page.md) |
 | 11875 | Tech Note: Estimating Software Development Time | 1999 | 6.0 |  | still relevant | [page](./11875_EstimatingSoftwareDevTime/summary_page.md) |
