@@ -142,10 +142,8 @@ The kb.4d.com asset page itself never had (or no longer has) a download link for
 | 11764 | Tech Note: Powerful Uses of the On Keystroke Form Event | Published On: June 1, 1997 |
 | 11763 | Tech Note: Distributing Quick Reports and Files on 4D Server | Published On: June 1, 1997 |
 | 11762 | Tech Note: The Text Parameter Passed to 4D Methods Called via URLs | Published On: May 1, 1997 |
-| 11761 | Tech Note: Optimizing Record Selections - Part 2
-Under the Hood of the 4D Data File | Published On: May 1, 1997 |
-| 11760 | Tech Note: Optimizing Record Selections - Part 1
-Under the Hood of the 4D Data File | Published On: May 1, 1997 |
+| 11761 | Tech Note: Optimizing Record Selections - Part 2 Under the Hood of the 4D Data File | Published On: May 1, 1997 |
+| 11760 | Tech Note: Optimizing Record Selections - Part 1 Under the Hood of the 4D Data File | Published On: May 1, 1997 |
 | 11759 | Tech Note: Compiling Cross-Platform with Plug-ins | Published On: April 1, 1997 |
 | 11758 | Tech Note: Enhanced User Environment Wizards | Published On: April 1, 1997 |
 | 11757 | Tech Note: Hard Disk Browser Example Database | Published On: April 1, 1997 |
@@ -218,8 +216,7 @@ Under the Hood of the 4D Data File | Published On: May 1, 1997 |
 | 34081 | Tech Note: Using 4D 2004 Assimilator | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-38_Assimilator.exe |
 | 33989 | Tech Note: Using Command Select Document (2004) | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-37_Select_Document.exe |
 | 33905 | Tech Note: Included Lists with 4D View | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-36_Included_Lists.exe |
-| 33822 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft
-Windows GDI+: Part II of II | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-35_4D_GDIPlus_Image_2.exe |
+| 33822 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part II of II | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-35_4D_GDIPlus_Image_2.exe |
 | 33721 | Tech Note: Introduction to XSLT | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-34_Intro_to_XSLT.exe |
 | 33643 | Tech Note: Taking Advantage of Execute on Server | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-33_Execute_on_Server.exe |
 | 33569 | Tech Note: Client Self-Upgradable | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-32_ClientSelfUpgradable.exe |
@@ -228,8 +225,7 @@ Windows GDI+: Part II of II | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-
 | 33353 | Tech Note: Optimizing Writing to the Cache with 4th Dimension | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-29_Writing_to_Cache.exe |
 | 33214 | Tech Note: Working with Hierarchical List in 2004 | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-27_HierarchicalList_2004.exe |
 | 33153 | Tech Note: 4D Chart | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-26_4D_Chart.exe |
-| 33063 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft
-Windows GDI+: Part I of II | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-25_4D_GDIPlus_Image.exe |
+| 33063 | Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part I of II | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-25_4D_GDIPlus_Image.exe |
 | 33006 | Tech Note: 4D Macros in Version 2004 | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-24_4D_Macros_in_2004.exe |
 | 32903 | Tech Note: JDBC Connectivity for 4D Server | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-23_JDBC_Connectivity.exe |
 | 32788 | Tech Note: The XML_Utilities Component | https://kb.4d.com/ftp://@ftp.4d.com/ACI_TECHNICAL_NOTES/2004/Windows/TN_2004_21-25_(MAY)/04-21_XML_Utilities.exe |
@@ -240,8 +236,7 @@ Windows GDI+: Part I of II | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-2
 | 32313 | Tech Note: Spreadsheet to 4D 101 | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-16_Spreadsheet_to_4D_101.exe |
 | 32222 | Tech Note: Returning Pictures Through SOAP | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-15_Pictures_Through_SOAP.exe |
 | 32122 | Tech Note: Operations on Arrays and Selections | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-14_Operations_on_Arrays.exe |
-| 31738 | Tech Note: Using 4D with United States Postal Service
-(USPS) Web Services | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-10_4D_w_USPS_WebServices.exe |
+| 31738 | Tech Note: Using 4D with United States Postal Service (USPS) Web Services | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-10_4D_w_USPS_WebServices.exe |
 | 31597 | Tech Note: Connected Multimedia Apps with 4D and Flash | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_05-09_(FEB)/04-09_Connected_Multimedia.exe |
 | 31486 | Tech Note: Displaying and Hiding Tool Features Inside Plug-in Areas | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_05-09_(FEB)/04-08_Display_Hide_Tools.exe |
 | 31358 | Tech Note: 4D, iCal and Web Services | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_05-09_(FEB)/04-07_iCal_Web_Services.exe |
@@ -258,8 +253,7 @@ Windows GDI+: Part I of II | https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-2
 | 30594 | Tech Note: Securely Synchronizing databases with dissimilar structures via SOAP | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-50_Synchronizing_SOAP.exe |
 | 30593 | Tech Note: Helping Date and Time Data Entry | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-49_Date_and_Time_Entry.exe |
 | 30583 | Tech Note: XML – An Introduction to Extensible Markup Language | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-48_XML_An_Introduction.exe |
-| 30141 | Tech Note: Migrating from 4D for Oracle to 4D for OCI
-using OCI Mapper | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-44_MigratingTo4DForOCI.exe |
+| 30141 | Tech Note: Migrating from 4D for Oracle to 4D for OCI using OCI Mapper | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-44_MigratingTo4DForOCI.exe |
 | 30140 | Tech Note: 4D and iCal | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-45_4D_and_iCal.exe |
 | 30138 | Tech Note: Dynamic Translation of Fields' Labels | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-47_Dynamic_Transmission.exe |
 | 29817 | Tech Note: Complex Input Types with Web Services | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_40-43_(SEP)/03-43_ComplexInputTypesInWS.exe |
@@ -375,9 +369,7 @@ using OCI Mapper | https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03
 | 18207 | Tech Note: The 4D Web Auction Example Database | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-44_Exploring_Auction_DB.exe |
 | 18206 | Tech Note: XML based Export/Import for Archiving Data | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-43_Archiving_Data_in_XML.exe |
 | 18205 | Tech Note: How to generate a pathname document in 4D | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-42_Generate_Pathname_Doc.exe |
-| 18204 | Tech Note: Understanding the 4D Password System
-
-Understanding the 4D Password System | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-41_4D_Password_System.exe |
+| 18204 | Tech Note: Understanding the 4D Password System Understanding the 4D Password System | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-41_4D_Password_System.exe |
 | 16396 | Tech Note: Pointers from Scratch | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-39_Pointers_from_Scratch.exe |
 | 16395 | Tech Note: Exploring the Loan Tool Database | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-38_Exploring_Loan_Tool.exe |
 | 16394 | Tech Note: Linking Multiple Addresses to Multiple Tables | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-37_Multiple_Addresses.exe |
@@ -412,9 +404,7 @@ Understanding the 4D Password System | https://kb.4d.com/ftp://ftp.4D.com/ACI_TE
 | 12152 | Tech Note: Using 4D HTML Tags in Version 6.7 | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-01_4D6.7_HTML_Tags.exe |
 | 12151 | Tech Note: The Blob Analyzer | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-10_The_Blob_Analyzer.exe |
 | 12150 | Tech Note: Importing From a Watched Folder | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-09_Watched_Folder_Import.exe |
-| 12148 | Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5
-
-Handling Multiple Item HT | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-08_HTML_Select_Inputs.exe |
+| 12148 | Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5 Handling Multiple Item HT | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-08_HTML_Select_Inputs.exe |
 | 12147 | Tech Note: 4D Web Serving Using Perl CGIs | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-07_Using_Perl_CGIs.exe |
 | 12117 | Tech Note: Cruising Newsgroups: Accelerated Text Parsing with BLOBs | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-06_Cruising_Newsgroups.exe |
 | 11996 | Tech Note: The Enterprise Data Module: The Videos2000 Example Database | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-59_Enterprise_Data_Mod_1.exe |
@@ -433,8 +423,7 @@ Handling Multiple Item HT | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOT
 | 11958 | Tech Note: Using Cookies with 4th Dimension Web Server | https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_16-20_(APR)/00-17_4D_and_Cookies.exe |
 | 11957 | Tech Note: Communicating With 4D | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-52_Communicating_With_4D.exe |
 | 11943 | Tech Note: Architecture of Variables in Blobs | https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-58_4D_Variables_in_BLOBs.exe |
-| 11878 | Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part II
-Validating a BMP P | https://kb.4d.com/f/DLTN/TN/1999/Windows/TN_1999_47-50_(NOV)/99-47_Graphic_Interfaces_2.exe |
+| 11878 | Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part II Validating a BMP P | https://kb.4d.com/f/DLTN/TN/1999/Windows/TN_1999_47-50_(NOV)/99-47_Graphic_Interfaces_2.exe |
 | 11797 | Tech Note: Communicating via a serial port with 4D | https://kb.4d.com/ftp://partner:54yTK3y86xBf@ftp.4d.com/Partners_Only/ACI_TECHNICAL_NOTES/Windows/TN_1998_08-10_(MAR)/98-09_Serial_Port_Comm.exe |
 
 ## 3. Other download failures (2 assets)
