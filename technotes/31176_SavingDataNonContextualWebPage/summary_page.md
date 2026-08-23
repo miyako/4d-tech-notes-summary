@@ -1,23 +1,42 @@
-# Tech Note 04-01: Saving Data from a Non-Contextual Web Page
+# Tech Note: Saving Data from a Non-Contextual Web Page
 
-**Author:** Not specified in source teaser
-**Published:** January 31, 2004 | **Product/Version:** 4D v2003 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=31176
-**Download:** https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-01_SavingDataFromWebPage.exe
+- **Asset ID:** 31176
+- **Tech Note #:** 04-01
+- **Published:** January 31, 2004
+- **Product / Version:** 4D 2003
+- **Platform:** Mac & Win
+- **Author:** Steve Hartman, MCP, Information Systems, 4D, Inc.
+- **Page URL:** https://kb.4d.com/assetid=31176
+- **Download:** https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_01-04_(JAN)/04-01_SavingDataFromWebPage.hqx
 
 ## Overview
-This Tech Note shows how to take form input submitted from a 4D "Non-Contextual" web page and save it into a table in the underlying 4D database, addressing the basic but essential need to persist web-submitted data.
+
+Steve Hartman (MCP, Information Systems, 4D, Inc.) demonstrates the full round trip of serving a 4D Non-Contextual web page and saving what the user submits into a database record, using a fictional "Acme Pain Clinic" online appointment-request form as the worked example.
 
 ## Key Points
-- Frames the core problem: serving web pages from 4D is easy, but persisting submitted data requires additional work.
-- Specifically addresses the **Non-Contextual** web publishing mode of 4D's native Web server.
-- Demonstrates moving submitted input values into a database table.
-- As Tech Note 04-01, the first note in the 2004 series, it covers foundational 4D web development ground.
+
+- Defines a 16-field `WebData` table (name, DOB, gender, phone, pain scale, symptom checkboxes for torso/legs/arms, comments, and two candidate appointment date/time pairs).
+- The core logic lives in a project method, `WEB_WebInfoSave`, enabled via "Available through 4DACTION" in Method Properties, which reads the incoming `WEBF_t_*`/`WEB_t_*` web variables, calls `CREATE RECORD`, assigns each field, calls `SAVE RECORD`, and responds via `SEND HTML TEXT`.
+- Since all data arriving from a web form is text, a `CB2Boolean_Input` helper converts checkbox text ("Yes"/other) into a proper Boolean field for the Torso/Legs/Arms symptom checkboxes.
+- A much more involved `Date_Validate` method (originally by Tom Dillon of DataCraft, later modified by Hartman) attempts to interpret free-typed date strings of varying length and delimiter style — supporting `MM/DD/YY`, `DD/MM/YY`, no-delimiter forms like `070403` or `07042003`, and partial entries like just a day number — assuming the current month/year when omitted, and rejecting the input with "Invalid date. Please try again." if round-tripping the parsed date through `Date()`/`String()` doesn't match.
+- The date-of-birth field sidesteps this ambiguity entirely by using HTML `<select>` dropdowns for month/day/year, which are then concatenated and passed through `Date()`.
+- Full HTML markup for the form is included, showing `<!--4DVAR fieldName-->` substitution tags used to redisplay prior values and the `action="/4DACTION/WEB_WebInfoSave" method="post"` form submission pattern.
+- Closes by noting that no matter how much instruction is given, a developer must anticipate multiple possible ways a user will enter data — a lesson that motivates all the type-coercion code in the note.
 
 ## Featured Technology
-- 4D native Web server
-- 4D Non-Contextual web publishing mode
-- Record creation/update from submitted web form data
 
-## Historical Context
-Only the on-page teaser paragraph for this asset could be recovered (the full archived PDF was not accessible in this environment), so this summary reflects the note's stated purpose rather than its exact code walkthrough. The "Non-Contextual" web publishing mode described here is part of 4D's early, classic web server architecture; the general task of capturing and persisting submitted web form data remains completely relevant today, but is now typically handled through 4D's more capable, modern web development approaches rather than this specific Non-Contextual mechanism.
+- 4D native Web server
+- 4DACTION form handlers
+- Non-Contextual web publishing
+- 4DVAR HTML value binding
+- Text-to-Boolean and free-text date parsing methods
+
+## Historical Commentary
+
+**Status:** Superseded
+
+Using a fictional "Acme Pain Clinic" online appointment form as its running example, this note walks through capturing input from a 4D Non-Contextual web page and writing it into a 4D database record via a 4DACTION method, including custom text-to-Boolean checkbox conversion and a fairly elaborate free-text date parser meant to handle sloppy user-entered dates. The specific Non-Contextual web publishing model, 4DACTION tags, and 4DVAR HTML substitution syntax reflect 4D's early-2000s classic web server architecture and have been superseded by later, far more capable 4D web frameworks (including qodly/ORDA-based and REST-driven approaches), though the underlying problem of validating and coercing loosely-typed web form input into typed database fields is still a real, recurring task for any 4D web developer.
+
+**References to newer/updated information:**
+- 4D's web publishing model has evolved substantially since 2004, adding session-based web areas, REST/ORDA data access, and modern form-handling approaches that reduce reliance on raw 4DACTION/4DVAR Non-Contextual pages
+- 4D added native date-parsing and stronger typed-form capabilities over time, reducing the need for hand-rolled string-to-date heuristics like the Date_Validate method shown here

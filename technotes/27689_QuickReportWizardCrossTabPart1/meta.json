@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon, 4D Inc. Technical Support",
   "page_url": "https://kb.4d.com/assetid=27689",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-16_Creating_a_QR_Wizard.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_16-20_(APR)/03-16_Creating_a_QR_Wizard.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Quick Report Editor (plug-in)",
-    "Custom report wizards"
+    "Report plug-in area (4D 2003 Quick Report editor as internal plug-in)",
+    "QR SET REPORT KIND / QR SET TABLE commands",
+    "QR ON COMMAND / QR EXECUTE COMMAND (menu, toolbar, contextual menu handling)",
+    "Drag-and-drop field insertion via DRAG AND DROP PROPERTIES / QR Get drop column",
+    "Break-level calculation tags (#S, #N, #X, #A, #C, ##N)",
+    "QR SET TOTAL SPACING (page breaks / extra spacing at break levels)"
   ],
   "historical_commentary": {
-    "text": "4D's reporting architecture has continued to evolve well beyond the 2003 Report plug-in design discussed here, and building custom report wizards remains a relevant technique, though the specific plug-in architecture curiosity noted is now a historical detail rather than a practical concern for current 4D developers.",
-    "status": "superseded",
+    "text": "Jean-Yves Fock-Hoon explains 4D 2003's reimagining of the Quick Report editor as a 'Report' plug-in area -- comparable in spirit to how 4D Chart was once an external plug-in later folded into the product -- and builds a custom List-report wizard around it, covering drag-and-drop field insertion, break-level calculation tags, sorting, display formats, and page-break/spacing control at break levels. The Report plug-in area concept and the specific QR commands shown (QR SET REPORT KIND, QR ON COMMAND, QR SET TOTAL SPACING, etc.) remain part of current 4D, so a wizard built this way would still function largely as described. However, 4D Write Pro has since become the more commonly used tool for building modern, richly formatted reports and report-building interfaces, so this classic Quick-Report-plug-in wizard approach, while still valid, is now a less frequently chosen path for new report UI work.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's reporting architecture (including the Quick Report engine and 4D Write Pro) has continued to evolve substantially since the 2003 Report plug-in design discussed here"
+      "The Report plug-in area and its QR command set (QR SET REPORT KIND, QR ON COMMAND, QR SET TOTAL SPACING, drag-and-drop column insertion) remain part of current 4D and continue to work as described",
+      "4D Write Pro has since become the more commonly used tool for building modern, richly formatted reports and custom report wizards, though the classic Quick Report plug-in engine described here is still available for list-style tabular reporting"
     ]
   }
 }

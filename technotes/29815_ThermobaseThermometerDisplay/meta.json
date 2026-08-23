@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=29815",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_40-43_(SEP)/03-41_Thermobase.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_40-43_(SEP)/03-41_Thermobase.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Custom graphical gauges",
-    "Form drawing objects"
+    "Dedicated display process for a progress dialog",
+    "Interprocess/global variables updated cross-process",
+    "CALL PROCESS / SET PROCESS VARIABLE / VARIABLE TO VARIABLE",
+    "On Timer vs. On Outside call update strategies",
+    "4D Thermometer form object and picture-based alternative",
+    "Multi-thermometer single-dialog management"
   ],
   "historical_commentary": {
-    "text": "Custom hand-drawn gauges like this thermometer example have been largely superseded by native gauge form objects in later 4D versions and by rich JS/CSS-based visualizations in modern web areas, making this note primarily of historical/educational interest as an example of classic-era 4D form drawing technique.",
-    "status": "historical interest only",
+    "text": "The fundamental constraint this note addresses — a busy 4D process cannot redraw its own UI — is still true in current 4D, so the core pattern of a dedicated display process communicating via shared/interprocess variables and CALL PROCESS remains a legitimate technique today. Modern 4D has since added richer tools for cross-process communication (shared objects/collections, worker processes) that can simplify some of the plumbing shown here, but the specific problem and general architecture of this note have not been superseded by a single built-in 'just works' progress bar API.",
+    "status": "still_relevant",
     "related_updates": [
-      "Later 4D versions and web-based components provide native gauge/progress-indicator widgets, reducing the need for hand-drawn thermometer-style gauges"
+      "4D has since added shared objects/collections and worker-process patterns that can simplify cross-process data sharing compared to the raw interprocess-variable approach shown here",
+      "The core technique — a dedicated display process updated via CALL PROCESS because a busy process cannot redraw its own UI — remains valid and in use in current 4D applications"
     ]
   }
 }

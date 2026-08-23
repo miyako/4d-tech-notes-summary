@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Dave Dell'Aquila",
   "page_url": "https://kb.4d.com/assetid=29817",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_40-43_(SEP)/03-43_ComplexInputTypesInWS.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_40-43_(SEP)/03-43_ComplexInputTypesInWS.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SOAP",
-    "Web Services (4D 2003)",
-    "Complex XML input parameters"
+    "4D Web Services Wizard (WSDL analysis / proxy method generation)",
+    "SET WEB SERVICE PARAMETER / CALL WEB SERVICE",
+    "RPC-style vs. Doc-style ('complex') SOAP parameters",
+    "TEXT TO BLOB for manual SOAP body construction",
+    "Web Service Manual mode of CALL WEB SERVICE",
+    "soapclient.com generic SOAP test client"
   ],
   "historical_commentary": {
-    "text": "SOAP's complex-type XML input construction, the specific focus of this note, has been broadly superseded by simpler JSON-object-based request bodies in modern REST APIs, which 4D now supports natively, making this note's specific technique largely of historical interest even though the underlying challenge \u2014 mapping structured data to an external service's expected wire format \u2014 remains a perennial integration concern.",
+    "text": "This note captures a genuinely useful, era-appropriate technique for the moment SOAP web services stopped being fully wizard-generatable — manually building a Doc-style SOAP body and shuttling it through CALL WEB SERVICE's manual mode. Since then, SOAP itself has been broadly superseded by REST/JSON as the default web service protocol, and 4D added native HTTP client commands that make calling modern JSON/REST APIs far simpler than constructing hand-written SOAP envelopes. CALL WEB SERVICE and the SOAP commands referenced here still exist in 4D for legacy SOAP interoperability, but they are no longer the default way to consume a web service.",
     "status": "superseded",
     "related_updates": [
-      "REST/JSON APIs have largely replaced SOAP for new web service integrations, and 4D now has native JSON support that simplifies passing structured/complex data compared to SOAP's XML complex types"
+      "4D introduced native HTTP Client commands (4D v13, 2012, and later expanded) that make calling REST/JSON web services far simpler than constructing SOAP envelopes by hand",
+      "REST/JSON has broadly replaced SOAP as the default web service protocol for new integrations",
+      "CALL WEB SERVICE and the SOAP-related commands used in this note remain available in current 4D for legacy SOAP interoperability"
     ]
   }
 }

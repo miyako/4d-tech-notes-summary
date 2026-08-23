@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac",
-  "author": null,
+  "author": "Sati Hillyer, Technical Support Engineer, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=31358",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_05-09_(FEB)/04-07_iCal_Web_Services.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_05-09_(FEB)/04-07_iCal_Web_Services.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Apple iCal",
-    "AppleScript",
-    "4D Web Services (SOAP)"
+    "4D 2003 SOAP Web Services (method published as Web Service/WSDL)",
+    "Apple iCal 1.5.1 scheduled alarms (Open File action)",
+    "AppleScript SOAP web service calls (call soap command)",
+    "4D Backup plug-in scripted via BK Begin full backup / BK Start copy / BK Get state",
+    "4D Quick Report generation and printing from a method",
+    "4D Web Server startup publishing and Allow Web Services Requests option"
   ],
   "historical_commentary": {
-    "text": "This note ties together three technologies specific to 2004 Mac OS X: Apple's original iCal calendar app, AppleScript's newly added ability to call Web Services, and 4D's SOAP-based Web Services. iCal (as a distinct app) was discontinued and folded into Apple's Calendar app years ago, and the AppleScript-to-Web-Services integration path described is a niche, dated automation technique; the general idea of triggering 4D business logic from a calendar/scheduling event remains conceptually useful, but essentially none of the specific technology stack described (that version of iCal, that AppleScript SOAP feature, 4D's SOAP Web Services) is still in active use today.",
+    "text": "This note shows how to use Apple's iCal 1.5.1 as a poor-man's task scheduler for 4D, by having a calendar alarm launch an AppleScript that calls a 4D method exposed as a SOAP Web Service, illustrated with a scheduled database backup and a scheduled Quick Report print job. The specific mechanism is thoroughly obsolete: iCal was renamed/rearchitected into Apple's Calendar app long ago, its AppleScript-driven SOAP calling convention is gone, and 4D itself has moved from SOAP to REST/JSON web services. The underlying need -- triggering 4D business logic (like backups or scheduled reports) on a precise recurring schedule -- is now handled far more robustly by native 4D scheduling (On Server Startup / Execute on Server methods, 4D Server's own scheduler enhancements, or OS-level schedulers) rather than a calendar app and an AppleScript SOAP shim.",
     "status": "obsolete",
     "related_updates": [
-      "Apple's iCal was renamed and evolved into the Calendar app, and current calendar/automation integrations use different technologies (e.g. Shortcuts, EventKit) rather than legacy AppleScript-to-SOAP calls",
-      "4D's SOAP Web Services approach has been superseded by REST/JSON web services in modern 4D development"
+      "Apple's iCal was renamed and re-architected into the Calendar app; the described AppleScript 'call soap' invocation and alarm-triggered script launching workflow described here no longer applies",
+      "4D's SOAP Web Services have been superseded by REST/JSON web services in modern 4D development",
+      "Modern 4D applications typically use native scheduling (4D Server's scheduler, timed/periodic processes, or OS-level cron/Task Scheduler) rather than a calendar app's alarm system to trigger recurring tasks like backups or reports"
     ]
   }
 }

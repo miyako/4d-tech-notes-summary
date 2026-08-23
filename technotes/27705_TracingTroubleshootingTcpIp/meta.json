@@ -7,19 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=27705",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-21_TraceTrbleshootTCPIP.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_21-25_(MAY)/03-21_TraceTrbleshootTCPIP.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "TCP/IP debugging",
-    "4D Debugger limitations"
+    "OS X Terminal-based network diagnostic tools (ping, traceroute, whois, nslookup, netstat)",
+    "Packet/stream capture tools (tcpdump, tcpflow, Ethereal, EtherPeek)",
+    "Local loopback interface (lo0) tracing for same-machine 4D/web-server integrations",
+    "ipfw port forwarding for OS X's restricted sub-1024 ports",
+    "Fink / package-installer based Unix tool installation on OS X"
   ],
   "historical_commentary": {
-    "text": "The general principle \u2014 that application-level debuggers cannot diagnose network-layer problems, and that external tools are needed \u2014 remains entirely valid today, though the specific tools available circa 2003 have since been superseded by far more capable and accessible modern network diagnostic tools (e.g., Wireshark, modern OS-level network monitors) than were commonly used at the time.",
-    "status": "still relevant",
+    "text": "David Adams provides a broad, practical tour of Unix/OS X network debugging tools -- ping, nslookup, netstat, traceroute, whois, tcpdump, tcpflow, Ethereal, EtherPeek -- aimed at 4D developers whose systems (Web, Web Services, IIS/WebSTAR integrations, custom TCP/IP code) fail in ways the 4D Debugger cannot diagnose. The central thesis, that application-level debugging is not enough for network-layer problems and dedicated tools are required, remains completely true today. However, essentially every specific tool recommendation is dated: Ethereal has been renamed and succeeded by Wireshark, EtherPeek and Fink-based X11 installs are obsolete workflows, and the OS X-specific installation friction described (needing the Developer CD, Fink, X11) no longer applies on modern macOS, which ships or easily installs equivalents via Homebrew. The lo0 loopback-tracing and ipfw-port-forwarding techniques are also outdated (ipfw was removed from macOS in favor of pf), though the underlying concepts (loopback tracing, port forwarding for privileged ports) remain valid networking knowledge developers must reapply with current tools.",
+    "status": "obsolete",
     "related_updates": [
-      "Modern network diagnostic tools (e.g., Wireshark and current OS-level tools) have superseded whatever specific tracing tools this note likely recommended in 2003"
+      "Ethereal was renamed Wireshark in 2006 and remains the standard graphical packet analyzer; EtherPeek is discontinued",
+      "Apple removed ipfw from macOS (10.10+) in favor of the pf packet filter, so the ipfw port-forwarding example shown here no longer works on modern macOS",
+      "Modern macOS/Homebrew make installing tools like tcpflow, nmap, and Wireshark far simpler than the Fink/X11/Developer-CD process described in this note",
+      "The core principle -- that network-layer problems require dedicated tracing tools rather than the 4D Debugger -- remains valid and is unchanged in current 4D development"
     ]
   }
 }

@@ -1,1 +1,1 @@
-Tech Note: Web Services – An Introduction (TN 03-53, 4D v2003, December 2003) — a beginner's introduction to Web Services concepts (SOAP, WSDL) and how 4th Dimension enables application-to-application integration using them.
+A beginner's introduction to Web Services (SOAP/WSDL concepts) and how to publish and consume them using 4D 2003's new Web Services support

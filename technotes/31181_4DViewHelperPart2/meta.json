@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Melinda Gallo (routines written by Dave Batton)",
   "page_url": "https://kb.4d.com/assetid=31181",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-04_4D_View_Helper.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_01-04_(JAN)/04-04_4D_View_Helper.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D View Helper (component/routine library)",
-    "4D View plug-in area",
-    "Array/record display in 4D View"
+    "4D View plug-in area commands (PV_ family)",
+    "PV GET SELECTED RANGES LIST / PV SELECT RANGES LIST for row selection",
+    "PV SET COLUMNS WIDTH with percentage-to-pixel translation",
+    "PV SET STYLE PROPERTY for font name/size/style on the Cells style sheet",
+    "PV SET ROWS HEIGHT and PV Get document property",
+    "PV ON EVENT callback suppression during programmatic selection changes"
   ],
   "historical_commentary": {
-    "text": "This is the second-part reference documentation for '4D View Helper,' a routine library built to simplify displaying arrays or records inside a 4D View spreadsheet-style plug-in area. Since 4D View itself was superseded by 4D View Pro (introduced 2018), this helper library and its routines are tied to a discontinued companion product, making the note obsolete as a practical reference, though the underlying idea of helper routines that bridge 4D data structures (arrays/records) to a grid/spreadsheet display area remains conceptually similar to patterns used with 4D View Pro today.",
+    "text": "This note is Part II of the '4D View Helper' reference, documenting a small routine library (PV_GetSelectedRow, PV_GetSelectedRows, PV_SetColumnWidths, PV_SetFont, PV_SetRowHeight, PV_SetSelectedRow, PV_SetSelectedRows) that wraps 4D View's native PV_ plug-in commands to make selecting rows, sizing columns, and setting fonts in a 4D View spreadsheet area easier. Since 4D View itself was discontinued and replaced by 4D View Pro (introduced in 4D v16 R6/2018) with an entirely different object-based API, these specific helper routines and the underlying PV_ command set are now obsolete for current development, though the general pattern of wrapping low-level grid/area commands in convenience routines for row selection, column sizing, and font control is still how developers work with 4D View Pro today.",
     "status": "obsolete",
     "related_updates": [
-      "4D View was superseded by 4D View Pro (introduced 2018), which uses a different object model and API",
-      "Displaying arrays/records in a spreadsheet-style area today would use 4D View Pro's newer commands rather than this 4D View Helper component"
+      "4D View was superseded by 4D View Pro (introduced 2018), which replaces the PV_ command family with a completely different, object/collection-based API",
+      "Selecting rows, sizing columns, and setting fonts in a spreadsheet-style area today would be done with 4D View Pro's newer object methods and formatting APIs rather than this PV_-based helper library"
     ]
   }
 }

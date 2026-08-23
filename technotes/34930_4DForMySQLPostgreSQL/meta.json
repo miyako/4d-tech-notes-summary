@@ -1,29 +1,30 @@
 {
-  "asset_id": 34930,
-  "title": "Tech Note: Introduction to 4D for MySQL and 4D for PostgreSQL",
-  "technote_number": "04-47",
-  "year": 2004,
-  "published_date": "November 23, 2004",
-  "product": "4D",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=34930",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_46-48_(OCT)/04-47_4D_for_MySQL-Postgres.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "4D for MySQL plug-in",
-    "4D for PostgreSQL plug-in",
-    "MySQL / PostgreSQL open-source RDBMS",
-    "Direct (non-ODBC) database connectivity"
-  ],
-  "historical_commentary": {
-    "text": "This note introduces two new 2004-era 4D plug-ins, 4D for MySQL and 4D for PostgreSQL, offering a more direct connection path to these popular open-source databases than going through generic ODBC drivers. These specific plug-ins have long since been discontinued as standalone products, and the direct-connector approach they represent has been superseded by 4D's own SQL engine, ODBC/JDBC-based connectivity, and, more recently, ORDA and REST-based integration patterns for interfacing with external open-source databases.",
-    "status": "obsolete",
-    "related_updates": [
-      "The dedicated 4D for MySQL / 4D for PostgreSQL plug-ins are no longer part of current 4D product offerings",
-      "4D's native SQL engine (from 4D v11 SQL, ~2007) and general ODBC/JDBC connectivity have become the standard ways to interface with external RDBMSs",
-      "ORDA-based data source integration (2018+) offers a more modern entity-based approach to working with external databases"
-    ]
-  }
+    "asset_id": 34930,
+    "title": "Tech Note: Introduction to 4D for MySQL and 4D for PostgreSQL",
+    "technote_number": "04-47",
+    "year": 2004,
+    "published_date": "November 23, 2004",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "Jamras Komoncharoensiri",
+    "page_url": "https://kb.4d.com/assetid=34930",
+    "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_46-48_(OCT)/04-47_4D_for_MySQL-Postgres.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "4D for MySQL plug-in (native MySQL API, no ODBC layer)",
+        "4D for PostgreSQL plug-in (native PostgreSQL API, no ODBC layer)",
+        "MySQL_Connect / MySQL_Execute / MySQL_Select / MySQL_NextRow / MySQL_Get<Type>Field commands",
+        "MySQL_Add<Type>Parameter bound-parameter SQL execution",
+        "PGSQL_Connect / PGSQL_Execute / PGSQL_GetResultStatus / PGSQL_Get<Type>Value commands"
+    ],
+    "historical_commentary": {
+        "text": "Jamras Komoncharoensiri, a 4D Evangelist, introduces two brand-new 2004 connectivity plug-ins, 4D for MySQL and 4D for PostgreSQL, that talk directly to each database's native wire protocol instead of going through a generic ODBC driver layer, promising better performance and no ODBC data-source setup. This was the primary way to get fast, direct MySQL/PostgreSQL access from 4D in the mid-2000s; the technique has since been superseded by 4D's built-in SQL engine and, more relevantly for external databases, by native remote datastore/ORDA connectivity and modern SQL commands added in later 4D versions, making these older MySQL/PostgreSQL plug-ins largely legacy artifacts for anyone building on current 4D releases.",
+        "status": "superseded",
+        "related_updates": [
+            "4D has since added its own embedded SQL engine (4D SQL) as well as native remote datastore/ORDA-based connectivity for external databases in later versions",
+            "The command-based MySQL_/PGSQL_ plug-in APIs described here are legacy 4D 2004-era interfaces rather than the current recommended approach for external DB connectivity",
+            "Direct native plug-ins for MySQL/PostgreSQL still exist in 4D's ecosystem in some form, but current projects more commonly favor 4D's built-in SQL or REST/ORDA integration patterns"
+        ]
+    }
 }

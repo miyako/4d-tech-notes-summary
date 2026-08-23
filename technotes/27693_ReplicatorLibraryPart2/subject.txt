@@ -1,1 +1,1 @@
-Tech Note: Replicator Library (Part II) (TN 03-19, 4D v2003, April 2003) — the second of two notes on the Replicator code library, going deeper into replication mechanics and the trade-offs involved.
+Design trade-offs behind a 4D Open-based Replicator code library for near-real-time multi-server data replication

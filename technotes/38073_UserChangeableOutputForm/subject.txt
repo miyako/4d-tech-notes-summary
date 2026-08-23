@@ -1,1 +1,1 @@
-Tech Note: User Changeable Output Form (TN 05-25, 4D v2004, July 2005) — a technique for letting end users dynamically choose fields, headers, formats, and alignment for each column of an output form at runtime.
+Letting end users pick output form columns, formats, and alignment at runtime using layout variables

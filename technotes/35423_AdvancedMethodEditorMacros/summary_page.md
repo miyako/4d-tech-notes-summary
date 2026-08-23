@@ -1,24 +1,43 @@
-# Tech Note 05-01: Advanced Method Editor Macros
+# Tech Note: Advanced Method Editor Macros
 
-**Published:** January 6, 2005 | **Product/Version:** 4D v2004 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=35423
-**Download:** https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_01-04_(JAN)/05-01_AdvMethodEditorMacros.exe
+- **Asset ID:** 35423
+- **Tech Note #:** 05-01
+- **Published:** January 6, 2005
+- **Product / Version:** 4D 2004
+- **Platform:** Mac & Win
+- **Author:** Jonathan Le
+- **Page URL:** https://kb.4d.com/assetid=35423
+- **Download:** https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_01-04_(JAN)/05-01_AdvMethodEdtiorMacros.hqx
 
 ## Overview
-Macros were first introduced to 4D in version 2003. These handy development tools allowed us to generate blocks of code that we would normally have to type over and over and over...
 
-One of the many new features added to 4D 2004 is an expansion to Method Editor Macros with an addition to the tagging language: the method tag. The method tag allows us to call any project method contained in the database calling the macro.
+Jonathan Le (Technical Support, 4D, Inc.) explains 4D 2004's expanded Method Editor Macro language, centered on the new `method` tag that lets a macro call any project method in the current database -- transforming macros from static code-snippet tools into interactive, code-generating and code-manipulating utilities.
 
 ## Key Points
-- This entry is **teaser_only**: the full PDF/example archive for this note was not recoverable in this environment, so only the on-page teaser paragraph above is available as source material.
-- No further internal technical detail (step-by-step instructions, code listings, screenshots) beyond this teaser can be confirmed or summarized without fabrication.
+
+- Recaps pre-2004 macros as simple, predefined code-snippet generators (e.g. the built-in "If" macro producing `If( )` / `End If`), stored as XML files in the system-level "Active 4D" folder (with a default `Macros.xml` plus an optional `Macros` subfolder for additional files).
+- Documents the macro tagging language in detail: `<macros>`/`<macro name="...">` wrappers, `<text>` bodies, and inline tags `<caret/>` (cursor placement), `<selection/>` (inserts highlighted text), `<user_os/>`, `<date format="...">`, `<time format="...">`, `<method_name/>`, and the new `<method>...</method>` tag for invoking a project method.
+- Walks through an "IfWrap" macro example that extends the stock "If" macro by adding `<selection/>` so a highlighted line of code gets wrapped in `If(<caret/>) ... End If`.
+- Documents the special process variables available to a method called via the macro tag -- inputs `_textSel`/`_blobSel`/`_selLen`/`_textMethod`/`_blobMethod`/`_methodLen` and outputs `_textReplace`/`_blobReplace`/`_action` (0=none, 1=insert text, 2=insert blob, 3=replace method with text, 4=replace method with blob) -- illustrated with a "ReverseIt" macro that reverses highlighted text.
+- Presents a "Variable Wizard" example showing a macro-called project method that opens a dialog form (`Open form window`, `DIALOG`), collects variable types/names into arrays, and generates 4D compiler declarations (`VARIABLE_TYPE($variableName)`) inserted into the method editor via `_blobReplace` and `_action:=2`.
+- Advises spawning new processes for macros that display forms (since the macro call executes in a process similar to the Custom Menus/User Environment process, which stays locked while the macro runs) and using blobs instead of 32,000-character-limited text variables for larger code manipulation.
+- References the bundled Macro Pack component's ready-made macros for auto-documentation, assigning named parameters, organizing declarations, and generating SOAP declarations.
 
 ## Featured Technology
-- 4D Method Editor macros
-- Macro tagging language (method tag)
-- Project method invocation from macros
 
-## Historical Context
-Published on January 6, 2005 as Tech Note 05-01 for 4D v2004, this note dates to 4D's pre-SQL, Design Mode-only era (4D 2003/2004/2004.1), predating 4D's native SQL engine (v11 SQL, ~2007), ORDA (2018), and Project Mode (v17, 2018). Status: **superseded**. This note documents the method tag, a 2004-era enhancement to 4D's Method Editor macro tagging language that let macros invoke any project method in the database, extending macros beyond simple boilerplate code generation. The classic Method Editor and its macro system belong to the binary Design Mode code editor of this era; modern 4D development uses the newer code editor tooling and, in Project Mode, text-based method files, so this specific macro-tag mechanism is now largely superseded even though on-demand code generation remains a useful concept. Only the teaser paragraph could be recovered for this note.
+- 4D Method Editor Macros (XML macro files, Active 4D folder)
+- <method> macro tag (calling project methods from a macro)
+- Macro tagging language (<macro>, <text>, <caret/>, <selection/>, <user_os/>, <date/>, <time/>, <method_name/>)
+- Special macro process variables (_textSel, _blobSel, _textReplace, _blobReplace, _action)
+- Macro Pack component (auto-documentation, parameter assignment, SOAP declarations)
 
-**Note:** The full archive for this Tech Note (PDF and/or example code download) could not be recovered in this environment — the source download format is no longer accessible — so this summary is necessarily based only on the short teaser paragraph published on the Tech Note's page, not the complete original document.
+## Historical Commentary
+
+**Status:** Superseded
+
+Jonathan Le documents the biggest upgrade to 4D's Method Editor macro language since its 2003 introduction: the new <method> tag, which lets a macro call any project method in the calling database, turning macros from static code-snippet generators into interactive, code-executing tools (illustrated with a string-reversal macro and a dialog-driven "Variable Wizard" that generates compiler declarations). This XML-tag-based macro system was specific to the classic Design Mode method editor and Macro Pack component; it has been superseded by the vastly more capable code editor, snippet, and extension/plugin architecture of modern 4D (v19+ code editor, Project Mode), though the core idea of code-generation macros driven by user-selected text persists in spirit in modern editor snippets.
+
+**References to newer/updated information:**
+- 4D's modern code editor (introduced with Project Mode/v19+) offers far richer code snippet, auto-completion, and refactoring tools than the classic XML macro system described here
+- The Macro Pack component referenced in this note is a legacy artifact of the classic Design Mode era
+- The core productivity goal -- reducing repetitive typing during method editing -- is now addressed by modern editor features rather than XML-tagged macro files

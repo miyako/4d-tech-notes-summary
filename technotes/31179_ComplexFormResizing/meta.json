@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Roland Lannuzel, 4D S.A.",
   "page_url": "https://kb.4d.com/assetid=31179",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-03_Complex_Form_Resizing.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_01-04_(JAN)/04-03_Complex_Form_Resizing.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D form object resizing/moving via language",
-    "4D Design Mode forms"
+    "On Load and On Resize form events",
+    "Per-object move/resize percentage ratios stored in arrays",
+    "MOVE OBJECT command for programmatic placement",
+    "GET WINDOW RECT / GET OBJECT RECT for delta computation",
+    "ARRAY LONGINT / ARRAY REAL and SELECTION TO ARRAY for loading layout data",
+    "Invisible thermometer object hijacked for live window-resize dragging"
   ],
   "historical_commentary": {
-    "text": "This note tackles form resizing logic beyond 4D's basic built-in resize/move behaviors, providing a combined language-based method for computing object placement and size during form resize events. The core problem — precisely controlling how form objects reposition and resize together — remains conceptually relevant, but the note's approach is grounded in Design Mode's binary form structure and language commands of that era; current 4D forms still support similar resizing logic (and later versions added more built-in responsive/auto-resize capabilities), making the specific technique here a useful historical reference rather than the state of the art.",
-    "status": "superseded",
+    "text": "This note by Roland Lannuzel of 4D S.A. presents a language-based technique, illustrated with a resizable calculator form, for proportionally resizing and repositioning multiple form objects together during a window resize -- going beyond 4D's basic per-object Grow/Move behaviors by computing per-object move and grow percentages stored in parallel arrays and applying them on the On Resize form event via MOVE OBJECT. The core problem of coordinated, proportional object layout on resize is still relevant, but 4D's form object model has since gained more built-in anchoring and responsive-layout capabilities (and, in Formulas-based/ORDA-driven forms and 4D's later responsive form options), reducing how often developers need to hand-roll this exact array-driven percentage math today; the technique remains a valid, understandable reference for cases requiring fully custom resize logic.",
+    "status": "partially_superseded",
     "related_updates": [
-      "Later 4D versions introduced more built-in form object anchoring/auto-resize options, reducing the need for fully custom resize methods in many common cases",
-      "4D's form and object model has continued to evolve, though the general on-form resize event and language-based approach described remains structurally similar today"
+      "Later 4D versions added more built-in form object anchoring/auto-resize options (percentage-based positioning in the Form editor), covering many cases that previously required fully custom On Resize code like this",
+      "4D's form and object model has continued to evolve, but the general On Load/On Resize event pattern and language-based MOVE OBJECT approach described here remains structurally valid in current 4D forms"
     ]
   }
 }

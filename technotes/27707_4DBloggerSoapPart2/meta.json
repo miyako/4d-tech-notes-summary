@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri, Technical Support Engineer",
   "page_url": "https://kb.4d.com/assetid=27707",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-23_4D_Blogger_&_SOAP_II.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_21-25_(MAY)/03-23_4D Blogger_&_SOAP_II.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SOAP",
-    "4D Blogger",
-    "Blog client/server architecture"
+    "SOAP-based WebLog Client/Server architecture",
+    "4D Blogger v2 sample application",
+    "Background process polling via RESUME PROCESS/PAUSE PROCESS/DELAY PROCESS",
+    "On Outside Call cross-process UI updates",
+    "Custom calendar UI built from grid form objects",
+    "SOAP category/user-management methods (SOAP_AddCategoryName, SOAP_SaveNewUser, etc.)"
   ],
   "historical_commentary": {
-    "text": "4D Blogger as a demo application and its SOAP-based client/server architecture are long obsolete; modern blogging platforms and client/server integrations use REST/JSON APIs almost universally now, so this note is chiefly of historical interest as a snapshot of early-2000s blogging-meets-Web-Services technology demonstrations.",
-    "status": "obsolete",
+    "text": "This second-part note by Jamras Komoncharoensiri builds out the WebLog Client interface for the 4D Blogger v2 demo application, showing a hand-built calendar UI driven by a background polling process, multi-category blog administration, self-service user signup, and category-filtered search, all communicating with the WebLog Server over SOAP. 4D Blogger as a demo product and its SOAP client/server plumbing are long retired, and virtually all real-world blogging platforms and integrations moved to REST/JSON APIs many years ago, so the specific SOAP methods shown are of historical interest only. The generic implementation techniques on display -- background-process polling with RESUME PROCESS/PAUSE PROCESS, updating a foreground process via On Outside Call, and building a calendar from grid-arranged form objects -- remain conceptually valid 4D patterns, though modern 4D offers more capable ways to build such UIs (e.g., list boxes, richer object arrays) and to integrate with external services (native HTTP client and JSON commands) than shelling everything through SOAP.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "SOAP-based blogging APIs (like the MetaWeblog/Blogger APIs of this era) have been superseded by modern REST/JSON-based content APIs"
+      "4D Blogger and its SOAP-based WebLog Client/Server protocol are long discontinued; modern blogging and web-service integrations use REST/JSON, typically via 4D's native HTTP Client and JSON parsing commands rather than SOAP",
+      "The general background-process polling and On Outside Call cross-process update patterns shown here are still valid 4D techniques, though current 4D also offers list boxes and richer object/array-driven UI controls that can simplify a custom calendar like the one built here"
     ]
   }
 }

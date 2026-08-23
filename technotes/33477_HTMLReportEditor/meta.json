@@ -7,21 +7,23 @@
   "product": "4th Dimension",
   "version": "2003.4",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon (QA Manager, 4D, Inc.)",
   "page_url": "https://kb.4d.com/assetid=33477",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-31_HTML_in_Report_Editor.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_31-35_(JUL)/04-31_HTML_in_Report_Editor.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Quick Report editor",
-    "HTML export template",
-    "Quick Report Wizard"
+    "Quick Report editor (introduced in 4th Dimension 2003)",
+    "QR SET DESTINATION / QR SET HTML TEMPLATE / QR GET HTML TEMPLATE commands",
+    "Quick Report HTML template tags (4DQRData, 4DQRHeader, 4DQRCol, 4DQRRow, 4DQRlHeader/cHeader/rHeader, 4DQRlFooter/cFooter/rFooter)",
+    "QR New offscreen area / QR SET REPORT KIND / QR INSERT COLUMN / QR RUN"
   ],
   "historical_commentary": {
-    "status": "superseded",
-    "text": "This note documents customizing the HTML export template of 4D's early-2000s Quick Report editor, a reporting tool that has since been substantially reworked and, in later 4D versions, largely superseded by improvements to the Print form/List Box printing engine and other reporting approaches. The specific HTML template mechanics described are tied to that legacy Quick Report editor implementation and are unlikely to transfer directly to current 4D reporting tools, though the general need to generate customizable HTML report output from application data remains a common requirement met today through other means (custom HTML generation, PDF export, or third-party reporting tools).",
+    "text": "This note documents the tag-based HTML templating system behind 4D 2003's original Quick Report editor, which was a useful bridge at the time for generating styled HTML/XML reports and export files without hand-writing HTML from scratch. The Quick Report engine and its QR-prefixed command set and comment-tag templating language shown here are legacy features tied to that specific report editor generation; 4D's reporting and export capabilities have evolved substantially since 2003 (including newer reporting tools and more general JSON/REST-based data export paths), so this exact template-tag mechanism is now mostly of historical interest for anyone still maintaining databases built on the original Quick Report engine.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "4D's report/printing engine has evolved considerably since 2003/2004, including changes to how reports and forms are generated and exported",
-      "Modern web-based reporting from 4D more commonly uses REST/ORDA data plus custom HTML/JS rendering rather than the classic Quick Report HTML template"
+      "4D's report-generation and data-export tooling has evolved considerably since the 2003 Quick Report editor described here",
+      "Modern 4D applications more commonly generate structured export/report output via JSON and REST-based approaches alongside or instead of the QR-prefixed Quick Report commands",
+      "The QR SET HTML TEMPLATE tag language documented here is specific to the classic Quick Report engine and does not apply to newer 4D reporting mechanisms"
     ]
   }
 }

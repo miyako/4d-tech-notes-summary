@@ -1,25 +1,43 @@
-# Tech Note 04-23: JDBC Connectivity for 4D Server
+# Tech Note: JDBC Connectivity for 4D Server
 
-**Author:** Not specified in source (teaser page only; full PDF not recovered)
-**Published:** June 10, 2004 | **Product/Version:** 4D v2003.3 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=32903
-**Download:** https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-23_JDBC_Connectivity.exe
+- **Asset ID:** 32903
+- **Tech Note #:** 04-23
+- **Published:** June 10, 2004
+- **Product / Version:** 4D 2003.3
+- **Platform:** Mac & Win
+- **Author:** Yvan Ayaay, Technical Support, 4D, Inc.
+- **Page URL:** https://kb.4d.com/assetid=32903
+- **Download:** https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_21-25_(MAY)/04-23_JDBC_Connectivity.hqx
 
 ## Overview
-This Tech Note documents the latest JDBC (Java Database Connectivity) driver for 4D Server, which enables Java programmers to access and manipulate data hosted in 4D Server, and more broadly lets any JDBC-aware application integrate with 4D Server as a data source. It describes the driver as a multi-platform API usable in any environment running a Java Virtual Machine, working by converting standard JDBC calls into 4D Server's own network protocol so that connections and queries can be processed by the server transparently to the calling Java code. The note demonstrates concretely how to use this JDBC driver from a Java program, walking through establishing a connection to 4D Server and issuing queries against the 4D database from Java. This reflects 4D's broader mid-2000s interoperability strategy of exposing 4D Server as a standards-compliant database backend reachable from non-4D environments (alongside ODBC connectivity), extending 4D's reach into heterogeneous, Java-centric enterprise environments that might not otherwise consider 4D as a viable data store. It is aimed at developers who need to integrate an existing or new Java application with a 4D Server-hosted database.
+
+Yvan Ayaay demonstrates connecting to 4D Server via the 4D JDBC driver in two contexts: writing a Java program that loads the driver, connects, and issues SQL queries/updates directly, and configuring a generic JDBC-compliant application (iSQL-Viewer) to query and edit 4D data with no custom code at all.
 
 ## Key Points
-- This summary is derived solely from the on-page teaser paragraph for this Tech Note; the full PDF content could not be recovered.
-- A guide to using the JDBC driver for 4D Server, a multi-platform Java API that translates JDBC calls into 4D Server's network protocol so Java programs can query and manipulate 4D data.
+
+- The 4D JDBC driver ships as `jdbc4d.jar`; Java code loads it with `Class.forName("com.fourd.jdbc.DriverImpl")` and connects with `DriverManager.getConnection(url, username, password)` using a URL of the form `jdbc:4d:<ip address>`.
+- A full `Connect4D` Java class wraps driver loading and connection with proper `SQLException`/`ClassNotFoundException` handling, and the 4D Server process viewer visibly shows the resulting JDBC connection once established.
+- Reading data uses `Statement`/`ResultSet` with `getString`/`getInt`/`getBytes` etc.; the note provides a full type-mapping table between 4D types (Alpha, Text, Real, Integer, Long Integer, Date, Time, Boolean, BLOB) and their Java equivalents (String, Double, Short, Integer, java.sql.Date/Time, Boolean, byte[]).
+- Writing data uses `Statement.executeUpdate` with INSERT/UPDATE/DELETE; the note documents the specific SQL grammar the 4D JDBC driver supports at the time, including SELECT with `LEFT JOIN`, `WHERE`, and `ORDER BY`.
+- Part II connects the open-source iSQL-Viewer tool to 4D Server purely via configuration: adding the driver JAR to iSQL-Viewer's classpath, then defining a connection with the driver class name, JDBC URL, and credentials in its Connection Manager.
+- Once connected, iSQL-Viewer's SQL editor can query, insert, update, and delete 4D Server records, and export results to HTML, XML, or delimited ASCII formats -- illustrating the driver's value for interoperating with any generic JDBC client, not just custom Java code.
 
 ## Featured Technology
-- JDBC driver for 4D Server
-- Java Database Connectivity
-- 4D Server network protocol
 
-## Historical Context
-**Status:** still relevant
+- 4D JDBC driver (jdbc4d.jar, com.fourd.jdbc.DriverImpl)
+- Java Class.forName / DriverManager.getConnection
+- JDBC URL format jdbc:4d:<ip address>
+- SQL SELECT/INSERT/UPDATE/DELETE support over JDBC
+- iSQL-Viewer JDBC client configuration
+- 4D-to-Java data type mapping
 
-The general need for external (Java-based) applications to connect to and query a 4D Server database via JDBC remains valid today, and 4D has continued to offer and update a JDBC driver for 4D Server across subsequent versions, so this note's core proposition is still conceptually relevant. However, the specific driver version and Java integration details demonstrated in this 2004 note are dated, and any modern integration would use a current release of 4D's JDBC driver rather than the one described here.
+## Historical Commentary
 
-**Note on sourcing:** This Tech Note's content_source is `teaser_only` — only the short on-page teaser paragraph was available in this environment (the original full Tech Note PDF/archive could not be recovered), so this page intentionally does not go beyond what that teaser states.
+**Status:** Partially superseded
+
+This note walks through connecting to 4D Server from a Java program (and from the generic iSQL-Viewer JDBC client tool) using 4D's own JDBC driver, covering driver loading, connection strings, and the subset of SQL SELECT/INSERT/UPDATE/DELETE syntax the 2004-era 4D JDBC driver supported. 4D has continued to ship and update a JDBC driver for 4D Server across later versions, so the core proposition -- letting external Java applications query 4D data via SQL -- remains valid today, though the specific driver class names, supported SQL grammar, and the iSQL-Viewer tool shown are dated. Since this note, 4D's SQL engine has also matured substantially (native SQL support), and ORDA-based REST APIs (2017+) now offer a modern, HTTP/JSON alternative to JDBC for external application integration.
+
+**References to newer/updated information:**
+- 4D has continued to maintain and update its JDBC driver for 4D Server across later 4D versions, with an expanded SQL command set beyond the 2004-era subset shown here
+- 4D's ORDA-based REST APIs (introduced 2017+) now provide an additional, HTTP/JSON-based alternative to JDBC/ODBC for external application integration with 4D data
+- The specific tool used for the demo, iSQL-Viewer, is no longer a commonly used SQL client; developers today typically use modern SQL clients or drivers

@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Cha Yang, 4D Inc. Technical Support",
   "page_url": "https://kb.4d.com/assetid=27709",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-25_Student_Reports.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_21-25_(MAY)/03-25_Student_Reports.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Quick Report Editor",
-    "Report generation"
+    "Quick Report Editor cross-tab mode (4D 2003)",
+    "QR SET REPORT TABLE / QR SET REPORT KIND commands",
+    "QR SET INFO COLUMN command",
+    "QR SET TOTALS DATA command",
+    "One-to-many / many-to-one relation propagation into reports",
+    "QR SET HEADER AND FOOTER / QR SET TEXT PROPERTY commands"
   ],
   "historical_commentary": {
-    "text": "The 2003-era Quick Report editor referenced here has evolved substantially in later 4D versions, and modern reporting needs are often addressed with 4D Write Pro or other current reporting tools, making this note's specific implementation dated even though basic report-generation concepts remain relevant.",
-    "status": "superseded",
+    "text": "Cha Yang uses a fictitious student/exam database to demonstrate 4D 2003's brand-new procedural cross-tab reporting commands (the 'QR' theme), building two real cross-tab reports -- a per-class average and a weighted final grade -- entirely through code rather than the interactive Quick Report editor. The underlying report engine and QR command set introduced here have been maintained and extended in later 4D versions, so the specific commands shown (QR SET INFO COLUMN, QR SET TOTALS DATA, QR SET REPORT KIND) still exist and work similarly today. That said, for new reporting work most 4D developers today reach first for 4D Write Pro's more modern data-binding and layout capabilities, making this note's classic Quick Report cross-tab approach a still-functional but less commonly chosen technique.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's Quick Report engine and broader reporting toolset (including 4D Write Pro) have evolved considerably since 2003"
+      "The QR command theme shown here (QR SET REPORT TABLE, QR SET INFO COLUMN, QR SET TOTALS DATA, etc.) remains part of current 4D and continues to work as documented",
+      "4D Write Pro has since become the more commonly used tool for building modern, richly formatted reports, though the classic Quick Report cross-tab engine described here is still available for simpler tabular/grid reporting needs"
     ]
   }
 }

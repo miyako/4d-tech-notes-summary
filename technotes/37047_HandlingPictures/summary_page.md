@@ -1,26 +1,43 @@
-# Tech Note 05-16: Handling Pictures
+# Tech Note: Handling Pictures
 
-**Author:** Not specified in available source
-**Published:** April 25, 2005 | **Product/Version:** 4D 2004 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=37047
-**Download:** https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-16_Handling_Pictures.exe
+- **Asset ID:** 37047
+- **Tech Note #:** 05-16
+- **Published:** April 25, 2005
+- **Product / Version:** 4D
+- **Platform:** Mac & Win
+- **Author:** Gerard Czwiklinski
+- **Page URL:** https://kb.4d.com/assetid=37047
+- **Download:** https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-16_Handling_Pictures.hqx
 
 ## Overview
-This Tech Note explains how 4D reads and displays native picture formats (PICT, BMP, GIF, JPEG, PSD, PSP) via QuickTime, and shows how to use PICTURE TO BLOB to convert a picture between formats in order to manipulate its raw bytes directly.
+
+Gerard Czwiklinski (4D S.A.) demonstrates direct, byte-level picture manipulation in 4D by converting a picture to an uncompressed 24-bit BMP inside a BLOB via PICTURE TO BLOB, then implementing flips, rotations, cropping, grayscale, negative, and brightness filters as raw pixel operations on that BLOB, with detailed notes on performance and memory tradeoffs.
 
 ## Key Points
-- READ PICTURE FILE and SAVE PICTURE TO FILE rely on QuickTime to support the range of "standard" picture formats of the era.
-- A picture file, like any file, is fundamentally a sequence of bytes; knowing the native format lets you read/create at the byte level and apply direct transformations.
-- Distinguishes between a picture's original format and a working format chosen for editing/transformation.
-- PICTURE TO BLOB converts a picture to and from QuickTime-supported formats, enabling byte-level manipulation.
+
+- Core technique: `PICTURE TO BLOB(picture;blob;"BMPf")` converts any QuickTime-supported picture format to an uncompressed 24-bit BMP inside a BLOB; `PICTURE PROPERTIES` supplies width/height, and bytes-per-line is computed as `(width*3)+(width MOD 4)` to account for BMP's 4-byte row padding; `BLOB TO PICTURE` converts the modified BLOB back to a displayable picture.
+- Vertical and horizontal mirror flips are implemented as simple row/pixel byte swaps within the same-sized original BLOB, since dimensions don't change.
+- 90-degree left/right rotations and cropping require allocating a new, correctly sized BLOB (width and height swap for non-square images), copying and patching the 54-byte header's width/height fields with `LONGINT TO BLOB` using PC byte ordering (BMP is inherently a Windows format), then moving pixel bytes into their rotated/cropped positions.
+- Grayscale conversion is shown in two forms: a naive average `(R+G+B)/3`, then a perceptually corrected weighted formula `0.3×Red + 0.6×Green + 0.1×Blue` that better matches human color sensitivity; negative inverts each channel (`255 - value`); brightness adds an input value between -255 and 255 to each channel.
+- A dedicated performance section shows that explicitly typing the BLOB offset variable as a longint (instead of letting 4D default to real) reduced a negative-filter benchmark from 2340 ms to 307 ms, and keeping calculation operands' types consistent shaved off a further ~50 ms — illustrating 4D's automatic type-coercion cost in tight pixel loops.
+- A memory-usage walkthrough shows a 44 KB compressed JPEG can balloon to a 2.25 MB uncompressed BMP (50×), and rotation operations needing a second working BLOB can peak memory usage at 5.5–6.75 MB; mitigation options include precomputing the exact required BLOB size, avoiding unnecessary manual memory bumps (unneeded on 4D 2004's revised memory scheme, unlike 4D 2003/OS 9.2), processing on-disk rather than in RAM, or reconverting the result to a compact format like JPEG afterward.
 
 ## Featured Technology
-- READ PICTURE FILE / SAVE PICTURE TO FILE commands
-- PICTURE TO BLOB command
-- QuickTime-based picture format conversion engine
-- Byte-level (BLOB) picture data manipulation
 
-## Historical Context
+- PICTURE TO BLOB / BLOB TO PICTURE
+- 24-bit uncompressed BMP byte layout
+- QuickTime-based picture format conversion
+- Byte-level pixel manipulation (flips, rotation, crop, grayscale, negative, brightness)
+- 4D variable data-typing performance tuning
+- Memory footprint analysis for image processing
+
+## Historical Commentary
+
 **Status:** Obsolete
 
-This note's picture-format-conversion technique depended entirely on Apple's QuickTime framework, which Apple has since fully discontinued (including QuickTime for Windows, around 2016), making the specific mechanism described here non-functional in any current environment. 4D itself moved away from a QuickTime dependency for picture handling in later versions, introducing native picture format support that doesn't require QuickTime to be installed. PICTURE TO BLOB remains part of the current 4D language for byte-level picture access, but the underlying format-conversion pathway this note describes is obsolete. Note: only the on-page teaser paragraph for this note survived in this archive — the full PDF and example database could not be recovered (old download-archive format not accessible in this environment), so this summary is necessarily limited to that teaser text.
+This note is a rigorous, hands-on tutorial in byte-level image processing within classic 4D, complete with concrete before/after performance numbers that make a genuinely useful point about 4D data typing in tight loops. Its core mechanism, however, depends entirely on Apple's QuickTime framework for picture format conversion (`PICTURE TO BLOB`/`BLOB TO PICTURE` with the "BMPf" format), and QuickTime was fully discontinued by Apple around 2016 (including QuickTime for Windows years earlier), making this specific conversion path unavailable in modern 4D on current operating systems. 4D has since implemented its own QuickTime-independent picture format handling, so the same PICTURE TO BLOB command still exists today but no longer relies on the deprecated technology this note describes.
+
+**References to newer/updated information:**
+- Apple discontinued QuickTime entirely (including QuickTime for Windows, phased out even earlier) around 2016, removing the technology this note's picture format conversion depended on
+- 4D introduced native, QuickTime-independent picture format handling following the 64-bit transition and QuickTime's removal from supported OSes, replacing this specific conversion mechanism
+- PICTURE TO BLOB remains part of the current 4D language, but its underlying format-conversion engine is no longer QuickTime-based

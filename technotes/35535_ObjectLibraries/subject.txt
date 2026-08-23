@@ -1,1 +1,1 @@
-Tech Note: Object Libraries (TN 05-02, 4D v2004, January 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing 4d object libraries.
+Creating and sharing reusable form objects across 4D databases using Object Libraries and the new EDIT FORM command

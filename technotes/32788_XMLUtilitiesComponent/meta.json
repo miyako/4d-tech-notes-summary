@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=32788",
-  "download_url": "https://kb.4d.com/ftp://@ftp.4d.com/ACI_TECHNICAL_NOTES/2004/Windows/TN_2004_21-25_(MAY)/04-21_XML_Utilities.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2004/MacOS/TN_2004_21-25_(MAY)/04-21_XML_Utilities.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "XML_Utilities component",
-    "4th Dimension 2003 native XML commands",
+    "xutil_CountOccurrences / xutil_ElementExists / xutil_GetValue / xutil_StripWhitespace",
+    "4th Dimension 2003 native XML commands (Parse XML variable, Get First/Next XML element, GET XML ELEMENT NAME/VALUE)",
+    "Preorder (top-to-bottom, left-to-right) XML tree traversal via recursion",
+    "Case-sensitive XML name comparison (xutilStringsAreEqual)",
+    "Whitespace stripping per XML whitespace rules (tab/LF/CR/space)",
     "4D Insider component installation"
   ],
   "historical_commentary": {
+    "text": "This note documents David Adams' XML_Utilities component, a small set of recursive helper methods (xutil_CountOccurrences, xutil_ElementExists, xutil_GetValue, xutil_StripWhitespace) that wrap 4th Dimension 2003's native XML parsing commands to make locating and reading element values by name easier, while also serving as a worked example of recursive preorder tree traversal. It is directly referenced by two companion 2004 SOAP tech notes as the tool used to extract values from raw XML/SOAP responses, so it had real practical use in that era's Web Services workflows. 4D's native XML command set has since expanded considerably and JSON has displaced much everyday structured-data handling that once relied on XML, so this specific utility component is now largely of historical interest, though the recursive traversal technique and case-sensitive comparison logic it demonstrates remain instructive and technically sound.",
     "status": "superseded",
-    "text": "This note documents a small community/vendor-style helper component that wrapped 4th Dimension 2003's native XML commands with convenience utilities and served as example code; 4D's native XML command set has since expanded considerably, and JSON has displaced much everyday structured-data handling that once relied on XML, reducing the practical need for this specific component. The general pattern of building small utility components on top of native commands and distributing them via a component-installation mechanism (the 4D Insider tool of that era, later superseded by 4D's evolving component architecture) remains a valid and still-used development practice.",
     "related_updates": [
-      "4D Insider (component installation tool of this era) has been superseded by 4D's later component and package management approaches",
-      "4D's native XML command set and JSON support have grown substantially since 2004, covering much of what this utility component provided"
+      "4D's native XML command set has grown substantially since 2004, and many use cases XML_Utilities addressed can now be handled with fewer lines of native code",
+      "JSON has displaced much of the everyday structured-data exchange that XML (and this component) once handled in 4D applications",
+      "4D Insider, the component-installation tool referenced here, has been superseded by 4D's later component and package management approaches"
     ]
   }
 }

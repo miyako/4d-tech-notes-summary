@@ -1,29 +1,30 @@
 {
-  "asset_id": 34361,
-  "title": "Tech Note: Reading a Full SOAP Request with 4th Dimension 2004",
-  "technote_number": "04-41",
-  "year": 2004,
-  "published_date": "October 14, 2004",
-  "product": "4th Dimension",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=34361",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_41-45_(SEP)/04-41_Reading_SOAP_Request.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "SOAP (Simple Object Access Protocol) web services",
-    "4th Dimension native Web server SOAP publishing",
-    "DOM Parse XML variable command",
-    "Third-party XML parsers"
-  ],
-  "historical_commentary": {
-    "text": "This note addresses an advanced SOAP web-services scenario in 4th Dimension 2004: reading a full, raw SOAP request directly (rather than relying on 4D's automatic XML-to-native-type binding) for debugging, logging, handling unbound inputs, or distinguishing empty values from absent ones. SOAP itself has become a largely obsolete web-services technology industry-wide, having been supplanted by REST/JSON APIs over the following decade, so while the note's underlying XML-parsing technique (DOM Parse XML) still exists in some form in 4D, the SOAP-specific context and motivation are now of primarily historical interest.",
-    "status": "obsolete",
-    "related_updates": [
-      "SOAP-based web services have been broadly superseded across the industry by REST/JSON APIs",
-      "4D's own web services strategy has shifted to REST APIs built on ORDA rather than native SOAP publishing",
-      "Modern XML/JSON parsing in 4D has been substantially modernized since 2004, including native JSON support introduced in later versions"
-    ]
-  }
+    "asset_id": 34361,
+    "title": "Tech Note: Reading a Full SOAP Request with 4th Dimension 2004",
+    "technote_number": "04-41",
+    "year": 2004,
+    "published_date": "October 14, 2004",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "David Adams",
+    "page_url": "https://kb.4d.com/assetid=34361",
+    "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_41-45_(SEP)/04-41_Reading_SOAP_Request.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "GET HTTP BODY command (new in 4D 2004)",
+        "GET HTTP HEADER command",
+        "Is SOAP request function and SOAP DECLARATION-based automatic input binding",
+        "DOM Parse XML variable / DOM Get First XML element / DOM GET XML ELEMENT NAME",
+        "On Web Authentication database method for per-request SOAP logging"
+    ],
+    "historical_commentary": {
+        "text": "David Adams explains how 4th Dimension 2004's new GET HTTP BODY command makes it trivial to capture the complete raw SOAP request received by 4D's built-in Web server -- superseding the undocumented GET WEB FORM VARIABLES workaround from Technical Note 03-21/04-19 -- and demonstrates practical applications such as full SOAP request logging in On Web Authentication and reading SOAP inputs that were never declared via SOAP DECLARATION. This is a deep, implementation-level technique tied to 4th Dimension's original built-in SOAP web-service server; that server architecture and its GET HTTP BODY/SOAP DECLARATION-based model have been superseded by 4D's modern HTTP Client-centric and REST/JSON-oriented web-service approach, making this note primarily of historical interest for anyone still maintaining a legacy 4D SOAP server.",
+        "status": "historical_interest_only",
+        "related_updates": [
+            "4D's SOAP-serving architecture based on SOAP DECLARATION and the built-in Web server has been superseded by modern REST/JSON-based web-service patterns using 4D's HTTP Client and native JSON support",
+            "GET HTTP BODY and GET HTTP HEADER still exist as general-purpose 4D Web server commands beyond SOAP-specific use cases",
+            "New 4D web-service integrations are now typically built as REST endpoints rather than SOAP-based Web Services"
+        ]
+    }
 }

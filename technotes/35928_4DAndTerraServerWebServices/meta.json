@@ -7,22 +7,24 @@
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thang Nguyen",
   "page_url": "https://kb.4d.com/assetid=35928",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_05-07_(FEB)/05-05_4D_and_TerraServer.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_05-11_(FEB)/05-05_TerraServer_Web_Services.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Web Services (SOAP client)",
-    "Microsoft TerraServer USA web service",
-    "USGS topographic/aerial imagery access"
+    "4D SOAP Wizard (Web Service Wizard) code generation from WSDL",
+    "CALL WEB SERVICE / SET WEB SERVICE PARAMETER / GET WEB SERVICE RESULT",
+    "DOM XML commands (DOM Create XML Ref, DOM Create XML element, DOM Find XML element, DOM GET/SET XML ELEMENT VALUE)",
+    "TerraServer-USA SOAP/WSDL API (ConvertLonLatPtToNearestPlace, ConvertPlaceToLonLatPt, GetAreaFromPt, GetPlaceList, GetTileMetaFromLonLatPt)",
+    "DOC-style SOAP messaging vs. RPC-style"
   ],
   "historical_commentary": {
-    "text": "This note demonstrates consuming Microsoft's TerraServer USA SOAP web service from 4D 2004 to retrieve USGS topographic maps and aerial imagery, reflecting the mid-2000s enthusiasm for integrating 4D with external XML/SOAP web services. The Microsoft TerraServer service referenced was retired long ago, and 4D's own web-service integration approach has since shifted toward the HTTP Client commands and REST/JSON rather than the SOAP-era 4D Web Services used here, making the specific example obsolete even though the general pattern of calling external geographic web services remains relevant. Only the teaser paragraph could be recovered for this note.",
+    "text": "Thang Nguyen demonstrates consuming a real external SOAP web service \u2014 Microsoft/USGS's TerraServer-USA aerial-imagery API \u2014 from 4D 2004 using the 4D SOAP/Web Service Wizard to auto-generate proxy methods from the service's WSDL, manually building the request XML via DOM commands and parsing the response the same way. This is a solid, working example of classic SOAP/XML web-service consumption that was mainstream in the mid-2000s enterprise integration world; both the specific TerraServer-USA service and the SOAP/WSDL-heavy integration style it demonstrates have since faded from relevance \u2014 REST/JSON APIs now dominate web-service integration, and TerraServer-USA itself was retired years ago \u2014 so the note is a snapshot of a bygone integration pattern more than a directly reusable technique today, though 4D's DOM XML and SOAP commands themselves remain available for legacy or XML-heavy integrations.",
     "status": "obsolete",
     "related_updates": [
-      "Microsoft's TerraServer USA service has long been discontinued",
-      "4D's web-service integration has shifted from SOAP-era 4D Web Services to the HTTP Client commands plus native JSON parsing for REST-based APIs",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "TerraServer-USA, the specific web service demonstrated in this note, was retired long ago and this example database can no longer connect to a live service",
+      "REST/JSON APIs, consumed in modern 4D via the native HTTP Client commands and JSON parsing (introduced starting with 4D v14-15), have largely superseded SOAP/WSDL-based integration for new development",
+      "4D's SOAP Wizard, CALL WEB SERVICE, and DOM XML commands remain available in current 4D for legacy SOAP-based integrations"
     ]
   }
 }

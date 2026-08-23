@@ -7,19 +7,22 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hartman, MCP, 4D, Inc. Information Systems",
   "page_url": "https://kb.4d.com/assetid=27785",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_30-35_(JUL)/02-30_Inherited_Forms.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_30-35_(JUL)/02-30_Inherited_Forms.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Inherited forms",
-    "Form object reuse"
+    "Inherited forms (Inherited form table / Inherited form name properties)",
+    "Form page 0 / page 1 object combination order",
+    "Form object and object-method reuse across tables",
+    "Recursive inherited-form loop detection"
   ],
   "historical_commentary": {
-    "text": "Inherited forms remain a supported concept in current 4D, so the core technique documented here is still broadly relevant, even though modern 4D development (especially in Project Mode) offers additional form-reuse and componentization options beyond what was available in 4D 6.8.",
-    "status": "still relevant",
+    "text": "Steve Hartman explains 4D 6.8's inherited-forms mechanism, which lets a form pull in the page 0 and page 1 objects (backgrounds, common buttons, logos) of another designated 'inherited' form so shared UI elements only need to be maintained in one place. The feature and its object-combination order (inherited page 0, inherited page 1, local page 0, current local page) are still present in current 4D and the technique remains directly usable as described. However, in modern Project-mode 4D development, form inheritance is now often complemented or superseded by more powerful reuse mechanisms such as components, form containers/inclusion, and class-based object composition, so it is one option among several rather than the primary reuse strategy.",
+    "status": "partially_superseded",
     "related_updates": [
-      "Inherited forms remain a supported 4D feature today, though modern 4D projects have additional componentization options (e.g., form/page components) not available in 2003"
+      "4D form inheritance itself remains a supported, unchanged feature in current 4D versions",
+      "Modern 4D projects (Project mode) offer additional reuse mechanisms -- components, included forms/objects, and ORDA/class-based composition -- that developers often prefer alongside or instead of classic form inheritance for larger applications"
     ]
   }
 }

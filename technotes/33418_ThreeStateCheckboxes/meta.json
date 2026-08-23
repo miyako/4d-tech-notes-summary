@@ -7,20 +7,23 @@
   "product": "4th Dimension",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Sati Hillyer (4D Evangelist, 4D Inc.)",
   "page_url": "https://kb.4d.com/assetid=33418",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-30_3-State_Checkboxes.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_26-30_(JUN)/04-30_3-State_Checkboxes.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Three-state checkbox form object",
-    "4D 2004 UI form objects"
+    "Three-state checkbox form object (4D 2004)",
+    "Form Editor checkbox state activation",
+    "Building a custom Find dialog with 'don't care' search criteria",
+    "Conditional QUERY construction based on checkbox state (0/1/2)"
   ],
   "historical_commentary": {
-    "status": "still relevant",
-    "text": "The three-state checkbox form object introduced in 4D 2004 remains a supported form object property in current 4D versions, so the fundamental UI capability this note documents is still valid and usable today, whether in a binary Design Mode structure or a modern Project Mode form. The specific classic-language configuration steps shown are dated in presentation, but the underlying concept — a checkbox with an indeterminate 'mixed' state — is a standard UI pattern still relevant to form design.",
+    "text": "This note demonstrates a genuinely useful new 4D 2004 UI feature -- the native three-state checkbox -- applied to a practical query-building problem (letting users express 'don't care' alongside true/false filters in a single Find dialog), replacing a much clunkier three-image workaround from earlier 4D versions. Three-state checkboxes remain part of the current 4D form object model and the conditional QUERY-construction pattern shown is still a standard technique for building flexible search interfaces, so this note's core content is still directly applicable, though 4D's List Box and modern form object properties now offer additional ways to expose similar tri-state controls.",
+    "status": "still_relevant",
     "related_updates": [
-      "The three-state checkbox remains a form object option in current 4D form editors (Design Mode and Project Mode)",
-      "4D's form/object model has otherwise evolved considerably since 2004, including CSS-based styling and responsive form layout options"
+      "Three-state checkboxes remain a standard 4D form object property and are unchanged in concept from what this note describes",
+      "The QUERY-with-'&'-and-'*' pattern for building compound, conditionally-included search criteria is still a standard 4D language technique",
+      "Modern 4D List Box and form object properties provide additional ways to expose tri-state or multi-value filter controls beyond the basic checkbox shown here"
     ]
   }
 }

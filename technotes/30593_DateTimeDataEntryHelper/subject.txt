@@ -1,1 +1,1 @@
-Tech Note: Helping Date and Time Data Entry (TN 03-49, 4D v2003, November 2003) — a PDA-like quick date/time entry interface built by combining methods from the community 4D Web Calendar and 4D Calendar example databases.
+Click-only, PDA-style pop-up widgets for entering date and time values in a 4D form

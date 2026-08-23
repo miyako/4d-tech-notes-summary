@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=29729",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-27_4D_FastCGI_2003.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_26-30_(JUN)/03-27_4D_FastCGI_2003.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "FastCGI",
-    "4D web server integration"
+    "FastCGI protocol",
+    "4D FastCGI 2003 component",
+    "FCGI_Accept / FCGI_Reply",
+    "FCGIRequest_ValueGetByName",
+    "FCGIResponse_SetContentType / FCGIResponse_AddBLOB",
+    "4D Extension License (WEL)"
   ],
   "historical_commentary": {
-    "text": "FastCGI and standalone CGI-style integration have been largely superseded in the current 4D ecosystem by 4D's own mature built-in web server (used both for the classic web publishing features and, more recently, for Qodly/REST-based application delivery), so this note's specific approach is now of mostly historical interest, though the general performance principle (avoiding per-request process spawning) remains a valid systems-design lesson.",
+    "text": "FastCGI integration was a smart way in 2003 to let 4D scale behind serious Unix web servers like Apache without the overhead of spawning a process per request, and the component's design (persistent process, binary-safe messages, WEL licensing gate) reflects real production concerns of the era. Today this specific integration path is essentially obsolete: 4D's own mature built-in web server (and, more recently, ORDA/REST-based application delivery via Qodly) has long superseded the need for external CGI/FastCGI bridging in the vast majority of 4D deployments. The underlying lesson -- avoid per-request process spawning for performance -- remains valid systems-design wisdom even though the specific FastCGI component described here is no longer part of typical 4D architecture.",
     "status": "obsolete",
     "related_updates": [
-      "4D's own built-in web server has long superseded the need for external CGI/FastCGI-based web integration in typical 4D deployments"
+      "4D's own built-in web server has long superseded the need for external CGI/FastCGI-based web integration in typical 4D deployments",
+      "Modern 4D applications more commonly expose REST/ORDA endpoints (including via Qodly) rather than bridging through FastCGI to a separate web server process"
     ]
   }
 }

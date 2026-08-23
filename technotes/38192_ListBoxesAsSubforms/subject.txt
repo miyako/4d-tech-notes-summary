@@ -1,1 +1,1 @@
-Tech Note: Using ListBoxes as Subforms (TN 05-26, 4D v2004.7r3, July 2005) — a comparison of the new List Box form object against classic subforms, with guidance on substituting a List Box for a Subform.
+Replacing a classic Subform with a List Box array object to cut client/server traffic and avoid transactions

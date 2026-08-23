@@ -1,1 +1,1 @@
-Tech Note: 4D WebSTAR API 2003.1 (TN 03-38, 4D v, August 2003) — an example of using the 4D WebSTAR API to give department-based access control to employee data via administrative connectivity with a WebSTAR web server.
+Administering a WebSTAR server's email, FTP, and security settings from 4D via the WSAPI component

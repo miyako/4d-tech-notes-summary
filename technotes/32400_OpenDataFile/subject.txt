@@ -1,1 +1,1 @@
-Tech Note: Open Data File (TN 04-17, 4D v2003.3, April 2004) — a technique for letting users select and switch between multiple 4D data files under the same structure file by programmatically relaunching the application.
+Letting users switch between multiple 4D data files at runtime with OPEN DATA FILE

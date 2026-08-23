@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hartman, MCP, Information Systems, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=31176",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-01_SavingDataFromWebPage.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_01-04_(JAN)/04-01_SavingDataFromWebPage.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "4D native Web server",
-    "4D Non-Contextual web publishing",
-    "Web form input handling / record saving"
+    "4DACTION form handlers",
+    "Non-Contextual web publishing",
+    "4DVAR HTML value binding",
+    "Text-to-Boolean and free-text date parsing methods"
   ],
   "historical_commentary": {
-    "text": "This note explains how to capture form input submitted from a 4D 'Non-Contextual' web page and save it into a 4D database table, a fundamental early-2000s dynamic web publishing pattern built on 4D's native Web server. The specific Non-Contextual web publishing model is tied to 4D's classic, pre-modern web architecture; the general concept of processing submitted web form data into database records remains completely relevant, but is now typically implemented using 4D's more capable, session/REST-oriented web frameworks rather than this era's Non-Contextual mode.",
+    "text": "Using a fictional 'Acme Pain Clinic' online appointment form as its running example, this note walks through capturing input from a 4D Non-Contextual web page and writing it into a 4D database record via a 4DACTION method, including custom text-to-Boolean checkbox conversion and a fairly elaborate free-text date parser meant to handle sloppy user-entered dates. The specific Non-Contextual web publishing model, 4DACTION tags, and 4DVAR HTML substitution syntax reflect 4D's early-2000s classic web server architecture and have been superseded by later, far more capable 4D web frameworks (including qodly/ORDA-based and REST-driven approaches), though the underlying problem of validating and coercing loosely-typed web form input into typed database fields is still a real, recurring task for any 4D web developer.",
     "status": "superseded",
     "related_updates": [
-      "4D's web publishing model has evolved substantially since 2004, including session-based and REST/ORDA-based approaches for handling form submissions and persisting data",
-      "The specific 'Non-Contextual' web page mode described here reflects 4D's early web server architecture, largely superseded by later web server and web application development capabilities"
+      "4D's web publishing model has evolved substantially since 2004, adding session-based web areas, REST/ORDA data access, and modern form-handling approaches that reduce reliance on raw 4DACTION/4DVAR Non-Contextual pages",
+      "4D added native date-parsing and stronger typed-form capabilities over time, reducing the need for hand-rolled string-to-date heuristics like the Date_Validate method shown here"
     ]
   }
 }

@@ -1,1 +1,1 @@
-Tech Note: cURL - HTTP Client, Get and Post, FTP and Much More, Using 4D 2004 (TN 05-18, 4D v2004, May 2005) — a technique for controlling the cURL command-line tool from 4D 2004's new LAUNCH EXTERNAL PROCESS command to perform HTTP(S)/FTP(S) client operations.
+Driving the cURL command-line tool from 4D 2004's LAUNCH EXTERNAL PROCESS for HTTP GET/POST, cookies, and FTP

@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Roland Lannuzel, 4D S.A.",
   "page_url": "https://kb.4d.com/assetid=32122",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-14_Operations_on_Arrays.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_11-15_(APR)/04-14_Operations_on_Arrays_and_Selections.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Sets (union, intersection, difference)",
-    "Named selections",
-    "Custom command/method design"
+    "LONGINT ARRAY FROM SELECTION / CREATE SELECTION FROM ARRAY",
+    "4DARR_Union / 4DARR_Intersection / 4DARR_Difference generic array-set-operation methods",
+    "Pointer-based generic array methods (works across array types via Type())",
+    "Find in array with a search-start-position argument",
+    "4DSEL_UNION-style wrapper methods for named selections",
+    "Record-number-based selection manipulation"
   ],
   "historical_commentary": {
-    "text": "This note teaches how to treat named selections with set-like operations (union, intersection, difference) via custom methods, extending 4D's classic procedural record-set model that predates 4D's native SQL engine (v11 SQL, ~2007) and later ORDA collection-based data access. The underlying concepts of combining and manipulating record sets remain fully relevant in modern 4D, but the specific technique of hand-writing custom commands to bridge sets and named selections is largely superseded by more direct, built-in language support for selection/entity-set operations introduced in later 4D versions.",
-    "status": "superseded",
+    "text": "This note by Roland Lannuzel (4D S.A.) addresses a real gap in classic 4D: while 4D's Sets support union/intersection/difference operations natively, named selections do not, despite often being more memory-efficient for small selections within large tables. The note explains how named selections are really just arrays of record numbers under the hood, and provides generic, pointer-based utility methods (4DARR_Union, 4DARR_Intersection, 4DARR_Difference, etc.) that operate on any array type by converting selections to longint arrays via LONGINT ARRAY FROM SELECTION and back via CREATE SELECTION FROM ARRAY. The underlying commands (LONGINT ARRAY FROM SELECTION, CREATE SELECTION FROM ARRAY, Find in array, array operations) all remain part of current 4D and this technique still works as described, though 4D has since added its own native selection set-operation commands, making the hand-rolled 4DARR_* methods less necessary for straightforward union/intersection/difference needs on selections.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's language has since added more built-in commands and set operators for combining and manipulating selections directly, reducing the need for custom bridging methods like those in this note",
-      "ORDA (introduced 4D v16, 2018) introduced entity selections as a more modern, object-oriented alternative to sets and named selections for combining and querying record subsets"
+      "4D has since added native commands for combining/comparing selections and sets directly, reducing the need to hand-roll union/intersection/difference via record-number arrays",
+      "The core LONGINT ARRAY FROM SELECTION and CREATE SELECTION FROM ARRAY commands, and generic pointer-based array techniques shown here, remain valid and functional in current 4D"
     ]
   }
 }

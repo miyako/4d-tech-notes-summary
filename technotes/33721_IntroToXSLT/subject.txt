@@ -1,1 +1,1 @@
-Tech Note: Introduction to XSLT (TN 04-34, 4th Dimension v2003.4, August 2004) — an introduction to using XSLT transformations on XML documents and variables via 4th Dimension 2004's new native commands.
+Introducing 4D 2004's new XSLT transformation commands for converting and presenting XML data

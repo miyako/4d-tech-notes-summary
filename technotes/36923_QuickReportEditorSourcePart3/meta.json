@@ -5,23 +5,25 @@
   "year": 2005,
   "published_date": "April 15, 2005",
   "product": "4D",
-  "version": "",
+  "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent Wilbur",
   "page_url": "https://kb.4d.com/assetid=36923",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-15_QR_Editor_Source_III.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-15_QR_Editor_Source_III.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Quick Report built-in reporting tool",
-    "Quick Report Editor Wizard",
-    "Classic-language source code walkthrough"
+    "4D Quick Report wizard multi-page form navigation",
+    "List-style wizard pages (report type selection through field/sort configuration)",
+    "Cross-tab-style wizard pages",
+    "Shared page-0 navigation system for a multi-page wizard form",
+    "Complex form graphics (resource-based images, resizing/growing objects)"
   ],
   "historical_commentary": {
-    "text": "This is the third and final installment of a series walking through the source code behind 4D's built-in Quick Report Editor wizard, assuming readers are already familiar with Parts I and II. Quick Report is a long-standing classic-language reporting feature; while it (or a similarly named successor) persists in some form in current 4D, more demanding reporting needs today are typically met with 4D Write Pro or List Box-based reports, making a deep source-code walkthrough of the original wizard's classic implementation primarily of value to developers maintaining legacy Quick-Report-based code.",
-    "status": "superseded",
+    "text": "This final installment of the three-part Quick Report editor series covers the wizard itself: the multi-page form navigation system and the distinct sets of pages used for list-style versus cross-tab reports, plus a closing note on the editor's elaborate graphics (which the author explicitly advises against trying to modify). Read together, the trilogy is a rare, unusually thorough piece of internal 4D UI source documentation for its time, but it documents a specific classic Quick Report form that has since been superseded by more modern reporting approaches; the wizard-navigation and multi-page-form techniques it demonstrates remain conceptually valid for classic-language multi-step form wizards but are not how new 4D UI wizards are typically built today (dialog boxes, forms with page controls, or web-based front ends are more common now).",
+    "status": "historical_interest_only",
     "related_updates": [
-      "4D Write Pro (introduced 2016) provides substantially more powerful document/report generation than the classic Quick Report tool this series dissects",
-      "List Box-based custom reporting (leveraging the List Box object's growing capabilities) has become a common modern alternative to the built-in Quick Report wizard for many reporting needs"
+      "4D Write Pro and List Box-based reporting supersede the classic Quick Report wizard whose source is dissected across this three-part series",
+      "Multi-page wizard-style forms are still supported in classic 4D but modern UI wizards more commonly use dialog/page objects or web-based interfaces"
     ]
   }
 }

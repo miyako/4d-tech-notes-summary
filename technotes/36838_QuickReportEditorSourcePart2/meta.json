@@ -7,22 +7,24 @@
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent Wilbur",
   "page_url": "https://kb.4d.com/assetid=36838",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-14_QR_Editor_Source_II.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-14_QR_Editor_Source_II.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Quick Report editor",
-    "4D Quick Report commands/API",
-    "Manual mode reporting",
-    "4D 2003/2004 source code component"
+    "4D Quick Report editor manual mode form page",
+    "NQR_MP_CALL dispatch method",
+    "Drag and drop handling in the plug-in area",
+    "Double-click handling for hierarchical field lists",
+    "List-style and cross-tab sort-order synchronization",
+    "Hierarchical list synchronization across multiple visible copies"
   ],
   "historical_commentary": {
-    "text": "This note documents source code for customizing the classic 4D Quick Report editor's manual mode, a feature of the pre-SQL 4D 2003/2004 era Design Mode environment. The classic Quick Report editor and its underlying command set have long since been superseded in modern 4D development by List Box-based reporting, 4D Write Pro, and ORDA-driven reporting approaches, making this specific source-code walkthrough of largely historical interest today. Only the teaser paragraph for this note could be recovered, so no detailed technical content is available to assess further.",
+    "text": "The second installment of Kent Wilbur's Quick Report editor source-code series dissects the manual-mode form page: the popups, hierarchical lists, drag-and-drop handling into the plug-in report area, and the logic that keeps multiple on-screen sort-order indicators synchronized for both list-style and cross-tab reports. It is a detailed, code-level tour of a specific classic-4D form implementation rather than a general-purpose technique, so its direct applicability faded once 4D moved reporting toward List Box objects and 4D Write Pro; the drag-and-drop and multi-list-synchronization patterns it documents, however, illustrate general classic-4D form-event programming that developers maintaining legacy databases may still encounter.",
     "status": "historical_interest_only",
     "related_updates": [
-      "The classic Quick Report editor has been superseded by List Box reporting, 4D Write Pro, and other modern 4D reporting tools",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "Modern 4D reporting (List Box-based reports, 4D Write Pro) has superseded the manual-mode Quick Report editor form described in this note",
+      "Drag-and-drop and form-event handling patterns shown here are generic classic-4D techniques still valid, though largely superseded in new development by object/list box event handling"
     ]
   }
 }

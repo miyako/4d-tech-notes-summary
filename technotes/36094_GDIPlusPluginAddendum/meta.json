@@ -1,28 +1,30 @@
 {
   "asset_id": 36094,
-  "title": "Tech Note: Addendum - GDIPlus Plug-in Version 1.1",
+  "title": "Tech Note: Addendum GDIPlus PlugIn Version 1.1",
   "technote_number": "05-06",
   "year": 2005,
   "published_date": "February 10, 2005",
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thomas Maul",
   "page_url": "https://kb.4d.com/assetid=36094",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_05-07_(FEB)/05-06_Addendum_GDIPlus_1.1.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_05-11_(FEB)/05-06_GDIPlus_Addendum_1.1.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "GDIPlus plug-in v1.1",
-    "4D 2004 Plug-In Architecture",
-    "Mac OS X plug-in stub",
-    "Get Picture as blob command"
+    "GDIPlus plug-in (Windows GDI+ picture rendering for 4D)",
+    "4D 2004 Plug-In Architecture (bundle format) with 4D 2003 compatibility",
+    "GDI_SetDisplayMode with new scrollbar-control parameters",
+    "GDI_GetPictureBlob command",
+    "4D Pack AP Read Picture Blob for blob-to-4D-picture conversion",
+    "Mouse wheel support in plug-in areas and external windows"
   ],
   "historical_commentary": {
-    "text": "This addendum documents version 1.1 improvements to the GDIPlus plug-in, including adoption of the new 4D 2004 Plug-In Architecture, a Mac OS X stub, scrollbar/mouse-wheel support, and a new Get Picture as blob command. The GDIPlus plug-in itself is a discontinued third-party/legacy plug-in tied to the pre-Unicode, pre-Universal Binary 4D 2003/2004 plug-in API, so this specific plug-in and its API generation are now obsolete, though 4D still supports compiled plug-ins built on later, Unicode-aware API generations. Only the teaser/bullet-point summary could be recovered for this note.",
+    "text": "Thomas Maul (General Manager, 4D Germany) documents version 1.1 of the GDIPlus plug-in, a Windows-only plug-in exposing Microsoft's GDI+ picture-rendering engine to 4D, adding scrollbar and mouse-wheel support, a new GDI_GetPictureBlob command for building thumbnail grids without keeping full pictures in memory, and adoption of 4D 2004's new bundle-based plug-in architecture while staying 4D 2003-compatible. As a third-party Windows-specific plug-in addendum for a very old 4D plug-in architecture, this note is squarely of historical interest: GDI+ itself, the specific plug-in, and its bundle-installation instructions for 4D 2003/2004 are all long superseded by native 4D picture handling and cross-platform picture commands introduced in later 4D versions.",
     "status": "obsolete",
     "related_updates": [
-      "The GDIPlus plug-in and its 2004-era plug-in API generation have long been superseded by later 4D Plug-in API versions (Unicode-aware, Universal Binary, and beyond)",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "The GDIPlus plug-in was a third-party/Windows-specific product tied to the 4D 2003/2004-era plug-in architecture and is not part of modern 4D",
+      "Current 4D versions have substantially expanded native, cross-platform picture-handling commands (e.g. for thumbnails, scaling, and blob conversion), reducing the need for a GDI+-specific plug-in like this one"
     ]
   }
 }

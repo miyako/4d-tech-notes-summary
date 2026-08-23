@@ -7,22 +7,24 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=32601",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-19_Full_SOAP_Request.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_16-20_(APR)/04-19_Full_SOAP_Request.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "GET WEB FORM VARIABLES",
-    "GET HTTP HEADER",
-    "SOAP (Simple Object Access Protocol)",
-    "4D native Web Service publishing"
+    "GET WEB FORM VARIABLES (undocumented full-SOAP-body reassembly behavior)",
+    "GET HTTP HEADER for reading raw HTTP headers (e.g. SoapAction)",
+    "SOAP DECLARATION for automatic input/output binding",
+    "Is SOAP request function",
+    "On Web Authentication database method for request logging",
+    "Parse XML variable on a reassembled raw SOAP request"
   ],
   "historical_commentary": {
+    "text": "This note (companion to TN 04-20 on SOAP responses) shows how to recover the complete, unmodified incoming SOAP request body inside a 4th Dimension Web Service method, exploiting an undocumented behavior of GET WEB FORM VARIABLES that splits the request only at the first equals sign, then reassembling it and re-parsing with Parse XML variable. It was used for logging, debugging SOAP exchanges, and reading inputs not declared via SOAP DECLARATION -- genuinely clever but explicitly reliant on undocumented behavior. Like its sibling note, this technique is tied to 4th Dimension's native SOAP web-service publishing system, which has been superseded industry-wide (and within 4D's own roadmap) by REST/JSON APIs built on ORDA (2017+); the specific undocumented GET WEB FORM VARIABLES trick is now mainly of historical interest for anyone still maintaining legacy 4D SOAP services.",
     "status": "superseded",
-    "text": "This note documents a low-level, partly undocumented technique (via GET WEB FORM VARIABLES) for reading raw incoming SOAP requests in 4th Dimension's native Web Service publishing system, reflecting the SOAP-centric web-services standard dominant in the early-to-mid 2000s. SOAP-based service publishing has since been broadly superseded industry-wide, and within 4D specifically, by REST APIs (especially via ORDA, introduced 2017+) as the primary way to expose 4D data and logic to external callers, though 4D's classic SOAP publishing commands likely remain available for legacy compatibility.",
     "related_updates": [
-      "REST APIs (notably via ORDA, 2017+) have become 4D's primary mechanism for publishing data/logic to external callers, superseding SOAP-based publishing for new development",
-      "Reliance on undocumented command behavior for reading raw request data, as shown here, is inherently fragile and would be considered poor practice by modern standards; any current equivalent would look for a documented API"
+      "4D's SOAP-based Web Service publishing has been superseded by REST APIs built on ORDA (introduced 2017+) as the primary modern integration path",
+      "REST and JSON have broadly replaced SOAP as the dominant web-service standard industry-wide, reducing the practical relevance of SOAP-specific debugging techniques like this one"
     ]
   }
 }

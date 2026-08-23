@@ -1,28 +1,30 @@
 {
-  "asset_id": 34735,
-  "title": "Tech Note: User Defined Forms",
-  "technote_number": "04-45",
-  "year": 2004,
-  "published_date": "November 11, 2004",
-  "product": "4D",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=34735",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_41-45_(SEP)/04-45_User_Def_Forms.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "User Defined Forms (4D 2004)",
-    "Runtime form customization",
-    "Compiled/merged double-clickable application support"
-  ],
-  "historical_commentary": {
-    "text": "This note introduces User Defined Forms, a 4D 2004 feature letting end users create or modify customized forms at runtime \u2014 even inside compiled, merged standalone applications \u2014 so vertical-market developers could let different clients tailor the look and feel of shared data views. The general goal (end-user-customizable UI without redeployment) remains a legitimate and still-pursued feature pattern in modern 4D applications, but the specific runtime form-customization mechanism described predates Project Mode, ORDA, and modern List Box/form object models, so a developer solving this problem today would very likely use different, more current tools.",
-    "status": "still_relevant",
-    "related_updates": [
-      "Later 4D versions introduced much richer object/List Box models and dynamic form-building capabilities that supersede the specific 2004 mechanism described here",
-      "Project Mode (4D v17, 2018) changed how forms are stored and could be programmatically manipulated compared to binary Design Mode structures",
-      "Modern 4D applications more often achieve end-user UI customization via dynamically configured List Box columns or JSON-driven UI definitions rather than the 2004-era User Defined Forms mechanism"
-    ]
-  }
+    "asset_id": 34735,
+    "title": "Tech Note: User Defined Forms",
+    "technote_number": "04-45",
+    "year": 2004,
+    "published_date": "November 11, 2004",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "Sati Hillyer",
+    "page_url": "https://kb.4d.com/assetid=34735",
+    "download_url": "https://kb.4d.com/ftp://@ftp.4d.com/ACI_TECHNICAL_NOTES/2004/MacOS/TN_2004_41-45_(SEP)/04-45_User_Def_Forms.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "EDIT FORM command (runtime, simplified Form Editor for end users)",
+        "CREATE USER FORM / LIST USER FORMS / DELETE USER FORM commands",
+        "Editable by User form property and User Structure File (.4DA)",
+        "Inherited (parent/child) forms combined with User Defined Forms",
+        "INPUT FORM / OUTPUT FORM extended with a user-form parameter"
+    ],
+    "historical_commentary": {
+        "text": "Sati Hillyer, a 4D Evangelist, presents 4D 2004's new User Defined Forms feature, which lets end users customize forms at runtime -- even in a compiled, merged application -- via EDIT FORM, CREATE USER FORM, LIST USER FORMS, and DELETE USER FORM, with per-user customizations stored in a separate .4DA User Structure File so the developer's original 'source' form stays intact, and shows combining this with 4D's inherited (parent/child) form system so developers can push updates without wiping out user customizations. This runtime form-customization mechanism belongs to the classic Design Mode form architecture; while EDIT FORM and the User Defined Forms commands still exist in 4D, this style of binary form customization has been largely superseded in modern development by 4D's forms-as-JSON architecture in Project Mode and by more flexible client-side/ORDA-driven UI approaches, particularly for web and Qodly-based applications.",
+        "status": "partially_superseded",
+        "related_updates": [
+            "4D's Project Mode (introduced v17, 2018) stores forms as JSON/text files, which are easier to version, diff, and dynamically manipulate than the classic binary form + .4DA User Structure File model described here",
+            "The EDIT FORM/CREATE USER FORM/LIST USER FORMS/DELETE USER FORM commands still exist in 4D for classic-mode form customization scenarios",
+            "Modern 4D web and Qodly-based UIs offer alternative, more dynamic approaches to end-user interface customization beyond the classic form editor"
+        ]
+    }
 }

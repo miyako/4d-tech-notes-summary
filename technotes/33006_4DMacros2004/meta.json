@@ -7,21 +7,24 @@
   "product": "4th Dimension",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jonathan Le, Technical Support, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=33006",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-24_4D_Macros_in_2004.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_21-25_(MAY)/04-24_4D_Macros_in_2004.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Macros",
-    "Method editor code-generation tags",
-    "Project method calls from macros"
+    "4D Method Editor macros (Macros.xml)",
+    "Multi-file macro storage in a Macros folder",
+    "<method> tag for calling project methods from macros",
+    "<text>, <selection>, <caret>, <user_4D>, <user_os>, <time>, <clipboard> macro tags",
+    "_action / _blobReplace macro process variables",
+    "Project method invocation with parameters from a macro"
   ],
   "historical_commentary": {
-    "status": "still relevant",
-    "text": "4D's macro system for the Method Editor, including the ability for macros to call project methods for dynamic code generation, remains part of the current 4D development environment, so the core feature this note documents is still usable conceptually today. The specific 2004-era Method Editor interface described has since been superseded by 4D's modern code editor (particularly in Project Mode databases), but the underlying macro capability and its productivity rationale (avoiding repetitive typing, enforcing conventions like comment headers) remain relevant to 4D developers.",
+    "text": "This note documents 4D 2004's expanded Method Editor macro system, notably the new ability to store macros across multiple XML files in a Macros folder and the new <method> tag that lets a macro call a project method (for example, to auto-generate field-assignment code or create records) rather than just insert static text. The underlying macro mechanism and process-variable protocol (_textReplace, _blobReplace, _action) described here is specific to the classic, non-Project-Mode Method Editor and has been superseded by 4D's modern code editor and its own macro/snippet facilities introduced with Project Mode (2018 onward). The core productivity idea -- generating boilerplate/code via reusable macros -- remains valid and is still supported by current 4D tooling, just through different, more modern mechanisms.",
+    "status": "superseded",
     "related_updates": [
-      "4D's code editor and Method Editor interface have been substantially modernized in later versions, especially with Project Mode (2018)",
-      "4D macros remain a supported productivity feature in current 4D development environments"
+      "4D's code editor and macro/snippet system were substantially modernized with Project Mode (introduced 2018), superseding the classic Method Editor's XML-based Macros.xml mechanism described here",
+      "The specific <method>, <text>, and single-value tags, plus the _textReplace/_blobReplace/_action process variables, are tied to the legacy Method Editor and are not how current 4D code-generation features work"
     ]
   }
 }

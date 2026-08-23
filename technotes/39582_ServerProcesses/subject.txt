@@ -1,1 +1,1 @@
-Tech Note: Server Processes (TN 05-32, 4D v2004, October 2005) — shows how to set up, manage, and run processes initiated from a 4D Client that actually execute on the 4D Server.
+Managing 4D processes that run on the Server but are controlled from a 4D Client

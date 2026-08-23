@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon, QA Manager, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=31177",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_01-04_(JAN)/04-02_Connecting_4D_w_SOAP.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://@ftp.4d.com/ACI_TECHNICAL_NOTES/2004/MacOS/TN_2004_01-04_(JAN)/04-02_Connecting_4D_w_SOAP.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Web Services (SOAP)",
-    "4D-to-4D database connectivity over SOAP"
+    "4D 2003 native SOAP support",
+    "WSDL-generated proxy methods",
+    "SET VARIABLE PROCESS / VARIABLE TO VARIABLE inter-process messaging",
+    "Session-based connection IDs (s44D_NewConnection / s44D_CloseConnection)",
+    "ADD TO SET, USE NAMED SELECTION, and other 4D Open-style server commands wrapped as Web services",
+    "ARRAY TO SELECTION over a blob-encoded array payload"
   ],
   "historical_commentary": {
-    "text": "This is one of the earliest Tech Notes introducing 4th Dimension 2003's brand-new native SOAP support, framing SOAP-based Web Services as a way for one 4D database to interact with another. As a foundational, introductory-level note for a feature that was new at the time, it is now primarily of historical interest: SOAP-based inter-database Web Services have been superseded by REST/JSON-based approaches and, for many multi-database scenarios, by later 4D features like remote datastores/ORDA, though the fundamental idea of one 4D database calling into another over a web protocol remains conceptually current.",
-    "status": "historical interest only",
+    "text": "This note presents a full generic \"s44D_*\" library of SOAP Web services (New/CloseConnection, AllRecords, sets, named selections, record CRUD, etc.) that recreates the behavior of the 4D Open for 4D plug-in using only 4D 2003's brand-new native SOAP support, keeping a live server-side process alive per session via a paused-loop/CodeAction dispatch pattern. It is an ambitious, well-engineered example of stateful client/server database access over Web services for its time, but the entire architecture (per-session paused processes, SOAP proxies generated from WSDL, manual set/named-selection plumbing) has been superseded by 4D's modern remote-datastore and ORDA client/server architecture, which provides equivalent multi-database record access natively and far more simply. The concept of one 4D database calling into another over a standard protocol remains current, just through REST/ORDA rather than hand-rolled SOAP session management.",
+    "status": "superseded",
     "related_updates": [
-      "4D's web services capabilities have expanded well beyond SOAP to REST/JSON, now the standard approach for inter-application and inter-database connectivity",
-      "Later 4D features (remote datastores, ORDA client/server data access introduced from v16, 2018) offer more modern ways for 4D databases to connect to each other than SOAP-based Web Services"
+      "4D's ORDA and remote datastore architecture (introduced from v16/v17, 2018+) now provides built-in client/server data access between 4D applications, replacing the need for a hand-built SOAP session/process framework like this one",
+      "4D's Web Services capabilities have broadly moved toward REST/JSON, with SOAP now a legacy, less-emphasized integration path",
+      "The 4D Open for 4D plug-in referenced as the inspiration for this technique has itself been long discontinued"
     ]
   }
 }

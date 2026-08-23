@@ -7,22 +7,24 @@
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thang Nguyen",
   "page_url": "https://kb.4d.com/assetid=36397",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-09_RecoveringDamagedData.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-09_Recovering_Damaged_Data_File.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D data file recovery tools",
-    "Data/index re-indexing",
-    "Record re-saving",
-    "Data export/re-import"
+    "4D Tools Check All / Check Records / Check Indexes",
+    "4D Tools Repair All / Repair Records / Repair Indexes",
+    "4D Tools Recover by Tags",
+    "Manual re-indexing via structure-file duplication",
+    "\"Massaging\" record-by-record load/resave diagnostic method (by Hugo Fournier)",
+    "Export to tab-delimited text / XML as a last-resort recovery path"
   ],
   "historical_commentary": {
-    "text": "This note surveys four classic-era techniques for recovering a corrupted 4D data file: using built-in 4D recovery tools, re-indexing, re-saving records, and exporting/re-importing into a fresh data file. Data corruption recovery remains a conceptually relevant practice today, but the specific binary .4DD data file structure and tools referenced are from the pre-SQL 4D 2004 era, and 4D has since introduced more robust logging, backup, and mirroring/recovery mechanisms. Only the teaser paragraph could be recovered for this note, limiting further technical assessment.",
-    "status": "superseded",
+    "text": "Thang Nguyen, a 4D Technical Support Engineer, lays out an escalating toolkit for recovering a corrupted classic 4D data file \u2014 4D Tools' Check/Repair options, Recover by Tags (rebuilding the address table from record header tags when it's itself damaged), manual re-indexing by stripping and rebuilding indexes, a record-by-record 'massaging' load/resave diagnostic method credited to Hugo Fournier, and exporting to text/XML as a last resort. This remains a genuinely useful reference for anyone still operating a classic 4D data file/structure-file pair, since 4D Tools and its Check/Repair/Recover-by-Tags workflow are still the standard recovery mechanism in 4D today, though 4D strongly recommends backup+log-file integration as the first line of defense (as the note itself states) and modern 4D also offers newer built-in backup/verification tooling that reduces how often these manual techniques are needed.",
+    "status": "still_relevant",
     "related_updates": [
-      "4D has since introduced transaction logging, log-based recovery, and database mirroring for more robust data integrity than manual re-indexing/re-saving workflows",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "4D Tools' Check/Repair/Recover by Tags workflow described here remains the core data-recovery mechanism in current 4D versions",
+      "4D's built-in Backup and integrated transaction log mechanisms have been enhanced in later 4D versions, reducing reliance on manual repair/recovery as a first response \u2014 the note itself already stresses backup+log integration as the preferred first step"
     ]
   }
 }

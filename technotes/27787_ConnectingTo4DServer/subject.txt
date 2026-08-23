@@ -1,1 +1,1 @@
-Tech Note: Connecting to a 4D Server (TN 02-32, 4D v6.8.3, July 2002) — a description of how to establish a connection from 4D Client or 4th Dimension to a specific 4D Server using the 4D Open for 4D plug-in.
+Establishing, using, and tearing down a 4D Open plug-in connection from a client application to a 4D Server

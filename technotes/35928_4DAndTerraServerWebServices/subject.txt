@@ -1,1 +1,1 @@
-Tech Note: Using 4D with TerraServer USA Web Services (TN 05-05, 4D v2004, February 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing 4d web services (soap client).
+Consuming Microsoft/USGS's TerraServer-USA SOAP web service from 4D 2004 using the SOAP Wizard and DOM XML commands

@@ -1,1 +1,1 @@
-Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part II of II (TN 04-35, 4th Dimension v2004, September 2004) — the second half of a two-part guide covering installation and command usage of the community-authored GDIPlus_Image Windows plug-in.
+Installing and using the GDIPlus_Image plug-in's commands to load, transform, and save pictures via Windows GDI+

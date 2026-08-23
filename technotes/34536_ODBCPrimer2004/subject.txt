@@ -1,1 +1,1 @@
-Tech Note: 2004 ODBC Primer (TN 04-43, 4D ODBC v2004, October 2004) — a beginner-friendly overview of ODBC architecture and the new native ODBC features integrated into 4D 2004.
+A beginner's primer on ODBC architecture and 4D 2004's new native ODBC commands for SQL access and data binding

@@ -1,25 +1,42 @@
-# Tech Note 04-20: Reading a Full SOAP Response
+# Tech Note: Reading a Full SOAP Response
 
-**Author:** Not specified in source (teaser page only; full PDF not recovered)
-**Published:** May 20, 2004 | **Product/Version:** 4th Dimension v2003.3 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=32705
-**Download:** https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-20_Full_SOAP_Response.exe
+- **Asset ID:** 32705
+- **Tech Note #:** 04-20
+- **Published:** May 20, 2004
+- **Product / Version:** 4th Dimension 2003.3
+- **Platform:** Mac & Win
+- **Author:** David Adams
+- **Page URL:** https://kb.4d.com/assetid=32705
+- **Download:** https://kb.4d.com/ftp://@ftp.4D.com/ACI_TECHNICAL_NOTES/2004/MacOS/TN_2004_16-20_(APR)/04-20_Full_SOAP_Response.hqx
 
 ## Overview
-This Tech Note addresses 4th Dimension 2003 and later's native support for building Web Service clients, where method calls generate SOAP (Simple Object Access Protocol) messages sent over HTTP to a SOAP-enabled remote service that could be written in .NET, Java, 4th Dimension, or virtually any other contemporary language or framework. By default, 4D's Web Service client system automatically handles the considerable complexity of parsing, navigating, and converting values between XML/SOAP formats and native 4D data types, per the strict formatting and encoding rules defined by the interlocking SOAP/XML standards. The note explains that some developers need or prefer to read raw incoming SOAP responses directly rather than relying on this automatic conversion, and shows how to do so using the complexType parameter of the CALL WEB SERVICE command to capture and extract values from the raw response. This reflects the early-to-mid 2000s SOAP/XML-web-services era, when SOAP was the dominant standard for machine-to-machine service integration across enterprise platforms, well before REST and JSON became the default lightweight alternative. The note targets 4D developers building Web Service client integrations who need finer control over SOAP response handling than the default automatic conversion provides.
+
+David Adams explains how to retrieve the complete, raw SOAP response body from a 4th Dimension Web Service call using CALL WEB SERVICE's "Web Service Manual Out" argument, instead of relying on 4D's automatic SOAP-to-native-type binding, for debugging, learning, and handling values not automatically exposed.
 
 ## Key Points
-- This summary is derived solely from the on-page teaser paragraph for this Tech Note; the full PDF content could not be recovered.
-- A guide to reading raw incoming SOAP responses directly using the complexType parameter of CALL WEB SERVICE, for cases where 4th Dimension's automatic XML-to-4D conversion isn't sufficient.
+
+- By default, `CALL WEB SERVICE` with the `Web Service Dynamic` argument automatically parses the SOAP response, and results are read individually via `GET WEB SERVICE RESULT` calls keyed to named output elements (e.g. `outSecondsSinceMidnight`, `outPi`, `outServerVersion`).
+- Passing `Web Service Manual Out` instead returns the entire SOAP response message body as a single BLOB via `GET WEB SERVICE RESULT(proxy_fullResponse_blob;*)`, which can be parsed with `Parse XML variable` or copied to text if small.
+- The note shows extracting individual values from the manual BLOB using the companion XML_Utilities component's `xutil_GetValue` function, converting text results with `Num()` where numeric values are needed.
+- Advantages of manual mode include easier debugging when a SOAP server renames/adds/removes elements, avoiding the errors `GET WEB SERVICE RESULT` throws for missing elements, and reusing existing XML-processing code for both SOAP and non-SOAP XML.
+- Limitations: the manual BLOB captures only the SOAP message body, not the full SOAP message (headers aren't retrievable), HTTP-level cookies/status codes aren't accessible either, and a SOAP fault response returns no results under either technique.
+- The note cross-references TN 04-19 ("Reading a Full SOAP Request") and TN 04-21 ("The XML_Utilities Component") as companion pieces covering the request side and the value-extraction tooling, respectively.
 
 ## Featured Technology
-- CALL WEB SERVICE command
-- SOAP (Simple Object Access Protocol)
-- 4D native Web Service client
 
-## Historical Context
-**Status:** superseded
+- CALL WEB SERVICE command with Web Service Manual Out argument
+- GET WEB SERVICE RESULT (dynamic vs. manual/full BLOB modes)
+- Web Service Dynamic vs. Web Service Manual Out constants
+- Parse XML variable on a raw SOAP response BLOB
+- XML_Utilities component (xutil_GetValue) for manual value extraction
+- SOAP debugging and fault handling
 
-This note documents an advanced technique for reading raw SOAP responses in 4th Dimension's native Web Service client, reflecting the SOAP-centric web-services standard that dominated enterprise integration in the early-to-mid 2000s. SOAP itself has since been broadly superseded by REST and JSON as the default approach for web service integration industry-wide, and 4D's own web services direction has moved decisively toward REST APIs (particularly via ORDA, introduced 2017+), though the CALL WEB SERVICE command and SOAP client capability described here likely still exist in current 4D for legacy integration needs.
+## Historical Commentary
 
-**Note on sourcing:** This Tech Note's content_source is `teaser_only` — only the short on-page teaser paragraph was available in this environment (the original full Tech Note PDF/archive could not be recovered), so this page intentionally does not go beyond what that teaser states.
+**Status:** Superseded
+
+This note explains how to bypass 4th Dimension's automatic SOAP response binding and instead retrieve the complete raw SOAP message body as a BLOB, by calling `CALL WEB SERVICE` with the `Web Service Manual Out` argument instead of `Web Service Dynamic`, then parsing it manually with `Parse XML variable` or the companion XML_Utilities component. This was a genuinely useful debugging and flexibility technique in the SOAP era, letting developers see server-added/renamed elements and read values not bound to declared parameters. SOAP itself has since been broadly superseded by REST and JSON as the default web-service integration approach industry-wide, and 4D's own strategy shifted decisively to REST/ORDA (2017+), though the `CALL WEB SERVICE` command and this manual-parsing technique likely still function in current 4D for legacy SOAP integrations.
+
+**References to newer/updated information:**
+- REST and JSON have broadly replaced SOAP as the dominant web-service integration standard industry-wide
+- 4D's own web-services strategy has shifted to REST APIs built on ORDA (introduced 2017+), alongside continued support for legacy SOAP-based commands like CALL WEB SERVICE

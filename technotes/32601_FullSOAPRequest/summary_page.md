@@ -1,26 +1,42 @@
-# Tech Note 04-19: Reading a Full SOAP Request
+# Tech Note: Reading a Full SOAP Request
 
-**Author:** Not specified in source (teaser page only; full PDF not recovered)
-**Published:** May 13, 2004 | **Product/Version:** 4D v2003.3 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=32601
-**Download:** https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-19_Full_SOAP_Request.exe
+- **Asset ID:** 32601
+- **Tech Note #:** 04-19
+- **Published:** May 13, 2004
+- **Product / Version:** 4D 2003.3
+- **Platform:** Mac & Win
+- **Author:** David Adams
+- **Page URL:** https://kb.4d.com/assetid=32601
+- **Download:** https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_16-20_(APR)/04-19_Full_SOAP_Request.hqx
 
 ## Overview
-This Tech Note covers 4th Dimension 2003 and later's ability to publish 4D methods as Web Services, letting any Web Services-enabled application, tool, or development environment integrate with 4D by sending SOAP (Simple Object Access Protocol) messages to the native 4D Web server. As with SOAP responses on the client side, 4D's Web Service publishing system by default automatically handles the complex parsing, navigation, and conversion between XML/SOAP formats and native 4D data types dictated by the SOAP/XML standards. The note explains that developers sometimes need or prefer to read the raw incoming SOAP request message directly, and demonstrates how to do this using an undocumented behavior of the GET WEB FORM VARIABLES command, alongside reading incoming HTTP headers via the GET HTTP HEADER command when needed. This reflects the early-2000s SOAP/XML-web-services era in which 4D positioned its native Web server as both a SOAP client and a SOAP service publisher, letting 4D methods act as backend services for external SOAP-based callers well ahead of REST becoming the dominant lightweight alternative. It targets 4D developers publishing Web Services from 4D who need lower-level access to incoming SOAP request data than the default automatic conversion exposes.
+
+David Adams shows how to recover the complete, unmodified incoming SOAP request received by a 4th Dimension Web Service method, by exploiting an undocumented behavior of GET WEB FORM VARIABLES, and demonstrates applying it to build a custom SOAP request logging system.
 
 ## Key Points
-- This summary is derived solely from the on-page teaser paragraph for this Tech Note; the full PDF content could not be recovered.
-- A guide to reading raw incoming SOAP messages sent to 4th Dimension's native Web Service publishing system, using an undocumented behavior of GET WEB FORM VARIABLES, plus reading HTTP headers with GET HTTP HEADER.
+
+- A SOAP request arrives as an HTTP request whose body is a well-formed SOAP-ENV:Envelope/Body XML message; HTTP headers (including the `SoapAction` header) sit outside the SOAP message and are readable separately via `GET HTTP HEADER`.
+- 4D's automatic SOAP handling reads inputs declared via `SOAP DECLARATION` directly into method parameters/process variables (illustrated with a `ConvertFeetToMeters` method), but exposes none of the raw XML.
+- `GET WEB FORM VARIABLES`, when called inside a process handling a Web Service request, splits the entire incoming SOAP message at the first equals sign into a name/value pair; reassembling `name + "=" + value` reconstitutes the full original SOAP XML, which can then be parsed with `Parse XML variable`.
+- The note explicitly flags this as undocumented, unsupported behavior (though not expected to change), and warns it is limited by the usual 32,000-character bound on 4D text parameters and array elements.
+- A full example, `soap_LogRequest`, invoked from the `On Web Authentication` database method, captures client/server IP, username, the `User-Agent` HTTP header, and the requested method name (extracted by walking two levels into the reassembled SOAP XML tree and stripping any namespace prefix) into a `[Logged_SOAP_Request]` record.
+- A further example shows reading an "undeclared" SOAP input (`inRoundTo`) not bound via `SOAP DECLARATION`, useful when parameter lists evolve over a Web Service's lifetime or when distinguishing a missing input from one explicitly passed as a default/zero value.
 
 ## Featured Technology
-- GET WEB FORM VARIABLES
-- GET HTTP HEADER
-- SOAP (Simple Object Access Protocol)
-- 4D native Web Service publishing
 
-## Historical Context
-**Status:** superseded
+- GET WEB FORM VARIABLES (undocumented full-SOAP-body reassembly behavior)
+- GET HTTP HEADER for reading raw HTTP headers (e.g. SoapAction)
+- SOAP DECLARATION for automatic input/output binding
+- Is SOAP request function
+- On Web Authentication database method for request logging
+- Parse XML variable on a reassembled raw SOAP request
 
-This note documents a low-level, partly undocumented technique (via GET WEB FORM VARIABLES) for reading raw incoming SOAP requests in 4th Dimension's native Web Service publishing system, reflecting the SOAP-centric web-services standard dominant in the early-to-mid 2000s. SOAP-based service publishing has since been broadly superseded industry-wide, and within 4D specifically, by REST APIs (especially via ORDA, introduced 2017+) as the primary way to expose 4D data and logic to external callers, though 4D's classic SOAP publishing commands likely remain available for legacy compatibility.
+## Historical Commentary
 
-**Note on sourcing:** This Tech Note's content_source is `teaser_only` — only the short on-page teaser paragraph was available in this environment (the original full Tech Note PDF/archive could not be recovered), so this page intentionally does not go beyond what that teaser states.
+**Status:** Superseded
+
+This note (companion to TN 04-20 on SOAP responses) shows how to recover the complete, unmodified incoming SOAP request body inside a 4th Dimension Web Service method, exploiting an undocumented behavior of `GET WEB FORM VARIABLES` that splits the request only at the first equals sign, then reassembling it and re-parsing with `Parse XML variable`. It was used for logging, debugging SOAP exchanges, and reading inputs not declared via `SOAP DECLARATION` -- genuinely clever but explicitly reliant on undocumented behavior. Like its sibling note, this technique is tied to 4th Dimension's native SOAP web-service publishing system, which has been superseded industry-wide (and within 4D's own roadmap) by REST/JSON APIs built on ORDA (2017+); the specific undocumented `GET WEB FORM VARIABLES` trick is now mainly of historical interest for anyone still maintaining legacy 4D SOAP services.
+
+**References to newer/updated information:**
+- 4D's SOAP-based Web Service publishing has been superseded by REST APIs built on ORDA (introduced 2017+) as the primary modern integration path
+- REST and JSON have broadly replaced SOAP as the dominant web-service standard industry-wide, reducing the practical relevance of SOAP-specific debugging techniques like this one

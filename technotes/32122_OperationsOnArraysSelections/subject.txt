@@ -1,1 +1,1 @@
-Tech Note: Operations on Arrays and Selections (TN 04-14, 4D v2003.3, April 2004) — custom methods that let developers apply set-style operations (union, intersection, difference) to named selections as they would to sets.
+Generic union, intersection, and difference operations on 4D arrays and named selections

@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "6.8.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Christian Cypert",
   "page_url": "https://kb.4d.com/assetid=27787",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_30-35_(JUL)/02-32_Connecting_to_Server.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_30-35_(JUL)/02-32_Connecting_to_Server.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "4D Open plug-in",
-    "4D Client/4D Server connectivity"
+    "OP Count network components / OP Get network component info",
+    "OP Select 4D Server / OP Find 4D Server",
+    "OP Open connection",
+    "OP Close connection / OP Delete 4D Server / OP Unload network component"
   ],
   "historical_commentary": {
-    "text": "The 4D Open plug-in and the specific connection mechanism it describes are obsolete; modern 4D applications connect to remote 4D Servers using built-in remote mode / client-server architecture and, for programmatic cross-database access, ORDA remote datastores, none of which require a separate connectivity plug-in as in 2003.",
+    "text": "The 4D Open plug-in and its OP-prefixed connection API were the standard, and at the time only, way to programmatically connect a client application to a specific 4D Server outside of 4D's normal interactive connection dialog. This entire mechanism is now obsolete: current 4D applications rely on the built-in remote/client-server architecture for interactive sessions, and on ORDA remote datastores (introduced in 4D v17+) for programmatic cross-database access, neither of which requires a separate connectivity plug-in or the manual network-component enumeration shown here.",
     "status": "obsolete",
     "related_updates": [
-      "4D's native client-server architecture and ORDA remote datastores have superseded the 4D Open plug-in for connecting to remote 4D Servers"
+      "4D's native client-server architecture and ORDA remote datastores have superseded the 4D Open plug-in for connecting to remote 4D Servers",
+      "Programmatic cross-database access today is done via ORDA remote datastores rather than the OP Open connection-based API described in this note"
     ]
   }
 }

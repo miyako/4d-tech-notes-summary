@@ -1,27 +1,30 @@
 {
-  "asset_id": 35116,
-  "title": "Tech Note: Process HTML Tags and more!",
-  "technote_number": "04-49",
-  "year": 2004,
-  "published_date": "December 9, 2004",
-  "product": "4D",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=35116",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_49-50_(NOV)/04-49_Process_HTML_Tags.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "Process HTML Tags (4D web templating command)",
-    "4D built-in Web Server dynamic page generation",
-    "Mail merge style templating"
-  ],
-  "historical_commentary": {
-    "text": "This note promotes a single classic-language command (Process HTML Tags) as a highly versatile tool for tasks ranging from mail-merge-style document generation to maintenance routines, reflecting the tag-substitution style of dynamic web/document publishing common in 4D's mid-2000s web server era. Only the on-page teaser survived in this archive pass, so the specific techniques demonstrated cannot be confirmed, but the general approach of server-side HTML tag substitution is now a legacy pattern superseded by 4D's REST/ORDA-based web architecture and modern templating engines.",
-    "status": "superseded",
-    "related_updates": [
-      "4D's web development has moved toward REST APIs (built on ORDA since 2018) combined with modern client-side frameworks rather than server-side HTML tag substitution",
-      "4D Write Pro (2016) and other newer document-generation tools now handle merge-style document creation rather than raw HTML tag processing"
-    ]
-  }
+    "asset_id": 35116,
+    "title": "Tech Note: Process HTML Tags and more!",
+    "technote_number": "04-49",
+    "year": 2004,
+    "published_date": "December 9, 2004",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "Julien Feasson",
+    "page_url": "https://kb.4d.com/assetid=35116",
+    "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_49-50_(NOV)/04-49_Process_HTML_Tags.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "PROCESS HTML TAGS command",
+        "4D HTML/template tags (4DVAR, 4DHTMLVAR, 4DSCRIPT, 4DINCLUDE, 4DIF/4DELSE/4DENDIF, 4DLOOP/4DENDLOOP)",
+        "Template-driven email generation and Microsoft Word XML mail-merge",
+        "External 4D script execution via text-file templates",
+        "ENCRYPT BLOB / DECRYPT BLOB for securing external scripts"
+    ],
+    "historical_commentary": {
+        "text": "Julien Feasson, a 4D Software Engineer, champions PROCESS HTML TAGS -- new in 4D 2004 -- as what he calls the most powerful command in the language, because it lets the classic 4D web-server tag language (4DVAR, 4DSCRIPT, 4DIF, 4DLOOP, etc.) be applied to any text, not just pages served by the Web server, enabling templated email generation, Word XML mail merge, and even executing external 4D scripts against a compiled server without recompiling. This 4D-tag templating approach was the primary way to do dynamic templating/scripting in the mid-2000s; it has since been substantially superseded for general text/document generation by 4D's native JSON, string-formatting, and modern web/ORDA capabilities, though PROCESS HTML TAGS and the underlying 4D tag language remain part of 4D today and are still used, particularly in legacy 4D web applications.",
+        "status": "partially_superseded",
+        "related_updates": [
+            "PROCESS HTML TAGS and the 4D tag language (4DVAR, 4DSCRIPT, etc.) still exist in current 4D versions and remain usable for legacy templating needs",
+            "Modern 4D development favors native JSON, string manipulation commands, and the QodlyApp/ORDA ecosystem over 4D-tag-based templates for new development",
+            "The described technique of running external, unsigned/plaintext scripts against a production server is now generally discouraged in favor of more secure deployment and update mechanisms"
+        ]
+    }
 }

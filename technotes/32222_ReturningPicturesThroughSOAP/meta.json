@@ -7,22 +7,25 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=32222",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-15_Pictures_Through_SOAP.exe",
-  "content_source": "teaser_only",
-  "author_guess": null,
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_11-15_(APR)/04-15_Returning_Pictures_Through_SOAP.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Web Services (SOAP)",
-    "PICTURE TO BLOB command",
-    "BLOB encoding in SOAP/XML responses"
+    "PICTURE TO BLOB / BLOB TO PICTURE commands",
+    "SOAP DECLARATION with Is BLOB SOAP Output",
+    "PICTURE TYPE LIST for enumerating QuickTime-supported formats",
+    "SEND SOAP FAULT for SOAP error handling",
+    "GET WEB SERVICE PARAMETER / SET WEB SERVICE PARAMETER",
+    "Base64-encoded BLOB transport over SOAP"
   ],
   "historical_commentary": {
-    "text": "This note solves a specific early SOAP limitation: 4D's Web Services responses supported nearly every native data type except pictures directly, requiring a picture-to-BLOB conversion workaround to transmit images over SOAP/XML. That workaround is entirely tied to 4D's now largely legacy SOAP Web Services stack; modern 4D applications needing to serve images over an API overwhelmingly use REST/JSON endpoints (returning binary data, base64, or URLs) rather than SOAP-encoded BLOBs, making this note's specific technique of historical interest only, even though the general challenge of transmitting binary image data over structured web protocols remains a recognizable problem class.",
-    "status": "historical interest only",
+    "text": "Since 4th Dimension's native SOAP binding didn't directly support the Picture data type, this note shows how to work around that gap by converting pictures to BLOBs with PICTURE TO BLOB before returning them as a SOAP output, and converting back with BLOB TO PICTURE on the client -- illustrated with a small SOAP-based image server offering picture listing, format discovery (via PICTURE TYPE LIST and a QuickTime-code-to-MIME-type lookup table), and image retrieval by name/format. It's a clear, well-engineered example of working around SOAP data-type limitations. Because it's built entirely on 4th Dimension's SOAP Web Service client/server system, which has been superseded by REST APIs on ORDA (2017+), and because it depends on QuickTime for non-GIF format conversion (QuickTime itself has since been discontinued on Windows and deprecated on macOS), both the transport approach and the picture-conversion mechanism are now largely of historical interest.",
+    "status": "obsolete",
     "related_updates": [
-      "4D's web services capabilities have expanded to REST/JSON, which is now the dominant approach for serving images/binary data over HTTP APIs rather than SOAP+BLOB encoding",
-      "SOAP-based Web Services are largely legacy technology in current 4D development"
+      "4D's SOAP-based Web Service publishing has been superseded by REST APIs built on ORDA (introduced 2017+), which handle binary/picture data more directly (e.g. via BLOB or file responses) without needing this BLOB workaround",
+      "Apple QuickTime, which this note's image-format conversion depends on, has been discontinued on Windows and deprecated/removed on modern macOS, breaking part of the described format-conversion pipeline",
+      "4D's native picture-handling commands have expanded since 2004, reducing reliance on QuickTime for format conversion"
     ]
   }
 }

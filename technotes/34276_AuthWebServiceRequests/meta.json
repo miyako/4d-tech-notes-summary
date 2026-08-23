@@ -1,30 +1,30 @@
 {
-  "asset_id": 34276,
-  "title": "Tech Note: Authenticating Web Service Requests",
-  "technote_number": "04-40",
-  "year": 2004,
-  "published_date": "October 7, 2004",
-  "product": "4th Dimension",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=34276",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-40_Authenticate_Web_Svcs.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "AUTHENTICATE WEB SERVICE command",
-    "SET WEB SERVICE OPTION command",
-    "SET WEB SERVICE PARAMETER command",
-    "SOAP 1.1 / 1.2 web services",
-    "HTTP Basic authentication"
-  ],
-  "historical_commentary": {
-    "text": "This note explains the three common ways 4th Dimension 2004 supported passing authentication credentials with an outbound SOAP web service call \u2014 HTTP Basic auth via AUTHENTICATE WEB SERVICE, SOAP header values via SET WEB SERVICE OPTION, and standard SOAP input parameters via SET WEB SERVICE PARAMETER \u2014 since the SOAP 1.1/1.2 standards themselves left authentication undefined and every provider handled it differently. SOAP-based web services and their associated authentication conventions have become largely obsolete as the industry moved to REST/JSON APIs with standardized auth schemes like OAuth and API keys, making this note's specific guidance primarily of historical interest today.",
-    "status": "obsolete",
-    "related_updates": [
-      "SOAP web services have been broadly superseded by REST/JSON APIs across the industry",
-      "Modern web service authentication typically uses OAuth, API keys, or bearer tokens rather than the SOAP-header/HTTP-Basic techniques described here",
-      "4D's HTTP Client commands and REST-based integration approaches have superseded native SOAP-calling commands like AUTHENTICATE WEB SERVICE for most current use cases"
-    ]
-  }
+    "asset_id": 34276,
+    "title": "Tech Note: Authenticating Web Service Requests",
+    "technote_number": "04-40",
+    "year": 2004,
+    "published_date": "October 7, 2004",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "David Adams",
+    "page_url": "https://kb.4d.com/assetid=34276",
+    "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_36-40_(AUG)/04-40_Authenticate_Web_Svcs.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "AUTHENTICATE WEB SERVICE command (HTTP Basic auth header)",
+        "SET WEB SERVICE OPTION with a SOAP header XML reference",
+        "SET WEB SERVICE PARAMETER for SOAP-body-based credentials",
+        "SOAP message anatomy (HTTP headers, HTTP body, SOAP envelope/header/body)",
+        "DOM Create XML Ref / DOM Create XML element / DOM SET XML ELEMENT VALUE"
+    ],
+    "historical_commentary": {
+        "text": "David Adams explains the three distinct places a SOAP Web service might expect authentication credentials -- the HTTP Authorization header, an optional SOAP header block, or ordinary SOAP body parameters -- and maps each to the specific 4th Dimension 2004 command needed to set it: AUTHENTICATE WEB SERVICE, SET WEB SERVICE OPTION, and SET WEB SERVICE PARAMETER respectively, since SOAP itself defines no standard authentication mechanism. This is a precise, still-technically-accurate explanation of SOAP client authentication concepts as implemented in 4D's original Web Services client commands; the commands described remain in 4D for legacy SOAP consumption, but authenticating to modern Web APIs (mostly REST with OAuth2/API keys/bearer tokens) is now handled via 4D's HTTP Client commands instead, making the specific command set here largely legacy while the conceptual message-anatomy explanation remains a useful reference.",
+        "status": "partially_superseded",
+        "related_updates": [
+            "4D's HTTP Client commands (added v13, 2012) are now the standard way to authenticate against modern REST APIs (bearer tokens, API keys, OAuth2) rather than the SOAP-specific commands described here",
+            "AUTHENTICATE WEB SERVICE, SET WEB SERVICE OPTION, and SET WEB SERVICE PARAMETER still exist in 4D for legacy SOAP web-service client scenarios",
+            "SOAP itself remains without a standardized authentication mechanism, so the note's underlying explanation of why different services need different approaches is still conceptually accurate"
+        ]
+    }
 }

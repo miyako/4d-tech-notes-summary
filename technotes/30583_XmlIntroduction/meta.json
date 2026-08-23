@@ -1,27 +1,30 @@
 {
   "asset_id": 30583,
-  "title": "Tech Note: XML \u2013 An Introduction to Extensible Markup Language",
+  "title": "Tech Note: XML – An Introduction to Extensible Markup Language",
   "technote_number": "03-48",
   "year": 2003,
   "published_date": "November 30, 2003",
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Frank Chang",
   "page_url": "https://kb.4d.com/assetid=30583",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-48_XML_An_Introduction.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_48-51_(NOV)/03-48_XML_An Introduction.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "XML",
-    "SGML lineage",
-    "4D 2003 XML support"
+    "XML syntax (elements, attributes, PIs, DOCTYPE)",
+    "XML prologue and encoding declarations",
+    "CSS styling of raw XML documents",
+    "XSLT transformations (xsl:stylesheet / xsl:template)",
+    "xsl:for-each / xsl:value-of",
+    "SGML lineage and DTD/XML Schema validation"
   ],
   "historical_commentary": {
-    "text": "XML itself remains a widely used, still-relevant data format (particularly in enterprise, document, and some legacy web-service contexts), and 4D still supports native XML parsing and generation commands today, so the fundamentals covered by this primer remain accurate. However, XML's dominance as the default data-interchange format has been substantially eclipsed by JSON for most modern web/API use cases since this note was written.",
-    "status": "still relevant",
+    "text": "The XML/XSLT fundamentals covered here are still accurate today, and 4D still ships native XML parsing and generation commands that build directly on these concepts. However, XML's role as the default data-interchange format for web/API integrations has been substantially displaced by JSON since the early 2000s, so a developer encountering XML today is more likely to be dealing with legacy systems, document formats, or specific enterprise/XSLT-based publishing pipelines rather than a typical new web API.",
+    "status": "still_relevant",
     "related_updates": [
-      "JSON has become the dominant lightweight data-interchange format for web/API use cases since the early 2000s, though XML remains in active use for documents and some enterprise/legacy integrations",
-      "4D's native XML commands introduced around this era are still present and supported in current 4D"
+      "JSON has become the dominant lightweight data-interchange format for web/API use cases since the mid-2000s, though XML remains common in documents and legacy/enterprise integrations",
+      "4D's native XML commands (introduced around this era) are still present and supported in current 4D"
     ]
   }
 }

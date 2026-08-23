@@ -1,1 +1,1 @@
-Tech Note: Securely Synchronizing databases with dissimilar structures via SOAP (TN 03-50, 4D v2003, November 2003) — a technique for securely synchronizing data between two 4D databases with different (and changeable) structures using 4D 2003's new SOAP support.
+Structure-agnostic, secure database-to-database data synchronization via 4D 2003 SOAP web services

@@ -1,28 +1,30 @@
 {
-  "asset_id": 34536,
-  "title": "Tech Note: 2004 ODBC Primer",
-  "technote_number": "04-43",
-  "year": 2004,
-  "published_date": "October 28, 2004",
-  "product": "4D ODBC",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=34536",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_41-45_(SEP)/04-43_2004_ODBC_Primer.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "ODBC architecture overview",
-    "4D 2004 native ODBC features",
-    "Open Database Connectivity (ODBC) fundamentals"
-  ],
-  "historical_commentary": {
-    "text": "Positioned as an introductory primer, this note covers the basic architecture of ODBC and how 4D 2004's new native ODBC features fit into it, intended for readers new to ODBC as well as those familiar with the standard but unfamiliar with using it from 4th Dimension. ODBC as a general database connectivity standard remains in active use today, so the conceptual grounding this primer provides is still broadly valid, but the specific 4D 2004 feature set it describes has been superseded by two decades of subsequent 4D data-access evolution.",
-    "status": "historical_interest_only",
-    "related_updates": [
-      "4D's own native SQL engine (from 4D v11 SQL, ~2007) reduced the centrality of ODBC for internal data access",
-      "ORDA (2018) introduced a modern entity-based data access model that supplements or replaces ODBC-style access for many use cases",
-      "ODBC itself remains a widely supported standard, but the specific 4D 2004 native ODBC feature set described here has been substantially revised in later 4D versions"
-    ]
-  }
+    "asset_id": 34536,
+    "title": "Tech Note: 2004 ODBC Primer",
+    "technote_number": "04-43",
+    "year": 2004,
+    "published_date": "October 28, 2004",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "Jamras Komoncharoensiri",
+    "page_url": "https://kb.4d.com/assetid=34536",
+    "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_41-45_(SEP)/04-43_2004_ODBC_Primer.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "ODBC (Open DataBase Connectivity) architecture and driver/data-source model",
+        "4D 2004 native ODBC commands (ODBC LOGIN, ODBC EXECUTE, ODBC LOAD RECORD, ODBC IMPORT/EXPORT)",
+        "SQL parameter binding to 4D arrays and fields via ODBC EXECUTE",
+        "ODBC-based SQL INSERT with <<fieldName>> tag substitution",
+        "ODBC Data Source Administrator setup (Windows and Mac OS X)"
+    ],
+    "historical_commentary": {
+        "text": "Jamras Komoncharoensiri, writing for 4D Inc., provides a beginner-level primer on ODBC fundamentals (the driver/data-source model, Model 1 vs Model 2 architectures) and then walks through 4D 2004's new native ODBC command set -- ODBC LOGIN, ODBC EXECUTE, ODBC LOAD RECORD, ODBC IMPORT/EXPORT -- for both binding SQL results to 4D arrays/fields and performing parameterized INSERT statements. As a foundational explainer, the ODBC concepts remain accurate and the native command set described is still present in 4D today, so the primer's core content holds up well, though modern 4D projects increasingly favor native SQL, ORDA, or HTTP/REST-based integration over ODBC for new development, particularly for cloud data sources.",
+        "status": "still_relevant",
+        "related_updates": [
+            "4D's native ODBC command set described here (ODBC LOGIN, ODBC EXECUTE, ODBC LOAD RECORD, etc.) remains part of the current 4D language",
+            "4D has since added a native SQL engine and ORDA/remote-datastore connectivity, which are now often preferred over ODBC for new external-database integrations",
+            "The fundamental ODBC concepts (driver, data source, SAG/SQL Access Group standard) explained in this primer remain accurate today"
+        ]
+    }
 }

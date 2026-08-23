@@ -5,23 +5,25 @@
   "year": 2004,
   "published_date": "August 12, 2004",
   "product": "4D",
-  "version": "",
+  "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jonathan Le (Technical Support, 4D, Inc.)",
   "page_url": "https://kb.4d.com/assetid=33569",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-32_ClientSelfUpgradable.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_31-35_(JUL)/04-32_ClientSelfUpgradable.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Client/Server merged executables",
-    "4D Engine final applications",
-    "Application self-upgrade mechanism"
+    "Build Application tool (client/server stand-alone build)",
+    "BUILD APPLICATION command",
+    "Client self-upgradeable versioning (CurrentVers, RangeVersMin, RangeVersMax)",
+    "BuildApp.xml project file client/server (CS) XML keys"
   ],
   "historical_commentary": {
-    "status": "superseded",
-    "text": "This note documents an early-2000s mechanism for producing self-contained, upgradable 4D Client/Server executables via 4D Engine-based merging, aimed at simplifying end-user deployment and updates. 4D's application deployment and update tooling has evolved substantially since 2004 (including later Merged/stand-alone application builders and update mechanisms bundled with subsequent 4D and 4D Server releases), so while the underlying goal — distributing a self-contained, upgradable client app — remains a common requirement, the specific mechanism described here is no longer the current approach.",
+    "text": "This note documents the 4D 2004-era Build Application workflow for producing stand-alone, self-upgrading Client/Server executables, a genuinely useful deployment convenience at the time since it removed the need to distribute and manually update separate 4D Client installations. The Build Application tool and its BuildApp.xml/BUILD APPLICATION mechanics have evolved substantially since 2004 (structure/data file formats, project architecture, and deployment options have all changed across two decades of 4D releases), so while the general concept of self-updating deployed clients persists, the specific XML keys, tool dialog, and workflow described here no longer match current 4D build tooling and are mainly of historical interest.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "4D's application building and update tooling (merged applications, 4D Volume Desktop-based builds) has been substantially reworked in later 4D versions",
-      "Modern 4D deployments increasingly rely on 4D Server-driven update mechanisms rather than the specific self-upgrade approach shown in this 2004-era note"
+      "4D's Build Application tool and its project file format have been substantially revised across many releases since 2004; the specific BuildApp.xml CS keys documented here do not directly map to current build tooling",
+      "4D has introduced Project mode and newer deployment/versioning mechanisms since this note was written",
+      "The general concept of self-upgrading deployed client applications is still supported by 4D's current build and update tooling, using updated mechanisms rather than the 2004-era keys shown here"
     ]
   }
 }

@@ -5,23 +5,26 @@
   "year": 2005,
   "published_date": "February 24, 2005",
   "product": "4D",
-  "version": "2004",
+  "version": "2004.1",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thomas Maul",
   "page_url": "https://kb.4d.com/assetid=36279",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-08_Printing_Barcodes.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_05-11_(FEB)/05-08_Printing_Barcodes.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D component (barcode printing)",
-    "Barcode symbologies",
-    "Print form/label generation"
+    "Barcode_Create component method (Industrial/Interleaved 2 of 5, Code 39, Code 128 A/B/C, EAN-8/13, UPC-A/E, supplements)",
+    "Barcode_Calc_Checksum component method",
+    "4D component built with 4D Insider 2004.1",
+    "4D Chart offscreen area for picture generation (CT New offscreen area / CT New Document / CT Delete offscreen area)",
+    "UPC-A to UPC-E conversion and GTIN leading-zero handling",
+    "Bitmap upscaling technique (picture | picture, picture * scale) for inkjet print quality"
   ],
   "historical_commentary": {
-    "text": "This note provides a 4D component with source code for printing multiple barcode symbologies via a single command, aimed at product/shipment labeling scenarios in classic 4D 2004 applications. Barcode printing remains a common business requirement today, and the general approach (an encapsulated component exposing a simple printing command) is still conceptually sound, though modern 4D projects would likely use updated barcode-generation libraries, native list box/label printing features, or third-party components rather than this specific 2005-era source. Only the teaser paragraph could be recovered for this note.",
-    "status": "superseded",
+    "text": "Thomas Maul (General Manager, 4D Germany) delivers a genuinely comprehensive component \u2014 with source \u2014 for generating the full range of common 1D barcode symbologies (Industrial/Interleaved 2 of 5, Code 39, Code 128 A/B/C, EAN-8/13, UPC-A/E and their supplements) as 4D pictures via a single Barcode_Create call, built around a reusable 4D Chart offscreen area and including the then-critical 2005 'Sunrise' EAN/UPC/GTIN convergence rules for US point-of-sale systems. The barcode-generation technique (rendering via an offscreen 4D Chart area, then converting to bitmap for inkjet print quality) is a classic-4D-era workaround; today, developers more commonly rely on dedicated barcode-generation libraries, PDF-generation tools, or 4D Write Pro/print-form integration with barcode fonts or images produced by external services, though the technical/symbology background this note documents is timeless and still accurate.",
+    "status": "partially_superseded",
     "related_updates": [
-      "Newer 4D components and third-party barcode libraries have since superseded early 2000s barcode-printing source code",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "The 4D Chart-based offscreen picture-rendering technique used to generate barcode images is a classic-4D-era approach; modern 4D projects more commonly use dedicated barcode components/plugins, barcode fonts, or externally generated barcode images/PDFs",
+      "The barcode symbology reference material (EAN/UPC/Code 39/Code 128 rules, checksums, the 2005 Sunrise GTIN convergence) remains accurate and useful background regardless of which 4D-side generation technique is used today"
     ]
   }
 }

@@ -1,1 +1,1 @@
-Tech Note: 4D Search (TN 03-37, 4D v2003, August 2003) — an explanation of how the community-contributed 4D Search example database implements search functionality across a 4D database.
+How the 4D Search sample database queries a 4D WebSTAR V search index and parses results using native XML commands

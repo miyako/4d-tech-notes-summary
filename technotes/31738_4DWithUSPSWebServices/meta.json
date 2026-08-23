@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thang Nguyen, 4D Technical Support",
   "page_url": "https://kb.4d.com/assetid=31738",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_10-15_(MAR)/04-10_4D_w_USPS_WebServices.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_06-10_(MAR)/04-10_4D_With_USPS_Web_Services.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Internet Commands",
-    "USPS Web Tools API",
-    "External web service consumption from 4D"
+    "USPS Web Tool Kit XML/HTTP GET API (Domestic Rate Calculator)",
+    "TCP_Open / TCP_Send / TCP_Receive / TCP_Close raw TCP commands",
+    "Manual XML request construction (usps_addHead_XML, generateXMLRequest1, usps_addTail_XML)",
+    "Manual XML response parsing (Parse XML variable, Get First/Next XML element)",
+    "HTTP GET request construction over a raw TCP socket"
   ],
   "historical_commentary": {
-    "text": "This note shows 4D consuming an external government web API (USPS Web Tools) using 4D Internet Commands, one of the earliest examples of 4D-as-a-client integrating with third-party web services rather than only publishing its own. The specific USPS API version and 4D Internet Commands-based HTTP handling from 2004 are dated, but the general pattern of a 4D application calling an external REST/XML API for shipping/address services remains a common and conceptually relevant integration scenario today, now typically done with more modern HTTP/JSON commands.",
+    "text": "This note demonstrates integrating with the USPS Web Tool Kit's Domestic Rate Calculator by manually constructing an HTTP GET request embedding an XML payload, sending it over a raw TCP socket with TCP_Open/TCP_Send/TCP_Receive/TCP_Close, and manually parsing the XML response with 4D's native XML navigation commands to extract postage price and zone. It's a good illustration of building an HTTP/XML API integration entirely from low-level TCP primitives before 4D had native HTTP client or SOAP-consumption commands suited to this kind of REST-like GET API. This raw-TCP, hand-built-HTTP-request approach became unnecessary once 4D introduced native HTTP Client commands (4D v13, 2012) that handle GET/POST, headers, and response parsing directly; the specific USPS API endpoints and XML schema shown are also likely outdated given USPS has evolved its Web Tools API since 2004.",
     "status": "superseded",
     "related_updates": [
-      "4D Internet Commands' HTTP/networking capabilities have been substantially extended and partly superseded by newer built-in HTTP client commands and JSON support in later 4D versions",
-      "The USPS Web Tools API itself has evolved considerably since 2004, likely requiring different authentication and endpoint details than described in this note"
+      "4D introduced native HTTP Client commands (4D v13, 2012) that handle GET/POST HTTP requests directly, making the raw TCP_Open/TCP_Send/TCP_Receive approach shown here unnecessary for HTTP-based API integration",
+      "USPS has updated its Web Tools API and endpoints since 2004; the specific server names, XML schema, and registration process described are likely outdated",
+      "4D's native XML and JSON parsing commands have expanded since 2004, simplifying response parsing compared to the manual element-by-element walk shown here"
     ]
   }
 }

@@ -5,24 +5,25 @@
   "year": 2005,
   "published_date": "February 17, 2005",
   "product": "4D Business Kit",
-  "version": "",
+  "version": "2.2.2",
   "platform": "Mac OS X",
-  "author": null,
+  "author": "Steve Hartman",
   "page_url": "https://kb.4d.com/assetid=36185",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_05-07_(FEB)/05-07_WebSTAR_Frontend_4DBK.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_05-11_(FEB)/05-07_WebSTAR_Front_End_4DBK.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D WebSTAR 5.3.3 web server",
-    "4D Business Kit 2.2.2",
-    "Mac OS X web front-end configuration"
+    "4D WebSTAR Web ReWrite plug-in (reverse-proxy rules)",
+    "4D WebSTAR Admin Client",
+    "4D Business Kit secondary-server preference configuration",
+    "Rewrite proxy rules.txt template file",
+    "HTTP/HTTPS request forwarding to a secondary web server on a custom port"
   ],
   "historical_commentary": {
-    "text": "This note describes configuring the 4D WebSTAR web server as a front-end for 4D Business Kit, an e-commerce/business application product from the mid-2000s Mac OS X era. Both 4D WebSTAR and 4D Business Kit have long been discontinued and are not part of any current 4D product line, making this note obsolete as a practical guide; 4D's own built-in Web Server has since become the standard way to expose 4D applications over HTTP. Only the teaser paragraph could be recovered for this note.",
+    "text": "Steve Hartman documents how to place 4D WebSTAR (4D's own Mac OS X web server product of that era) in front of 4D Business Kit \u2014 4D's e-commerce storefront product \u2014 using WebSTAR's Web ReWrite plug-in to reverse-proxy requests to Business Kit running on a different port, editing a supplied Rewrite proxy rules.txt template and importing it via the Admin Client. This is a narrowly scoped configuration guide tying together two discontinued 4D products (4D WebSTAR and 4D Business Kit), both long retired from 4D's current product lineup, making the note almost entirely of historical interest; the general reverse-proxy concept it demonstrates lives on today via mainstream web servers (Apache, Nginx, IIS) or reverse-proxy layers, none of which use this specific 4D WebSTAR configuration.",
     "status": "obsolete",
     "related_updates": [
-      "4D WebSTAR and 4D Business Kit have both been discontinued for many years",
-      "4D's built-in Web Server (and later REST/ORDA-based web services) replaced this class of standalone front-end web server products",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "4D WebSTAR and 4D Business Kit have both been discontinued and are not part of current 4D product offerings",
+      "Modern 4D web deployments typically place the built-in 4D Web Server or 4D application behind standard reverse proxies (Apache, Nginx, or a cloud load balancer) rather than 4D WebSTAR's Web ReWrite plug-in"
     ]
   }
 }

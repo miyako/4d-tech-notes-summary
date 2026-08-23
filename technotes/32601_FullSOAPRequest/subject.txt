@@ -1,1 +1,1 @@
-Tech Note: Reading a Full SOAP Request (TN 04-19, 4D v2003.3, May 2004) — a guide to reading raw incoming SOAP messages sent to 4th Dimension's native Web Service publishing system, using an undocumented behavior of GET WEB FORM VARIABLES, plus reading HTTP headers with GET HTTP HEADER.
+Reassembling a full raw incoming SOAP request from GET WEB FORM VARIABLES

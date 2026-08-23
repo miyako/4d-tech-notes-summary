@@ -1,1 +1,1 @@
-Tech Note: The 4D remote FastCGI Component (TN 02-31, 4D v6.8.3, July 2002) — an examination of the growing need for server-side web scripting and the role of a remote FastCGI component in serving dynamic 4D-driven web content.
+Implementing a FastCGI responder inside 4D to bridge external web servers like 4D WebSTAR V to a 4D database

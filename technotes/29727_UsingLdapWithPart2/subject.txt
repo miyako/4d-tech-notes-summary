@@ -1,1 +1,1 @@
-Tech Note: Using LDAP with 4D part II (TN 03-29, 4D v2003, June 2003) — the second part of a two-part note on integrating 4D with LDAP directory services, building on Part I's overview of the LDAP protocol.
+Porting a Windows LDAP authentication plug-in to Mac OS X's Mach-O runtime and wiring it into 4D web authentication

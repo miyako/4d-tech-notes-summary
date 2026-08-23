@@ -1,1 +1,1 @@
-Tech Note: Using a Map in a Form (TN 03-42, 4D v2003, September 2003) — a technique for detecting mouse clicks on non-rectangular shapes, such as individual US states in a map image placed on a 4D form.
+Detecting which non-rectangular region (e.g., a US state) was clicked on a picture, using a per-pixel grayscale mask array

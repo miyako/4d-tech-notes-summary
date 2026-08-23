@@ -7,22 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent Wilbur",
   "page_url": "https://kb.4d.com/assetid=30594",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-50_Synchronizing_SOAP.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_48-51_(NOV)/03-50_Synchronizing_SOAP.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SOAP",
-    "4D 2003 Web Services",
-    "Data synchronization",
-    "Encryption/security"
+    "SOAP (4D 2003 Web Services)",
+    "SEND SOAP FAULT",
+    "BLOB packing via VARIABLE TO BLOB / BLOB TO VARIABLE",
+    "COMPRESS BLOB / EXPAND BLOB",
+    "GENERATE ENCRYPTION KEYPAIR (ENCRYPT BLOB / DECRYPT BLOB)",
+    "Self-describing schema negotiation ('common vocabulary') via LIST TO ARRAY"
   ],
   "historical_commentary": {
-    "text": "SOAP as the specific synchronization transport described here has since been broadly superseded by REST/JSON-based sync approaches and, for many 4D-to-4D scenarios, by ORDA-based remote datastore access, so the concrete mechanism is dated. The underlying goals \u2014 structure-agnostic, secure data synchronization between databases \u2014 remain core, still-relevant concerns for distributed 4D applications today.",
+    "text": "This note's core insight — negotiate a schema at runtime and transfer opaque BLOBs through a single secure entry point rather than exposing per-field SOAP parameters — was a clever, security-conscious pattern for 2003-era 4D SOAP web services. SOAP itself has since been broadly superseded as a transport by REST/JSON, and for 4D-to-4D scenarios specifically, ORDA's remote datastore access now offers a far simpler and more secure way to read and write data across databases without hand-rolled BLOB packing. The underlying goal of structure-agnostic, secure synchronization remains a live concern, but the concrete SOAP/BLOB mechanism described here is dated.",
     "status": "superseded",
     "related_updates": [
-      "ORDA and 4D's remote datastore capabilities (post-2018) now offer a more modern way to synchronize/access data across 4D databases than the SOAP-based approach used here",
-      "REST/JSON has broadly replaced SOAP as the preferred data-exchange transport in modern integrations"
+      "ORDA and 4D's remote datastore capabilities (introduced starting with 4D v17/v18, 2018+) provide a modern way to read/write data across 4D databases, replacing the need for hand-built SOAP/BLOB synchronization",
+      "REST/JSON has broadly replaced SOAP as the preferred data-interchange transport for new integrations",
+      "4D still supports SOAP/CALL WEB SERVICE commands for legacy interoperability, but they are not the recommended approach for new 4D-to-4D sync"
     ]
   }
 }

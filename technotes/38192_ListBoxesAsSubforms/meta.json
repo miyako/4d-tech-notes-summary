@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "2004.7r3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent Wilbur",
   "page_url": "https://kb.4d.com/assetid=38192",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_25-27_(JUL)/05-26_ListBoxes_as_Subforms.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_25-27_(JUL)/05-26_ListBoxes_as_Subforms.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D List Box object",
-    "Subforms / included forms",
-    "Output/list forms"
+    "4D 2004 List Box object (array-backed)",
+    "ARRAY TO SELECTION / SELECTION TO ARRAY",
+    "On After Sort / On Row Moved / On Data Change events",
+    "Drag-and-drop row and column reordering",
+    "Transaction-free record editing via arrays",
+    "Classic Subform comparison"
   ],
   "historical_commentary": {
-    "text": "This note compares 4D 2004's then-new List Box object (a grouped, scrollable array with rich display capabilities) against the classic subform mechanism, and shows how a List Box can substitute for a subform in some cases. List Boxes remain a core, actively developed 4D form object today (now with object/collection data sources and far richer column types), making this note's comparison still conceptually relevant even though the List Box feature set has grown substantially since 2005.",
+    "text": "This note captures a genuinely important architectural tradeoff from the early List Box era: trading the Subform's ease of setup for the List Box's reduced Client/Server chatter and transaction-free editing. That comparison remains broadly valid today — List Box (now with object/entity-selection/collection data sources rather than only classic arrays) has become the default choice for most tabular editing in current 4D applications, and classic Subforms are used far less often. The specific array-based mechanics shown here (SELECTION TO ARRAY / ARRAY TO SELECTION) still work, though ORDA-based List Box data sources now offer an alternative that avoids manual array management altogether.",
     "status": "still_relevant",
     "related_updates": [
       "4D's List Box object has been substantially enhanced since 2005, including object/entity-selection/collection-backed data sources (rather than only arrays), which this note predates",
-      "Modern 4D UI guidance generally favors List Box over classic subforms/output forms for most tabular data display and editing needs"
+      "Modern 4D UI guidance generally favors List Box over classic Subforms/output forms for most tabular data display and editing needs, exactly as this note anticipated"
     ]
   }
 }

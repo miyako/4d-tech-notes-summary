@@ -1,1 +1,1 @@
-Tech Note: Optimizing Writing to the Cache with 4th Dimension (TN 04-29, 4th Dimension v2003.3, July 2004) — an explanation of how 4th Dimension's data cache works and how writing the cache (index pages, records, deletion markers) to disk was optimized in 4th Dimension 2003, with guidance on setting cache memory.
+How 4D 2003 optimized cache-to-disk writes by sorting objects into disk order before flushing

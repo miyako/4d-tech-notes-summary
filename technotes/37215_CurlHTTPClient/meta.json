@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thomas Maul",
   "page_url": "https://kb.4d.com/assetid=37215",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_17-20_(MAY)/05-18_cURL_and_4D_2004.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_17-20_(MAY)/05-18_cURL_and_4D_2004.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "cURL command-line tool",
-    "LAUNCH EXTERNAL PROCESS command",
-    "HTTP(S)/FTP(S) client operations from 4D"
+    "LAUNCH EXTERNAL PROCESS command (4D 2004)",
+    "cURL command-line HTTP(S)/FTP(S) client",
+    "Cookie-jar session persistence (-b/-c)",
+    "User-Agent and Referrer spoofing (-A/-e)",
+    "HTTP POST form automation",
+    "MacRoman-to-URL character encoding",
+    "On Timer-driven incremental binary downloads via RunCurlBlob"
   ],
   "historical_commentary": {
-    "text": "This note shows how to drive the free, cross-platform cURL command-line tool from 4D 2004 via the new LAUNCH EXTERNAL PROCESS command, to perform HTTP(S) GET/POST, form submission, cookie/auth/User-Agent handling, and FTP(S) operations without a dedicated HTTP client library built into 4D. This shelling-out approach became largely unnecessary once 4D introduced native HTTP Client commands (in 4D v13), though invoking external command-line tools via LAUNCH EXTERNAL PROCESS remains a valid and still-used technique for other integration needs.",
+    "text": "This note shows an inventive way to gain full-featured HTTP(S)/FTP(S) client capability in 4D 2004 without writing a plug-in, by shelling out to cURL via the then-new LAUNCH EXTERNAL PROCESS command — impressively handling cookies, POST forms, and User-Agent spoofing entirely through command-line flags and text parsing. This shelling-out approach became largely unnecessary once 4D introduced native HTTP Client commands (4D v13, 2012) that provide the same GET/POST/cookie/auth capabilities directly in the language. LAUNCH EXTERNAL PROCESS itself, however, remains a valid and still-used 4D command for invoking other external command-line tools.",
     "status": "superseded",
     "related_updates": [
-      "4D introduced native HTTP Client commands (HTTP Request and related commands, 4D v13, 2012) providing built-in GET/POST/cookie/auth support without shelling out to cURL",
+      "4D introduced native HTTP Client commands (HTTP Request and related APIs, added in 4D v13, 2012) providing built-in GET/POST/cookie/auth support without shelling out to cURL",
       "LAUNCH EXTERNAL PROCESS itself remains part of the current 4D language and is still commonly used to invoke external command-line tools for other integration needs"
     ]
   }

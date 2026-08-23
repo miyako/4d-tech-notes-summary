@@ -7,21 +7,24 @@
   "product": "4th Dimension",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=32705",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-20_Full_SOAP_Response.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://@ftp.4D.com/ACI_TECHNICAL_NOTES/2004/MacOS/TN_2004_16-20_(APR)/04-20_Full_SOAP_Response.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "CALL WEB SERVICE command",
-    "SOAP (Simple Object Access Protocol)",
-    "4D native Web Service client"
+    "CALL WEB SERVICE command with Web Service Manual Out argument",
+    "GET WEB SERVICE RESULT (dynamic vs. manual/full BLOB modes)",
+    "Web Service Dynamic vs. Web Service Manual Out constants",
+    "Parse XML variable on a raw SOAP response BLOB",
+    "XML_Utilities component (xutil_GetValue) for manual value extraction",
+    "SOAP debugging and fault handling"
   ],
   "historical_commentary": {
+    "text": "This note explains how to bypass 4th Dimension's automatic SOAP response binding and instead retrieve the complete raw SOAP message body as a BLOB, by calling CALL WEB SERVICE with the Web Service Manual Out argument instead of Web Service Dynamic, then parsing it manually with Parse XML variable or the companion XML_Utilities component. This was a genuinely useful debugging and flexibility technique in the SOAP era, letting developers see server-added/renamed elements and read values not bound to declared parameters. SOAP itself has since been broadly superseded by REST and JSON as the default web-service integration approach industry-wide, and 4D's own strategy shifted decisively to REST/ORDA (2017+), though the CALL WEB SERVICE command and this manual-parsing technique likely still function in current 4D for legacy SOAP integrations.",
     "status": "superseded",
-    "text": "This note documents an advanced technique for reading raw SOAP responses in 4th Dimension's native Web Service client, reflecting the SOAP-centric web-services standard that dominated enterprise integration in the early-to-mid 2000s. SOAP itself has since been broadly superseded by REST and JSON as the default approach for web service integration industry-wide, and 4D's own web services direction has moved decisively toward REST APIs (particularly via ORDA, introduced 2017+), though the CALL WEB SERVICE command and SOAP client capability described here likely still exist in current 4D for legacy integration needs.",
     "related_updates": [
       "REST and JSON have broadly replaced SOAP as the dominant web-service integration standard industry-wide",
-      "4D's own web-services strategy has shifted to REST APIs built on ORDA, alongside continued support for legacy SOAP-based commands"
+      "4D's own web-services strategy has shifted to REST APIs built on ORDA (introduced 2017+), alongside continued support for legacy SOAP-based commands like CALL WEB SERVICE"
     ]
   }
 }

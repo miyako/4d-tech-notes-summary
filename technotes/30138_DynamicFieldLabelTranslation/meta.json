@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Bertrand Soubeyrand",
   "page_url": "https://kb.4d.com/assetid=30138",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_44-47_(OCT)/03-47_Dynamic_Transmission.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_44-47_(OCT)/03-47_Dynamic_Transmission.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Structure introspection",
-    "Field labels / localization"
+    "SET TABLE TITLES / SET FIELD TITLES",
+    "GET TABLE TITLES / GET FIELD TITLES (new in 4D 2003)",
+    "4D choice lists as a renaming data store",
+    "RESOLVE POINTER for generic table/field lookup",
+    "ARRAY TO LIST / LIST TO ARRAY",
+    "Table() / Field() pointer commands"
   ],
   "historical_commentary": {
-    "text": "The general need for dynamic field-label localization remains relevant, but current 4D applications have far richer built-in language/resource management and, in Project Mode, more flexible structure definitions, making this specific 2003-era 15-line workaround largely superseded by more robust modern localization tooling.",
-    "status": "superseded",
+    "text": "The SET/GET TABLE TITLES and SET/GET FIELD TITLES commands featured here are still part of the current 4D language and still work as described for classic-mode structures, so the mechanics of this note remain technically valid. In practice, though, modern 4D applications built on ORDA and current form/list-box objects increasingly rely on the data model's own titles, computed attributes, and resource-based localization rather than runtime table/field-title renaming, so this specific technique is now more of a classic-mode-era pattern than the default approach to multilingual UI in current 4D.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D has since added more comprehensive built-in resource/language management features for localization than existed in 2003",
-      "Project Mode's text-based structure (introduced in 4D v17) offers more flexible ways to manage structural metadata than the binary structure file this note targeted"
+      "SET/GET TABLE TITLES and SET/GET FIELD TITLES remain valid, supported 4D commands today",
+      "Modern 4D applications built on ORDA and current form/list-box objects more commonly handle multilingual labeling through the data model's own titles or resource-based localization rather than runtime title renaming"
     ]
   }
 }

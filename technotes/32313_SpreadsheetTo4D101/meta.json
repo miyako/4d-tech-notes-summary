@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Sati Hillyer, 4D Technical Support Engineer",
   "page_url": "https://kb.4d.com/assetid=32313",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-16_Spreadsheet_to_4D_101.exe",
-  "content_source": "teaser_only",
-  "author_guess": null,
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_16-20_(APR)/04-16_Spreadsheet_to_4D_101.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Import Dialog and import language commands",
-    "ODBC connectivity"
+    "4D Import Dialog (manual import of CSV/TXT/SYLK/DIFF)",
+    "IMPORT DATA / IMPORT SYLK / IMPORT DIFF commands",
+    "4D View plug-in for spreadsheet-like display",
+    "ODBC import from Excel via 4D's ODBC plug-in (Windows only)",
+    "Automatic table/form creation from imported data",
+    "ARRAY POINTER-based table iteration (mStartup/LoadRecords)"
   ],
   "historical_commentary": {
-    "text": "This introductory note walks new 4D developers through migrating spreadsheet data into a 4D database using both the built-in Import Dialog and ODBC, a very common early-career onboarding task in the pre-SQL 4D era. The manual/programmatic import workflow it teaches is still conceptually present in modern 4D, but ODBC as the primary path for external data connectivity has been substantially supplemented (and in many cases supplanted) by 4D's native SQL engine and later ORDA-based data access, making the specific mechanics here dated though the beginner-oriented intent remains recognizable.",
-    "status": "superseded",
+    "text": "This tutorial-style note walks through the many ways 4D 2003/2004 can bring Excel spreadsheet data into a 4D database: manual and programmatic import of CSV/TXT/SYLK/DIFF files (with or without automatic table creation), loading data into a 4D View spreadsheet-like area, and pulling data directly from Excel via ODBC on Windows. It's a solid beginner-oriented survey of the era's import capabilities and their format-by-format feature matrix (e.g., which formats support auto table creation vs. import into an existing table). The native IMPORT DATA/SYLK/DIFF commands and the 4D Import Dialog remain part of current 4D, so the core import techniques are still usable, but modern 4D developers increasingly favor CSV/JSON import via newer commands and ORDA-based data loading, and the 4D View plug-in and Windows-only Excel ODBC workflow described are legacy-specific paths less commonly used today.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D gained a native SQL engine starting with 4D v11 SQL (~2007), reducing reliance on ODBC for structured data querying/import scenarios",
-      "Modern 4D offers broader import/export tooling (including JSON, and more automated import mapping) beyond the 2004-era Import Dialog and ODBC-only approach"
+      "4D's native IMPORT DATA and related import commands remain part of current 4D, though modern workflows often use CSV/JSON-based import or ORDA for bulk data loading",
+      "The 4D View plug-in and the Windows-only Excel ODBC import path described are legacy techniques, less central to current cross-platform 4D development",
+      "4D has since added broader native support for structured data formats (e.g. JSON), reducing reliance on SYLK/DIFF-era spreadsheet interchange formats"
     ]
   }
 }

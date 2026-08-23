@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=37622",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_21-24_(JUN)/05-23_Dynamic_Labels.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_21-24_(JUN)/05-23_Dynamic_Labels.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Form entry-rule visual feedback",
-    "Flashing/blinking label technique",
-    "Generic input-form UX pattern"
+    "4D Chart offscreen area drawing (CT New offscreen area, CT Draw text, CT Area to picture)",
+    "Picture button Animation frame-cycling",
+    "Overlapping picture-button/label UI pattern",
+    "SET VISIBLE-driven show/hide validation feedback",
+    "REJECT / REDRAW WINDOW validation flow"
   ],
   "historical_commentary": {
-    "text": "This note offers a simple, generic technique using flashing labels as a visual cue to draw a user's attention back to a field that failed an entry rule and needs re-entry, rather than only relying on a modal error dialog. The general UX goal \u2014 giving clear, in-context visual feedback for invalid form input \u2014 is timeless and still relevant, though the specific blinking-label implementation (likely built on classic timers/On Timer form events) would today more likely be implemented with modern styling cues (colored borders, inline messages, or tooltips) common in current UI conventions.",
+    "text": "The underlying goal here — clear, in-context visual feedback for a failed entry rule, rather than an interruptive modal Alert — is timeless and still a common UX requirement in 4D forms today. The specific implementation, however, is a product of its era: it depends on the 4D Chart plug-in to rasterize label text into red/white picture frames and on the classic Animation picture-button property to cycle them. Modern 4D form design would more likely achieve the same attention-drawing effect with colored field borders, inline error text, or icon badges driven by object formatting properties, without needing a plug-in-rendered picture at all.",
     "status": "still_relevant",
     "related_updates": [
-      "Modern form UX generally favors inline validation messages, colored field borders, or icons over blinking text for drawing attention to invalid fields",
-      "The underlying 4D mechanism for timed/animated visual effects (form object property changes driven by a timer) is still available in current classic-language forms"
+      "Modern form UX generally favors inline validation messages, colored field borders, or icons over blinking pictures for drawing attention to invalid fields",
+      "4D Chart-based offscreen text rendering is a legacy technique; current form object formatting/conditional-style properties can achieve similar visual feedback without generating pictures"
     ]
   }
 }

@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Frank Chang",
   "page_url": "https://kb.4d.com/assetid=29728",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-28_Security_Data_Encrypt.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_26-30_(JUN)/03-28_Security_Data_Encrypt.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Data encryption",
-    "Application-to-application security"
+    "RSA public-key encryption",
+    "Modulus/GCD-based key generation",
+    "ASCII character-value encryption",
+    "4D Real-number arithmetic for cryptography",
+    "Encryption Demo 1 sample database"
   ],
   "historical_commentary": {
-    "text": "Data encryption remains a fundamental, still highly relevant concern for any networked application, but the specific cryptographic commands/algorithms available to 4D developers in 2003 have since been superseded by more modern, standards-based encryption support (e.g., TLS/SSL for transport security and stronger built-in encryption commands) in current 4D versions.",
+    "text": "Explaining and implementing RSA from first principles in 4D methods was a genuinely useful educational exercise in 2003, when 4D developers had few built-in cryptography options and needed to understand the underlying math to secure their own protocols. Data encryption itself remains as critical a concern today as ever, but this specific from-scratch, real-number-arithmetic RSA implementation is now clearly superseded: modern 4D provides built-in, standards-based encryption commands (e.g. Generate encryption keypair, Encrypt data/Decrypt data, and X.509-based key management) plus native TLS/SSL support for transport security, all of which are far more secure and performant than a hand-rolled demo intended for teaching rather than production use.",
     "status": "superseded",
     "related_updates": [
-      "Current 4D versions provide more modern built-in encryption and TLS/SSL transport security options than were available in 2003"
+      "Current 4D versions provide built-in cryptography commands (e.g. Generate encryption keypair, Encrypt data, Decrypt data) rather than requiring a from-scratch RSA implementation",
+      "Native TLS/SSL support in 4D's HTTP/network layers now handles transport-level encryption that this note's manual approach did not address"
     ]
   }
 }

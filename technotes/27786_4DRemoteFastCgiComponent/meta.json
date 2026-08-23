@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Julien Feasson, Software Engineer, 4D, Inc. Information Systems",
   "page_url": "https://kb.4d.com/assetid=27786",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_30-35_(JUL)/02-31_Remote_Fast_CGI.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_30-35_(JUL)/02-31_Remote_Fast_CGI.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "FastCGI",
-    "Remote/component-based web server integration"
+    "FastCGI protocol (FCGI_Record structure)",
+    "4D remote FastCGI component",
+    "FCGI_Accept / FCGI_Send API functions",
+    "FCGI_ValueVar / FCGI_ValueParam API functions",
+    "4D WebSTAR V web server integration",
+    "CGI vs. server-API vs. FastCGI architecture comparison"
   ],
   "historical_commentary": {
-    "text": "FastCGI-based integration of the kind described here has been largely superseded by 4D's own mature, built-in web server, which now handles dynamic web content generation directly without requiring a separate FastCGI component, making this note's architecture obsolete for current 4D web deployments.",
+    "text": "This note documents a genuinely clever piece of engineering for its time: implementing the FastCGI responder role directly inside 4D (via FCGI_Accept/FCGI_Send and related functions) so 4D could sit behind any FastCGI-capable web server, such as 4D WebSTAR V, as a persistent process rather than a per-request CGI. It reflects an era when 4D's own web serving was primitive and developers had to bridge to external web servers for performance. FastCGI-based bridging of this kind is now essentially obsolete for 4D web work, since 4D has shipped a fast, built-in, natively multi-threaded web server for many versions, eliminating the need to proxy requests through a separate FastCGI layer. The general architectural lesson -- isolating request handling in a persistent process instead of spawning one per request -- remains valid computer-science knowledge but is no longer something 4D developers need to implement themselves.",
     "status": "obsolete",
     "related_updates": [
-      "4D's own built-in web server has long superseded the need for a separate remote FastCGI component for serving dynamic 4D-driven web content"
+      "4D's built-in web server (developed extensively since the mid-2000s through current versions) natively serves dynamic content with high performance, removing any need for a separate FastCGI bridge component",
+      "The 4D remote FastCGI component and its FCGI_Accept/FCGI_Send API described here are not part of modern 4D and are not maintained"
     ]
   }
 }

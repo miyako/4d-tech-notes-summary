@@ -7,21 +7,23 @@
   "product": "4th Dimension",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=33989",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-37_Select_Document.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_36-40_(AUG)/04-37_Select_Document.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Select Document command (4D 2004)",
-    "File/document selection dialogs"
+    "Select document command (4D 2004)",
+    "File-type filtering in file selection dialogs",
+    "Multiple files / Alias selection / Package open / Package selection option constants",
+    "Mac OS X package (bundle) selection"
   ],
   "historical_commentary": {
-    "text": "This note introduces the Select Document command, new in 4D 2004, which gave developers greater power over file selection dialogs than any prior mechanism. The Select Document command has remained part of the current 4D classic language largely unchanged in concept, continuing to serve as a standard way to prompt users for a file to open, so the core technique this note teaches is still directly applicable today, even though the specific dialog appearance and OS-level file picker conventions shown have naturally evolved over twenty years of macOS and Windows releases.",
-    "status": "still_relevant",
+    "text": "This note documents Select document as a genuinely new and more capable file-selection command for 4D 2004, and the command has remained part of the 4D classic language essentially unchanged in concept, so the core technique -- building an options bitmask from constants like Multiple files and Alias selection -- is still directly usable today. What has moved on are the specifics: modern macOS/Windows native file pickers look and behave differently than in 2004, and 4D has since layered additional document/file and ORDA-based file-handling commands on top of the same foundational command shown here.",
+    "status": "partially_superseded",
     "related_updates": [
-      "Select Document remains part of the current 4D classic language command set and continues to function as a standard file-open dialog command",
-      "The underlying macOS/Windows native file picker dialogs have changed appearance and behavior considerably since 2004, though the 4D command interface remains conceptually the same",
-      "4D has since added complementary document/file-handling commands and, more recently, ORDA/REST-friendly ways to reference and manage files"
+      "Select document remains part of the current 4D language and continues to serve as the standard command for prompting the user to choose one or more files",
+      "The underlying native macOS/Windows file-selection dialogs have changed appearance and behavior considerably since 2004",
+      "4D has since added further document/file management and ORDA-based file-reference commands that complement Select document for modern workflows"
     ]
   }
 }

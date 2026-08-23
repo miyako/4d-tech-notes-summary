@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Olivier Deschanels",
   "page_url": "https://kb.4d.com/assetid=29731",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-26_Record_to_BLOB.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_26-30_(JUN)/03-26_Record_to_BLOB.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "BLOB serialization",
-    "Record storage techniques"
+    "BLOB byte-level packing (INTEGER TO BLOB / LONGINT TO BLOB / TEXT TO BLOB / REAL TO BLOB)",
+    "Custom self-describing binary record format",
+    "SET BLOB SIZE / COPY BLOB",
+    "PICTURE TO BLOB for embedded images",
+    "Field introspection (Type, Count fields, Field)"
   ],
   "historical_commentary": {
-    "text": "The specific need this note addresses has been largely superseded by 4D's later native Object/Collection data types and JSON serialization commands, which now provide a far more natural, structured way to serialize record-like data than manual BLOB packing, making this note's technique obsolete for new development though still historically instructive.",
+    "text": "In 2003, hand-packing records into BLOBs byte-by-byte was the only realistic way to get compact, structured record serialization in 4D, and this note's versioned, self-describing header design was a genuinely careful piece of engineering for its era. That need has since been almost entirely superseded by 4D's native Object and Collection data types together with JSON serialization commands (JSON Stringify/Parse, entity selections, etc.), which provide a far simpler, more maintainable way to serialize record-like data without manual offset arithmetic. The technique remains historically instructive for understanding 4D's low-level BLOB commands, but no team would build this today.",
     "status": "superseded",
     "related_updates": [
-      "4D's native Object/Collection data type and JSON serialization commands now provide a much simpler way to serialize structured record data than manual BLOB packing"
+      "4D's native Object/Collection data types and JSON serialization commands (JSON Stringify, JSON Parse, etc.) now provide a much simpler way to serialize structured record data than manual BLOB packing",
+      "ORDA entity selections offer a further modern alternative for capturing and transferring structured record data between 4D databases"
     ]
   }
 }

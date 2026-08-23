@@ -1,1 +1,1 @@
-Tech Note: 4D 2003 and RSS (TN 03-20, 4D v2003, April 2003) — a demonstration of retrieving and publishing an RSS feed using 4D 2003's new XML parsing capabilities, since RSS is itself a form of XML.
+Retrieving, parsing, and republishing RSS 0.91/1.0/2.0 feeds using 4D 2003's new native XML parsing commands

@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Larry Sharpe",
   "page_url": "https://kb.4d.com/assetid=38073",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_25-27_(JUL)/05-25_ChangeableOutputForm.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_25-27_(JUL)/05-25_ChangeableOutputForm.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Dynamic output/list form columns",
-    "Layout variables",
-    "Runtime UI customization"
+    "Runtime-configurable output form columns via layout variables",
+    "Output_Columns project method (Case of $command dispatch)",
+    "Modifier-click header interactions (Control/Option/Command/right-click)",
+    "4D 2004 form Views (layered form objects)",
+    "Sequence number trigger for unique IDs",
+    "In-memory (non-persisted) session preferences"
   ],
   "historical_commentary": {
-    "text": "This is the first note in the output-form-customization series (later extended by \"User Preferences\"), demonstrating how to let end users pick which fields populate each output form column, along with per-column header text, number/date/time/boolean formatting, and alignment, all driven at runtime by four layout variables per column and one reusable method. This kind of dynamic, end-user-configurable list view remains a legitimate and common feature request today, but modern 4D development would typically implement it using List Box object/collection column configuration rather than classic output form layout variables.",
+    "text": "This note demonstrates a resourceful runtime-customization technique for classic output forms, built entirely from layout variables, popups, and modifier-click gestures, with an explicit plan to add persistence in a follow-up note. The end-user goal — customizable column layout in list views — remains a common requirement, but current 4D development would typically implement it with the List Box object's built-in column/data-source configuration APIs rather than classic output form layout variables and manual positioning code. The follow-up note in this same series (\"User Preferences\", 05-28) extended this exact technique with BLOB-based persistence, which has itself since been superseded by JSON/object-based settings storage.",
     "status": "superseded",
     "related_updates": [
       "Modern dynamic/user-configurable tabular views in 4D are generally built with the List Box object's programmatic column and data-source APIs (introduced/expanded well after 2005) rather than classic output form layout variables",
-      "The follow-up 'User Preferences' Tech Note (05-28) extended this exact technique to persist choices to a table \u2014 that persistence approach has itself since been superseded by JSON/object-based settings storage"
+      "The direct follow-up Tech Note \"User Preferences\" (05-28) extended this technique to persist choices to a table — a persistence approach that has itself since been superseded by JSON/object-based settings storage"
     ]
   }
 }

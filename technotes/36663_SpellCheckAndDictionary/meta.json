@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thang Nguyen",
   "page_url": "https://kb.4d.com/assetid=36663",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-12_Spellcheck&Dictionary.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-12_Spell_Check_and_Dictionary.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D 2004 built-in spell-check feature",
-    "4D Dictionary management",
-    "Personal dictionary synchronization"
+    "SPELL CHECKING command",
+    "SET DICTIONARY command and language/variant constants",
+    "WR SET AREA PROPERTY (wr on the fly spellchecking) for 4D Write areas",
+    "Personal dictionary files (persoxxxxx.dic)",
+    "Get 4D folder command for locating dictionary storage",
+    "SEND PACKET / RECEIVE PACKET for merging dictionary files"
   ],
   "historical_commentary": {
-    "text": "This note explains 4D 2004's newly integrated spell-check feature and how to manage and synchronize personal dictionaries across a database, a text-quality convenience for Design Mode-era 4D applications. Spell-checking as a UI feature is a timeless concept, but the specific 4D 2004 dictionary file/synchronization mechanism described predates two decades of subsequent 4D language, forms, and platform evolution, so the concrete mechanics are now largely of historical interest. Only the teaser paragraph could be recovered for this note, so deeper technical details are unavailable.",
-    "status": "historical_interest_only",
+    "text": "Thang Nguyen documents 4D 2004's then-new integrated spell-checker: how to enable it declaratively via the property list or 4D Write preferences, or programmatically via SPELL CHECKING and WR SET AREA PROPERTY, how to switch between the four bundled language dictionaries with SET DICTIONARY, and how to merge personal .dic files by hand since 4D doesn't support multiple simultaneous personal dictionaries out of the box. The core spell-check commands and dictionary architecture described here are still part of 4D today with only incremental changes, making this note largely still relevant as a reference for classic form-based text/alpha field spell-checking, though 4D Write itself has since been superseded by 4D Write Pro for rich document editing.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's text editing and spell-check integration has evolved substantially across two decades of subsequent releases",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "4D Write Pro (introduced 2016) is now the primary rich-text/document editing area in 4D, superseding classic 4D Write; its spell-check configuration differs from the WR SET AREA PROPERTY approach shown here",
+      "The core SPELL CHECKING and SET DICTIONARY commands for Alpha/Text fields remain part of the current 4D language with the same fundamental behavior described in this note"
     ]
   }
 }

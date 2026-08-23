@@ -1,1 +1,1 @@
-Tech Note: Process HTML Tags and more! (TN 04-49, 4D v2004, December 2004) — highlights the Process HTML Tags command as a powerful tool for mail-merge-style document generation and general-purpose maintenance tasks.
+Using PROCESS HTML TAGS outside the Web server to generate templated emails, Word documents, and run external 4D scripts

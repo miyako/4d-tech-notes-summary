@@ -7,21 +7,25 @@
   "product": "4th Dimension",
   "version": "2003.3",
   "platform": "Win",
-  "author": null,
+  "author": "Thang Nguyen (4D Technical Support); plug-in by Thomas Maul, General Manager, 4D Germany",
   "page_url": "https://kb.4d.com/assetid=33063",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-25_4D_GDIPlus_Image.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_21-25_(MAY)/04-25_4D_GDIPlus_Image.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "GDIPlus_Image plug-in",
-    "Microsoft Windows GDI+",
-    "Image format conversion (BMP/JPG/GIF/EMF/WMF/TIF/PNG/ICO)"
+    "Microsoft Windows GDI+ graphics API",
+    "Multi-format image conversion (BMP/JPG/GIF/EMF/WMF/TIF/PNG/ICO)",
+    "Picture rotate/flip/zoom/crop/scroll display properties",
+    "GDI+ matrix transformations (rotate/scale/translate/shear)",
+    "Codec/decoder enumeration"
   ],
   "historical_commentary": {
+    "text": "This note (Part I of II) introduces a third-party, Windows-only plug-in built by 4D Germany's Thomas Maul around Microsoft's then-new GDI+ API, primarily to let 4D avoid requiring Apple QuickTime on Windows machines for image conversion and manipulation. The GDIPlus_Image plug-in itself was never part of 4D's core distribution and has not been maintained for modern 4D versions, so it is obsolete as practical guidance today. However, 4D's own native picture-handling commands (and the OS's built-in imaging frameworks) have since expanded to cover most of what this specialized plug-in once uniquely provided.",
     "status": "obsolete",
-    "text": "This note introduces a third-party, Windows-only plug-in (GDIPlus_Image) built around Microsoft's GDI+ API for image format conversion and manipulation in 4D applications circa 2004; the plug-in itself is not part of any current 4D distribution and has not been maintained for modern 4D versions. 4D's own native picture-handling commands and supported formats have since expanded considerably, covering much of what this specialized plug-in once uniquely provided, which renders the plug-in and this introduction obsolete as practical guidance even though the plug-in architecture concept it demonstrates remains valid.",
     "related_updates": [
-      "4D's built-in picture/image commands have grown substantially since 2004, reducing the need for specialized third-party image plug-ins",
-      "The underlying 4D plug-in API itself was significantly modernized starting with 4D v11 SQL (Unicode, Universal Binary, later 64-bit support)"
+      "4D's built-in picture/image commands have grown substantially since 2004, reducing dependency on third-party image plug-ins for basic format conversion",
+      "Modern 4D no longer depends on Apple QuickTime for Windows picture handling, which was the core problem this plug-in worked around",
+      "The GDIPlus_Image plug-in was never incorporated into 4D's core product and is not available for current 4D versions"
     ]
   }
 }

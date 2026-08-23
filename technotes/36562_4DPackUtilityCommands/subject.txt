@@ -1,1 +1,1 @@
-Tech Note: 4D Pack 2004.1's New Utility Commands (TN 05-11, 4D v2004.1, March 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing 4d pack plug-in.
+Using 4D Pack 2004.1's new AP Add table and fields, AP Create relation, and AP Get templates commands to build a database structure programmatically

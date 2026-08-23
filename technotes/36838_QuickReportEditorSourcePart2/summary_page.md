@@ -1,23 +1,44 @@
-# Tech Note 05-14: 4D Quick Report Editor Source Code - Part II
+# Tech Note: 4D Quick Report Editor Source Code - Part II
 
-**Published:** April 7, 2005 | **Product/Version:** 4D v2004 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=36838
-**Download:** https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-14_QR_Editor_Source_II.exe
+- **Asset ID:** 36838
+- **Tech Note #:** 05-14
+- **Published:** April 7, 2005
+- **Product / Version:** 4D 2004
+- **Platform:** Mac & Win
+- **Author:** Kent Wilbur
+- **Page URL:** https://kb.4d.com/assetid=36838
+- **Download:** https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-14_QR_Editor_Source_II.hqx
 
 ## Overview
-This is the second in a series of Tech-notes regarding the source code for the Quick Report Editor. This section will deal with the code behind using the Quick Report editor in manual mode. If you haven't read Part 1, I suggest you start there because this technical note will assume familiarity with the material covered there.
+
+Kent Wilbur (4D, Inc.) continues his Quick Report editor source-code series with Part 2, covering the manual-mode form page used when an end user builds a report without the wizard. The note walks through handling drag-and-drop and double-click interactions between the hierarchical field lists and the plug-in report area, and the more subtle mechanics of keeping multiple visible sort-order indicators synchronized for both list-style and cross-tab reports.
 
 ## Key Points
-- This entry is **teaser_only**: the full PDF/example archive for this note was not recoverable in this environment, so only the on-page teaser paragraph above is available as source material.
-- No further internal technical detail (step-by-step instructions, code listings, screenshots) beyond this teaser can be confirmed or summarized without fabrication.
+
+- Describes the manual-mode form page layout: Table/select-from popups and a primary hierarchical field list in one view; a static table-name label, related-table field list, and cross-tab sort options in a second overlapping view.
+- NQR_MP_CALL acts as the central dispatch method handling user actions directed at the plug-in report area.
+- Documents the code for handling drag-and-drop of fields from the hierarchical lists into the plug-in area, plus double-click handling as an alternative interaction path.
+- Covers 'Sorting the list style report' — the logic for keeping the sort-order hierarchical list synchronized as the user adds/removes/reorders sort fields.
+- Explains 'Synchronizing the visible sorting hierarchical lists' — a technique for making a single underlying list appear consistently in more than one on-screen location, described as the series' key trick.
+- Covers a parallel 'Synchronizing the cross tab sorting indicators' section for cross-tab report sort behavior, distinct from the list-style logic.
+- Assumes and builds directly on the virtual-structure and hierarchical-list-building code introduced in Part 1; sets up Part 3's coverage of the wizard.
 
 ## Featured Technology
-- 4D Quick Report editor
-- 4D Quick Report commands/API
-- Manual mode reporting
-- 4D 2003/2004 source code component
 
-## Historical Context
-Published on April 7, 2005 as Tech Note 05-14 for 4D v2004, this note dates to 4D's pre-SQL, Design Mode-only era (4D 2003/2004/2004.1), predating 4D's native SQL engine (v11 SQL, ~2007), ORDA (2018), and Project Mode (v17, 2018). Status: **historical interest only**. This note documents source code for customizing the classic 4D Quick Report editor's manual mode, a feature of the pre-SQL 4D 2003/2004 era Design Mode environment. The classic Quick Report editor and its underlying command set have long since been superseded in modern 4D development by List Box-based reporting, 4D Write Pro, and ORDA-driven reporting approaches, making this specific source-code walkthrough of largely historical interest today. Only the teaser paragraph for this note could be recovered, so no detailed technical content is available to assess further.
+- 4D Quick Report editor manual mode form page
+- NQR_MP_CALL dispatch method
+- Drag and drop handling in the plug-in area
+- Double-click handling for hierarchical field lists
+- List-style and cross-tab sort-order synchronization
+- Hierarchical list synchronization across multiple visible copies
 
-**Note:** The full archive for this Tech Note (PDF and/or example code download) could not be recovered in this environment — the source download format is no longer accessible — so this summary is necessarily based only on the short teaser paragraph published on the Tech Note's page, not the complete original document.
+## Historical Commentary
+
+**Status:** Historical Interest Only
+
+The second installment of Kent Wilbur's Quick Report editor source-code series dissects the manual-mode form page: the popups, hierarchical lists, drag-and-drop handling into the plug-in report area, and the logic that keeps multiple on-screen sort-order indicators synchronized for both list-style and cross-tab reports. It is a detailed, code-level tour of a specific classic-4D form implementation rather than a general-purpose technique, so its direct applicability faded once 4D moved reporting toward List Box objects and 4D Write Pro; the drag-and-drop and multi-list-synchronization patterns it documents, however, illustrate general classic-4D form-event programming that developers maintaining legacy databases may still encounter.
+
+References to newer/updated information:
+
+- List Box-based reporting and 4D Write Pro have superseded the classic Quick Report editor's manual mode described here
+- The drag-and-drop and multi-list-synchronization form-event patterns documented are general classic-4D techniques, still valid for legacy code but not the primary approach in current object/List Box-driven development

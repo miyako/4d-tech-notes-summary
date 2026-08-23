@@ -1,1 +1,1 @@
-Tech Note: Advanced Method Editor Macros (TN 05-01, 4D v2004, January 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing 4d method editor macros.
+Using the new method tag in 4D 2004's Method Editor Macros to call project methods and generate or manipulate code

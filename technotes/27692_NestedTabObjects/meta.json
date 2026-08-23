@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hartman, MCP, Information Systems, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=27692",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-18_Tab_Objects.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_16-20_(APR)/03-18_Tab_Objects.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Tab control form objects",
-    "Multi-page form navigation"
+    "Tab control form objects (introduced 4D v6)",
+    "SET LIST ITEM PROPERTIES command (enable/disable tabs)",
+    "Selected list item command",
+    "SET VISIBLE with wildcard object-name matching for page groups",
+    "Nested tab controls for hierarchical, role-based UI navigation"
   ],
   "historical_commentary": {
-    "text": "Tab Control form objects remain a supported, still-used 4D form object today, so the core technique of nesting tab controls for hierarchical navigation remains directly applicable in current 4D applications, making this a still relevant, if dated in specific presentation, piece of UI guidance.",
-    "status": "still relevant",
+    "text": "Steve Hartman shows how to nest a second Tab Control object inside a page of a first Tab Control to build hierarchical, multi-level navigation, using an employee-records demo where role-based access dims certain top-level tabs (via SET LIST ITEM PROPERTIES) and a department-specific second-level tab control switches between grouped, wildcard-named form objects (via SET VISIBLE with '@' patterns). Tab Control objects remain a fully supported, still-used 4D form object today, and nesting them for hierarchical navigation is still a valid, directly applicable technique in classic 4D Forms. The specific commands shown (SET LIST ITEM PROPERTIES, Selected list item, SET VISIBLE with wildcards) are unchanged, though modern 4D form design increasingly favors object groups, subforms, and (in newer form technologies) more declarative page/panel components for some of the same multi-page use cases.",
+    "status": "still_relevant",
     "related_updates": [
-      "4D's Tab Control form object remains supported in current versions, so the nesting technique described here is still broadly applicable"
+      "Tab Control objects, SET LIST ITEM PROPERTIES, Selected list item, and SET VISIBLE with wildcard names all remain part of current 4D and work as described",
+      "Modern 4D form design also offers subforms and other page/panel-oriented UI components that can serve some of the same hierarchical-navigation purposes as nested tab controls, giving developers more options than existed in 2003"
     ]
   }
 }

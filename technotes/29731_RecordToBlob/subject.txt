@@ -1,1 +1,1 @@
-Tech Note: Record to BLOB (TN 03-26, 4D v2003, June 2003) — a technique for serializing a 4D record's field values into a BLOB, since no built-in 4D command performs this conversion directly.
+Hand-rolling a self-describing binary format to pack and unpack whole 4D records inside a BLOB field

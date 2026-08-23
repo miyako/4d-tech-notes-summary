@@ -1,28 +1,30 @@
 {
-  "asset_id": 35535,
-  "title": "Tech Note: Object Libraries",
-  "technote_number": "05-02",
-  "year": 2005,
-  "published_date": "January 13, 2005",
-  "product": "4D",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=35535",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_01-04_(JAN)/05-02_Object_Libraries.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "4D Object Libraries",
-    "4D Insider component libraries",
-    "Structure-file object storage"
-  ],
-  "historical_commentary": {
-    "text": "This note introduces Object Libraries, a new-in-2004 mechanism for storing reusable objects directly inside a 4D database's binary structure without needing the separate 4D Insider tool. This was an early step toward modularizing structure-file content, foreshadowing (though very different from) the later component and Project Mode architectures. The specific Object Library mechanism belongs to the binary Design Mode era and has been superseded by 4D's modern component system and Project Mode's plain-text, filesystem-based structure organization. Only the teaser paragraph could be recovered for this note.",
-    "status": "superseded",
-    "related_updates": [
-      "4D's component architecture and Project Mode (v17, 2018) now provide far more capable ways to package and reuse structure elements than binary Object Libraries",
-      "4D Insider itself is no longer part of the modern 4D product line",
-      "Full archive/PDF for this note could not be recovered in this environment"
-    ]
-  }
+    "asset_id": 35535,
+    "title": "Tech Note: Object Libraries",
+    "technote_number": "05-02",
+    "year": 2005,
+    "published_date": "January 13, 2005",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "Jonathan Le",
+    "page_url": "https://kb.4d.com/assetid=35535",
+    "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_01-04_(JAN)/05-02_Object_Libraries.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "4D Object Libraries (.4IL files)",
+        "EDIT FORM command with Object Library parameter",
+        "Current form table / Table name (generic, table-independent object methods)",
+        "Standard Action object libraries",
+        "LAUNCH EXTERNAL PROCESS, APPLY XSLT TRANSFORMATION, PROCESS HTML TAGS (used by bundled Office/iApps libraries)"
+    ],
+    "historical_commentary": {
+        "text": "Jonathan Le's note introduces Object Libraries, a new 4D 2004 mechanism for saving reusable form objects (with their properties and object methods) into a standalone .4IL file that can be shared between databases without the separate 4D Insider tool, and shows how the new EDIT FORM command lets end users customize 'Editable Forms' using a supplied Object Library. It also details design patterns for writing generic, database-independent object code using Current form table rather than hard-coded table pointers. This binary Design Mode-era mechanism, along with 4D Insider itself, was superseded by 4D's modern Project Mode (introduced in v17/2018) and component architecture, which offer far more powerful and text-based ways to package and reuse form elements and code across databases.",
+        "status": "superseded",
+        "related_updates": [
+            "4D Insider is no longer part of the modern 4D product line",
+            "4D's Project Mode (v17, 2018) and component system now provide filesystem-based, far more capable mechanisms for sharing and reusing forms, objects, and code across databases",
+            "The generic-coding guidance (using Current form table instead of hard-coded table pointers) remains good practice in modern 4D development"
+        ]
+    }
 }

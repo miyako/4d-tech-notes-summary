@@ -7,21 +7,23 @@
   "product": "4th Dimension",
   "version": "2003.4",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Julien Feasson (Software Engineer, 4D Inc.)",
   "page_url": "https://kb.4d.com/assetid=33721",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-34_Intro_to_XSLT.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_31-35_(JUL)/04-34_Intro_to_XSLT.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "XSLT",
-    "XML transformation commands",
-    "4D Export dialogs XML/XSLT integration"
+    "APPLY XSLT TRANSFORMATION command",
+    "SET XSLT PARAMETER / GET XSLT ERROR commands",
+    "XSLT (XSL Transformations) applied to XML documents or variables",
+    "Export dialog 'Refer to existing XSL' / 'Insert a link to the XSL file' options"
   ],
   "historical_commentary": {
+    "text": "This note captures 4D's investment in native XML/XSLT tooling during the mid-2000s XML era, and the APPLY XSLT TRANSFORMATION, SET XSLT PARAMETER, and GET XSLT ERROR commands introduced here are still present and functional in current 4D. However, the broader industry has since moved from XML/XSLT to JSON for everyday data interchange and web APIs, and 4D itself added native JSON parsing and manipulation commands that most modern 4D developers reach for instead of XSLT transformations for routine format-conversion tasks, leaving XSLT mostly relevant to legacy XML-centric workflows or specialized document-generation pipelines.",
     "status": "superseded",
-    "text": "This note captures 4D's mid-2000s investment in native XML/XSLT tooling at a time when XML was the dominant structured-data exchange format; 4D's XML and XSLT-related commands introduced in this era are still present in the current 4D language and technically functional. However, the broader industry has since largely superseded XML/XSLT with JSON for data interchange and web APIs, and 4D itself added native JSON parsing and manipulation commands (mid-2010s onward) that most modern 4D developers now reach for instead of XSLT transformations for everyday data conversion tasks.",
     "related_updates": [
-      "4D added native JSON support to its language, which now handles most lightweight data-interchange needs XSLT once served",
-      "Industry-wide, JSON has replaced XML/XSLT as the default format for web APIs and data exchange"
+      "4D added native JSON support to its language, which now handles most lightweight data-interchange needs that XSLT once served",
+      "Industry-wide, JSON has largely replaced XML/XSLT as the default format for web APIs and data exchange",
+      "The APPLY XSLT TRANSFORMATION, SET XSLT PARAMETER, and GET XSLT ERROR commands remain in the current 4D language for XML-centric transformation and reporting scenarios"
     ]
   }
 }

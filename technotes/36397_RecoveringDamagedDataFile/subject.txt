@@ -1,1 +1,1 @@
-Tech Note: Recovering a Damaged Data File (TN 05-09, 4D v2004, March 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing 4d data file recovery tools.
+Escalating techniques for recovering a corrupted 4D data file: 4D Tools Check/Repair/Recover by Tags, manual re-indexing, record 'massaging', and export-based last resorts

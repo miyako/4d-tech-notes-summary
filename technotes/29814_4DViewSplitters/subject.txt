@@ -1,1 +1,1 @@
-Tech Note: 4D View Splitters (TN 03-40, 4D View v2003, September 2003) — an introduction to panes and splitters in 4D View, covering the PV commands used to add, configure, and remove horizontal and vertical splitters.
+Programmatically adding, removing, and configuring frozen panes (splitters) in a 4D View spreadsheet area

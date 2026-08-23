@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Pierre Bonnais",
   "page_url": "https://kb.4d.com/assetid=29727",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-29_Using_LDAP_in_4D_Pt_2.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_26-30_(JUN)/03-29_Using_LDAP_in_4D_Pt_2.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "LDAP",
-    "Directory services authentication"
+    "LDAP (Lightweight Directory Access Protocol)",
+    "Mach-O plug-in architecture (Mac OS X)",
+    "CodeWarrior plug-in porting",
+    "4D Plug-in Wizard / 4D Transporter",
+    "On Web Authentication / 4DAction"
   ],
   "historical_commentary": {
-    "text": "LDAP remains a still-relevant, widely used directory-service protocol today (e.g., via Active Directory), so the core integration goal of this note is still valid, though modern 4D applications would typically use later, more capable LDAP-related commands and libraries, or delegate authentication to modern identity providers (SSO/OAuth) rather than raw LDAP binds.",
-    "status": "still relevant",
+    "text": "This note captures a very real, era-specific pain point: porting native C/C++ 4D plug-ins from the classic Mac OS resource-fork/CFM world to Mac OS X's then-new Mach-O runtime, including obscure linker fixes like the dyld_stub_bindin_helper/bundle1.o issue. That porting problem itself is now purely of historical interest since 4D plug-in development has moved on from CodeWarrior-era Mach-O bundle mechanics entirely. LDAP as a directory protocol, however, remains genuinely still relevant today (e.g., via Active Directory), though modern 4D applications more often authenticate through SSO/OAuth identity providers or later, higher-level LDAP libraries rather than a custom Mach-O plug-in and On Web Authentication bind as shown here.",
+    "status": "partially_superseded",
     "related_updates": [
-      "LDAP directory services remain in wide enterprise use today, though many modern applications now favor SSO/OAuth-based identity providers over direct LDAP binds"
+      "4D plug-in development has long since moved past the CodeWarrior/Mach-O-bundle porting mechanics described in this note",
+      "LDAP directory services remain in wide enterprise use today, though many modern web applications now favor SSO/OAuth-based identity providers over direct LDAP binds in On Web Authentication"
     ]
   }
 }

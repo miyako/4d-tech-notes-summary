@@ -7,21 +7,23 @@
   "product": "4D View",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Melinda Gallo (routines written by Dave Batton)",
   "page_url": "https://kb.4d.com/assetid=30790",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_52-55_(DEC)/03-55_4D_View_Helper.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_52-55_(DEC)/03-55_4D_View_Helper.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D View",
-    "PV routines",
-    "Array/record display components"
+    "4D View plug-in areas",
+    "PV SET AREA PROPERTY / PV SET DOCUMENT PROPERTY",
+    "PV ADD DYNAMIC ARRAYS / PV ADD DYNAMIC FIELDS",
+    "PV SET COMMAND STATUS (menu/shortcut suppression)",
+    "PV_FixColWidths dynamic column resizing"
   ],
   "historical_commentary": {
-    "text": "4D View as a distinct companion product has been discontinued and its spreadsheet-area functionality superseded by newer form objects and, for many use cases, by web-based grid components in current 4D applications, so this component-specific reference note is now of mostly historical interest. The general pattern of wrapping array/record-to-UI binding logic into a reusable helper routine remains a sound software engineering practice.",
+    "text": "This note documents the first half of the '4D View Helper' component, a set of PV_-prefixed wrapper routines (PV_ConfigureAsList, PV_SetColumnArrays, PV_SetColumnFields, PV_SetColumnFields2, PV_SetColumnHeaders, PV_FixColWidths) built on top of 4D View's low-level PV commands to make it easy to configure a 4D View spreadsheet area as a read-only, header-driven list bound to either 4D arrays or table fields. As a reference for the discontinued 4D View plug-in/companion product, this is now of purely historical interest for maintaining legacy databases; any new development would use 4D's built-in list box form object (or web-based grids) instead, both of which provide array/selection binding, column configuration, and read-only display natively without needing this kind of helper library.",
     "status": "obsolete",
     "related_updates": [
-      "4D View as a standalone product/plug-in has been discontinued in current 4D",
-      "Modern 4D applications typically use list box form objects or web-based grids instead of 4D View areas for tabular display"
+      "4D View as a standalone plug-in/companion product has been discontinued in current 4D",
+      "Modern 4D applications use the native list box form object (array-based or selection-based) or web-based grid components instead of 4D View areas for tabular display, with built-in column/header/selection configuration replacing the need for this PV_ helper library"
     ]
   }
 }

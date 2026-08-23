@@ -1,27 +1,41 @@
-# Tech Note 03-31: Quick Reports: Output Types
+# Tech Note: Quick Reports: Output Types
 
-**Author:** Not specified in source document
-**Published:** July 29, 2003 | **Product/Version:** 4D v2003 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=29725
-**Download:** https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-31_QuickReptOutputTypes.exe
+- **Asset ID:** 29725
+- **Tech Note #:** 03-31
+- **Published:** July 29, 2003
+- **Product / Version:** 4D 2003
+- **Platform:** Mac & Win
+- **Author:** Hugo Fournier
+- **Page URL:** https://kb.4d.com/assetid=29725
+- **Download:** https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_31-35_(JUL)/03-31_QuickReptOutputTypes.hqx
 
 ## Overview
-A Tech Note covering a cross-platform Quick Report file-listing interface and the range of output formats supported by 4D's Quick Report Editor.
+
+Hugo Fournier (4D Inc. Technical Support Engineer) builds a small cross-platform utility that lists and previews Quick Report files in a folder, using it as a springboard to document all five output formats available from the Quick Report Editor: disk file, 4D View, 2D/3D graph, and HTML (including an XML export variant).
 
 ## Key Points
-- Provides a cross-platform interface for listing Quick Report files found in a given folder.
-- Explores the output formats available from 4D's Quick Report Editor.
+
+- The `M_Update_List` method populates a report file list via `DOCUMENT LIST`, filtering by the `.4qr` extension on Windows but falling back to `Document type` checks for the `4DQR`/`4DSE` Mac file types when the extension check fails, branching on the `<>Platform` interprocess variable.
+- `M_Update_QR_Data` previews a selected report by loading it into an offscreen Quick Report area with `DOCUMENT TO BLOB` + `QR BLOB TO REPORT`, then displays its kind via `QR Get report kind` (List vs. Cross-tab) and its configured output type via `QR GET DESTINATION` (Printer, Text file, 4D View, 4D Chart, or HTML File).
+- Handles relative vs. absolute folder paths carefully, prefixing with the `<>MacOS` separator variable on Mac OS for relative paths and tracking an `<>vAbsPath` flag once the user selects a new folder via `Select folder`.
+- Disk file (text) output uses a simple tab-tab-return format with a tab between cells and a carriage return ending each row.
+- 4D View output places each report cell into its own 4D View spreadsheet cell, applicable to both List and Cross-tab reports; 2D graphs require a List report with category/value columns, while 3D graphs require a Cross-tab report with two categories and one value.
+- HTML File output is a tag-driven export mechanism controlled by `QR SET HTML TEMPLATE`; the note demonstrates that substituting an XML-flavored template and renaming the output file's extension to `.xml` produces a file compatible with 4D's own XML import/export format.
 
 ## Featured Technology
+
 - Quick Report Editor
-- Report output formats
-
-## Historical Context
-Published as 4D 2003 introduced a substantially reworked Quick Report engine (the 'QR' command theme), a period when several Tech Notes in this batch focused on exploiting its new capabilities; only the short teaser text for this note could be recovered here.
-
-*Note: only the on-page teaser paragraph for this Tech Note could be recovered in this environment; the full PDF/example database is no longer accessible (old format/archive not reachable here), so this summary is necessarily based only on that short teaser text.*
+- QR BLOB TO REPORT / QR Get report kind / QR GET DESTINATION
+- DOCUMENT LIST / Document type
+- QR SET HTML TEMPLATE (HTML and XML export)
+- 4D View / 4D Chart report output
 
 ## Historical Commentary
+
 **Status:** Superseded
 
-The 2003-era Quick Report Editor and its output format options have evolved considerably in later 4D versions, and modern reporting in 4D (and integration with tools like 4D Write Pro or external reporting/export libraries) offers richer output options than were available at the time, making the note's specific format survey dated though the general goal of listing and managing report files remains a straightforward, still-relevant utility pattern.
+This note is a solid, practical survey of the Quick Report Editor's output pipeline circa 2003, including the clever cross-platform file-type-detection trick and the demonstration that the HTML template mechanism could double as an ad hoc XML exporter. 4D's reporting story has moved on considerably since then -- 4D Write Pro and modern list-box/ORDA-based reporting now cover most of what Quick Report addressed, and JSON has replaced ad hoc XML templating as the standard structured export format. The specific output-format survey here is dated, though the general goal of browsing and previewing report files programmatically remains a straightforward, still-usable utility pattern.
+
+**References to newer/updated information:**
+- 4D Write Pro and later Quick Report/list-box-based reporting have expanded well beyond the output options available in 2003
+- JSON-based data export (JSON Stringify / entity selections) has largely replaced the QR SET HTML TEMPLATE XML-templating trick shown here for producing structured export files

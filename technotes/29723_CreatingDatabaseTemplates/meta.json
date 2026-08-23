@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Dave Dell'Aquila",
   "page_url": "https://kb.4d.com/assetid=29723",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-33_Creating_DB_Templates.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_31-35_(JUL)/03-33_Creating_DB_Templates.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D 2003 Open Database dialog",
-    "Database structure templates"
+    "4th Dimension 2003 Open/Create Database template dialog",
+    "4D Templates folder",
+    "Resource-fork template metadata (STR/TEXT/PICT/STR#, ID 14000)",
+    "ResEdit resource editing",
+    "Plug-in-free template limitation"
   ],
   "historical_commentary": {
-    "text": "The specific Open Database template dialog mechanism described here is tied to classic Design Mode; current 4D (with Project Mode, introduced in v17) offers different, more flexible ways to scaffold new projects (including project templates and version-control-friendly text-based structures), making this note's specific UI obsolete though the underlying goal of reusable starting-point structures remains a relevant workflow need.",
-    "status": "superseded",
+    "text": "This resource-fork-based template mechanism was tied tightly to classic 4D Design Mode's binary structure files and Mac-style resource forks, and it is now entirely obsolete: current 4D (Project Mode, introduced in v17/2018) represents structures as plain text files that are version-control-friendly and has its own, unrelated mechanisms for scaffolding new projects (including starter/sample projects and simple file copying). The specific ResEdit-based STR/TEXT/PICT/STR# resource technique described here would not work with any modern 4D version, though the underlying goal -- giving developers a reusable, ready-made starting point for new projects -- remains a valid and common workflow need.",
+    "status": "obsolete",
     "related_updates": [
-      "4D's later Project Mode (introduced in v17, 2018) offers a different, text-based, version-control-friendly way to scaffold and reuse project structures than the binary Design Mode template dialog described here"
+      "4D's Project Mode (introduced in v17, 2018) replaced binary structure files and resource-fork metadata with plain text project files, making this note's ResEdit-based template mechanism inapplicable to current 4D",
+      "Modern project scaffolding in 4D is typically done via starter/sample projects or simple file-based copying rather than a resource-driven Open Database template list"
     ]
   }
 }

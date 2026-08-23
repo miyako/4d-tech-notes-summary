@@ -7,22 +7,23 @@
   "product": "4D ODBC",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Sean Le",
   "page_url": "https://kb.4d.com/assetid=34081",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-38_Assimilator.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_36-40_(AUG)/04-38_Assimilator.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D 2004 Assimilator tool",
-    "ODBC-based data/structure cloning",
-    "Database migration into 4D"
+    "4D 2004 Assimilator utility",
+    "4D ODBC Plug-in low-level commands (ODBC_SQLDataSources, ODBC_SQLConnect, ODBC_SQLTables, ODBC_SQLColumns, ODBC_SQLFetch)",
+    "4D Pack command AP Add table and fields",
+    "ODBC data source cloning into 4D structures"
   ],
   "historical_commentary": {
-    "text": "This note documents the 4D 2004 Assimilator, a migration tool that could clone data structures and data files from any ODBC-compliant database and import them into a 4D database, sparing developers from manually recreating structures and data when migrating an existing database to 4D. The Assimilator tool itself is a discontinued 2004-era utility, and while the general problem it solved (migrating external databases into 4D) is still faced by developers today, current migration approaches rely on different, more modern tooling and techniques rather than this specific product.",
+    "text": "The 2004 Assimilator packaged 4D's ODBC Plug-in commands into a convenient point-and-click migration wizard at a time when developers otherwise had to write this ODBC plumbing by hand, as the note itself demonstrates method by method. The named Assimilator utility and the classic ODBC Plug-in command set it relies on are no longer part of current 4D distributions, so the tool itself is obsolete, though the underlying need -- migrating external SQL data into 4D -- persists today via 4D's built-in SQL engine, ODBC-based table imports, and code-based data import via the 4D language.",
     "status": "obsolete",
     "related_updates": [
-      "The 4D 2004 Assimilator as a named product/tool is no longer part of current 4D offerings",
-      "Modern database migration into 4D typically relies on ODBC/SQL import features, scripted data import via 4D's language, or ORDA-based data source connections rather than a dedicated Assimilator utility",
-      "4D's native SQL engine and later ORDA have changed the landscape of how external databases are connected to or migrated into 4D applications"
+      "The 4D 2004 Assimilator utility and its supporting ODBC Plug-in command set (ODBC_SQLDataSources, ODBC_SQLConnect, ODBC_SQLTables, etc.) are not part of current 4D releases",
+      "Modern 4D databases typically import external data via the native SQL engine, ODBC/JDBC connections, or scripted import using current 4D language commands rather than a dedicated Assimilator tool",
+      "4D's later ORDA layer offers a further, more modern route for connecting external data sources without a migration wizard"
     ]
   }
 }

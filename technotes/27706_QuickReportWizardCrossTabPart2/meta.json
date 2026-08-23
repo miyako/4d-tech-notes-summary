@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon, 4D Inc. Q.A. Manager",
   "page_url": "https://kb.4d.com/assetid=27706",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-22_Create_QR_Wizard II.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_21-25_(MAY)/03-22_Create_QR_Wizard_II.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Quick Report Editor",
-    "Cross-tab reports",
-    "Custom report wizards"
+    "Quick Report cross-tab report engine (4D 2003)",
+    "QR SET REPORT KIND / QR SET TABLE commands",
+    "QR SET INFO COLUMN (columns/rows/data-source binding)",
+    "QR SET TOTALS DATA (cell, Total column, Grand Total line calculations)",
+    "QR SET SORT command",
+    "QR GET/SET INFO COLUMN display formatting and cell style attributes"
   ],
   "historical_commentary": {
-    "text": "The specific QR-command-based cross-tab wizard technique described here reflects 4D 2003's then-new report engine, which has since been further developed in later 4D versions and largely supplemented by 4D Write Pro and other modern reporting tools, making this note's exact approach dated though cross-tab reporting itself remains a common business-application requirement.",
-    "status": "superseded",
+    "text": "Jean-Yves Fock-Hoon extends the custom Quick Report wizard from Part I to cover 4D 2003's new cross-tab report mode, walking step by step through the nine-cell (A-I) cross-tab model and the QR commands that bind data sources to columns, rows, totals, the Total column, and the Grand Total line. The specific QR commands and the 3x3 cell-naming model described here are still part of current 4D and remain directly usable for building custom report wizards. In practice, however, 4D Write Pro has become the more commonly reached-for tool for building modern, richly formatted reports since its introduction, so this classic Quick Report cross-tab wizard technique, while still functional, is now a less frequently chosen path for new report-building UI.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's Quick Report engine and broader reporting toolset (including 4D Write Pro) have evolved considerably since 2003"
+      "The QR command set (QR SET REPORT KIND, QR SET INFO COLUMN, QR SET TOTALS DATA, QR SET SORT, etc.) shown here remains part of current 4D and continues to work as documented",
+      "4D Write Pro has since become the more commonly used tool for building modern, richly formatted reports and custom report-building wizards, though the classic Quick Report cross-tab engine described here is still available"
     ]
   }
 }

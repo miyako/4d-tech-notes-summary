@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Melinda Gallo",
   "page_url": "https://kb.4d.com/assetid=37936",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_21-24_(JUN)/05-24_Email_QuickSend.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_21-24_(JUN)/05-24_Email_QuickSend.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "4D Internet Commands plug-in",
-    "SMTP_Auth command",
-    "SMTP authentication for outgoing mail"
+    "SMTP_Auth command for authenticated SMTP",
+    "SMTP_New / SMTP_Host / SMTP_From / SMTP_To / SMTP_Subject / SMTP_Body / SMTP_Send sequence",
+    "Custom error-wrapper pattern (Email_HandleSMTPError)",
+    "Request() for runtime password prompting"
   ],
   "historical_commentary": {
-    "text": "This note shows how to send authenticated SMTP email from 4D using the SMTP_Auth command from the 4D Internet Commands plug-in, wrapping the simpler (but non-authenticating) SMTP_QuickSend command in a new Email_QuickSend method that adds a password parameter. 4D Internet Commands and this specific command set have since been superseded by 4D's built-in, natively supported SMTP commands, and the simple username/password SMTP authentication model shown here predates the OAuth2-based authentication that most modern mail providers now require.",
+    "text": "This note shows a practical wrapper around a little-known but long-present 4D Internet Commands feature, letting developers add SMTP authentication to outgoing mail with a one-parameter change to their existing SMTP_QuickSend calls. The 4D Internet Commands plug-in and this exact low-level SMTP command sequence have since been superseded by native SMTP support in the core 4D language, and — more fundamentally — the simple username/password SMTP authentication model this note demonstrates predates the OAuth2-based authentication that Gmail, Microsoft 365, and most modern mail providers now require, making the technique itself obsolete for current mail servers even where the plug-in still runs.",
     "status": "obsolete",
     "related_updates": [
-      "4D Internet Commands (a separate plug-in in this era) was eventually folded into or replaced by native 4D language commands for email/network protocols in later 4D versions",
-      "Most major email providers (Gmail, Office 365, etc.) have since deprecated simple username/password SMTP authentication in favor of OAuth2, which this note's technique does not address",
+      "4D Internet Commands (a separate plug-in in this era) has been superseded by native 4D language commands for email/network protocols in later 4D versions",
+      "Most major email providers (Gmail, Microsoft 365, etc.) have since deprecated simple username/password SMTP authentication in favor of OAuth2, which this note's technique does not address",
       "Modern 4D applications typically use 4D's native SMTP-related commands or third-party REST-based transactional email APIs rather than 4D Internet Commands' SMTP_Auth"
     ]
   }

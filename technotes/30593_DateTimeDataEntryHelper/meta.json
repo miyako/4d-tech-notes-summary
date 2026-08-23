@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Melinda Gallo; Thierry Ozil",
   "page_url": "https://kb.4d.com/assetid=30593",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-49_Date_and_Time_Entry.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_48-51_(NOV)/03-49_Date_and_Time_Entry.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Date/Time form objects",
-    "Custom UI widgets"
+    "Custom calendar popup dialog (CLND_ methods)",
+    "DIALOG command (modal popup positioned at click)",
+    "Add to date / Day of / Month of / Year of",
+    "Localized US vs. European date-format detection",
+    "Choice lists for month/day names (localization)",
+    "Pointer-based field assignment ($1-> field target)"
   ],
   "historical_commentary": {
-    "text": "The specific PDA-style hand-built date/time entry widget described here has been made largely unnecessary by the native date/time picker controls now standard in modern GUI toolkits, browsers, and current 4D form objects, so this note is chiefly of historical interest as a snapshot of pre-native-widget UI engineering in the 4D community.",
-    "status": "historical interest only",
+    "text": "This hand-built, click-driven date/time popup was a reasonable way to speed up data entry in 2003, when native OS or 4D form date/time pickers were far less capable. Modern 4D form objects and current operating systems (and browsers, for 4D web/QODA apps) now ship with built-in date/time picker controls that cover this exact use case out of the box, making the specific CLND_ method set unnecessary to hand-roll today. It remains an interesting, well-commented example of pointer-based dialog return values and OS locale detection in classic 4D.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "Modern operating systems, browsers, and current 4D form objects provide native date/time pickers, removing the need for this kind of hand-built entry widget"
+      "Current 4D form objects provide native date/time picker controls, removing the need for a hand-built calendar popup like this one",
+      "Modern operating systems and browsers also provide native date/time pickers for web-based 4D applications"
     ]
   }
 }

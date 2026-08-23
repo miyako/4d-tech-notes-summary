@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Hugo Fournier",
   "page_url": "https://kb.4d.com/assetid=29725",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-31_QuickReptOutputTypes.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_31-35_(JUL)/03-31_QuickReptOutputTypes.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "Quick Report Editor",
-    "Report output formats"
+    "QR BLOB TO REPORT / QR Get report kind / QR GET DESTINATION",
+    "DOCUMENT LIST / Document type",
+    "QR SET HTML TEMPLATE (HTML and XML export)",
+    "4D View / 4D Chart report output"
   ],
   "historical_commentary": {
-    "text": "The 2003-era Quick Report Editor and its output format options have evolved considerably in later 4D versions, and modern reporting in 4D (and integration with tools like 4D Write Pro or external reporting/export libraries) offers richer output options than were available at the time, making the note's specific format survey dated though the general goal of listing and managing report files remains a straightforward, still-relevant utility pattern.",
+    "text": "This note is a solid, practical survey of the Quick Report Editor's output pipeline circa 2003, including the clever cross-platform file-type-detection trick and the demonstration that the HTML template mechanism could double as an ad hoc XML exporter. 4D's reporting story has moved on considerably since then -- 4D Write Pro and modern list-box/ORDA-based reporting now cover most of what Quick Report addressed, and JSON has replaced ad hoc XML templating as the standard structured export format. The specific output-format survey here is dated, though the general goal of browsing and previewing report files programmatically remains a straightforward, still-usable utility pattern.",
     "status": "superseded",
     "related_updates": [
-      "4D's reporting capabilities (including 4D Write Pro and later Quick Report improvements) have expanded well beyond the output options available in 2003"
+      "4D Write Pro and later Quick Report/list-box-based reporting have expanded well beyond the output options available in 2003",
+      "JSON-based data export (JSON Stringify / entity selections) has largely replaced the QR SET HTML TEMPLATE XML-templating trick shown here for producing structured export files"
     ]
   }
 }

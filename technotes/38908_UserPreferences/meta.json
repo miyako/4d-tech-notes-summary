@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Larry Sharpe",
   "page_url": "https://kb.4d.com/assetid=38908",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_28-29_(AUG)/05-28_User_Preferences.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_28-29_(AUG)/05-28_User_Preferences.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Output form column/preference persistence",
-    "Preferences table storage",
-    "Classic 4D variables/arrays"
+    "xPreferences table with BLOB-based preference storage",
+    "Case of ($command) method dispatch pattern",
+    "Tab Control form navigation",
+    "Current user command for per-user keying",
+    "On Startup / On Server Startup database methods",
+    "Persisted output-form column customization"
   ],
   "historical_commentary": {
-    "text": "This note is the second in a series building an end-user-customizable output form, extending an earlier note by persisting the user's chosen columns and other preference variables into a database table rather than only holding them in memory for the session. The specific technique \u2014 storing UI preferences as discrete fields in a classic-language preferences table \u2014 is a pattern that still works today but has since been largely superseded by storing preferences as a single JSON object/BLOB, which is far more flexible for arbitrary, evolving preference sets.",
+    "text": "This note extends the prior output-form-customization note by persisting user preferences as a single BLOB per record rather than one column per preference value, a pragmatic technique for the classic 4D language that lets preference schemas evolve without altering table structure. The pattern still works today, but it has largely been superseded by storing preferences as JSON objects (via JSON Stringify/Parse or 4D's object/collection types), which is more flexible, human-readable, and easier to inspect or migrate than an opaque BLOB. The general idea of centralizing per-user settings in a dedicated table remains sound design practice.",
     "status": "superseded",
     "related_updates": [
-      "Modern 4D applications typically persist user preferences as JSON objects (via JSON Stringify/Parse or 4D's object storage) rather than as individual table fields",
-      "ORDA and the object/collection data types introduced in later 4D versions make storing flexible, schema-less preference structures far simpler than the classic per-column table approach shown here"
+      "Modern 4D applications typically persist user preferences as JSON objects (via JSON Stringify/Parse or native object storage) rather than opaque BLOB fields, making the data far easier to inspect, version, and extend",
+      "ORDA and 4D's object/collection data types, introduced in later versions, make flexible, schema-less preference structures much simpler to implement than this classic per-record BLOB approach"
     ]
   }
 }

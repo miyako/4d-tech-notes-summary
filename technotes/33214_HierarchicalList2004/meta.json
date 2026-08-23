@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=33214",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-27_HierarchicalList_2004.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_26-30_(JUN)/04-27_HierarchicalList_2004.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Hierarchical List object",
-    "4D 2004 Hierarchical List command updates"
+    "SET LIST PROPERTIES / GET LIST PROPERTIES (new multipleSelections, editable parameters)",
+    "SET LIST ITEM PROPERTIES / GET LIST ITEM PROPERTIES (new itemRef|* and color parameters)",
+    "SET LIST ITEM / GET LIST ITEM / List item parent (new itemRef|* wildcard parameter)",
+    "SELECT LIST ITEMS BY REFERENCE / SELECT LIST ITEMS BY POSITION (renamed, multi-selection array parameter)",
+    "New On selection change / On expand / On collapse form events"
   ],
   "historical_commentary": {
-    "status": "still relevant",
-    "text": "The Hierarchical List object and its associated classic-language commands, including the enhancements described in this 2004-era note, remain part of the current 4D language and continue to function in both Design Mode and Project Mode databases, so the technique itself is still usable today. That said, many modern 4D interfaces now favor the List Box object's hierarchical/tree display mode, along with object/collection-based data structures, for building tree-like UI, meaning Hierarchical Lists are less commonly the first choice for new development than they were in 2004.",
+    "text": "This note documents a meaningful round of 4D 2004 usability upgrades to the Hierarchical List object -- native multi-selection, per-item coloring, in-place editing, and new expand/collapse/selection-change events -- that made building tree-style UI significantly more capable than in prior 4D versions. Most of the specific commands and constants described (SET/GET LIST PROPERTIES, SELECT LIST ITEMS BY REFERENCE/POSITION, the On expand/On collapse/On selection change events) remain part of the current 4D classic language and function largely as documented, though 4D's List Box object and, in Project mode, other modern hierarchical/tree form controls now offer overlapping or more capable alternatives for many tree-display use cases that a developer today might reach for instead of the plain Hierarchical List object.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's List Box object gained hierarchical/tree display capabilities that now cover many use cases Hierarchical Lists once uniquely served",
-      "4D's object and collection data types (introduced in later versions) provide more flexible alternatives to Hierarchical List item parameters for structured data"
+      "SET/GET LIST PROPERTIES, SET/GET LIST ITEM PROPERTIES, SELECT LIST ITEMS BY REFERENCE/POSITION, and the On expand/On collapse/On selection change events remain part of the current 4D language, largely unchanged from what this note describes",
+      "4D's List Box form object and other modern tree/hierarchical UI controls now provide additional, often more capable, alternatives to the plain Hierarchical List object for many use cases",
+      "EDIT ITEM remains available for programmatically forcing a Hierarchical List item into edit mode regardless of its Enterable property"
     ]
   }
 }

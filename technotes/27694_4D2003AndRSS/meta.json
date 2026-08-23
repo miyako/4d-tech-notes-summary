@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gou Yang, 4D Inc. Technical Support",
   "page_url": "https://kb.4d.com/assetid=27694",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-20_4D_2003_and_RSS.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_16-20_(APR)/03-20_4D_2003_and_RSS.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "RSS",
-    "XML parsing (4D 2003)"
+    "RSS 0.91 / 1.0 / 2.0 feed parsing",
+    "Parse XML source command (4D 2003)",
+    "Get First XML element / Get Next XML element commands",
+    "CLOSE XML command (memory cleanup)",
+    "GET XML ATTRIBUTE BY NAME command",
+    "SEND HTML FILE for publishing parsed feed content"
   ],
   "historical_commentary": {
-    "text": "RSS remains a still-used (though less dominant than in its 2000s heyday) syndication format, and 4D's XML parsing capability introduced here has continued to be supported and expanded in later versions, so the core technique remains conceptually applicable, though modern feed consumption more often layers on top of 4D's later, more convenient XML/JSON commands rather than the exact 2003-era code.",
-    "status": "still relevant",
+    "text": "Gou Yang shows how to use 4D 2003's brand-new native XML parsing commands to retrieve, parse, and republish RSS feeds (versions 0.91, 1.0, and 2.0), including the key structural gotcha that RSS 1.0 places its Item elements at the same hierarchy level as Channel rather than nested inside it. The specific low-level, tag-by-tag traversal technique shown (Parse XML source / Get First XML element / Get Next XML element / CLOSE XML) still exists in 4D and would still function, but RSS itself has faded significantly as a syndication format since its 2000s peak, and current 4D development would more likely use 4D's higher-level XML-to-object/collection conversion commands or JSON-based feeds/APIs instead of this manual element-walking approach. The note is best read today as a snapshot of early, foundational XML support in 4D rather than a recommended pattern for new feed-parsing code.",
+    "status": "partially_superseded",
     "related_updates": [
-      "RSS usage has declined significantly since its 2000s peak but remains in use for syndication in some contexts",
-      "4D's XML parsing commands have been refined and expanded in versions since 2003"
+      "4D has since added higher-level XML handling (e.g., converting XML directly to 4D objects/collections) that avoids the manual Get First/Next XML element tag-walking shown here",
+      "RSS adoption has declined substantially since the 2000s in favor of other syndication and API mechanisms (JSON feeds, platform-specific APIs), though RSS 2.0 feeds are still produced by many sites and remain parseable with the general approach shown here",
+      "The core commands used (Parse XML source, Get First/Next XML element, CLOSE XML) remain part of current 4D, so the code in this note would still largely function unmodified"
     ]
   }
 }

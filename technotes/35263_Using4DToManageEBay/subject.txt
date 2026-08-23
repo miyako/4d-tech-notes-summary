@@ -1,1 +1,1 @@
-Tech Note: Using 4D to Manage eBay (TN 04-51, 4D v2004, December 2004) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing ebay developers program api.
+Building an eBay listing management application in 4D 2004 with the 4D-eBay Object Library and eBay's SOAP Developers API

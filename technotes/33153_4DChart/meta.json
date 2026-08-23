@@ -7,21 +7,23 @@
   "product": "4th Dimension",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=33153",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_26-30_(JUN)/04-26_4D_Chart.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_26-30_(JUN)/04-26_4D_Chart.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Chart plug-in",
-    "4D Chart commands",
-    "Graphical charting of 4D data"
+    "4D Chart plug-in (built into 4D since version 6.0)",
+    "CT Chart arrays command",
+    "CT Chart data command",
+    "CT Chart selection command"
   ],
   "historical_commentary": {
-    "status": "superseded",
-    "text": "4D Chart was the bundled charting solution for 4D applications throughout the classic-language era, but 4D later introduced SVG-based charting components and, more broadly, moved toward web-technology-based visualization (HTML/CSS/JS charting libraries rendered in Web areas) as richer, more modern alternatives, making the specific 4D Chart plug-in and its command set increasingly superseded for new development. Developers building dashboards or reports in current 4D applications are more likely to reach for SVG/JS charting approaches than the original 4D Chart plug-in.",
+    "text": "This note is a clear, practical decision guide for choosing among 4D's classic 4D Chart plug-in commands (CT Chart arrays/data/selection) based on where the chart's source values live -- computed arrays, direct fields, or multiple fields per record -- and that decision framework remains conceptually sound. The CT Chart-prefixed commands themselves are legacy 4D Chart plug-in commands from the classic language; 4D has since introduced newer, more visually modern charting and data-visualization options (including web-based and area-based charting components) that many current projects use instead of the original 4D Chart plug-in, making this note's specific commands still functional but increasingly superseded by newer charting approaches for new development.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D introduced SVG-based charting technical notes/components as a more modern alternative to the original 4D Chart plug-in",
-      "Modern 4D charting needs are commonly met via Web areas embedding JavaScript charting libraries rather than the native 4D Chart plug-in"
+      "4D has introduced newer charting and data-visualization components since 2004 that many current projects prefer over the classic 4D Chart plug-in",
+      "The CT Chart arrays / CT Chart data / CT Chart selection commands remain part of the current 4D language for databases still using the classic 4D Chart plug-in",
+      "The GRAPH command referenced as already obsolete in this 2004 note remains obsolete and unused in current 4D development"
     ]
   }
 }

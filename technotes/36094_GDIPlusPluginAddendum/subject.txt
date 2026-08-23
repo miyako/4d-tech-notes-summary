@@ -1,1 +1,1 @@
-Tech Note: Addendum - GDIPlus Plug-in Version 1.1 (TN 05-06, 4D v2004, February 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing gdiplus plug-in v1.1.
+Release note for GDIPlus plug-in v1.1: new 4D 2004 bundle architecture support, scrollbars, mouse wheel, and GDI_GetPictureBlob

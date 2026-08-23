@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Larry Sharpe",
   "page_url": "https://kb.4d.com/assetid=39582",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_30-33_(SEP)/05-32_Server_Process.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_30-33_(SEP)/05-32_Server_Process.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Client/Server architecture",
-    "Server-side process management",
-    "Cross-mode compatibility (4D Client, 4D Server, single-user 4D)"
+    "Execute on server / New process commands",
+    "EXECUTE ON CLIENT and On Outside Call form event",
+    "REGISTER CLIENT / UNREGISTER CLIENT",
+    "GET PROCESS VARIABLE / SET PROCESS VARIABLE / VARIABLE TO VARIABLE",
+    "DELAY PROCESS-based polling loop",
+    "xPreferences table (BLOB-based preference storage)",
+    "PLATFORM PROPERTIES for client/server path resolution"
   ],
   "historical_commentary": {
-    "text": "Based on the available teaser, this note (third in an ongoing example-database series) demonstrates how to set up, manage, and run processes that are initiated/managed from a 4D Client but actually execute on the 4D Server, with conditional logic allowing the same code to run under single-user 4D or 4D Client as well. This general client/server process delegation pattern remains conceptually valid, but 4D has since introduced dedicated worker-process language commands (for managing background/server-side execution more directly and robustly) that address much of the same need with less manual plumbing than the technique this note likely demonstrates.",
+    "text": "This note demonstrates a manual but genuinely clever pattern for running the same background-process code on a 4D Server, a 4D Client, or a single-user application, complete with careful handling of the fact that server code cannot display UI. That client/server process-delegation approach remained the standard technique for years, but 4D has since added dedicated worker-process language commands (CALL WORKER and related APIs) that handle inter-process messaging and background execution more directly, reducing the need for this much manual EXECUTE ON CLIENT / On Outside Call plumbing. The core ideas — server-only processes, careful command selection for client vs. server execution — remain conceptually valid and are still explained in current 4D documentation.",
     "status": "partially_superseded",
     "related_updates": [
-      "4D has since added dedicated worker-process commands (e.g., CALL WORKER and related process-management commands introduced in later versions) that provide a more direct, built-in way to run and manage background/server-side processes than manual client/server process orchestration"
+      "CALL WORKER and the worker-process command family, added in later 4D versions, provide a more direct built-in mechanism for background/server process communication than manual EXECUTE ON CLIENT plus On Outside Call polling",
+      "4D's process/worker model has continued to evolve; the fundamental client-vs-server execution distinction described here (New process vs. Execute on server) still applies in current 4D"
     ]
   }
 }

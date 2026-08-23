@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "2003.4",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Bertrand Soubeyrand (4D Developer)",
   "page_url": "https://kb.4d.com/assetid=33643",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-33_Execute_on_Server.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_31-35_(JUL)/04-33_Execute_on_Server.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "EXECUTE ON SERVER",
-    "4D Client/Server architecture",
-    "Network-intensive operation optimization"
+    "Execute on server command",
+    "Pseudo-recursive method pattern (Count parameters branching)",
+    "GET PROCESS VARIABLE / SET PROCESS VARIABLE for client-server synchronization",
+    "DELAY PROCESS / IDLE polling loops",
+    "VARIABLE TO BLOB for passing arrays between processes"
   ],
   "historical_commentary": {
-    "status": "still relevant",
-    "text": "The core problem this note solves — minimizing network chatter in Client/Server 4D applications by running bulk operations on the server rather than the client — remains a foundational performance consideration in 4D applications today, and the EXECUTE ON SERVER command (and its language successors) is still part of the current 4D classic language. The specific 1990s/2000s Client/Server networking constraints described are less severe on modern hardware and networks, but the architectural principle of minimizing client-server round trips for bulk data operations is timeless and still taught to 4D developers.",
+    "text": "This note's core recommendation -- using Execute on server to move network-intensive query and formula work onto the server machine, synchronized via GET/SET PROCESS VARIABLE polling -- remains a valid and commonly used pattern in current 4D Client/Server applications, since Execute on server itself is unchanged in the modern language. The 'pseudo-recursive' single-method style shown here is a stylistic choice from that era; many developers today prefer separate named methods for clarity, and 4D has since added additional client/server-aware commands and worker-process patterns, but the fundamental technique of offloading heavy operations to the server process is still directly applicable.",
+    "status": "still_relevant",
     "related_updates": [
-      "EXECUTE ON SERVER remains part of the modern 4D language for offloading client operations to the server",
-      "ORDA's entity selections and REST-based data access (2018+) introduced additional patterns for controlling where and how data operations execute in client/server 4D apps"
+      "Execute on server remains part of the current 4D language and is still the standard way to run a procedure on the server machine in Client/Server",
+      "GET PROCESS VARIABLE / SET PROCESS VARIABLE remain valid for inter-process synchronization, though 4D has since added further client/server and worker-process oriented commands",
+      "The single 'pseudo-recursive' method style shown is a stylistic pattern from this era; many developers now prefer separate client and server methods for readability, without changing the underlying Execute on server mechanism"
     ]
   }
 }

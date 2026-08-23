@@ -1,1 +1,1 @@
-Tech Note: Returning Pictures Through SOAP (TN 04-15, 4D v2003.3, April 2004) — a technique for serving picture data over 4D SOAP Web Services by converting images to BLOBs with PICTURE TO BLOB.
+Returning pictures in SOAP responses by converting them to BLOBs with PICTURE TO BLOB

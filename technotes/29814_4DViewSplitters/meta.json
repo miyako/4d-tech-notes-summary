@@ -7,21 +7,24 @@
   "product": "4D View",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gou Yang",
   "page_url": "https://kb.4d.com/assetid=29814",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_40-43_(SEP)/03-40_4D_View_Splitters.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_40-43_(SEP)/03-40_4D_View_Splitters.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D View",
-    "PV ADD HOR/VERT SPLITTER",
-    "PV SET PANE PROPERTY commands"
+    "4D View plug-in panes and splitters",
+    "PV ADD HOR SPLITTER / PV ADD VERT SPLITTER",
+    "PV REMOVE HOR SPLITTER / PV REMOVE VERT SPLITTER",
+    "PV SET HOR PANE PROPERTY / PV SET VERT PANE PROPERTY",
+    "PV Get area property / PV Get row height / PV Get column width",
+    "Locked scrollbars/splitters for frozen header-like panes"
   ],
   "historical_commentary": {
-    "text": "4D View as a distinct product has since been discontinued, and its PV-prefixed command set is not part of current 4D's standard toolkit, making the specific commands documented here obsolete for new development. The freeze-pane/splitter UI concept itself remains a common and still-useful pattern, now more often implemented via list box form objects or web-based grid components in modern 4D applications.",
+    "text": "This note documents 4D View plug-in commands for a spreadsheet-style pane/splitter UI that has since been retired from 4D's supported toolset — the 4D View plug-in was deprecated and removed as native List Box form objects (with their own built-in frozen-column and frozen-row support) matured and became the standard way to build grid/spreadsheet-like interfaces in 4D. The PV_ADD/REMOVE/SET SPLITTER commands themselves are not applicable to current 4D form objects, making this note of historical interest only for developers maintaining very old 4D View-based databases.",
     "status": "obsolete",
     "related_updates": [
-      "4D View and its PV-prefixed command set have been discontinued/are not part of current 4D",
-      "Modern 4D list box form objects and web-based grids provide comparable freeze-pane/splitter functionality using current APIs"
+      "The 4D View plug-in has been discontinued; current 4D form development uses native List Box objects, which have their own built-in frozen-row/frozen-column support",
+      "Developers still maintaining legacy 4D View-based databases would need the discontinued plug-in to use the PV_ splitter commands documented in this note"
     ]
   }
 }

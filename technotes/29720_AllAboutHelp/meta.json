@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=29720",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-35_All_About_Help.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_31-35_(JUL)/03-35_All_About_Help.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D built-in help system",
-    "Application help authoring"
+    "4D Explorer Help (4D Help.rsr)",
+    "Microsoft Help format (.HLP)",
+    "Apple Viewer help format",
+    "4D Contextual On-line Help",
+    "Help Tip / Dynamic Help Message object properties"
   ],
   "historical_commentary": {
-    "text": "In-application help authoring techniques from this era have been largely superseded by modern approaches such as web-based help/documentation, tooltips backed by web areas, or externally hosted documentation, making the specific 4D 6.8/2003 help commands described here of mostly historical interest for current 4D development.",
-    "status": "historical interest only",
+    "text": "This note is a thorough, practical reference for the surprisingly fragmented help ecosystem 4D developers had to navigate in 2003 -- juggling resource-fork-based command help, Microsoft's .HLP format, Apple's Viewer format, and lightweight tips, each with its own installation quirks. All of these specific mechanisms (4D Help.rsr, .HLP files, Apple Viewer help folders) are now purely of historical interest, since modern 4D applications overwhelmingly favor web-based help/documentation, tooltips backed by web areas, or externally hosted documentation sites rather than any of the native in-app help formats emphasized here.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "Modern 4D applications more commonly use web-based help systems or externally hosted documentation rather than the native in-app help features emphasized in this note"
+      "Modern 4D applications commonly use web-based help systems, web-area-backed tooltips, or externally hosted documentation rather than the native 4D Explorer Help/.HLP/Apple Viewer help formats described in this note",
+      "4D's own current documentation is delivered online rather than through the .HLP/Apple Viewer file formats this note explains how to install"
     ]
   }
 }

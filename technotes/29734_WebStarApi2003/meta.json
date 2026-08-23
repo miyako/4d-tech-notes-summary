@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hartman",
   "page_url": "https://kb.4d.com/assetid=29734",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_36-39_(AUG)/03-38_4D_WebSTAR_2003.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_36-39_(AUG)/03-38_4D_WebSTAR_2003.1_API.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D WebSTAR API",
-    "WebSTAR web server administration"
+    "4D WebSTAR API (WSAPI) component",
+    "WSAPI_Login / WSAPI_LoginDialog",
+    "WSAPI_GetSettingsGroup",
+    "WSAPI_Admin_GetComponents",
+    "WSAPI_CloseSession / WSAPI_Quit",
+    "4D Insider component installation"
   ],
   "historical_commentary": {
-    "text": "WebSTAR as a web server product is long discontinued and effectively obsolete, and 4D's own built-in web server (used for both the 4D application server and web publishing) has for many years been the standard way to serve 4D web content, making the specific WebSTAR API integration in this note obsolete for current development.",
+    "text": "This note documents a purpose-built API for administering 4D's own discontinued WebSTAR web server product from within a 4D database -- a niche but clever integration for its time that avoided duplicate data entry between an employee database and server administration. Because WebSTAR itself has been discontinued for many years and 4D's own built-in web server has long since become the standard way to serve 4D web content, both the WSAPI component and the administrative use case it served are now obsolete. The general pattern of session-based login/action/logout wrapping a remote administrative API remains a reasonable design, but there is no direct 4D successor to WSAPI itself.",
     "status": "obsolete",
     "related_updates": [
-      "WebSTAR as a web server product has been discontinued for many years",
+      "WebSTAR as a web server product has been discontinued for many years, and with it the WSAPI component described here",
       "4D's own built-in web server has long since replaced the need for a separate WebSTAR server in 4D web deployments"
     ]
   }

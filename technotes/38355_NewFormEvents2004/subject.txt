@@ -1,1 +1,1 @@
-Tech Note: New Form Events in 4D 2004 (TN 05-27, 4D v2004, July 2005) — a short note describing new form events introduced in 4D 2004 for 3D button form objects.
+Using the On Mouse Enter, On Mouse Move, On Mouse Leave, On Long Click, and On Arrow Click form events introduced for 3D/picture buttons in 4D 2004

@@ -1,28 +1,44 @@
-# Tech Note 03-23: 4D Blogger and SOAP Part II
+# Tech Note: 4D Blogger and SOAP Part II
 
-**Author:** Not specified in source document
-**Published:** May 19, 2003 | **Product/Version:** 4D v2003 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=27707
-**Download:** https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-23_4D_Blogger_&_SOAP_II.exe
+- **Asset ID:** 27707
+- **Tech Note #:** 03-23
+- **Published:** May 19, 2003
+- **Product / Version:** 4D 2003
+- **Platform:** Mac & Win
+- **Author:** Jamras Komoncharoensiri, Technical Support Engineer
+- **Page URL:** https://kb.4d.com/assetid=27707
+- **Download:** https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_21-25_(MAY)/03-23_4D Blogger_&_SOAP_II.hqx
 
 ## Overview
-Part II of a two-part Tech Note on 4D Blogger, covering the WebLog Client application interface and new features added in 4D Blogger v2, built on SOAP-based client/server communication.
+
+Jamras Komoncharoensiri continues from Part I's discussion of the SOAP protocol between the 4D Blogger WebLog Server and WebLog Client, focusing this time on the client interface implementation and the new features shipped in 4D Blogger v2: a visual calendar, automatic background updates, multi-category support, user self-signup, and new search/display options.
 
 ## Key Points
-- Part II follows on from 4D Blogger and SOAP Part I, which covered Blog fundamentals and WebLog Server/Client SOAP communication.
-- Focuses on implementing the WebLog Client interface and new 4D Blogger v2 features.
+
+- The WebLog calendar is built from seven coordinated form-object groups: prev/next arrow buttons, a `vMonthYear` label, a 7-item day-name header row, a 6x7 grid of oval "log exists" indicator objects, a matching 6x7 grid of day-number display variables, and a front-layer 6x7 grid of invisible click buttons -- managed by `GEN4D_CleanCalendar` (reset/hide) and `GEN4D_UpdateVisibleLog` (highlight days with posts).
+- Automatic updates run via a background process, `GEN4D_GetMostCurrentData`, which loops calling `SOAP_GetVisibleLogOnCalendar` and other SOAP calls every 10 seconds (`DELAY PROCESS(Current process;60*10)`), refreshing arrays of available dates, archived months, admin usernames/IDs, and categories.
+- Cross-process UI refresh is done via `CALL PROCESS(Process number("Client Panel"))`, handled in the client form's `On Outside Call` event to redraw the calendar and category list with the newly polled data.
+- Multi-category support (new in v2) lets the Blog Master create, rename, or delete WebLog categories via SOAP methods `SOAP_AddCategoryName`, `SOAP_RenameCategory`, and `SOAP_RemoveCategoryName`, each pausing the background poller (`PAUSE PROCESS`) during the SOAP round-trip and resuming it (`RESUME PROCESS`) afterward, then calling `GEN4D_SetCategoryVariables` to refresh the UI.
+- Category administration privileges can be assigned to a specific WebLog member via `SOAP_SetCategoryAdmin`, distinct from the single overall Blog Master account.
+- New user self-signup flow validates username/password/first name/last name/email fields locally before calling `SOAP_SaveNewUser`, which returns a nonzero User ID on success (auto-login) or 0 if the username is taken.
+- New search/display options add category-based browsing (`SOAP_GetLogByCategory`) and a "my logs" view of the current user's own not-yet-archived posts (`SOAP_GetMyLogs`), on top of the existing date/keyword search from Part I.
+- At least one blog category must exist before any new blog post can be created, since the category selector in the Blog editor requires a populated list.
 
 ## Featured Technology
-- SOAP
-- 4D Blogger
-- Blog client/server architecture
 
-## Historical Context
-4D Blogger was a demonstration blogging application built to showcase 4D 2003's new SOAP Web Services capability at the height of the mid-2000s blogging boom; only the short teaser text for this note could be recovered here.
-
-*Note: only the on-page teaser paragraph for this Tech Note could be recovered in this environment; the full PDF/example database is no longer accessible (old format/archive not reachable here), so this summary is necessarily based only on that short teaser text.*
+- SOAP-based WebLog Client/Server architecture
+- 4D Blogger v2 sample application
+- Background process polling via RESUME PROCESS/PAUSE PROCESS/DELAY PROCESS
+- On Outside Call cross-process UI updates
+- Custom calendar UI built from grid form objects
+- SOAP category/user-management methods (SOAP_AddCategoryName, SOAP_SaveNewUser, etc.)
 
 ## Historical Commentary
-**Status:** Obsolete
 
-4D Blogger as a demo application and its SOAP-based client/server architecture are long obsolete; modern blogging platforms and client/server integrations use REST/JSON APIs almost universally now, so this note is chiefly of historical interest as a snapshot of early-2000s blogging-meets-Web-Services technology demonstrations.
+**Status:** Historical interest only
+
+This second-part note by Jamras Komoncharoensiri builds out the WebLog Client interface for the 4D Blogger v2 demo application, showing a hand-built calendar UI driven by a background polling process, multi-category blog administration, self-service user signup, and category-filtered search, all communicating with the WebLog Server over SOAP. 4D Blogger as a demo product and its SOAP client/server plumbing are long retired, and virtually all real-world blogging platforms and integrations moved to REST/JSON APIs many years ago, so the specific SOAP methods shown are of historical interest only. The generic implementation techniques on display -- background-process polling with RESUME PROCESS/PAUSE PROCESS, updating a foreground process via On Outside Call, and building a calendar from grid-arranged form objects -- remain conceptually valid 4D patterns, though modern 4D offers more capable ways to build such UIs (e.g., list boxes, richer object arrays) and to integrate with external services (native HTTP client and JSON commands) than shelling everything through SOAP.
+
+References to newer/updated information:
+- 4D Blogger and its SOAP-based WebLog Client/Server protocol are long discontinued; modern blogging and web-service integrations use REST/JSON, typically via 4D's native HTTP Client and JSON parsing commands rather than SOAP
+- The general background-process polling and On Outside Call cross-process update patterns shown here are still valid 4D techniques, though current 4D also offers list boxes and richer object/array-driven UI controls that can simplify a custom calendar like the one built here

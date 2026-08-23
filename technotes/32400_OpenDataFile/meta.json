@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Frank Chang, 4D Technical Support",
   "page_url": "https://kb.4d.com/assetid=32400",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-17_Open_Data_File.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_16-20_(APR)/04-17_Open_Data_File.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D data file / structure file architecture",
-    "Programmatic data file selection and relaunch"
+    "OPEN DATA FILE command",
+    "Select Folder command",
+    "DOCUMENT LIST command",
+    "Data file command",
+    "Platform-aware path parsing (Windows \\\\ vs. Mac : delimiter)",
+    "WEDD resource binding via 4D Customizer Plus"
   ],
   "historical_commentary": {
-    "text": "This note demonstrates letting end users switch among multiple 4D data files sharing one structure file (.4DB) \u2014 a classic Design Mode-era pattern from before Project Mode existed. The core idea of supporting multiple data sets against a shared application definition is still conceptually relevant, but the mechanics described (structure file relaunch, manual data-file selection dialogs) are specific to the old binary structure-file architecture and predate today's project-based, more flexible data-connection approaches.",
-    "status": "superseded",
+    "text": "This note shows how to let end users switch between multiple 4D data files sharing the same structure file at runtime -- letting them browse a folder, pick a .4dd/.data file, and re-launch via the OPEN DATA FILE command -- instead of requiring them to hold Alt/Option at launch. It also covers binding structure and data files together with the WEDD resource in 4D Customizer Plus so mismatched files are rejected. The core OPEN DATA FILE command and the general pattern of programmatically switching data files remain part of current 4D (now typically paired with modern project-based structure/data separation), so the fundamental technique is still usable, though the platform-detection code (PLATFORM PROPERTIES, manual path-delimiter parsing) and the WEDD-resource/4D Customizer Plus workflow reflect classic-mode 4D file structures that Project Mode databases (2018+) handle differently.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's Project Mode (introduced v17, 2018) decouples the app definition from a single binary structure file, changing how multi-data-file scenarios are typically implemented",
-      "Modern 4D applications more commonly use separate hosted/remote data sources or ORDA data models rather than manually relaunching with a different local data file"
+      "OPEN DATA FILE remains a supported 4D command for switching data files at runtime",
+      "4D Customizer Plus and the WEDD-resource binding mechanism described here are tied to classic 4D structure files; Project Mode databases (introduced 2018) organize structure and data differently",
+      "Modern 4D code favors cross-platform path handling (e.g. Get 4D folder, File/Folder objects) over manual delimiter parsing shown in this note"
     ]
   }
 }

@@ -1,25 +1,43 @@
-# Tech Note 05-18: cURL - HTTP Client, Get and Post, FTP and Much More, Using 4D 2004
+# Tech Note: cURL - HTTP Client, Get and Post, FTP and Much More, Using 4D 2004
 
-**Author:** Not specified in available source
-**Published:** May 10, 2005 | **Product/Version:** 4D 2004 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=37215
-**Download:** https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_17-20_(MAY)/05-18_cURL_and_4D_2004.exe
+- **Asset ID:** 37215
+- **Tech Note #:** 05-18
+- **Published:** May 10, 2005
+- **Product / Version:** 4D 2004
+- **Platform:** Mac & Win
+- **Author:** Thomas Maul
+- **Page URL:** https://kb.4d.com/assetid=37215
+- **Download:** https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_17-20_(MAY)/05-18_cURL_and_4D_2004.hqx
 
 ## Overview
-This Tech Note shows how to control the cURL command-line tool from 4D 2004, using the newly introduced LAUNCH EXTERNAL PROCESS command, to add HTTP(S)/FTP(S) client capabilities (GET, POST, cookies, auth, form submission) to a 4D application.
+
+Thomas Maul (General Manager, 4D Germany) demonstrates driving the free cURL command-line tool from 4D 2004's new LAUNCH EXTERNAL PROCESS command to perform HTTP(S) GET/POST, cookie/session handling, and FTP(S) operations — an alternative to building a dedicated plug-in — illustrated with progressively more advanced demos culminating in an automated Google Image search.
 
 ## Key Points
-- cURL is a free, open-source, cross-platform tool supporting HTTP(S) GET/POST, cookies, Referrer/User-Agent headers, authentication, and automatic web-form filling.
-- It also supports FTP(S) and other protocols beyond HTTP.
-- Requires no installation on Windows and is already present on Mac OS X.
-- Controlled from 4D via the new LAUNCH EXTERNAL PROCESS command introduced in 4D 2004.
+
+- cURL is invoked via 4D 2004's new `LAUNCH EXTERNAL PROCESS` command through `RunCurl` (text results) and `RunCurlBlob` (binary results such as PDFs/images, avoiding the 32 KB text limit) project methods, which handle platform differences between Mac OS X (preinstalled) and Windows (bundled via the "4D Extras" folder).
+- Demo 1 performs a simple GET (`vResult:=RunCurl(vURL)`); Demo 2 performs an HTTP POST against a real EU VAT-number-validation service, manually building the POST body (`-d "Lang=EN&MS=..&ISO=..&VAT=.."`) and parsing the plain-text response for validity phrases — with a walkthrough of using Firefox's "View Page Info" to discover a target form's real field names.
+- Demo 3 automates a Google Image search end-to-end: acquiring cookies with `-b cookies.txt -c cookies.txt`, spoofing a User-Agent and Referrer (`-A`, `-e`) to satisfy anti-bot checks, encoding the search term (Mac to ISO, `ConvertStringToURL`), scraping result image URLs by locating the `<a href=/imgres?imgurl=` marker in the returned HTML, and fetching thumbnails one at a time in an `On Timer` loop via `RunCurlBlob` to avoid freezing the UI — explicitly noted as an educational example only, given Google's terms of service.
+- Positions LAUNCH EXTERNAL PROCESS as advantageous over building a compiled plug-in around the cURL library: upgrading cURL is just replacing the executable, with no recompilation needed and reduced exposure to 4D/OS/library version changes.
+- Windows installation guidance: bundle curl.exe (v7.13.2 Non-SSL tested) in the 4D Extras folder, retrieved at runtime via `Get 4D folder(Extras Folder)`, with an optional separate OpenSSL-based build for HTTPS.
+- Recommends packet-sniffing tools — Ethereal/MacSniffer (cross-platform, free) and HTTPLook (commercial, Windows) — for diagnosing cookie/referrer/User-Agent issues that are otherwise invisible when shelling out to curl.
 
 ## Featured Technology
-- cURL command-line HTTP/FTP client
-- LAUNCH EXTERNAL PROCESS (new in 4D 2004)
-- External-process-based integration pattern for adding networking capability to 4D
 
-## Historical Context
+- LAUNCH EXTERNAL PROCESS command (4D 2004)
+- cURL command-line HTTP(S)/FTP(S) client
+- Cookie-jar session persistence (-b/-c)
+- User-Agent and Referrer spoofing (-A/-e)
+- HTTP POST form automation
+- MacRoman-to-URL character encoding
+- On Timer-driven incremental binary downloads via RunCurlBlob
+
+## Historical Commentary
+
 **Status:** Superseded
 
-Shelling out to cURL via LAUNCH EXTERNAL PROCESS was a clever and practical workaround in 2005 for 4D's lack of a built-in HTTP client, but 4D introduced native HTTP Client commands in 4D v13 (2012), making this specific workaround largely unnecessary for straightforward HTTP GET/POST needs today. LAUNCH EXTERNAL PROCESS itself, however, remains part of the current 4D language and continues to be a valid, commonly used technique for invoking other external command-line tools where no native 4D equivalent exists. Note: only the on-page teaser paragraph for this note survived in this archive — the full PDF and example database could not be recovered (old download-archive format not accessible in this environment), so this summary is necessarily limited to that teaser text.
+This note shows an inventive way to gain full-featured HTTP(S)/FTP(S) client capability in 4D 2004 without writing a plug-in, by shelling out to cURL via the then-new LAUNCH EXTERNAL PROCESS command — impressively handling cookies, POST forms, and User-Agent spoofing entirely through command-line flags and text parsing. This shelling-out approach became largely unnecessary once 4D introduced native HTTP Client commands (4D v13, 2012) that provide the same GET/POST/cookie/auth capabilities directly in the language. LAUNCH EXTERNAL PROCESS itself, however, remains a valid and still-used 4D command for invoking other external command-line tools.
+
+**References to newer/updated information:**
+- 4D introduced native HTTP Client commands (HTTP Request and related APIs, added in 4D v13, 2012) providing built-in GET/POST/cookie/auth support without shelling out to cURL
+- LAUNCH EXTERNAL PROCESS itself remains part of the current 4D language and is still commonly used to invoke external command-line tools for other integration needs

@@ -7,20 +7,24 @@
   "product": "4D View",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Melinda Gallo",
   "page_url": "https://kb.4d.com/assetid=29736",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_36-39_(AUG)/03-36_4D_View_Helper.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_36-39_(AUG)/03-36_4D_View_Helper.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D View",
-    "Array/record display"
+    "4D View Helper component (PV_ helper routines)",
+    "PV_SetColumnArrays / PV_SetColumnFields",
+    "PV_SetColumnFields2 with callback methods",
+    "PV_ConfigureAsList (list-mode 4D View)",
+    "PV_GetSelectedRow(s) / PV_SetSelectedRow(s)",
+    "PV_SetFont / PV_SetRowHeight / PV_SetColumnWidths"
   ],
   "historical_commentary": {
-    "text": "As with its companion Part I note, this introductory piece is tied to 4D View, a companion product that has since been discontinued and whose functionality has been superseded by newer form objects and web-based grids in current 4D applications, making the specific technique obsolete for new development.",
+    "text": "The 4D View Helper component solved a real 2003-era pain point — the raw 4D View plug-in API was verbose for simple list display — by wrapping it in a friendlier set of PV_ routines. Since then, the 4D View plug-in itself has been discontinued in favor of the native List Box form object, which natively supports array- and collection-backed columns, computed/formula columns, font/style control, and row selection without needing any helper component at all, making both the raw 4D View API and this helper library obsolete for new development.",
     "status": "obsolete",
     "related_updates": [
-      "4D View has been discontinued as a standalone product/plug-in in current 4D",
-      "List box form objects and web-based grid components now serve the role 4D View areas served in 2003"
+      "The 4D View plug-in that this helper component wraps has been discontinued and replaced by the native List Box form object",
+      "Current List Box objects natively support array/collection-backed columns, computed columns, and selection handling that this helper component had to build by hand on top of 4D View"
     ]
   }
 }

@@ -7,22 +7,24 @@
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent Wilbur",
   "page_url": "https://kb.4d.com/assetid=36757",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_12-16_(APR)/05-13_QR_Editor_Source_I.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-13_QR_Editor_Source_I.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Quick Report editor",
-    "4D Quick Report commands/API",
-    "4D 2003 reporting engine",
-    "4D 2004 source code component"
+    "4D Quick Report built-in editor form",
+    "NQR_Init_Struct_Description virtual structure builder",
+    "GET TABLE TITLES / GET FIELD TITLES",
+    "Hierarchical list construction (NQR_MP_Get_Fields)",
+    "SET FORMAT picture-resource technique (e.g. \"1;4;:14934;64\")",
+    "QR SET AREA PROPERTY / QR Get report kind"
   ],
   "historical_commentary": {
-    "text": "This note provides source code for a modestly enhanced version of 4D 2003's newly rewritten Quick Report editor, aimed at developers who found the new Quick Report command set daunting to use directly. The classic Quick Report editor architecture it customizes belongs to the pre-SQL, pre-ORDA Design Mode era and has since been superseded by List Box-based reporting and 4D Write Pro in modern 4D applications. Only the teaser paragraph was recoverable for this note, limiting further technical assessment.",
+    "text": "This first installment of a three-part series walks through the source code of 4D 2003/2004's built-in Quick Report editor form, focusing on how it reads the database structure into memory (via GET TABLE TITLES/GET FIELD TITLES) and builds the hierarchical field-picker lists used by the wizard. It's a deep, form-object-level dissection aimed at developers who wanted to fork or slim down the stock editor rather than build reporting from scratch \u2014 a very of-its-era approach since 4D forms and their object methods were the only UI layer available. The specific Quick Report editor internals are long obsolete, but the underlying techniques (virtual in-memory structure description, hierarchical list building, and packing multiple values into a single longint via SET FORMAT's picture-resource trick) remain conceptually interesting even though modern 4D favors List Box/ORDA and 4D Write Pro for reporting.",
     "status": "historical_interest_only",
     "related_updates": [
-      "The classic Quick Report editor has been superseded by List Box reporting, 4D Write Pro, and other modern 4D reporting tools",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "4D Write Pro (introduced 2016) and List Box-based custom reporting have superseded the classic Quick Report editor for building modern report UIs",
+      "GET TABLE TITLES and GET FIELD TITLES remain available in current 4D, though ORDA-based structure introspection is now more common for dynamic/data-model-driven code"
     ]
   }
 }

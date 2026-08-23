@@ -1,1 +1,1 @@
-Tech Note: Email_QuickSend (TN 05-24, 4D v2004, July 2005) — a technique for sending authenticated SMTP email from 4D by wrapping SMTP_QuickSend with the little-known SMTP_Auth command from 4D Internet Commands.
+Sending authenticated SMTP email from 4D by wrapping SMTP_Auth in an Email_QuickSend method

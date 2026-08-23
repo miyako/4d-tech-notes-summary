@@ -1,1 +1,1 @@
-Tech Note: Complex Form Resizing (TN 04-03, 4D v2003, January 2004) — a method combining object move and resize logic to precisely compute form object placement and size when a 4D form is resized.
+Coordinated, proportional resizing and repositioning of multiple form objects using On Resize and MOVE OBJECT

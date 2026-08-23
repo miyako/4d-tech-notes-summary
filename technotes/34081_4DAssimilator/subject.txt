@@ -1,1 +1,1 @@
-Tech Note: Using 4D 2004 Assimilator (TN 04-38, 4D ODBC v2004, September 2004) — introduces the 4D 2004 Assimilator tool, which clones data structures and data files from any ODBC-compliant database into a new 4D database.
+Using the 4D 2004 Assimilator to clone ODBC database structures and data into 4D

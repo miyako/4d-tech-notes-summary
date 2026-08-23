@@ -1,28 +1,30 @@
 {
-  "asset_id": 34170,
-  "title": "Tech Note: Exchanging Data Between Processes",
-  "technote_number": "04-39",
-  "year": 2004,
-  "published_date": "September 30, 2004",
-  "product": "4th Dimension",
-  "version": "2004",
-  "platform": "Mac & Win",
-  "author": null,
-  "page_url": "https://kb.4d.com/assetid=34170",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_36-40_(AUG)/04-39_Exchanging_Data.exe",
-  "content_source": "teaser_only",
-  "featured_technology": [
-    "Multi-process 4D applications",
-    "Inter-process variable communication",
-    "Process synchronization techniques"
-  ],
-  "historical_commentary": {
-    "text": "This note tackles a perennial multi-process 4D application challenge: safely retrieving or setting values in another process's process variables, and keeping that communication synchronized rather than racing or deadlocking. Inter-process communication remains a real and relevant concern in current 4D applications, since 4D's classic multi-process model persists, though modern 4D offers additional tools (such as shared objects/collections and newer process-communication commands introduced well after 2004) that provide safer or more convenient alternatives to the manual process-variable techniques this note likely demonstrated.",
-    "status": "still_relevant",
-    "related_updates": [
-      "Later 4D versions introduced shared objects and shared collections (with built-in synchronization) as safer alternatives to manual process-variable exchange for many use cases",
-      "4D's process communication command set has been expanded since 2004 with additional options for inter-process messaging",
-      "The fundamental need to synchronize communication between concurrent processes remains unchanged and is still a core multi-process programming concern"
-    ]
-  }
+    "asset_id": 34170,
+    "title": "Tech Note: Exchanging Data Between Processes",
+    "technote_number": "04-39",
+    "year": 2004,
+    "published_date": "September 30, 2004",
+    "product": "4D",
+    "version": "2004",
+    "platform": "Mac & Win",
+    "author": "Jean-Yves Fock-Hoon",
+    "page_url": "https://kb.4d.com/assetid=34170",
+    "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_36-40_(AUG)/04-39_Exchanging_Data.hqx",
+    "content_source": "full_pdf",
+    "featured_technology": [
+        "SET PROCESS VARIABLE / GET PROCESS VARIABLE commands",
+        "VARIABLE TO VARIABLE command (supports arrays)",
+        "Semaphores for synchronizing shared inter-process buffers/arrays",
+        "CALL PROCESS combined with On Timer / On Outside call / SET TIMER for UI-safe polling",
+        "Inter-process variables and arrays as producer/consumer buffers"
+    ],
+    "historical_commentary": {
+        "text": "Jean-Yves Fock-Hoon walks through five progressively more complex multi-process communication scenarios in 4D -- from a simple synchronous two-process handshake using SET PROCESS VARIABLE/GET PROCESS VARIABLE, to buffered many-to-one and one-to-many producer/consumer patterns guarded by semaphores and drained via On Timer/CALL PROCESS polling loops, to a basic log-file writer fed by multiple worker processes. These low-level primitives (SET/GET PROCESS VARIABLE, VARIABLE TO VARIABLE, semaphores, CALL PROCESS) are foundational 4D language features that remain unchanged and fully supported today, so the synchronization patterns and cautions described are still directly applicable to any 4D multi-process application, even though many modern 4D apps now also have access to newer constructs (e.g. worker processes via 4D's newer process management commands) for some of these same use cases.",
+        "status": "still_relevant",
+        "related_updates": [
+            "SET PROCESS VARIABLE, GET PROCESS VARIABLE, VARIABLE TO VARIABLE, semaphores, and CALL PROCESS remain core, unchanged 4D language commands today",
+            "4D has since added additional process/worker management commands (e.g. CALL WORKER family) that offer alternative higher-level patterns for some inter-process communication scenarios",
+            "The synchronization cautions in this note (semaphore-guarded buffers, avoiding lost On Outside Call events) remain valid guidance for multi-process 4D applications"
+        ]
+    }
 }

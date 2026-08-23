@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Yvan Ayaay, Technical Support, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=32903",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-23_JDBC_Connectivity.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_21-25_(MAY)/04-23_JDBC_Connectivity.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "JDBC driver for 4D Server",
-    "Java Database Connectivity",
-    "4D Server network protocol"
+    "4D JDBC driver (jdbc4d.jar, com.fourd.jdbc.DriverImpl)",
+    "Java Class.forName / DriverManager.getConnection",
+    "JDBC URL format jdbc:4d:<ip address>",
+    "SQL SELECT/INSERT/UPDATE/DELETE support over JDBC",
+    "iSQL-Viewer JDBC client configuration",
+    "4D-to-Java data type mapping"
   ],
   "historical_commentary": {
-    "status": "still relevant",
-    "text": "The general need for external (Java-based) applications to connect to and query a 4D Server database via JDBC remains valid today, and 4D has continued to offer and update a JDBC driver for 4D Server across subsequent versions, so this note's core proposition is still conceptually relevant. However, the specific driver version and Java integration details demonstrated in this 2004 note are dated, and any modern integration would use a current release of 4D's JDBC driver rather than the one described here.",
+    "text": "This note walks through connecting to 4D Server from a Java program (and from the generic iSQL-Viewer JDBC client tool) using 4D's own JDBC driver, covering driver loading, connection strings, and the subset of SQL SELECT/INSERT/UPDATE/DELETE syntax the 2004-era 4D JDBC driver supported. 4D has continued to ship and update a JDBC driver for 4D Server across later versions, so the core proposition -- letting external Java applications query 4D data via SQL -- remains valid today, though the specific driver class names, supported SQL grammar, and the iSQL-Viewer tool shown are dated. Since this note, 4D's SQL engine has also matured substantially (4D SQL / native SQL support), and ORDA-based REST APIs (2017+) now offer a modern, HTTP/JSON alternative to JDBC for external application integration.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D has continued to maintain and update its JDBC driver for 4D Server across later 4D versions",
-      "4D's REST APIs (via ORDA, introduced 2017+) now offer an additional, HTTP-based alternative to JDBC/ODBC for external application integration with 4D data"
+      "4D has continued to maintain and update its JDBC driver for 4D Server across later 4D versions, with an expanded SQL command set beyond the 2004-era subset shown here",
+      "4D's ORDA-based REST APIs (introduced 2017+) now provide an additional, HTTP/JSON-based alternative to JDBC/ODBC for external application integration with 4D data",
+      "The specific tool used for the demo, iSQL-Viewer, is no longer a commonly used SQL client; developers today typically use modern SQL clients or drivers"
     ]
   }
 }

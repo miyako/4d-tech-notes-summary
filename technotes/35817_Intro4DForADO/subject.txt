@@ -1,1 +1,1 @@
-Tech Note: Introduction to 4D for ADO (TN 05-04, 4D v2004, January 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing 4d for ado plug-in.
+Connecting 4D 2004 to external RDBMS data sources (SQL Server, Oracle, and more) via the 4D for ADO plug-in over ODBC or OLE DB

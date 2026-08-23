@@ -1,1 +1,1 @@
-Tech Note: Dynamic Translation of Fields' Labels (TN 03-47, 4D v, October 2003) — a compact technique using about 15 lines of code to dynamically translate a database's field labels at runtime.
+Dynamically renaming table and field labels throughout a 4D application's UI using the new 2003 GET/SET TITLES commands

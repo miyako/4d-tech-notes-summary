@@ -1,1 +1,1 @@
-Tech Note: JDBC Connectivity for 4D Server (TN 04-23, 4D v2003.3, June 2004) — a guide to using the JDBC driver for 4D Server, a multi-platform Java API that translates JDBC calls into 4D Server's network protocol so Java programs can query and manipulate 4D data.
+Connecting Java programs and JDBC clients to 4D Server via the 4D JDBC driver

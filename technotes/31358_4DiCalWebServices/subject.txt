@@ -1,1 +1,1 @@
-Tech Note: 4D, iCal and Web Services (TN 04-07, 4D v2003.3, February 2004) — shows how to trigger AppleScripts from Apple's iCal calendar events to communicate with a 4D database via SOAP Web Services.
+4D and iCal: scheduling 4D methods (backups, reports) via AppleScript-triggered SOAP Web Service calls

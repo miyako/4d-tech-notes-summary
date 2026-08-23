@@ -1,22 +1,42 @@
-# Tech Note 04-51: Using 4D to Manage eBay
+# Tech Note: Using 4D to Manage eBay
 
-**Published:** December 22, 2004 | **Product/Version:** 4D v2004 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=35263
-**Download:** https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_51_(DEC)/04-51_Manage_eBay_with_4D.exe
+- **Asset ID:** 35263
+- **Tech Note #:** 04-51
+- **Published:** December 22, 2004
+- **Product / Version:** 4D 2004
+- **Platform:** Mac & Win
+- **Author:** Frank Chang
+- **Page URL:** https://kb.4d.com/assetid=35263
+- **Download:** https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_51_(DEC)/04-51_Manage_eBay_with_4D.hqx
 
 ## Overview
-More and more of today's small businesses are trying to gain web exposure. They want to make available, their products and services to the world without investing heavily in an internet infrastructure. It's a dog eat dog world in the business world, and you need every advantage you can get. Enter eBay, a company that has re-defined the way small businesses do business. With their innovative ideas, a new medium was born for linking businesses to their consumers. 4D developers can take advantage of eBay's medium and architecture through the use of the eBay Developers Program and 4D's Web Services capabilities.
+
+Frank Chang, a 4D Evangelist, shows how to integrate a 4D 2004 database with eBay's marketplace via the eBay Developers Program's SOAP API, centered on a bundled 4D - eBay Object Library that provides drag-and-drop buttons for binding table fields to eBay's schema and for adding, downloading, and syncing auction listings.
 
 ## Key Points
-- This entry is **teaser_only**: the full PDF/example archive for this note was not recoverable in this environment, so only the on-page teaser paragraph above is available as source material.
-- No further internal technical detail (step-by-step instructions, code listings, screenshots) beyond this teaser can be confirmed or summarized without fabrication.
+
+- Introduces the eBay Developers Program's SOAP Web Services API (the "eBay SOAP API"), describing "Individual Applications" (single-user optimized catalogs) and "Bridge Applications" (integration between an existing product database and eBay's marketplace) as the two typical development scenarios.
+- Details the 4D - eBay Object Library's nine objects, highlighting the Bind Tool (maps current table fields to the 14 fields required by eBay's SOAP API via the `Binding_SetBindings` method), Add Item(s) to eBay (calls `eBay_PostAdd`, which builds a SOAP request per selected record via `proxy_AddItem` and calls `AddItem`), Download from eBay (`eBay_PostGetSellerList`), Update eBay, and Update Locally.
+- Walks through the setup tutorial: obtaining an eBay developer token via the Auth & Auth tool at developer.ebay.com, then using the Bind Tool's property dialog to map 4D table/fields to eBay fields (a one-time, per-database configuration).
+- Shows the generic `AbstractAction_Startup` project method, which every Object Library button calls with a table pointer, current selection, and method name, and which spawns a uniquely-named new process (`New process`) to execute the actual eBay operation (e.g. `eBay_PostAdd`) so multiple actions can run concurrently.
+- Documents the `eBay_PostAdd` procedure in detail: constructing the item encapsulation (`eBay_ConstructItem`), initializing the SOAP session (`eBay_Initialize` with token/app ID/version/server/site ID), calling `proxy_AddItem`, and parsing the response with `eBay_isOKResponse`/`eBay_GetItemID`/`eBay_GetError` to save the returned auction item ID back onto the 4D record.
+- Notes that most other Object Library objects (Download, Update eBay, Update Locally) follow the same call-AbstractAction_Startup-then-dispatch pattern.
 
 ## Featured Technology
-- eBay Developers Program API
-- 4D Web Services (SOAP client)
-- E-commerce integration
 
-## Historical Context
-Published on December 22, 2004 as Tech Note 04-51 for 4D v2004, this note dates to 4D's pre-SQL, Design Mode-only era (4D 2003/2004/2004.1), predating 4D's native SQL engine (v11 SQL, ~2007), ORDA (2018), and Project Mode (v17, 2018). Status: **obsolete**. This note shows how to connect a 4D 2004 application to eBay's Developers Program API using 4D's SOAP-era Web Services capabilities, letting small businesses manage eBay listings from within their 4D database. eBay's API has been revised many times since 2004 (moving through multiple SOAP/XML and later REST generations), so the specific integration shown is obsolete, though the underlying idea of integrating 4D with a marketplace API for small-business e-commerce remains a relevant, still-common pattern, today implemented via 4D's HTTP Client commands and REST/JSON rather than 2004-era SOAP. Only the teaser paragraph could be recovered for this note.
+- eBay Developers Program SOAP API (sforce-style Web Services)
+- 4D - eBay Object Library (Bind Tool, Add Item, Download, Update eBay, Update Locally)
+- 4D Web Services Wizard-generated proxy methods (proxy_AddItem)
+- eBay Auth & Auth (developer token) authentication
+- Generic AbstractAction_Startup dispatch method with New process
 
-**Note:** The full archive for this Tech Note (PDF and/or example code download) could not be recovered in this environment — the source download format is no longer accessible — so this summary is necessarily based only on the short teaser paragraph published on the Tech Note's page, not the complete original document.
+## Historical Commentary
+
+**Status:** Obsolete
+
+Frank Chang, a 4D Evangelist, demonstrates a complete eBay marketplace integration built as a 4D 2004 Object Library/Template/Component toolkit, using the eBay Developers Program's SOAP API to add, download, and update auction listings directly from a 4D database via a Bind Tool that maps table fields to eBay's object schema. The note is a period showcase of 4D's 2004 SOAP web-services capability applied to e-commerce, but the specific eBay SOAP API version, the Auth & Auth token flow, and the bundled toolkit are all obsolete -- eBay's API has moved through multiple generations (Trading API, and now the modern eBay REST APIs with OAuth) since 2004, and 4D integrations with such platforms are now typically built with native HTTP Client commands and JSON rather than SOAP/XML and Object Libraries.
+
+**References to newer/updated information:**
+- eBay has replaced its 2004-era SOAP Developers Program API with modern REST APIs using OAuth authentication
+- 4D's own web-service story has moved from Object Library/SOAP-based toolkits toward native HTTP Client commands and JSON for REST integrations
+- The 4D-eBay Object Library and Bind Tool described in this note are specific to the classic Design Mode/4D 2004 architecture and are no longer applicable

@@ -1,1 +1,1 @@
-Tech Note: WebSTAR: Front End for 4D Business Kit (TN 05-07, 4D Business Kit vn/a, February 2005) — teaser-only archive entry; only the on-page summary paragraph was recoverable, describing 4d webstar 5.3.3 web server.
+Configuring 4D WebSTAR's Web ReWrite plug-in as a reverse-proxy front end for 4D Business Kit 2.2.2

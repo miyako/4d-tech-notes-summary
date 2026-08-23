@@ -1,24 +1,41 @@
-# Tech Note 05-24: Email_QuickSend
+# Tech Note: Email_QuickSend
 
-**Author:** Not specified in available source
-**Published:** July 11, 2005 | **Product/Version:** 4D 2004 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=37936
-**Download:** https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_21-24_(JUN)/05-24_Email_QuickSend.exe
+- **Asset ID:** 37936
+- **Tech Note #:** 05-24
+- **Published:** July 11, 2005
+- **Product / Version:** 4D
+- **Platform:** Mac & Win
+- **Author:** Melinda Gallo
+- **Page URL:** https://kb.4d.com/assetid=37936
+- **Download:** https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_21-24_(JUN)/05-24_Email_QuickSend.hqx
 
 ## Overview
-This Tech Note shows how to send authenticated SMTP email from 4D using the little-known SMTP_Auth command from 4D Internet Commands, wrapped in a drop-in Email_QuickSend replacement method.
+
+Melinda Gallo, with code by Dave Batton, shows how to send SMTP-authenticated email from 4D by wrapping the low-level SMTP_Auth command from the 4D Internet Commands plug-in in a custom Email_QuickSend method — a near drop-in replacement for the plug-in's own SMTP_QuickSend, which does not support authentication.
 
 ## Key Points
-- SMTP_Auth (from 4D Internet Commands) supports SMTP servers requiring authentication; SMTP_QuickSend does not.
-- SMTP_Auth had shipped in multiple 4D Internet Commands releases but remained little known.
-- The Email_QuickSend method mirrors SMTP_QuickSend's calling convention with one extra password parameter, giving an easy migration path for existing SMTP_QuickSend call sites.
+
+- `Email_QuickSend(hostname; sender; recipient; subject; message; password)` mirrors the parameter order of `SMTP_QuickSend` but adds a required password parameter to support authenticated relays.
+- The Send button's object method prompts for the sender's password at send time via `Request("Enter your password: ")`, only after validating that all other fields are filled in.
+- Internally, Email_QuickSend sequences the low-level 4D Internet Commands SMTP_New, SMTP_Host, SMTP_Auth, SMTP_From, SMTP_To, SMTP_Subject, and SMTP_Body, followed by SMTP_Send and SMTP_Clear.
+- Each low-level call is wrapped in `Email_HandleSMTPError("CommandName"; ErrorCode)`, a boolean-returning helper that sets the system `Error` variable and shows an Alert naming both the failing command and its error number.
+- The note contrasts this with the simpler SMTP_Send command, noting that avoiding authentication implies the mail server operates as an open relay — a configuration with real security implications.
 
 ## Featured Technology
-- 4D Internet Commands plug-in
-- SMTP_Auth / SMTP_QuickSend commands
-- Custom wrapper method pattern for incremental API migration
 
-## Historical Context
+- 4D Internet Commands plug-in
+- SMTP_Auth command for authenticated SMTP
+- SMTP_New / SMTP_Host / SMTP_From / SMTP_To / SMTP_Subject / SMTP_Body / SMTP_Send sequence
+- Custom error-wrapper pattern (Email_HandleSMTPError)
+- Request() for runtime password prompting
+
+## Historical Commentary
+
 **Status:** Obsolete
 
-4D Internet Commands as a distinct plug-in and its specific SMTP command set have been superseded by native email/network capabilities in later 4D versions, and just as importantly, the simple username/password SMTP authentication this note addresses has itself been phased out by most major email providers in favor of OAuth2-based authentication, which this technique does not support. The core idea — wrapping a limited command with a small compatible method to add a missing capability — remains a sound general programming pattern, but the specific SMTP_Auth-based solution is no longer a viable way to send authenticated email through most modern mail servers. Note: only the on-page teaser paragraph for this note survived in this archive — the full PDF and example database could not be recovered (old download-archive format not accessible in this environment), so this summary is necessarily limited to that teaser text.
+This note shows a practical wrapper around a little-known but long-present 4D Internet Commands feature, letting developers add SMTP authentication to outgoing mail with a one-parameter change to their existing SMTP_QuickSend calls. The 4D Internet Commands plug-in and this exact low-level SMTP command sequence have since been superseded by native SMTP support in the core 4D language, and — more fundamentally — the simple username/password SMTP authentication model this note demonstrates predates the OAuth2-based authentication that Gmail, Microsoft 365, and most modern mail providers now require, making the technique itself obsolete for current mail servers even where the plug-in still runs.
+
+**References to newer/updated information:**
+- 4D Internet Commands (a separate plug-in in this era) has been superseded by native 4D language commands for email/network protocols in later 4D versions
+- Most major email providers (Gmail, Microsoft 365, etc.) have since deprecated simple username/password SMTP authentication in favor of OAuth2, which this note's technique does not address
+- Modern 4D applications typically use 4D's native SMTP-related commands or third-party REST-based transactional email APIs rather than 4D Internet Commands' SMTP_Auth

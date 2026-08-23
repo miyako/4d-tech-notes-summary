@@ -1,28 +1,30 @@
 {
   "asset_id": 36562,
-  "title": "Tech Note: 4D Pack 2004.1's New Utility Commands",
+  "title": "Tech Note: New 4D Pack 2004.1's Utility Commands",
   "technote_number": "05-11",
   "year": 2005,
   "published_date": "March 17, 2005",
   "product": "4D",
   "version": "2004.1",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=36562",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-11_4D_Pack_Commands.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-11_4D_Pack_2004.1_Utility_Cmds.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Pack plug-in",
-    "Database structure manipulation commands (tables/fields/relations)",
-    "4D 2004.1 utility commands"
+    "AP Add table and fields command",
+    "AP Create relation command",
+    "AP Get templates command",
+    "4D Pack plug-in (utility theme)",
+    "Programmatic structure creation (tables, fields, relations)",
+    "XML-based structure export/import for structure cloning"
   ],
   "historical_commentary": {
-    "text": "This note documents four new utility commands added to the 4D Pack plug-in in version 2004.1, mostly geared toward programmatically managing binary Design Mode database structure elements such as tables, fields, relations, and default objects. 4D Pack itself was later folded into or superseded by core 4D language commands, and today's structure manipulation increasingly happens through Project Mode's text-based structure files rather than 4D Pack-style runtime commands. Only the teaser paragraph could be recovered for this note, so the specific commands cannot be fully assessed here.",
-    "status": "obsolete",
+    "text": "This note introduces three then-new 4D Pack utility commands (AP Add table and fields, AP Create relation, AP Get templates) that let a 4D 2004.1 database programmatically create tables, fields, and relations at runtime \u2014 something previously only possible manually from the Design-mode structure window or via 4D Insider \u2014 illustrated with an example that exports a database's structure to XML and rebuilds it in a fresh database. Structure creation is largely irrelevant to modern 4D development, since current 4D (v17+) supports fully dynamic, code-first data models via ORDA and the dataclass/datastore APIs, making manual structure-window-equivalent commands like these far less central; the specific AP-prefixed 4D Pack commands themselves are effectively legacy/superseded territory today.",
+    "status": "superseded",
     "related_updates": [
-      "4D Pack plug-in commands have long since been absorbed into or superseded by core 4D language features",
-      "Project Mode (introduced 4D v17, 2018) now allows direct text-based editing of structure elements, reducing reliance on structure-manipulation commands",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "4D's ORDA data model and dynamic datastore/dataclass APIs (4D v17+) provide a modern, code-first way to define and manipulate a database structure, superseding the need for the classic 4D Pack AP Add table and fields/AP Create relation commands for most new development",
+      "4D Pack itself has been folded into/superseded by newer built-in 4D language commands over successive versions; developers should consult current 4D documentation before relying on these specific AP-prefixed commands"
     ]
   }
 }

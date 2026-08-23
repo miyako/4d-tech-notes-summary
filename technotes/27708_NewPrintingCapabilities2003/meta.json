@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gou Yang, 4D Inc. Technical Support",
   "page_url": "https://kb.4d.com/assetid=27708",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_21-25_(MAY)/03-24_NewPrintCapabilities.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_21-25_(MAY)/03-24_NewPrintCapabilities.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D 2003 printing commands",
-    "Print Form / Print Selection / Print Record"
+    "PRINTERS LIST command",
+    "SET CURRENT PRINTER / Get current printer commands",
+    "SET PRINT OPTION / GET PRINT OPTION commands",
+    "PRINT OPTION VALUES command",
+    "Print Form / Print Record / Print Selection with the '>' (don't reinitialize) parameter",
+    "Cross-platform (Mac/Windows) print dialog design"
   ],
   "historical_commentary": {
-    "text": "4D's printing command set introduced here has been maintained and further extended in subsequent 4D versions, so the core capability (procedural control over printing) remains relevant, though specific commands and options have evolved; developers today would consult current documentation rather than this 2003-era note for exact syntax.",
-    "status": "superseded",
+    "text": "Gou Yang walks through 4D 2003's then-new procedural printing commands (PRINTERS LIST, SET/GET PRINT OPTION, PRINT OPTION VALUES) by building a custom cross-platform print-settings dialog with per-user saved preferences, and explains the important '>' parameter on PRINT RECORD/PRINT SELECTION that preserves programmatically-set options instead of resetting them. The core command set demonstrated here is still part of current 4D and the general pattern of querying then setting print options procedurally remains valid, so the underlying technique is still usable. However, the specific option numbering, the Mac OS 9 checks, and some UI conventions (e.g., 'EPS (PDF for Mac OS X)' as a destination) are dated, and 4D's print architecture has continued to evolve since, so developers should verify current option values and destinations against present-day documentation rather than copying this note's numbers verbatim.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's printing command set has continued to evolve since 2003, with more options added in later versions"
+      "The PRINTERS LIST, SET/GET PRINT OPTION, and PRINT OPTION VALUES commands remain part of current 4D, though later versions have added or refined print option numbers and destinations beyond what is listed in this 2003-era note",
+      "Mac OS 9 compatibility checks and OS 9-era destination options (like 'EPS (PDF for MAC OS X)') described here are no longer relevant on modern systems"
     ]
   }
 }

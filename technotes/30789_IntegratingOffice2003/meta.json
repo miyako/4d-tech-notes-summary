@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Julien Feasson, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=30789",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_52-55_(DEC)/03-54_4D_and_Office_2003.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_52-55_(DEC)/03-54_4D_and_Office_2003.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "XML",
-    "Web Services / SOAP",
-    "Microsoft Office 2003 interoperability"
+    "Word 2003 / Excel 2003 WordprocessingML XML file formats",
+    "4D XML parsing commands (Parse XML variable, Get First/Next XML element)",
+    "4D data export to XML for Excel import",
+    "4D SOAP Web services (server side)",
+    "Excel Visual Basic Web Service References Tool / SOAP proxy classes",
+    "Microsoft InfoPath 2003"
   ],
   "historical_commentary": {
-    "text": "Office 2003's XML file formats and this era's raw-XML/SOAP integration techniques have since been superseded first by the Office Open XML (.docx/.xlsx) formats introduced in Office 2007, and more broadly by REST/JSON-based integration approaches, so the specific mechanisms hinted at here are obsolete. The broader theme \u2014 that 4D can interoperate with desktop productivity suites via structured data exchange \u2014 remains conceptually relevant, just via very different modern tooling.",
+    "text": "Using a fictional sales-rep scenario, this note shows four separate ways 4D 2003 could integrate with the newly XML-capable Office 2003 suite: parsing Word's WordprocessingML XML to extract data, generating Word/Excel XML documents from 4D data (from scratch or via templates) for reports and expense forms, exporting data as XML for direct Excel import, and publishing a 4D SOAP Web service that an Excel VB macro calls directly to pull live data into a spreadsheet. All of these mechanisms are now obsolete: Office moved to the zipped Office Open XML formats (.docx/.xlsx) in Office 2007, InfoPath itself was discontinued by Microsoft in 2014, and SOAP-based Excel/4D integration has been broadly displaced by REST/JSON APIs, though the general goal of scripted, structured data exchange between 4D and desktop productivity tools remains a common integration need addressed today through very different tooling.",
     "status": "obsolete",
     "related_updates": [
-      "Microsoft Office moved to the Office Open XML formats (.docx/.xlsx/.pptx) starting with Office 2007, superseding the Office 2003 XML formats referenced here",
-      "SOAP-based Web Services integration has broadly given way to REST/JSON APIs in modern application integration, including in current 4D"
+      "Microsoft Office moved to the Office Open XML formats (.docx/.xlsx/.pptx, a zipped XML package) starting with Office 2007, superseding the flat WordprocessingML/SpreadsheetML XML formats parsed and generated in this note",
+      "Microsoft discontinued InfoPath (mainstream support ended 2014), the forms tool central to this note's 'Robert' integration scenario",
+      "SOAP-based Web Services integration between 4D and Office VBA macros has been broadly superseded by REST/JSON APIs in modern application integration"
     ]
   }
 }

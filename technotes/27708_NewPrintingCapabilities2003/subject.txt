@@ -1,1 +1,1 @@
-Tech Note: New Printing Capabilities with 4D 2003 (TN 03-24, 4D v2003, May 2003) — an introduction to 4D 2003's new procedural printing commands, which for the first time allow code to control most default print dialog options.
+Building a custom cross-platform print-settings dialog using 4D 2003's new procedural printing commands

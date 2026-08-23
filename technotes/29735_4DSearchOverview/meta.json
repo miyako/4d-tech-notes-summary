@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=29735",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_36-39_(AUG)/03-37_4D_Search.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_36-39_(AUG)/03-37_4D_Search.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Full-text/record search",
-    "4D Search example database"
+    "4D WebSTAR V Search plug-in / index pages",
+    "4D Dynamic Data Indexer (DDI, SOAP-driven URL lists)",
+    "WSAPI_LoginDialog / WSAPI_WebSrv_GetSearchIndices",
+    "WSAPI_WebSrv_GetRouting / WSAPI_WebSrv_GetWebListeners",
+    "Parse XML source (native 4D XML/HTTP fetch)",
+    "OPEN WEB URL for opening search results"
   ],
   "historical_commentary": {
-    "text": "Whatever specific search technique this note documented has likely been superseded by 4D's later native SQL engine (with its indexing and query capabilities) and full-text search options, or by modern set-based query commands, making the note's approach dated even though building custom search UX remains a common developer task today.",
-    "status": "superseded",
+    "text": "This note showcases a smart use of 4D 2003's then-new native Parse XML source command to avoid hand-rolled TCP networking, but the product it's built around — the 4D WebSTAR V web server and its Search plug-in/Dynamic Data Indexer — has been discontinued for many years. A modern equivalent to full-text search over a document/record set would use a dedicated search engine (Elasticsearch, Algolia, or similar) fronted by 4D's current built-in web server and native HTTP client, rather than WebSTAR's proprietary indexing plug-in, making this note of historical interest only.",
+    "status": "obsolete",
     "related_updates": [
-      "4D's later native SQL engine (v11 SQL, ~2007) and modern query/set commands provide more capable search foundations than were available in 2003"
+      "4D WebSTAR V, and its Search plug-in / Dynamic Data Indexer used throughout this note, have been discontinued",
+      "Modern full-text search over documents or records would typically be built with a dedicated search engine (e.g., Elasticsearch, Algolia) fronted by 4D's current built-in web server and native HTTP client commands"
     ]
   }
 }

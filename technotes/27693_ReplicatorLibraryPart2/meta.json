@@ -7,19 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac OS X",
-  "author": null,
+  "author": "Simon J Wright, Chief Systems Architect, Knowledge Sharing Systems, Inc.",
   "page_url": "https://kb.4d.com/assetid=27693",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-19_Replicator_Library_2.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_16-20_(APR)/03-19_Replicator_Library_2.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Replicator code library",
-    "Data replication"
+    "Replicator code library (rpl_Queue / rpl_Configuration tables)",
+    "4D Open for 4D plug-in (remote-server connectivity)",
+    "Push-based, trigger-captured near-real-time replication",
+    "Ownership fields and site-prefixed keys for multi-server uniqueness",
+    "Most-recent-wins replication collision resolution",
+    "Replication topology design (one-way, two-way, hierarchical, peer)"
   ],
   "historical_commentary": {
-    "text": "The specific Replicator library is a bespoke, era-specific 4D code library that has almost certainly been superseded by later, more capable synchronization approaches (including 4D's own sync/replication features and ORDA-based remote datastore access), but the fundamental data-replication trade-offs this note discusses (consistency vs. availability, conflict resolution) remain foundational distributed-systems concepts still directly relevant today.",
+    "text": "Simon J Wright, in this second of two Tech Notes, digs into the design trade-offs behind the third-party Replicator code library: push-vs-pull replication, record ownership and site-prefixed keys to avoid duplicate primary keys across servers, why triggers are a good place to capture changes but a bad place to transmit them, near-real-time (not real-time) replication via a queue table, and a 'most recent wins' rule to resolve replication collisions using a dedicated Replication user group to avoid replication ping-pong. Replicator itself is a bespoke, 4D Open-dependent library from a third party and has certainly been superseded as a product; 4D Open has itself been superseded by 4D's built-in remote/ORDA connectivity for talking between 4D databases, and modern distributed 4D architectures increasingly rely on ORDA and REST-based datastore access rather than 4D Open point-to-point connections. That said, the conceptual material on replication design (ownership, collision resolution, topology trade-offs, why triggers shouldn't do slow work) remains a solid, still-applicable primer for anyone designing a multi-server synchronization system in any technology.",
     "status": "superseded",
     "related_updates": [
-      "4D has since added more built-in synchronization/replication capabilities than existed via this third-party-style Replicator library in 2003"
+      "The specific Replicator library and its dependency on the 4D Open for 4D plug-in are obsolete; 4D Open has been superseded by 4D's built-in remote datastore/ORDA access for connecting to other 4D databases",
+      "Modern 4D applications needing data synchronization between servers typically build on ORDA remote datastores and REST APIs rather than a bespoke trigger-plus-queue-table replication library like this one",
+      "The general replication-design concepts discussed (ownership fields, site-prefixed keys, push vs. pull, collision resolution, avoiding heavy work in triggers) remain valid, technology-agnostic distributed-systems knowledge"
     ]
   }
 }

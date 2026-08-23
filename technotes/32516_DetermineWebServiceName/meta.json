@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=32516",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_16-20_(APR)/04-18_Determine_WS_Name.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_16-20_(APR)/04-18_Determine_Web_Service_Name.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Web Services (SOAP)",
-    "Get Soap info command",
-    "SoapAction HTTP header parsing"
+    "Get SOAP info (SOAP Method Name / SOAP Service Name constants)",
+    "SoapAction HTTP header parsing",
+    "GET HTTP HEADER for reading incoming headers",
+    "Custom GetSoapAction / GetSoapAction_MethodName / GetSoapAction_WebServiceName methods",
+    "Find in array / Position / Substring string parsing"
   ],
   "historical_commentary": {
-    "text": "This note addresses a narrow but real gap in 4th Dimension 2003's early SOAP Web Services support: identifying which method or Web Service was actually requested, useful for security and logging. That SOAP-centric integration model (native 4D Web server, Get Soap info, manual HTTP header inspection) has been almost entirely superseded by REST/JSON-based web services and 4D's later, more complete Web Services/ORDA-oriented tooling, making this note's specific techniques of historical interest only.",
-    "status": "historical interest only",
+    "text": "This note explains a specific 4th Dimension 2003.2+ limitation -- that Get SOAP info's SOAP Service Name constant unreliably returns the Web Service name because that name isn't actually present in the SOAP XML body -- and provides a custom routine that instead extracts both the service and method names by parsing the optional SoapAction HTTP header. It's a narrow but practical debugging/logging/security technique for that era's native 4D SOAP server. The underlying issue and workaround are specific to 4th Dimension's legacy SOAP-based Web Service publishing, which has since been superseded by REST APIs built on ORDA (2017+); the SoapAction header itself was also dropped from the later SOAP 1.2 specification, further limiting the technique's applicability outside legacy SOAP 1.1 contexts.",
+    "status": "superseded",
     "related_updates": [
-      "4D's web services support has since expanded well beyond SOAP to include REST and JSON-based services with dedicated language commands",
-      "SOAP-based Web Services are largely legacy in modern 4D development, with REST/ORDA APIs now the standard integration approach"
+      "4D's SOAP-based Web Service publishing has been superseded by REST APIs built on ORDA (introduced 2017+)",
+      "The SoapAction HTTP header this technique relies on was dropped from the SOAP 1.2 specification, limiting relevance to legacy SOAP 1.1 services"
     ]
   }
 }

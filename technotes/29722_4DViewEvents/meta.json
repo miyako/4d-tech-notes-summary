@@ -7,20 +7,23 @@
   "product": "4D View",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gou Yang",
   "page_url": "https://kb.4d.com/assetid=29722",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_31-35_(JUL)/03-34_4D_View_Events.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_31-35_(JUL)/03-34_4D_View_Events.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D View",
     "PV ON EVENT",
-    "PV ON COMMAND"
+    "PV ON COMMAND",
+    "4D View grid area events",
+    "PV Area to blob / PV BLOB TO AREA",
+    "4D View menu-command overriding"
   ],
   "historical_commentary": {
-    "text": "4D View and its PV-prefixed event commands are tied to a discontinued companion product, making this note's specific API obsolete for current 4D development; the general concept of an event-driven, interactive grid area remains fully relevant and is now realized through list box form object events or web-based grid/table components in modern 4D applications.",
+    "text": "4D View was 4D's classic spreadsheet-grid component, and this note gives a clear, practical explanation of its distinctive event model (PV ON EVENT/PV ON COMMAND) at a time when few other resources covered the Active-Cell-vs-Selection-Changed distinction or in-database document storage via PV Area to blob. 4D View itself has since been discontinued, making the specific PV-prefixed API obsolete for current development, but the underlying concept -- an event-driven, interactive grid with programmatic event hooks -- lives on in modern 4D through list box form objects and their own on-event model, or through web-based grid/table components embedded in web areas.",
     "status": "obsolete",
     "related_updates": [
-      "4D View has been discontinued; list box form objects and their own event model are the modern equivalent in current 4D"
+      "4D View has been discontinued; list box form objects (with their own event/method model) are the modern 4D equivalent for interactive grid data",
+      "Web area-embedded JS grid/table components are another modern alternative for spreadsheet-style interactive data display in current 4D applications"
     ]
   }
 }

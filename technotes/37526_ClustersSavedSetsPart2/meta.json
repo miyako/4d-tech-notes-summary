@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent Wilbur",
   "page_url": "https://kb.4d.com/assetid=37526",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_21-24_(JUN)/05-22_Clusters_Part_II.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_21-24_(JUN)/05-22_Clusters_Part_II.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Saved sets (Sets)",
-    "Cluster-based query performance technique",
-    "Set operations for record retrieval"
+    "Boolean-array \"cluster\" set operations (UNION / INTERSECTION)",
+    "CREATE SET FROM ARRAY / CREATE SELECTION FROM ARRAY",
+    "BLOB-stored per-word Boolean arrays ([Words] table)",
+    "4DACTION-driven web query methods",
+    "COMPILER_WEB automatic form-variable mapping",
+    ".shtml templates with #4dloop / #4dif tags"
   ],
   "historical_commentary": {
-    "text": "This second half of a two-part series covers how to actually retrieve data using pre-built \"clusters\" of saved sets (following Part I's coverage of creating and maintaining those clusters), a manual performance-optimization technique for speeding up database queries in the classic 4D language. Saved sets remain part of current 4D, but the query optimizer, indexing improvements, and (for ORDA-based access) the lazy-loading entity selection engine introduced in later 4D versions have significantly reduced the need for this kind of manual clustering technique for most modern applications.",
+    "text": "This note demonstrates a well-engineered, hand-built full-text search index using 4D's classic Sets and BLOB storage, achieving dramatic (>99%) query-time reductions that were genuinely hard to get any other way in 2005. The specific manual clustering technique has largely been superseded by decades of improvements to 4D's own query engine and indexing, and by ORDA's lazy-loaded entity selections, which address large-selection performance with a fundamentally different (and far less code-intensive) mechanism. For genuine full-text search needs today, most 4D developers would reach for a dedicated full-text index or external search engine rather than reimplementing an inverted-index-by-BLOB scheme.",
     "status": "superseded",
     "related_updates": [
       "4D's classic query engine and indexing have been substantially optimized in versions since 2005, reducing the performance gap this manual clustering technique aimed to close",
-      "ORDA's entity selections (introduced 2017/v16 R2+) provide lazy-loaded, cursor-like access to large record sets, addressing similar performance concerns with a different, more modern mechanism"
+      "ORDA's entity selections (introduced in 4D v16 R2+) provide lazy-loaded, cursor-like access to large record sets, addressing similar performance concerns with a different, more modern mechanism"
     ]
   }
 }

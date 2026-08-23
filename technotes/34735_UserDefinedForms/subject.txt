@@ -1,1 +1,1 @@
-Tech Note: User Defined Forms (TN 04-45, 4D v2004, November 2004) — introduces a 4D 2004 feature that lets end users create or modify customized forms at runtime, even within compiled and merged applications.
+Letting end users customize 4D 2004 forms at runtime with EDIT FORM, CREATE USER FORM, and inherited parent/child forms

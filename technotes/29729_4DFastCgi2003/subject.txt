@@ -1,1 +1,1 @@
-Tech Note: 4D FastCGI 2003 (TN 03-27, 4D v2003, June 2003) — an overview of using FastCGI to integrate 4D with web servers for improved performance over traditional CGI.
+Using the 4D FastCGI 2003 component to serve persistent, high-performance FastCGI requests from 4D

@@ -1,24 +1,44 @@
-# Tech Note 05-32: Server Processes
+# Tech Note: Server Processes
 
-**Published:** October 3, 2005 | **Product/Version:** 4D 2004 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=39582
-**Download:** https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_30-33_(SEP)/05-32_Server_Process.exe
+- **Asset ID:** 39582
+- **Tech Note #:** 05-32
+- **Published:** October 3, 2005
+- **Product / Version:** 4D
+- **Platform:** Mac & Win
+- **Author:** Larry Sharpe
+- **Page URL:** https://kb.4d.com/assetid=39582
+- **Download:** https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_30-33_(SEP)/05-32_Server_Process.hqx
 
 ## Overview
-**Note:** this entry's content_source is `teaser_only` — the full PDF/example archive could not be recovered in this environment, so the following is based solely on the short on-page teaser text.
 
-Per the teaser, this is the third Tech Note in an ongoing series building features into a shared example database, and this installment demonstrates setting up, managing, and running processes that are initiated from a 4D Client but that actually execute on the 4D Server.
+Larry Sharpe's third Tech Note in his example-database series demonstrates how to build a background process — used here for periodically importing files — that is configured and monitored from a 4D Client but is actually executed on the 4D Server, with the same code also working unmodified on a single-user or 4D Client installation.
 
-## Key Points (from teaser)
-- Third entry in a continuing example-database series.
-- Demonstrates client-initiated, server-executed process management.
-- Notes that, due to 4D's underlying architecture plus a small amount of conditional (If-statement) logic, the same mechanism can also run under a 4D Client or a Single User version of 4D if needed.
-- No further detail on the specific commands or code structure used is available from the recovered teaser text.
+## Key Points
+
+- The People_ImportProcess project method is the core of the note: called with no parameters it starts a new process via `Execute on server` (or `New process` on a client/single-user machine), and called with a `$command` parameter it performs the actual work (`RunProcess`, `UpdateWindow`, `ShowAlert`, `UserInterface`, `OnStartup`).
+- The RunProcess loop delays in 1-second increments inside a `Repeat` loop (rather than one long `DELAY PROCESS`) so the user can request a stop mid-wait, then checks the Import Needed folder, imports files, sends email/alert notifications, and moves the file to Import Finished.
+- Because the server cannot show dialogs or alerts, `EXECUTE ON CLIENT` is used to run UI-related code (`UpdateWindow`, `ShowAlert`) on connected clients, which in turn use `CALL PROCESS` to trigger an `On Outside Call` form event that refreshes the open preferences window.
+- Process preferences (run at startup, run on server vs. client, polling delay in minutes, email/alert settings) are stored in the [xPreferences] table under the fixed name "Processes" rather than per-user, separating server process configuration from user preferences introduced in the prior Tech Note.
+- The note clarifies naming/behavior differences among several related commands: `New process` (same machine, client or single-user), `Execute on server` (always the server on client/server, same as `New process` in single-user), `EXECUTE ON CLIENT` (runs a method, not a process, only on registered clients), and `REGISTER CLIENT`/`UNREGISTER CLIENT`.
+- Also documents `GET PROCESS VARIABLE` / `SET PROCESS VARIABLE` (cannot pass local variables, arrays, or pointers) versus `VARIABLE TO VARIABLE` (the true opposite of `GET PROCESS VARIABLE`), and uses `PLATFORM PROPERTIES` to determine the correct application/structure path depending on whether the code runs on a client or the server.
+- Builds directly on the two prior notes in the series: "User Changeable Output Form" (July 2005) and "User Preferences" (August 2005).
 
 ## Featured Technology
-- 4D Client/Server architecture
-- Server-side process management
-- Cross-mode compatibility (4D Client, 4D Server, single-user 4D)
 
-## Historical Context
-The full archive for this Tech Note could not be recovered (old-format download not accessible in this environment), so this summary is limited to the general pattern described in the teaser. The idea of delegating work from a client to the server remains conceptually valid, but 4D has since introduced dedicated worker-process language commands for managing background/server-side execution more directly than the manual client/server orchestration this note likely demonstrates.
+- Execute on server / New process commands
+- EXECUTE ON CLIENT and On Outside Call form event
+- REGISTER CLIENT / UNREGISTER CLIENT
+- GET PROCESS VARIABLE / SET PROCESS VARIABLE / VARIABLE TO VARIABLE
+- DELAY PROCESS-based polling loop
+- xPreferences table (BLOB-based preference storage)
+- PLATFORM PROPERTIES for client/server path resolution
+
+## Historical Commentary
+
+**Status:** Partially superseded
+
+This note demonstrates a manual but genuinely clever pattern for running the same background-process code on a 4D Server, a 4D Client, or a single-user application, complete with careful handling of the fact that server code cannot display UI. That client/server process-delegation approach remained the standard technique for years, but 4D has since added dedicated worker-process language commands (CALL WORKER and related APIs) that handle inter-process messaging and background execution more directly, reducing the need for this much manual EXECUTE ON CLIENT / On Outside Call plumbing. The core ideas — server-only processes, careful command selection for client vs. server execution — remain conceptually valid and are still explained in current 4D documentation.
+
+**References to newer/updated information:**
+- CALL WORKER and the worker-process command family, added in later 4D versions, provide a more direct built-in mechanism for background/server process communication than manual EXECUTE ON CLIENT plus On Outside Call polling
+- 4D's process/worker model has continued to evolve; the fundamental client-vs-server execution distinction described here (New process vs. Execute on server) still applies in current 4D

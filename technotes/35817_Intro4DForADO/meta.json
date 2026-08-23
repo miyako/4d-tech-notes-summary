@@ -7,23 +7,23 @@
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Sean Le",
   "page_url": "https://kb.4d.com/assetid=35817",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_01-04_(JAN)/05-04_Intro_to_4D_for_ADO.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_01-04_(JAN)/05-04_Intro_4D_for_ADO.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "4D for ADO plug-in",
-    "Microsoft ActiveX Data Objects (ADO)",
-    "MS SQL Server / Oracle / Sybase ASE / MS Access connectivity",
-    "LDAP/Active Directory access via ADO.Net"
+    "DBGateway_Connect / DBGateway_Close",
+    "DBGateway_Execute (INSERT/UPDATE/DELETE) and parameter binding via DBGateway_AddTextParameter",
+    "DBGateway_Select / DBGateway_NextRow / DBGateway_GetTextField / DBGateway_CloseSelect",
+    "ODBC and OLE DB connection strings for MS SQL Server and Oracle"
   ],
   "historical_commentary": {
-    "text": "This note introduces the 4D for ADO plug-in, which let 4D 2004 developers query external RDBMSes (MS SQL Server, Oracle, Sybase ASE, MS Access) and directory services via Microsoft's ActiveX Data Objects interface, predating 4D's own SQL engine (v11 SQL, ~2007) and ODBC-first connectivity story. The specific ADO plug-in and Windows-centric ADO technology it relies on are now obsolete, since modern 4D applications connect to external databases via ODBC, dedicated SQL/JDBC plugins, or REST APIs rather than ADO. Only the teaser paragraph could be recovered for this note.",
-    "status": "obsolete",
+    "text": "Sean Le, a 4D Technical Support Engineer, introduces the 4D for ADO plug-in, which let a 4D 2004 database (Windows or Mac) reach external RDBMSs \u2014 SQL Server, Oracle, Sybase, MS Access, and more \u2014 through Microsoft's ADO layer over either ODBC or OLE DB, using a DBGateway_-prefixed command set for connecting, executing statements, binding parameters, and iterating SELECT results. This was a significant integration capability in the mid-2000s when ADO/ODBC/OLE DB were the dominant Windows-centric database access standards, but 4D has since built out its own native, cross-platform SQL connectivity layer, making a Windows-only ADO bridge plug-in largely redundant for new development; it remains a relevant reference only for legacy databases still using this specific plug-in to reach older ODBC/OLE DB-only data sources.",
+    "status": "superseded",
     "related_updates": [
-      "4D introduced its own native SQL engine in v11 SQL (~2007), reducing reliance on external RDBMS bridge plug-ins for many use cases",
-      "External database connectivity in modern 4D is typically handled via ODBC or dedicated connectors rather than the Windows-specific ADO interface",
-      "Full archive/PDF for this note could not be recovered in this environment"
+      "4D's native SQL connectivity (ODBC-based external SQL data sources, and modern SQL/ORDA connections to remote databases) has superseded the need for the 4D for ADO plug-in in most current development",
+      "ADO/OLE DB itself is a legacy Microsoft Windows-only technology largely superseded industry-wide by ODBC, native drivers, or modern data-access layers"
     ]
   }
 }

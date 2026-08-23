@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "2003.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Omid Tavallai, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=31597",
-  "download_url": "https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_05-09_(FEB)/04-09_Connected_Multimedia.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_05-09_(FEB)/04-09_Connected_Multimedia.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Macromedia Flash front-end integration",
-    "4D as a Flash application backend",
-    "4D 2003 Summit Conference demo"
+    "4D 2003 SOAP Web Services (method published as Web Service/WSDL)",
+    "Macromedia Flash MX Professional 2004 WebServiceConnector component",
+    "4D built-in Web server (WSDL publishing on port 8080)",
+    "ActionScript trigger() call for looped data refresh",
+    "Flash Label component with HTML text binding",
+    "Cross-platform standalone Flash app / .SWF publishing"
   ],
   "historical_commentary": {
-    "text": "This note showcases pairing a 4th Dimension backend with a Macromedia Flash front-end, a popular rich-client web technique in the mid-2000s that was demonstrated at the 2003 4D Summit Conference. Flash itself was deprecated and discontinued by Adobe in 2020, making the specific client technology and integration approach entirely obsolete, though the broader idea of a 4D backend powering a rich, interactive front-end client remains conceptually alive today via modern web/mobile frameworks and 4D's own web area / 4D Mobile-era tooling.",
+    "text": "This note demonstrates pairing a 4th Dimension 2003 SOAP Web Service backend with a Macromedia Flash MX Professional 2004 front-end via Flash's WebServiceConnector component, using a simple 'getSessionName' method published from a demo shown at the 2003 4D Summit Conference. The technique was clever for its era but is now entirely obsolete: Adobe discontinued Flash Player at the end of 2020 and no modern browser or OS supports SWF content, so the Flash client half of this demo cannot run at all today. The 4D side (publishing a method as a SOAP Web Service) is also dated, since 4D has since moved toward REST/JSON-based web services for this kind of client integration.",
     "status": "obsolete",
     "related_updates": [
-      "Adobe officially discontinued Flash Player at the end of 2020, and modern browsers no longer support it, making Flash-based front-ends non-functional today",
-      "Rich client/backend integration patterns similar in spirit are now built with modern web frameworks (e.g., via 4D's Web Area/QML or REST/JSON APIs) rather than Flash"
+      "Adobe officially discontinued Flash Player at the end of 2020, and no current browser or OS can run the Flash/.SWF client described in this note",
+      "4D's SOAP-based Web Services approach used here has been superseded by REST/JSON web services in modern 4D development",
+      "Rich client/backend integration patterns similar in spirit are now built with modern web or mobile frameworks calling 4D's REST APIs, rather than Flash and SOAP"
     ]
   }
 }

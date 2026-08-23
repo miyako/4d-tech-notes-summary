@@ -1,1 +1,1 @@
-Tech Note: 4D Quick Report Editor Source Code - Part III (TN 05-15, 4D v2004, April 2005) — the final installment of a three-part series presenting the source code behind 4D's built-in Quick Report Editor wizard.
+Source-code walkthrough of the 4D Quick Report wizard's multi-page navigation, list/cross-tab pages, and form graphics (Part 3 of 3)

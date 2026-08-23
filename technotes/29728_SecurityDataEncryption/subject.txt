@@ -1,1 +1,1 @@
-Tech Note: Security via data encryption (TN 03-28, 4D v2003, June 2003) — an overview of using data encryption to protect the privacy and integrity of information exchanged between communicating applications.
+Building a from-scratch RSA-style public/private key encryption demo entirely in 4D methods

@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Dave Dell'Aquila, Senior 4D Evangelist",
   "page_url": "https://kb.4d.com/assetid=30595",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_48-51_(NOV)/03-51_FreeFormObjectStorage.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_48-51_(NOV)/03-51_FreeFormObjectStorage.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Unstructured/generic data storage",
-    "Text/BLOB serialization"
+    "VARIABLE TO BLOB / BLOB TO VARIABLE generic serialization",
+    "Subtable-based collection/member data model",
+    "cObject project-method \"class\" (get/set/save/rename/delete operations)",
+    "READ ONLY / READ WRITE record locking with Locked()/Tickcount timeout polling",
+    "Named collections keyed by Current user / Current machine owner"
   ],
   "historical_commentary": {
-    "text": "The specific serialization technique this note likely used (probably text- or BLOB-based encoding, given 4D had no object/JSON field type in 2003) has been made largely unnecessary by 4D's later native Object/Collection data type and built-in JSON support, which now provide a natural, structured way to store free-form data. The core design motivation \u2014 avoiding rigid one-field-per-setting schemas for flexible data \u2014 remains highly relevant and is now solved more elegantly with modern 4D object fields.",
+    "text": "This note designs a reusable 'cObject' mechanism for storing arbitrarily-named, arbitrarily-typed pieces of data (window positions, custom field names, user preferences, pictures, etc.) without needing a dedicated table or field per setting, built around a Collection/Member subtable structure and the VARIABLE TO BLOB / BLOB TO VARIABLE commands to serialize any 4D variable type into a blob. It even includes a hand-rolled locking/timeout loop (Locked()/Tickcount polling) to make the mechanism safe in a multi-user context. The underlying motivation -- avoiding rigid one-field-per-setting schemas -- is now solved far more elegantly by 4D's native Object and Collection data types with built-in JSON support, which did not exist in 2003, making this specific blob-based subtable technique obsolete for new development even though the design pattern it teaches (a generic key/value settings store) remains a recognizable and still-useful idea.",
     "status": "superseded",
     "related_updates": [
-      "4D later added a native Object/Collection data type and JSON support, providing a built-in way to store free-form/unstructured data that did not exist in 2003"
+      "4D later added a native Object/Collection data type and OB SET/OB GET-style commands plus full JSON support, providing a built-in, far simpler way to store free-form/unstructured data than the blob-in-subtable technique shown here",
+      "4D's ORDA/entity-based data model and modern locking commands have also evolved well beyond the manual Locked()/Tickcount polling loop used in this note's loadForUpdate operation"
     ]
   }
 }

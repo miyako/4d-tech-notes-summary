@@ -1,1 +1,1 @@
-Tech Note: Reading a Full SOAP Response (TN 04-20, 4th Dimension v2003.3, May 2004) — a guide to reading raw incoming SOAP responses directly using the complexType parameter of CALL WEB SERVICE, for cases where 4th Dimension's automatic XML-to-4D conversion isn't sufficient.
+Reading a full raw SOAP response body with CALL WEB SERVICE's Manual Out option

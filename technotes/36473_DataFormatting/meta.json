@@ -1,26 +1,30 @@
 {
   "asset_id": 36473,
-  "title": "Tech Note: Data Formatting",
+  "title": "Tech Note: Data formatting",
   "technote_number": "05-10",
   "year": 2005,
   "published_date": "March 10, 2005",
   "product": "4D",
   "version": "2004",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=36473",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_08-11_(MAR)/05-10_Data_Formatting.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_12-16_(APR)/05-10_Data_Formatting.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D data-saving best practices",
-    "Data file integrity"
+    "On-the-fly field type change without export/re-import",
+    "Lazy record reformatting on SAVE RECORD",
+    "SELECTION TO ARRAY performance impact of mixed record formats",
+    "GET FIELD TITLES for subtable/subfield introspection (undocumented in 4D 2004)",
+    "Bulk record resave loop (Table/Table name/Count tables/Count fields)",
+    "4D Tools data recovery vs. record reformatting"
   ],
   "historical_commentary": {
-    "text": "This very short note stresses the importance of saving data properly in a 4D database, presumably covering safe-save practices for the classic binary data file format of the 4D 2004 era. The general principle of careful, validated data-saving remains timeless, but the specific 4D 2004-era data file mechanics referenced predate two decades of subsequent storage and backup improvements. Only a one-sentence teaser could be recovered for this note, so its detailed content is unknown.",
+    "text": "Jean-Yves Fock-Hoon (QA Manager) explains a subtle but important 4D internals behavior: changing a field's type does not retroactively reformat already-saved records, only records that are explicitly re-saved after the change, which is both a safety net and a performance optimization but can silently leave a table with mixed on-disk record formats that slow down operations like SELECTION TO ARRAY. The note's practical fix \u2014 a loop that reloads and re-saves every record/field, with type-specific handling including an undocumented GET FIELD TITLES-based subfield-resave technique \u2014 addressed a real classic-4D data hygiene problem that is largely specific to the legacy 4D record storage engine described; it remains useful background for anyone maintaining very old 4D databases carried forward from the 2004-era engine, though the specific optimization behavior is an implementation detail of the classic (non-SQL, pre-64-bit) storage engine and less directly applicable to the modern 4D database engine.",
     "status": "historical_interest_only",
     "related_updates": [
-      "4D's data file format, backup, and integrity tooling have evolved substantially since 2004",
-      "Full archive/PDF for this note could not be recovered in this environment; only a one-sentence teaser was available"
+      "This describes internal behavior of the classic 4D record storage engine from the 2004 era; the underlying storage engine has changed substantially in modern 4D (v13+ SQL-based, then 64-bit architectures), so the specific lazy-reformatting behavior and performance characteristics described may not apply as-is",
+      "The general principle \u2014 resaving records after a structural field-type change to ensure consistent on-disk format \u2014 remains sound advice conceptually for any database engine, even if the specific commands and internals differ today"
     ]
   }
 }

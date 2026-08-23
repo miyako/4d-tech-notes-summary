@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gérald Czwiklinski",
   "page_url": "https://kb.4d.com/assetid=29816",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_40-43_(SEP)/03-42_Using_a_Map_in_a_Form.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_40-43_(SEP)/03-42_Using_a_Map_in_a_Form.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Non-rectangular hit detection",
-    "Form picture objects"
+    "Pixel-mask hit-testing via a 2D array",
+    "GET PICTURE FROM LIBRARY / PICTURE PROPERTIES",
+    "PICTURE TO BLOB (24-bit BMP conversion)",
+    "Grayscale-coded region map generation",
+    "GET MOUSE for click coordinates",
+    "2D ARRAY INTEGER sized to image height/width"
   ],
   "historical_commentary": {
-    "text": "The specific 4D form-object hit-detection technique this note describes has been made largely unnecessary by modern web-based UI (where HTML image maps or SVG regions handle this natively), and even within 4D, web areas embedding modern JS/HTML now make this kind of interactive map far simpler to build than in the classic client-only 4D era.",
-    "status": "superseded",
+    "text": "The pixel-mask lookup-array technique shown here is a clever, still-technically-workable solution to a problem (detecting clicks on irregular shapes) that classic 4D forms had no direct answer for. Modern 4D applications have more options for this today — vector picture formats, SVG-based UI components, or web-based front ends (4D's web area / QODA) where client-side JavaScript and CSS clip-paths or SVG hit-testing handle irregular shapes natively — so this exact BLOB-pixel-walking approach is now more of a fallback than a first choice, though it remains valid for classic 4D form-based picture areas.",
+    "status": "partially_superseded",
     "related_updates": [
-      "Modern 4D web areas can embed HTML/SVG/JS-based interactive maps, making native hit-detection tricks like this one largely unnecessary today"
+      "4D web areas and modern web-based UIs (including QODA) can use SVG or CSS-based hit testing for irregular shapes instead of a hand-built pixel mask array",
+      "The GET MOUSE / PICTURE TO BLOB-based technique shown here remains valid and usable for classic 4D form picture objects today"
     ]
   }
 }

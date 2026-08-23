@@ -7,20 +7,23 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gary Brocks, Software Evangelist, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=27690",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_16-20_(APR)/03-17_GenericMethodCrossTab.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_16-20_(APR)/03-17_GenericMethodCrossTab.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Quick Report ('QR') commands",
-    "Cross-tab reports",
-    "4D 2003 report engine"
+    "Quick Report 'QR' command theme (4D 2003)",
+    "Cross-tab report generation via QR SET REPORT KIND(qr cross report)",
+    "Formulas and methods as report data sources (pointers to fields/methods)",
+    "Generic parameterized reporting method (Rpt_QRCrsTabReports)",
+    "QR SET INFO COLUMN / QR SET TOTALS DATA with pointer parameters"
   ],
   "historical_commentary": {
-    "text": "The 'QR' command theme introduced in 4D 2003 has continued to be developed in subsequent 4D versions and remains part of the current product, so the core technique of procedurally generating cross-tab reports is still broadly relevant, even though specific command details and best practices have likely evolved since 2003.",
-    "status": "still relevant",
+    "text": "Gary Brocks builds a single generic, heavily parameterized method, Rpt_QRCrsTabReports, that can generate seven different cross-tab reports for a fictitious video-rental invoicing database by passing in pointers to data-source fields, a custom quarter-labeling method as a data source, format strings, titles, and an output-destination code. The underlying QR command theme and the ability to use formulas or methods (not just fields) as cross-tab data sources are still present in current 4D and the generic-method pattern shown remains a sound, reusable design technique for report-heavy applications. As with the other 2003-era Quick Report notes, though, 4D Write Pro has since emerged as the more commonly used tool for building modern, flexible reports, so this specific QR-based generic method is a still-functional but now less frequently chosen approach for new report engineering.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's QR-prefixed Quick Report commands have continued to be part of the product's reporting toolkit in subsequent versions"
+      "The QR command theme (QR SET REPORT KIND, QR SET INFO COLUMN, QR SET TOTALS DATA) and the ability to use formulas/methods as data sources remain part of current 4D and continue to work as shown",
+      "4D Write Pro has since become the more commonly used tool for building flexible, modern reports, though the classic Quick Report cross-tab engine and the generic-parameterized-method design pattern demonstrated here remain valid options"
     ]
   }
 }

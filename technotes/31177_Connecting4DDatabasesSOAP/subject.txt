@@ -1,1 +1,1 @@
-Tech Note: Connecting 4D Databases through SOAP (TN 04-02, 4D v2003, January 2004) — an introductory note on 4th Dimension 2003's native SOAP support, showing how to perform SOAP requests and serve SOAP-based Web Services between 4D databases.
+Building a generic SOAP-based Web services layer to let one 4D database remotely drive records, sets, and named selections on another 4D database

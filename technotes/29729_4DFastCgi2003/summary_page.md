@@ -1,28 +1,43 @@
-# Tech Note 03-27: 4D FastCGI 2003
+# Tech Note: 4D FastCGI 2003
 
-**Author:** Not specified in source document
-**Published:** June 26, 2003 | **Product/Version:** 4D v2003 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=29729
-**Download:** https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_26-30_(JUN)/03-27_4D_FastCGI_2003.exe
+- **Asset ID:** 29729
+- **Tech Note #:** 03-27
+- **Published:** June 26, 2003
+- **Product / Version:** 4D 2003
+- **Platform:** Mac & Win
+- **Author:** David Adams
+- **Page URL:** https://kb.4d.com/assetid=29729
+- **Download:** https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_26-30_(JUN)/03-27_4D_FastCGI_2003.hqx
 
 ## Overview
-A Tech Note introducing FastCGI as a higher-performance alternative to traditional CGI for integrating 4D 2003 applications with external web servers.
+
+David Adams documents the 4D FastCGI 2003 component, which allows 4D, 4D Client, or 4D Server to act as a persistent, high-performance FastCGI application server -- avoiding the per-request process-spawn cost of classic CGI and the server lock-in of proprietary APIs like ISAPI, NSAPI, or WSAPI.
 
 ## Key Points
-- Contrasts traditional CGI (flexible but potentially slow, one process per request) with server-specific APIs.
-- Introduces FastCGI as a way to avoid CGI's per-request process-spawn performance bottleneck.
-- Applies FastCGI specifically to integrating 4D 2003 with web servers.
+
+- Frames FastCGI's benefits as language independence, server independence (works with any major web server on any platform), machine independence (the 4D process can run remotely from the web server), and increased performance via persistent processes that avoid per-request startup cost.
+- Explains that FastCGI messages, though conceptually similar to HTTP, use a distinct binary-safe message format capped at roughly 65,000 bytes per message, with the component transparently chunking larger responses (documents, images) across multiple messages.
+- Core API demonstrated: `FCGI_Accept` blocks for and receives an incoming FastCGI request; `FCGIRequest_ValueGetByName("REQUEST_URI")` reads request parameters; `FCGIResponse_SetContentType`, `FCGIResponse_AddBLOB`, and `FCGI_Reply` construct and send the response.
+- Sample code returns a binary image response by converting a stored PICT resource with `PICTURE TO GIF` into a BLOB and streaming it back via `FCGIResponse_AddBLOB`/`FCGI_Reply`.
+- Installed as a 4D Insider component requiring a compatible 4D Internet Commands plug-in; compatible with 4D, 4D Client, and 4D Server.
+- Requires the 4D Extension License (WEL) for unrestricted use -- without it, the component stops handling FastCGI requests after roughly one hour until the database is restarted.
+- Notes FastCGI as a complementary integration path to WebSTAR alongside 4D's existing 4DLINK and 4DCONNECT WebSTAR integrations, particularly relevant given WebSTAR's own added FastCGI support.
 
 ## Featured Technology
-- FastCGI
-- 4D web server integration
 
-## Historical Context
-Reflects the era's web server integration landscape, where 4D databases were often connected to external web servers via CGI or FastCGI rather than 4D's own built-in web server being sufficient for all deployments; only the short teaser text for this note could be recovered here.
-
-*Note: only the on-page teaser paragraph for this Tech Note could be recovered in this environment; the full PDF/example database is no longer accessible (old format/archive not reachable here), so this summary is necessarily based only on that short teaser text.*
+- FastCGI protocol
+- 4D FastCGI 2003 component
+- FCGI_Accept / FCGI_Reply
+- FCGIRequest_ValueGetByName
+- FCGIResponse_SetContentType / FCGIResponse_AddBLOB
+- 4D Extension License (WEL)
 
 ## Historical Commentary
+
 **Status:** Obsolete
 
-FastCGI and standalone CGI-style integration have been largely superseded in the current 4D ecosystem by 4D's own mature built-in web server (used both for the classic web publishing features and, more recently, for Qodly/REST-based application delivery), so this note's specific approach is now of mostly historical interest, though the general performance principle (avoiding per-request process spawning) remains a valid systems-design lesson.
+FastCGI integration was a smart way in 2003 to let 4D scale behind serious Unix web servers like Apache without the overhead of spawning a process per request, and the component's design (persistent process, binary-safe messages, WEL licensing gate) reflects real production concerns of the era. Today this specific integration path is essentially obsolete: 4D's own mature built-in web server (and, more recently, ORDA/REST-based application delivery via Qodly) has long superseded the need for external CGI/FastCGI bridging in the vast majority of 4D deployments. The underlying lesson -- avoid per-request process spawning for performance -- remains valid systems-design wisdom even though the specific FastCGI component described here is no longer part of typical 4D architecture.
+
+**References to newer/updated information:**
+- 4D's own built-in web server has long superseded the need for external CGI/FastCGI-based web integration in typical 4D deployments
+- Modern 4D applications more commonly expose REST/ORDA endpoints (including via Qodly) rather than bridging through FastCGI to a separate web server process

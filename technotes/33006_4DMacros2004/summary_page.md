@@ -1,25 +1,43 @@
-# Tech Note 04-24: 4D Macros in Version 2004
+# Tech Note: 4D Macros in Version 2004
 
-**Author:** Not specified in source (teaser page only; full PDF not recovered)
-**Published:** June 17, 2004 | **Product/Version:** 4th Dimension v2003.3 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=33006
-**Download:** https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_21-25_(MAY)/04-24_4D_Macros_in_2004.exe
+- **Asset ID:** 33006
+- **Tech Note #:** 04-24
+- **Published:** June 17, 2004
+- **Product / Version:** 4th Dimension 2003.3
+- **Platform:** Mac & Win
+- **Author:** Jonathan Le, Technical Support, 4D, Inc.
+- **Page URL:** https://kb.4d.com/assetid=33006
+- **Download:** https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_21-25_(MAY)/04-24_4D_Macros_in_2004.hqx
 
 ## Overview
-This Tech Note explains 4D Macros as a productivity feature that lets developers generate frequently-used code snippets in the Method Editor without retyping them by hand, using the example of automatically producing a documentation comment header for every project method. It highlights a new macro tag introduced in the latest version of 4th Dimension at the time (4D 2004) that extends macros beyond simple static text substitution to actually making calls to project methods, enabling more dynamic, logic-driven code generation than previously possible. This reflects 4D's ongoing investment in developer productivity tooling within its classic Design Mode Method Editor, well before the modern code editor and Project Mode-era tooling improvements that would arrive over a decade later. As a feature-introduction note focused on a specific macro capability upgrade, it targets developers who use (or want to start using) 4D's macro system to reduce repetitive typing and enforce coding conventions like standardized comment headers.
+
+Jonathan Le documents two new Method Editor macro features in 4th Dimension 2004: storing macros across multiple XML files in a dedicated Macros folder, and a new `<method>` tag that lets a macro invoke an actual 4D project method rather than just insert static text, enabling dynamic, code-generating macros.
 
 ## Key Points
-- This summary is derived solely from the on-page teaser paragraph for this Tech Note; the full PDF content could not be recovered.
-- An explanation of 4D Macros as a way to generate frequently-used code snippets automatically, including a new tag in 4D 2004 that allows macros to call project methods.
+
+- Macros can now live in multiple XML files placed in a "Macros" folder next to the original Macros.xml in the active 4D directory, letting authors organize macros by relevance instead of maintaining one monolithic file.
+- The `<macros>` tag is the top-level container; `<macro name="...">` describes an individual macro; single-value tags like `<selection/>`, `<caret/>`, `<user_4D/>`, `<user_os/>`, `<method_name/>`, `<time/>`, and `<clipboard/>` are self-closing and stand for dynamic values.
+- The `<text>...</text>` tag holds the content inserted into the calling method; the new `<method>...</method>` tag executes a named 4D project method (optionally with parameters) the moment the macro runs.
+- A `TestMacro` walkthrough shows generating a comment header with `<user_os/>`, `<time/>`, `<selection/>`, and `<caret/>`; a `FirstTable` example calls a project method that auto-generates field-assignment code (`[Table 1]Field 1:=` etc.) for the database's first table.
+- A `TouchTable` example demonstrates calling a method with string parameters from within the macro to create a record, timestamp it, and open an output form -- illustrating that `<method>` calls behave just like a normal method invocation from a form, database, or project method.
+- Table 3/4 in the note document the special `_textSel`, `_textMethod`, `_blobSel`, `_blobMethod`, `_selLen`, `_methodLen` input variables and `_textReplace`, `_blobReplace`, `_action` output variables that 4D manages for macro-driven text/BLOB substitution.
+- Macros can be invoked via the new Macros toolbar item in the method editor, a right-click "Insert macro" context menu, or the auto-complete function.
 
 ## Featured Technology
-- 4D Macros
-- Method editor code-generation tags
-- Project method calls from macros
 
-## Historical Context
-**Status:** still relevant
+- 4D Method Editor macros (Macros.xml)
+- Multi-file macro storage in a Macros folder
+- <method> tag for calling project methods from macros
+- <text>, <selection>, <caret>, <user_4D>, <user_os>, <time>, <clipboard> macro tags
+- _action / _blobReplace macro process variables
+- Project method invocation with parameters from a macro
 
-4D's macro system for the Method Editor, including the ability for macros to call project methods for dynamic code generation, remains part of the current 4D development environment, so the core feature this note documents is still usable conceptually today. The specific 2004-era Method Editor interface described has since been superseded by 4D's modern code editor (particularly in Project Mode databases), but the underlying macro capability and its productivity rationale (avoiding repetitive typing, enforcing conventions like comment headers) remain relevant to 4D developers.
+## Historical Commentary
 
-**Note on sourcing:** This Tech Note's content_source is `teaser_only` — only the short on-page teaser paragraph was available in this environment (the original full Tech Note PDF/archive could not be recovered), so this page intentionally does not go beyond what that teaser states.
+**Status:** Superseded
+
+This note documents 4D 2004's expanded Method Editor macro system, notably the new ability to store macros across multiple XML files in a Macros folder and the new `<method>` tag that lets a macro call a project method (for example, to auto-generate field-assignment code or create records) rather than just insert static text. The underlying macro mechanism and process-variable protocol (`_textReplace`, `_blobReplace`, `_action`) described here is specific to the classic, non-Project-Mode Method Editor and has been superseded by 4D's modern code editor and its own macro/snippet facilities introduced with Project Mode (2018 onward). The core productivity idea -- generating boilerplate/code via reusable macros -- remains valid and is still supported by current 4D tooling, just through different, more modern mechanisms.
+
+**References to newer/updated information:**
+- 4D's code editor and macro/snippet system were substantially modernized with Project Mode (introduced 2018), superseding the classic Method Editor's XML-based Macros.xml mechanism described here
+- The specific `<method>`, `<text>`, and single-value tags, plus the `_textReplace`/`_blobReplace`/`_action` process variables, are tied to the legacy Method Editor and are not how current 4D code-generation features work

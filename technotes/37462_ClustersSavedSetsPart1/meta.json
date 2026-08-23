@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent Wilbur",
   "page_url": "https://kb.4d.com/assetid=37462",
-  "download_url": "https://kb.4d.com/DLTN/TN/2005/Windows/TN_2005_21-24_(JUN)/05-21_Clusters_Part_I.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2005/MacOS/TN_2005_21-24_(JUN)/05-21_Clusters_Part_I.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Saved sets (Sets)",
-    "Cluster-based query performance technique",
-    "Set creation and maintenance"
+    "4D Sets (bitmap-style record-membership tracking)",
+    "CREATE SET / INTERSECTION / UNION / DISTINCT VALUES",
+    "BLOB-encoded Boolean arrays for persistent \"clusters\"",
+    "Per-word inverted index ([Words] table)",
+    "Report-query optimization via precomputed sets"
   ],
   "historical_commentary": {
-    "text": "This first half of a two-part series covers creating and maintaining \"clusters\" of saved sets, a manual, developer-managed performance technique for speeding up subsequent data retrieval (covered in Part II) in the classic 4D language. As with Part II, the underlying Saved Sets feature persists in current 4D, but query engine, indexing, and ORDA entity-selection improvements in later versions have reduced how often this manual clustering approach is needed for new development.",
+    "text": "This note lays out the conceptual foundation for a hand-built inverted-index search technique, grounded in a real, well-explained performance case study and 4D's own KnowledgeBase as a production example. Saved sets remain part of current 4D and the underlying idea — precompute cheap, reusable set memberships rather than re-querying — is still good practice for report-style aggregations. But the specific full-text-search clustering technique has been substantially superseded by decades of query-engine and indexing improvements, and by ORDA's entity selections for large-selection handling, making this manual approach much less necessary for new development.",
     "status": "superseded",
     "related_updates": [
       "4D's classic query engine and indexing have been substantially optimized in versions since 2005, reducing the performance gap this manual clustering technique aimed to close",
-      "ORDA's entity selections (introduced 2017/v16 R2+) provide lazy-loaded, cursor-like access to large record sets, addressing similar performance concerns with a different, more modern mechanism"
+      "ORDA's entity selections (introduced in 4D v16 R2+) provide lazy-loaded, cursor-like access to large record sets, addressing similar performance concerns with a different, more modern mechanism"
     ]
   }
 }

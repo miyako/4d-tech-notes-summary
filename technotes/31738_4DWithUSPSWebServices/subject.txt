@@ -1,1 +1,1 @@
-Tech Note: Using 4D with United States Postal Service (USPS) Web Services (TN 04-10, 4D v2003.3, March 2004) — shows how to call USPS Web Tool Kit API services (rates, delivery confirmation, etc.) from 4D using 4D Internet Commands.
+Calling the USPS Web Tool Kit rate API from 4D using raw TCP and manual XML parsing

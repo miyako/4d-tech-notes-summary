@@ -1,25 +1,44 @@
-# Tech Note 04-35: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part II of II
+# Tech Note: 4D GDIPlus_Image Plug-In that uses Microsoft Windows GDI+: Part II of II
 
-**Author:** Not specified in source (teaser page only; full PDF not recovered)
-**Published:** September 2, 2004 | **Product/Version:** 4th Dimension v2004 | **Platform:** Win
-**Page:** https://kb.4d.com/assetid=33822
-**Download:** https://kb.4d.com/DLTN/TN/2004/Windows/TN_2004_31-35_(JUL)/04-35_4D_GDIPlus_Image_2.exe
+- **Asset ID:** 33822
+- **Tech Note #:** 04-35
+- **Published:** September 2, 2004
+- **Product / Version:** 4th Dimension 2004
+- **Platform:** Win
+- **Author:** Thang Nguyen (Technical Support, 4D Inc.); plug-in and content provided by Thomas Maul, 4D Germany
+- **Page URL:** https://kb.4d.com/assetid=33822
+- **Download:** https://kb.4d.com/DLTN/TN/2004/MacOS/TN_2004_31-35_(JUL)/04-35_4D_GDIPlus_Image_2.hqx
 
 ## Overview
-This Tech Note is Part II of a two-part series documenting the GDIPlus_Image plug-in, a third-party (4D Germany-authored) plug-in that wraps Microsoft Windows' GDI+ graphics API to let 4D applications open, display, manipulate, rotate, and save images in formats such as BMP, JPG, GIF, EMF, WMF, TIF, PNG, and ICO. Where Part I (TN 04-25) introduced the plug-in's features and the accompanying sample database, Part II focuses on the practical mechanics: installing the plug-in into a 4D 2004 application and using its exposed commands. Because GDI+ is a Windows-only native API, the plug-in and this note are explicitly platform-limited to Windows, reflecting a period when 4D developers frequently reached for compiled C plug-ins to access OS-native graphics capabilities not yet built into the 4D language itself. The note is part of 4D's regular Technical Note series distributed to registered developers, complete with downloadable Windows and Mac example packages (the Mac package likely containing only documentation given the Windows-specific nature of GDI+). As a plug-in-specific installation and command reference, its value was tightly coupled to the lifespan of the GDIPlus_Image plug-in itself rather than to core 4D language features.
+
+Written by Thang Nguyen with plug-in and content contributed by Thomas Maul (4D Germany), this is Part II of a two-part note (following #33063) covering the Windows-only GDIPlus_Image plug-in, which wraps Microsoft's GDI+ API to give 4D advanced image-manipulation features such as gradient brushes, alpha blending, and multi-format image support. Part II focuses on plug-in installation -- placing the plug-in in the WIN4DX folder next to the structure file or application, and, on older Windows systems lacking GDI+, downloading and installing Microsoft's separate GDI+ DLL redistributable -- and then documents each of the plug-in's 14 commands with parameter specs and sample code drawn from the demo database. Covered commands include GDI_LoadPictureFile and GDI_SavePictureFile (with JPEG/TIFF-specific transform, compression, and color-depth options), GDI_GetPictureProperties/GDI_SetDisplayProperties/GDI_GetDisplayProperties for reading and controlling resolution, size, zoom, scroll offset, and crop bounds, GDI_SetDisplayMode for interpolation quality and rotate/flip transforms, and GDI_SetActiveFrame paired with an ON TIMER-driven loop to play back animated GIF frames.
 
 ## Key Points
-- This summary is derived solely from the on-page teaser paragraph for this Tech Note; the full PDF content could not be recovered.
-- The second half of a two-part guide covering installation and command usage of the community-authored GDIPlus_Image Windows plug-in.
+
+- Installation requires placing the plug-in in the WIN4DX folder next to the structure file/application; pre-XP/2003 systems additionally need Microsoft's separate GDI+ DLL redistributable.
+- GDI_LoadPictureFile(Area;Path) loads an image into a plug-in area and returns 0 on success or a GDI+ error code otherwise.
+- GDI_SavePictureFile(Area;Path;Format;{Option1;Option2}) saves in multiple formats, with Option1/Option2 controlling JPEG rotate/flip-during-save and compression level, or TIFF compression scheme and color depth.
+- GDI_GetPictureProperties returns resolution, pixel dimensions, format GUID, and (for animated GIFs) frame count and per-frame delay time in milliseconds.
+- GDI_SetDisplayProperties/GDI_GetDisplayProperties control zoom percentage, scroll offset, and crop start/end coordinates, with named constants like GDI_ScaledToFit and GDI_ReduceToFitPropCentered for common scaling behaviors.
+- GDI_SetDisplayMode(Area;Interpolation;Rotate) applies interpolation quality (nearest-neighbor through high-quality bicubic) and rotate/flip transforms via documented numeric constants.
+- GDI_SetActiveFrame combined with GDI_GetPictureProperties' frame count/delay output and an ON TIMER form event drives animated GIF playback frame by frame.
 
 ## Featured Technology
-- GDIPlus_Image plug-in
-- Microsoft Windows GDI+
-- Third-party 4D plug-in architecture
 
-## Historical Context
-**Status:** obsolete
+- GDIPlus_Image third-party plug-in
+- Microsoft Windows GDI+ API
+- GDI_LoadPictureFile / GDI_SavePictureFile commands
+- GDI_GetPictureProperties / GDI_SetDisplayProperties / GDI_GetDisplayProperties
+- GDI_SetDisplayMode (interpolation and rotate/flip constants)
+- GDI_SetActiveFrame for animated GIF playback
 
-This note documents installation and usage of GDIPlus_Image, a third-party Windows-only plug-in wrapping Microsoft's GDI+ API for image manipulation in 4D 2004; the plug-in itself was a product of its era and is not part of any current 4D distribution. 4D's built-in picture-handling capabilities (native picture variables, list box picture columns, and expanded PICTURE-related commands) have since absorbed most of the format conversion and manipulation needs this plug-in addressed, making the specific installation/plug-in approach obsolete even though the general idea of extending 4D via compiled plug-ins for OS-native graphics remains architecturally valid.
+## Historical Commentary
 
-**Note on sourcing:** This Tech Note's content_source is `teaser_only` — only the short on-page teaser paragraph was available in this environment (the original full Tech Note PDF/archive could not be recovered), so this page intentionally does not go beyond what that teaser states.
+**Status:** Obsolete
+
+This note documents a third-party, Windows-only plug-in that wrapped Microsoft GDI+ to give 4D 2004 image manipulation capabilities -- gradient brushes, JPEG/TIFF encoder options, animated GIF playback -- well beyond 4D's native picture handling of the time. The GDIPlus_Image plug-in itself is not part of any current 4D distribution, and 4D's built-in picture-handling commands and list box picture support have since absorbed most everyday format-conversion and manipulation needs, making this specific plug-in and its GDI_-prefixed commands obsolete, though the general pattern of extending 4D via a compiled plug-in for OS-native graphics APIs remains architecturally valid.
+
+**References to newer/updated information:**
+- The GDIPlus_Image plug-in and its GDI_-prefixed commands are not part of current 4D distributions
+- 4D's native picture-handling commands and supported formats have expanded substantially since 2004, reducing reliance on third-party image plug-ins
+- 4D's compiled plug-in API itself has since evolved (Unicode, universal binary, 64-bit support) since 4D v11 SQL, changing how any equivalent plug-in would be built today
