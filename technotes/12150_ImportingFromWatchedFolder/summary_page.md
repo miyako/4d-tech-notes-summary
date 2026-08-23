@@ -1,31 +1,41 @@
-# Tech Note 01-09: Importing From a Watched Folder
+# Tech Note: Importing From a Watched Folder
 
-**Author:** Not specified in source document
-**Published:** February 28, 2001 | **Product/Version:** 4D v6.5 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=12150
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-09_Watched_Folder_Import.exe
+- **Asset ID:** 12150
+- **Tech Note #:** 01-09
+- **Published:** February 28, 2001
+- **Product / Version:** 4D 6.5
+- **Platform:** Mac & Win
+- **Author:** Steve Hussey
+- **Page URL:** https://kb.4d.com/assetid=12150
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_06-10_(FEB)/01-09_Watched_Folder_Import.hqx
 
 ## Overview
-A system for having 4D monitor (watch) a user-selected folder and periodically import or process its contents automatically. This Tech Note addresses a practical automation need: having a 4D application monitor, or 'watch,' a folder on a hard drive and periodically import or otherwise process whatever files appear inside it, without requiring manual intervention each time.
+
+Steve Hussey, CEO of Alto Stratus LLC, implements a background 4D process that periodically polls a user-selected folder, imports any tab-delimited text files it finds into database records, and deletes each file once processed — a self-contained pattern for automated, unattended file ingestion.
 
 ## Key Points
-- It shows how, using just a handful of commands, developers can let end users choose which folder to monitor and then use one of 4D's background processes to perform the periodic checking and processing on an ongoing basis.
-- The featured technology is 4D's classic process model combined with file-system enumeration commands, aimed at developers building semi-automated data ingestion pipelines — for example, watching a drop folder for new import files from an external system — a use case that remains common in business applications today.
+
+- Select folder("Select the watch folder.") lets the user choose which directory to monitor, with the chosen path saved into the [Util_Preference_Application] table via SAVE RECORD.
+- The Import_Mgr project method runs in its own process (launched with New process, 32,000 bytes of stack) and loops with DELAY PROCESS($PID;$Delay)/RESUME PROCESS($PID), pausing roughly sixty seconds between cycles (a $Timeout counter caps the demo at five iterations).
+- Each cycle launches a fresh Import process (New process("Import";32000;"Import")) rather than reusing one, favoring implementation simplicity over efficiency, as the note itself acknowledges.
+- DOCUMENT LIST($Path;atext_Files) enumerates the watched folder's contents into an array; Find in array(atext_Files;"Icon@") locates and DELETE ELEMENT removes the Mac OS invisible folder-icon file before processing.
+- Each file is opened in read-only mode (Open document($FullPath;"";Read Mode)) so other processes can still access it concurrently, its contents read via RECEIVE PACKET($DocID;$Text;32700), and parsed into an array of tab-delimited values using the STR_Txt2AryPrs helper method (passed the text, a pointer to the results array, and Char(Tab) as separator).
+- One [Imported_Value] record is created per parsed value, storing the source Document name, a sequence Number, and the Value; after processing, CLOSE DOCUMENT then DELETE DOCUMENT permanently removes the source file.
 
 ## Featured Technology
-- Folder monitoring (polling)
-- 4D processes
-- Automated document import
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- New process / DELAY PROCESS / RESUME PROCESS
+- Select folder command
+- DOCUMENT LIST
+- Open document / RECEIVE PACKET / CLOSE DOCUMENT / DELETE DOCUMENT
+- STR_Txt2AryPrs tab-delimited text parsing
 
 ## Historical Commentary
-**Status:** Still relevant
 
-This note builds a folder-watching system using 4D processes to periodically poll a user-chosen directory and import or otherwise process its contents — a pattern still very much in use for automated file ingestion today. The general architecture (a background process polling a folder on an interval) remains valid, though the specific file-system commands used to enumerate and select folders in this era have since been supplemented by 4D's more modern, object-oriented File and Folder classes, which offer richer, more portable file-system APIs than were available in 2001.
+**Status:** Partially Superseded
 
-**Related updates since:**
-- 4D's later File and Folder classes provide a more modern, object-oriented API for folder enumeration and monitoring than the raw commands available in this 2001-era note
+Written by Steve Hussey, CEO of Alto Stratus LLC, this note builds a folder-watching system using a dedicated 4D process that periodically wakes via DELAY PROCESS/RESUME PROCESS to poll a user-chosen directory (set with Select folder) and import any tab-delimited text files found, using DOCUMENT LIST, Open document, and RECEIVE PACKET before deleting each processed file. The general architecture — a background process polling a folder on an interval to ingest files — remains a valid, still-used pattern today, though the specific low-level document/folder commands used here have since been supplemented by 4D's more modern, object-oriented File and Folder classes and folder-watching capabilities, which offer richer, more portable file-system APIs than were available in 2001.
+
+**References to newer/updated information:**
+- 4D's later File and Folder classes provide a more modern, object-oriented API for folder enumeration and file access than the raw DOCUMENT LIST/Open document commands used in this 2001-era note
 - The core pattern of a background process polling a folder for automated import remains a standard architecture in current 4D applications
-

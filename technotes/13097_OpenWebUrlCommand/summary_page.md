@@ -1,31 +1,42 @@
-# Tech Note 01-15: The OPEN WEB URL Command
+# Tech Note: The OPEN WEB URL Command
 
-**Author:** Not specified in source document
-**Published:** March 30, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=13097
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-15_OPEN_WEB_URL.exe
+- **Asset ID:** 13097
+- **Tech Note #:** 01-15
+- **Published:** March 30, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Steve Hussey
+- **Page URL:** https://kb.4d.com/assetid=13097
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_11-15_(MAR)/01-15_OPEN_WEB_URL.hqx
 
 ## Overview
-A walkthrough of the OPEN WEB URL command's ability to launch the default browser, mail client, or ftp/help handler for a given URL type. This Tech Note explains the OPEN WEB URL command, which connects to an external URL using whatever application the user's computer has configured as the default handler for that URL type.
+
+Steve Hussey (CEO, Alto Stratus LLC) provides a compact reference for 4D's `OPEN WEB URL` command, which passes a URL string to the user's default application for that URL's protocol type — a web browser for http(s), a mail client for mailto:, or an FTP client for ftp:. The note demonstrates each use case with concrete syntax examples and covers a special case for opening local HTML files as a simple help system.
 
 ## Key Points
-- Beyond simple http/https links opened in a web browser, the note shows how the same command can be used to compose email messages via the user's default mail client (mailto: links), connect to ftp sites, and even open local HTML-based help pages installed on the user's computer — essentially any URL scheme with a registered default application.
-- It carefully flags the prerequisite that the appropriate application must be installed and set as the default handler for each URL type used (e.g., a configured default web browser for http, a configured mail client for mailto), and notes that while multiple compatible applications can be installed, 4D will always defer to whichever one is set as the system default.
-- The featured technology is this single, general-purpose command and the OS-level default-application resolution it relies on, aimed at developers who want to integrate seamlessly with whatever browser/mail/ftp tools an end user already has configured.
+
+- Web sites can be opened with a full URL (`OPEN WEB URL("http://www.jumpstart-4d.com")`) or a partial one many browsers accept (`OPEN WEB URL("www.jumpstart-4d.com")`); the URL string can be stored in a variable or field and is not validated by 4D itself.
+- E-mail composition uses `mailto:` links, e.g. `OPEN WEB URL("mailto:shush@harborside.com")`, extendable with `?subject=` and `?body=` query parameters to pre-fill a new message.
+- Since 4D's own carriage return/line feed characters (ASCII 13/10) can't be embedded directly in the mailto body, the note shows using the percent-encoded equivalents `%0D` (Mac OS) and `%0D%0A` (Windows) to insert line breaks in the message body.
+- FTP sites are opened the same way, e.g. `OPEN WEB URL("ftp.4d.com")`, launching the user's default FTP client.
+- Local HTML files can be opened with a `file:///` URL (e.g. `"file:///MyDrive/myfolder/file.html"`), where the triple slash separates the protocol from a root-level path using the standard Unix `/` delimiter regardless of the underlying OS.
+- The author suggests this local-file technique as a simple way to build a context-sensitive help system: buttons throughout a 4D application can open specific HTML pages stored alongside the application, letting users navigate help using their familiar web browser interface.
 
 ## Featured Technology
-- OPEN WEB URL command
-- Default application URL handling (http, mailto, ftp, file/help)
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- OPEN WEB URL command
+- mailto: links with subject/body query parameters
+- ftp:// URL launching
+- file:/// local HTML file opening
+- URL percent-encoding for carriage return/line feed (%0D/%0A)
+- Default-application URL dispatch (browser/mail client/FTP client)
 
 ## Historical Commentary
+
 **Status:** Still relevant
 
-This note documents the OPEN WEB URL command, which hands a URL of any supported scheme (http, mailto, ftp, local help files) off to the user's default registered application. The command itself remains part of 4D's current classic language essentially unchanged in purpose, and the general pattern of delegating URL handling to OS-level default applications is still exactly how modern operating systems work, making this note's core content still directly applicable today.
+Steve Hussey's note is a straightforward reference for 4D's OPEN WEB URL command, covering how to launch the user's default browser for http(s) sites, compose pre-filled e-mails via mailto: links (including percent-encoded line breaks in the body), connect to FTP sites, and open local HTML files as a lightweight context-sensitive help system. OPEN WEB URL remains part of the current 4D language and this technique still works exactly as described, though for building help systems specifically, many developers today would reach for 4D's built-in Help/Info features or a modern web-based help viewer rather than raw local file:/// links.
 
-**Related updates since:**
-- OPEN WEB URL remains a supported command in current 4D versions for launching URLs via the OS default application
-- Default-application URL handling is now even more standardized across modern operating systems (deep links, custom URL schemes) than in the Mac OS 9 / Windows 98-2000 era this note targets
-
+**References to newer/updated information:**
+- OPEN WEB URL is unchanged and remains a standard 4D command for launching URLs in the user's default applications
+- Modern 4D applications building in-app help more often use dedicated documentation viewers or web-based help systems rather than local file:/// HTML pages, though the underlying technique described here still functions

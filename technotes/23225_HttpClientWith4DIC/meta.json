@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Julien Feasson, Software Engineer, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=23225",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_05-09_(FEB)/02-05_HTTP_Client_with_4D.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/MacOS/TN_2002_05-09_(FEB)/02-05_HTTP_Client_with_4D.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Internet Commands",
-    "HTTP protocol",
-    "Base64 encoding"
+    "4D Internet Commands plug-in",
+    "HTTP request/response construction",
+    "URL parsing",
+    "HTTP Basic Authentication (Base 64 encoding)",
+    "Chunked transfer encoding (Base 16 decoding)",
+    "HTTP header parsing"
   ],
   "historical_commentary": {
-    "text": "4D has since incorporated native, higher-level HTTP client commands directly into the core language, superseding the need to hand-build an HTTP client at the protocol level as shown here, though the underlying HTTP fundamentals this note teaches (request/response structure, Basic Auth encoding) remain accurate and educationally valuable today.",
+    "text": "Julien Feasson's note builds a functioning HTTP client from scratch in 4D using the 4D Internet Commands plug-in, covering URL parsing, manual construction of GET/response cycles, Base 64-encoded Basic Authentication, and Base 16 decoding of chunked response bodies. 4D has since added native, higher-level HTTP client commands directly into the core language, which handle GET/POST, headers, cookies, and authentication without hand-parsing raw protocol text, making this note's specific low-level implementation superseded for production use; however, the HTTP protocol fundamentals it carefully explains (request/response structure, headers, Basic Auth encoding, chunked encoding) remain accurate and still useful as a learning reference today.",
     "status": "superseded",
     "related_updates": [
-      "4D has since added native, higher-level HTTP client commands to the core language, reducing the need to hand-build HTTP requests at the protocol level as shown in this note"
+      "4D has since introduced native, higher-level HTTP client commands in the core language, removing the need to hand-build requests and parse chunked responses via the 4D Internet Commands plug-in as shown here",
+      "The HTTP protocol concepts explained (headers, methods, Basic Auth, chunked encoding) remain technically accurate and still educationally useful"
     ]
   }
 }

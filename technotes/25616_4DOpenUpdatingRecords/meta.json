@@ -4,22 +4,26 @@
   "technote_number": "02-60",
   "year": 2002,
   "published_date": "December 31, 2002",
-  "product": "",
-  "version": "",
-  "platform": "",
-  "author": null,
+  "product": "4D",
+  "version": "6.8",
+  "platform": "Mac & Win",
+  "author": "Christian Cypert",
   "page_url": "https://kb.4d.com/assetid=25616",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-60_4D_Open-UpdateRecords.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_56-61_(DEC)/02-60_4D_Open-UpdateRecords.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Open plug-in",
-    "Remote record update"
+    "4D Open plug-in remote connection API",
+    "OP Records in selection / OP Goto record for locking and positioning",
+    "OP Update record via a previously established 4D Open bind",
+    "OP Unload record to release a locked remote record",
+    "Record-number array pattern (al_RecordNums / al_CompID) for mapping UI selections to remote records"
   ],
   "historical_commentary": {
-    "text": "4D Open as a distinct plug-in is obsolete; modern 4D applications would use ORDA remote datastores or REST APIs to update records on a remote 4D Server, both of which handle differing/unknown structures more gracefully than the identical-structure assumption made in this note.",
+    "text": "As the third part of a tightly scoped, code-first mini-series on 4D Open, this note clearly documents the lock-check-then-update pattern (OP Goto record for locking, OP Update record to push changes, OP Unload record to release) that was the standard way to modify remote records from a 4D Open client in the early 2000s. The 4D Open plug-in itself has long been discontinued, and its bind/table-number-based client-server model has been superseded by 4D's ORDA remote datastores and REST-based APIs, which expose entity-level CRUD operations and handle locking and structural differences between client and server far more gracefully than this note's identical-structure assumption required. This technique is not usable with current 4D versions.",
     "status": "obsolete",
     "related_updates": [
-      "ORDA remote datastores and REST APIs have superseded the 4D Open plug-in for remote record CRUD operations"
+      "The 4D Open plug-in has been discontinued and its bind/OP-command API is not available in current 4D versions",
+      "ORDA remote datastores and REST APIs have superseded 4D Open for remote record read/update operations, offering entity-based access instead of table-number binds and manual lock checks"
     ]
   }
 }

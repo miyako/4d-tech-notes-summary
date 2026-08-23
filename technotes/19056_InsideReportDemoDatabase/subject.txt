@@ -1,1 +1,1 @@
-Tech Note: Inside the Report Demo Database (TN 01-57, 4D v6.7, December 2001) — a walkthrough of the classic Report Demo example database's break-level report generation methods.
+Touring the Report Demo sample database's use of ORDER BY, BREAK LEVEL, and ACCUMULATE to build a grouped donations report

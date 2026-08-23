@@ -7,20 +7,23 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri, 4D, Inc. Technical Support",
   "page_url": "https://kb.4d.com/assetid=16396",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-39_Pointers_from_Scratch.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_36-40_(AUG)/01-39_Pointers_from_Scratch.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Pointers",
-    "Classic language fundamentals"
+    "C_POINTER declaration and the -> reference/dereference operator",
+    "Get pointer() command",
+    "Pointers to variables, tables, fields, arrays, array elements, and pointers-to-pointers",
+    "Self command for object-method pointer references",
+    "Process vs. interprocess vs. local (stack) variable addressability"
   ],
   "historical_commentary": {
-    "text": "This introductory note explains the concept and mechanics of pointers in 4D's classic language for developers unfamiliar with them. Pointers remain a core, unchanged part of 4D's classic language today, used for indirect variable/field/array access and passing references between methods, so this note's fundamental explanations are still directly applicable to anyone learning or working in classic 4D code, even in a modern Project Mode database.",
+    "text": "Jamras Komoncharoensiri gives a from-first-principles tutorial on 4D pointers -- what they are, how -> reference/dereference works, what object/table/array/pointer-to-pointer types they can target, how to pass them as parameters, and the crucial caveat that pointers can only reference fixed-address process/interprocess variables, not transient local ($) variables. Classic 4D pointers, the -> operator, and Get pointer are unchanged in current 4D and this remains an accurate, still-useful primer on the concept, though modern 4D code increasingly favors object/collection references and class instances for many of the generic-programming use cases (like looping over dynamic variable sets) that this note demonstrates with raw pointers.",
     "status": "still_relevant",
     "related_updates": [
-      "Pointers remain fully supported and largely unchanged in current 4D versions",
-      "4D's later object/collection types offer reference-like semantics as an alternative to pointers in many modern use cases"
+      "The C_POINTER type, -> operator, and Get pointer command described here are unchanged and still core to the classic 4D language today",
+      "Many generic-programming patterns that once relied on pointers (e.g., looping over dynamically-named variables) are now often implemented with objects, collections, and class instances instead"
     ]
   }
 }

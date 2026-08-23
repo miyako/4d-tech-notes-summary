@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hartman, MCP, 4D, Inc. Information Systems (co-authored with Kent Wilbur)",
   "page_url": "https://kb.4d.com/assetid=19054",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_54-57_(DEC)/01-55_Index_Control_Panel.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_57-61_(DEC)/01-55_Index_Control_Panel.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SET INDEX / index management commands",
-    "Compiled database maintenance"
+    "SET INDEX command",
+    "Compiled database index rebuilding without design access",
+    "Table/field structure introspection (zStructure)",
+    "Semaphore-based single-user protection",
+    "SELECTION TO ARRAY / ARRAY TO SELECTION",
+    "Designer/Administrator privilege checks (Current user)"
   ],
   "historical_commentary": {
-    "text": "This note addresses a practical pain point of the compiled-database era: needing to toggle field indexes on and off without access to the Design environment, since a compiled database could not be re-indexed or recompiled quickly. The technique of programmatically enabling/disabling indexes via the classic language remains valid in current 4D versions, though modern deployments increasingly manage index/data maintenance through 4D Server's administrative tools rather than hand-rolled control panels.",
-    "status": "still_relevant",
+    "text": "Steve Hartman (co-authored with Kent Wilbur) presents a sample database, Index Control Panel, that lets a Designer or Administrator toggle field indexes off and back on programmatically at runtime -- a workaround for compiled databases that otherwise have no design-environment access for re-indexing a field. The core building block, SET INDEX, remains a valid and still-used 4D command today, and the note's underlying goal (re-indexing a field without recompiling) is occasionally still relevant, but many later 4D versions and deployment models reduce the friction this note addresses, and a semaphore-protected, single-user, quit-and-relaunch workflow like this is a heavier and more manual approach than most current compiled-database maintenance practices would use.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's classic indexing commands remain part of the current language largely unchanged",
-      "4D Server/4D Mobile administration tools now provide more built-in maintenance tooling than existed in 2001"
+      "The SET INDEX command remains part of current 4D and is still the mechanism for programmatically enabling/disabling a field index",
+      "Later 4D versions and structure-file update tooling have reduced how often developers need this quit-and-relaunch, semaphore-protected control panel workaround for compiled databases"
     ]
   }
 }

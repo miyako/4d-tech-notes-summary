@@ -1,27 +1,31 @@
 {
   "asset_id": 26846,
-  "title": "Tech Note: Interaction between 4D 2003 and Microsoft Excel\u00ae (Web Services)",
+  "title": "Tech Note: Interaction between 4D 2003 and Microsoft Excel® (Web Services)",
   "technote_number": "03-09",
   "year": 2003,
   "published_date": "February 28, 2003",
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Matthieu Chevrier",
   "page_url": "https://kb.4d.com/assetid=26846",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_06-10_(FEB)/03-09_4D_2003_and_Excel.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_06-10_(FEB)/03-09_4D_2003_and_Excel.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SOAP",
-    "WSDL",
-    "4D 2003 Web Services (server-side)",
-    "Microsoft Excel interop"
+    "4D 2003 server-side Web Services publication (SOAP/WSDL)",
+    "SOAP DECLARATION command for input/output argument typing",
+    "SELECTION TO ARRAY for returning multiple typed arrays over SOAP",
+    "SEND SOAP FAULT for client/server error signaling",
+    "Microsoft SOAP Toolkit 3.0+ client generation from WSDL",
+    "Excel VBA Add-In (.xla) architecture (Auto_Open/Auto_Close, UserForm preferences)"
   ],
   "historical_commentary": {
-    "text": "The SOAP/WSDL-based server publication technique described here has been broadly superseded by REST/JSON APIs as the standard way to expose application data to Office and other clients, and modern Excel-to-4D integration would more likely use REST endpoints, Power Query, or direct database connectivity than a SOAP-published service.",
+    "text": "This is a clear, practical walkthrough of 4D 2003's brand-new server-side SOAP publishing feature paired with a genuinely useful Excel VBA client Add-In, at a time when SOAP/WSDL was the standard way to expose structured application data to Office clients. That SOAP/WSDL approach has been broadly superseded across the industry by REST/JSON APIs, and modern Excel-to-database integration is far more likely to use Power Query, native REST connectors, or ODBC than a hand-built SOAP Toolkit client; 4D's own Web Services publishing has likewise moved toward REST-oriented and OData/ORDA-based data exposure. The specific VBA Add-In and 4D SOAP_GetDataForCategory pattern shown here would need a full rewrite to be useful with current Excel and 4D versions.",
     "status": "obsolete",
     "related_updates": [
-      "REST/JSON has broadly replaced SOAP as the preferred way to expose data from a server (including 4D) to Excel and other Office clients"
+      "REST/JSON has broadly replaced SOAP/WSDL as the standard way to expose data from a server (including 4D) to Excel and other Office clients",
+      "Excel's Power Query and native REST/OData connectors have superseded custom VBA SOAP Toolkit Add-Ins for pulling external data into spreadsheets",
+      "4D's own Web Services capabilities have evolved toward REST-oriented data exposure (including ORDA-based data access) since this 2003-era SOAP publishing model"
     ]
   }
 }

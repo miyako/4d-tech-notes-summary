@@ -3,25 +3,26 @@
   "title": "Tech Note: Installation of 4D Server as a Service on Windows 2000 Server",
   "technote_number": "00-56",
   "year": 2000,
-  "published_date": "December 1, 2000",
+  "published_date": "December 2000",
   "product": "4D Server",
-  "version": "6.5",
-  "platform": "Mac & Win",
-  "author": null,
+  "version": "not specified",
+  "platform": "Windows",
+  "author": "Steve Hartman",
   "page_url": "https://kb.4d.com/assetid=11995",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-56_4D_as_Win2K_Service.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_56-60_(DEC)/00-56_4D_Server_As_Win2K_Service.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Server",
-    "Windows 2000 Server",
-    "Windows Services"
+    "Register as Service (4D Server File menu command)",
+    "Windows 2000 Services MMC snap-in",
+    "Service Log On / Recovery / Dependencies configuration",
+    "Local System account service execution"
   ],
   "historical_commentary": {
-    "text": "This note documents how to register 4D Server as a Windows 2000 Service so it auto-launches at boot, a real operational concern in the early Windows NT-family server era. Windows Server service registration mechanics and 4D Server's own startup model have since evolved considerably (4D Server ships with more modern, built-in service-mode installation options on current Windows Server releases), so the specific 2000-era steps described are no longer directly applicable, though the underlying goal of running 4D Server as an unattended background service remains standard practice today.",
-    "status": "obsolete",
+    "text": "Written by Steve Hartman of 4D Technical Support, this note documents the mechanics of registering 4D Server as a native Windows 2000 service via the File menu's 'Register as Service' command, so it launches automatically at boot rather than requiring an interactive login, and walks through the Windows Services MMC console's General, Log On, Recovery, and Dependencies tabs as they apply to 4D Server. The specific Windows 2000-era MMC screenshots and terminology are dated, but the fundamental technique — registering 4D Server as a Windows service for unattended, boot-time startup — remains a standard and still-supported deployment practice for 4D Server on Windows today, largely unchanged in principle across subsequent Windows Server versions.",
+    "status": "still_relevant",
     "related_updates": [
-      "4D Server now offers built-in, documented options for running as a Windows service on modern Windows Server versions, without needing this manual registration workaround",
-      "Windows Server's own service management tooling (services.msc, sc.exe, PowerShell) has changed substantially since Windows 2000"
+      "4D Server on Windows still supports registering itself as a Windows service for unattended startup, with the same core Register as Service mechanism described here",
+      "The Windows Services management console (services.msc) has evolved cosmetically since Windows 2000 but the General/Log On/Recovery/Dependencies configuration model described in this note remains fundamentally the same"
     ]
   }
 }

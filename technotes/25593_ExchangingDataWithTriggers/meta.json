@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "6.8.3",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=25593",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-52_Exchanging_Data.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_51-55_(NOV)/02-52_Exchanging_Data.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Database triggers",
-    "Utility records for inter-context data sharing"
+    "4D Server triggers (client/server execution model)",
+    "GET PROCESS VARIABLE / SET PROCESS VARIABLE / VARIABLE TO VARIABLE (rejected approach)",
+    "[TriggerMessage] utility record pattern",
+    "QUERY / LOAD RECORD / SAVE RECORD / UNLOAD RECORD",
+    "Cross-machine data sharing between client and trigger code"
   ],
   "historical_commentary": {
-    "text": "4D's trigger mechanism itself remains a supported, still relevant feature in current 4D, so the general utility-record data-sharing pattern described here remains applicable, though modern 4D also offers object/collection-based session or process variables that could provide additional, more structured ways to share such data today.",
-    "status": "still relevant",
+    "text": "David Adams addresses a specific 4D Client/Server pitfall: because triggers execute on the server machine while the client action that provoked them runs on the client machine, they do not share process variables, so patterns that work fine in single-user 4D silently break under Client/Server. Rather than using GET PROCESS VARIABLE/SET PROCESS VARIABLE/VARIABLE TO VARIABLE (which he argues is needlessly fragile across compiled vs. interpreted server code and doesn't work for non-4D clients like 4D Open or Web processes), he proposes storing shared data in a dedicated [TriggerMessage] utility record that both the client process and the server-side trigger can read/write since they share the same records. 4D's trigger mechanism itself remains fully supported today, so this utility-record data-sharing pattern is still valid, though modern 4D also offers object/collection-based session variables that can provide a more structured alternative for some of these use cases.",
+    "status": "still_relevant",
     "related_updates": [
-      "4D triggers remain a supported feature today; modern 4D also offers object/collection-based variables that provide additional ways to share context data beyond the utility-record technique described here"
+      "4D triggers remain a fully supported feature in current 4D with the same client/server execution model described in this note",
+      "Modern 4D also offers object/collection-based session and process variables that provide additional, more structured ways to pass context data beyond the utility-record technique shown here"
     ]
   }
 }

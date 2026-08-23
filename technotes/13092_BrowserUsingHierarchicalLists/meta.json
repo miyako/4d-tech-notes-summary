@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "6.5",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Luc Pellerin",
   "page_url": "https://kb.4d.com/assetid=13092",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-11_Browser_using_HLists.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_11-15_(MAR)/01-11_Browser_using_HLists.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Hierarchical lists (form objects)",
-    "Tree/browser-style data display"
+    "Hierarchical lists (New list, APPEND TO LIST, SET LIST ITEM)",
+    "DISTINCT VALUES for building list source arrays",
+    "List item parent / Selected list item / GET LIST ITEM",
+    "REDRAW LIST / DELETE LIST",
+    "Interprocess variables for shared list references",
+    "Two-level drill-down region/county browser"
   ],
   "historical_commentary": {
-    "text": "This note demonstrates building a tree/browser-style interface using 4D's hierarchical list form object, a classic-language UI control for displaying nested, expandable data. Hierarchical lists remain part of 4D's current form object set and continue to function as documented, so the core technique is still usable today, though many modern 4D interfaces increasingly favor the hierarchical mode of list boxes (which offer richer formatting and data-binding options) over the older dedicated hierarchical list object for tree-style displays.",
+    "text": "Jean-Luc Pellerin's note builds a two-level drill-down browser (region then county) entirely from 4D's classic hierarchical list commands, dynamically populating parent items from DISTINCT VALUES on a Region field and lazily building each region's county sublist only when first clicked, tracking list depth by walking List item parent. Hierarchical lists remain part of 4D's classic language and this technique still works, but modern list box objects (especially hierarchical list boxes bound to ORDA entity selections) provide a considerably more capable, easier-to-maintain way to build drill-down browsers than manually managing list references, sublists, and interprocess variables by hand.",
     "status": "partially_superseded",
     "related_updates": [
-      "4D's hierarchical list form object remains supported in current versions, but list boxes with hierarchical/tree display modes now offer a more modern, flexible alternative for similar tree-style interfaces",
-      "ORDA entity selections provide a more contemporary way to back a tree/browser interface with underlying data than classic selection-driven hierarchical lists"
+      "4D's list box form objects, including hierarchical list box support bound to ORDA entity selections, now offer a more modern and maintainable way to build multi-level drill-down browsers",
+      "The classic hierarchical list commands (New list, APPEND TO LIST, SET LIST ITEM, etc.) remain available and functional in current 4D versions for cases still using classic hierarchical lists"
     ]
   }
 }

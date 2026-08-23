@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Pascal Pradier",
   "page_url": "https://kb.4d.com/assetid=23251",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_15-19_(APR)/02-16_Basic_Stamp.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_15-19_(APR)/02-16_BasicStamp.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "BASIC Stamp microcontroller",
-    "Serial hardware interfacing"
+    "SET CHANNEL (serial port configuration)",
+    "RECEIVE BUFFER (serial data acquisition)",
+    "New process for background serial listening",
+    "Parallax BasicStamp II microcontroller (BASIC/PBASIC)",
+    "Dallas Semiconductor DS1620 temperature sensor",
+    "RS-232 serial communication"
   ],
   "historical_commentary": {
-    "text": "The specific serial-communication technique and BASIC Stamp hardware used here are now a niche, largely obsolete combination (BASIC Stamp has been superseded by Arduino, Raspberry Pi, and other modern microcontroller platforms), but the general concept \u2014 using 4D as a data-acquisition front end for external hardware over a serial or network connection \u2014 remains a valid and still-occasionally-used integration pattern today.",
-    "status": "historical interest only",
+    "text": "This note demonstrates 4D acting as a real-time serial data-acquisition host, using SET CHANNEL and RECEIVE BUFFER in a dedicated process to continuously read temperature readings streamed once per second over RS-232 from a Parallax BasicStamp II microcontroller wired to a Dallas DS1620 sensor. It is a niche but genuine hardware-integration example: real-time acquisition (poll a serial buffer in a loop, insert a record per reading) versus asynchronous/batch acquisition (store readings in the BasicStamp's onboard EEPROM and retrieve them periodically). The specific BasicStamp II hardware and its RS-232-based integration approach are now dated -- modern microcontroller projects favor USB/Wi-Fi/BLE-connected boards (Arduino, ESP32, Raspberry Pi) often bridged through MQTT/HTTP/REST rather than raw serial polling from the host application -- but 4D's own SET CHANNEL/RECEIVE BUFFER serial commands are still present and usable for legacy RS-232 hardware integrations today.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "BASIC Stamp microcontrollers have been largely superseded by modern platforms like Arduino and Raspberry Pi for hobbyist/embedded hardware projects"
+      "The BasicStamp II and raw RS-232 polling approach shown here have been largely superseded in modern hardware projects by USB/Wi-Fi/BLE microcontrollers (Arduino, ESP32, Raspberry Pi) integrated via MQTT, HTTP, or REST rather than direct serial buffer polling",
+      "4D's SET CHANNEL and RECEIVE BUFFER commands for serial port I/O still exist in current 4D versions for legacy RS-232 device integration"
     ]
   }
 }

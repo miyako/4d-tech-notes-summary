@@ -1,1 +1,1 @@
-Tech Note: Interaction between 4D 2003 and Microsoft Excel® (Web Services) (TN 03-09, 4D v2003, February 2003) — an exploration of server-side Web Services publication in 4D 2003, applied to enabling interaction with Microsoft Excel via SOAP and WSDL.
+Publishing a 4D 2003 method as a SOAP Web Service and consuming it from Excel via a custom VBA Add-In

@@ -1,1 +1,1 @@
-Tech Note: 4D WebSTAR API (TN 03-08, 4D v2003, February 2003) — an overview of the WebSTAR V application suite architecture and how the 4D WebSTAR API can integrate with its web-serving, email, and SMTP components.
+4D WebSTAR API: a 4D component for programmatically administering the WebSTAR V web/mail/FTP server suite

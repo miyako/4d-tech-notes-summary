@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=25594",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-53_Semaphore_Gotchas.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_51-55_(NOV)/02-53_SemaphoreGotchas.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Semaphores",
-    "Object locking / concurrency control"
+    "Semaphore() / CLEAR SEMAPHORE() commands",
+    "Object/variable locking across processes",
+    "Wrapper lock/unlock methods with a reference counter",
+    "IDLE command in polling loops",
+    "4D Insider for detecting unbalanced semaphore calls"
   ],
   "historical_commentary": {
-    "text": "Semaphores remain a supported, still relevant concurrency primitive in current 4D, so the wrapper-method safety patterns this note describes are still broadly applicable, even as 4D has since added additional concurrency tools (such as true preemptive worker processes) that offer alternative ways to manage shared state.",
-    "status": "still relevant",
+    "text": "David Adams reviews how 4D and 4D Server automatically manage record- and design-object-level contention, but leave variable/array locking to developer-managed semaphores, and identifies a specific, hard-to-detect bug: a nested-call chain that releases a shared semaphore prematurely because a subroutine sets and clears it independently of its caller. His fix -- wrapping Semaphore/CLEAR SEMAPHORE calls in a matched pair of methods that track a call-depth counter so the semaphore is only released when the outermost caller finishes -- is a reentrant-lock pattern that remains directly applicable in current 4D. Semaphores are still a supported concurrency primitive today, though modern 4D has since added additional concurrency tools (such as worker processes) that offer alternative ways to manage shared state across processes.",
+    "status": "still_relevant",
     "related_updates": [
-      "Semaphores remain a supported concurrency primitive in current 4D, alongside newer tools like worker processes introduced in later versions"
+      "Semaphores (Semaphore/CLEAR SEMAPHORE) remain a supported concurrency primitive in current 4D",
+      "Modern 4D also offers worker processes and other concurrency tools introduced in later versions as alternatives for managing shared state across processes"
     ]
   }
 }

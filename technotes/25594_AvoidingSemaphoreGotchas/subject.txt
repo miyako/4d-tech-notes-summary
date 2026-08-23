@@ -1,1 +1,1 @@
-Tech Note: Avoiding Semaphore Gotchas (TN 02-53, 4D v6.8, November 2002) — a review of object-locking fundamentals using semaphores, with wrapper methods to help avoid common semaphore-related bugs.
+Avoiding premature semaphore release in nested calls using reentrant lock/unlock wrapper methods

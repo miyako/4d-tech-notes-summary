@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent D. Wilbur",
   "page_url": "https://kb.4d.com/assetid=23268",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-11_Best_Object_Size.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_11-15_(MAR)/03-11_Best_Object_Size.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "BEST OBJECT SIZE command",
-    "Form/print layout sizing"
+    "BEST OBJECT SIZE command (4D 2003)",
+    "GET OBJECT RECT / MOVE OBJECT",
+    "GET PRINTABLE AREA / Get printed height / SET PRINT MARKER / Get print marker",
+    "On Printing Detail form event",
+    "CANCEL during PRINT FORM (mid-print page-break control)",
+    "Dynamic side-by-side and catalog-style report layout"
   ],
   "historical_commentary": {
-    "text": "The BEST OBJECT SIZE command introduced here has remained part of 4D's language in subsequent versions, so this note's core technical content is still broadly relevant for developers doing precise form/print layout calculations, even though the print form architecture referenced has continued to evolve since 2003.",
-    "status": "still relevant",
+    "text": "Kent D. Wilbur (Manager of Information Systems, 4D, Inc.) demonstrates 4D 2003's then-new BEST OBJECT SIZE command, which computes the optimal pixel width/height a text (or other) object needs for its current content, font, and OS, and shows how to combine it with GET OBJECT RECT/MOVE OBJECT to dynamically resize input forms around a variable-length Synopsis field, and with the newly-CANCEL-able On Printing Detail event and SET/Get print marker to build side-by-side and full catalog-style reports whose row heights adapt per record. The BEST OBJECT SIZE command has remained part of 4D's language in all subsequent versions, so the technique for computing optimal object sizing is still directly usable; while 4D's print architecture and form engine have continued to evolve since 2003 (and 4D Write Pro / newer list box and form object models offer additional layout options), the core BEST OBJECT SIZE-driven resizing technique described here remains applicable to current 4D form and print development.",
+    "status": "still_relevant",
     "related_updates": [
-      "The BEST OBJECT SIZE command has remained part of 4D's language in subsequent versions"
+      "BEST OBJECT SIZE has remained part of 4D's language in every version since its 2003 introduction and continues to work as described",
+      "4D's form and print architecture has evolved considerably since 2003 (e.g., 4D Write Pro and modern list box objects), offering additional layout mechanisms alongside the BEST OBJECT SIZE-based technique shown here"
     ]
   }
 }

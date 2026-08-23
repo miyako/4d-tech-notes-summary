@@ -1,1 +1,1 @@
-Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5 (TN 01-08, 4D v6.5, February 2001) — a technique for correctly decoding an HTML SELECT MULTIPLE form input, where several selected values are submitted to the web server under the same field name.
+Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5 (TN 01-08, February 2001) — hand-written 4D methods to parse GET/POST HTML forms containing MULTIPLE SELECT inputs

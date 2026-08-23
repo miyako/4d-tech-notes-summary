@@ -7,22 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jonathan Baltazar, Inside Sales Representative, 4D, Inc. (example database created by Tad Michael Wheeler, DataCraft)",
   "page_url": "https://kb.4d.com/assetid=19056",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_54-57_(DEC)/01-57_Report_Demo.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_57-61_(DEC)/01-57_Inside_the_Report_Demo.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Break-level report processing",
-    "PRINT FORM",
-    "Example database (Report Demo by Tad Michael Wheeler)",
-    "Report accumulation techniques"
+    "ORDER BY multi-field sorting",
+    "BREAK LEVEL",
+    "ACCUMULATE",
+    "SET PRINT PREVIEW",
+    "PRINT SELECTION / OUTPUT FORM",
+    "Substring-based name formatting"
   ],
   "historical_commentary": {
-    "text": "This note walks through a classic break-level reporting technique (accumulation across a hierarchical 3-table structure) built in 4D's binary Design Mode. The fundamental break-level/PRINT FORM approach to generating reports from a sorted selection is still part of 4D's classic language and remains conceptually valid today, though most modern report UIs would instead lean on List Box-based reporting or 4D Write Pro document generation rather than hand-built break-level methods.",
+    "text": "Jonathan Baltazar walks through the 'Report Demo' sample database (created by Tad Michael Wheeler of DataCraft) to teach 4D's classic reporting building blocks -- ORDER BY, BREAK LEVEL, and ACCUMULATE -- for producing a subtotaled donations report grouped by department and quarter, plus a small name-formatting utility method. These reporting commands are still part of current 4D and the break-level/accumulate pattern remains a valid, still-used technique for simple grouped reports, though modern 4D applications more often use the more flexible List Form / collection-and-ORDA-based reporting or dedicated reporting tools for anything beyond a basic printed report.",
     "status": "still_relevant",
     "related_updates": [
-      "List Box and 4D Write Pro reporting have become the more common modern approach to formatted reports",
-      "Project Mode text-based structures replaced binary .4DB/.4DC Design Mode files for new development"
+      "ORDER BY, BREAK LEVEL, ACCUMULATE, SET PRINT PREVIEW, and PRINT SELECTION remain valid, supported 4D commands for this exact type of grouped report",
+      "Modern 4D reporting for richer or web-facing needs increasingly uses collection/ORDA-based approaches or dedicated reporting components rather than classic break-level printed reports"
     ]
   }
 }

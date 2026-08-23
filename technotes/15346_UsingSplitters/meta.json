@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gilles Mellot",
   "page_url": "https://kb.4d.com/assetid=15346",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-27_Using_Splitters.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_26-30_(JUN)/01-27_Using_Splitters.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Splitters (form objects)",
-    "Form design / resizable interface regions"
+    "Splitter form objects (introduced in 4D v6.5)",
+    "Move horizontally / grow horizontally object resize properties",
+    "SET TIMER / On Timer event for programmatic splitter animation",
+    "GET OBJECT RECT / MOVE OBJECT for reading and setting splitter position",
+    "CALL PROCESS / On Outside Call for cross-process splitter synchronization (drag-to-palette)",
+    "Longint variable binding to splitter position"
   ],
   "historical_commentary": {
-    "text": "Splitters \u2014 form objects that let end users drag to resize adjoining areas of a form \u2014 were new in 4D v6.5 and, per this note, still under-used by developers at the time. The concept and the Splitter object type itself have persisted essentially unchanged through 4D's evolution, including into Project Mode and current list-box-heavy interfaces, making the note's core guidance still conceptually applicable today, even though the binary Design Mode form editor shown has since been replaced.",
-    "status": "still relevant",
+    "text": "Gilles Mellot (4D S.A.) provides a comprehensive tour of the Splitter object introduced in 4D v6.5, covering how vertical/horizontal splitters interact with neighboring objects' Move/Grow properties, how splitter position binds to a longint variable that can be read or set programmatically, and advanced uses such as On Timer-driven splitter animation and a drag-out-to-floating-palette pattern using CALL PROCESS/On Outside Call. Splitters remain a supported, still-used 4D form object today, and the core techniques described (binding a variable to splitter position, reading/setting it via that variable, using it to resize neighboring output-form regions) are still valid; however, more advanced layout needs are increasingly handled with list boxes, group objects, and modern responsive form APIs, so this note's core splitter mechanics are still relevant while its most elaborate cross-process palette-detach demo is more of a period showcase than a common modern pattern.",
+    "status": "still_relevant",
     "related_updates": [
-      "The Splitter object type remains part of 4D's current form object palette, usable in Project Mode forms",
-      "Modern 4D UI design leans more heavily on resizable list boxes, dockable panels, and (for web/mobile) HTML/CSS layouts, but the underlying manual-resize interaction shown here is unchanged"
+      "Splitter objects remain a supported 4D form object type in current versions, with the same variable-binding behavior described here",
+      "Modern 4D form layout increasingly relies on list boxes, group objects, and object properties for adaptive resizing, reducing (but not eliminating) reliance on manual splitter-based layouts",
+      "CALL PROCESS and On Outside Call remain valid current 4D mechanisms for inter-process communication, though newer patterns (e.g., worker processes, shared interprocess variables) are also commonly used today"
     ]
   }
 }

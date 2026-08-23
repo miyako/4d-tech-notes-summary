@@ -1,26 +1,43 @@
-# Tech Note: Using Cookies with 4th Dimension Web Server (TN 00-17)
+# Tech Note: Using Cookies with 4th Dimension Web Server
 
-**Author:** Not specified in source document
-**Published:** April 1, 2000 | **Product/Version:** 4D v6.5 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=11958
-**Download:** https://kb.4d.com/DLTN/TN/2000/Windows/TN_2000_16-20_(APR)/00-17_4D_and_Cookies.exe
+- **Asset ID:** 11958
+- **Tech Note #:** 00-17
+- **Published:** April 1, 2000
+- **Product / Version:** 4D
+- **Platform:** Mac & Win
+- **Author:** Eric Saltzen
+- **Page URL:** https://kb.4d.com/assetid=11958
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_16-20_(APR)/00-17_Cookies.hqx
 
 ## Overview
-This Tech Note covers a foundational explanation and sample database showing how to set and read HTTP cookies from 4D's built-in web server to maintain client-side state.
+
+Eric Saltzen (4D, Inc. Technical Support) explains the HTTP cookie protocol and builds "CookieMonster4D," a complete sample database that recognizes returning visitors and issues session cookies entirely by hand-parsing raw HTTP headers with 4th Dimension's web server.
 
 ## Key Points
-- It describes the classic mechanics of cookies: a server returning an HTTP response can include a name=value pair for the client to store, along with domain/path scoping information describing which future URLs should include that value when requesting from the server again, quoting the origin story that cookies are so named for "no compelling reason" according to Netscape.
-- The note's proposition is to provide, via its accompanying sample database, a foundation for building an "intelligent" web site — one that can recognize returning visitors and maintain a more personalized, ongoing relationship with them rather than treating every request as anonymous and stateless.
-- This sits within 4D's active investment in web/e-commerce capability during the 2000 dot-com boom, when the built-in 4D Web Server was a key differentiator for building dynamic, database-backed web sites entirely inside 4D without external CGI languages.
-- The featured technology is squarely the 4th Dimension Web Server's cookie-setting and cookie-reading commands, paired with general HTTP protocol concepts (state objects, domain/path scoping, and request/response headers) that any web developer of the era needed to understand.
-- Because the download links are no longer functional and only the teaser paragraph survives in this archive, the exact 4D commands and sample database mechanics used to implement the cookie logic are not preserved here.
-- Nonetheless, the note captures an important early-web-era 4D capability: giving a 4D database direct, first-class control over HTTP session state without relying on external web/application server middleware, a notable feature for its time even as the specific implementation has since been superseded by 4D's much more capable modern web server.
+
+- Explains the raw HTTP mechanics of cookies: a server sends `Set-Cookie: name=value; expires=...; path=/`, and a matching future request from the same browser includes `Cookie: name=value` in its header; cookies are invisible via "View Source" because they live in the HTTP header, not the HTML payload, accessible in 4D via the $2 parameter (distinct from SET HTTP HEADER, which writes to the response header).
+- CookieMonster4D's single `On Web Connection` database method branches on the requested path ($1) via a Case statement: recognized site pages (root, several `/4DCGI/*.htm` links) trigger cookie parsing and session logic, while a second Case branch (`$1 = "/4DCGI/@"`) intercepts inline image requests and serves them with `DOCUMENT TO BLOB` + `SEND HTML BLOB`.
+- Because 4D had no built-in cookie parser, the custom `ParseCookies` project method manually locates `"Cookie: "` in the raw header text and walks it with `Position`/`Substring`, splitting on `=`, `;`, and carriage-return delimiters to build parallel name/value text arrays and return a cookie count.
+- If no matching `[WebVisitors]` record is found for the `primaryID` cookie, a unique 32-bit ID is generated from `(Current date - !01/01/2000!) * 86400 + Current time`, appended with `Milliseconds % 100` for centisecond precision, re-rolled in a `Repeat...Until` loop on collision, then a new `[WebVisitors]` record is created and `SET HTTP HEADER("Set-Cookie: primaryID=...; expires=Sat, 31-Dec-2005...; path=/")` issues the cookie before serving `index.htm` (built with `<!--4DVAR-->` template placeholders) to collect the visitor's name.
+- On a matching returning visit (or after the name-entry form posts to `/4DCGI/AssignName`), the existing `[WebVisitors]` record is updated, `SET HTTP HEADER("")` clears the header (no new cookie needed), and the personalized `home.shtm` page — built with Dreamweaver/Flash and `4DVAR`/`4DCGI` placeholders — is served via `SEND HTML FILE`.
+- HTTP header carriage-return/line-feed pairs are converted to `<br>` with `Replace string` before being displayed back to the visitor on the confirmation page, illustrating how to safely surface raw header text in rendered HTML.
 
 ## Featured Technology
-- 4th Dimension Web Server
-- HTTP cookies
-- CGI-style server-side state
-- Web session management
 
-## Historical Context
-This note introduces HTTP cookie handling via 4th Dimension's own built-in web server, letting a 4D-powered web application store and retrieve client-side state — a core building block for personalization and session tracking during 4D's active push into web/e-commerce features around the dot-com era. The specific mechanics of 4D's classic web server and its cookie API are long since superseded by 4D's modern web server (built on newer HTTP handling and standard REST/session mechanisms), but the underlying concept of using cookies for client-side session state remains a standard, still-relevant web development technique used across any web platform, including current 4D web apps. Related updates since: 4D's built-in web server has been substantially modernized multiple times since 2000, including current REST/session and HTTPS support far beyond the classic CGI-era cookie API described here; Cookie-based client state remains a standard web technique conceptually, but is now typically combined with modern session tokens, REST APIs, and HTTPS rather than the classic 4D web server mechanics of this note. The full Tech Note PDF/text could not be recovered for this archive entry because the linked archive was an old Windows self-extracting .exe installer that could not be extracted without a Windows environment; this summary is based only on the short teaser paragraph available on the original kb.4d.com page, so it does not go beyond what that teaser describes.
+- SET HTTP HEADER for issuing Set-Cookie response headers
+- On Web Connection database method routing (via $1 request path)
+- Manual HTTP Cookie header parsing (ParseCookies project method)
+- SEND HTML FILE / SEND HTML BLOB for serving pages and inline assets
+- 4DVAR / 4DCGI templating with Dreamweaver-generated HTML
+- Unique cookie/session ID generation from Current date/time/Milliseconds
+
+## Historical Commentary
+
+**Status:** Partially superseded
+
+This note explains how HTTP cookies work and demonstrates building a session-management system, "CookieMonster4D," entirely by hand in 4D v6.x: parsing the raw Cookie header out of the HTTP request text with custom string-processing code, generating a unique visitor ID from the current date/time plus milliseconds, issuing a Set-Cookie response via SET HTTP HEADER, and looking up/creating [WebVisitors] records to recognize repeat visitors. SET HTTP HEADER remains part of 4D and the general concept of cookie-based session tracking is unchanged, but manually parsing cookie headers with Position/Substring string surgery, as shown here, has been superseded by 4D's built-in web server session and cookie-handling commands introduced in later versions, which remove the need to hand-roll a ParseCookies method.
+
+**References to newer/updated information:**
+- SET HTTP HEADER remains part of the current 4D language for setting response headers including Set-Cookie
+- Later 4D versions added dedicated cookie/session-handling commands and built-in web server session support, reducing the need for the manual HTTP-header string parsing (ParseCookies) shown in this note
+- Modern 4D web applications more commonly use the built-in web server's session management or REST/ORDA-based approaches rather than hand-built Cookie header parsing

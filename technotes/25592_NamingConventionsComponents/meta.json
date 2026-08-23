@@ -7,19 +7,22 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "David Adams",
   "page_url": "https://kb.4d.com/assetid=25592",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-51_Naming_Conventions.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_51-55_(NOV)/02-51_Naming_Conventions.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D component development",
-    "4D Insider public/protected/private methods"
+    "4D Insider component packaging (public/protected/private folders)",
+    "Method naming conventions for visual sorting",
+    "Component prefix + protection-indicator naming scheme",
+    "4D Explorer window visual cues for protected methods"
   ],
   "historical_commentary": {
-    "text": "4D Insider itself has been superseded by 4D's modern, native component architecture, so the specific public/protected/private mechanics tied to 4D Insider are obsolete, but the broader principle \u2014 using clear naming conventions to signal a component's intended public API surface \u2014 remains sound software engineering advice applicable to today's 4D components and classes.",
+    "text": "David Adams tackles a real usability gap in the classic 4D Insider component system: a method's public/protected/private status is only visible in 4D Insider itself, not in the 4D language editor, so nothing stops a developer from accidentally calling a private method from a public one until 4D Insider later flags the error. His fix is a structured naming scheme -- component prefix, then a protection indicator (no special character for private, underscore for protected, a space for public), then a descriptive name -- so methods sort together by protection level and their status is visible at a glance in both the source and target databases. 4D Insider and its public/protected/private folder mechanics have since been superseded by 4D's modern native component architecture, making the specific mechanics obsolete, but the broader naming-convention principle for signaling a component's intended API surface remains sound advice applicable to today's 4D components and classes.",
     "status": "superseded",
     "related_updates": [
-      "4D Insider has been superseded by 4D's modern native component architecture, which handles component packaging and encapsulation differently"
+      "4D Insider and its public/protected/private folder-based component packaging have been superseded by 4D's modern native component architecture",
+      "The underlying naming-convention principle -- visually distinguishing a component's public API from its internal implementation -- remains valid practice for today's 4D components and classes"
     ]
   }
 }

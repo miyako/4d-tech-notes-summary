@@ -1,1 +1,1 @@
-Tech Note: The Blob Analyzer (TN 01-10, 4D v6.5, February 2001) — a utility database for displaying the contents of a BLOB field in both decimal and hexadecimal, addressing 4D's lack of native BLOB display on forms.
+Tech Note: The Blob Analyzer (TN 01-10, 4D v6.5, February 2001) — a reusable Wood_Blob utility and form for inspecting BLOB field contents in hex, ASCII, and binary during development

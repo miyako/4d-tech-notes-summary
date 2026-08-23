@@ -1,1 +1,1 @@
-Tech Note: Basic Principles of Menu Bar Design in 4D (TN 02-23, 4D v6.8, May 2002) — a comprehensive explanation of basic principles for designing an easy-to-implement, low-maintenance menu bar system in 4D.
+A rapid application development menu-bar architecture in 4D using MENU BAR, Associated Menu Bar, and Active Menu Bar with a shared empty menu bar

@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Larry Sharpe",
   "page_url": "https://kb.4d.com/assetid=25617",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-61_Limiting_Access.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_56-61_(DEC)/02-61_Limiting_Access.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Client / 4D Server",
-    "TCP/IP access control"
+    "IT_MyTCPAddr command (4D Internet Commands plug-in)",
+    "On Startup database method as a connection-time login hook",
+    "xLogins connection-history/audit table",
+    "xValidIPs static IP allowlist table",
+    "4D List/AreaList external area for displaying login history",
+    "Optional Quit 4D-based hard connection rejection"
   ],
   "historical_commentary": {
-    "text": "The core concern \u2014 controlling and auditing remote access to a database server \u2014 remains a fundamental, still highly relevant security practice, but current 4D Server deployments have far more robust built-in access control, encryption (TLS), and network security options than were available in 2002, making the specific mitigation techniques in this note largely superseded by modern equivalents.",
+    "text": "This is a pragmatic, field-tested security recipe for a real problem in the early 2000s: 4D Client's classic architecture had no built-in way to restrict which network locations could connect, so this note fills that gap with a lightweight logging-and-allowlist layer built from a couple of tables and the 4D Internet Commands plug-in. The specific reliance on static client-side IP addresses is a poor fit for most networks today (many client connections now come from dynamic IPs, NATed offices, or roaming/VPN users), and 4D itself has since added built-in, server-side connection security controls (including SSL/TLS enforcement and more granular network/access configuration) that provide more robust protection than a hand-rolled IP allowlist checked after the fact in On Startup.",
     "status": "superseded",
     "related_updates": [
-      "Current 4D Server versions provide more robust built-in network security, TLS encryption, and access control options than were available in 2002"
+      "4D Server has since added native network-level security controls (SSL/TLS, more granular connection settings) that provide more robust protection than a hand-rolled On Startup IP-check table",
+      "Static-IP-based allowlisting is a poor fit for most modern network setups (dynamic IPs, NAT, VPN/roaming users), reducing the practical applicability of this note's specific technique today"
     ]
   }
 }

@@ -1,1 +1,1 @@
-Tech Note: Index Control Panel (TN 01-55, 4D v6.7, December 2001) — a technique for programmatically enabling and disabling field indexes on a compiled database.
+A sample control panel for toggling and rebuilding field indexes in a compiled 4D database without design access

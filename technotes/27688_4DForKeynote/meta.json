@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Cha Yang",
   "page_url": "https://kb.4d.com/assetid=27688",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-15_4D_for_Keynote.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_11-15_(MAR)/03-15_4D_for_Keynote.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Apple Keynote file format",
-    "Presentation data import/export"
+    "Apple Keynote \"presentation.apxl\" XML file format",
+    "4D 2003 XML parser commands (Parse XML Doc, Get First/Next XML Element)",
+    "Generic chunked document reader (KN_Import_Gen, 10,000-char buffering)",
+    "BLOB-based storage of unparsed XML sections",
+    "XML depth-based record decomposition (KN_Find_Slide)",
+    "Document reassembly and export (KN_Write_XML, KN_Export)"
   ],
   "historical_commentary": {
-    "text": "Apple's Keynote file format has changed substantially since 2003 (moving through several major format revisions), making this note's specific file-format integration technique obsolete; it stands today as a historical curiosity illustrating early cross-application data integration between 4D and Mac productivity software.",
+    "text": "This note is a clever, resourceful piece of engineering for its time: buffering a huge external XML file in 10 KB chunks to work around 4D 2003's 32 KB text limit, and rewriting only the chart-data fragment of a foreign file format to keep the rest byte-identical. Apple's Keynote file format has changed multiple times since 2003 (it soon moved to a zipped-bundle format with different internal XML/plist schemas, and modern Keynote files are quite different from the 2003 \"presentation.apxl\" structure), so the specific tag names and structure described here no longer apply to current Keynote files. The general technique — chunked reading plus 4D's native XML parser commands — remains valid today, but current 4D (with far larger text/BLOB limits and richer XML/JSON tooling) would not need the same manual chunking workaround.",
     "status": "obsolete",
     "related_updates": [
-      "Apple's Keynote file format has changed multiple times since 2003, making the specific integration technique in this note obsolete for modern Keynote files"
+      "Apple's Keynote file format has been revised multiple times since 2003 (moving to a bundle-based format with different internal XML/plist schemas), making the specific tags in this note obsolete for current Keynote files",
+      "4D has since removed the 32,000-character text size limitation that necessitated this note's chunked-read technique, and offers richer native XML/JSON parsing"
     ]
   }
 }

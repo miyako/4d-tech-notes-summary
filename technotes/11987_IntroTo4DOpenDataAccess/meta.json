@@ -7,17 +7,20 @@
   "product": "4D Open",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Aziz Elghomari",
   "page_url": "https://kb.4d.com/assetid=11987",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_46-50_(OCT)/00-50_Intro_to_4D_Open.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_46-50_(OCT)/00-50_Intro_to_4D_Open.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Open",
-    "Thin client architecture (4dopen.dll)",
-    "Blobs and Sets"
+    "4D Open C API record/data routines (_4D_CreateBuffer, _4D_AddToBuffer, _4D_GetFields, _4D_GetNthField)",
+    "4D Open search (_4D_Search / SearchRecord / SearchLine structures)",
+    "4D Open sort (SortRecord / SortLine structures)",
+    "4D Open set handling (_4D_CreateSet, _4D_CreateEmptySet, _4D_AddToSet, _4D_RecordsInSet, _4D_ClearSet)",
+    "4D Open Blob handling (DataRec union, BlobLen)",
+    "4dopen.dll thin-client architecture"
   ],
   "historical_commentary": {
-    "text": "This note covers 4D Open's data-manipulation side (entering/deleting/searching/sorting data, handling Blobs and Sets) and highlights one of 4D Open's genuine selling points at the time: a thin-client footprint (a 264KB DLL versus an 8.6MB full 4D client). 4D Open, the C/C++/Java API precursor to modern client-server access technologies, has been discontinued for many years; developers building thin, programmatic clients against 4D data today use 4D's REST/ORDA web data server instead, which did not exist at the time this note was written.",
+    "text": "The second in a 4D Open technical note series, this note covers the C API side of 4D Open's data manipulation: creating/deleting records via buffer routines, searching and sorting with the SearchRecord/SortRecord structures, handling named sets, and reading Blob data, all compiled against sample Code Warrior (Mac) and Visual C++ (Windows) projects linked to a 4D Open .Lib/.dll. Its highlighted selling point, a 264 KB 4dopen.dll thin client versus an 8.6 MB full 4D client, was a genuine differentiator at the time. 4D Open has been discontinued for many years; developers building thin, programmatic clients against 4D Server data today use 4D's REST/ORDA web data server instead, which offers a modern, language-agnostic equivalent of the thin-client goal this note pursued through a native C library.",
     "status": "obsolete",
     "related_updates": [
       "4D Open has been discontinued; there is no direct modern successor product by that name",

@@ -1,1 +1,1 @@
-Tech Note: Bar Codes (TN 02-20, 4D v6.8, May 2002) — an introduction to working with bar codes in 4D, an automatic identification technique widely used in stock management, production, shipping, and libraries.
+Generating Code 39, Code 128, UPC and EAN-13 bar codes in 4D from 1x1 pixel library images

@@ -1,33 +1,44 @@
-# Tech Note 01-28: Creating a 6.0-style Pop-up in 6.7 using Layered Objects
+# Tech Note: Creating a 6.0-style Pop-up in 6.7 using Layered Objects
 
-**Author:** Not specified in source document
-**Published:** June 30, 2001 | **Product/Version:** 4D v6.5 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=15347
-**Download:** https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2001/windows/tn_2001_26-30_(jun)/01-28_popups_6.0_in_6.7.exe
+- **Asset ID:** 15347
+- **Tech Note #:** 01-28
+- **Published:** June 30, 2001
+- **Product / Version:** 4D 6.5
+- **Platform:** Mac & Win
+- **Author:** Eric Saltzen
+- **Page URL:** https://kb.4d.com/assetid=15347
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_26-30_(JUN)/01-28_Popups_6.0_in_6.7.hqx
 
 ## Overview
-A form-object workaround that restores 4D v6.0's pop-up/drop-down click-only object-method behavior in v6.5+. This Tech Note addresses a subtle behavior change introduced in 4D v6.5: unlike v6.0, pop-up menus and drop-down lists now run their object method as soon as the user browses the menu, not only when an item is actually selected.
+
+Eric Saltzen (4D, Inc. Technical Support) shows how to restore 4D v6.0's Pop-up menu/Drop-down list behavior — where the object method fired only on an actual user selection — after v6.5 changed it to more closely follow Macintosh interface guidelines and fire the object method even when the user merely browsed and dismissed the menu without changing its value.
 
 ## Key Points
-- For developers who had built logic assuming the old "select-to-fire" behavior, this could break existing forms migrated from v6.0.
-- The note's solution is to layer additional form objects (an approach common in binary Design Mode form editing of the era) so that the object method only executes meaningful code when a true selection occurs, effectively emulating the original v6.0 semantics.
-- It is a small, surgical technique aimed squarely at cross-version compatibility during the v6.0-to-6.5/6.7 migration window many 4D shops were navigating in 2001.
-- The featured technology is entirely classic-language form object manipulation: pop-up/drop-down objects, their object method trigger, and layered/overlapping form objects as a UI trick.
+
+- In v6.0, a Pop-up menu/Drop-down list's object method ran only when the user made a selection; starting in v6.5, it fires (`On Clicked`) even if the user just activates and dismisses the menu, re-returning the previously selected value — this note shows how to detect a "real" selection versus mere browsing.
+- Technique: place a placeholder value (e.g., "Please make a choice...") as the first item of the associated choice list, and always reset the control back to that placeholder after processing a real selection, so any future `On Clicked` event landing on the placeholder can be treated as "no new selection."
+- A second, display-only text object (`displayValue`) is layered directly on top of the Pop-up menu/Drop-down list to visually show the true current value while hiding the underlying placeholder text.
+- The `myPopDropList` object method's `On Load` handler uses `PLATFORM PROPERTIES` to detect Windows and adjust the overlay's position/colors, loads choices via `LIST TO ARRAY`, and uses `Find in array` against the associated field to restore the correct displayed value (or the placeholder if none matches).
+- The `displayValue` object method calls `POST CLICK(popTargetX;popTargetY)` on `On Clicked` to forward clicks through to the underlying Pop-up/Drop-down control, preserving the illusion of a single combined interface object.
+- `On Getting Focus`/`On Losing Focus` handlers (Windows only) use `SET RGB COLORS` to mimic native Drop-down list focus highlighting (white-on-blue when focused).
+- Notes that easier alternatives exist for related but different goals: the "Mac OS 7" Platform Interface property preserves the old visual appearance exactly, and the `Pop up menu` command is better suited for context/action menus not tied to a specific form control.
 
 ## Featured Technology
-- Pop-up menus / Drop-down lists (form objects)
-- Layered objects
-- Object method (form event handling)
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- Layered form objects (overlaying a display-only object on a Pop-up menu/Drop-down list)
+- PLATFORM PROPERTIES command
+- POST CLICK command to forward clicks between layered objects
+- LIST TO ARRAY / Find in array for placeholder-based selection detection
+- On Load / On Clicked / On Getting Focus / On Losing Focus form events
+- SET RGB COLORS for Windows-style focus highlighting
 
 ## Historical Commentary
+
 **Status:** Obsolete
 
-This note documents a narrow compatibility workaround for a form-object behavior change between 4D v6.0 and v6.5 (pop-up/drop-down menus firing their object method on browse, not just on selection), implemented by layering objects on a binary Design Mode form. The specific trick is tied to the old pop-up/drop-down object types and binary form editor of that era, and the underlying v6.0-vs-v6.5 behavior distinction it addresses has been irrelevant for two decades. It is preserved mainly as a historical illustration of how form-object workarounds were built before richer event models and Project Mode existed.
+This note solves a narrow, version-specific compatibility problem — restoring 4D v6.0's Pop-up/Drop-down list firing behavior after it changed in v6.5 — that has no bearing on any current 4D version; the underlying behavior difference between v6.0 and v6.5+ is not something modern developers ever encounter. The general technique demonstrated, however — layering form objects and using POST CLICK to forward interaction between them to build composite custom controls — remains a legitimate and still-functional 4D pattern, even though it is now rarely needed given richer built-in list box and control options.
 
-**Related updates since:**
-- 4D's form object model and event system have been significantly extended since (including list box-based dropdowns and richer On Load/On Data Change events), reducing the need for layered-object workarounds
-- Project Mode (4D v17+) replaced binary Design Mode structures with text-based form files, changing how forms are authored and versioned
-
+**References to newer/updated information:**
+- The specific 4D v6.0-vs-6.5+ Pop-up/Drop-down list firing-behavior difference this note addresses is irrelevant to all current 4D versions
+- The general technique of layering form objects and using POST CLICK to forward clicks remains valid in current 4D versions for building custom composite controls
+- Modern 4D UI development (list boxes, plug-ins, or web-based front ends) rarely relies on hand-layered classic-language pop-up/drop-down workarounds

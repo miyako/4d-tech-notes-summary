@@ -1,1 +1,1 @@
-Tech Note: Using the 4D API Query Commands (TN 01-56, 4D v6.7, December 2001) — a guide to invoking 4D's Query Editor and QUERY-style commands from within a compiled C plug-in.
+Building 4D queries programmatically from a compiled plug-in using the PA_OpenQuery/PA_QueryXxx/PA_CloseQuery API

@@ -1,1 +1,1 @@
-Tech Note: Using Cookies with 4th Dimension Web Server (TN 00-17, 4D v6.5, April 2000) — a foundational explanation and sample database showing how to set and read HTTP cookies from 4D's built-in web server to maintain client-side state.
+Building a hand-rolled cookie-based visitor tracking system (CookieMonster4D) with 4th Dimension's web server

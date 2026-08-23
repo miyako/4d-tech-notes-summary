@@ -1,1 +1,1 @@
-Tech Note: The OPEN WEB URL Command (TN 01-15, 4D v6.7, March 2001) — a walkthrough of the OPEN WEB URL command's ability to launch the default browser, mail client, or ftp/help handler for a given URL type.
+Using the OPEN WEB URL command to launch web sites, compose e-mails, connect to FTP sites, and open local HTML help pages

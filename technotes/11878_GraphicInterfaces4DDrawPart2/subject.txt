@@ -1,1 +1,1 @@
-Tech Note: Building Interactive Graphic Interfaces with 4D Draw, Part II (TN 99-47, 4D Draw v6.5, November 1999) — explains BMP picture validation code for the interactive graphic interface example database.
+Thoroughly validating a BMP file's header before reading it, as part two of a 4D Draw interactive graphics series

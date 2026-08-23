@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Roland Lannuzel",
   "page_url": "https://kb.4d.com/assetid=25588",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-47_4D_Write_Styles_Etc.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_46-50_(OCT)/02-47_4D_Write_Styles_Etc.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Write",
+    "4D Write commands (WR EXECUTE COMMAND, WR GET/SET SELECTION, WR APPLY STYLESHEET)",
+    "WR ON COMMAND for intercepting Paste",
+    "New list / hierarchical lists built from paragraph styles",
+    "GET LIST ITEM / SET LIST ITEM / SET LIST ITEM PROPERTIES",
     "BLOB to list / LIST TO BLOB",
-    "Hierarchical lists in documents"
+    "Style-based paragraph-to-outline conversion"
   ],
   "historical_commentary": {
-    "text": "The classic 4D Write plug-in referenced here has been succeeded by 4D Write Pro (introduced in later 4D versions) with a substantially different, more modern document model, making this note's specific styling and BLOB-based list techniques largely obsolete for current 4D document development.",
+    "text": "Roland Lannuzel (4D S.A.) extends the entry-control technique from Tech Note 02-02 to intercept and control the Paste command in a 4D Write area (preserving cursor style rather than pasted formatting), and demonstrates converting styled paragraphs typed into a controlled 4D Write area directly into a 4D hierarchical list, where each paragraph's relative style level determines whether it becomes a list element or the start of a new nested sublist. The classic 4D Write plug-in referenced throughout this note has since been succeeded by 4D Write Pro, which uses a substantially different, more modern document/object model, so the specific WR-prefixed commands, style-sheet indices, and BLOB-based list persistence shown here no longer apply to current 4D document development, even though the general concept of deriving structured data from styled text remains a reasonable technique.",
     "status": "obsolete",
     "related_updates": [
-      "4D Write has been succeeded by 4D Write Pro, which uses a different, more modern document/formatting model than the classic 4D Write plug-in described here"
+      "The classic 4D Write plug-in has been succeeded by 4D Write Pro, which uses a different, more modern document and formatting model than the WR-prefixed commands (WR EXECUTE COMMAND, WR GET/SET SELECTION, WR APPLY STYLESHEET) described in this note",
+      "BLOB to list / LIST TO BLOB and the style-index-based hierarchical list construction shown here are tied to classic 4D Write and are not directly applicable to 4D Write Pro documents"
     ]
   }
 }

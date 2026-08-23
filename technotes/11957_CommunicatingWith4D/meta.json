@@ -5,23 +5,27 @@
   "year": 2000,
   "published_date": "November 1, 2000",
   "product": "4D",
-  "version": "6.5",
+  "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=11957",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-52_Communicating_With_4D.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_51-55_(NOV)/00-52_Communicating_With_4D.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Inter-process communication in 4D",
-    "Multicasting-style messaging",
-    "Custom object behavior tricks"
+    "EXECUTE ON CLIENT for pushing method calls to other connected clients",
+    "Custom multi-user password/login system stored in a Member table",
+    "HIGHLIGHT TEXT / POST KEY for auto-scrolling text-area chat displays",
+    "Shared inter-process variables (<>G_Message, <>G_Flag) for message handoff",
+    "On Timer polling to refresh chat room participant lists",
+    "DELAY PROCESS busy-wait guard against concurrent message overwrite"
   ],
   "historical_commentary": {
-    "text": "This note describes classic-4D workarounds for limitations in how 4D objects and processes could communicate, including a multicasting-style broadcast technique, reflecting the pre-modern-language-feature era where developers often had to engineer clever tricks around gaps in 4D's built-in interprocess communication tools. The general need to broadcast state/events between processes is still a real requirement in 4D applications, but the specific era-bound trick described here has long since been superseded by more direct language features 4D added over the following decades (such as improved inter-process variables, worker processes, and messaging commands), so the concrete workaround is obsolete even though the underlying goal remains valid.",
-    "status": "obsolete",
+    "text": "This note builds a real-time, multi-user chat and internal-mail application ('4D Communicator') on 4D Server, using EXECUTE ON CLIENT to multicast messages to selected connected clients, On Timer polling to refresh chat room participant lists and mailbox flags, and manually-coded interface tricks (HIGHLIGHT TEXT plus POST KEY of Tab) to make a plain text variable scroll like a chat log. EXECUTE ON CLIENT remains a core 4D Server command and this is a legitimate historical example of client-to-client messaging in 4D, but the polling-based (On Timer) update model and manual busy-wait synchronization via a shared <>G_Flag variable are dated compared to newer 4D mechanisms; modern 4D applications needing this kind of push notification more commonly rely on the more robust CALL WORKER/worker-based inter-process communication introduced in later 4D versions.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D has since added more direct process-communication tools (inter-process/shared variables, CALL PROCESS/EXECUTE ON SERVER, worker processes, and later class-based session objects) that reduce the need for the workaround tricks this note describes",
-      "The general concept of broadcasting information to multiple processes remains relevant, now handled by newer, more robust language mechanisms"
+      "EXECUTE ON CLIENT remains part of the current 4D language for invoking a method on a specific connected client",
+      "4D's later CALL WORKER / worker process model provides a more robust, less ad hoc mechanism for inter-process and inter-client messaging than the shared-variable, DELAY PROCESS busy-wait pattern shown in this note",
+      "On Timer polling for UI refresh (e.g. chat participant lists) remains a workable but comparatively coarse technique next to modern event-driven update patterns"
     ]
   }
 }

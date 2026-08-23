@@ -1,31 +1,41 @@
-# Tech Note 01-10: The Blob Analyzer
+# Tech Note: The Blob Analyzer
 
-**Author:** Not specified in source document
-**Published:** February 28, 2001 | **Product/Version:** 4D v6.5 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=12151
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-10_The_Blob_Analyzer.exe
+- **Asset ID:** 12151
+- **Tech Note #:** 01-10
+- **Published:** February 28, 2001
+- **Product / Version:** 4D 6.5
+- **Platform:** Mac & Win
+- **Author:** Gilles Mellot
+- **Page URL:** https://kb.4d.com/assetid=12151
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_06-10_(FEB)/01-10_The_Blob_Analyzer.hqx
 
 ## Overview
-A utility database for displaying the contents of a BLOB field in both decimal and hexadecimal, addressing 4D's lack of native BLOB display on forms. This technical note tackles a practical pain point for developers making extensive use of BLOB fields to store data types that don't map cleanly onto 4D's native data types: 4D at the time offered no way to display the contents of a BLOB field directly on a form, making debugging and inspection during development considerably more difficult.
+
+Gilles Mellot of 4D S.A. provides a self-contained BLOB-inspection utility — a single Wood_Blob method plus form — that any 4D v6.5+ structure can drop in to view the contents of BLOB fields in hexadecimal, decimal, and binary, addressing 4D's lack of native BLOB display on forms.
 
 ## Key Points
-- The note's solution is a small utility database, the 'Blob Analyzer,' that lets developers view the contents of a BLOB field in both decimal and hexadecimal representations, giving them visibility into otherwise opaque binary data during development.
-- The featured technology is therefore a BLOB-inspection utility aimed squarely at improving developer productivity and debugging capability when BLOBs were being used as flexible, general-purpose storage for non-native data structures — a workaround for a genuine tooling gap of that 4D era.
+
+- At On Load, the form scans every table and field with Count tables/Count fields/Field/Type(...)=Is BLOB to dynamically build a hierarchical pop-up menu (Blob_Choice) listing only the BLOB fields present in the host structure.
+- The Ascii_txt/Hexa_txt display variables are populated via BLOB to text(Field(◊Table;◊field)->;Text without length;$offset;720), reading the BLOB in fixed 720-byte pages, with next/previous/first/last-segment buttons enabled or disabled based on position.
+- Custom F_Dec2Base/F_Base2Dec/F_Ascii2Hexa submethods (dispatched through the same Wood_Blob method via a Case of on $1) implement base conversion between decimal, hexadecimal, and other bases without relying on built-in commands.
+- An On Timer event continuously recomputes hex/decimal/binary values (vH/vD/vB) from the user's current highlighted selection in the hex text area via GET HIGHLIGHT, refreshing the display live as the selection changes.
+- A Find dialog (triggered via the On Outside Call form event and ◊message="Find") searches the hex or ASCII text for a user-supplied value and highlights it with HIGHLIGHT TEXT and Position.
+- A Goto dialog lets the user jump directly to a byte offset by computing the containing 720-byte page and highlighting the corresponding hex character range; a Print button uses OUTPUT FORM/PRINT RECORD to print the current view.
 
 ## Featured Technology
-- BLOB fields
-- Decimal/hexadecimal data inspection utility
-- Development-time debugging tool
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- BLOB fields and BLOB to text conversion
+- Development-time BLOB inspection utility (Wood_Blob)
+- Decimal/hexadecimal/binary base conversion
+- Hierarchical pop-up menu for field selection
+- On Timer form event for live hex/ASCII highlighting
 
 ## Historical Commentary
+
 **Status:** Superseded
 
-This note addresses a real development-time gap of the era: 4D could not natively display the contents of a BLOB field on a form, which was a problem for developers making extensive use of BLOBs to store non-4D data types. The specific gap it patches has since been closed by 4D's expanded native debugging and variable-inspection tooling, and much of the raw-BLOB-as-generic-storage pattern itself has been supplemented by native JSON/object/collection handling for structured data, making this utility superseded by both better built-in tooling and evolved data-modeling practices.
+Written by Gilles Mellot of 4D S.A., this note addresses a real development-time gap of the era: 4D could not natively display the contents of a BLOB field on a form, a problem for developers using BLOBs to store non-4D data types. The utility it provides — a single reusable Wood_Blob method and form that lets a developer page through a BLOB field's contents in hex/ASCII/binary, search for byte sequences, and convert between number bases — has been superseded by 4D's expanded native debugger and variable-inspection tooling, and much of the raw-BLOB-as-generic-storage pattern itself has been supplemented by native JSON/object/collection handling for structured data.
 
-**Related updates since:**
+**References to newer/updated information:**
 - 4D's debugger and variable-inspection tools have since gained the ability to inspect BLOB and other complex variable contents natively, closing the gap this utility addressed
 - Structured data that once had to be packed into BLOBs is now more commonly represented using native JSON, objects, and collections in current 4D versions
-

@@ -1,1 +1,1 @@
-Tech Note: The ButtonMaker Example Database (TN 01-47, 4D v6.7, October 2001) — a walkthrough of the ButtonMaker example database, which uses 4D and 4D Chart to generate custom HTML button graphics.
+Generating dynamic HTML button graphics with 4D Chart and SEND HTML BLOB

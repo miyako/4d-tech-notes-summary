@@ -1,1 +1,1 @@
-Tech Note: At the Core of the Data: The Address Table and Bit Table (TN 01-30, 4D v6.7, June 2001) — a deep-dive into 4D's internal Address Table and Bit Table data structures, continuing from TN 01-29.
+How 4D's classic engine locates records via Primary/Secondary Address Tables and tracks free blocks via a bit-table, including cross-platform byte swapping

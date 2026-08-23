@@ -1,1 +1,1 @@
-Tech Note: Preventing Web Users from Downloading Pictures (TN 01-40, 4D v6.7, August 2001) — a JavaScript/4D integration trick intended to discourage web users from downloading a displayed picture.
+Using JavaScript and time-windowed URLs to discourage web image downloading

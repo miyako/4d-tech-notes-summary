@@ -1,43 +1,43 @@
-# Tech Note 01-53: Exploring 4D Portal's Reminder Portlet
+# Tech Note: Exploring 4D Portal's Reminder Portlet
 
-**Author:** Not specified in source
-**Published:** November 30, 2001 | **Product/Version:** 4D Portal v6.7.1 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=19050
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_50-53_(NOV)/01-53_Reminder_Portlet.exe (dead link — see Historical Context)
+- **Asset ID:** 19050
+- **Tech Note #:** 01-53
+- **Published:** November 30, 2001
+- **Product / Version:** 4D 6.7.1
+- **Platform:** Mac & Win
+- **Author:** Cha Yang, 4D, Inc. Technical Support Engineer
+- **Page URL:** https://kb.4d.com/assetid=19050
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_51-56_(NOV)/01-53_4D_Portal_Reminder_Portlet.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> The Reminder Portlet offers four types of Reminders — monthly, weekly, daily and once. As the name implies, monthly reminders are sent monthly, weekly reminders are sent weekly, daily reminders are sent daily, and once reminders are sent once on the exact date and time. In addition to sending reminders at the exact time, reminders can also be set to send at ten or five minutes before a reminder is due. Setting a reminder to a ten minute reminder will send a reminder at ten minutes before a reminder is due, five minutes before a reminder is due and when the reminder is actually due. A five minute reminder sends a reminder at five minutes before a reminder is due, and when the reminder is actually due. A None reminder simply sends when the reminder is due.
+Cha Yang dissects the internals of 4D Portal's Reminder Portlet, which supports monthly, weekly, daily, and one-time reminders with optional ten- or five-minute advance warnings, explaining both how each reminder type's due date is calculated and how a background process periodically scans for and fires due reminders.
 
 ## Key Points
 
-Based on the available teaser text, this note is: a walkthrough of the scheduling logic behind 4D Portal's monthly/weekly/daily/once Reminder Portlet.
+- Monthly reminders compute their date by combining a stored day-of-month with the current month/year (`CGI4D_ReminderChangeMonthly`), rolling the date forward a month if the computed date/time has already passed relative to now.
+- Weekly reminders use `GEN4D_FindWeeklyDay`, a `Repeat` loop using `Add to date` and `Day number` to find the day-count gap between today and the next occurrence of a chosen weekday, then add that gap to the current date.
+- Daily reminders simply add 1 day if today's reminder time has already passed; "once" reminders take a user-specified month/day/year directly.
+- Firing logic centers on `$cgi4d_l_delay`, a Longint computed as `(([Reminder]Rem_Date-$CGI4D_CurrentDate)*?24:00:00?)+[Reminder]Rem_Time-$CGI4D_CurrentTime`, giving seconds remaining until due; this is compared against 600 (ten minutes), 300 (five minutes), or 0 to decide whether to send a Ten-minute, Five-minute, or None (exact-time) reminder.
+- A `Rem_Ten_Five` field tracks reminder tier state, stepping "Ten" -> "Five" -> "None" as each threshold is crossed and a reminder is sent via `GEN4D_SendReminder`.
+- After a "None" reminder fires, `GEN4D_ReassignDate` advances the reminder per its type: Daily +1 day, Weekly +7 days, Monthly +1 month, or marks a one-time reminder as Done.
+- The whole system runs via a background process, `Gen4D_UtilityProcess`, launched at startup through `Gen4D_Startup` -> `Shell_DoProcess`, looping with `DELAY PROCESS(<>CGI4D_l_utilityProcess;60*60*1)` (~1 minute) and calling `GEN4D_FindDue` on each wake-up to scan the Reminder table and dispatch due reminders.
 
 ## Featured Technology
 
-- 4D Portal
-- Reminder Portlet
-- Scheduled notification logic
+- 4D Portal Reminder Portlet
+- Background process with DELAY PROCESS polling loop
+- Monthly/Weekly/Daily/Once reminder date calculation
+- Longint delay-seconds formula for Ten/Five/None reminder tiers
+- New process / Shell_DoProcess process launching pattern
+- Interprocess variables for cross-process process ID tracking
 
-## Historical Context
+## Historical Commentary
 
-Published November 2001 for 4D Portal v6.7.1, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Obsolete
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+Cha Yang, a 4D, Inc. Technical Support Engineer, dissects the 4D Portal Reminder Portlet's internals: a background process that wakes every minute via a DELAY PROCESS loop to scan a Reminder table, computing due dates differently for Monthly/Weekly/Daily/Once reminder types and using a Longint seconds-until-due formula to decide whether to fire a Ten-minute, Five-minute, or exact-time reminder, then reassigning the next due date afterward. 4D Portal itself has long been discontinued as a product, making the specific portlet obsolete, but the general background-process pattern (New process plus a DELAY PROCESS polling loop to periodically scan a table for due items) remains a standard, still-valid 4D technique, and would today likely be built with 4D's more modern scheduling/timer capabilities rather than manually replicated from this specific example.
 
-**Status: Obsolete**
-
-This note details the scheduling logic behind 4D Portal's Reminder Portlet, covering monthly/weekly/daily/once reminder types and configurable lead-time alerts. Since 4D Portal itself was discontinued years ago, the specific portlet and its configuration options no longer exist in any supported 4D product, making this note of historical interest only, though the general reminder-scheduling logic pattern (recurring vs one-time triggers with lead-time offsets) remains a conceptually familiar problem in modern notification systems.
-
-**What has changed since:**
-
-- 4D Portal was discontinued as a product line
-- Modern reminder/notification systems in 4D applications are typically built with the classic language's date/time commands or external push-notification services rather than a bundled portal component
+References to newer/updated information:
+- 4D Portal (the product this portlet was built for) has been discontinued, making this specific reminder implementation historical rather than directly reusable
+- The general background-process-with-DELAY-PROCESS polling pattern shown here remains valid in 4D today, though modern applications may prefer more structured scheduling/timer mechanisms

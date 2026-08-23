@@ -1,31 +1,42 @@
-# Tech Note 01-01: Using 4D HTML Tags in Version 6.7
+# Tech Note: Using 4D HTML Tags in Version 6.7
 
-**Author:** Not specified in source document
-**Published:** January 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=12152
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-01_4D6.7_HTML_Tags.exe
+- **Asset ID:** 12152
+- **Tech Note #:** 01-01
+- **Published:** January 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Hugo Fournier
+- **Page URL:** https://kb.4d.com/assetid=12152
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_01-05_(JAN)/01-01_4D6.7_HTML_Tags.hqx
 
 ## Overview
-A comparison of v6.7's new web server features for implementing semi-dynamic pages against the older v6.5 technique described in TN 36-00. This technical note describes an approach to implementing semi-dynamic web pages that takes advantage of new web server features introduced in 4D v6.7.
+
+Hugo Fournier of 4D, Inc. Technical Support shows how 4D v6.7's new HTML tags — 4DLOOP/4DENDLOOP, 4DVAR/4DHTMLVAR, and 4DSCRIPT — let a data-driven web page be published by parsing a static HTML template stored on disk, replacing the far more elaborate manual string-substitution technique used in the earlier TN 00-36 for the identical published content.
 
 ## Key Points
-- To make the improvement concrete, it explicitly compares the v6.7 technique against the older approach used in v6.5, which had been described in an earlier Tech Note (36-00), highlighting the added convenience the new version's features bring to embedding dynamic content within otherwise static HTML pages.
-- The featured technology is 4D's classic HTML-tag-based web serving mechanism (predecessor to later 4DACTION/4DTAGS conventions), aimed at developers who wanted pages that were mostly static but needed a handful of dynamically generated values or sections without committing to a fully Contextual Mode session-driven page.
+
+- <!--4DLOOP [Chapters]-->...<!--4DENDLOOP--> repeats the enclosed HTML block once per record in the current selection of the named table, eliminating manual duplication of placeholder HTML.
+- <!--4DVAR [Chapters]Title--> and <!--4DVAR [Templates]IP_Address--> insert field values directly into the parsed HTML during the loop.
+- <!--4DSCRIPT/Set_Space--> executes a 4D method once per loop iteration; the Set_Space method replaces spaces in the chapter title with "%20" so it can be safely embedded in a URL, and the result is exposed via <!--4DHTMLVAR NoSpace-->.
+- A similar technique with a NO_CRs method converts a paragraph field's carriage returns into "</p><p>" tags, exposed via <!--4DHTMLVAR NoCRs-->, to preserve paragraph breaks in the rendered page.
+- The Welcome method manages selection state (ALL RECORDS/QUERY/ORDER BY/RELATE MANY) depending on whether a chapter parameter ($1) was passed from a clicked link, then calls SEND HTML FILE("static.shtml") to parse the on-disk template using the Web Folder as HTML root.
+- Positions the new tags as a direct, much simpler replacement for the fully-dynamic, string-replacement-heavy approach used in TN 00-36 (36-00), while producing identical published output.
 
 ## Featured Technology
-- 4D HTML tags (4DACTION/4DVAR-style)
-- 4D Web Server (semi-dynamic page generation)
-- Comparison with v6.5 technique (TN 36-00)
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- 4DLOOP / 4DENDLOOP HTML tags
+- 4DHTMLVAR / 4DVAR HTML tags
+- 4DSCRIPT HTML tag
+- SEND HTML FILE command
+- Semi-dynamic .shtm(l) page parsing
+- Web Folder as HTML root
 
 ## Historical Commentary
+
 **Status:** Obsolete
 
-This note describes implementing semi-dynamic web pages using 4D v6.7's then-new web server tag features, explicitly contrasting the improved v6.7 convenience against the older v6.5-era technique from TN 36-00. This entire generation of 4D-tag-based, HTML-embedded server-side page generation has been superseded by 4D's later shift to REST APIs built on ORDA, paired with modern client-side JavaScript frameworks or low-code tools like Qodly, making the specific mechanism in this note obsolete for current web development even though semi-dynamic page generation as a general goal remains common.
+Written by Hugo Fournier of 4D, Inc. Technical Support, this note contrasts 4D v6.5's fully-dynamic, string-replacement-heavy web publishing technique (from the earlier TN 36-00/00-36) with the new 4DLOOP/4DHTMLVAR/4DSCRIPT tags introduced in 4D v6.7, which let a static HTML template stored on disk be parsed and populated directly from table selections with far less manual string handling. This entire generation of 4D-tag-based, HTML-embedded server-side page generation has since been superseded by 4D's move to REST APIs built on ORDA paired with modern JavaScript front-ends (and more recently Qodly), making the specific tags shown here obsolete for current web development even though the general goal of semi-dynamic, data-driven page generation remains common.
 
-**Related updates since:**
-- 4D's web publishing strategy has moved decisively from embedded HTML tag/4DACTION-style page generation to REST APIs built on ORDA consumed by modern JavaScript front-ends
+**References to newer/updated information:**
+- 4D's web publishing strategy has moved from embedded HTML tags (4DLOOP/4DVAR/4DSCRIPT) to REST APIs built on ORDA consumed by modern JavaScript front-ends
 - 4D Qodly Studio now offers a low-code alternative for building dynamic web interfaces, further superseding hand-coded 4D HTML tag techniques
-

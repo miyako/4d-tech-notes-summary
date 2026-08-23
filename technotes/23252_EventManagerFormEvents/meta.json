@@ -7,19 +7,23 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Stephanie Robineau",
   "page_url": "https://kb.4d.com/assetid=23252",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_15-19_(APR)/02-15_Event_Manager.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_15-19_(APR)/02-15_Event_Manager.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D form events",
-    "Generic event dispatch method"
+    "4D form event tracing (generic event-logging method)",
+    "Add/Modify Records vs Dialog vs Print record test modes",
+    "Form event execution order",
+    "On Load form event",
+    "Trigger event trapping (same technique)"
   ],
   "historical_commentary": {
-    "text": "The core concept of centralizing and controlling form event dispatch order remains a relevant software architecture pattern, and 4D's event model fundamentals from this era are largely unchanged in current 4D forms, making this note's central idea still broadly applicable to modern 4D form development.",
-    "status": "still relevant",
+    "text": "This note demonstrates a diagnostic tool -- a generic event-trapping method installed on forms and objects that logs each form event as it fires to a floating palette, letting a developer observe the actual order in which 4D executes form events under different scenarios (data entry/modify, dialog, and print). This kind of empirical event-order investigation was valuable in the 4D v6.8 era when form event documentation was sparse and behavior could vary by mode; the underlying event set and firing order have evolved somewhat in later 4D versions (and modern object notation/forms), so the specific event list here is dated, but the general debugging technique of instrumenting event handlers to trace execution order remains a valid and still-used approach today.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's core form event model remains conceptually similar today, so the centralized Event Manager pattern described here is still broadly applicable"
+      "4D's form/object event model has evolved since v6.8 (e.g. additional events, changes with 4D's object notation and modern form editor), so the exact event list and behaviors demonstrated are dated",
+      "The general technique of tracing form events with a shared logging method remains valid and is comparable to using 4D's built-in debugger or trace/log statements today"
     ]
   }
 }

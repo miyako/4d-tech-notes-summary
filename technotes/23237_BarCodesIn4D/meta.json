@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Eric Juhel, 4D Developer",
   "page_url": "https://kb.4d.com/assetid=23237",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_20-24_(MAY)/02-20_Bar_Codes.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/MacOS/TN_2002_20-24_(MAY)/02-20_Bar_Codes.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Bar code generation/scanning",
-    "Automatic identification"
+    "Code 39 (EAN 39) bar code encoding",
+    "Code 128 (EAN 128) bar code encoding",
+    "UPC and EAN-13 bar code encoding",
+    "1x1 pixel picture library resizing technique",
+    "GET PICTURE FROM LIBRARY / LIST TO ARRAY choice-list lookups",
+    "Modulo checksum calculation for control characters"
   ],
   "historical_commentary": {
-    "text": "Bar codes remain in extremely widespread, still-relevant use today (alongside newer identifiers like QR codes and RFID), so the general topic remains directly applicable, though the specific 4D-side bar code generation/rendering techniques from 2002 have likely been superseded by more modern barcode libraries or fonts available for current 4D applications.",
-    "status": "still relevant",
+    "text": "Eric Juhel's note shows a clever, low-level technique for generating scannable bar codes purely from 4D's picture library and array/string manipulation: a single black and a single white 1x1 pixel picture are horizontally concatenated and vertically stretched to build Code 39, Code 128, UPC, and EAN-13 symbols entirely without a plug-in. Bar codes and this general automatic-identification use case remain extremely common today, so the topic itself is still directly relevant, but 4D has long since gained plug-ins, bar code fonts, and later native rendering/PDF capabilities that make this manual pixel-concatenation approach unnecessary; most modern 4D bar code needs are met with a bar code font or a dedicated component instead of hand-rolled picture math.",
+    "status": "superseded",
     "related_updates": [
-      "Bar codes remain in widespread use today alongside newer identifiers like QR codes and RFID; modern bar code generation in 4D would likely use more current libraries/fonts than were available in 2002"
+      "Modern 4D applications typically generate bar codes with dedicated bar code fonts or components rather than hand-building them pixel-by-pixel from the picture library as shown here",
+      "Bar codes remain in widespread real-world use (alongside QR codes and RFID), so the underlying need this note addresses is still relevant even though the implementation technique is dated"
     ]
   }
 }

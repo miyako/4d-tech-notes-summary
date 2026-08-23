@@ -1,1 +1,1 @@
-Tech Note: The Enterprise Data Module: The Videos2000 Example Database (TN 00-59, 4D v6.5, December 2000) — the seventh in a series on the Beta 1 version of the DataGrid application, this time focusing on Videos2000, a complete sample application built with the Enterprise Data Module.
+Tech Note: The Enterprise Data Module: The Videos2000 Example Database (TN 00-59, DataGrid Beta 1, December 2000) — querying and replicating data across 4D, Oracle, and ODBC sources with EDM's unified Model/Query API

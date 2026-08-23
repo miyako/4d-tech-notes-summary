@@ -1,31 +1,42 @@
-# Tech Note 01-18: Picture Storage
+# Tech Note: Picture Storage
 
-**Author:** Not specified in source document
-**Published:** April 30, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=13193
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_16-20_(APR)/01-18_Picture_Storage.exe
+- **Asset ID:** 13193
+- **Tech Note #:** 01-18
+- **Published:** April 30, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Jamras Komoncharoensiri
+- **Page URL:** https://kb.4d.com/assetid=13193
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_16-20_(APR)/01-18_Picture_Storage.hqx
 
 ## Overview
-A demonstration of how 4D v6.7's picture commands can be used to handle and manage pictures stored in a 4D database, plus important storage considerations. This Technical Note focuses on 4D v6.7's set of picture-handling commands, showing how they can be used to manage pictures stored directly within a 4D database.
+
+Jamras Komoncharoensiri (4D, Inc.) documents 4D v6.7's new and renamed picture-handling commands -- several promoted directly from the old v6.5 ACI Pack plug-in -- and demonstrates their use through the "Pics Storage" example database, which supports importing, thumbnailing, viewing, resizing, moving, and exporting pictures stored in a 4D database.
 
 ## Key Points
-- The bulk of the discussion centers on the features demonstrated in an accompanying example database, walking through practical picture-storage workflows, alongside a discussion of important considerations developers should keep in mind when working with picture data in 4D — presumably touching on storage size, format compatibility, and performance implications of the era.
-- Its featured technology is 4D's v6.7 picture command set and picture-field storage mechanism, aimed at developers who needed a practical, example-driven reference for incorporating image storage and display into their databases at a time when picture handling in 4D was considerably more limited than in later versions.
+
+- Several 4D v6.5/ACI Pack commands were renamed and folded into core 4D v6.7 (e.g., `PIC TO GIF` became `PICTURE TO GIF`), alongside new commands `PICTURE TO BLOB`, `BLOB TO PICTURE`, `WRITE PICTURE FILE`, `READ PICTURE FILE`, `PICTURE TYPE LIST`, and `CREATE THUMBNAIL`.
+- QuickTime 4 or later must be installed for conversion commands like `WRITE PICTURE FILE`/`READ PICTURE FILE` to handle formats beyond PICT and GIF; the note lists QuickTime's standard format codes (PICT, PICS, GIFf, PNGf, TIFF, 8BPS, SGI, BMPf, JPEG, PNTG).
+- The Pics Storage Thumbnail panel displays up to 21 pictures at a time with "Prev 21"/"Next 21" navigation, and double-clicking a thumbnail opens a full-size viewer window with zoom and directional-pan tools.
+- Moving a displayed picture uses 4D's picture arithmetic operators — `vPicFrame+50`/`vPicFrame-50` for horizontal moves and `vPicFrame/40`/`vPicFrame/(-40)` for vertical moves — and requires the picture variable's display format be set to "On Background".
+- Resizing uses the `*` operator with fixed ratios (e.g., `vPicFrame*(4/3)` to enlarge 33.33%, `vPicFrame*0.75` to reduce 25%) chosen so the picture can always be reverted to its original size.
+- Exporting supports PICT/JPEG/BMP/TIFF directly via `WRITE PICTURE FILE`, while GIF requires an extra step — converting with `PICTURE TO GIF` into a BLOB and writing it out with `BLOB TO DOCUMENT` — since GIF is limited to 256 colors and 4D optimizes the palette from the source picture; saving a picture at its exact on-screen size uses a clipboard round-trip (`SET PICTURE TO CLIPBOARD` / `GET PICTURE FROM CLIPBOARD`).
 
 ## Featured Technology
-- 4D v6.7 picture commands
-- Picture fields
-- Picture storage/management example database
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- PICTURE TO GIF / PICTURE TO BLOB / BLOB TO PICTURE
+- WRITE PICTURE FILE / READ PICTURE FILE (QuickTime-based conversion)
+- PICTURE TYPE LIST / CREATE THUMBNAIL
+- Picture arithmetic operators (+/-, /, *) for move and resize
+- SET PICTURE TO CLIPBOARD / GET PICTURE FROM CLIPBOARD
+- Pics Storage example database (import, thumbnail, export)
 
 ## Historical Commentary
+
 **Status:** Superseded
 
-This note demonstrates 4D v6.7's picture-handling commands for storing and managing images inside a 4D database, centered on an example database and a discussion of storage considerations relevant at the time. 4D's picture-handling APIs and storage model have changed substantially since v6.7 — including modern picture format support, list box picture columns, and improved picture-field storage/compression — making the specific v6.7-era commands and considerations in this note superseded, even though the general goal of storing and displaying images in a 4D database remains a common requirement today.
+Jamras Komoncharoensiri's note documents 4D v6.7's newly consolidated picture-handling commands (renamed and expanded from the old 6.5 ACI Pack, e.g. PIC TO GIF becoming PICTURE TO GIF), QuickTime's role in converting between formats like JPEG/PNG/BMP/TIFF, and the Pics Storage example database's import/thumbnail/export/resize/move features built on 4D's picture arithmetic operators. 4D's picture-handling APIs and storage engine have been substantially overhauled since v6.7 -- including broader native format support, list box picture columns, and no dependency on QuickTime -- making this note's specific v6.7-era commands and QuickTime-conversion caveats superseded, even though storing and displaying images in a 4D database remains a routine requirement today.
 
-**Related updates since:**
-- 4D's picture commands and picture field storage engine have been substantially updated since v6.7, with broader format support and different storage/compression behavior
-- List box picture columns and other modern form objects now offer more built-in ways to display and manage stored pictures than the v6.7-era techniques shown here
-
+**References to newer/updated information:**
+- 4D's picture commands and picture field storage have been substantially updated since v6.7, dropping the QuickTime dependency for format conversion and adding broader native format support
+- List box picture columns and other modern form objects now offer more built-in ways to display and manage stored pictures than the v6.7-era commands and manual clipboard tricks shown here

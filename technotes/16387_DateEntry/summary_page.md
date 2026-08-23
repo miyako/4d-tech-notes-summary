@@ -1,42 +1,43 @@
-# Tech Note 01-31: Date Entry
+# Tech Note: Date Entry
 
-**Author:** Not specified in source
-**Published:** July 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=16387
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-31_Date_Entry.exe (dead link — see Historical Context)
+- **Asset ID:** 16387
+- **Tech Note #:** 01-31
+- **Published:** July 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Elaine Smith
+- **Page URL:** https://kb.4d.com/assetid=16387
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_31-35_(JUL)/01-31_Date_Entry.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> The Date Entry example database demonstrates how, by using a set of routines, the Date entry field can be more flexible for the end user. By tabbing into a field, a User can set the date using the special function keys.
+Elaine Smith (Technical Support Engineer) presents the Date Entry example database, which uses a set of routines and special function keys to make date-field entry more flexible: by tabbing into a field, users can set the date using shortcuts instead of typing a full date string.
 
 ## Key Points
 
-Based on the available teaser text, this note is: a walkthrough of the Date Entry example database's function-key-driven flexible date input.
+- Reviews 4D's Form event inheritance rules: Form-method-oriented events (e.g., `On Load`) require the Form-level event checkbox to be enabled or no object receives them, while Object-method-oriented events (e.g., `On Clicked`) are independent — disabling an event at the Form level doesn't stop Object-level handlers, and vice versa.
+- `On Before Keystroke` fires before a typed character is applied to the field's display value; `On After Keystroke` fires after, letting code react to (or look ahead based on) what was typed.
+- `FILTER KEYSTROKE` (called during `On Before Keystroke`) replaces the entered character with the first character of a supplied string, or cancels the keystroke entirely if passed an empty string (`FILTER KEYSTROKE("")`); `Keystroke` returns the actual character typed.
+- Tom Dillon's (DataCraft) `HandleDate`/`StringToDate` example methods implement single-letter shortcuts: `T` (today), `M` (first of month), `H` (last of month), `Y` (first of year), `R` (last of year), `+`/`-` (add/subtract a day), triggered from a date field's `On Before Keystroke` event and finalized on `On Data Change`.
+- `StringToDate` also parses delimiter-free date strings (e.g., "070476" → 07/04/76, "07041976" → 07/04/1976, "0704" → 07/04 current year), with two-digit years resolved according to the `SET DEFAULT CENTURY` command, and supports both MM/DD/YY and DD/MM/YY formats.
+- Usage is simply calling `HandleDate(Self)` from a date field's object method, with the field's `On Before Keystroke` and `On Data Change` events enabled.
 
 ## Featured Technology
 
-- Custom date-entry form routines
-- Function-key input handling
+- On Before Keystroke / On After Keystroke form events
+- FILTER KEYSTROKE command
+- Keystroke command
+- HandleDate / StringToDate example methods (Tom Dillon, DataCraft)
+- SET DEFAULT CENTURY for two-digit year resolution
+- Form/Object event inheritance rules
 
-## Historical Context
+## Historical Commentary
 
-Published July 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Obsolete
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+The underlying commands (`On Before Keystroke`, `FILTER KEYSTROKE`, `Keystroke`) still work exactly as described in current 4D versions, and keystroke-trapping techniques remain valid for building custom data-entry behaviors. However, the specific UI pattern demonstrated — hidden, undocumented single-letter shortcuts for setting a date — reflects period UI conventions; modern 4D form design overwhelmingly favors discoverable calendar/date-picker widgets over memorized function keys, so the technique itself, while technically functional, is no longer a recommended approach.
 
-**Status: Obsolete**
-
-This note presents the Date Entry example database, which uses a set of custom routines and special function keys to make date-field entry more flexible for end users tabbing into a field. This specific function-key-driven UI trick reflects a 2001-era UI paradigm; modern 4D applications typically use built-in date pickers, calendar pop-ups, or List Box date columns for more discoverable and accessible date entry, making the exact technique shown here obsolete even though flexible date entry remains a valid usability goal.
-
-**What has changed since:**
-
+**References to newer/updated information:**
 - 4D form objects now commonly use built-in date/calendar picker controls rather than custom function-key-driven entry routines
+- The On Before Keystroke/On After Keystroke events and FILTER KEYSTROKE/Keystroke commands described remain part of the current 4D language, unchanged in behavior
 - Modern UI/UX conventions favor discoverable calendar widgets over hidden function-key shortcuts

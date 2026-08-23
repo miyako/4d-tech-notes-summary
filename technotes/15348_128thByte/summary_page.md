@@ -1,44 +1,43 @@
-# Tech Note 01-29: The 128th Byte
+# Tech Note: The 128th Byte
 
-**Author:** Not specified in source
-**Published:** June 30, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=15348
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-29_The_128th_Byte.exe (dead link — see Historical Context)
+- **Asset ID:** 15348
+- **Tech Note #:** 01-29
+- **Published:** June 30, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Olivier Deschanels
+- **Page URL:** https://kb.4d.com/assetid=15348
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_26-30_(JUN)/01-29_The_128th_Byte.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> This article describes the internal structure of 4D's records. With this knowledge, you will be able to optimize the access to your data and better understand 4D's inner workings.
-
-In order to store data, databases use specific files saved on a hard disk (or any other data storage device). Generally, database management systems use one file per table. In addition to that, they also need an additional file for each index (when developers have control over that parameter), or, in some cases, to describe a relation between two tables. This architecture's main advantage is to prevent you from mixing "apple and oranges" but it also quickly increases the number of disk files and it makes installations, updates, and backup increasingly difficult.
+Olivier Deschanels (4D, S.A.) opens a technical deep-dive series on 4D's internal data storage architecture, explaining the rationale for 4D's single-file design and the block-based structure of that data file, including how each record's header and "microstructure" enable lazy, low-cost structure and type changes.
 
 ## Key Points
 
-Based on the available teaser text, this note is: a description of the internal byte-level structure of 4D's records within its data files.
+- Contrasts 4D's single-file data storage (`.data` on Mac OS / `.4DD` on Windows, since Version 2 — Version 1 US used multiple files) against multi-file database architectures, citing simpler backup, avoidance of OS open-file limits, better data-integrity resilience against misplaced files, and engine-managed (not OS-level) fragmentation as advantages.
+- Notes the significant space waste of fixed-length-record architectures used by some competing systems (e.g., an 80-char alpha field at 20% average fill wastes ~6.1 MB across 100,000 records) versus 4D's variable-length field storage.
+- Explains the data file is divided into fixed 128-byte blocks; a record's on-disk size is always a multiple of 128 bytes, made up of a 22-byte header (marker, checksum, last-cache-save data, table/record number, sizes, indicators), a per-record "microstructure" (4 bytes per field: 1 byte type + 1 reserved + 2 bytes offset), and the actual field data with no inter-field separators or padding for unused alpha characters.
+- The microstructure functions as a snapshot of the table's structure as of the record's last save; on load, 4D compares the record's microstructure to the live table structure and only then applies pending field additions (default values) or type conversions (e.g., an Alpha-to-Real conversion equivalent to `Num`), so structure edits in Design mode cost nothing until existing records are actually touched.
+- Because of this microstructure mechanism, fields can never be deleted in 4D's classic engine (only their type changed) — deleting a field would leave the structure and stored microstructures permanently inconsistent, an unmanageable problem for deployed applications receiving incremental updates.
+- Demonstrates `APPLY TO SELECTION([MyTable];[MyTable]MyField:=[MyTable]MyField)` as a one-line way to force every record in a selection to be re-saved immediately, picking up a pending field/type change right away (e.g., before running a search that depends on the new type) instead of waiting for records to be touched individually.
 
 ## Featured Technology
 
-- 4D internal record structure
-- Database file architecture fundamentals
+- Single-file 4D data file architecture (.data / .4DD)
+- 128-byte block-based record storage
+- Record header, microstructure, and data layout
+- Automatic structure/microstructure comparison on record load
+- Automatic field-type conversion on load
+- APPLY TO SELECTION for forcing immediate record conversion
 
-## Historical Context
+## Historical Commentary
 
-Published June 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Obsolete
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+This note is a genuinely illuminating explanation of 4D's classic (pre-SQL-engine) record storage format — its 128-byte blocks, record headers, and per-record microstructure — that clarified real, practical consequences for developers (like why fields can't be deleted, and how to force pending structure changes to apply). That classic storage engine was superseded by 4D's SQL/CoreData-based engine (from 4D v11 SQL onward, 2007), which uses a different internal data organization, so the specific block/microstructure mechanics no longer describe how current 4D databases are stored on disk. The note is preserved value chiefly as a historical explanation of the classic engine's design philosophy and constraints.
 
-**Status: Obsolete**
-
-This note describes the internal byte-level structure of 4D's records within its data files, aimed at helping developers optimize data access and understand 4D's inner workings, including general database-architecture tradeoffs (one file per table plus per-index files versus a consolidated format). Because 4D's on-disk record and data-file format has been re-engineered multiple times in the decades since (v11 SQL engine, then the 64-bit engine), the specific byte-level structure detailed in this note no longer matches any current 4D file format, making it a historical snapshot of early 4D internals rather than a practical reference.
-
-**What has changed since:**
-
-- 4D's on-disk data/record format has been redesigned multiple times since 2001 (4D v11 SQL engine, later 64-bit engine)
-- Modern 4D data file internals bear little structural resemblance to the format described in this note
+**References to newer/updated information:**
+- 4D replaced its classic 128-byte-block data engine with the 4D SQL/CoreData storage engine starting around 4D v11 SQL (2007)
+- Field deletion restrictions and manual structure-conversion techniques described here (e.g., forcing conversion via APPLY TO SELECTION) reflect the classic engine and do not describe current 4D storage internals
+- The single-file .4DD/.data deployment/backup simplicity philosophy described has been preserved conceptually in later 4D storage engines

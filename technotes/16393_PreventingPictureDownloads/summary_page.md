@@ -1,43 +1,39 @@
-# Tech Note 01-40: Preventing Web Users from Downloading Pictures
+# Tech Note: Preventing Web Users from Downloading Pictures
 
-**Author:** Not specified in source
-**Published:** August 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=16393
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-40_Preventing_Picture_DL.exe (dead link — see Historical Context)
+- **Asset ID:** 16393
+- **Tech Note #:** 01-40
+- **Published:** August 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Chiheb Nasr, 4D S.A.
+- **Page URL:** https://kb.4d.com/assetid=16393
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_36-40_(AUG)/01-40_Preventing_Picture_Downloads.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> This Tech Note illustrates an interesting way of integrating 4D and JavaScript to prevent a user from downloading an image via the download command. However, other ways of saving pictures locally are available to the determined user.
+Chiheb Nasr (4D S.A.) demonstrates a two-layer, explicitly imperfect scheme for discouraging (not truly preventing) users from downloading web-published images: JavaScript right-click interception on the browser side, plus a time-windowed 4DACTION image URL on the 4D side that rejects delayed/replayed requests.
 
 ## Key Points
 
-Based on the available teaser text, this note is: a JavaScript/4D integration trick intended to discourage web users from downloading a displayed picture.
+- The note opens with an explicit disclaimer that no combination of these techniques can fully stop image copying -- drag-and-drop, browser cache inspection, and screenshots remain available to a determined user -- and points to digital watermarking as the only real way to protect and trace copyrighted images.
+- A JavaScript disableclick function is attached to every image's onmousedown handler (via a loop over document.images, or document.onmousedown for IE's document.all model) and shows an alert("This picture cannot be downloaded...") instead of allowing the browser's native right-click Save Image menu; Mac users are told the equivalent gesture is Control-click.
+- Images are served via a 4DACTION URL (e.g. /4daction/Web_Display/<timestamp>) embedded in the page's <img src="<!--4dvar Webphoto-->"> tag rather than as a static file reference, generated fresh with a Current time-based token each time On Web Connection serves demo.shtm.
+- The Web_Display method extracts the embedded timestamp from $1, compares it to the current time, and sends the real picture (converted with PICTURE TO GIF and streamed via SEND HTML BLOB) only if the gap is under roughly 1-2 seconds; otherwise it sends error.html instead, defeating attempts to reuse or replay a copied image URL after the fact.
+- This combination targets casual right-click saving and stale/replayed direct-URL access specifically, while acknowledging it does nothing against screenshotting or cache-based extraction of the still-displayed image.
 
 ## Featured Technology
 
-- 4D built-in Web Server
-- JavaScript/4D integration
-- Web area image protection
+- JavaScript onmousedown/right-click interception (disableclick handler)
+- 4DACTION-served image delivery (SEND HTML BLOB of PICTURE TO GIF)
+- Time-window URL replay protection (comparing Current time to an embedded timestamp)
+- 4dvar tag for embedding a dynamic image-fetch URL in an <img> tag
 
-## Historical Context
+## Historical Commentary
 
-Published August 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Obsolete
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+Chiheb Nasr (4D S.A.) shows a two-layer scheme to discourage casual downloading of images served by 4D's web server: a browser-side JavaScript handler that blocks right-click/context-menu access to <img> elements, and a server-side 4D check that compares the current time to a timestamp embedded in the 4DACTION image-fetch URL, rejecting requests made too long after the page was generated (to defeat users who copy the raw image URL from View Source). The note is explicit up front that none of this actually prevents image copying (screenshots, cache inspection, drag-and-drop all still work), and today both halves of the technique are essentially obsolete: browsers have moved away from relying on right-click-blocking JavaScript as any kind of protection, and real image protection now relies on watermarking, DRM, or simply accepting that browser-rendered images can always be captured.
 
-**Status: Obsolete**
-
-This note demonstrates a JavaScript trick combined with 4D's web server to make it harder for a casual user to download an image via the browser's built-in download command, while acknowledging determined users could still save it another way. Browser technology, image-protection expectations, and 4D's own web-serving mechanisms have all changed enormously since 2001, and the specific JavaScript-era anti-download tricks shown no longer meaningfully deter modern browsers, so this note is now of historical interest only regarding actual image protection.
-
-**What has changed since:**
-
-- Modern image protection (if attempted at all) relies on very different techniques (watermarking, CSS overlays, server-side access tokens) than 2001-era JavaScript tricks
-- Browsers have long since made client-side download-prevention tricks largely ineffective
+References to newer/updated information:
+- Right-click/context-menu-blocking JavaScript is now a well-known, easily bypassed anti-pattern rather than a real protection technique
+- Modern approaches to protecting web images rely on watermarking, licensing/DRM, or server-side access control rather than client-side click interception

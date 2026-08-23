@@ -1,1 +1,1 @@
-Tech Note: Creating a Generic Web Form Data Processing System (TN 01-36, 4D v6.7, August 2001) — part one of a two-database system for gathering web form data and emailing it to a second database for storage and analysis.
+A generic, field-agnostic web form intake system that e-mails tagged submissions

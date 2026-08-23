@@ -1,1 +1,1 @@
-Tech Note: Contact Manager II (TN 01-35, 4D v6.7, July 2001) — part two of a look at how the Contact Manager example database's calendar interface is managed.
+How the Contact Manager sample's calendar handles click selection, drag-and-drop event moving/duplicating, and the add/edit dialog, as a code walkthrough

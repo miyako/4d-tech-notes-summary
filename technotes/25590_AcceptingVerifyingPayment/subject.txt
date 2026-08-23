@@ -1,1 +1,1 @@
-Tech Note: Accepting / Verifying Payment Information (TN 02-49, 4D Business Kit v1.x, October 2002) — a discussion of accepting and verifying online payment information within a 4D Business Kit e-commerce storefront.
+Integrating VeriSign and Authorize.net payment gateways into a 4D Business Kit e-commerce store via direct-connect and link methods

@@ -1,1 +1,1 @@
-Tech Note: NT Localization (TN 01-34, 4D v6.7, July 2001) — an explanation of how 4D of that era handled foreign-language systems under Windows NT.
+How 4D's classic Script Manager, TRIC sorting resources, and MapC character tables handled foreign-language systems on Mac and Windows

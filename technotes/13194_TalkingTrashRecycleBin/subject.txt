@@ -1,1 +1,1 @@
-Tech Note: Talking 'Trash' – Understanding the Trash and the Recycle Bin (TN 01-19, 4D, April 2001) — a technique for locating the Trash (Mac OS) and Recycle Bin (Windows) folders and moving processed documents into them instead of permanently deleting them with DELETE DOCUMENT.
+Finding the Mac OS Trash and Windows Recycle Bin paths and using MOVE DOCUMENT instead of DELETE DOCUMENT

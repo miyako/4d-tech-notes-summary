@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Cha Yang, 4D, Inc. Technical Support Engineer",
   "page_url": "https://kb.4d.com/assetid=18207",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-44_Exploring_Auction_DB.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/macos/TN_2001_41-45_(SEP)/01-44_Exploring_Auction_DB.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Tags",
-    "Non-contextual web publishing",
-    "Browser cache-busting technique"
+    "4D HTML tags: <!--4DHTMLVAR-->, <!--4DVAR-->, <!--4DLOOP-->/<!--4DENDLOOP-->, <!--4DIF-->/<!--4DELSE-->/<!--4DENDIF-->",
+    "Non-contextual web mode with relative vs. absolute 4DACTION links",
+    "SET HTTP HEADER for Pragma/Cache-Control/Expires no-cache headers",
+    "Alternating row-color rendering via 4DIF on record parity",
+    "Real-time bid comparison and record update (QUERY/SAVE RECORD)"
   ],
   "historical_commentary": {
-    "text": "This note walks through the 4D Web Auction demo, illustrating 4D's tag-based parsing of HTML pages to dynamically inject live database data for a non-contextual (stateless) web interface, plus a trick to discourage browser page caching. Tag-based HTML parsing for dynamic pages is a legacy 4D web-publishing pattern that has been superseded by REST/ORDA APIs paired with modern JS front ends, and dot-com-era e-commerce/auction demos like this one are now purely of historical interest.",
+    "text": "This note walks through the 4D Web Auction demo (originally by Ruffin Scott, updated for 6.7 by Eric Saltzen), showing how 4D's tag-based HTML parsing (4DHTMLVAR, 4DVAR, 4DLOOP, 4DIF) drives a non-contextual bidding interface with real-time highest-bid comparisons, plus a SET HTTP HEADER-based trick to defeat browser/proxy caching of dynamic pages. Tag-based HTML parsing for dynamic pages is a legacy 4D web-publishing pattern that has been superseded by REST/ORDA APIs paired with modern JS front ends, so the specific approach here is now mainly of historical interest, though the underlying no-cache HTTP header technique is still valid and commonly needed today.",
     "status": "obsolete",
     "related_updates": [
-      "4D's web publishing model has moved from embedded-tag HTML parsing to REST/ORDA APIs consumed by JS front ends",
-      "Modern HTTP cache-control headers/techniques have superseded ad hoc 4D-side cache-busting tricks"
+      "4D's web publishing model has moved from embedded-tag (.shtm) HTML parsing to REST/ORDA APIs consumed by JS front ends",
+      "SET HTTP HEADER itself remains part of the current 4D language and no-cache headers are still set the same way for dynamic pages"
     ]
   }
 }

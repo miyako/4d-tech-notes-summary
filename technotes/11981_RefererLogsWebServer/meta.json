@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Eric Saltzen",
   "page_url": "https://kb.4d.com/assetid=11981",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-57_Creating_Referer_Logs.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_56-60_(DEC)/00-57_Referer_Logs.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Web Server",
-    "4DSCRIPT/RefererGrabber",
-    "Server-side includes (.shtml)"
+    "GET HTTP HEADER command (4D v6.7)",
+    "4DSCRIPT HTML tags for server-side page preprocessing",
+    ".shtml server-side-include pages",
+    "Find in array for parsing HTTP header name/value arrays",
+    "Append document / SEND PACKET for writing a standard web server log file",
+    "HTTP Referer header capture and analysis"
   ],
   "historical_commentary": {
-    "text": "This note shows how to capture HTTP Referer information using a 4DSCRIPT tag embedded in server-side-include-enabled .shtml pages served by 4D's built-in web server, a common web-analytics need in the dot-com-boom era before dedicated web analytics platforms were widespread. The general need to track referer/traffic-source data remains relevant today, but it is now almost universally handled by external analytics services (Google Analytics and similar) or by modern web server/application log analysis rather than a bespoke 4D server-side-include tag, making this specific mechanism superseded.",
-    "status": "superseded",
+    "text": "This note shows how to use 4D v6.7's new GET HTTP HEADER command inside a 4DSCRIPT-triggered project method to capture the HTTP Referer header from incoming requests, store it in a table, and optionally append it to a standard-format RefererLog file analyzable by tools like Analog. GET HTTP HEADER remains a valid, still-supported 4D web server command for low-level HTTP header inspection, so the core technique still works, but this kind of traffic-source analytics is now overwhelmingly handled by external, much more capable analytics platforms (server access logs, Google Analytics-style JS trackers, etc.) rather than hand-rolled in-database Referer logging, making the specific use case here a historical curiosity even though the underlying command is not obsolete.",
+    "status": "partially_superseded",
     "related_updates": [
-      "Referer/traffic-source tracking today is typically handled by external web analytics platforms rather than custom 4D server-side-include tags",
-      "4D's web server and server-side scripting model have evolved considerably since this v6.7-era .shtml/4DSCRIPT mechanism"
+      "GET HTTP HEADER remains part of the current 4D language for inspecting HTTP request headers from the 4D web server",
+      "Modern web traffic and referrer analysis is typically handled by dedicated web analytics tools rather than hand-built 4D log parsing as shown in this note"
     ]
   }
 }

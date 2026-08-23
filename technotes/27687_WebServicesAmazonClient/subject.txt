@@ -1,1 +1,1 @@
-Tech Note: Web Services and 4D Internet Commands, the Amazon.com client (TN 03-14, 4D v2003, March 2003) — a Web Services client example built with the aid of the Amazon.com software development kit, using 4D Internet Commands and SOAP.
+Amazon.com SOAP Web Services client in 4D 2003, combined with 4D Internet Commands for direct image downloads

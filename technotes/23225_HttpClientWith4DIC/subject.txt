@@ -1,1 +1,1 @@
-Tech Note: HTTP Client with 4D and 4D Internet Commands (TN 02-05, 4D v6.8, February 2002) — a guide to building an HTTP client from scratch in 4D using 4D Internet Commands, covering URL parsing, request/response handling, and Base64 basic authentication.
+Building a from-scratch HTTP client in 4D using the 4D Internet Commands plug-in

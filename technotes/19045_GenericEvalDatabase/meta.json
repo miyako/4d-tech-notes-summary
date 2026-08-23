@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Raymond Manley, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=19045",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_46-49_(OCT)/01-49_GenericEval_Database.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_46-49_(OCT)/01-49_GenericEval_Database.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Self-configuring database structure",
-    "Tagged data import",
-    "Dynamic field retyping"
+    "POP3_Login/POP3_GetMessage/POP3_Delete email retrieval",
+    "Generic Table2 of 100 text fields (Field1..Field100)",
+    "Machine-readable [***Tag***] parsing of email bodies",
+    "GET FIELD PROPERTIES for runtime type detection",
+    "SET TABLE TITLES / SET FIELD TITLES dynamic field/table aliasing",
+    "zStructure alias-mapping table"
   ],
   "historical_commentary": {
-    "text": "This note explains the GenericEval example database's approach to self-configuration: reading tagged input data, converting tags into field names, and retyping fields as needed at runtime. The general challenge of building flexible, generically-configurable data-handling methods is still a relevant design pattern in 4D today, though modern 4D applications would more likely represent such dynamic, tag-driven data using objects/collections and ORDA rather than manipulating classic-language field structures directly.",
+    "text": "This note is the second half of a two-part series (following TN 01-36's generic web form mailer by Kent Wilbur) and explains how the GenericEval database polls a POP3 mailbox, parses incoming [***Tag***]-delimited email bodies into a generic 100-field Table2, and uses a zStructure alias table plus SET TABLE TITLES/SET FIELD TITLES to relabel those generic fields with human-readable names and retype them as needed. The general problem -- building a flexible, self-configuring data store from tagged input without knowing the schema in advance -- is still a real design challenge today, but a modern 4D implementation would represent this dynamic data with objects/collections or ORDA dynamic attributes rather than pre-allocating 100 generic text fields and aliasing them after the fact.",
     "status": "still_relevant",
     "related_updates": [
-      "4D's object/collection data types (introduced circa 4D v14-16) now offer a more natural way to represent dynamically-tagged, schema-flexible data than classic field manipulation",
-      "ORDA's dynamic attributes provide an alternative to hand-built generic field-retyping logic"
+      "4D's object and collection data types (introduced circa 4D v14-16) offer a more natural way to store dynamically-tagged, schema-flexible data than a fixed pool of generically-named fields",
+      "ORDA's dynamic attributes give an alternative to hand-rolled field-aliasing logic like the zStructure table used here"
     ]
   }
 }

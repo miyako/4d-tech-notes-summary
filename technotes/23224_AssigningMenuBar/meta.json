@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri, 4D, Inc. Technical Support",
   "page_url": "https://kb.4d.com/assetid=23224",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_05-09_(FEB)/02-06_Menu_Example.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/MacOS/TN_2002_05-09_(FEB)/02-06_Menu_Example.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D menu bar assignment",
-    "Single-process menu management"
+    "Form Properties Associated Menu Bar setting",
+    "MENU BAR command",
+    "APPEND MENU ITEM / INSERT MENU ITEM / DELETE MENU ITEM",
+    "Get menu item / Count menus / Count menu items",
+    "On Menu Selected form event",
+    "New process for per-process menu bars"
   ],
   "historical_commentary": {
-    "text": "4D's native menu bar assignment commands remain part of current 4D, so this note's core guidance remains broadly applicable, though modern multi-process/multi-window 4D applications may need additional considerations beyond this note's single-process scope, and many modern UIs supplement native menus with web-based navigation.",
-    "status": "still relevant",
+    "text": "Jamras Komoncharoensiri's note explains how classic 4D single-process menu bars work: assigning an Associated Menu Bar to a form versus loading one procedurally into a process with MENU BAR, how 4D combines process and form-associated menu bars, and how to add, insert, and delete menu items programmatically with APPEND MENU ITEM/INSERT MENU ITEM/DELETE MENU ITEM. These native menu bar commands are still part of current 4D and the note's guidance on associated-versus-process menu bars remains broadly accurate, though its explicit single-process scope means it does not address today's more common multi-process/multi-window custom applications, and many modern 4D UIs supplement or replace native menu bars with web-based or ribbon-style navigation.",
+    "status": "still_relevant",
     "related_updates": [
-      "4D's native menu bar commands remain part of the current product, though many modern 4D applications supplement or replace native menus with web-based navigation UI"
+      "4D's native menu bar commands (MENU BAR, APPEND/INSERT/DELETE MENU ITEM) remain part of the current product largely unchanged from this description",
+      "Many modern 4D applications supplement or replace native OS menu bars with web-based or custom on-screen navigation, and this note does not address multi-process menu bar coordination"
     ]
   }
 }

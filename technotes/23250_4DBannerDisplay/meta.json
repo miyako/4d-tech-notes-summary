@@ -7,18 +7,26 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=23250",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_15-19_(APR)/02-17_Banner.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_15-19_(APR)/02-17_4D_Banner.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Custom client banner display"
+    "MOVE OBJECT (animating a floating text banner)",
+    "GET OBJECT RECT",
+    "EXECUTE ON CLIENT (broadcasting to 4D Client machines)",
+    "SET TIMER / On Timer form event",
+    "4D Chart offscreen area for text-width measurement (CT New offscreen area, CT Draw text, CT GET BOUNDARY)",
+    "New process / SET PROCESS VARIABLE for interprocess messaging",
+    "Open window (palette window) for a floating banner"
   ],
   "historical_commentary": {
-    "text": "Whatever specific custom-drawn banner technique this note demonstrated has likely been superseded by modern form objects, images, or web-based headers in current 4D applications, making it primarily of historical interest given the very limited detail available from the surviving teaser text.",
-    "status": "historical interest only",
+    "text": "This note builds a scrolling marquee-style announcement banner for 4D Client environments, using MOVE OBJECT in a timer loop to slide a text variable across a small palette window, and cleverly repurposes 4D Chart's offscreen-area text metrics (CT Draw text / CT GET BOUNDARY) purely to measure how wide a message needs to be rendered at a given font/size before resizing the on-screen text object to match. It broadcasts the banner to connected 4D Clients via EXECUTE ON CLIENT, a solid pattern for its era of internal company-wide announcements inside a 4D Client/Server deployment. The specific animated-marquee UI style is now dated (most modern apps use toast/snackbar notifications or in-app banners instead of scrolling marquee text), and using 4D Chart purely as a text-metrics engine is an unusual workaround; 4D's current text/object APIs and richer client notification mechanisms make this specific implementation largely obsolete, though EXECUTE ON CLIENT remains a valid 4D Client/Server broadcast mechanism.",
+    "status": "superseded",
     "related_updates": [
-      "Modern 4D form objects and web-based UI provide more flexible ways to build banner/header displays than the classic techniques of this era"
+      "The animated scrolling-marquee banner UI pattern has been largely superseded by modern toast/snackbar/in-app notification patterns",
+      "EXECUTE ON CLIENT remains a supported 4D command for broadcasting execution to connected 4D Clients in current 4D Client/Server versions",
+      "4D Chart, used here only as a workaround for measuring text pixel width, has been superseded by other charting/graphics features in current 4D; modern 4D offers more direct text-measurement approaches without needing an offscreen chart area"
     ]
   }
 }

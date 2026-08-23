@@ -7,19 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Simon J Wright",
   "page_url": "https://kb.4d.com/assetid=26848",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_06-10_(FEB)/03-07_Replicator_Library.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_06-10_(FEB)/03-07_Replicator_Library.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Replicator code library",
-    "Data replication"
+    "Trigger-based database event capture (new/changed/deleted records)",
+    "rpl_Queue and rpl_Configuration replication tables",
+    "4D Open for 4D and 4D Pack plug-in dependencies",
+    "TCP/IP-based server-to-server replication process",
+    "DateTime Stamp conflict resolution (Zulu/GMT time)",
+    "QUERY SELECTION BY FORMULA-based per-record replication rules",
+    "4D Insider component installation (Groups & Components)"
   ],
   "historical_commentary": {
-    "text": "The Replicator library described here is a bespoke, era-specific solution that has almost certainly been superseded by 4D's own later synchronization/replication features and ORDA-based remote datastore access, though the basic principles of data replication it introduces remain foundational and still applicable today.",
+    "text": "For 2003, Replicator packaged a surprisingly complete peer-to-peer replication system — trigger capture, queued delivery, timestamp-based conflict resolution, and a monitoring UI — built entirely from user-land 4D code plus the 4D Open for 4D and 4D Pack plug-ins. That third-party plug-in dependency chain (4D Open for 4D in particular) is long discontinued, making Replicator itself unusable as shipped on current 4D versions. The core replication concepts it teaches (trigger-based change capture, timestamped conflict resolution, per-target delivery queues) remain foundational to any replication design, but 4D has since built out its own remote access and synchronization capabilities (ORDA remote datastores, REST APIs, and 4D Sync/on-going data exchange tooling) that make a hand-rolled 2003-era replication library unnecessary for new projects.",
     "status": "superseded",
     "related_updates": [
-      "4D has since added more built-in synchronization/replication capabilities than existed via this third-party-style Replicator library in 2003"
+      "The 4D Open for 4D plug-in that Replicator depends on has long been discontinued, making this specific library non-functional on current 4D versions",
+      "4D has since introduced ORDA remote datastores and REST APIs, which provide built-in, higher-level alternatives to hand-rolled record replication between servers"
     ]
   }
 }

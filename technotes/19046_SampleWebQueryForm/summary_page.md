@@ -1,43 +1,42 @@
-# Tech Note 01-48: Sample Web Query Form
+# Tech Note: Sample Web Query Form
 
-**Author:** Not specified in source
-**Published:** October 30, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=19046
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_46-49_(OCT)/01-48_Web_Query_Form.exe (dead link — see Historical Context)
+- **Asset ID:** 19046
+- **Tech Note #:** 01-48
+- **Published:** October 30, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Eric Saltzen, 4D, Inc.
+- **Page URL:** https://kb.4d.com/assetid=19046
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_46-49_(OCT)/01-48_Web_Query_Form.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> This Tech Note examines a web-based query form for 4th Dimension 6.7 based on a stock symbol database. Two sample HTML forms are given, a simple one with a single text field and an advanced form that partially emulates 4D's built in Query editor. The techniques illustrated can be expanded upon and easily adapted for use in your own databases.
+Eric Saltzen (4D, Inc.) walks through building simple and advanced web-based search forms for a stock-symbol database using 4D 6.7's new semi-dynamic HTML tag set (4DSCRIPT, 4DLOOP, 4DVAR), including dynamically building and executing multi-criteria QUERY strings based on user-selected fields, comparators, and conjunctions.
 
 ## Key Points
 
-Based on the available teaser text, this note is: an example of building simple and advanced HTML web query forms against a 4D database.
+- Database Properties are set to Start without Context (non-contextual/semi-dynamic mode) with Use 4DVAR Comments instead of Brackets enabled, and pages use the .shtm extension so 4D parses them for embedded tags before serving.
+- findStockSymbol.shtm (simple form) and findStockGeneral.shtm (advanced form) are populated by a 4DSCRIPT call to WEB_QueryFormFill, which fills parallel aField/aValue arrays based on which form's name is passed as a parameter, then a 4DLOOP tag renders one HTML table row per array element.
+- The advanced form additionally offers per-row AND/OR/Except conjunction and Equal-to/Not-equal-to/Less-than/etc. comparator pop-ups (hidden on the first row via a 4DIF test), with option values set to 4D's internal comparator representations for direct reuse server-side.
+- On submit, WEB_QueryFormHandle calls the 6.7 command GET WEB FORM VARIABLES, builds a text array of QUERY(...) command strings conditioned on which fields were filled in (using a $includeConjunction flag and string multiplication to conditionally insert the "|" OR operator), and runs them with EXECUTE.
+- Zero-match and >1000-match result sets are caught and redisplay the form with an explanatory tErrorMessage; otherwise results.shtm renders the [Stock] selection, using a 4DSCRIPT call to WEB_GetLookupURL to substitute the ticker symbol into an exchange-specific external stock-quote URL.
+- WEB_FormVariable is a small convenience wrapper around Find in array(nameArray;...) that must be called only after GET WEB FORM VARIABLES has populated the name/value arrays in the same process.
 
 ## Featured Technology
 
-- 4D Tags
-- HTML web forms
-- 4D built-in Web Server query emulation
+- 4D 6.7 semi-dynamic (.shtm) HTML tags: 4DSCRIPT, 4DLOOP, 4DVAR, 4DIF
+- GET WEB FORM VARIABLES
+- EXECUTE for building/running dynamic QUERY strings
+- Non-contextual (Start without Context) web publishing mode
+- Dynamic query construction with AND/OR/Except conjunctions and comparator pop-ups
+- 4D array-driven HTML table generation
 
-## Historical Context
+## Historical Commentary
 
-Published October 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Partially Superseded
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+This note builds a stock-symbol search form against a 4D database using 4D 6.7's new semi-dynamic HTML tag set (4DSCRIPT, 4DLOOP, 4DVAR), offering both a single-field simple form and a multi-field advanced form that emulates 4D's built-in Query Editor by letting the user pick field, comparator, and conjunction per row, then dynamically builds and EXECUTEs a QUERY string. The core idea -- a web search form against 4D data with dynamically constructed queries -- remains a bread-and-butter task today, but the specific 4D-Tags/.shtm implementation shown has been superseded by REST/ORDA-based query APIs consumed by modern JavaScript front ends. The technique of building a query string and running it with EXECUTE is also now more commonly done with ORDA's dynamic query() method rather than string-built classic QUERY/EXECUTE.
 
-**Status: Partially superseded**
-
-This note builds a web-based search form against a stock-symbol database, offering both a simple single-field HTML form and a more advanced one that partially emulates 4D's native Query Editor, all served through 4D's tag-based web publishing. The underlying idea of a web search form against 4D data remains universally relevant, but the specific 4D Tags/HTML-embedded implementation shown is a legacy technique that has been superseded by REST/ORDA-backed APIs consumed by modern JavaScript search UIs.
-
-**What has changed since:**
-
-- REST/ORDA-based search and filtering APIs have replaced 4D-Tags-driven HTML query forms in modern 4D web development
-- 4D's own Query Editor concept lives on in the classic language, but web-facing search UIs are now typically client-side JS apps calling REST endpoints
+References to newer/updated information:
+- 4D Tags/HTML-embedded (.shtm) web publishing has been superseded by REST/ORDA APIs consumed by client-side JavaScript applications
+- ORDA's entity selection query() method now offers a safer, more structured way to build dynamic multi-criteria queries than concatenating QUERY command strings for EXECUTE

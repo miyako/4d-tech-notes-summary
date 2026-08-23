@@ -1,32 +1,41 @@
-# Tech Note 01-02: Manipulating Selections with Sets
+# Tech Note: Mainipulating Selections with Sets
 
-**Author:** Not specified in source document
-**Published:** January 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=12153
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-02_Manipulate_Using_Sets.exe
+- **Asset ID:** 12153
+- **Tech Note #:** 01-02
+- **Published:** January 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Jamras Komoncharoensiri
+- **Page URL:** https://kb.4d.com/assetid=12153
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_01-05_(JAN)/01-02_Manipulate_Using_Sets.hqx
 
 ## Overview
-A discussion of the performance advantages of Sets for storing, loading, relating, and clearing record selections instead of repeatedly re-querying. This Tech Note discusses querying — one of the most fundamental operations in any 4D database — and the reality that query execution time grows with the total number of records in a table, directly affecting how long end users have to wait for results.
+
+Jamras Komoncharoensiri of 4D, Inc. Technical Support explains the performance rationale for using 4D Sets to cache and instantly restore record selections instead of repeatedly querying, then demonstrates a specific technique for partitioning one selection into several non-overlapping sub-selections using REDUCE SELECTION and the DIFFERENCE set operation.
 
 ## Key Points
-- Since fast response times are a high priority for database users, the note highlights 4D's ability to create Sets, relate them to the current selection, and store, load, and clear them as needed, rather than re-running expensive queries whenever a previously computed selection needs to be reused.
-- It walks through the practical advantages of this approach and demonstrates concrete techniques for manipulating record selections via Sets.
-- The featured technology is therefore Sets as a performance optimization tool for selection management, aimed at developers looking to reduce redundant querying and improve responsiveness in data-heavy 4D applications.
+
+- Compares switching time between a non-set approach (S*T, always requerying) and a set approach (N*(T+F), querying once then instantly restoring via USE SET), showing sets win once switching happens more often than there are distinct selections.
+- CREATE SET([Table 1];$Setname) saves the current selection under a name; USE SET($SetName) instantly restores it as the current selection with no new query.
+- The Make_Initial_Set method builds progressively smaller sets (e.g., Set3, Set2, Set1) by repeatedly calling REDUCE SELECTION($pos) to shrink the current selection and CREATE SET at each step, working from the largest set to the smallest so no records are cut off.
+- The Start_Partitioning method computes true partitions by comparing consecutive sets with DIFFERENCE($SetName1;$SetName2;$SetDestination), excluding the smaller set's records from the larger one and storing the result in a destination set (e.g., dSet3, dSet2, dSet1), then CLEAR SET to free the intermediate sets.
+- Frames the partitioning technique as an alternative to running REDUCE SELECTION multiple times per query, explicitly for scenarios needing multiple independent sub-selections (e.g., top/middle/bottom 30 out of 90 records).
+- Cross-references related documents: Technical Note 97-37 'Sets in 4D V6', two Tech Tips on Union/Difference/Intersect with the Userset and correct Set usage, and 4D Language Reference 6.7 entries for Sets, UNION, INTERSECTION, DIFFERENCE, and REDUCE SELECTION.
 
 ## Featured Technology
-- Sets
-- Query performance optimization
-- Record selection management
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- Sets (CREATE SET / USE SET / CLEAR SET)
+- REDUCE SELECTION
+- DIFFERENCE (set operation)
+- Selection partitioning algorithm
+- Records in selection
 
 ## Historical Commentary
-**Status:** Partially_superseded
 
-This note explains how Sets let developers store, relate, load, and clear record selections without repeatedly paying the cost of a full table query, framed around the observation that query time scales with table size and that users expect fast results. Sets remain a core, unchanged part of 4D's classic language today and this performance rationale is still valid, though modern applications increasingly also have ORDA entity selections available as an alternative, object-oriented way to manage and persist selection state.
+**Status:** Partially Superseded
 
-**Related updates since:**
-- Sets remain fully supported in current 4D versions with the same core behavior described here
-- ORDA entity selections (2018+) offer an additional, more modern mechanism for managing and persisting record selections in newer 4D applications
+Written by Jamras Komoncharoensiri of 4D, Inc. Technical Support, this note formalizes the time-savings math behind using 4D Sets to cache and switch between record selections instead of re-querying, and then demonstrates a specific partitioning technique — using REDUCE SELECTION plus the DIFFERENCE set operation across successive iterations — to carve one selection into several equal-sized sub-selections (e.g., top/middle/bottom thirds) without repeated queries. Sets remain a core, unchanged part of 4D's classic language and this performance rationale is still valid today, though modern applications increasingly also have ORDA entity selections available as an alternative, object-oriented mechanism for persisting and manipulating selection state.
 
+**References to newer/updated information:**
+- CREATE SET, USE SET, CLEAR SET, and DIFFERENCE remain fully supported in current 4D versions with unchanged core behavior
+- ORDA entity selections (2018+) offer an additional, more modern, object-oriented way to manage and persist selection state alongside classic sets

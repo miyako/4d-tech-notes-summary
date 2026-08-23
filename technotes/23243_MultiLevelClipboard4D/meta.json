@@ -3,23 +3,29 @@
   "title": "Tech Note: Multi-level Clipboard in 4D",
   "technote_number": "02-26",
   "year": 2002,
-  "published_date": "June 14, 2002",
+  "published_date": "June 30, 2002",
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Cha Yang",
   "page_url": "https://kb.4d.com/assetid=23243",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_25-29_(JUN)/02-26_Multi-Level_Clipboard.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_25-27_(JUN)/02-26_Multi_level_Clipboard.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Custom multi-item clipboard",
-    "Interprocess communication"
+    "APPEND TO CLIPBOARD / GET CLIPBOARD (private data-type clipboard slots)",
+    "SET TEXT TO CLIPBOARD / Get text from clipboard",
+    "SET PICTURE TO CLIPBOARD / GET PICTURE FROM CLIPBOARD",
+    "Test clipboard",
+    "POST KEY (simulating Ctrl+C / Ctrl+V)",
+    "Interprocess BLOB variables as multi-slot clipboard storage",
+    "VARIABLE TO BLOB / BLOB TO VARIABLE / BLOB to text"
   ],
   "historical_commentary": {
-    "text": "Modern operating systems now commonly offer native multi-item clipboard history features (e.g., Windows Clipboard History, various macOS clipboard manager utilities), somewhat reducing the novelty of this technique, but the underlying pattern of building an application-specific multi-item data store using interprocess communication remains a useful, still-applicable software design approach.",
-    "status": "superseded",
+    "text": "This note builds a five-slot private clipboard palette (\"4D Clipboard\") on top of the OS desk scrap, using 4D's clipboard commands (APPEND TO CLIPBOARD, GET CLIPBOARD, Test clipboard, SET/GET PICTURE TO/FROM CLIPBOARD) plus a clever trick of posting a simulated Ctrl+C/Ctrl+V (via POST KEY) in a separate process to let 4D capture whatever object the user has selected without knowing its type in advance. This is a legitimate and still largely valid explanation of the classic Mac/Windows desk-scrap model and 4D's clipboard API, both of which are largely unchanged today; multi-slot clipboard managers are now a mainstream OS-level or utility-level feature (macOS/Windows clipboard history, various clipboard manager apps) rather than something applications typically build themselves, so the specific need for an in-app multi-level clipboard is now less common, though the underlying 4D commands demonstrated remain fully usable.",
+    "status": "still_relevant",
     "related_updates": [
-      "Modern operating systems (e.g., Windows Clipboard History) now natively offer multi-item clipboard functionality that reduces the need for this specific workaround"
+      "4D's clipboard commands (APPEND TO CLIPBOARD, GET CLIPBOARD, Test clipboard, SET/GET TEXT|PICTURE TO/FROM CLIPBOARD) remain part of the current 4D language largely unchanged",
+      "Modern operating systems (Windows 10+/macOS) now offer built-in or third-party multi-item clipboard history, reducing the need for applications to implement their own private multi-slot clipboard as this note does"
     ]
   }
 }

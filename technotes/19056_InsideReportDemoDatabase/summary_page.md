@@ -1,54 +1,43 @@
-# Tech Note 01-57: Inside the Report Demo Database
+# Tech Note: Inside the Report Demo Database
 
-**Author:** Not specified in source
-**Published:** December 30, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=19056
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_54-57_(DEC)/01-57_Report_Demo.exe (dead link — see Historical Context)
+- **Asset ID:** 19056
+- **Tech Note #:** 01-57
+- **Published:** December 30, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Jonathan Baltazar, Inside Sales Representative, 4D, Inc. (example database created by Tad Michael Wheeler, DataCraft)
+- **Page URL:** https://kb.4d.com/assetid=19056
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_57-61_(DEC)/01-57_Inside_the_Report_Demo.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> The Report Demo example database is an intermediate-level database, written by Tad Michael Wheeler, of DataCraft. This simple database contains a hierarchical data structure with 3 tables, a structure that is very common in database design. The Report Demo example database is a basic database that demonstrates the usage of common reporting functions. It demonstrates one approach to creating a report, which is generated from the Many table. It uses break levels and accumulation to aid the developer in seeing what actually occurs when this type of report is generated. You can print preview the report and see which code is running where.
-
-I will be discussing the following methods, and explaining how they are used in the Report Demo.
-
-On Startup
-
-ReportDemo_SpecialReport
-
-ReportDemo_FormatName
-
-Now that you have a brief idea of what the Report demo can do, and what I will be discussing in this tech note, lets start off by looking at the first method that is executed when launching the Report Demo database.
+Jonathan Baltazar tours the "Report Demo" sample database (originally created by Tad Michael Wheeler of DataCraft), a three-table hierarchical example built around Departments, Employees, and Donations, to explain how it demonstrates 4D's classic grouped/subtotaled reporting commands and a reusable name-formatting utility.
 
 ## Key Points
 
-Based on the available teaser text, this note is: a walkthrough of the classic Report Demo example database's break-level report generation methods.
+- The database uses `On Startup` -> `Shell_Startup` to bootstrap a shared "Simple Shell" UI framework common to many 4D example databases of the era.
+- The `ReportDemo_SpecialReport` project method sets `SET PRINT PREVIEW(True)`, selects `ALL RECORDS([DONATIONS])`, then applies a three-key `ORDER BY` (Department Name, Quarter of Date, Donation Date) to sort the report data.
+- `BREAK LEVEL(2;1)` inserts a break after the second sort key (Quarter of Date), and `ACCUMULATE([DONATIONS]Donation Amount)` computes a running subtotal for each quarter within a department.
+- The report is rendered by switching `OUTPUT FORM` to `"R.Quarter"`, calling `PRINT SELECTION([DONATIONS])`, then switching back to the `"Output"` form, with `SET PRINT PREVIEW(False)` closing the preview session.
+- On the Employee input form, the `pSal` (salutation), First Name, Middle Initial, and Last Name object methods all call a shared `ReportDemo_FormatName` project method to keep `[EMPLOYEES]Emp Formal Name` in sync as fields are entered.
+- `ReportDemo_FormatName` uses a `Case of` block to abbreviate the middle initial (blank if empty or ".", otherwise `Substring` to the first character plus "."), then nested `If`/`Case of` logic to assemble Salutation + First + Middle + Last, First + Last, or just Last depending on which fields are populated.
+- The example illustrates practical, still-valid patterns for grouped reports (department -> quarter subtotal) and for keeping a derived display field synchronized across several form-level object methods.
 
 ## Featured Technology
 
-- Break-level report processing
-- PRINT FORM
-- Example database (Report Demo by Tad Michael Wheeler)
-- Report accumulation techniques
+- ORDER BY multi-field sorting
+- BREAK LEVEL
+- ACCUMULATE
+- SET PRINT PREVIEW
+- PRINT SELECTION / OUTPUT FORM
+- Substring-based name formatting
 
-## Historical Context
+## Historical Commentary
 
-Published December 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Still relevant
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+Jonathan Baltazar walks through the 'Report Demo' sample database (created by Tad Michael Wheeler of DataCraft) to teach 4D's classic reporting building blocks -- ORDER BY, BREAK LEVEL, and ACCUMULATE -- for producing a subtotaled donations report grouped by department and quarter, plus a small name-formatting utility method. These reporting commands are still part of current 4D and the break-level/accumulate pattern remains a valid, still-used technique for simple grouped reports, though modern 4D applications more often use the more flexible List Form / collection-and-ORDA-based reporting or dedicated reporting tools for anything beyond a basic printed report.
 
-**Status: Still relevant**
-
-This note walks through a classic break-level reporting technique (accumulation across a hierarchical 3-table structure) built in 4D's binary Design Mode. The fundamental break-level/PRINT FORM approach to generating reports from a sorted selection is still part of 4D's classic language and remains conceptually valid today, though most modern report UIs would instead lean on List Box-based reporting or 4D Write Pro document generation rather than hand-built break-level methods.
-
-**What has changed since:**
-
-- List Box and 4D Write Pro reporting have become the more common modern approach to formatted reports
-- Project Mode text-based structures replaced binary .4DB/.4DC Design Mode files for new development
+References to newer/updated information:
+- ORDER BY, BREAK LEVEL, ACCUMULATE, SET PRINT PREVIEW, and PRINT SELECTION remain valid, supported 4D commands for this exact type of grouped report
+- Modern 4D reporting for richer or web-facing needs increasingly uses collection/ORDA-based approaches or dedicated reporting components rather than classic break-level printed reports

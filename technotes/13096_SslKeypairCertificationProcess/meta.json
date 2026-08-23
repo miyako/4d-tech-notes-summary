@@ -7,23 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hartman and Elaine Smith",
   "page_url": "https://kb.4d.com/assetid=13096",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-14_SSL_Keypair_Cert_Proc.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_11-15_(MAR)/01-14_SSL_Keypair_Cert_Proc.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SSL / RSA encryption",
-    "4D Web Server SSL support",
-    "WebSTAR SSL integration",
-    "Key pair generation & certification"
+    "GENERATE ENCRYPTION KEYPAIR command (RSA key generation)",
+    "GENERATE CERTIFICATE REQUEST command",
+    "ENCRYPT BLOB / DECRYPT BLOB",
+    "SSL/TLS public-key cryptography and digital signatures",
+    "4D Web Server secured (HTTPS) mode",
+    "WebSTAR Server Suite SSL certificate installation"
   ],
   "historical_commentary": {
-    "text": "This note explains SSL fundamentals and walks through generating and certifying RSA key pairs for securing a 4D web site, in an era when 4D's web server was closely paired with WebSTAR for production HTTPS deployments. The specific WebSTAR-based SSL setup, key-pair generation workflow, and RSA-centric framing described are entirely obsolete: modern TLS certificate issuance (e.g., via standard Certificate Authorities or automated services like Let's Encrypt) and 4D's own built-in SSL/TLS configuration have completely replaced this workflow, though the underlying concept \u2014 securing a web server with a certificate to protect sensitive data in transit \u2014 remains as important as ever.",
-    "status": "obsolete",
+    "text": "Steve Hartman and Elaine Smith's note is a two-part explainer: a from-first-principles introduction to public-key cryptography, digital signatures, and certificate authorities (illustrated with the classic Alice/Bob/Ted/Carol trust scenario), followed by concrete steps for generating an RSA keypair and certificate request with 4D's GENERATE ENCRYPTION KEYPAIR and GENERATE CERTIFICATE REQUEST commands and installing the resulting certificate into WebSTAR Server Suite for SSL-secured web serving. The cryptography theory remains entirely valid and still a good primer, but the specific mechanics -- 512-bit default key sizes (now considered far too weak), 4D's tight pairing with WebSTAR as the web server, and the RSA-only keypair commands -- are dated; modern 4D web serving uses far larger key sizes, integrates with standard TLS/certificate tooling, and no longer depends on WebSTAR.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's web server now has its own built-in SSL/TLS certificate configuration, removing the need for a separate WebSTAR pairing to serve HTTPS",
-      "Modern certificate issuance/renewal (Let's Encrypt, standard CAs, ACME automation) has fully replaced the manual RSA key-pair certification process described in this note",
-      "TLS has superseded SSL industry-wide as the standard secure transport protocol"
+      "4D's default and minimum recommended RSA key sizes have grown well beyond the 512/1024-bit options presented here, in line with modern TLS security requirements",
+      "4D's built-in web server no longer depends on WebSTAR Server Suite for SSL; modern 4D versions manage HTTPS certificates directly, typically via standard PEM certificate/key files rather than the manual GENERATE CERTIFICATE REQUEST workflow shown here"
     ]
   }
 }

@@ -1,27 +1,29 @@
 {
   "asset_id": 12153,
-  "title": "Tech Note: Manipulating Selections with Sets",
+  "title": "Tech Note: Mainipulating Selections with Sets",
   "technote_number": "01-02",
   "year": 2001,
   "published_date": "January 31, 2001",
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=12153",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-02_Manipulate_Using_Sets.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_01-05_(JAN)/01-02_Manipulate_Using_Sets.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Sets",
-    "Query performance optimization",
-    "Record selection management"
+    "Sets (CREATE SET / USE SET / CLEAR SET)",
+    "REDUCE SELECTION",
+    "DIFFERENCE (set operation)",
+    "Selection partitioning algorithm",
+    "Records in selection"
   ],
   "historical_commentary": {
-    "text": "This note explains how Sets let developers store, relate, load, and clear record selections without repeatedly paying the cost of a full table query, framed around the observation that query time scales with table size and that users expect fast results. Sets remain a core, unchanged part of 4D's classic language today and this performance rationale is still valid, though modern applications increasingly also have ORDA entity selections available as an alternative, object-oriented way to manage and persist selection state.",
+    "text": "Written by Jamras Komoncharoensiri of 4D, Inc. Technical Support, this note formalizes the time-savings math behind using 4D Sets to cache and switch between record selections instead of re-querying, and then demonstrates a specific partitioning technique — using REDUCE SELECTION plus the DIFFERENCE set operation across successive iterations — to carve one selection into several equal-sized sub-selections (e.g., top/middle/bottom thirds) without repeated queries. Sets remain a core, unchanged part of 4D's classic language and this performance rationale is still valid today, though modern applications increasingly also have ORDA entity selections available as an alternative, object-oriented mechanism for persisting and manipulating selection state.",
     "status": "partially_superseded",
     "related_updates": [
-      "Sets remain fully supported in current 4D versions with the same core behavior described here",
-      "ORDA entity selections (2018+) offer an additional, more modern mechanism for managing and persisting record selections in newer 4D applications"
+      "CREATE SET, USE SET, CLEAR SET, and DIFFERENCE remain fully supported in current 4D versions with unchanged core behavior",
+      "ORDA entity selections (2018+) offer an additional, more modern, object-oriented way to manage and persist selection state alongside classic sets"
     ]
   }
 }

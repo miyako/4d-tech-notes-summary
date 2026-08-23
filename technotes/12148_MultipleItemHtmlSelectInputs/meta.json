@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "6.5",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Eric Saltzen",
   "page_url": "https://kb.4d.com/assetid=12148",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-08_HTML_Select_Inputs.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_06-10_(FEB)/01-08_MultipleItem_Select.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "HTML SELECT MULTIPLE form input",
-    "4D Web Server (form field decoding)",
-    "Repeated-name parameter parsing"
+    "On Web Connection / 4DCGI (POST) form handling",
+    "4DACTION (GET) form handling",
+    "Custom ProcessMultipleItemSelect parsing method",
+    "Custom DecodeURLText / HexToDec URL-decoding methods",
+    "HTML MULTIPLE SELECT form inputs"
   ],
   "historical_commentary": {
-    "text": "This note solves a specific HTML-forms decoding problem: an HTML SELECT input with the MULTIPLE keyword submits several selected values under the same field name, so a 4D web-serving method needs to be written smart enough to recognize and collect all of them rather than just the first. This entire class of manual HTML form-field parsing on 4D's classic web server has since been superseded by REST/ORDA-based web services, where structured JSON payloads (which natively support arrays of values) eliminate the need to manually decode repeated-name form fields.",
-    "status": "superseded",
+    "text": "Written by Eric Saltzen of 4D, Inc. Technical Support, this note supplies hand-written 4D methods (ProcessMultipleItemSelect, DecodeURLText, HexToDec) to parse HTML forms containing a MULTIPLE SELECT input, since 4D v6.5's built-in web form processing did not natively handle multiple values submitted under the same field name for either GET (4DACTION) or POST (4DCGI/On Web Connection) submissions. The note explicitly flags its own obsolescence in a closing note: 4D v6.7's new GET WEB FORM VARIABLES command made this hand-rolled parsing 'trivial,' and 4D's web stack has since moved even further, through GET WEB FORM VARIABLES-based processing to today's WEB SEND FILE/httpRequest and ORDA/REST-based web development, making this manual URL-decoding and multi-value parsing technique obsolete for current 4D web applications.",
+    "status": "obsolete",
     "related_updates": [
-      "4D's web architecture has moved from raw HTML form field decoding on the built-in web server to REST APIs (built on ORDA) that exchange structured JSON, which natively represents multi-value fields as arrays",
-      "Modern front-end frameworks handling multi-select inputs typically serialize the selection as a JSON array sent to a REST endpoint rather than relying on repeated same-named form fields parsed server-side"
+      "4D v6.7 introduced GET WEB FORM VARIABLES, which the author himself flagged as making this hand-rolled multiple-select parsing technique trivial by comparison",
+      "Modern 4D web development has moved to WEB SEND FILE/httpRequest, REST APIs on ORDA, and browser-side JavaScript, superseding raw form-string parsing entirely"
     ]
   }
 }

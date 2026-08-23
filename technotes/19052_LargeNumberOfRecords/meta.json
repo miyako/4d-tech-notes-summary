@@ -7,22 +7,25 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thomas Maul, 4D Germany",
   "page_url": "https://kb.4d.com/assetid=19052",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_50-53_(NOV)/01-51_Large_Num_of_Records.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_51-56_(NOV)/01-51_Large_Number_of_Records.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D data file architecture",
-    "Record count limits",
-    "Performance optimization",
-    "Indexing"
+    "Combined/composite index key technique",
+    "Triggers (On Saving New/Existing Record Event)",
+    "Timestamp-as-Longint calculation for date/time range queries",
+    "Blob/array-based data compression and archiving",
+    "Clustered index via Boolean sets (BOOLEAN ARRAY FROM SET / CREATE SET FROM ARRAY)",
+    "COMPRESS BLOB / EXPAND BLOB for set and data storage"
   ],
   "historical_commentary": {
-    "text": "This note discusses the then-current 16-million-record-per-table ceiling in 4D and techniques for improving performance and working around the limit. 4D's data engine has been substantially rearchitected since 2001 (including the move to a 64-bit engine around 4D v13), which raised or removed many of these classic record-count and file-size ceilings, so the specific limit cited is outdated even though the general performance techniques (proper indexing, selection management) remain conceptually useful.",
+    "text": "Thomas Maul, writing from 4D Germany, tackles a real scaling problem in classic 4D: multi-field queries against tables approaching the 16-million-record limit become slow because each additional QUERY performs its own indexed search and set intersection. His solution -- combining multiple fields into a single computed 'combined key' field maintained by a trigger, plus a timestamp-as-Longint technique for efficient date/time range queries, and a Boolean-set-based 'clustered index'/query cache for full-text-style search -- are clever manual workarounds for limitations that were inherent to 4D's classic single-field-index query engine of that era. Modern 4D includes vastly larger capacity (64-bit record limits far beyond 16 million), a more capable query optimizer, and native full-text/keyword search options, so most of these specific manual workarounds are no longer necessary for typical applications, though the combined-key and denormalization principles remain conceptually useful patterns for extreme-scale scenarios.",
     "status": "partially_superseded",
     "related_updates": [
-      "4D's 64-bit data engine (introduced circa 4D v13) substantially raised classic record/file-size limits",
-      "General 4D indexing and selection-performance best practices from this era still apply conceptually"
+      "4D's per-table record limit has been raised far beyond the 16-million-record ceiling described in this note, reducing the urgency of the 'reducing records' techniques shown",
+      "4D's query optimizer and indexing engine have improved substantially since 2001, reducing (though not eliminating) the need for hand-built combined-key fields for multi-criteria queries",
+      "4D now offers native full-text search-style capabilities that reduce the need for the hand-rolled Boolean-set 'clustered index' query-cache technique shown for word-based searching"
     ]
   }
 }

@@ -7,19 +7,22 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Cha Yang",
   "page_url": "https://kb.4d.com/assetid=16389",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-33_Recursion_by_Example.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_31-35_(JUL)/01-33_Recursion_by_Example.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Recursive method calls",
-    "Classic language control flow"
+    "Recursive project methods",
+    "Method call stack behavior in 4D",
+    "RecursiveFactorial example method",
+    "NumToText digit-to-words conversion (Dave Batton, DataCraft)",
+    "Object method On Data Change event"
   ],
   "historical_commentary": {
-    "text": "This note provides a general overview of recursion in 4D's classic language, with examples and guidance on when recursion is (and isn't) an appropriate technique. Recursion is a fundamental, language-agnostic programming concept, and 4D's support for recursive method calls is unchanged since this note was written, so its explanations and guidance remain fully applicable to 4D developers today, whether working in classic Design Mode or modern Project Mode.",
+    "text": "Cha Yang (4D, Inc. Technical Engineer) gives a general-purpose introduction to recursion in 4D's classic language, first with a simple `RecursiveFactorial` method, then with a real-world `NumToText` method (originally by Dave Batton of DataCraft, from the 4D NUG) that converts a dollar amount into words for check-printing, and closes with guidance on when recursion helps versus when an iterative loop is preferable due to stack overhead. Recursion is a fundamental, language-agnostic technique and 4D's support for recursive method calls is essentially unchanged since 2001, so the explanations, the stack-overhead caveats, and even the NumToText example remain directly applicable to 4D developers today, in both classic Design Mode and modern Project Mode / class-based code.",
     "status": "still_relevant",
     "related_updates": [
-      "Recursive method calls remain fully supported and unchanged in current 4D versions",
+      "Recursive method/function calls remain fully supported and largely unchanged in current 4D versions, including in 4D's class-based (ORDA/Project Mode) methods",
       "No newer 4D-specific construct has replaced recursion as a general control-flow technique"
     ]
   }

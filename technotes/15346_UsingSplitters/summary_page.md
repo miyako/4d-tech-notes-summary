@@ -1,31 +1,43 @@
-# Tech Note 01-27: Using Splitters
+# Tech Note: Using Splitters
 
-**Author:** Not specified in source document
-**Published:** June 30, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=15346
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-27_Using_Splitters.exe
+- **Asset ID:** 15346
+- **Tech Note #:** 01-27
+- **Published:** June 30, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Gilles Mellot
+- **Page URL:** https://kb.4d.com/assetid=15346
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_26-30_(JUN)/01-27_Using_Splitters.hqx
 
 ## Overview
-A tour of the many uses of the Splitter form object, introduced in 4D v6.5, for building resizable interface regions. This Tech Note is a short guide to the Splitter object, a form control added in 4D v6.5 that lets end users interactively resize adjoining areas of a form by dragging a divider.
+
+Gilles Mellot (4D S.A.) sets out to popularize the Splitter object (introduced in 4D v6.5), which he notes remains underused because developers aren't aware of its full range of capabilities, covering everything from basic resize/move interactions with neighboring form objects to advanced programmatic animation and a drag-out-to-floating-palette technique.
 
 ## Key Points
-- The author observes that, despite being available for some time, splitters had not yet gained wide adoption among 4D developers, likely because many were unaware of the full range of interface layouts they enable — from resizable list panes to adjustable form sections.
-- The note works through these various uses so that developers can incorporate splitters into their own interfaces.
-- As a small, focused UI Tech Note, its featured technology is limited to the Splitter form object itself and general binary Design Mode form-layout technique, packaged with a cross-platform (Mac/Windows) example database that demonstrates the different configurations discussed.
+
+- A splitter divides a form area into regions (area 1/area 2 for a single splitter); dragging it affects only the neighboring objects, based on each object's individual "Move horizontally/vertically" and "Grow horizontally/vertically" resize properties — walked through via a progression of examples, Test_1 through Test_8, covering fixed, growing, and moving object combinations on each side, including cases needing a second splitter.
+- A splitter's position is bound to a longint variable that updates live as the user drags it, and — conversely — can be set programmatically to move the splitter under code control.
+- Demonstrates an `On Timer`-driven "animation" (`SET TIMER` in `On Load`, splitter position updated each `On Timer` tick: `Splitter_V:=Splitter_V-4`, `Splitter_H:=Splitter_H+1`) that shrinks and slides pictures, interruptible by holding the Shift key.
+- A more advanced example lets users drag an "Anchor" handle for a group of splitter-managed array columns outside the window to spawn a separate floating "Palette" process, created via `New process`, that mirrors and continues to independently control the same column widths.
+- Cross-process synchronization between the main window and the detached palette uses `CALL PROCESS` combined with the `On Outside Call` form event, reading interprocess variables (`◊Message`, `◊Pos_1`, `◊Pos_2`) to relay splitter position changes.
+- Notes that invisible objects are not moved or resized by a splitter's action; they must be explicitly repositioned with `MOVE OBJECT` once made visible again to match the splitter's current position.
 
 ## Featured Technology
-- Splitters (form objects)
-- Form design / resizable interface regions
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- Splitter form objects (introduced in 4D v6.5)
+- Move horizontally / grow horizontally object resize properties
+- SET TIMER / On Timer event for programmatic splitter animation
+- GET OBJECT RECT / MOVE OBJECT for reading and setting splitter position
+- CALL PROCESS / On Outside Call for cross-process splitter synchronization (drag-to-palette)
+- Longint variable binding to splitter position
 
 ## Historical Commentary
+
 **Status:** Still relevant
 
-Splitters — form objects that let end users drag to resize adjoining areas of a form — were new in 4D v6.5 and, per this note, still under-used by developers at the time. The concept and the Splitter object type itself have persisted essentially unchanged through 4D's evolution, including into Project Mode and current list-box-heavy interfaces, making the note's core guidance still conceptually applicable today, even though the binary Design Mode form editor shown has since been replaced.
+Splitters remain a supported 4D form object today, and the fundamentals covered here — variable-bound splitter position, interaction with neighboring objects' move/grow properties, and reading/setting that position programmatically — are unchanged and still directly useful for building resizable classic-language forms. The more elaborate On Timer animation and cross-process drag-to-palette techniques are less commonly needed now that list boxes, group objects, and richer form APIs handle much of this territory, but nothing about splitters themselves has been deprecated.
 
-**Related updates since:**
-- The Splitter object type remains part of 4D's current form object palette, usable in Project Mode forms
-- Modern 4D UI design leans more heavily on resizable list boxes, dockable panels, and (for web/mobile) HTML/CSS layouts, but the underlying manual-resize interaction shown here is unchanged
-
+**References to newer/updated information:**
+- Splitter objects remain a supported 4D form object type in current versions, with the same variable-binding behavior described here
+- Modern 4D form layout increasingly relies on list boxes, group objects, and object properties for adaptive resizing, reducing (but not eliminating) reliance on manual splitter-based layouts
+- CALL PROCESS and On Outside Call remain valid current 4D mechanisms for inter-process communication, though newer patterns (e.g., worker processes, shared interprocess variables) are also commonly used today

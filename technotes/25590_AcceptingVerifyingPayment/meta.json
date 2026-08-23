@@ -7,20 +7,24 @@
   "product": "4D Business Kit",
   "version": "1.x",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Frank Chang",
   "page_url": "https://kb.4d.com/assetid=25590",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-49_Accept-Verify_Payment.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_46-50_(OCT)/02-49_Accept-Verify_Payment.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Business Kit",
-    "Online payment acceptance/verification"
+    "4DBKCreditCardProcess / 4DBKExecute tags",
+    "VeriSign PayFlowPro / PayFlowLink payment gateway integration",
+    "Authorize.net AIM (Advanced Integrated Method) / WebLink",
+    "Direct-connect vs. HTTP-redirect (link method) payment flows",
+    "4D Business Kit store-property payment gateway configuration",
+    "4DBKCreditCardCode1/Code2/Text/TID response variables"
   ],
   "historical_commentary": {
-    "text": "4D Business Kit has been discontinued, and payment processing has since been transformed by mature PCI-DSS compliance standards and hosted payment gateway APIs (e.g., Stripe, PayPal) that did not exist in their modern form in 2002, making the specific payment-handling techniques in this note obsolete and, in fact, likely non-compliant with modern payment security requirements.",
+    "text": "Frank Chang (4D Inc. Technical Support) explains how to wire 4D Business Kit's e-commerce store into two payment gateways of the era, VeriSign and Authorize.net, contrasting a 'direct connect' server-to-server flow (using the 4DBKCreditCardProcess tag and a gateway-specific script file such as US_VeriSign_PFP.txt) against a browser-redirect 'link' method (raw HTML forms posting to the gateway's own hosted page). 4D Business Kit itself has been discontinued, and online payment processing has since been reshaped by mature PCI-DSS compliance requirements and modern hosted-checkout APIs (Stripe, PayPal, etc.) that render this note's specific implementation obsolete -- it is useful today only as a historical snapshot of how e-commerce payment integration worked in early-2000s 4D products.",
     "status": "obsolete",
     "related_updates": [
-      "4D Business Kit has been discontinued",
-      "Modern e-commerce payment processing now relies on PCI-DSS-compliant hosted gateways (e.g., Stripe, PayPal) rather than the direct payment-handling approach implied by this 2002 note"
+      "4D Business Kit has been discontinued for many years",
+      "Modern e-commerce payment processing relies on PCI-DSS-compliant hosted checkout/gateway APIs (e.g., Stripe, PayPal, Adyen) rather than the direct-connect/link-method techniques and raw credit-card-handling tags described in this note"
     ]
   }
 }

@@ -7,20 +7,23 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Hugo Fournier",
   "page_url": "https://kb.4d.com/assetid=12152",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-01_4D6.7_HTML_Tags.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_01-05_(JAN)/01-01_4D6.7_HTML_Tags.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D HTML tags (4DACTION/4DVAR-style)",
-    "4D Web Server (semi-dynamic page generation)",
-    "Comparison with v6.5 technique (TN 36-00)"
+    "4DLOOP / 4DENDLOOP HTML tags",
+    "4DHTMLVAR / 4DVAR HTML tags",
+    "4DSCRIPT HTML tag",
+    "SEND HTML FILE command",
+    "Semi-dynamic .shtm(l) page parsing",
+    "Web Folder as HTML root"
   ],
   "historical_commentary": {
-    "text": "This note describes implementing semi-dynamic web pages using 4D v6.7's then-new web server tag features, explicitly contrasting the improved v6.7 convenience against the older v6.5-era technique from TN 36-00. This entire generation of 4D-tag-based, HTML-embedded server-side page generation has been superseded by 4D's later shift to REST APIs built on ORDA, paired with modern client-side JavaScript frameworks or low-code tools like Qodly, making the specific mechanism in this note obsolete for current web development even though semi-dynamic page generation as a general goal remains common.",
+    "text": "Written by Hugo Fournier of 4D, Inc. Technical Support, this note contrasts 4D v6.5's fully-dynamic, string-replacement-heavy web publishing technique (from the earlier TN 36-00/00-36) with the new 4DLOOP/4DHTMLVAR/4DSCRIPT tags introduced in 4D v6.7, which let a static HTML template stored on disk be parsed and populated directly from table selections with far less manual string handling. This entire generation of 4D-tag-based, HTML-embedded server-side page generation has since been superseded by 4D's move to REST APIs built on ORDA paired with modern JavaScript front-ends (and more recently Qodly), making the specific tags shown here obsolete for current web development even though the general goal of semi-dynamic, data-driven page generation remains common.",
     "status": "obsolete",
     "related_updates": [
-      "4D's web publishing strategy has moved decisively from embedded HTML tag/4DACTION-style page generation to REST APIs built on ORDA consumed by modern JavaScript front-ends",
+      "4D's web publishing strategy has moved from embedded HTML tags (4DLOOP/4DVAR/4DSCRIPT) to REST APIs built on ORDA consumed by modern JavaScript front-ends",
       "4D Qodly Studio now offers a low-code alternative for building dynamic web interfaces, further superseding hand-coded 4D HTML tag techniques"
     ]
   }

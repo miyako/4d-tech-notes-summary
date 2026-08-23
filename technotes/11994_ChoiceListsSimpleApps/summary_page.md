@@ -1,27 +1,41 @@
 # Tech Note: Simple Applications for Choice Lists
 
-## Overview
-- **Technical Note 00-55**
-- **Author:** Unknown / not specified
-- **Published:** November 1, 2000
-- **Product/Version:** 4D v6.5
+- **Asset ID:** 11994
+- **Tech Note #:** 00-55
+- **Published:** November 2000
+- **Product / Version:** 4D not specified
 - **Platform:** Mac & Win
-- **Content source:** Teaser abstract only (full archive not recoverable)
+- **Author:** Steve Hussey
+- **Page URL:** https://kb.4d.com/assetid=11994
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_51-55_(NOV)/00-55_Choice_Lists.hqx
+
+## Overview
+
+Steve Hussey, CEO of Alto Stratus LLC, surveys practical uses of 4D's non-hierarchical choice lists for field entry, drop-down menus, and tab-object labels, then presents a data-file-backed technique (Util_List/Util_List_Item tables plus a LIST_Updt rebuilding method) that lets end users edit list contents without losing their changes when the developer ships a new structure.
 
 ## Key Points
-This Tech Note surveys the everyday usefulness of 4D choice lists — presenting a set of values for data entry, populating drop-down lists, and naming the tabs of form tab-panel objects — while calling out their central structural weakness: choice lists are stored inside the database's structure file rather than its data file. Because of that, if a developer allows end-users to edit or extend a choice list at runtime, those edits are destroyed the moment the developer ships a new structure file, since the update simply overwrites the old structure (and its embedded lists) wholesale. The note's core proposition is a technique for keeping user-editable list values in the data file instead, so administrators can safely update the structure without clobbering end-user customizations. It focuses specifically on non-hierarchical choice lists (flat lists, as opposed to hierarchical/nested ones) and discusses a few applications built around this pattern. As with many notes of this era, the featured technology is a core 4D Design Mode data-modeling concept rather than a specific plug-in or API. Because the download archive with the full example database could not be recovered from this era's self-extracting Windows installer format, this summary is drawn only from the teaser abstract on the original kb.4d.com page.
+
+- Choice Lists speed and standardize field data entry; Required Lists restrict entries to only the listed values; Excluded Lists block specific values from being entered — all three assignable at the table level (Field Properties) or overridden per-form (Object Properties' Data Control tab).
+- Drop-down menus are populated by copying a list's contents into an array with LIST TO ARRAY("clst_Platform";drop_Platform); the resulting variable holds the selected element's index (e.g., drop_Platform{drop_Platform}) which is then assigned into the target field.
+- Tab object labels can be driven by a choice list, with each list element corresponding to one tab in order; SET LIST ITEM PROPERTIES(SomeTabName;1;False;Plain;0) programmatically disables (grays out) an individual tab, and Selected List Item reads which tab the user chose.
+- Because lists are stored in the structure file, any values an end user adds are lost the moment the developer ships an updated structure — a core motivating problem the note sets out to solve.
+- The fix duplicates list data into two data-file tables, Util_List (List_ID, List_Name) and the related-many Util_List_Item (keyed by List_ID), so user edits persist independently of the structure file.
+- The custom LIST_Updt($ListName) function queries Util_List/Util_List_Item, sorts the items, and rebuilds the corresponding in-memory 4D list via SELECTION TO ARRAY and ARRAY TO LIST; a Modify Lists dialog lets end users create/delete lists and add/edit/delete/sort list items entirely from the data file.
 
 ## Featured Technology
-- 4D Choice Lists
-- Data file storage
-- Form tab objects
 
-## Historical Context
-This note addresses a real structural limitation of classic 4D Design Mode: choice lists live in the binary structure file, so any end-user edits to a list are silently wiped out the next time a developer redeploys a structure update. Project Mode (introduced in 4D v17, 2018), which stores structure elements as individual text files under source control, changes this picture considerably by making structure elements easier to manage and merge, though the specific data-file storage workaround this note proposes remains a reasonable technique for classic/Design Mode databases still in production.
+- Non-hierarchical choice lists (List Editor)
+- Required Lists and Excluded Lists
+- LIST TO ARRAY / ARRAY TO LIST for drop-down menus
+- SET LIST ITEM PROPERTIES for tab enable/disable
+- Data-file-backed list storage (Util_List / Util_List_Item tables)
 
-**Note on sources:** The full downloadable archive for this Tech Note could not be recovered in this environment. The original kb.4d.com page's linked download was an old Windows self-extracting installer (.exe) that could not be extracted in this environment, so this summary is based only on the teaser abstract.
+## Historical Commentary
 
-## What's Changed Since
-- 4D Project Mode (v17+) stores structure definitions as text files rather than one opaque binary structure file, changing how developers manage and version choice-list-like structure data
-- Databases still running in classic Design Mode retain the exact storage behavior this note describes
+**Status:** Partially Superseded
 
+Written by Steve Hussey, CEO of Alto Stratus LLC, this note surveys the practical uses of 4D's non-hierarchical choice lists — field data-entry aids, drop-down menu sources, and tab-object labels — and then addresses a real structural limitation: choice lists live in the structure file, so any client customization to them is overwritten the next time a developer ships a structure update. The proposed fix, replicating list contents into data-file tables (Util_List/Util_List_Item) and rebuilding the in-memory list from that data via LIST_Updt, remains a workable pattern today, though many modern 4D applications solve the same underlying problem more directly using an ORDA/database-backed configuration table queried straight into an array or collection rather than round-tripping through the classic List object model.
+
+**References to newer/updated information:**
+- LIST TO ARRAY, ARRAY TO LIST, and SET LIST ITEM PROPERTIES remain part of the current 4D language with unchanged core behavior for choice lists and tab objects
+- Modern 4D applications increasingly store user-editable choice values directly in ORDA entities/collections rather than layering a data-file-backed list-rebuilding system atop the classic List object model

@@ -1,25 +1,30 @@
 {
   "asset_id": 23220,
   "title": "Tech Note: Moving Objects",
-  "technote_number": "02-01",
+  "technote_number": "02-1",
   "year": 2002,
   "published_date": "January 31, 2002",
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Roland Lannuzel, 4D Developer, 4D S.A.",
   "page_url": "https://kb.4d.com/assetid=23220",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_01-04_(JAN)/02-01_Moving_Objects.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/MacOS/TN_2002_01-04_(JAN)/02-01_Moving_Objects.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "MOVE OBJECT command",
-    "On Timer / On Load / On Resize events"
+    "GET OBJECT RECT command",
+    "On Timer / On Load / On Resize form events",
+    "SET TIMER / SET WINDOW RECT",
+    "Sine/Cosine trigonometry for clock-hand rotation",
+    "REDRAW WINDOW"
   ],
   "historical_commentary": {
-    "text": "The MOVE OBJECT command and the On Timer/On Load/On Resize events remain part of current 4D, so this note's core technique remains applicable, though later 4D versions introduced more automatic object anchoring and resizing properties that reduce how often developers need to hand-code dynamic repositioning logic like that shown here.",
-    "status": "superseded",
+    "text": "Roland Lannuzel's note teaches how to reposition and reshape both static and dynamic 4D form objects using MOVE OBJECT and GET OBJECT RECT, driven by the On Load, On Timer, and On Resize form events, using an animated analog clock whose window randomly moves and resizes every ten seconds as the demonstration vehicle. MOVE OBJECT, GET OBJECT RECT, and the On Timer/On Load/On Resize events remain part of the current 4D language and this technique is still directly usable for classic form-based object animation, though today's 4D developers building rich, animated, or web-facing interfaces are just as likely to reach for CSS/JavaScript-based Qodly/web forms, which offer more modern and flexible animation and layout tools than manipulating object rectangles by hand.",
+    "status": "still_relevant",
     "related_updates": [
-      "Later 4D versions introduced more automatic object anchoring/resizing properties, reducing the need to hand-code dynamic repositioning via MOVE OBJECT as often as in 2002"
+      "MOVE OBJECT, GET OBJECT RECT, and the On Timer/On Load/On Resize events remain valid, supported 4D language features today",
+      "Modern 4D UI work increasingly happens in web-based Qodly/form contexts where CSS/JavaScript animation techniques are used instead of manually recalculating object rectangles, though the classic form technique shown here still works for traditional 4D forms"
     ]
   }
 }

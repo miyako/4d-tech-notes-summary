@@ -1,1 +1,1 @@
-Tech Note: 4D Web Serving Using Perl CGIs (TN 01-07, 4D v6.7, February 2001) — a demonstration of integrating Perl CGI scripts with 4D's v6.7 web server to perform tasks (hit counters, guestbooks, form processing) not otherwise possible with 4D alone.
+Tech Note: 4D Web Serving Using Perl CGIs (TN 01-07, 4D v6.7, February 2001) — calling external Perl CGI scripts (counters, guestbooks, redirects) from a Non-Contextual 4D web server

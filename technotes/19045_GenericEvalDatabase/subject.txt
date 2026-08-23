@@ -1,1 +1,1 @@
-Tech Note: Under the Hood of the GenericEval Database (TN 01-49, 4D v6.7, October 2001) — a look at the methods behind the self-configuring, tag-driven GenericEval example database.
+Self-configuring a database schema at runtime from tagged incoming email data

@@ -1,1 +1,1 @@
-Tech Note: Data File Log (TN 01-04, 4D v6.7, January 2001) — a technique for monitoring the number, size, and fragmentation state of a classic 4D data file's segments, to avoid hitting the old 2GB-per-segment limit.
+Logging 4D data segment sizes and table fragmentation percentages to monitor the classic 2GB-per-segment limit

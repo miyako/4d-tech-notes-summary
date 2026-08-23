@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hussey",
   "page_url": "https://kb.4d.com/assetid=11990",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-60_Inherited_Forms.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_56-60_(DEC)/00-60_Inherited_Forms.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Inherited forms",
-    "4D form architecture",
-    "Table()/Self() context detection"
+    "Inherited Form Table / Inherited Form Name form properties",
+    "Current form table command",
+    "Table name command",
+    "QUERY / ORDER BY / PRINT LABEL / REPORT invoked generically via a pointer",
+    "USE SET / CREATE SET for list-form record subsets",
+    "SET WINDOW TITLE for dynamic per-table titles"
   ],
   "historical_commentary": {
-    "text": "Inherited forms — one form defined once and reused across multiple tables for consistent buttons/layout — was a genuinely useful v6.7-era feature, but it created a real problem: form code couldn't automatically tell which table it was currently running against. This note's technique for detecting the calling table from within a shared form's method is squarely a workaround for classic Design Mode form architecture; modern 4D form and object-method architecture provides cleaner, more built-in ways to write table-agnostic form code, though the underlying goal of reusable, standardized forms remains entirely valid today.",
-    "status": "superseded",
+    "text": "This note explains 4D v6.7's then-new inherited forms feature (one master form reused across multiple tables via the Inherited Form Table/Name properties) and shows how to write table-agnostic button code for a shared form using Current form table, so the same Query/Subset/All/Delete/Sort/Labels/Reports buttons work correctly no matter which table's form is open. Inherited forms as a concept, and the Current form table command itself, remain part of current 4D, so this technique is still directly usable; it has not been replaced so much as supplemented by newer form architecture and object-oriented form/class-based patterns that give developers additional ways to structure reusable UI logic.",
+    "status": "still_relevant",
     "related_updates": [
-      "4D's form architecture and object/form method model have evolved substantially since v6.7, offering more structured ways to write reusable, table-agnostic form logic",
-      "The core idea of standardizing buttons and layout across multiple tables via shared forms remains a common and valid practice in current 4D development"
+      "Inherited forms and the Current form table command remain part of the current 4D language and are still a valid way to build reusable, table-agnostic list/input forms",
+      "Modern 4D form architecture (including object-oriented forms, form/object classes, and ORDA-based entity selections) offers additional, more structured techniques for writing reusable form logic beyond the pointer-based, Table name-driven Case of statements shown in this note"
     ]
   }
 }

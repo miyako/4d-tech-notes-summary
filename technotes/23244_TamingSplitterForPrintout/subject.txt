@@ -1,1 +1,1 @@
-Tech Note: Taming The Splitter For Printout (TN 02-27, 4D v6.8, June 2002) — a technique for making printed splitters in an output form match their on-screen positions, since splitters normally reset to default positions when printed.
+Preserving user-adjusted splitter column widths when printing a 4D output form, by capturing and reapplying coordinates via MOVE OBJECT

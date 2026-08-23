@@ -3,23 +3,28 @@
   "title": "Tech Note: Basic Principles of Menu Bar Design in 4D",
   "technote_number": "02-23",
   "year": 2002,
-  "published_date": "May 15, 2002",
+  "published_date": "May 31, 2002",
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gary Brocks",
   "page_url": "https://kb.4d.com/assetid=23240",
-  "download_url": "https://kb.4d.com/ftp://ftp.4d.com/aci_technical_notes/2002/windows/tn_2002_20-24_(may)/02-23_menu_bar_design.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_20-24_(MAY)/02-23_Menu_Bar_Design.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D menu bar design",
-    "Low-maintenance menu systems"
+    "MENU BAR command (current menu bar switching)",
+    "Associated Menu Bar form property",
+    "Active Menu Bar form property checkbox",
+    "Menu bar activation vs. display distinction",
+    "Empty menu bar pattern for uniform activation",
+    "4D RAD menu system architecture (splash/list/detail menu bars)"
   ],
   "historical_commentary": {
-    "text": "4D's native menu bar commands and design principles from this era remain part of current 4D, so this note's core guidance on building a low-maintenance menu system remains broadly relevant, even as many modern applications increasingly rely on web-based navigation UI in addition to or instead of native menu bars.",
-    "status": "still relevant",
+    "text": "Gary Brocks presents a rapid-application-development menu system architecture for classic 4D: four menu bars (splash screen, list view, detail view, plus one deliberately empty menu bar) combined with the MENU BAR command and the Associated/Active Menu Bar form properties, so that switching which menu items are enabled requires changing exactly one line of code rather than manually enabling/disabling dozens of menu items as users move between application contexts. This is a sound, well-reasoned application of Apple's Human Interface Guidelines (consistency, grayed-out unavailable items) to 4D's specific menu-bar/form-association mechanics of that era. Classic 4D menu bars and this activation model still exist in current 4D, so the mechanics remain technically valid, but most modern 4D development has moved toward web-based (Qodly) or object/list-form-driven UIs where this classic desktop menu-bar RAD pattern is less central, making it now primarily relevant to classic 4D desktop client maintenance.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's native menu bar commands remain part of the current product, though many modern 4D applications supplement or replace native menus with web-based navigation UI"
+      "The MENU BAR command and Associated/Active Menu Bar form properties described here remain part of current 4D for classic desktop-client menu bars",
+      "Much modern 4D development (web-based Qodly apps, list-form/object-driven UIs) relies less on classic menu-bar-per-context designs, reducing the centrality of this specific RAD menu pattern"
     ]
   }
 }

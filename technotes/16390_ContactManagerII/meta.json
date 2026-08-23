@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Hugo Fournier",
   "page_url": "https://kb.4d.com/assetid=16390",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-35_Contact_Manager_II.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_31-35_(JUL)/01-35_Contact_Manager_II.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Calendar UI construction",
-    "Form object placement/display",
-    "Example database (Contact Manager series)"
+    "Calendar_TextObjectMethod click/double-click dispatch",
+    "GET OBJECT RECT / MOVE OBJECT for selection-rectangle highlighting",
+    "DRAG AND DROP PROPERTIES / On Drag Over / On Drop form events",
+    "DUPLICATE RECORD for Shift-drag event copies",
+    "Parallel-array record mapping (<>Cal_aVariableNames / <>Cal_aRecIDs)",
+    "Open form window / INPUT FORM / MODIFY RECORD dialog pattern"
   ],
   "historical_commentary": {
-    "text": "This is the second in a series on the Contact Manager example database, focusing specifically on how the calendar interface's display is managed, following an earlier note (Part I) that covered placing and displaying the calendar's objects. The general technique of building a custom calendar view from form objects is a pattern developers still sometimes need today, even though modern 4D development would more likely reach for a List Box, a plug-in calendar component, or a web-based calendar widget rather than hand-managing individual form objects as shown here.",
-    "status": "still_relevant",
+    "text": "Hugo Fournier (4D Technical Support Engineer) documents the interaction/event-handling half of the Contact Manager sample's hand-built calendar widget, covering click selection, drag-and-drop event moving/duplicating, and the add/edit dialog flow, as a companion to Part I's object-placement note. The technique of tracking parallel arrays to map form objects to records and manually drawing selection rectangles reflects classic Design Mode form programming; it still functions today, but modern 4D development would typically use a List Box or a dedicated calendar/plug-in component instead of hand-managing dozens of named objects and drag rectangles, so the pattern is now mainly of educational/historical value.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "Modern 4D calendar UIs are more commonly built with List Box objects, dedicated calendar plug-ins, or web/JS calendar components",
-      "The underlying object-placement techniques from classic Design Mode forms still function in current 4D versions"
+      "Modern 4D calendar UIs are more commonly built with List Box objects, calendar plug-ins, or web/JS calendar components rather than dozens of individually named form objects",
+      "The classic Design Mode form-object and drag-and-drop event techniques shown still function in current 4D versions",
+      "The Contact Manager sample database referenced is no longer part of 4D's current example/download library"
     ]
   }
 }

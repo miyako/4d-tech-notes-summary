@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Olivier Deschanels",
   "page_url": "https://kb.4d.com/assetid=15349",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-30_Core_of_the_Data.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_26-30_(JUN)/01-30_At_the_Core_of_the_Data_The_Address_Table_and_Bit_Table.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D internal data file format",
-    "Address table / Bit table structures",
-    "Cross-platform data storage internals"
+    "4D record 'tag' (version + platform origin marker)",
+    "Byte swapping between Mac and Windows integer/longint storage",
+    "Primary Address Table (PAT) / Secondary Address Table (SAT)",
+    "Bit-table allocation map / Bit-table-address-table (BTAT)",
+    "APPLY TO SELECTION for forcing platform re-save",
+    "128-byte block-based data file architecture"
   ],
   "historical_commentary": {
-    "text": "This note (a follow-up to TN 01-29) goes deeper into 4D's proprietary internal data-file mechanisms \u2014 the Address Table and Bit Table structures used to locate and track records \u2014 explaining cross-platform storage considerations and damaged-data recovery. 4D's internal data file format has been substantially re-engineered multiple times since 2001 (notably with the 4D v11 SQL engine and the later 64-bit engine), so these specific internal structures no longer describe the current file format, making this note purely of historical/archival interest for understanding 4D's early engine design.",
+    "text": "Olivier Deschanels (4D S.A.) continues from TN 01-29 to explain how 4D's classic engine locates records within its single 128-byte-block data file using a two-level Primary/Secondary Address Table structure, how a record's 4-byte 'tag' encodes both the 4D version and originating platform (Mac vs. Windows) to control byte-swapping, and how a separate bit-table tracks free vs. occupied blocks for allocation. This deep-dive into 4D's classic .4DD/.data file internals describes the storage engine used prior to 4D's move to the 4D SQL/CoreData engine (4D v11 SQL onward, and 4D v12+ compiled architecture), which changed the underlying storage format; the specific address-table/bit-table mechanics described no longer apply to the current 4D engine, making this note of historical/archival interest for understanding legacy 4D data files rather than a guide to current internals.",
     "status": "obsolete",
     "related_updates": [
-      "4D's internal data file architecture was substantially redesigned in 4D v11 SQL (~2007) and again with the 64-bit engine (~4D v13)",
-      "Current data recovery/repair tooling in 4D operates on a materially different internal file structure than described here"
+      "4D replaced its classic data-file engine with the 4D SQL/CoreData storage engine starting around 4D v11 SQL (2007), changing the internal record/address/bit-table structures described here",
+      "Developers working with legacy pre-v11 .4DD/.data files for recovery purposes may still find this architecture description useful as historical reference",
+      "APPLY TO SELECTION remains a valid current 4D command, though its use here (forcing platform-native record re-save) is no longer a relevant optimization on the current engine"
     ]
   }
 }

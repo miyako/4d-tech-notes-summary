@@ -7,19 +7,25 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Sebastian Frey, 4D Evangelist, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=23226",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_05-09_(FEB)/02-07_4D_Business_Kit_IP.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/MacOS/TN_2002_05-09_(FEB)/02-07_4D_Business_Kit_IP.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Business Kit",
-    "IP Component (extensibility)"
+    "4D Business Kit (4DBK) e-commerce server",
+    "4DBK IP Component (4D code component)",
+    "4DBKC_SessionNew / 4DBKC_SessionOpen",
+    "4DBKC_Execute and the 4DBK Tag Language",
+    "4DBKC_ItemUpdateBuild / 4DBKC_ItemUpdateSend",
+    "APP_BKExecute wrapper method pattern",
+    "4D Internet Commands plug-in"
   ],
   "historical_commentary": {
-    "text": "4D Business Kit has been discontinued for many years, making the specific IP Component extensibility mechanism obsolete; any modern e-commerce solution built with 4D today would use current web/ORDA/REST tooling rather than this legacy closed-source-with-plugin-extension architecture.",
+    "text": "Sebastian Frey explains how the 4DBK IP Component -- a small, installable 4D code component built on the 4D Internet Commands plug-in -- lets any custom 4D application drive the closed-source 4D Business Kit e-commerce server by sending its Tag Language commands over the network and parsing BLOB responses. This is a documented example of integrating with a discontinued 4D vertical product (4D Business Kit) via a session-based remote command protocol and wrapper methods like APP_BKExecute that simplified error handling and store-code management. Both 4D Business Kit and its IP Component have been discontinued for many years, making this note's specific integration technique obsolete; any e-commerce solution built with 4D today would use modern web/ORDA/REST tooling rather than this legacy tag-language-over-session-ID architecture.",
     "status": "obsolete",
     "related_updates": [
-      "4D Business Kit has been discontinued; modern e-commerce solutions built with 4D would use current web/ORDA/REST capabilities rather than this legacy component architecture"
+      "4D Business Kit and its IP Component have been discontinued; modern e-commerce integrations with 4D would use current REST/ORDA/web server capabilities instead",
+      "The session-ID-based remote command execution pattern shown here (4DBKC_SessionNew/4DBKC_Execute) has no direct modern equivalent since the product it targeted no longer exists"
     ]
   }
 }

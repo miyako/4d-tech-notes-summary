@@ -7,22 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thomas Maul, 4D Germany",
   "page_url": "https://kb.4d.com/assetid=18206",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-43_Archiving_Data_in_XML.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_41-45_(SEP)/01-43_Archiving_Data_in_XML.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D XML commands",
-    "Data archiving",
-    "Database defragmentation",
-    "Schema migration (drop field/table)"
+    "TMXML_ 4D Component (TMXML_Init/TMXML_ExportAll/TMXML_ImportAll)",
+    "Generic table/field enumeration for XML export",
+    "Subtable handling via TMXML_AddSubTable/TMXML_AddSubField",
+    "Picture-to-JPG and 4D Write-to-RTF conversion for future readability",
+    "Field-sort-order control for defragmentation (TMXML_AddFieldSortingOrder)",
+    "4D Insider component install/update workflow"
   ],
   "historical_commentary": {
-    "text": "This note describes a generic (not universal) XML export/import scheme for 4D data, useful for long-term archiving, defragmentation, controlled repair of damaged databases, and structural migrations like dropping fields or tables. XML import/export commands remain part of 4D's classic language today, and the underlying archiving/migration use cases are still relevant, though modern 4D projects increasingly also use JSON (native since 4D v15/16) and ORDA-based data transfer for similar import/export and migration needs.",
+    "text": "Thomas Maul (4D Germany) presents a generic, component-packaged XML export/import scheme (the TMXML_ methods) intended for long-term legal data archiving, database defragmentation, controlled repair of damaged files, and structural migrations such as dropping fields or tables -- with explicit guidance to write archives to ISO 8.3 CD-Rs, convert pictures to JPG and 4D Write documents to RTF for long-term legibility, and refresh media every five years. XML import/export commands remain part of 4D's classic language and the archiving/defragmentation/migration use cases described are still genuinely faced by 4D developers today, but many modern projects would now reach for native JSON (added circa 4D v15-16) or ORDA-based data transfer instead of hand-rolled XML tooling for these same needs.",
     "status": "still_relevant",
     "related_updates": [
-      "4D added native JSON parsing/serialization (circa 4D v15-16), now often preferred over XML for data interchange",
-      "ORDA provides additional entity-based mechanisms for moving and migrating data between structures"
+      "4D added native JSON parsing/serialization (circa 4D v15-16), now often preferred over hand-built XML export/import for data interchange and archiving",
+      "ORDA provides additional entity-based mechanisms for migrating and reorganizing data between structures that can substitute for parts of this component's role"
     ]
   }
 }

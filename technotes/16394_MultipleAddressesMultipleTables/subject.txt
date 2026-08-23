@@ -1,1 +1,1 @@
-Tech Note: Linking Multiple Addresses to Multiple Tables (TN 01-37, 4D v6.7, August 2001) — a technique for linking multiple addresses to one or more contact-type tables.
+Linking one Address table to multiple unrelated parent tables without relations

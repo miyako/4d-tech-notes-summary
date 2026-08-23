@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hussey",
   "page_url": "https://kb.4d.com/assetid=13194",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_16-20_(APR)/01-19_Talking_Trash.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_16-20_(APR)/01-19_Talking_Trash.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Trash (Mac OS) / Recycle Bin (Windows) paths",
-    "DELETE DOCUMENT alternative",
-    "Cross-platform document management"
+    "PLATFORM PROPERTIES command",
+    "System folder path parsing (Trash / Recycle Bin path construction)",
+    "MOVE DOCUMENT as a DELETE DOCUMENT alternative",
+    "Test path name for collision detection",
+    "DOCUMENT LIST for directory listing",
+    "Cross-platform path delimiter handling (: vs \\)"
   ],
   "historical_commentary": {
-    "text": "This note explains how to determine the OS-specific paths to the Trash (Mac OS) and Recycle Bin (Windows) and move documents there instead of permanently removing them with DELETE DOCUMENT, giving users a way to recover accidentally processed files. The underlying need \u2014 moving files to the OS trash rather than permanently deleting them \u2014 remains a legitimate pattern today, and the general approach is still conceptually sound, but 4D's later File/Folder object-oriented classes (introduced well after this note) provide more modern, higher-level APIs for this kind of file-system interaction than the raw path-construction technique shown here.",
-    "status": "partially_superseded",
+    "text": "Steve Hussey's note explains how to derive the OS-specific path to the Mac OS Trash or Windows Recycle Bin from the System folder path, then use MOVE DOCUMENT instead of DELETE DOCUMENT so that processed files can still be recovered by the user afterward, with platform-specific handling for name collisions (Mac) versus DC0/DC1-style renaming (Windows). The underlying need -- giving users an undo path instead of permanently deleting files -- is still a sound pattern today, but the specific paths and OS internals described (classic Mac OS's colon-delimited Trash, Windows 98's DOS-era RECYCLED directory) are entirely obsolete, and 4D's later File/Folder class-based APIs offer a far more modern, higher-level way to do this kind of file-system interaction than manually parsing System folder() paths.",
+    "status": "obsolete",
     "related_updates": [
-      "4D's later File and Folder classes (introduced in more recent 4D versions) offer higher-level, more portable file-system operations than manually constructing OS-specific Trash/Recycle Bin paths",
-      "Both macOS and Windows have evolved their trash/recycle-bin storage locations and APIs considerably since Mac OS 9 / Windows 98-2000, so any hardcoded paths from this note would need updating regardless"
+      "4D's later File and Folder classes provide higher-level, more portable file-system operations than manually constructing OS-specific Trash/Recycle Bin paths",
+      "Both macOS and Windows have completely changed their trash/recycle-bin storage locations and internal implementations since the Mac OS 9 / Windows 98 era this note describes, so any hardcoded paths shown here no longer apply"
     ]
   }
 }

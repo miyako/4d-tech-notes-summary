@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=13095",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_11-15_(MAR)/01-13_On_Sets.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_11-15_(MAR)/01-13_On_Sets.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Sets",
-    "Record selection manipulation",
-    "Memory-efficient selection handling"
+    "Sets (inter-process, process, and local sets)",
+    "COPY NAMED SELECTION / CUT NAMED SELECTION",
+    "COPY SET / UNION / INTERSECTION / DIFFERENCE / USE SET",
+    "Is in set command",
+    "Lockedset and Userset automatic sets",
+    "4D Server set synchronization in Client/Server"
   ],
   "historical_commentary": {
-    "text": "This short note introduces Sets as a way to manipulate record selections with less memory overhead than working with full selections directly, especially useful when quick handling of large selections is required. Sets remain a fully supported, core part of 4D's classic language today, and the fundamental performance rationale for using them over ad hoc selection manipulation is unchanged, making this brief introduction still directly relevant, even if modern ORDA-based entity selections now offer an additional, newer alternative for similar problems.",
-    "status": "still relevant",
+    "text": "Jean-Yves Fock-Hoon's note explains 4D's Set data structure as a memory-efficient (1 bit per record), unordered alternative to selections, useful for saving/reloading searches, combining results with UNION/INTERSECTION/DIFFERENCE, and quickly testing membership with Is in set, while also covering the automatic Lockedset/Userset sets and the synchronization challenges of using sets in Client/Server. Sets and the described commands remain part of 4D's classic language essentially unchanged today and the memory/speed tradeoffs described are still accurate, so this note's core content is still directly applicable, though ORDA-based development on data classes now offers query and entity-selection patterns that reduce how often developers reach for low-level sets.",
+    "status": "still_relevant",
     "related_updates": [
-      "Sets remain part of 4D's current classic language, unchanged in their basic purpose",
-      "ORDA entity selections (introduced 2018) provide a newer, object-oriented alternative for many selection-manipulation use cases alongside classic Sets"
+      "4D's Set commands (UNION, INTERSECTION, DIFFERENCE, USE SET, Is in set, etc.) remain unchanged in the current classic language",
+      "ORDA-based entity selections and today's query optimizer reduce some scenarios where developers previously needed to hand-manage sets for performance, though sets remain available and useful for classic-language code"
     ]
   }
 }

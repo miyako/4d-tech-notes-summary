@@ -5,23 +5,27 @@
   "year": 2000,
   "published_date": "October 1, 2000",
   "product": "4D Open",
-  "version": "6.7",
+  "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=11986",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_46-50_(OCT)/00-47_4D_Open_for_Java.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_46-50_(OCT)/00-47_Getting_Started_Java.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Open for Java",
-    "Java applets",
-    "4D Server"
+    "4D Open for Java (opDriverManager, opConnection, opProcess classes)",
+    "startProcess/stopProcess connection lifecycle",
+    "opDataArray result handling",
+    "Java Applet class connecting to a 4D Server",
+    "actionPerformed event-driven UI for connect/search/add/delete/modify",
+    "4D Server multi-process connections (up to six per client)"
   ],
   "historical_commentary": {
-    "text": "This introductory note walks Java programmers through the basics of 4D Open for Java and applet-based interaction with 4D Server, at a time (2000) when Java applets were a mainstream way to deliver interactive client functionality through a browser. Both halves of this note's technology stack — 4D Open and Java applets — are now defunct: 4D Open was discontinued long ago, and browsers dropped applet/plugin support years ago, so this note today has historical value only, illustrating early-2000s thinking about cross-platform, programmatic access to 4D Server.",
+    "text": "This introductory note walks a Java developer through 4D Open for Java's three-step connection pattern (opDriverManager to get an opConnection, startProcess to open a 4D Server process, then opProcess request methods to read/write data) using a complete Employee applet example that implements connect, display-all, search, add, delete, and modify operations. It is a clear, ground-up tutorial for its era's Java-to-4D-Server integration path, but 4D Open (including 4D Open for Java) has been discontinued, and Java applets themselves are obsolete technology since browsers dropped NPAPI support; a Java client today would instead call 4D's REST/ORDA data server over HTTP, which needs none of this driver/connection/process machinery.",
     "status": "obsolete",
     "related_updates": [
-      "Java applets are no longer supported by any modern web browser",
-      "4D Open (including its Java variant) has been discontinued; modern external access to 4D Server data uses 4D's REST/ORDA data server instead"
+      "4D Open for Java has been discontinued along with the rest of the 4D Open product line",
+      "Java applets are obsolete; browsers no longer support the NPAPI plugin mechanism required to run them",
+      "4D's REST/ORDA data server is the modern replacement for building external (including Java) clients that read/write 4D Server data"
     ]
   }
 }

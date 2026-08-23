@@ -1,1 +1,1 @@
-Tech Note: Inherited Forms in 4D v6.7 (TN 00-60, 4D v6.7, December 2000) — a technique for managing form button logic in inherited forms (forms shared across multiple tables) so that code can determine which table it is currently operating on.
+Building reusable inherited forms in 4D v6.7 and using Current form table to write table-agnostic form button code

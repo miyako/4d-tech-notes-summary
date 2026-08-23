@@ -7,22 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Julien Feasson",
   "page_url": "https://kb.4d.com/assetid=23267",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-12_UDDI_Client_and_SOAP.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_11-15_(MAR)/03-12_UDDI_Client_and_SOAP.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "UDDI",
-    "SOAP",
-    "4D 2003 Web Services client",
-    "XML parsing"
+    "UDDI Inquiry API (find_tModel, get_tModelDetail)",
+    "4D 2003 built-in SOAP Web Service Client (CALL WEB SERVICE)",
+    "SET WEB SERVICE PARAMETER / GET WEB SERVICE RESULT",
+    "4D XML parsing commands (Parse XML variable, Get First/Next XML element, GET XML ATTRIBUTE BY NAME)",
+    "Doc-style SOAP request construction",
+    "TEXT TO BLOB for building raw XML SOAP payloads"
   ],
   "historical_commentary": {
-    "text": "UDDI as a technology has been effectively abandoned industry-wide \u2014 the public UDDI Business Registry was shut down years ago, and modern service discovery uses very different mechanisms (API gateways, service meshes, OpenAPI directories) \u2014 making this note's core subject matter obsolete, though the underlying idea of discoverable service registries persists in different modern forms.",
+    "text": "This note is the first of a two-part series showing how 4D 2003's newly built-in SOAP Web Service Client and XML parsing commands could be used to query a UDDI registry (find_tModel/get_tModelDetail) for web service discovery. UDDI as a technology and public registry infrastructure (Microsoft's, IBM's, and eventually xMethods.net's UDDI servers) has been dead for well over a decade, so the specific subject matter is entirely obsolete. However, the demonstrated 4D mechanics -- building a Doc-style SOAP XML payload manually, sending it with CALL WEB SERVICE, and parsing the raw XML response by walking the DOM tree with Get First/Next XML element -- were standard techniques for any non-RPC-style SOAP integration in that era and were themselves eventually superseded by 4D's more modern SOAP/REST web service tooling.",
     "status": "obsolete",
     "related_updates": [
-      "UDDI has been effectively abandoned industry-wide; the public UDDI Business Registry was shut down years ago",
-      "Modern service discovery uses different mechanisms such as API gateways, service meshes, and OpenAPI-based directories"
+      "UDDI has been effectively abandoned industry-wide; the public UDDI Business Registry (Microsoft, IBM, xMethods) was shut down years ago",
+      "Modern service discovery uses different mechanisms such as API gateways, service meshes, and OpenAPI-based directories",
+      "4D's SOAP client and XML DOM-parsing commands used here have since been supplemented by 4D's native XML/JSON and HTTP client commands, reducing the need for manual Doc-style SOAP envelope construction"
     ]
   }
 }

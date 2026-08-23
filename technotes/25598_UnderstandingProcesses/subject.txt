@@ -1,1 +1,1 @@
-Tech Note: Understanding Processes in 4th Dimension (TN 02-57, 4D v, December 2002) — a foundational explanation of how 4th Dimension's process model works, clarifying that 4D processes are cooperatively emulated rather than true OS threads.
+A conceptual and practical tour of 4th Dimension's cooperative process model, from creation to communication

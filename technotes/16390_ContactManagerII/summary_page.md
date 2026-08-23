@@ -1,43 +1,43 @@
-# Tech Note 01-35: Contact Manager II
+# Tech Note: Contact Manager II
 
-**Author:** Not specified in source
-**Published:** July 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=16390
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-35_Contact_Manager_II.exe (dead link — see Historical Context)
+- **Asset ID:** 16390
+- **Tech Note #:** 01-35
+- **Published:** July 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Hugo Fournier
+- **Page URL:** https://kb.4d.com/assetid=16390
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_31-35_(JUL)/01-35_Contact_Manager_II.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> This is the second technical note on the Contact Manager example database. The purpose of Part II of this technical note is to take a closer look at how the interface is managed in the calendar of the sample database. Part I explained how objects were placed and displayed in the calendar.
+Hugo Fournier (4D, Inc. Technical Support Engineer) presents Part II of the Contact Manager calendar code walkthrough, focused on interface behavior: selecting calendar events, dragging/dropping/duplicating them, and creating or editing them via a modal detail dialog. Part I (a separate Tech Note) covered how the calendar's objects were placed and displayed; this note picks up with user interaction.
 
 ## Key Points
 
-Based on the available teaser text, this note is: part two of a look at how the Contact Manager example database's calendar interface is managed.
+- Single click selects an event; double-click opens the Detail event dialog (pre-filled for existing events, defaulted for a new date box); drag-and-drop moves an event to a new date, or duplicates it if the Shift/Option key is held during the drop.
+- Selection highlighting uses up to six overlay rectangles (`SelectRect1`–`SelectRect6`) since a "banner" event (e.g., spanning several days like a conference) can be drawn across up to six form objects; `Calendar_SelectObject` and `Calendar_DeselectObject` manage moving these rectangles on/offscreen.
+- Two parallel arrays, `<>Cal_aVariableNames` and `<>Cal_aRecIDs`, map each displayed form object to its `[Calendar]` record ID, letting `Calendar_LoadAssociatedRecord` find and load the correct record by searching for the object's variable name.
+- The `On Drag Over` form event calls `DRAG AND DROP PROPERTIES` and blocks drops onto the event's current date; `On Drop` either calls `DUPLICATE RECORD` + `Sequence number` (Shift/Option-drag) or `READ WRITE`/`LOAD RECORD` (plain drag), updates `[Calendar]Event Date`, and calls `SAVE RECORD` then `Calendar_PlaceEvents` to redraw.
+- `Calendar_DisplayRecord` opens the Input form as a modal dialog with `Open form window`/`INPUT FORM`, then dispatches to `ADD RECORD` (new event) or `READ WRITE` + `GOTO RECORD` + `MODIFY RECORD` (existing event), closing with `CLOSE WINDOW` and refreshing the calendar if `OK=1`.
+- Banner resizing uses 30 pairs of invisible buttons (`DragBttnL1`–`DragBttnL30`, `DragBttnR1`–`DragBttnR30`) handled by `Calendar_DragObjectMethod`, one pair per potential concurrent banner.
 
 ## Featured Technology
 
-- Calendar UI construction
-- Form object placement/display
-- Example database (Contact Manager series)
+- Calendar_TextObjectMethod click/double-click dispatch
+- GET OBJECT RECT / MOVE OBJECT for selection-rectangle highlighting
+- DRAG AND DROP PROPERTIES / On Drag Over / On Drop form events
+- DUPLICATE RECORD for Shift-drag event copies
+- Parallel-array record mapping (<>Cal_aVariableNames / <>Cal_aRecIDs)
+- Open form window / INPUT FORM / MODIFY RECORD dialog pattern
 
-## Historical Context
+## Historical Commentary
 
-Published July 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Historical interest only
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+This note is a detailed code walkthrough of one specific sample application's hand-built calendar interaction model — parallel arrays mapping objects to records, manually drawn selection rectangles, and drag-and-drop event moving via classic Design Mode form events. The general goal (an interactive calendar with click/drag event management) remains common, but the specific implementation technique — dozens of individually named form objects and drag-detection buttons — has been superseded in practice by List Box-based calendars, dedicated calendar plug-ins, or web/JS calendar widgets, making this note now primarily a historical illustration of early-2000s 4D form programming style rather than a current best practice.
 
-**Status: Still relevant**
-
-This is the second in a series on the Contact Manager example database, focusing specifically on how the calendar interface's display is managed, following an earlier note (Part I) that covered placing and displaying the calendar's objects. The general technique of building a custom calendar view from form objects is a pattern developers still sometimes need today, even though modern 4D development would more likely reach for a List Box, a plug-in calendar component, or a web-based calendar widget rather than hand-managing individual form objects as shown here.
-
-**What has changed since:**
-
-- Modern 4D calendar UIs are more commonly built with List Box objects, dedicated calendar plug-ins, or web/JS calendar components
-- The underlying object-placement techniques from classic Design Mode forms still function in current 4D versions
+**References to newer/updated information:**
+- Modern 4D calendar UIs are more commonly built with List Box objects, calendar plug-ins, or web/JS calendar components rather than dozens of individually named form objects
+- The classic Design Mode form-object and drag-and-drop event techniques shown still function in current 4D versions
+- The Contact Manager sample database referenced is no longer part of 4D's current example/download library

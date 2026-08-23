@@ -1,1 +1,1 @@
-Tech Note: Simple Applications for Choice Lists (TN 00-55, 4D v6.5, November 2000) — a discussion of practical uses for non-hierarchical choice lists and a technique for persisting user-editable list values in the data file instead of the structure file.
+Tech Note: Simple Applications for Choice Lists (TN 00-55, November 2000) — using non-hierarchical choice lists for field entry, drop-downs, and tab labels, plus a technique for preserving user-edited lists across structure updates

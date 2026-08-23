@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent D. Wilbur, Manager of Information Systems, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=16392",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-36_Generic_Web_Form_DPS.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_36-40_(AUG)/01-36_Generic_Web_Form.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D built-in Web Server",
-    "Two-database architecture",
-    "Email-based data transfer"
+    "GET WEB FORM VARIABLES for undeclared/generic form field handling",
+    "4DCGI (On Web Connection) form routing instead of 4DACTION",
+    "Hidden control fields: tFormName/tReplyFormName/tErrorForm/tMandatoryFields/tMailTo/tMailFields/tMailBody",
+    "MAIL_AddMailMessage / MAIL_tFields2Text machine-readable [***Tag***] email encoding",
+    "COMPILER_WEB variable declaration workaround for compiled-mode web forms",
+    "Template-based reply emails via MAIL_tFields2Block token substitution"
   ],
   "historical_commentary": {
-    "text": "This note (part one of a two-part series) describes a generic system where one 4D database gathers data through a web form and emails it to a second database for storage and analysis. The architectural idea of separating a public-facing data-collection front end from a back-office storage/analysis system remains a valid pattern, but routing form submissions via email between two databases is a workaround that has been superseded by direct REST/ORDA API calls or database replication/sync mechanisms that didn't yet exist in 4D in 2001.",
-    "status": "partially_superseded",
+    "text": "Kent Wilbur (4D, Inc.) designs a genuinely generic web-form intake system: a set of hidden HTML control fields (tMandatoryFields, tMailTo, tMailFields, tMailBody, etc.) plus GET WEB FORM VARIABLES let a single 4D backend validate, e-mail, and template-reply to any HTML form without hard-coding its field names, with the collected data encoded into machine-readable [***Tag***] emails for a companion parsing database (covered in TN 01-49, the GenericEval database, released two months later). This generic-intake-via-email-relay architecture was a clever way to sidestep direct database writes and firewall exposure in 2001, but it has been thoroughly superseded: modern 4D web development handles form submission and validation directly through REST/ORDA endpoints or server-side web forms, with structured JSON payloads and direct database writes replacing the mail-relay-and-tag-parsing round trip described here.",
+    "status": "superseded",
     "related_updates": [
-      "Direct REST/ORDA API calls between 4D databases or services have superseded email-based data hand-off as the standard mechanism",
-      "4D's later Sync feature and ORDA-based data synchronization provide more robust alternatives for moving data between systems"
+      "Modern 4D web applications submit form data directly to REST/ORDA endpoints rather than relaying it through e-mail as machine-readable tagged text",
+      "GET WEB FORM VARIABLES-based generic form handling has been largely superseded by structured JSON request bodies parsed by 4D's native JSON commands"
     ]
   }
 }

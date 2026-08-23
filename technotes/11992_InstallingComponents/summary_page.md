@@ -1,27 +1,42 @@
 # Tech Note: Installing Components
 
-## Overview
-- **Technical Note 00-53**
-- **Author:** Unknown / not specified
+- **Asset ID:** 11992
+- **Tech Note #:** 00-53
 - **Published:** November 1, 2000
-- **Product/Version:** 4D Insider v6.7
+- **Product / Version:** 4D Insider 6.7
 - **Platform:** Mac & Win
-- **Content source:** Teaser abstract only (full archive not recoverable)
+- **Author:** Steve Hartman
+- **Page URL:** https://kb.4d.com/assetid=11992
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_51-55_(NOV)/00-53_Installing_Components.hqx
+
+## Overview
+
+Steve Hartman (4D, Inc. Technical Support) explains how to build and install a 4D v6.7 component using 4D Insider — a mechanism for deploying protected, independently updatable pieces of code into a host database — and walks through the complete workflow with a worked "Parrots" demographics example database.
 
 ## Key Points
-This brief Tech Note documents how to install 4D components as they worked in the 4D v6.7 / 4D Insider era, describing components as a mechanism that lets a developer deploy code to client structures in a protected (non-editable) form while still allowing that code to be updated independently of the host database's own structure. The proposition is essentially operational: components let a vendor or lead developer distribute reusable, access-controlled functionality without exposing source method code, and let that functionality be revised and redeployed as a self-contained unit rather than requiring a full structure update. The featured technology is 4D's early component system as paired with 4D Insider, the companion tool used at the time for structure documentation and component management. Because only the teaser abstract survives for this note (the linked download was an old Windows self-extracting installer that could not be extracted in this environment), the summary here necessarily stays at this general level rather than reproducing exact installation steps.
+
+- A component's objects fall into three attributes: **Public** (viewable and end-user modifiable, but not renameable/deletable), **Protected** (viewable but not modifiable — the method Preview area stays blank), and **Private** (neither viewable nor modifiable, invisible in both 4th Dimension and 4D Insider). Tables, fields, and menu bars can never be marked Private, and they are not removed when a component is later uninstalled.
+- Component creation/installation workflow: create a new library in 4D Insider containing the objects to package, choose New from the Components menu to name the component, drag objects into it under Private/Protected/Public, click Generate on the component, then open the target database with Insider and choose Install/Update.
+- Naming-conflict avoidance recommendations: use a unique prefix (developer's initials or company name) on all non-local Module objects, type Module objects with Compiler directives, use the `Get Module Resource ID` function to manage STR# and PICT resources, and keep object names to 28 characters (prefix excluded).
+- Insider logs any naming conflicts encountered during installation — objects with names that collide with existing database objects will block that component's import.
+- If a component includes a table it must also include a form for it, and vice versa; the installer can offer to link a component's form to an existing table in the target database.
+- The "Parrots" sample database (inoculation-age statistics for male/female parrots) demonstrates the full lifecycle: build the objects in a library, generate the component, install it into a fresh database with none of the original objects, and confirm the resulting database behaves identically to the source.
 
 ## Featured Technology
-- 4D Components
-- 4D Insider
-- Protected code deployment
 
-## Historical Context
-This note documents the mechanics of installing 4D components as they existed circa 4D v6.7, when components were a relatively new mechanism (paired with 4D Insider) for deploying protected, updatable pieces of code into a host structure. The concept of packaging and deploying reusable, access-controlled code has remained a core 4D concept for two decades, but the tooling, packaging format, and workflow around components have been substantially modernized since this era, so the specific installation steps described here are outdated even though the underlying goal persists.
+- 4D Insider component creation and generation
+- Public/Protected/Private component object attributes
+- Get Module Resource ID function
+- Component naming-conflict avoidance conventions
+- Component install/update workflow
+- Compiler directives for typed module objects
 
-**Note on sources:** The full downloadable archive for this Tech Note could not be recovered in this environment. The original kb.4d.com page's linked download was an old Windows self-extracting installer (.exe) that could not be extracted in this environment, so this summary is based only on the teaser abstract.
+## Historical Commentary
 
-## What's Changed Since
-- 4D's component architecture and tooling have evolved substantially since v6.7, including changes to how components are packaged, referenced, and updated in a host database
-- 4D Insider itself, the companion structure-documentation tool referenced here, is from a much earlier generation of 4D's developer tooling
+**Status:** Superseded
 
+This note walks through the mechanics of building and installing a 4D v6.7 component with 4D Insider: dragging objects into Public/Protected/Private roles, naming conventions to avoid conflicts, and the install/update step that reports conflicting object names. Its worked example (a "Parrots" database with inoculation statistics) demonstrates that a component-based database behaves identically to one with the original objects copied in directly, which was the core selling point of the technology. 4D Insider itself and this exact component workflow are long obsolete, superseded by 4D's modern, integrated component/plug-in and project-based packaging systems, though the underlying goal of deploying protected, updatable code modules remains a live concept in current 4D.
+
+**References to newer/updated information:**
+- 4D Insider, the standalone structure-documentation and component-management tool this note relies on, was retired long ago in favor of built-in tooling
+- 4D's current component architecture (and 4D's move to text/project-based structures) offers a far more integrated way to package, reference, and update protected code than the Public/Protected/Private drag-and-drop workflow described here

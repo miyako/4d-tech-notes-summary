@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gou Yang",
   "page_url": "https://kb.4d.com/assetid=25596",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-55_RelationsForBeginners.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_51-55_(NOV)/02-55_RelationsForBeginners.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D automatic/manual relations",
-    "One-to-many, many-to-many relationships"
+    "AUTOMATIC RELATIONS command",
+    "RELATE ONE / RELATE MANY",
+    "RELATE ONE SELECTION / RELATE MANY SELECTION",
+    "Automatic vs. manual many-to-one and one-to-many relations",
+    "Many-to-many joining tables",
+    "Deletion Control triggers"
   ],
   "historical_commentary": {
-    "text": "The fundamental relational concepts explained here (one-to-many, many-to-many, etc.) remain entirely valid and foundational in current 4D, though ORDA (introduced in 4D v17+) has since added a higher-level, object-based way to navigate relations that largely supersedes the older automatic/manual relation query techniques for new development, while the underlying data-modeling concepts carry over directly.",
+    "text": "Gou Yang (4D Inc. Technical Support) walks a beginner through a movie-theater/ticket-sales example database to explain automatic vs. manual relations, one-to-many and many-to-many joins, and the specific relation-property checkboxes (Auto relate one, Auto wildcard support, Auto one to many, Auto assign related value in subform) alongside the manual equivalents implemented with RELATE ONE/RELATE MANY in form and trigger events. The relational modeling concepts (avoiding insertion/deletion anomalies, joining tables for many-to-many) remain foundational and entirely valid in current 4D. However, ORDA (introduced in 4D v17+) has since provided a higher-level, object/entity-based way to navigate relationships that largely supersedes hand-written RELATE ONE/RELATE MANY calls for new development, even though the classic relation commands and structure-level relations described here still work.",
     "status": "superseded",
     "related_updates": [
-      "ORDA (introduced in 4D v17+) provides a newer, object-based way to navigate relations between tables, superseding the older automatic/manual relation query techniques for most new development"
+      "ORDA (introduced in 4D v17+) provides an object-based way to navigate relationships between entities, superseding the classic RELATE ONE/RELATE MANY-based approach for most new development",
+      "The classic AUTOMATIC RELATIONS, RELATE ONE, RELATE MANY, RELATE ONE SELECTION, and RELATE MANY SELECTION commands described in this note remain part of 4D's language today for structure-level relations"
     ]
   }
 }

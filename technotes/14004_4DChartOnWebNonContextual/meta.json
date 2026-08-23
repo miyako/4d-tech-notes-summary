@@ -7,21 +7,24 @@
   "product": "4D Chart",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent D. Wilbur",
   "page_url": "https://kb.4d.com/assetid=14004",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_21-25_(MAY)/01-21_4D_Chart_on_the_Web.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_21-25_(MAY)/01-21_4D_Chart_on_the_Web.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Chart (plug-in)",
-    "4D Web Server (Non-Contextual Mode)",
-    "Graph serving (field-stored and interactive)"
+    "4D Chart plug-in commands (CT Chart arrays, CT Area to picture, CT SET DISPLAY)",
+    "Non-Contextual Mode 4D Web Server",
+    "SEND HTML FILE / .shtml 4DLOOP and 4DVAR tags",
+    "On Web Connection database method routing (4DCGI)",
+    "GET WEB FORM VARIABLES",
+    "Temporary-record BLOB image serving (PICTURE TO GIF, SEND HTML BLOB)"
   ],
   "historical_commentary": {
-    "text": "This note updates an earlier Tech Note (98-13) on serving 4D Chart graphs to the web, moving the technique from the original Contextual-Mode-only approach to 4D v6.5's newer Non-Contextual Mode web server. Both the 4D Chart plug-in and Contextual/Non-Contextual Mode web serving concepts it depends on have been fully discontinued or replaced in current 4D: 4D Chart was retired long ago, and 4D's own web serving strategy moved to REST/ORDA-based services, making the entire technique obsolete for present-day development.",
+    "text": "Kent Wilbur's note updates Tim Tonooka's 1998 TN 98-13 to show how 4D v6.7's new non-contextual web server model can serve both saved and live-generated 4D Chart graphs, working around the statelessness of non-contextual mode by stashing rendered charts as temporary records and streaming them back out as GIF BLOBs. Both halves of the technique -- the 4D Chart plug-in itself and the manual On Web Connection/4DCGI routing style of web serving -- have been fully retired: 4D Chart was discontinued years ago, and 4D's web server has since moved to WebActions/REST and ORDA-based approaches that don't require hand-parsing the URL or stuffing images into temporary database records.",
     "status": "obsolete",
     "related_updates": [
-      "The 4D Chart plug-in itself has been discontinued; charting today is typically handled via 4D View Pro or embedded JavaScript charting libraries in web front-ends",
-      "4D's web serving model has moved from Contextual/Non-Contextual Mode toward REST APIs built on ORDA, superseding this note's serving technique entirely"
+      "The 4D Chart plug-in has been discontinued; current charting needs are met by 4D View Pro or web-based JavaScript charting libraries",
+      "Manual On Web Connection/4DCGI URL routing and .shtml tag parsing have been superseded by 4D's WebActions and modern REST/ORDA-based web service techniques"
     ]
   }
 }

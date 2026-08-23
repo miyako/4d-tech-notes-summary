@@ -3,25 +3,26 @@
   "title": "Tech Note: Web Assistant for Dummies",
   "technote_number": "00-54",
   "year": 2000,
-  "published_date": "November 1, 2000",
+  "published_date": "November 2000",
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jonathan Baltazar",
   "page_url": "https://kb.4d.com/assetid=11993",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_51-55_(NOV)/00-54_Using_Web_Assistant.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_51-55_(NOV)/00-54_Web_Assistant.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Web Assistant",
-    "4D Web Server",
-    "Static/dynamic web publishing"
+    "4D Web Assistant component (4D Extensions folder)",
+    "wbaPalette / wbaOnWebConnect / wbaOnWebAuthentication",
+    "User Access table/field permission configuration (r/a/m/d)",
+    "Web Assistant HTML Editor and Appearance Editor tags"
   ],
   "historical_commentary": {
-    "text": "The 4D Web Assistant was a no-code/low-code tool aimed at letting non-programmers publish 4D data to the web during the dot-com-boom era, well before REST APIs, ORDA, or modern JS front ends existed. The Web Assistant product itself has long since been discontinued and its wizard-driven approach to web publishing bears little resemblance to how 4D applications expose data to the web today (4D's built-in REST/ORDA data server, Qodly, and standard web frameworks), making this note of historical interest only.",
+    "text": "Written by Jonathan Baltazar of 4D, Inc. Technical Support, this note introduces the 4D v6.7 Web Assistant, a no-code component that let developers publish selected tables and fields to the web with configurable per-user read/add/modify/delete access, customizable list/detail/search HTML pages, and appearance settings, all without writing 4D web-serving code by hand. The entire code-free, wizard-driven publishing model of the Web Assistant has been superseded by 4D's move to REST APIs on ORDA combined with modern JavaScript front-ends, and more recently by low-code tools like Qodly Studio, making the specific Web Assistant component and its wba*/HTML-tag mechanics obsolete for current web development, even though the underlying goal of quickly publishing table data to the web without hand-coding persists in these newer tools.",
     "status": "obsolete",
     "related_updates": [
-      "4D's Web Assistant tool was discontinued long ago and has no direct modern equivalent",
-      "Publishing 4D data to the web today is typically done via 4D's REST/ORDA data server, Qodly, or custom web frameworks rather than a wizard-driven assistant"
+      "The 4D Web Assistant component itself has been discontinued; 4D's web publishing strategy moved to REST APIs on ORDA combined with modern JavaScript front-ends",
+      "4D Qodly Studio now offers a modern low-code alternative for quickly building and publishing data-driven web interfaces without hand-writing web-serving code"
     ]
   }
 }

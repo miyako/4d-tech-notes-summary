@@ -1,1 +1,1 @@
-Tech Note: Parsing XML Documents (TN 03-06, 4D v2003, February 2003) — an introduction to parsing XML data using the new XML commands added in 4th Dimension 2003.
+A generic recursive algorithm for parsing arbitrary XML documents using 4D 2003's new XML parser commands

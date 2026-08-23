@@ -1,25 +1,30 @@
 {
   "asset_id": 23255,
   "title": "Tech Note: Creating and Administering 4D Portal",
-  "technote_number": "03-11",
+  "technote_number": "02-11",
   "year": 2002,
   "published_date": "March 31, 2002",
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Christian Cypert",
   "page_url": "https://kb.4d.com/assetid=23255",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_10-14_(MAR)/03-11_Portal_Administration.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/MacOS/TN_2002_10-14_(MAR)/03-11_Portal_Administration.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Portal",
-    "Portal Administration site"
+    "4D Portal Administration site (/portaladmin/)",
+    "Portal hosting and Host/Administrator setup",
+    "4D Portal Portlets (Forums, Classified Ads, Users, Favorites, Reminders)",
+    "Forum category/moderator administration",
+    "Topic/post transfer between forums",
+    "User registration field requirements"
   ],
   "historical_commentary": {
-    "text": "4D Portal as a distinct product is long discontinued, making the specific administration workflow described here obsolete; modern portal/dashboard applications would be built using current web frameworks or 4D's own modern web/REST capabilities rather than this legacy platform.",
+    "text": "This note is a step-by-step, screenshot-driven walkthrough (screenshots not recoverable in this text extraction) of the 4D Portal Administration web application: hosting a new portal, configuring services/portlets, and administering Forums, Classified Ads, and Users through a browser UI. It reflects the early-2000s trend of 4D-built turnkey community/portal products bundled with the 4D platform. 4D Portal as a distinct product has long been discontinued, and the specific administrative workflow it documents (Portal Admin URLs, Portlet checkboxes, forum-to-forum topic transfer) has no direct modern equivalent in current 4D releases, making this note of historical interest only.",
     "status": "obsolete",
     "related_updates": [
-      "4D Portal has been discontinued; modern portal-style applications would be built with current web frameworks or 4D's own modern web/REST capabilities"
+      "4D Portal has been discontinued; modern portal/community-style applications would be built with current web frameworks or 4D's own modern web/REST/Qodly capabilities",
+      "No direct successor feature in current 4D replicates 4D Portal's built-in Forums/Classified Ads/Users portlets"
     ]
   }
 }

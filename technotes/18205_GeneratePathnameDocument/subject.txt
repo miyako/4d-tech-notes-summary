@@ -1,1 +1,1 @@
-Tech Note: How to generate a pathname document in 4D (TN 01-42, 4D v6.5, September 2001) — a technique for automatically generating a document referenced by a full pathname in 4D.
+Programmatically generating a 4D Client .PTH pathname connection document

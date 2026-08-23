@@ -1,1 +1,1 @@
-Tech Note: Event Manager (TN 02-15, 4D v6.8, April 2002) — an explanation of processing form events in 4D via a generic Event Manager method that lets developers control event execution order across forms and objects.
+Tracing the execution order of 4D form events across Add/Modify Records, Dialog, and Print record modes with a generic event logger

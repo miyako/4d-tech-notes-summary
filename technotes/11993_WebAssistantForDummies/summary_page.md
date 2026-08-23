@@ -1,27 +1,40 @@
 # Tech Note: Web Assistant for Dummies
 
-## Overview
-- **Technical Note 00-54**
-- **Author:** Unknown / not specified
-- **Published:** November 1, 2000
-- **Product/Version:** 4D v6.7
+- **Asset ID:** 11993
+- **Tech Note #:** 00-54
+- **Published:** November 2000
+- **Product / Version:** 4D 6.7
 - **Platform:** Mac & Win
-- **Content source:** Teaser abstract only (full archive not recoverable)
+- **Author:** Jonathan Baltazar
+- **Page URL:** https://kb.4d.com/assetid=11993
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_51-55_(NOV)/00-54_Web_Assistant.hqx
+
+## Overview
+
+Jonathan Baltazar of 4D, Inc. Technical Support walks through installing and configuring 4D v6.7's no-code Web Assistant component, which lets developers publish selected database tables to the web with configurable per-user access, list/detail/search views, and HTML page customization — demonstrated end-to-end on the sample Music_Library database.
 
 ## Key Points
-This Tech Note is an approachable, beginner-oriented introduction to the 4D Web Assistant, a tool 4D provided so that developers and even end-users could publish 4D data to the Internet or a corporate intranet without having to write programming code themselves. It walks through installing the Web Assistant, explains its basic functionality at a conceptual level, and includes a demonstration database that illustrates the kinds of dynamic, database-driven web pages the tool could produce. The proposition of the note is squarely aimed at lowering the barrier to entry for web publishing with 4D at a time (late 2000, the height of the dot-com boom) when many organizations were racing to get their data online without dedicated web development staff. The featured technology is the 4D Web Assistant itself, an early wizard-based front end to 4D's built-in web server and web publishing engine, rather than any hand-written 4D web method. As with several other November 2000 notes in this batch, the full downloadable archive could not be recovered from the old self-extracting installer format, so this summary reflects only the teaser text available on the historical kb.4d.com page.
+
+- Installing into an existing database requires 4D Insider's Components menu (Install/Update) plus manual edits to On Web Connection (add wbaOnWebConnect), On Web Authentication (call wbaOnWebAuthentication), and for 4D Server, On Server Startup/On Server Shutdown (wbaStartWeb/wbaQuitWeb); new databases can instead simply check 'Install 4D Web Assistant' at creation time.
+- Required Database Properties settings: uncheck Publish Database at Startup, check Start without Context (Web Server I tab), and check Use Passwords (Web Server II tab).
+- The wbaPalette floating palette exposes Start/Stop Web Service, Set Tables and Fields (User Access), HTML Editor, and Appearance Editor as the four core functions of the component.
+- Set Tables and Fields configures, per user (including an automatic Guest user for anonymous browsers), which tables are visible and what access level applies via letter codes: 'r' read-only, 'a' add, 'm' modify, 'd' delete — plus separate List View (sort field/order, records per page), Detail View (field selection), and Search Fields configuration per table.
+- The HTML Editor customizes headers/footers for the Home, Login, List View, Detail View, Search Screen, and Message pages using predefined tags such as <!--Message-->, <!--NavBar-->, <!--DatabaseName-->, <!--Another4Dsolution-->, <!--Login-->, <!--LoginPict-->, and <!--SearchPict-->, while still allowing standard hand-written HTML alongside them.
+- A full walkthrough publishes the Music_Library sample database (Album, Artist, Tracks tables) with Guest given 'd' (full) access, custom sort order and field selection for List/Detail/Search views, and a customized Home page message and navigation bar, demonstrating the complete configuration flow.
 
 ## Featured Technology
-- 4D Web Assistant
-- 4D Web Server
-- Static/dynamic web publishing
 
-## Historical Context
-The 4D Web Assistant was a no-code/low-code tool aimed at letting non-programmers publish 4D data to the web during the dot-com-boom era, well before REST APIs, ORDA, or modern JS front ends existed. The Web Assistant product itself has long since been discontinued and its wizard-driven approach to web publishing bears little resemblance to how 4D applications expose data to the web today (4D's built-in REST/ORDA data server, Qodly, and standard web frameworks), making this note of historical interest only.
+- 4D Web Assistant component (4D Extensions folder)
+- wbaPalette / wbaOnWebConnect / wbaOnWebAuthentication
+- User Access table/field permission configuration (r/a/m/d)
+- Web Assistant HTML Editor and Appearance Editor tags
 
-**Note on sources:** The full downloadable archive for this Tech Note could not be recovered in this environment. The original kb.4d.com page's linked download was an old Windows self-extracting installer (.exe) that could not be extracted in this environment, so this summary is based only on the teaser abstract.
+## Historical Commentary
 
-## What's Changed Since
-- 4D's Web Assistant tool was discontinued long ago and has no direct modern equivalent
-- Publishing 4D data to the web today is typically done via 4D's REST/ORDA data server, Qodly, or custom web frameworks rather than a wizard-driven assistant
+**Status:** Obsolete
 
+Written by Jonathan Baltazar of 4D, Inc. Technical Support, this note introduces the 4D v6.7 Web Assistant, a no-code component that let developers publish selected tables and fields to the web with configurable per-user read/add/modify/delete access, customizable list/detail/search HTML pages, and appearance settings, all without writing 4D web-serving code by hand. The entire code-free, wizard-driven publishing model of the Web Assistant has been superseded by 4D's move to REST APIs on ORDA combined with modern JavaScript front-ends, and more recently by low-code tools like Qodly Studio, making the specific Web Assistant component and its wba*/HTML-tag mechanics obsolete for current web development, even though the underlying goal of quickly publishing table data to the web without hand-coding persists in these newer tools.
+
+**References to newer/updated information:**
+- The 4D Web Assistant component itself has been discontinued; 4D's web publishing strategy moved to REST APIs on ORDA combined with modern JavaScript front-ends
+- 4D Qodly Studio now offers a modern low-code alternative for quickly building and publishing data-driven web interfaces without hand-writing web-serving code

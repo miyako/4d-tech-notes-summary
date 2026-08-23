@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Elaine Smith",
   "page_url": "https://kb.4d.com/assetid=16387",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-31_Date_Entry.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_31-35_(JUL)/01-31_Date_Entry.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Custom date-entry form routines",
-    "Function-key input handling"
+    "On Before Keystroke / On After Keystroke form events",
+    "FILTER KEYSTROKE command",
+    "Keystroke command",
+    "HandleDate / StringToDate example methods (Tom Dillon, DataCraft)",
+    "SET DEFAULT CENTURY for two-digit year resolution",
+    "Form/Object event inheritance rules"
   ],
   "historical_commentary": {
-    "text": "This note presents the Date Entry example database, which uses a set of custom routines and special function keys to make date-field entry more flexible for end users tabbing into a field. This specific function-key-driven UI trick reflects a 2001-era UI paradigm; modern 4D applications typically use built-in date pickers, calendar pop-ups, or List Box date columns for more discoverable and accessible date entry, making the exact technique shown here obsolete even though flexible date entry remains a valid usability goal.",
+    "text": "Elaine Smith (Technical Support Engineer) demonstrates trapping keystrokes with the On Before Keystroke form event and the FILTER KEYSTROKE/Keystroke commands to let users type single-letter shortcuts (T, M, H, Y, R, +, -) into a date field to jump to today, month/year boundaries, or adjust the date by a day, using Tom Dillon's HandleDate/StringToDate example methods. The general capability (trap and reinterpret keystrokes in a field) is still fully supported and used in modern 4D applications, but this specific hidden function-key-driven date shortcut UI reflects a 2001-era paradigm; most current 4D interfaces favor discoverable calendar picker widgets over undocumented single-letter shortcuts, so the technique itself is now largely obsolete even though the underlying keystroke-trapping commands remain unchanged.",
     "status": "obsolete",
     "related_updates": [
       "4D form objects now commonly use built-in date/calendar picker controls rather than custom function-key-driven entry routines",
+      "The On Before Keystroke/On After Keystroke events and FILTER KEYSTROKE/Keystroke commands described remain part of the current 4D language, unchanged in behavior",
       "Modern UI/UX conventions favor discoverable calendar widgets over hidden function-key shortcuts"
     ]
   }

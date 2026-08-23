@@ -7,21 +7,24 @@
   "product": "4D Open",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Christian Cypert, 4D & WebSTAR Plug-in Evangelist",
   "page_url": "https://kb.4d.com/assetid=23238",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_20-24_(MAY)/02-21_Dialogs_in_a_Plug-in.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/MacOS/TN_2002_20-24_(MAY)/02-21_Dialogs_in_a_Plug-in.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Dialog",
-    "4D Open plug-in",
-    "Custom security dialogs"
+    "4D Plug-in API (PA_ commands)",
+    "4D Dialog resource embedded in a plug-in",
+    "PA_NewDialog / PA_OpenDialog / PA_ModalDialog / PA_CloseDialog",
+    "PA_Dial4DGetString",
+    "PA_OpenQuery / PA_QueryString / PA_CloseQuery",
+    "PA_GetPointerParameter / PA_GetPointerTableField"
   ],
   "historical_commentary": {
-    "text": "The classic 4D plug-in API and 4D Dialog mechanism described here have been superseded by 4D's modern component architecture, meaning the specific plug-in integration approach is dated; the general concept of a password-gated security dialog remains a common, still-relevant application feature, though modern implementations would rely on 4D's more capable and secure current authentication options rather than a bespoke plug-in dialog.",
+    "text": "This note walks through building a compiled C/C++ plug-in that embeds a 4D Dialog resource (a login screen) and drives it with the classic Plug-in API's modal-dialog loop and query commands to validate a username/password pair. The classic 4D plug-in API (PA_* calls) and 4D Dialog resource mechanism it relies on have been superseded by 4D's modern component and plug-in architecture, so the specific implementation shown is dated. The underlying idea -- a password-gated dialog controlling database access -- is still common, but a modern 4D application would implement it directly in 4D code (with On Load/On Clicked form events and native QUERY) rather than via a bespoke compiled plug-in.",
     "status": "superseded",
     "related_updates": [
-      "4D's classic plug-in API has been superseded by its modern component architecture, changing how such native dialogs would be built today",
-      "Modern 4D applications would typically use current, more secure authentication mechanisms rather than a bespoke username/password dialog"
+      "4D's classic Plug-in API (PA_* functions, 4D Dialog resources) has been superseded by 4D's modern plug-in/component architecture and the modern 4D language, making compiled-plug-in dialogs like this one unnecessary for most use cases",
+      "A password-gated login dialog is now typically built directly in 4D form code rather than as a separate C/C++ plug-in"
     ]
   }
 }

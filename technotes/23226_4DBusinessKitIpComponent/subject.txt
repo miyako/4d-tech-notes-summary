@@ -1,1 +1,1 @@
-Tech Note: The 4D Business Kit IP Component (TN 02-07, 4D v6.8, February 2002) — an explanation of how the 4DBK IP Component opens up the otherwise closed-source 4D Business Kit to developer extension and customization.
+Using the 4D Business Kit IP Component to drive the discontinued 4DBK e-commerce server from a custom 4D application

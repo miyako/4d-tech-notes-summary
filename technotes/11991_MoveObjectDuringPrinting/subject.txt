@@ -1,1 +1,1 @@
-Tech Note: Using MOVE OBJECT During Printing (TN 00-51, 4D v6.7, November 2000) — an explanation of how the MOVE OBJECT and GET OBJECT RECT commands were extended in 4D v6.7 to work during printing operations.
+Using MOVE OBJECT and GET OBJECT RECT to dynamically reposition form objects during PRINT SELECTION, PRINT RECORD, and PRINT FORM in 4D v6.7

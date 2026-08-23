@@ -7,21 +7,25 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Hugo Fournier",
   "page_url": "https://kb.4d.com/assetid=14010",
   "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_21-25_(MAY)/01-25_Contact_Manager_EDB_1.hqx",
-  "content_source": "teaser_only",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Contact Manager example database",
-    "Calendar form/interface design",
-    "Classic-language form programming"
+    "Calendar_Startup / Calendar_Setup / Calendar_Dialog method chain",
+    "Open form window / DIALOG for a modal calendar window",
+    "On Load / On Resize form event-driven layout",
+    "Calendar_SetupMonth / Calendar_SetNumbers date-box calculation",
+    "Calendar_PlaceBoxes nested-loop object positioning",
+    "[Calendar] table event types (Special Day, Appointment, Banner, Picture)"
   ],
   "historical_commentary": {
-    "text": "This is a code-walkthrough companion to 4D's Contact Manager example database, focused specifically on how its Calendar interface was built in classic-language, binary Design Mode forms circa 2001. As a documentation piece about a specific vintage sample application rather than a generalizable 4D feature, it is now chiefly of historical interest: the Contact Manager sample itself and its Design-Mode calendar-building techniques predate decades of subsequent UI/UX evolution in 4D (including calendar-oriented list box features and Project Mode), so it offers little direct practical value to a modern developer beyond illustrating period programming style.",
-    "status": "historical interest only",
+    "text": "Hugo Fournier (4D, Inc. Technical Support) walks through how the Contact Manager example database's Calendar dialog is constructed and populated at the form/object level — from process startup (Calendar_Startup, Calendar_Dialog opening a modal window) through On Load initialization (Calendar_GetCoordinates, Calendar_SetupMonth, Calendar_SetNumbers) to On Resize-driven object placement (Calendar_PlaceBoxes) — as the first of a two-part series (Part II covers user interaction). As a documentation piece about a specific vintage sample application's binary Design Mode form-building technique, it is now chiefly of historical interest: the Contact Manager sample and its hand-placed date-box grid predate decades of subsequent 4D UI evolution (list boxes, calendar-oriented components, Project Mode), so it offers mainly a period illustration of classic-language form programming rather than a current best-practice guide.",
+    "status": "historical_interest_only",
     "related_updates": [
       "4D has since introduced richer native list box and form object capabilities that make hand-built calendar-grid interfaces like this one largely unnecessary",
-      "The specific Contact Manager sample database referenced is no longer part of 4D's current example/download library"
+      "The specific Contact Manager sample database referenced is no longer part of 4D's current example/download library",
+      "The classic Design Mode form-object placement and On Load/On Resize event techniques shown still function in current 4D versions"
     ]
   }
 }

@@ -7,20 +7,26 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=16391",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-34_NT_Localization.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_31-35_(JUL)/01-34_NT_Localization.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Windows NT localization",
-    "4D foreign-language system support"
+    "4D Script Manager systems (smRoman, smJapanese, smArabic, smCyrillic, smEastEurRoman)",
+    "TRIC sorting/comparison resources",
+    "Customizer Plus localization editor",
+    "'MapC' Mac-to-Windows character mapping resource",
+    "Mac to ISO / ISO to Mac commands",
+    "FONT, FONT SIZE, FONT STYLE commands",
+    "4D style sheets"
   ],
   "historical_commentary": {
-    "text": "This note explains how 4D of that era handled foreign-language systems specifically under Windows NT. Windows NT itself has been obsolete for decades (superseded by subsequent Windows releases and ultimately Windows 10/11), and 4D's Unicode and localization support has been completely overhauled since (full Unicode text handling was introduced around 4D v11 SQL), making both the OS context and the specific localization techniques described purely of historical interest today.",
+    "text": "Jean-Yves Fock-Hoon (4D QA Manager) explains, in considerable depth, how 4D's classic engine handled Script Manager-based foreign-language systems (Roman vs. non-Roman scripts), how TRIC resources drove sorting/searching, how the 'MapC' resource translated characters between Mac and Windows, and how style sheets were the recommended way to adapt fonts for Central European, Asian, and Arabic markets. This entire code-page/TRIC/Script-Manager approach to internationalization is obsolete: 4D introduced native Unicode text handling starting around 4D v11 SQL (2007), which eliminated the need for platform-specific script managers, MapC translation tables, and manual TRIC resource selection for most modern development. The note is now useful only as a historical record of pre-Unicode 4D internals.",
     "status": "obsolete",
     "related_updates": [
-      "4D introduced full native Unicode text support around 4D v11 SQL (~2007), superseding the older code-page/localization approach",
-      "Windows NT is long obsolete, superseded by many subsequent Windows releases"
+      "4D introduced native Unicode text support beginning around 4D v11 SQL (~2007), superseding Script Manager/TRIC/MapC-based localization",
+      "Windows NT itself is long obsolete, superseded by many subsequent Windows releases",
+      "4D's style sheets feature (recommended in this note for font/localization handling) remains part of the product today"
     ]
   }
 }

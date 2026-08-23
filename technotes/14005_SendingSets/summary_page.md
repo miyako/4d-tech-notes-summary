@@ -1,32 +1,43 @@
-# Tech Note 01-22: Sending Sets
+# Tech Note: Sending Sets
 
-**Author:** Not specified in source document
-**Published:** June 4, 2001 | **Product/Version:** 4D Client v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=14005
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_21-25_(MAY)/01-22_Sending_Sets.exe
+- **Asset ID:** 14005
+- **Tech Note #:** 01-22
+- **Published:** June 4, 2001
+- **Product / Version:** 4D Client 6.7
+- **Platform:** Mac & Win
+- **Author:** Jean-Yves Fock-Hoon
+- **Page URL:** https://kb.4d.com/assetid=14005
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_21-25_(MAY)/01-22_Sending_Sets.hqx
 
 ## Overview
-A technique for sending a Set from one 4D Client to other connected clients in v6.7.x without writing and reloading a temporary document. This short Tech Note addresses a client/server pain point: sending a Set (4D's lightweight structure for holding a group of record references) from one connected 4D Client to other clients.
+
+Jean-Yves Fock-Hoon (QA Manager, 4D, Inc.) shows how sending a Set from one 4D Client to other connected 4D Clients became significantly simpler in 4D 6.7.x thanks to two new commands that eliminate the need for a temporary document, comparing the technique against the more cumbersome approaches required in 4D 6.0.x and 6.5.x.
 
 ## Key Points
-- Prior to 4D v6.7.x, doing this typically required writing the set to a temporary document on disk that the receiving clients would then load — an approach with obvious overhead and cleanup concerns in a multi-user environment.
-- The note shows how, starting with v6.7.x, this can be accomplished more directly, without the temporary-document round trip.
-- Its featured technology is 4D's classic client/server architecture and the Sets data structure, aimed at developers building multi-user 4D applications who need to synchronize a record selection across several connected clients efficiently.
+
+- Prior to 6.7.x, sending a set required saving it as a document, loading that document into a Blob, transmitting the Blob (via `GET/SET PROCESS VARIABLE` or `Execute on Server` in 6.0.x, or `REGISTER CLIENT`/`EXECUTE ON CLIENT` in 6.5.x), and having the receiving client re-save the Blob as a document before reloading it as a set.
+- 4D 6.7.x's `BOOLEAN ARRAY FROM SET` converts a set directly into a Boolean array (one bit per record, with unused trailing bits set False), and `CREATE SET FROM ARRAY` does the reverse — recreating a set from a Boolean array — with no document round-trip required.
+- The example uses `VARIABLE TO BLOB` to pack each Boolean array into a Blob, then broadcasts all three (`BlobF`, `BlobG`, `BlobH`) via `EXECUTE ON CLIENT("@";"SERVER_Update_Client_Requested";BlobF;BlobG;BlobH)`, where `"@"` targets every connected client (or a loop over `GET REGISTERED CLIENTS(AClientList;AMethods)` targets specific ones).
+- Each 4D Client polls the server for pending method calls (every 2 seconds by default, configurable via the `REGISTER CLIENT` command) and, on receiving `SERVER_Update_Client_Requested`, reconstructs the arrays with `BLOB TO VARIABLE` and recreates interprocess sets, e.g., `CREATE SET FROM ARRAY([People];A_SetF;"<>SetF")`.
+- After recreating the sets, `CALL PROCESS(<>CurProcNum)` notifies the client's main process, which checks `On Outside Call` events to recompute dependent selections and redraw its window.
+- A toggle ("Disallow updates from others" in the "4D Server" menu) flips a Boolean flag that gates whether incoming set updates are accepted at all.
 
 ## Featured Technology
-- 4D Client/Server
-- Sets
-- SEND SET / inter-client communication
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- CREATE SET FROM ARRAY command (4D 6.7.x)
+- BOOLEAN ARRAY FROM SET command (4D 6.7.x)
+- VARIABLE TO BLOB / BLOB TO VARIABLE serialization
+- EXECUTE ON CLIENT for broadcasting to registered 4D Clients
+- GET REGISTERED CLIENTS / REGISTER CLIENT
+- Interprocess Sets and CALL PROCESS-based UI refresh
 
 ## Historical Commentary
-**Status:** Partially_superseded
 
-This note documents a v6.7.x-era improvement in 4D Client/Server for propagating a Set (a lightweight record-selection structure) from one connected client to others, avoiding the older pattern of writing a temporary document that other clients then load. Sets remain a core part of 4D's classic language today and this general mechanism is still technically usable, but 4D's client/server and multi-user synchronization story has since expanded considerably (including newer client/server messaging and, more recently, ORDA-based REST access from multiple front-ends), so the specific inter-client Set-sending pattern here is a superseded approach for most modern multi-client designs.
+**Status:** Partially superseded
 
-**Related updates since:**
+The core commands this note demonstrates — `CREATE SET FROM ARRAY`, `BOOLEAN ARRAY FROM SET`, and `EXECUTE ON CLIENT` — remain part of 4D's classic language today, and the document-free set-broadcasting technique described is still fully functional in current 4D client/server deployments. However, most modern multi-client 4D architectures increasingly favor ORDA/REST-based data access and newer synchronization patterns over classic client/server set broadcasting, so while the technique is not obsolete, it has become a less common approach for new development compared to 2001.
+
+**References to newer/updated information:**
 - 4D's classic client/server architecture has been supplemented by ORDA and REST-based access, offering different patterns for sharing selections/state across clients
+- CREATE SET FROM ARRAY, BOOLEAN ARRAY FROM SET, and EXECUTE ON CLIENT remain part of the current 4D language, unchanged in core behavior since this note
 - 4D Server has gained additional built-in interprocess/network communication commands since 2001 that reduce the need for this specific workaround
-

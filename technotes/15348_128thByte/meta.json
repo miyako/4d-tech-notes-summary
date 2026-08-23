@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Olivier Deschanels",
   "page_url": "https://kb.4d.com/assetid=15348",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-29_The_128th_Byte.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_26-30_(JUN)/01-29_The_128th_Byte.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D internal record structure",
-    "Database file architecture fundamentals"
+    "Single-file 4D data file architecture (.data / .4DD)",
+    "128-byte block-based record storage",
+    "Record header, microstructure, and data layout",
+    "Automatic structure/microstructure comparison on record load",
+    "Automatic field-type conversion on load",
+    "APPLY TO SELECTION for forcing immediate record conversion"
   ],
   "historical_commentary": {
-    "text": "This note describes the internal byte-level structure of 4D's records within its data files, aimed at helping developers optimize data access and understand 4D's inner workings, including general database-architecture tradeoffs (one file per table plus per-index files versus a consolidated format). Because 4D's on-disk record and data-file format has been re-engineered multiple times in the decades since (v11 SQL engine, then the 64-bit engine), the specific byte-level structure detailed in this note no longer matches any current 4D file format, making it a historical snapshot of early 4D internals rather than a practical reference.",
+    "text": "Olivier Deschanels (4D, S.A.) explains why 4D moved to a single data file (unlike multi-file architectures used by many competing databases of the era) and how that file is broken into fixed 128-byte blocks, with each record carrying a 22-byte header plus a per-record 'microstructure' (field types and offsets) that lets 4D defer applying structure changes until a record is actually loaded and re-saved, and why fields therefore cannot be deleted (only their type changed) in the classic engine. This describes 4D's original classic storage engine, which was later replaced by the 4D SQL/CoreData engine (from 4D v11 SQL onward); while the general single-file design philosophy persisted, the exact 128-byte-block/microstructure mechanics described are no longer how current 4D databases store data, making this a historical rather than practical technical reference today.",
     "status": "obsolete",
     "related_updates": [
-      "4D's on-disk data/record format has been redesigned multiple times since 2001 (4D v11 SQL engine, later 64-bit engine)",
-      "Modern 4D data file internals bear little structural resemblance to the format described in this note"
+      "4D replaced its classic 128-byte-block data engine with the 4D SQL/CoreData storage engine starting around 4D v11 SQL (2007)",
+      "Field deletion restrictions and manual structure-conversion techniques described here (e.g., forcing conversion via APPLY TO SELECTION) reflect the classic engine and do not describe current 4D storage internals",
+      "The single-file .4DD/.data deployment/backup simplicity philosophy described has been preserved conceptually in later 4D storage engines"
     ]
   }
 }

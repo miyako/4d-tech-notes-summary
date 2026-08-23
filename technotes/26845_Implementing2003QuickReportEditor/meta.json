@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Kent D. Wilbur",
   "page_url": "https://kb.4d.com/assetid=26845",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_06-10_(FEB)/03-10_Implementing_QRE.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_06-10_(FEB)/03-10_Implementing_QRE.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Quick Report Editor (2003)",
-    "Database structure modification for reporting"
+    "QR REPORT command (replacing the legacy REPORT command)",
+    "QR REPORT's related-table/Wizard/master-table boolean parameters",
+    "Report template storage as BLOBs (zSpecialReports / zFatFile tables)",
+    "BLOB TO DOCUMENT + platform-specific creator/type codes for .4qr documents",
+    "AUTOMATIC RELATIONS(True;True) requirement for automated related-table reports",
+    "Per-table \"Special Reports\" automation pattern across multiple master tables"
   ],
   "historical_commentary": {
-    "text": "The specific structural adaptations this note recommends for 4D 2003 are tied to that particular version's Quick Report engine transition and are of largely historical interest today, since 4D's reporting toolset has continued to evolve well beyond the 2003 baseline in subsequent releases.",
-    "status": "historical interest only",
+    "text": "For developers migrating 2002-era databases into 4D 2003, this note is a practical, specific guide to the exact parameter and storage changes needed to benefit from the new Quick Report editor rather than silently keeping the old, more restrictive behavior — a genuinely useful migration note in its time. The QR REPORT command and the general Quick Report engine itself were carried forward and evolved for many years afterward, but 4D's reporting stack has since moved decisively toward the newer 4D Write Pro / Quick Report/Chart replacements and on-the-fly ORDA-based reporting, and the specific BLOB-storage/zFatFile template-sharing pattern shown here is a workaround for limitations (fixed master table per template) that current 4D reporting tools no longer have in the same form.",
+    "status": "obsolete",
     "related_updates": [
-      "4D's Quick Report engine and reporting toolset have continued to evolve substantially in versions since 2003"
+      "4D's reporting capabilities have evolved substantially since 2003 (4D Write Pro and later reporting tools), superseding the classic Quick Report editor described here for many modern use cases",
+      "The BLOB-storage workaround for reusing one report template across multiple master tables addressed a limitation of the 2003 Quick Report editor that later 4D versions and reporting tools handle differently"
     ]
   }
 }

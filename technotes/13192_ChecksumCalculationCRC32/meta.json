@@ -7,21 +7,23 @@
   "product": "4D",
   "version": "",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thomas Maul",
   "page_url": "https://kb.4d.com/assetid=13192",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_16-20_(APR)/01-17_CRC32_Checksum.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_16-20_(APR)/01-17_CRC32_Checksum.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "CRC32 checksum algorithm",
-    "File integrity verification",
-    "4D classic-language implementation"
+    "CRC_CreateTable / CRC_Calculate project methods",
+    "BLOB bitwise operators (AND, OR, XOR, bit shift)",
+    "DOCUMENT TO BLOB / LONGINT TO BLOB",
+    "File integrity verification for Blobs and exported documents"
   ],
   "historical_commentary": {
-    "text": "This note provides a ready-made 4D implementation of the CRC32 checksum algorithm for verifying file integrity, explicitly aiming to make the concept (previously explained more theoretically in TN 99-11 by Ruffin Scott) approachable without requiring developers to understand the underlying CRC math. The CRC32 algorithm itself is timeless and the note's code would likely still function, but 4D has since added built-in digest/checksum-related commands (for hashing and integrity verification) that make hand-rolling CRC32 in classic 4D code largely unnecessary for new development.",
+    "text": "Thomas Maul's note provides a ready-to-use 4D implementation of the CRC32 checksum algorithm, explicitly aiming to make the technique (previously explained more theoretically by Ruffin Scott in TN 99-11) approachable via two drop-in methods, CRC_CreateTable and CRC_Calculate, without requiring the reader to understand the underlying CRC math. The CRC32 algorithm and its 4D implementation remain functionally valid today, but 4D has since added built-in digest/hash commands that make hand-rolling CRC32 largely unnecessary for new development, and CRC32 itself is a much weaker integrity check than the SHA-family hashes now considered standard for verifying file integrity.",
     "status": "partially_superseded",
     "related_updates": [
       "4D has since added built-in commands for generating cryptographic digests/hashes, reducing the need to hand-implement checksum algorithms like CRC32 in application code",
-      "Modern file-integrity workflows more commonly rely on standard hash algorithms (SHA-256, etc.) exposed via built-in commands or system APIs rather than a hand-rolled CRC32 routine"
+      "Modern file-integrity workflows more commonly rely on standard hash algorithms (SHA-256, etc.) exposed via built-in commands rather than a hand-rolled CRC32 routine"
     ]
   }
 }

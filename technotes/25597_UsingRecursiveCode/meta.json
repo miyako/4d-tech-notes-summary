@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Roland Lannuzel",
   "page_url": "https://kb.4d.com/assetid=25597",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-56_Using_Recursive_Code.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_56-61_(DEC)/02-56_Using_Recursive_Code.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Recursive methods",
-    "Code maintainability"
+    "Recursive method calls",
+    "FOLDER LIST / DOCUMENT LIST recursive disk search",
+    "Recursive anagram generator",
+    "Count parameters for detecting initial vs. recursive calls",
+    "NEW PROCESS as a pseudo-recursive alternative",
+    "Stack/RAM management for deep recursion"
   ],
   "historical_commentary": {
-    "text": "The software-engineering guidance in this note \u2014 that unintentional indirect recursion is hard to trace and should be avoided \u2014 is a timeless principle that remains just as valid in modern 4D (including its later object-oriented class-based code) as it was in 2002.",
-    "status": "still relevant",
+    "text": "Roland Lannuzel walks through three concrete recursion patterns still taught in CS courses today -- a factorial method, a recursive folder/file search using FOLDER LIST and DOCUMENT LIST, and a recursive anagram generator that sorts and skips duplicate letters -- plus a fourth 'pseudo-recursive' pattern using NEW PROCESS. The core guidance (indirect/mutual recursion is hard to trace, recursion consumes stack and RAM, and 4D Pack's AP_Available memory can guard against overflow) remains sound engineering advice for 4D developers writing methods or classes today. The specific disk-search commands (FOLDER LIST, DOCUMENT LIST) are still present in 4D, though Folder and File objects/ORDA-style APIs now offer more modern alternatives for filesystem traversal.",
+    "status": "still_relevant",
     "related_updates": [
-      "The core guidance on recursion and code maintainability remains applicable to modern 4D, including its later class/object-oriented programming features"
+      "FOLDER LIST and DOCUMENT LIST remain available in current 4D, though the newer Folder/File object commands provide a more modern, object-oriented way to enumerate directory contents",
+      "The general principles about recursion, stack usage, and avoiding uncontrolled indirect recursion apply equally to modern 4D class methods and object-oriented code"
     ]
   }
 }

@@ -7,20 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon, Quality Assurance Manager, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=18204",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-41_4D_Password_System.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_41-45_(SEP)/01-41_Password_System.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D password/access privileges system",
-    "User and Group management"
+    "Designer's vs. Administrator's dual password systems",
+    "GET USER LIST/GET USER PROPERTIES/Set user properties/GET GROUP LIST/GET GROUP PROPERTIES/Set group properties",
+    "EDIT ACCESS and CHANGE ACCESS commands",
+    "CHANGE PASSWORD and Validate password commands",
+    "Per-object/per-table Access and Owner group assignment",
+    "Save Groups/Load Groups Administrator system portability"
   ],
   "historical_commentary": {
-    "text": "This note explains the fundamentals of 4D's built-in password and access-privileges system (excluding its interaction with 4D's web services) as it existed in v6.7. The conceptual model of Users, Groups, and access privileges is still present in current 4D versions, but the underlying security mechanisms (password hashing, session/token-based web authentication) have been substantially strengthened and modernized since 2001, so the specific implementation details in this note are outdated even though the high-level concepts remain recognizable.",
-    "status": "partially_superseded",
+    "text": "Jean-Yves Fock-Hoon explains 4D's built-in, structure-file-embedded password system in depth: its two parallel Designer's and Administrator's user/group stores, how Access/Owner group assignments gate forms, methods, menu items, plug-ins, and per-table record operations, and how to layer custom logic (forced password changes, expiration, account locking, an extra login screen) on top using commands like GET/Set user properties, Validate password, and CHANGE PASSWORD. The 4D language commands and password-system architecture described here (Designer/Administrator split, group-based object access, EDIT ACCESS/CHANGE ACCESS) remain fundamentally the same in current 4D versions, making this a still-accurate reference for the classic 4D privilege model, though modern projects increasingly pair or replace it with web-session/token-based authentication (e.g., for REST/ORDA endpoints) rather than relying solely on the desktop password system.",
+    "status": "still_relevant",
     "related_updates": [
-      "4D's password hashing and storage mechanisms have been modernized considerably since the 2001 era",
-      "Modern 4D web/REST authentication (session tokens, OAuth-style flows) is far more developed than the web-security model excluded from this 2001 note"
+      "The core 4D password/privilege commands and Designer/Administrator group model described here are still present and used the same way in current 4D versions",
+      "Modern 4D web/REST/ORDA applications commonly add session- or token-based authentication layered on top of (or instead of) the classic desktop password system for web clients"
     ]
   }
 }

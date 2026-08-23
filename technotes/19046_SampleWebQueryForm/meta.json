@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Eric Saltzen, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=19046",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_46-49_(OCT)/01-48_Web_Query_Form.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_46-49_(OCT)/01-48_Web_Query_Form.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Tags",
-    "HTML web forms",
-    "4D built-in Web Server query emulation"
+    "4D 6.7 semi-dynamic (.shtm) HTML tags: 4DSCRIPT, 4DLOOP, 4DVAR, 4DIF",
+    "GET WEB FORM VARIABLES",
+    "EXECUTE for building/running dynamic QUERY strings",
+    "Non-contextual (Start without Context) web publishing mode",
+    "Dynamic query construction with AND/OR/Except conjunctions and comparator pop-ups",
+    "4D array-driven HTML table generation"
   ],
   "historical_commentary": {
-    "text": "This note builds a web-based search form against a stock-symbol database, offering both a simple single-field HTML form and a more advanced one that partially emulates 4D's native Query Editor, all served through 4D's tag-based web publishing. The underlying idea of a web search form against 4D data remains universally relevant, but the specific 4D Tags/HTML-embedded implementation shown is a legacy technique that has been superseded by REST/ORDA-backed APIs consumed by modern JavaScript search UIs.",
+    "text": "This note builds a stock-symbol search form against a 4D database using 4D 6.7's new semi-dynamic HTML tag set (4DSCRIPT, 4DLOOP, 4DVAR), offering both a single-field simple form and a multi-field advanced form that emulates 4D's built-in Query Editor by letting the user pick field, comparator, and conjunction per row, then dynamically builds and EXECUTEs a QUERY string. The core idea -- a web search form against 4D data with dynamically constructed queries -- remains a bread-and-butter task today, but the specific 4D-Tags/.shtm implementation shown has been superseded by REST/ORDA-based query APIs consumed by modern JavaScript front ends. The technique of building a query string and running it with EXECUTE is also now more commonly done with ORDA's dynamic query() method rather than string-built classic QUERY/EXECUTE.",
     "status": "partially_superseded",
     "related_updates": [
-      "REST/ORDA-based search and filtering APIs have replaced 4D-Tags-driven HTML query forms in modern 4D web development",
-      "4D's own Query Editor concept lives on in the classic language, but web-facing search UIs are now typically client-side JS apps calling REST endpoints"
+      "4D Tags/HTML-embedded (.shtm) web publishing has been superseded by REST/ORDA APIs consumed by client-side JavaScript applications",
+      "ORDA's entity selection query() method now offers a safer, more structured way to build dynamic multi-criteria queries than concatenating QUERY command strings for EXECUTE"
     ]
   }
 }

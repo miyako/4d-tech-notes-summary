@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jonathan Baltazar, 4D, Inc.",
   "page_url": "https://kb.4d.com/assetid=19047",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_46-49_(OCT)/01-47_ButtonMaker_Example.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_46-49_(OCT)/01-47_ButtonMaker_Example.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Chart",
-    "4D + HTML button graphics generation",
-    "Example database (Jeremy Sullivan, HD Industries)"
+    "4D Chart offscreen areas (CT New offscreen area / CT Area to picture)",
+    "PICTURE TO GIF",
+    "SEND HTML BLOB for dynamically-generated images",
+    "4DACTION URL parameters for passing button attributes",
+    "GET WEB FORM VARIABLES",
+    "CT Draw rectangle / CT Array to polygon for beveled button rendering"
   ],
   "historical_commentary": {
-    "text": "This note walks through an example database that used 4D Chart to programmatically generate custom HTML button graphics from user-entered attributes, a popular dot-com-era task of dynamically producing web imagery from a database. 4D Chart has since been discontinued as a companion product, and dynamic web graphics generation today is handled by client-side CSS/SVG/canvas techniques or external image-generation services rather than a 4D-hosted charting engine, making this note's specific approach obsolete.",
+    "text": "This note walks through the ButtonMaker example database (created by Jeremy Sullivan of HD Industries), which used 4D Chart's offscreen-drawing commands to render a beveled, colored, labeled button image on the fly and stream it back to the browser as a GIF via SEND HTML BLOB, with attributes passed through 4DACTION URL parameters. It's an inventive dot-com-era trick for server-side dynamic image generation entirely inside 4D, but 4D Chart was discontinued as a companion product years ago, so this exact approach can no longer be reproduced in current 4D. Modern equivalents (CSS/SVG buttons, client-side canvas rendering, or external image-generation services) have made server-generated GIF buttons obsolete as a web design technique.",
     "status": "obsolete",
     "related_updates": [
-      "4D Chart was discontinued as a companion product",
-      "Dynamic web graphics are now typically generated with CSS/SVG/canvas on the client or via external image-generation services rather than server-side 4D charting"
+      "4D Chart (the CT ... offscreen-area/drawing command set used throughout this note) was discontinued as a companion product in later 4D versions",
+      "Dynamic button/graphic generation for the web is now handled client-side with CSS/SVG or by external image services rather than server-rendered GIFs"
     ]
   }
 }

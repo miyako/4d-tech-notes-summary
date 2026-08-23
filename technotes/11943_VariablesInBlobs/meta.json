@@ -5,23 +5,26 @@
   "year": 2000,
   "published_date": "December 1, 2000",
   "product": "4D",
-  "version": "",
+  "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Thierry Ozil",
   "page_url": "https://kb.4d.com/assetid=11943",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-58_4D_Variables_in_BLOBs.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_56-60_(DEC)/00-58_Variables_in_Blobs.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "BLOB storage format",
-    "Variable serialization",
-    "Memory/byte-layout internals"
+    "VARIABLE TO BLOB byte-level encoding format",
+    "4D variable type byte codes (Alpha, Text, Real, Integer, Longint, Date, Time, Boolean, Picture, arrays)",
+    "Mac vs. Windows byte ordering (big-endian vs. little-endian)",
+    "Pascal-string encoding for Alpha variables",
+    "10-byte (68K) vs 8-byte (PPC/PC) real-number word length and Apple conversion routines",
+    "Byte-level Blob addressing and offset management"
   ],
   "historical_commentary": {
-    "text": "This note describes the internal, byte-level layout 4D used to serialize variables into a BLOB in the classic v6.5 era, useful for developers needing to manually parse or construct BLOB-encoded variable data (for interchange, storage, or interoperability purposes). Such low-level internal serialization formats are inherently implementation-specific and subject to change across 4D versions, so while the note is a useful historical reference for that specific era's BLOB variable layout, it should not be assumed to reflect current internal formats; modern 4D applications favor higher-level serialization approaches (e.g., JSON, objects/collections) over manually parsing BLOB byte layouts.",
-    "status": "obsolete",
+    "text": "This note documents, byte by byte, the exact binary layout 4D uses when a variable of any type (Alpha, Text, Real, Integer, Long Integer, Date, Time, Boolean, Picture, and their array forms) is written into a Blob via VARIABLE TO BLOB, including the four-byte 'RVLB'/'BLVR' native-variable marker, per-type field widths, alignment padding rules, and the platform-dependent big-endian (Mac) vs. little-endian (Windows) byte ordering. This is genuinely low-level reference material for anyone parsing or generating 4D Blobs from outside 4D (or across mixed old-format databases), and while VARIABLE TO BLOB/BLOB TO VARIABLE remain in the 4D language, most day-to-day Blob work in modern 4D is now done through higher-level, type-safe object/collection and JSON serialization commands, making this exact byte-format knowledge mostly a historical-interest reference rather than an everyday necessity.",
+    "status": "historical_interest_only",
     "related_updates": [
-      "4D has since added higher-level, more portable serialization options (objects, collections, JSON) that are generally preferred over manually parsing raw BLOB byte layouts",
-      "Internal BLOB/variable byte-layout details are implementation-specific and have likely changed across the many 4D versions released since 2000"
+      "VARIABLE TO BLOB and BLOB TO VARIABLE remain part of the current 4D language, but modern 4D development favors object/collection types and JSON-based serialization over manual Blob byte-layout parsing for most use cases",
+      "The 68K Mac real-number word-length and byte-ordering discussion is now purely historical, as 4D no longer supports 68K Macintosh hardware"
     ]
   }
 }

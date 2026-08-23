@@ -1,1 +1,1 @@
-Tech Note: Exploring the Loan Tool Database (TN 01-38, 4D v6.7, August 2001) — a walkthrough of the Loan Tool example database's loan/amortization calculator.
+Amortization math and an iterative interest-rate solver in the Loan Tool example database

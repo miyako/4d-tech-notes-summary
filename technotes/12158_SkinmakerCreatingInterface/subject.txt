@@ -1,1 +1,1 @@
-Tech Note: Skinmaker: Creating an Interface (TN 01-05, 4D v6.7, January 2001) — a technique for building a reusable, dynamically-applied library of custom form background templates ('skins') rather than static per-form backgrounds.
+Building a dynamic nine-slice form background skinning system from corner, border, and center pictures

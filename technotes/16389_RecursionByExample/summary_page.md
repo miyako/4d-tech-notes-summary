@@ -1,42 +1,40 @@
-# Tech Note 01-33: Recursion by Example
+# Tech Note: Recursion by Example
 
-**Author:** Not specified in source
-**Published:** July 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=16389
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_31-35_(JUL)/01-33_Recursion_by_Example.exe (dead link — see Historical Context)
+- **Asset ID:** 16389
+- **Tech Note #:** 01-33
+- **Published:** July 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Cha Yang
+- **Page URL:** https://kb.4d.com/assetid=16389
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_31-35_(JUL)/01-33_Recursion_by_Example.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> This technical note provides an overview of recursion, supplemented by examples. It also explains when to use recursion and when not to use recursion.
+Cha Yang (4D, Inc. Technical Engineer) provides a general overview of recursion as a 4D programming technique, explaining how the stack tracks each nested method call, then demonstrates the idea with a simple factorial method before applying it to a real, practically useful example: converting a numeric amount into its English word form.
 
 ## Key Points
 
-Based on the available teaser text, this note is: an overview of recursion in 4D's classic language, with guidance on when to use and avoid it.
+- Defines recursion as a method calling itself until a condition is met, and explains that each call pushes onto 4D's stack the return address and local variable state, consuming stack space until the base case unwinds it — exceeding available stack raises "Not enough Stack Space to complete the current Method."
+- Example 1, `RecursiveFactorial`, computes 3! in five lines (`$0:=$1*RecursiveFactorial($1+1)` with a base case at `$1<=3`), with a step-by-step trace of how the stack builds up through levels and unwinds multiplying values back (1→3→6→6).
+- Example 2, `NumToText` (by Dave Batton, DataCraft, from a 4D NUG snippet by Kirk Brooks, part of the "Check Register" example database), recursively converts a `real` dollar amount into words — e.g., `NumToText(5432)` divides off thousands (`$dollars\1000`), recurses on the remainder, and concatenates words like "Five Thousand Four Hundred Thirty Two", useful for printing checks.
+- Shows the method wired into a field's object method via `Case of : (Form event=On Data Change) Self->:=Round(Self->;2) ... vDollarsText:=NumToText(Self->)`.
+- Advises recursion is well-suited to naturally self-similar problems/data structures (e.g., trees), but that an iterative loop should be preferred when available since recursion carries real stack/storage overhead.
 
 ## Featured Technology
 
-- Recursive method calls
-- Classic language control flow
+- Recursive project methods
+- Method call stack behavior in 4D
+- RecursiveFactorial example method
+- NumToText digit-to-words conversion (Dave Batton, DataCraft)
+- Object method On Data Change event
 
-## Historical Context
+## Historical Commentary
 
-Published July 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Still relevant
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+This note's explanation of 4D's recursion mechanics and the accompanying factorial/NumToText examples remain fully applicable today: recursive method calls work the same way in current 4D versions, including in class-based, ORDA-era code, and the stack-overhead tradeoff discussed is still the same consideration developers must weigh between recursive and iterative solutions. Nothing about this fundamental, language-agnostic technique has been superseded by newer 4D features.
 
-**Status: Still relevant**
-
-This note provides a general overview of recursion in 4D's classic language, with examples and guidance on when recursion is (and isn't) an appropriate technique. Recursion is a fundamental, language-agnostic programming concept, and 4D's support for recursive method calls is unchanged since this note was written, so its explanations and guidance remain fully applicable to 4D developers today, whether working in classic Design Mode or modern Project Mode.
-
-**What has changed since:**
-
-- Recursive method calls remain fully supported and unchanged in current 4D versions
+**References to newer/updated information:**
+- Recursive method/function calls remain fully supported and largely unchanged in current 4D versions, including in 4D's class-based (ORDA/Project Mode) methods
 - No newer 4D-specific construct has replaced recursion as a general control-flow technique

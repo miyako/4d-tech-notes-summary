@@ -7,19 +7,24 @@
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Roland Lannuzel",
   "page_url": "https://kb.4d.com/assetid=25587",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_46-50_(OCT)/02-46_Referential_Integrity.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_46-50_(OCT)/02-46_Referential_Integrity.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D relational constraints",
-    "Cascading delete behavior"
+    "SET QUERY DESTINATION (Into current selection / Into variable)",
+    "DISTINCT VALUES for fast uniqueness checks",
+    "GET FIELD PROPERTIES / GET FIELD ENTRY PROPERTIES / GET RELATION PROPERTIES",
+    "RELATE MANY SELECTION + sets (CREATE SET / DIFFERENCE) for orphan detection",
+    "ORDER BY-based index verification",
+    "Structure introspection via Count tables / Count fields / Table() / Field()"
   ],
   "historical_commentary": {
-    "text": "The fundamental referential integrity concepts described here remain fully valid in current 4D, though ORDA's relation attributes (introduced in 4D v17+) provide an additional, more modern way to define and navigate these relationships alongside the classic structure-level automatic relations this note discusses.",
-    "status": "still relevant",
+    "text": "Roland Lannuzel (4D S.A.) provides four self-contained, structure-introspecting maintenance methods that check data consistency issues 4D's built-in constraints don't catch on already-existing data: duplicate values in Unique fields, null values in Mandatory fields, orphaned N-side records missing their matching 1-side record (an N-to-1 relation check), and index corruption. Each method loops over `Count tables`/`Count fields` and uses field-property introspection commands, with clever set-based (`CREATE SET`/`DIFFERENCE` combined with `RELATE MANY SELECTION`) and array-based (`DISTINCT VALUES`) optimizations rather than brute-force record-by-record loops. The fundamental referential-integrity concepts and the classic structure-level relations/constraints described here remain fully valid and supported in current 4D; ORDA (introduced in 4D v17+) has since added an additional, more modern object-based way to define and navigate these same relationships, but it complements rather than replaces the classic mechanisms this note relies on.",
+    "status": "still_relevant",
     "related_updates": [
-      "ORDA (introduced in 4D v17+) provides an additional, object-based way to define and navigate relations, alongside the classic structure-level automatic relations described in this note"
+      "ORDA (introduced in 4D v17+) provides an additional, object-based way to define and navigate relations and referential constraints, alongside the classic structure-level relations and field properties (Unique, Mandatory, Indexed) described in this note",
+      "The specific commands used here -- SET QUERY DESTINATION, DISTINCT VALUES, RELATE MANY SELECTION, GET FIELD PROPERTIES, CREATE SET/DIFFERENCE -- all remain part of current 4D"
     ]
   }
 }

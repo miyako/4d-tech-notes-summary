@@ -1,1 +1,1 @@
-Tech Note: Communicating With 4D (TN 00-52, 4D v6.5, November 2000) — a collection of workarounds for making 4D objects behave outside their normal constraints, including a technique for broadcasting/multicasting information within an application.
+Building a real-time multi-user chat and internal messaging application (4D Communicator) using EXECUTE ON CLIENT

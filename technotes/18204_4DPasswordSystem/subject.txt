@@ -1,1 +1,1 @@
-Tech Note: Understanding the 4D Password System (TN 01-41, 4D v6.7, September 2001) — an explanation of how the classic 4D password and access-privileges system works.
+How 4D's built-in Designer/Administrator password and privilege system works

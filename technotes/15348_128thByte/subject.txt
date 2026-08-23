@@ -1,1 +1,1 @@
-Tech Note: The 128th Byte (TN 01-29, 4D v6.7, June 2001) — a description of the internal byte-level structure of 4D's records within its data files.
+Why 4D stores all data in a single 128-byte-block file, and how record headers/microstructure let structure changes apply lazily

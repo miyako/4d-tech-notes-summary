@@ -1,1 +1,1 @@
-Tech Note: 4D Open: Updating records (TN 02-60,  v, December 2002) — a walkthrough of updating records remotely on a 4D Server using the 4D Open plug-in, based on two identical database structures for simplicity.
+Updating a remote 4D Server record from a client application via the 4D Open plug-in's bind-and-lock API

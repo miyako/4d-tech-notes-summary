@@ -7,20 +7,23 @@
   "product": "4D",
   "version": "6.5",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Pascal Pradier, 4D, S.A.",
   "page_url": "https://kb.4d.com/assetid=18205",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_41-45_(SEP)/01-42_Generate_Pathname_Doc.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_41-45_(SEP)/01-42_Generate_Pathname_Doc.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D document/pathname commands",
-    "File system automation"
+    "TEXT TO BLOB / INTEGER TO BLOB binary layout construction",
+    "SET BLOB SIZE for fixed 148-byte .PTH file format",
+    "Pascal-string encoding of address/user/password",
+    "Platform-specific byte ordering (Macintosh byte ordering / PC byte ordering)",
+    "BLOB TO DOCUMENT plus SET DOCUMENT TYPE/CREATOR for Mac file typing"
   ],
   "historical_commentary": {
-    "text": "This short note shows how to automatically generate a document referenced by a full pathname in 4D, a foundational file-handling task. The classic-language document and pathname-handling commands it relies on remain part of current 4D versions and function essentially the same way today, making the core technique still directly applicable, even as 4D has since added higher-level File/Folder object commands for more structured file-system access.",
-    "status": "still_relevant",
+    "text": "This note reverse-engineers the binary layout of a 4D Client \"pathname\" (.PTH) file -- a 148-byte structure holding a Pascal-string server address, username, and password plus a network-component ID with platform-specific byte ordering -- and shows a MakeKey method to generate one programmatically instead of relying on the 4D Password editor's manual export, so pathname documents can be generated on the fly (e.g., per customer or per server address) rather than only by hand. This is a low-level, format-specific hack tied to the legacy 4D Client/Server pathname-document mechanism and classic Mac file type/creator codes; while 4D Server/Client connections and stored-connection documents still exist in some form, this exact binary format and manual construction technique is now of largely historical interest given how connection setup has evolved since 4D v6.5.",
+    "status": "obsolete",
     "related_updates": [
-      "4D later introduced object-based File and Folder commands (circa 4D v16+) offering a more structured alternative to raw pathname string manipulation",
-      "Classic document/pathname commands from this era remain supported for backward compatibility"
+      "4D client/server connection settings and remote connection handling have evolved substantially since 4D v6.5; automatic pathname-document construction by hand-built blob is no longer a standard technique",
+      "Classic Mac OS file type/creator codes (SET DOCUMENT TYPE/CREATOR) are irrelevant on modern macOS, which identifies files by extension/UTI instead"
     ]
   }
 }

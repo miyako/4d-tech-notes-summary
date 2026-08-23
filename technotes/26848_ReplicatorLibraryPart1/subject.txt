@@ -1,1 +1,1 @@
-Tech Note: Replicator Library (TN 03-07, 4D v2003, February 2003) — the first of two notes on the Replicator code library, covering its basic principles, installation, and configuration.
+Replicator: a trigger-based code library for automatic multi-server data replication in 4th Dimension (part 1 of 2)

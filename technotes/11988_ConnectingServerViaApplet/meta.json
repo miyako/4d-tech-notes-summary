@@ -7,21 +7,24 @@
   "product": "4D Server",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jonathan Baltazar",
   "page_url": "https://kb.4d.com/assetid=11988",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_46-50_(OCT)/00-48_Connecting_Via_Applet.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_46-50_(OCT)/00-48_Connecting_Via_Applet.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
     "4D Open for Java",
-    "Java applets",
-    "policytool (Java security policy)"
+    "Java applets and the appletviewer/Appletrunner",
+    "Java SecurityManager applet sandboxing",
+    "Sun policytool for granting java.security.AllPermission",
+    ".java.policy / java.security policy files",
+    "Java class placement alongside a 4D Server database (Aci folder)"
   ],
   "historical_commentary": {
-    "text": "This note shows how to use a Java applet, launched via Sun's policytool for faster local security-policy handling, as a convenient front end for connecting a 4D Open for Java client to a 4D Server without retyping the server's IP address each time. Java applets have been essentially dead technology since major browsers removed NPAPI/plugin support in the mid-to-late 2010s, and 4D Open itself has been discontinued, so both the specific mechanism and the underlying API this note relies on are entirely obsolete today; developers now reach 4D Server from external code via modern web/REST-based approaches instead.",
+    "text": "This note shows how to connect a Java applet client to a 4D Server across machines using 4D Open for Java, working around the JVM SecurityManager's default restriction that an applet can only reconnect to its originating host by using Sun's policytool to grant java.security.AllPermission for testing purposes. Both halves of this technique are extinct today: Java applets have been unsupported since major browsers dropped NPAPI plugin support in the mid-2010s, and 4D Open (the C/Java client API this note depends on) was discontinued long ago, so developers now reach 4D Server from external code through 4D's REST/ORDA web data server instead.",
     "status": "obsolete",
     "related_updates": [
-      "Java applets are effectively extinct; all major web browsers removed the NPAPI plugin support required to run them years ago",
-      "4D Open (the C/Java client API this note depends on) has been discontinued; modern integrations with 4D Server use 4D's REST/ORDA data server instead"
+      "Java applets are effectively extinct; all major browsers removed the NPAPI plugin support required to run them",
+      "4D Open (and 4D Open for Java specifically) has been discontinued; modern integrations with 4D Server use 4D's REST/ORDA data server instead"
     ]
   }
 }

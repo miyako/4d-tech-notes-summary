@@ -1,31 +1,42 @@
-# Tech Note 01-05: Skinmaker: Creating an Interface
+# Tech Note: Skinmaker: Creating an Interface
 
-**Author:** Not specified in source document
-**Published:** January 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=12158
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_01-05_(JAN)/01-05_Skinmaker.exe
+- **Asset ID:** 12158
+- **Tech Note #:** 01-5
+- **Published:** January 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Gilles Mellot
+- **Page URL:** https://kb.4d.com/assetid=12158
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_01-05_(JAN)/01-05_Skinmaker.hqx
 
 ## Overview
-A technique for building a reusable, dynamically-applied library of custom form background templates ('skins') rather than static per-form backgrounds. This Tech Note, titled 'Skinmaker,' explains how to give a 4D application its own custom, reusable form backgrounds — not by hard-coding a single static background image or pattern into each form, but by building a library of background templates that can be applied dynamically at runtime.
+
+Gilles Mellot (4D S.A.) presents the SkinMaker example database, which builds a library of reusable form-background "skin" templates rather than static images, so a single defined interface skin can be dynamically composited to fit any form size at runtime and dropped into other custom databases with no code changes.
 
 ## Key Points
-- The author emphasizes that the resulting code is designed to be drop-in reusable: it can be integrated into a developer's own custom databases without requiring changes to existing application code.
-- The featured technology is entirely classic Design Mode form customization — background template management and dynamic application of visual 'skins' — aimed at developers who wanted a consistent, distinctive look across an application's forms without manually re-styling every single one.
+
+- Each skin is built from nine source pictures: four corners (`P_TR_Corner`, `P_TL_Corner`, `P_LR_Corner`, `P_LL_Corner`), four borders (`P_Left`, `P_Right`, `P_Top`, `P_Bottom`), and a center fill (`P_Center`) — a classic nine-slice composition approach.
+- `Skin_VerifSize` computes the minimum overall picture size needed by reading each corner/border picture's `◊Width`/`◊Height` via `F_PictSize`, ensuring the assembled result matches or exceeds the target form's dimensions without distortion.
+- Templates are saved by packing all nine picture variables sequentially into a single BLOB with repeated `VARIABLE TO BLOB(...;$blob;$offset)` calls, then storing that BLOB in a custom resource named "skin" via `SET RESOURCE`/`SET RESOURCE NAME`, keyed by a skin ID and name array.
+- `Skin_Fill` reverses the process: `GET RESOURCE("skin";$1;$blob;◊LocalRessFile)` followed by matching `BLOB TO VARIABLE` calls restores the nine pictures, then `SET PICTURE TO LIBRARY(P_Center;1;"BackGround")` (or `REMOVE PICTURE FROM LIBRARY` if empty) loads the fill picture into the Picture Library for display.
+- The final composited border/fill pictures are built using picture concatenation (`|`) and tiling logic that steps across the target width/height in increments of the border picture's own dimension, handling a final partial-width remainder tile with a computed scale coefficient.
+- The `Test` object method opens a window sized to the user-specified Form Width/Height and immediately displays the composited skin via `Skin_Calc` and a `DIALOG([Interface];"INT_Skin")` call, letting a developer preview a skin at any target size before adopting it.
 
 ## Featured Technology
-- Custom form backgrounds
-- Dynamic template library
-- Binary Design Mode form skinning
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- Picture operators (concatenation |, division / for tiling)
+- VARIABLE TO BLOB / BLOB TO VARIABLE
+- SET RESOURCE / GET RESOURCE (Skin resource storage)
+- SET PICTURE TO LIBRARY / REMOVE PICTURE FROM LIBRARY
+- Nine-slice picture composition (4 corners, 4 borders, center fill)
+- Dynamic form background templates (Skin_Fill / Skin_Calc)
 
 ## Historical Commentary
-**Status:** Historical interest only
 
-This note ('Skinmaker') shows how to build a library of dynamically applied form-background templates in classic, binary Design Mode 4D, rather than hard-coding a static background into each form. This entire class of technique — visually 'skinning' binary Design Mode forms — has been superseded by decades of subsequent UI evolution, including Project Mode, richer native form styling, and (for web/mobile front-ends) CSS-based theming, making the specific implementation shown here of historical interest only for developers curious about period UI customization approaches.
+**Status:** Obsolete
 
-**Related updates since:**
-- Project Mode's text-based forms and 4D's expanded native styling options have replaced the need for hand-built 'skin library' background systems
-- Web and mobile front-ends built on ORDA/REST today typically use CSS-based theming rather than 4D form-object background tricks for interface skinning
+Gilles Mellot's note shows a nine-slice interface-skinning technique -- four corner pictures, four border pictures, and a center fill, tiled and concatenated with 4D's picture operators into a single composite background matched to a form's exact size -- with each template persisted as a Blob in a custom "Skin" resource and reloaded via Skin_Fill/Skin_Calc. The underlying nine-slice composition idea is still a recognizable UI technique, but the specific implementation is deeply tied to obsolete Mac OS resource forks (SET RESOURCE/GET RESOURCE) and the classic Picture Library, both of which have been superseded by 4D's modern object/JSON-based settings storage and CSS-driven form styling, making this note's mechanics obsolete for current development even though the visual concept it automates persists in modern UI frameworks.
 
+**References to newer/updated information:**
+- 4D's classic resource-fork storage (SET RESOURCE/GET RESOURCE) is obsolete; modern 4D applications store structured data like this in objects/JSON or preference files instead
+- Modern 4D form styling relies on CSS-based theming and form object properties rather than manually composited nine-slice picture backgrounds built from Picture Library entries

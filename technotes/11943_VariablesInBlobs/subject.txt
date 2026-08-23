@@ -1,1 +1,1 @@
-Tech Note: Architecture of Variables in Blobs (TN 00-58, 4D v, December 2000) — a description of the internal byte-level architecture 4D uses to store variables inside a BLOB.
+Documenting the exact byte-level layout 4D uses to encode variables and arrays inside a Blob via VARIABLE TO BLOB

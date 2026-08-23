@@ -7,23 +7,25 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jonathan Baltazar",
   "page_url": "https://kb.4d.com/assetid=15345",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_26-30_(JUN)/01-26_Web_Authentication.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_26-30_(JUN)/01-26_Web_Authentication.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Web Server (Contextual Mode)",
-    "4D password system (built-in user/group accounts)",
-    "On Web Authentication database method",
-    "WebExam example database"
+    "4DACTION-based custom login (Web Exam example database)",
+    "SEND HTML FILE for conditional page routing",
+    "4D built-in Password System (Use Passwords / Include 4D Passwords)",
+    "On Web Authentication database method (6 parameters, Boolean $0)",
+    "GET USER LIST / Is user deleted for 4D user validation",
+    "4D Link / nph-cgi4d.exe / 4DISAPI.dll web-server-gateway compatibility notes"
   ],
   "historical_commentary": {
-    "text": "This note surveys techniques for restricting access to portions of a 4D-served web site circa 2001, centered on 4D's then-current Contextual Mode web server, the classic built-in 4D password/account system, and the On Web Authentication database method. The general problem \u2014 gating access to protected web resources \u2014 is timeless, but every specific mechanism described (4D's classic password system, Contextual Mode session handling, On Web Authentication) has been superseded by modern web authentication approaches (HTTPS, session tokens/JWT, REST-based APIs) and by 4D's own move away from Contextual Mode web serving toward REST/ORDA-based web services, making this note obsolete as a practical recipe today.",
-    "status": "obsolete",
+    "text": "Jonathan Baltazar (4D, Inc.) surveys three approaches to securing pages of a 4D-served website circa 2001: a fully custom, application-level login using the Web Exam sample database and QUERY-based credential checks with SEND HTML FILE routing; 4D's built-in Password System (Use Passwords/Include 4D Passwords in Web Server II settings); and the On Web Authentication database method, which receives the URL, HTTP header/body, client/server IP, and username/password as six parameters and returns a Boolean to accept or reject the connection. All three fundamental strategies (application-level login tables, built-in 4D users, and a custom On Web Authentication hook) remain conceptually valid today, but the specific web-serving stack described — 4D's original built-in Web Server, 4D Link/WebSTAR, nph-cgi4d.exe, and 4DISAPI.dll gateways — has been superseded by 4D's modern web server (based on a completely rewritten HTTP engine) and REST/ORDA-based authentication (session tokens, HTTP Basic/OAuth-style flows), making the specific implementation details here obsolete even though the high-level authentication concepts persist.",
+    "status": "partially_superseded",
     "related_updates": [
-      "4D's web serving model has shifted decisively from Contextual/Non-contextual Mode to REST APIs built on ORDA plus modern client-side frameworks",
-      "Web authentication today is typically implemented via HTTPS session cookies, tokens (JWT/OAuth), or platform identity providers rather than 4D's classic built-in password/account system",
-      "4D's built-in password system itself has evolved considerably since this era with stronger hashing and session management options"
+      "4D's web server architecture was substantially rewritten in later 4D versions (moving away from the CGI-era 4D Link/nph-cgi4d.exe/4DISAPI.dll gateway model described here)",
+      "Modern 4D web/REST authentication commonly uses session tokens and standard HTTP authentication schemes rather than the On Web Authentication six-parameter method shown, though On Web Authentication itself remains available in current 4D versions",
+      "4D's REST/ORDA APIs provide additional, more modern mechanisms for securing programmatic access to data that did not exist in 2001"
     ]
   }
 }

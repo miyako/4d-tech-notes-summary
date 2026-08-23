@@ -1,1 +1,1 @@
-Tech Note: Using Splitters (TN 01-27, 4D v6.7, June 2001) — a tour of the many uses of the Splitter form object, introduced in 4D v6.5, for building resizable interface regions.
+A tour of 4D's Splitter form object: resize behaviors, variable binding, On Timer-driven animation, and a drag-to-palette pattern

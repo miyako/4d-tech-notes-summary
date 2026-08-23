@@ -1,32 +1,41 @@
-# Tech Note 01-08: Handling Multiple Item HTML Select Inputs with 4D 6.5
+# Tech Note: Handling Multiple Item HTML Select Inputs with 4D 6.5
 
-**Author:** Not specified in source document
-**Published:** February 28, 2001 | **Product/Version:** 4D v6.5 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=12148
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-08_HTML_Select_Inputs.exe
+- **Asset ID:** 12148
+- **Tech Note #:** 01-08
+- **Published:** February 28, 2001
+- **Product / Version:** 4D 6.5
+- **Platform:** Mac & Win
+- **Author:** Eric Saltzen
+- **Page URL:** https://kb.4d.com/assetid=12148
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_06-10_(FEB)/01-08_MultipleItem_Select.hqx
 
 ## Overview
-A technique for correctly decoding an HTML SELECT MULTIPLE form input, where several selected values are submitted to the web server under the same field name. This Tech Note addresses a specific, easy-to-get-wrong detail of HTML forms integration with 4D's web server: an HTML SELECT input, when given the MULTIPLE keyword, allows a user to select more than one entry from a list of choices (typically by holding Control or Shift while clicking), optionally combined with a SIZE attribute controlling how many choices are visible at once.
+
+Eric Saltzen of 4D, Inc. Technical Support supplies hand-written 4D parsing methods — ProcessMultipleItemSelect, DecodeURLText, and HexToDec — to correctly collect all values from an HTML MULTIPLE SELECT form input submitted via either GET (4DACTION) or POST (4DCGI/On Web Connection), a case 4D v6.5's built-in web form handling did not support.
 
 ## Key Points
-- The complication is that when multiple items are selected, the browser submits each selected value to the web server under the identical field name, so the receiving 4D method must be written carefully to recognize and correctly collect all of the repeated values rather than only capturing the first (or last) one seen.
-- The note explains exactly how to implement this decoding logic.
-- Its featured technology is 4D's classic web-form-field decoding on the built-in web server, aimed at developers building HTML forms with multi-select inputs against a 4D-served backend during the era before structured JSON payloads made this kind of manual parsing unnecessary.
+
+- On Web Connection recognizes /4DCGI/Form01 POST submissions and calls ProcessMultipleItemSelect("GameSystems";$2;->atGameSystems) against the raw POST body in $2 to collect all selected values into an array.
+- AcceptForm01 handles the equivalent GET-method submission from getform.html, calling ProcessMultipleItemSelect against the URL text in $1 for the Name, Experienced, and GameSystems fields.
+- ProcessMultipleItemSelect walks the input text in a While loop, repeatedly using Position to locate the next "FieldName=" occurrence, extracting the value up to the next "&" or end of string, and appending it to the results array with INSERT ELEMENT — returning a normal single-entry array for ordinary (non-multiple) inputs.
+- DecodeURLText converts POST-submitted, URL-encoded text back to plain text: it replaces "+" with spaces, then scans for "%XX" sequences and converts each to its corresponding character via Char(HexToDec(...)), finally normalizing the result with ISO to Mac.
+- HexToDec manually converts up to 8 hexadecimal digits to a LONGINT by iterating characters from least- to most-significant and summing digit*16^position via a large Case of statement (rather than using a shortcut library function).
+- The note ends with an explicit obsolescence notice: 4D v6.7's new GET WEB FORM VARIABLES command renders this whole technique 'trivial' by comparison, and the author recommends upgrading rather than adopting a 6.7 version of this workaround.
 
 ## Featured Technology
-- HTML SELECT MULTIPLE form input
-- 4D Web Server (form field decoding)
-- Repeated-name parameter parsing
 
-## Historical Context
-This summary is based only on the available teaser text from the 4D Knowledgebase page; the linked download was an old Windows self-extracting .exe installer (or a Mac-native archive of the same era) that could not be extracted in this environment, so only the on-page teaser paragraph was available. No claims are made here beyond what that teaser describes, and any code, screenshots, or detailed implementation from the original Tech Note and its example database could not be reviewed.
+- On Web Connection / 4DCGI (POST) form handling
+- 4DACTION (GET) form handling
+- Custom ProcessMultipleItemSelect parsing method
+- Custom DecodeURLText / HexToDec URL-decoding methods
+- HTML MULTIPLE SELECT form inputs
 
 ## Historical Commentary
-**Status:** Superseded
 
-This note solves a specific HTML-forms decoding problem: an HTML SELECT input with the MULTIPLE keyword submits several selected values under the same field name, so a 4D web-serving method needs to be written smart enough to recognize and collect all of them rather than just the first. This entire class of manual HTML form-field parsing on 4D's classic web server has since been superseded by REST/ORDA-based web services, where structured JSON payloads (which natively support arrays of values) eliminate the need to manually decode repeated-name form fields.
+**Status:** Obsolete
 
-**Related updates since:**
-- 4D's web architecture has moved from raw HTML form field decoding on the built-in web server to REST APIs (built on ORDA) that exchange structured JSON, which natively represents multi-value fields as arrays
-- Modern front-end frameworks handling multi-select inputs typically serialize the selection as a JSON array sent to a REST endpoint rather than relying on repeated same-named form fields parsed server-side
+Written by Eric Saltzen of 4D, Inc. Technical Support, this note supplies hand-written 4D methods (ProcessMultipleItemSelect, DecodeURLText, HexToDec) to parse HTML forms containing a MULTIPLE SELECT input, since 4D v6.5's built-in web form processing did not natively handle multiple values submitted under the same field name for either GET (4DACTION) or POST (4DCGI/On Web Connection) submissions. The note explicitly flags its own obsolescence in a closing note: 4D v6.7's new GET WEB FORM VARIABLES command made this hand-rolled parsing 'trivial,' and 4D's web stack has since moved even further, through GET WEB FORM VARIABLES-based processing to today's WEB SEND FILE/httpRequest and ORDA/REST-based web development, making this manual URL-decoding and multi-value parsing technique obsolete for current 4D web applications.
 
+**References to newer/updated information:**
+- 4D v6.7 introduced GET WEB FORM VARIABLES, which the author himself flagged as making this hand-rolled multiple-select parsing technique trivial by comparison
+- Modern 4D web development has moved to WEB SEND FILE/httpRequest, REST APIs on ORDA, and browser-side JavaScript, superseding raw form-string parsing entirely

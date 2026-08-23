@@ -1,1 +1,1 @@
-Tech Note: Pointers from Scratch (TN 01-39, 4D v6.7, August 2001) — an introduction to the concept and mechanics of pointers in 4D's classic language.
+An introductory tutorial on 4D pointers, referencing, and dereferencing

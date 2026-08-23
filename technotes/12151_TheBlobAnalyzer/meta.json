@@ -7,17 +7,19 @@
   "product": "4D",
   "version": "6.5",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Gilles Mellot",
   "page_url": "https://kb.4d.com/assetid=12151",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_06-10_(FEB)/01-10_The_Blob_Analyzer.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_06-10_(FEB)/01-10_The_Blob_Analyzer.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "BLOB fields",
-    "Decimal/hexadecimal data inspection utility",
-    "Development-time debugging tool"
+    "BLOB fields and BLOB to text conversion",
+    "Development-time BLOB inspection utility (Wood_Blob)",
+    "Decimal/hexadecimal/binary base conversion",
+    "Hierarchical pop-up menu for field selection",
+    "On Timer form event for live hex/ASCII highlighting"
   ],
   "historical_commentary": {
-    "text": "This note addresses a real development-time gap of the era: 4D could not natively display the contents of a BLOB field on a form, which was a problem for developers making extensive use of BLOBs to store non-4D data types. The specific gap it patches has since been closed by 4D's expanded native debugging and variable-inspection tooling, and much of the raw-BLOB-as-generic-storage pattern itself has been supplemented by native JSON/object/collection handling for structured data, making this utility superseded by both better built-in tooling and evolved data-modeling practices.",
+    "text": "Written by Gilles Mellot of 4D S.A., this note addresses a real development-time gap of the era: 4D could not natively display the contents of a BLOB field on a form, a problem for developers using BLOBs to store non-4D data types. The utility it provides — a single reusable Wood_Blob method and form that lets a developer page through a BLOB field's contents in hex/ASCII/binary, search for byte sequences, and convert between number bases — has been superseded by 4D's expanded native debugger and variable-inspection tooling, and much of the raw-BLOB-as-generic-storage pattern itself has been supplemented by native JSON/object/collection handling for structured data.",
     "status": "superseded",
     "related_updates": [
       "4D's debugger and variable-inspection tools have since gained the ability to inspect BLOB and other complex variable contents natively, closing the gap this utility addressed",

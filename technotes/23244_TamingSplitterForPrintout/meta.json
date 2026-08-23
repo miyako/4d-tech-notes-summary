@@ -3,23 +3,28 @@
   "title": "Tech Note: Taming The Splitter For Printout",
   "technote_number": "02-27",
   "year": 2002,
-  "published_date": "June 14, 2002",
+  "published_date": "June 30, 2002",
   "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hartman",
   "page_url": "https://kb.4d.com/assetid=23244",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_25-29_(JUN)/02-27_Taming_the_Splitter.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_25-27_(JUN)/02-27_Taming_The_Splitter.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Form splitters",
-    "Print layout consistency"
+    "Splitter (invisible button) objects on output forms",
+    "GET OBJECT RECT / MOVE OBJECT",
+    "On Clicked splitter event capturing",
+    "On Header / On Printing Detail print form events",
+    "Generic label/field naming convention (label1, field1, Splitter1...) for loop-driven repositioning",
+    "Duplicate print-only form replacing splitters with lines"
   ],
   "historical_commentary": {
-    "text": "The specific splitter/printing quirk addressed here is tied to classic 4D form printing behavior; developers working with current 4D forms and print commands would need to verify whether this specific issue still applies, though the general goal \u2014 WYSIWYG consistency between screen and print output \u2014 remains a timeless usability concern.",
-    "status": "historical interest only",
+    "text": "This note solves a specific, well-known 4D quirk of its era: standard splitters (implemented as invisible buttons) reset to their design-time position when a form is printed, even if the user had dragged them to reveal more of a field's contents on screen. The fix -- a duplicate print form with lines instead of splitters, a generic label/field naming scheme, and code that captures splitter positions via On Clicked and reapplies them via MOVE OBJECT during On Header/On Printing Detail -- is a clever, still-conceptually-valid workaround, but it targets classic 4D output forms and PRINT SELECTION/PRINT RECORD-based reporting. Modern 4D report generation (list forms, form objects with saved user layouts, and 4D Write Pro-based reporting) has largely eliminated the need for this splitter-position workaround, making the specific technique here superseded by more capable built-in printing/report tools, though the general idea of preserving user-adjusted column widths for printed output remains a relevant UX concern.",
+    "status": "superseded",
     "related_updates": [
-      "4D's form printing behavior has continued to evolve since this note, and the specific splitter-printing quirk described may or may not still apply to current versions"
+      "Modern 4D form/report tooling (list forms with persisted column widths, 4D Write Pro-based reports) largely avoids the splitter-reset-on-print problem this note works around",
+      "Classic output-form-based PRINT SELECTION/PRINT RECORD printing with manual splitter objects is a legacy pattern; current 4D projects more commonly use 4D Write Pro or richer report generation for user-adjustable printed layouts"
     ]
   }
 }

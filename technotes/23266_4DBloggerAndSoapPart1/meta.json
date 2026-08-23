@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jamras Komoncharoensiri",
   "page_url": "https://kb.4d.com/assetid=23266",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-13_4D_Blogger_and_SOAP.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_11-15_(MAR)/03-13_4D_Blogger_and_SOAP.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SOAP",
-    "4D Blogger",
-    "Blog client/server protocol"
+    "4D 2003 SOAP Web Services (client and server)",
+    "SOAP DECLARATION (SOAP Input/Output parameters)",
+    "On Web Authentication database method",
+    "AUTHENTICATE WEB SERVICE",
+    "Get Web Service error info / ON ERR CALL error handling",
+    "4D Write log editor integration",
+    "4D Blogger WebLog Server/Client architecture"
   ],
   "historical_commentary": {
-    "text": "4D Blogger and its SOAP-based (Blogger/MetaWeblog-API-style) architecture are long obsolete; modern blogging platforms and content APIs almost universally use REST/JSON rather than SOAP, making this note of historical interest as an early-2000s snapshot of blogging technology built on 4D.",
+    "text": "This note documents 4D Blogger, an early-2000s blogging platform built with 4D that combined standard HTTP publishing with 4D 2003's brand-new built-in SOAP Web Services stack for its rich client (create/modify/delete posts, search, archive management, all as SOAP methods with custom authentication and error handling). It is a genuinely useful worked example of 4D's early SOAP server- and client-side APIs -- declaring SOAP inputs/outputs, wiring authentication through On Web Authentication, and handling SOAP faults via Get Web Service error info -- but the specific product (4D Blogger) and its SOAP-based Blogger/MetaWeblog-style protocol are long defunct, as virtually all modern blogging and CMS platforms now use REST/JSON APIs instead of SOAP.",
     "status": "obsolete",
     "related_updates": [
-      "SOAP-based blogging APIs (like the MetaWeblog/Blogger APIs of this era) have been superseded by modern REST/JSON-based content APIs"
+      "4D Blogger itself was discontinued long ago and SOAP-based blogging APIs of this style have been superseded industry-wide by REST/JSON content APIs",
+      "4D's SOAP client/server commands demonstrated here (SOAP DECLARATION, AUTHENTICATE WEB SERVICE) still exist in 4D but 4D now also offers native REST/JSON HTTP handling that is generally preferred for new web service integrations"
     ]
   }
 }

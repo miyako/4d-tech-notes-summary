@@ -7,21 +7,24 @@
   "product": "4D",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Steve Hussey, Editor and Publisher, Dimensions Journal",
   "page_url": "https://kb.4d.com/assetid=19051",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_50-53_(NOV)/01-52_Printing_Arrays.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_51-56_(NOV)/01-52_Printing_Arrays.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Arrays",
-    "PRINT FORM",
-    "Report generation from array data"
+    "PRINT FORM command",
+    "DISTINCT VALUES / SORT ARRAY",
+    "Grouped scrollable array display on a dialog",
+    "Process variables mirroring array elements for printing",
+    "PRINT SETTINGS / PAGE BREAK",
+    "QUERY-based accumulation loop"
   ],
   "historical_commentary": {
-    "text": "This note explains a workaround for a real classic-language limitation \u2014 arrays cannot be printed directly \u2014 by mapping array data into form variables and using PRINT FORM to render it. This general variable/PRINT FORM technique still functions in current 4D versions, though today a List Box bound to a collection or array, or 4D Write Pro, would often be a more convenient way to lay out and print the same tabular data.",
-    "status": "still_relevant",
+    "text": "Steve Hussey, Editor and Publisher of Dimensions Journal, explains a workaround for a real limitation in classic 4D: arrays cannot be printed directly, so this note shows how to loop through array elements, copy each one into a process variable placed on a Detail-only print form, and call PRINT FORM repeatedly (header, then one call per data row, then footer) followed by PAGE BREAK to produce a printed report from array-backed dialog data. This process-variable-per-row PRINT FORM looping technique remains technically valid in current 4D and is still occasionally used, but modern 4D reporting increasingly favors List Forms, Quick Reports, or web/PDF-based report generation that can work with arrays, collections, or entity selections more directly, reducing the need for this manual per-row form-printing loop.",
+    "status": "partially_superseded",
     "related_updates": [
-      "List Box objects (with array or collection data sources) now offer a more direct way to display and print tabular array data",
-      "4D Write Pro provides richer document-based printing options than plain PRINT FORM"
+      "The PRINT FORM/process-variable-loop technique described here still works in current 4D, but many developers now use List Forms, printable collections, or PDF/report generation tools that handle array or collection data more directly",
+      "Nothing about PRINT FORM's inability to print arrays directly has changed; this note's underlying technique remains a valid, if manual, workaround today"
     ]
   }
 }

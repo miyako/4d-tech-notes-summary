@@ -1,1 +1,1 @@
-Tech Note: 4D for Keynote (TN 03-15, 4D v2003, March 2003) — a plug-in/technique for importing chart data from an Apple Keynote presentation into 4D, editing it, and exporting the modified presentation back to disk.
+4D for Keynote: importing, editing, and re-exporting Apple Keynote chart data from within a 4D database

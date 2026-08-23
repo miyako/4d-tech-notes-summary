@@ -3,25 +3,27 @@
   "title": "Tech Note: The Enterprise Data Module: The Videos2000 Example Database",
   "technote_number": "00-59",
   "year": 2000,
-  "published_date": "December 1, 2000",
+  "published_date": "December 2000",
   "product": "4D",
-  "version": "6.5",
+  "version": "DataGrid Beta 1",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Sebastian Frey",
   "page_url": "https://kb.4d.com/assetid=11996",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/Windows/TN_2000_56-60_(DEC)/00-59_Enterprise_Data_Mod_1.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2000/MacOS/TN_2000_56-60_(DEC)/00-59_EDM_Videos2000.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "Enterprise Data Module (EDM) / DataGrid (Beta)",
-    "4D Plug-Ins (DataGrid modules)",
-    "Videos2000 sample application"
+    "Enterprise Data Module (EDM) Models and Queries",
+    "EDM_ConnectionForType (4D Open / ODBC / Oracle)",
+    "EDM_QueryCreate / EDM_QueryRowsAllSelect / EDM_QueryPageGoto",
+    "EDM_ModelRowSave / EDM_ModelArrayToVariable",
+    "DataGrid Launcher and GRD_/CAL_ list-detail UI modules"
   ],
   "historical_commentary": {
-    "text": "This note is the seventh installment of a Tech Note series covering the Beta 1 version of 4D's Enterprise Data Module/DataGrid application, shifting focus from the individual modules and plug-ins covered in the prior six notes to a complete sample application, Videos2000, built on top of the platform. The Enterprise Data Module/DataGrid product line described here is a discontinued, superseded piece of 4D's history, and the series' framing around a still-in-Beta product from 2000 makes it chiefly of historical interest today, illustrating an early attempt at a modular, plug-in-driven data application framework that predates 4D's later, very different ORDA-based relational data model.",
-    "status": "historical interest only",
+    "text": "Written by Sebastian Frey, Web Developer Tools Evangelist at 4D, Inc., this note is the seventh in a series documenting the Beta 1 DataGrid/Enterprise Data Module (EDM) toolkit, using the Videos2000 sample application to show how one code base can query and replicate data across the local 4D database, a remote 4D Server (4D Open), Oracle, and ODBC sources through a uniform Model/Query API. EDM and DataGrid were an early, ambitious 4D connectivity abstraction layer that has since been entirely superseded by 4D's native SQL/ODBC/JDBC connectivity and, more fundamentally, by ORDA's data-source-agnostic entity/entity-selection model introduced in 4D v16 (2018), making this specific API obsolete, though the underlying goal of a unified way to query multiple backend data sources is now met natively.",
+    "status": "obsolete",
     "related_updates": [
-      "The Enterprise Data Module / DataGrid product line described in this series has been discontinued and is no longer part of current 4D offerings",
-      "4D's modern relational/entity data access model (ORDA, introduced 2018) represents a substantially different, later approach to structured data handling than the modular DataGrid/EDM framework this note documents"
+      "4D's ORDA layer (introduced 4D v16, 2018) now provides a native, unified entity/entity-selection abstraction over multiple data sources, superseding the third-party EDM/DataGrid toolkit shown here",
+      "4D has since added native SQL, ODBC, and JDBC connectivity commands, removing the need for the EDM_OdbSqlExecute/EDM_OraSqlExecute-style wrapper methods demonstrated in this note"
     ]
   }
 }

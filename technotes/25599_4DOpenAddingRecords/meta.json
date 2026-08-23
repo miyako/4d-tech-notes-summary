@@ -4,22 +4,25 @@
   "technote_number": "02-58",
   "year": 2002,
   "published_date": "December 31, 2002",
-  "product": "4D Open",
+  "product": "4D",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Christian Cypert",
   "page_url": "https://kb.4d.com/assetid=25599",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_56-61_(DEC)/02-58_4D_Open-Add_Records.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_56-61_(DEC)/02-58_4D_Open-Add_Records.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Open plug-in",
-    "Remote record creation"
+    "4D Open plug-in remote connection API (OP Open connection, OP Create bind)",
+    "OP New record for creating a remote record from bound local variables",
+    "OP Get record numbers for retrieving the resulting server record numbers",
+    "Bound-variable pattern for pushing form field values to a new remote record"
   ],
   "historical_commentary": {
-    "text": "4D Open as a distinct plug-in is obsolete; modern 4D applications would use ORDA remote datastores or REST APIs to add records to a remote 4D Server rather than this legacy plug-in mechanism.",
+    "text": "As the opening note in a three-part 4D Open series, this is a concise, code-focused introduction to remote record creation via bound variables and the OP New record / OP Get record numbers commands — a foundational pattern the next two notes (Deleting and Updating records) build directly on. The 4D Open plug-in has been discontinued for many years, so this exact API is unavailable in current 4D versions; 4D's ORDA remote datastores and REST APIs have long since superseded 4D Open as the standard way to create records on a remote 4D Server, generally with simpler entity-based syntax and without the identical-structure/table-number assumptions this note relies on.",
     "status": "obsolete",
     "related_updates": [
-      "ORDA remote datastores and REST APIs have superseded the 4D Open plug-in for remote record CRUD operations"
+      "The 4D Open plug-in has been discontinued and the OP New record / OP Create bind API described here is unavailable in current 4D versions",
+      "ORDA remote datastores and REST APIs have superseded 4D Open as the standard way to create records on a remote 4D Server"
     ]
   }
 }

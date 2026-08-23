@@ -7,19 +7,24 @@
   "product": "4D Open",
   "version": "6.8",
   "platform": "Mac",
-  "author": null,
+  "author": "Christian Cypert",
   "page_url": "https://kb.4d.com/assetid=25595",
-  "download_url": "https://kb.4d.com/DLTN/TN/2002/Windows/TN_2002_51-55_(NOV)/02-54_Using_LDAP_with_4D.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_51-55_(NOV)/02-54_Using_LDAP_with_4D.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "LDAP",
-    "Custom plug-in authentication"
+    "LDAP (Lightweight Directory Access Protocol)",
+    "4D Plug-in Wizard",
+    "ldap_init / ldap_simple_bind_s / ldap_unbind_s (OpenLDAP C API)",
+    "Distinguished Names (DN)",
+    "Custom 4D plug-in command (ldap_Authentication)",
+    "OpenLDAP / WLDAP32.lib libraries"
   ],
   "historical_commentary": {
-    "text": "LDAP remains a widely used, still-relevant directory-service protocol, but 4D has since gained more native networking/protocol capabilities that could reduce the need for a fully custom plug-in of the kind built here; modern applications also increasingly favor SSO/OAuth-based identity providers over direct LDAP integration, making this note's specific plug-in approach somewhat dated even as the underlying authentication need remains real.",
+    "text": "Christian Cypert (billed as 4D & WebSTAR Plug-in Evangelist) shows how to build a custom compiled 4D plug-in from scratch, using the 4D Plug-in Wizard and the OpenLDAP C client API (ldap_init, ldap_simple_bind_s, ldap_unbind_s), to authenticate a 4D user against an LDAP directory by binding with a constructed Distinguished Name. LDAP itself remains a widely deployed enterprise directory protocol, so the underlying authentication need is still real, but building a bespoke compiled plug-in to speak LDAP is now unnecessary: 4D has since added native LDAP support directly in the 4D language, and many modern applications favor SSO/OAuth-based identity providers over direct LDAP binds altogether.",
     "status": "superseded",
     "related_updates": [
-      "LDAP remains in wide enterprise use, but many modern applications now favor SSO/OAuth-based identity providers, and 4D has gained more native protocol/networking capabilities since 2002"
+      "4D has since added native LDAP commands directly in the 4D language (LDAP LOGIN and related commands), removing the need to hand-write a compiled C plug-in as described in this note",
+      "Many modern applications now favor SSO/OAuth-based identity providers over direct LDAP bind authentication, though LDAP remains in wide enterprise use"
     ]
   }
 }

@@ -1,1 +1,1 @@
-Tech Note: Assigning a Menu Bar (TN 02-06, 4D v6.8, February 2002) — a demonstration of assigning and manipulating a menu bar in 4D, covering how 4D manages the menu bar at database startup within a single process.
+Assigning, combining, and programmatically modifying menu bars in a single-process 4D application

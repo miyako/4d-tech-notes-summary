@@ -7,20 +7,25 @@
   "product": "4D",
   "version": "2003",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Frank Chang",
   "page_url": "https://kb.4d.com/assetid=27687",
-  "download_url": "https://kb.4d.com/DLTN/TN/2003/Windows/TN_2003_11-15_(MAR)/03-14_Web_Services_and_4DIC.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2003/MacOS/TN_2003_11-15_(MAR)/03-14_Web_Services_and_4DIC.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "SOAP",
-    "4D Internet Commands",
-    "Amazon.com Web Services (early API)"
+    "4D 2003 Web Services client (SOAP, DOC mode)",
+    "Amazon.com SOAP SDK / WSDL discovery",
+    "BLOB-to-text and XML parsing of SOAP responses (Parse XML variable, Get First/Next XML element)",
+    "4D Internet Commands plug-in (TCP_Open, TCP_SendBLOB, TCP_ReceiveBLOB)",
+    "Manual HTTP GET request construction for image downloads",
+    "Blob to Picture conversion"
   ],
   "historical_commentary": {
-    "text": "Amazon's original SOAP-based web service used in this example has long been retired in favor of its modern REST/JSON Product Advertising API (with different authentication and request formats), making this note's specific integration code obsolete; it remains an interesting historical snapshot of how early e-commerce API integration looked in the SOAP era.",
+    "text": "This note is a well-explained, hands-on introduction to SOAP/DOC-mode Web Services in 4D 2003, including the less-common technique of manually building raw HTTP requests over a plain TCP socket to fetch binary images when a higher-level command isn't convenient. Amazon retired its original SOAP-based Web Services API long ago in favor of a REST/JSON Product Advertising API with a completely different request signing scheme, so the specific Amazon integration code no longer functions. The underlying 4D techniques are also outdated: 4D's SOAP-based Web Services client has been superseded by native HTTP client commands and REST/JSON support, and raw TCP_Open/TCP_SendBLOB HTTP construction is no longer necessary given 4D's built-in HTTP Client commands.",
     "status": "obsolete",
     "related_updates": [
-      "Amazon's original SOAP-based web service has been retired and replaced by the modern REST/JSON-based Amazon Product Advertising API, which uses entirely different authentication and request formats"
+      "Amazon's original SOAP Web Services API has been retired in favor of the REST/JSON-based Amazon Product Advertising API, which uses a different signed-request authentication scheme",
+      "4D introduced native HTTP Client commands (HTTP Request and related APIs) that make manual TCP_Open/TCP_SendBLOB HTTP construction unnecessary for tasks like downloading an image over HTTP",
+      "4D's SOAP-based Web Services client shown here has been succeeded by REST/JSON-oriented web service support in modern 4D"
     ]
   }
 }

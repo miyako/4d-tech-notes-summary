@@ -1,1 +1,1 @@
-Tech Note: Installation of 4D Server as a Service on Windows 2000 Server (TN 00-56, 4D Server v6.5, December 2000) — a step-by-step guide for registering 4D Server as a Windows 2000 Server service so it launches automatically at boot.
+Tech Note: Installation of 4D Server as a Service on Windows 2000 Server (TN 00-56, December 2000) — registering 4D Server to launch automatically as a Windows 2000 service and configuring it via the Services MMC console

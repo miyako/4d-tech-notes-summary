@@ -1,43 +1,42 @@
-# Tech Note 01-36: Creating a Generic Web Form Data Processing System
+# Tech Note: Creating a Generic Web Form Data Processing System
 
-**Author:** Not specified in source
-**Published:** August 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=16392
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-36_Generic_Web_Form_DPS.exe (dead link — see Historical Context)
+- **Asset ID:** 16392
+- **Tech Note #:** 01-36
+- **Published:** August 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Kent D. Wilbur, Manager of Information Systems, 4D, Inc.
+- **Page URL:** https://kb.4d.com/assetid=16392
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_36-40_(AUG)/01-36_Generic_Web_Form.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> This technical note is the first of a two-part series on creating a relatively generic data processing system for handling data entered on a Web Form. The approach uses two databases: One gathers the data via the web and e-mails the data to the second database for storage and analysis. This tech note describes the first database.
+Kent D. Wilbur (Manager of Information Systems, 4D, Inc.) builds the first half of a two-part generic web-form intake system: a set of hidden HTML control fields plus GET WEB FORM VARIABLES let one 4D backend validate, e-mail, and template-reply to any HTML form without hard-coding its field names, encoding submissions as machine-readable tagged text for a companion parsing database.
 
 ## Key Points
 
-Based on the available teaser text, this note is: part one of a two-database system for gathering web form data and emailing it to a second database for storage and analysis.
+- GET WEB FORM VARIABLES (new in 4D 6.7) returns parallel name/value text arrays for every submitted form field without requiring each one to be individually declared, forming the backbone of the system's genericity.
+- Hidden control fields on every HTML form -- tFormName, tReplyFormName, tErrorForm, tMandatoryFields (a '/'-delimited list), tMailTo, tMailSubject, tMailFields, and optionally tMailBody -- tell the shared WEB_HandleForm backend method how to validate, route, and mail that specific form's submission.
+- Routing goes through the 4DCGI mechanism (On Web Connection dispatching on a /4DCGI/WEB_HandleForm URL) rather than 4DACTION, which the note calls out as more secure since it only allows explicitly-programmed dispatch targets.
+- WEB_fCompleteForm checks every field named in tMandatoryFields against the submitted arrays (via Find in array), builds a human-readable "the following mandatory field(s) are missing" message using a GEN_sFriendlyName helper that expands CamelCase/underscore variable names into spaced, capitalized words, and returns pass/fail via a pointer parameter.
+- On success, MAIL_AddMailMessage queues a record in a zMailMessages table (sent asynchronously by a separate process to avoid delaying the browser response), with the payload built by MAIL_tFields2Text as [***Friendly Field Name***]\nValue blocks -- the exact tag format the companion GenericEval database (TN 01-49) later parses back out of the mailbox.
+- An optional tMailBody template mechanism (MAIL_tFields2Block) sends the form submitter a personalized reply by substituting <!--#1-->, <!--#2-->, etc. positional placeholders in a stored zHTMLBlocks template record with the submitted field values; a more advanced "AlmostGeneric" variant additionally declares fields in COMPILER_WEB to support default values, error-preserving redisplay, and chaining several forms together into a multi-page survey.
 
 ## Featured Technology
 
-- 4D built-in Web Server
-- Two-database architecture
-- Email-based data transfer
+- GET WEB FORM VARIABLES for undeclared/generic form field handling
+- 4DCGI (On Web Connection) form routing instead of 4DACTION
+- Hidden control fields: tFormName/tReplyFormName/tErrorForm/tMandatoryFields/tMailTo/tMailFields/tMailBody
+- MAIL_AddMailMessage / MAIL_tFields2Text machine-readable [***Tag***] email encoding
+- COMPILER_WEB variable declaration workaround for compiled-mode web forms
+- Template-based reply emails via MAIL_tFields2Block token substitution
 
-## Historical Context
+## Historical Commentary
 
-Published August 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Superseded
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+Kent Wilbur (4D, Inc.) designs a genuinely generic web-form intake system: a set of hidden HTML control fields (tMandatoryFields, tMailTo, tMailFields, tMailBody, etc.) plus GET WEB FORM VARIABLES let a single 4D backend validate, e-mail, and template-reply to any HTML form without hard-coding its field names, with the collected data encoded into machine-readable [***Tag***] emails for a companion parsing database (covered in TN 01-49, the GenericEval database, released two months later). This generic-intake-via-email-relay architecture was a clever way to sidestep direct database writes and firewall exposure in 2001, but it has been thoroughly superseded: modern 4D web development handles form submission and validation directly through REST/ORDA endpoints or server-side web forms, with structured JSON payloads and direct database writes replacing the mail-relay-and-tag-parsing round trip described here.
 
-**Status: Partially superseded**
-
-This note (part one of a two-part series) describes a generic system where one 4D database gathers data through a web form and emails it to a second database for storage and analysis. The architectural idea of separating a public-facing data-collection front end from a back-office storage/analysis system remains a valid pattern, but routing form submissions via email between two databases is a workaround that has been superseded by direct REST/ORDA API calls or database replication/sync mechanisms that didn't yet exist in 4D in 2001.
-
-**What has changed since:**
-
-- Direct REST/ORDA API calls between 4D databases or services have superseded email-based data hand-off as the standard mechanism
-- 4D's later Sync feature and ORDA-based data synchronization provide more robust alternatives for moving data between systems
+References to newer/updated information:
+- Modern 4D web applications submit form data directly to REST/ORDA endpoints rather than relaying it through e-mail as machine-readable tagged text
+- GET WEB FORM VARIABLES-based generic form handling has been largely superseded by structured JSON request bodies parsed by 4D's native JSON commands

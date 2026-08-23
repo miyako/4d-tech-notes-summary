@@ -1,46 +1,41 @@
-# Tech Note 01-37: Linking Multiple Addresses to Multiple Tables
+# Tech Note: Linking Multiple Addresses to Multiple Tables
 
-**Author:** Not specified in source
-**Published:** August 31, 2001 | **Product/Version:** 4D v6.7 | **Platform:** Mac & Win
-**Page:** https://kb.4d.com/assetid=16394
-**Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_36-40_(AUG)/01-37_Multiple_Addresses.exe (dead link — see Historical Context)
+- **Asset ID:** 16394
+- **Tech Note #:** 01-37
+- **Published:** August 31, 2001
+- **Product / Version:** 4D 6.7
+- **Platform:** Mac & Win
+- **Author:** Steve Hussey, CEO, Alto Stratus LLC
+- **Page URL:** https://kb.4d.com/assetid=16394
+- **Download:** https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_36-40_(AUG)/01-37_Multiple_Addresses.hqx
 
 ## Overview
 
-Only a short teaser paragraph for this Tech Note survives in this archive; the full PDF and its companion example database could not be
-recovered. The complete text of the surviving teaser is reproduced below:
-
-> Early contact databases usually had a fixed number of fields defined to store a single address. Later, many databases were modified to store perhaps two addresses per contact record (often a billing and shipping address).
-
-Today it is common for a contact to perhaps have more than one address, for example it is common in the USA to have both a mailing address and a physical address. Some individuals may also have addresses that are valid at different times (home, college etc.).
-
-This technical note explains a simple method for attaching multiple addresses to a contact record. It can also be used to allow the address table to be linked to multiple contact type tables in a database. The code and form objects can easily be copied and pasted to new forms and form methods as they are defined.
+Steve Hussey (CEO, Alto Stratus LLC) shows how to attach multiple addresses to records across several unrelated tables (Contact, Doctor, etc.) using a single shared Address table keyed by table number and parent-record ID, with no 4D relations defined at all, so one address subform and one set of methods serve every parent table.
 
 ## Key Points
 
-Based on the available teaser text, this note is: a technique for linking multiple addresses to one or more contact-type tables.
+- Contact, Doctor, and any future parent tables each have their own indexed, unique ID field; the shared Address table carries Table_ID (the parent table's numeric table number) and Contact_ID (the parent record's ID value) as its two key fields, with no formal 4D relation defined between any of the tables.
+- ADRS_Ld(pointerToTable;ContactID) uses Table($1) to derive the calling form's table number, then QUERYs [Address] on Table_ID and Contact_ID together and sorts the resulting selection by Date_From, so the same method works unmodified from any parent table's form.
+- The Contact/Doctor detail form's On Load event assigns a fresh Sequence number([...]) ID to new records and calls ADRS_Ld to populate the address subform each time a record is loaded.
+- ADRS_Add creates a new [Address] record, stamps it with Table($1) and the parent's ID, saves it, then reloads the address selection via ADRS_Ld -- necessary because, without a defined relation, there's no automatic "Add Subrecord" behavior to rely on.
+- Despite no relation existing, the address subform's Delete button can still use the automatic Delete Subrecord action, because 4D tracks the currently selected record within the subform's active selection regardless of how that selection was built.
+- The same Table_ID/foreign-key pairing technique is explicitly suggested for other repeating child data types shared across multiple parent tables, such as email addresses, phone/fax numbers, or to-do/action items.
 
 ## Featured Technology
 
-- Classic one-to-many table relations
-- Reusable form objects/methods
+- Table($1) to derive a table number from a form's parent table pointer
+- Relationless polymorphic linking via Table_ID + Contact_ID key fields on an Address table
+- Address subform reused across Contact and Doctor detail forms
+- Delete Subrecord automatic action without a defined relation
+- Sequence number() for unique per-record IDs across multiple tables
 
-## Historical Context
+## Historical Commentary
 
-Published August 2001 for 4D v6.7, this note dates from the "4D 2001"/"4D 2000-2001" product era (the v6.5/v6.7/v6.8 lineage),
-running on classic Mac OS 9 (with Mac OS X newly released in 2001) and Windows 98/2000/NT. This was years before Project Mode
-(introduced 4D v17, 2018), ORDA (2018+), and 4D's own SQL engine (introduced 4D v11 SQL, ~2007) existed — development happened entirely
-in binary Design Mode (.4DB/.4DC structure files) using the classic procedural/set-based 4D language.
+**Status:** Still Relevant
 
-The full archive for this note could not be recovered: the linked download was an old Windows self-extracting .exe installer that could
-not be extracted in this environment (error_reason: `NO_PDF_IN_ARCHIVE_TEASER_ONLY`), so this page is necessarily based only on the short
-teaser paragraph published on the Tech Note's web page, not the full PDF or its companion example database.
+Steve Hussey (Alto Stratus LLC) demonstrates linking one Address table to multiple unrelated parent tables (Contact, Doctor, etc.) without defining any 4D relations at all -- instead storing a Table_ID (from Table($1)) and a Contact_ID key on each address record and querying by both, which lets the same address subform and add/delete logic be reused across every contact-type table in the database. This relation-free, polymorphic-association pattern for one-to-many-across-many-tables data is still a legitimate and commonly needed design in 4D today; classic-language projects still use exactly this key-pair technique, though ORDA-based projects would more likely model it with related dataclasses/entity selections or a dedicated many-to-many relation defined in the data model instead of manual QUERY-based joins.
 
-**Status: Partially superseded**
-
-This note presents a simple relational pattern for attaching multiple addresses (and multiple address types, e.g. home/billing/shipping) to a contact record, and for reusing an Address table across several contact-type tables, via copy-and-paste form objects/methods. The general one-to-many relational modeling concept is still exactly how you would design this in 4D today, but the copy-and-paste, hand-wired reuse technique of the classic era has been superseded by ORDA's entity-based relations and 4D's later component/class mechanisms for sharing reusable UI logic.
-
-**What has changed since:**
-
-- ORDA's entity relations (introduced 4D v17+) provide a more structured way to model one-to-many address relationships
-- 4D classes/components now offer better code-reuse mechanisms than copy-pasting form objects and methods between forms
+References to newer/updated information:
+- The Table_ID/Contact_ID polymorphic key-pair technique shown here is still used as-is in classic-language 4D projects that need one child table shared across several parent tables
+- ORDA-based projects can alternatively model this kind of shared relationship through the data model's relation attributes rather than manual QUERY-based table/ID matching

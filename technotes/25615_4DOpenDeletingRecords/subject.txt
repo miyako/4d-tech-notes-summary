@@ -1,1 +1,1 @@
-Tech Note: 4D Open: Deleting records (TN 02-59, 4D Open v6.8, December 2002) — a short guide to deleting records remotely on a 4D Server via the 4D Open plug-in.
+Deleting a remote 4D Server record from a client application via the 4D Open plug-in's bind-and-lock API

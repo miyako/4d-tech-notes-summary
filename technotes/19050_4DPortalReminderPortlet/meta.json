@@ -4,24 +4,27 @@
   "technote_number": "01-53",
   "year": 2001,
   "published_date": "November 30, 2001",
-  "product": "4D Portal",
+  "product": "4D",
   "version": "6.7.1",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Cha Yang, 4D, Inc. Technical Support Engineer",
   "page_url": "https://kb.4d.com/assetid=19050",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_50-53_(NOV)/01-53_Reminder_Portlet.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_51-56_(NOV)/01-53_4D_Portal_Reminder_Portlet.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Portal",
-    "Reminder Portlet",
-    "Scheduled notification logic"
+    "4D Portal Reminder Portlet",
+    "Background process with DELAY PROCESS polling loop",
+    "Monthly/Weekly/Daily/Once reminder date calculation",
+    "Longint delay-seconds formula for Ten/Five/None reminder tiers",
+    "New process / Shell_DoProcess process launching pattern",
+    "Interprocess variables for cross-process process ID tracking"
   ],
   "historical_commentary": {
-    "text": "This note details the scheduling logic behind 4D Portal's Reminder Portlet, covering monthly/weekly/daily/once reminder types and configurable lead-time alerts. Since 4D Portal itself was discontinued years ago, the specific portlet and its configuration options no longer exist in any supported 4D product, making this note of historical interest only, though the general reminder-scheduling logic pattern (recurring vs one-time triggers with lead-time offsets) remains a conceptually familiar problem in modern notification systems.",
+    "text": "Cha Yang, a 4D, Inc. Technical Support Engineer, dissects the 4D Portal Reminder Portlet's internals: a background process that wakes every minute via a DELAY PROCESS loop to scan a Reminder table, computing due dates differently for Monthly/Weekly/Daily/Once reminder types and using a Longint seconds-until-due formula to decide whether to fire a Ten-minute, Five-minute, or exact-time reminder, then reassigning the next due date afterward. 4D Portal itself has long been discontinued as a product, making the specific portlet obsolete, but the general background-process pattern (New process plus a DELAY PROCESS polling loop to periodically scan a table for due items) remains a standard, still-valid 4D technique, and would today likely be built with 4D's more modern scheduling/timer capabilities rather than manually replicated from this specific example.",
     "status": "obsolete",
     "related_updates": [
-      "4D Portal was discontinued as a product line",
-      "Modern reminder/notification systems in 4D applications are typically built with the classic language's date/time commands or external push-notification services rather than a bundled portal component"
+      "4D Portal (the product this portlet was built for) has been discontinued, making this specific reminder implementation historical rather than directly reusable",
+      "The general background-process-with-DELAY-PROCESS polling pattern shown here remains valid in 4D today, though modern applications may prefer more structured scheduling/timer mechanisms"
     ]
   }
 }

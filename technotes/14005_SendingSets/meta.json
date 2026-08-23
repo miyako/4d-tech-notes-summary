@@ -7,20 +7,24 @@
   "product": "4D Client",
   "version": "6.7",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Jean-Yves Fock-Hoon",
   "page_url": "https://kb.4d.com/assetid=14005",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/Windows/TN_2001_21-25_(MAY)/01-22_Sending_Sets.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2001/MacOS/TN_2001_21-25_(MAY)/01-22_Sending_Sets.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Client/Server",
-    "Sets",
-    "SEND SET / inter-client communication"
+    "CREATE SET FROM ARRAY command (4D 6.7.x)",
+    "BOOLEAN ARRAY FROM SET command (4D 6.7.x)",
+    "VARIABLE TO BLOB / BLOB TO VARIABLE serialization",
+    "EXECUTE ON CLIENT for broadcasting to registered 4D Clients",
+    "GET REGISTERED CLIENTS / REGISTER CLIENT",
+    "Interprocess Sets and CALL PROCESS-based UI refresh"
   ],
   "historical_commentary": {
-    "text": "This note documents a v6.7.x-era improvement in 4D Client/Server for propagating a Set (a lightweight record-selection structure) from one connected client to others, avoiding the older pattern of writing a temporary document that other clients then load. Sets remain a core part of 4D's classic language today and this general mechanism is still technically usable, but 4D's client/server and multi-user synchronization story has since expanded considerably (including newer client/server messaging and, more recently, ORDA-based REST access from multiple front-ends), so the specific inter-client Set-sending pattern here is a superseded approach for most modern multi-client designs.",
+    "text": "Jean-Yves Fock-Hoon (4D QA Manager) traces the evolution of sending a Set from one 4D Client to others across 4D 6.0.x, 6.5.x, and 6.7.x, showing how the new 6.7.x commands CREATE SET FROM ARRAY and BOOLEAN ARRAY FROM SET let a Set be converted directly to/from a Boolean array and shipped as a Blob via EXECUTE ON CLIENT, eliminating the older pattern of saving a Set to a temporary document that other clients had to reload. Sets and the classic client/server EXECUTE ON CLIENT/REGISTER CLIENT commands remain part of 4D today and this general document-free technique is still valid and usable, but most modern multi-client 4D architectures increasingly rely on ORDA/REST-based data access and newer synchronization patterns rather than manually broadcasting serialized Boolean arrays between classic 4D Clients, so the specific workaround is now a superseded (though still functional) technique for most new development.",
     "status": "partially_superseded",
     "related_updates": [
       "4D's classic client/server architecture has been supplemented by ORDA and REST-based access, offering different patterns for sharing selections/state across clients",
+      "CREATE SET FROM ARRAY, BOOLEAN ARRAY FROM SET, and EXECUTE ON CLIENT remain part of the current 4D language, unchanged in core behavior since this note",
       "4D Server has gained additional built-in interprocess/network communication commands since 2001 that reduce the need for this specific workaround"
     ]
   }

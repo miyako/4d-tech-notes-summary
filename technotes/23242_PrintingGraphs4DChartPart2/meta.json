@@ -3,24 +3,28 @@
   "title": "Tech Note: Printing Graphs from 4D Chart, Part II",
   "technote_number": "02-25",
   "year": 2002,
-  "published_date": "June 14, 2002",
+  "published_date": "June 30, 2002",
   "product": "4D Chart",
   "version": "6.8",
   "platform": "Mac & Win",
-  "author": null,
+  "author": "Tim Tonooka",
   "page_url": "https://kb.4d.com/assetid=23242",
-  "download_url": "https://kb.4d.com/ftp://ftp.4D.com/ACI_TECHNICAL_NOTES/2002/Windows/TN_2002_25-29_(JUN)/02-25_Printing_Graphs.exe",
-  "content_source": "teaser_only",
+  "download_url": "https://kb.4d.com/DLTN/TN/2002/MacOS/TN_2002_25-27_(JUN)/02-25_Printing_Graphs_Part_II.hqx",
+  "content_source": "full_pdf",
   "featured_technology": [
-    "4D Chart",
-    "Graph printing",
-    "Print sizing control"
+    "CT AREA TO AREA / CT Area to picture (copying a 4D Chart document for print resizing)",
+    "CT New offscreen area / CT DELETE OFFSCREEN AREA",
+    "CT SIZE / CT MOVE / CT GET BOUNDARY (resizing graphs or pictures to fit a page)",
+    "CT ON MENU custom Print interception (CHT_MenuHandler / CHT_Print)",
+    "PRINT FORM, PRINT RECORD, PRINT SELECTION with 4D Chart documents",
+    "CT Place picture (pasting a picture back into an offscreen chart area)"
   ],
   "historical_commentary": {
-    "text": "4D Chart as described here is a legacy component largely superseded by newer charting approaches in current 4D (including web-based charting embedded in web areas), making the specific print-size control techniques in this note obsolete for new development.",
+    "text": "Part II of Tim Tonooka's two-part series delivers the concrete code for the trickiest 4D Chart printing problem: making a graph print at the right size on a page instead of being split across pages or wasting space. It shows three concrete resizing strategies (resize the actual graph object in an offscreen area, convert to a picture and stretch it, or convert to a proportionally-resized picture) plus how to drive printing from PRINT FORM/PRINT RECORD/PRINT SELECTION and how to intercept 4D Chart's own Print menu command via CT ON MENU. This is detailed, still largely accurate 4D Chart mechanics for anyone maintaining a legacy 4D Chart-based reporting system, but 4D Chart itself has been superseded by more modern charting/reporting technology in current 4D, so the specific CT_ command techniques here are now mostly of value only for legacy-database maintenance rather than new development.",
     "status": "obsolete",
     "related_updates": [
-      "4D Chart's classic API has been superseded by newer charting options in current 4D, including web-based JS charting libraries embedded via web areas"
+      "4D Chart (and its CT_ command family used throughout this note) has been superseded by modern chart/graphics components in current 4D versions",
+      "Current 4D reporting more commonly relies on 4D Write Pro or newer chart area technology rather than resizing offscreen 4D Chart pictures for print"
     ]
   }
 }
